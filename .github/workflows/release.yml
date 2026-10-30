@@ -1,0 +1,65 @@
+name: Release
+
+# Push a tag like v1.2.3 to build, check, and publish that version. See docs/STORE.md.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Check the tag matches the extension version
+        run: |
+          version=$(node -p 'require("./src/manifest.json").version')
+          package=$(node -p 'require("./package.json").version')
+          if [ "$GITHUB_REF_NAME" != "v$version" ] || [ "$package" != "$version" ]; then
+            echo "Tag $GITHUB_REF_NAME, manifest $version and package.json $package must match."
+            exit 1
+          fi
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+      - run: pnpm verify
+      - run: pnpm check:memory
+      - run: pnpm check:site
+      - run: pnpm audit:release
+      - name: Package
+        run: |
+          # Fixed timestamps and file order, so the same commit always gives the same zip.
+          find dist -exec touch -d "@$(git log -1 --format=%ct)" {} +
+          (cd dist && find . -type f | LC_ALL=C sort | zip -X -q "../artifacts/firnkey-$VERSION.zip" -@)
+          (cd artifacts && sha256sum "firnkey-$VERSION.zip" sbom.cdx.json > SHA256SUMS)
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          notes="docs/releases/$GITHUB_REF_NAME.md"
+          if [ -f "$notes" ]; then set -- --notes-file "$notes"; else set -- --generate-notes; fi
+          gh release create "$GITHUB_REF_NAME" --title "Firnkey $VERSION" "$@" \
+            "artifacts/firnkey-$VERSION.zip" artifacts/sbom.cdx.json artifacts/SHA256SUMS
+      - name: Upload to the Chrome Web Store and submit for review
+        if: ${{ vars.CWS_ITEM_ID != '' }}
+        env:
+          CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+          ITEM: publishers/${{ vars.CWS_PUBLISHER_ID }}/items/${{ vars.CWS_ITEM_ID }}
+        run: |
+          token=$(curl -fsS https://oauth2.googleapis.com/token \
+            -d grant_type=refresh_token -d "client_id=$CLIENT_ID" \
+            -d "client_secret=$CLIENT_SECRET" -d "refresh_token=$REFRESH_TOKEN" | jq -r .access_token)
+          echo "::add-mask::$token"
+          api=https://chromewebstore.googleapis.com
+          curl -fsS -X POST -H "Authorization: Bearer $token" -T "artifacts/firnkey-$VERSION.zip" \
+            "$api/upload/v2/$ITEM:upload" | tee upload.json
+          jq -e '(.uploadState // "") | test("FAIL") | not' upload.json > /dev/null
+          curl -fsS -X POST -H "Authorization: Bearer $token" "$api/v2/$ITEM:publish"

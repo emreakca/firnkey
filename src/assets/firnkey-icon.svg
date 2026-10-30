@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Firnkey: edelweiß with a keyhole</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a5d88"/>
+      <stop offset="1" stop-color="#0d2238"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="128" height="128" rx="28"/></clipPath>
+    <path id="petal" d="M64 64C50 52 52 26 64 11C76 26 78 52 64 64Z"/>
+    <path id="bract" d="M64 64C56 55 57 37 64 25C71 37 72 55 64 64Z"/>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="128" height="128" fill="url(#sky)"/>
+    <!-- Firn: a snowy ridge behind the flower -->
+    <path d="M0 104L26 84L40 94L66 70L92 92L108 82L128 96V128H0Z" fill="#fff" opacity=".09"/>
+  </g>
+  <g transform="translate(64 64) scale(.9) translate(-64 -64)">
+  <g fill="#b9cad9">
+    <use href="#bract" transform="rotate(30 64 64)"/>
+    <use href="#bract" transform="rotate(90 64 64)"/>
+    <use href="#bract" transform="rotate(150 64 64)"/>
+    <use href="#bract" transform="rotate(210 64 64)"/>
+    <use href="#bract" transform="rotate(270 64 64)"/>
+    <use href="#bract" transform="rotate(330 64 64)"/>
+  </g>
+  <g fill="#f7fafc">
+    <use href="#petal"/>
+    <use href="#petal" transform="rotate(60 64 64)"/>
+    <use href="#petal" transform="rotate(120 64 64)"/>
+    <use href="#petal" transform="rotate(180 64 64)"/>
+    <use href="#petal" transform="rotate(240 64 64)"/>
+    <use href="#petal" transform="rotate(300 64 64)"/>
+  </g>
+  <circle cx="64" cy="64" r="15.5" fill="#f2c654"/>
+  <circle cx="64" cy="60" r="5.4" fill="#0d2238"/>
+  <path d="M61 62.5L59.4 72.5H68.6L67 62.5Z" fill="#0d2238"/>
+  </g>
+</svg>
