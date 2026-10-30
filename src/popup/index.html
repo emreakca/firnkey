@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="__MSG_languageCode__">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firnkey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="app-header">
+        <div class="header-copy">
+          <button id="header-back" class="header-back" type="button" aria-label="__MSG_back__" title="__MSG_back__" hidden><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+          <span id="brand-mark" class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="16" height="18" rx="3"/><path d="M3 7h3M3 17h3"/><circle cx="13" cy="12" r="5"/><circle cx="13" cy="12" r="1.7"/><path d="M13 7v1.5M13 15.5V17M8 12h1.5M16.5 12H18"/></svg></span>
+          <div class="brand">
+            <h1 id="app-title" tabindex="-1">Firnkey</h1>
+            <p id="subtitle">__MSG_lightweightVaultwardenClient__</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="add-login" class="new-button" type="button" hidden><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg>__MSG_new__</button>
+          <button id="account-avatar" class="avatar-button" type="button" title="__MSG_openSettings__" aria-label="__MSG_openSettings__" hidden>LV</button>
+          <span id="state-pill" class="pill neutral">__MSG_starting__</span>
+        </div>
+      </header>
+
+      <section id="setup-view" class="view auth-view" hidden>
+        <div>
+          <h2>__MSG_connectYourServer__</h2>
+          <p class="detail">__MSG_serverAccessHint__</p>
+        </div>
+        <form id="server-form">
+          <label for="server-url">__MSG_vaultwardenUrl__</label>
+          <input id="server-url" type="url" inputmode="url" autocomplete="url" placeholder="https://vault.example.com" required />
+          <button id="server-submit" type="submit">__MSG_verifyServer__</button>
+        </form>
+      </section>
+
+      <section id="login-view" class="view auth-view" hidden>
+        <div class="section-heading">
+          <div>
+            <h2>__MSG_signIn__</h2>
+            <p id="server-detail" class="detail"></p>
+          </div>
+          <button id="change-server" class="link-button" type="button">__MSG_change__</button>
+        </div>
+        <form id="login-form">
+          <label for="email">__MSG_email__</label>
+          <input id="email" type="email" autocomplete="username" required />
+          <label for="master-password">__MSG_masterPassword__</label>
+          <input id="master-password" type="password" autocomplete="current-password" required />
+
+          <fieldset id="two-factor-fields" hidden>
+            <legend>__MSG_twoStepLogin__</legend>
+            <label for="two-factor-provider">__MSG_method__</label>
+            <select id="two-factor-provider"></select>
+            <button id="send-email-code" class="secondary" type="button" hidden>__MSG_sendEmailCode__</button>
+            <label id="two-factor-token-label" for="two-factor-token">__MSG_verificationCode__</label>
+            <input id="two-factor-token" inputmode="text" autocomplete="one-time-code" />
+            <label class="check-label"><input id="two-factor-remember" type="checkbox" /> __MSG_rememberThisDevice__</label>
+          </fieldset>
+
+          <fieldset id="device-fields" hidden>
+            <legend>__MSG_newDeviceVerification__</legend>
+            <p class="detail">__MSG_deviceVerificationHint__</p>
+            <label for="device-otp">__MSG_deviceVerificationCode__</label>
+            <input id="device-otp" autocomplete="one-time-code" />
+          </fieldset>
+
+          <button id="login-submit" type="submit">__MSG_signInAndSync__</button>
+        </form>
+        <div class="account-list" hidden></div>
+      </section>
+
+      <section id="locked-view" class="view auth-view" hidden>
+        <div class="lock-hero" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <div class="centered">
+          <h2>__MSG_vaultLocked__</h2>
+          <p id="locked-account" class="detail"></p>
+        </div>
+        <form id="unlock-form">
+          <label for="unlock-password">__MSG_masterPassword__</label>
+          <input id="unlock-password" type="password" autocomplete="current-password" required />
+          <button id="unlock-submit" type="submit">__MSG_unlock__</button>
+        </form>
+        <button id="biometric-unlock" class="secondary" type="button" hidden>__MSG_unlockWithBiometrics__</button>
+        <button id="locked-logout" class="secondary" type="button">__MSG_logOut__</button>
+        <div class="account-list" hidden></div>
+      </section>
+
+      <section id="vault-view" class="view vault-view" hidden>
+        <div class="vault-toolbar">
+          <div class="search-box">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="search" type="search" autocomplete="off" placeholder="__MSG_searchVault__" aria-label="__MSG_searchVault__" />
+          </div>
+          <select id="folder-filter" aria-label="__MSG_showFolder__"><option value="">__MSG_allItems__</option></select>
+        </div>
+        <p id="vault-context" class="detail vault-context"></p>
+        <div id="item-list" class="item-list" role="list"></div>
+        <p id="empty-state" class="empty" hidden>__MSG_noMatchingItems__</p>
+      </section>
+
+      <section id="authenticator-view" class="view utility-view" hidden>
+        <div class="section-heading">
+          <p id="authenticator-context" class="detail"></p>
+          <button id="authenticator-all" class="link-button" type="button" hidden>__MSG_viewAll__</button>
+        </div>
+        <div id="authenticator-list" class="code-list"></div>
+        <p id="authenticator-empty" class="empty" hidden>__MSG_authenticatorEmpty__</p>
+        <button id="authenticator-transfer" class="secondary" type="button">__MSG_importOrExportKeys__</button>
+      </section>
+
+      <section id="authenticator-editor-view" class="view detail-view" hidden>
+        <form id="authenticator-form">
+          <button id="authenticator-scan" class="secondary" type="button">__MSG_scanQrOnPage__</button>
+          <div id="authenticator-target-field" class="field-group">
+            <label for="authenticator-target">__MSG_saveTo__</label>
+            <select id="authenticator-target"><option value="">__MSG_newLogin__</option></select>
+          </div>
+          <label for="authenticator-secret">__MSG_key__</label>
+          <input id="authenticator-secret" maxlength="2048" autocomplete="off" spellcheck="false" placeholder="__MSG_keyOrTotpLink__" />
+          <label for="authenticator-name">__MSG_name__</label>
+          <input id="authenticator-name" maxlength="1000" autocomplete="off" placeholder="__MSG_defaultsToTheIssuer__" />
+          <label for="authenticator-nickname">__MSG_nicknameOptional__</label>
+          <input id="authenticator-nickname" maxlength="200" autocomplete="off" placeholder="__MSG_shownInsteadOfThe__" />
+          <label for="authenticator-account">__MSG_account__</label>
+          <input id="authenticator-account" maxlength="1000" autocomplete="off" placeholder="you@example.com" />
+          <label for="authenticator-website">__MSG_website__</label>
+          <input id="authenticator-website" type="url" maxlength="8192" placeholder="https://example.com" />
+          <label for="authenticator-issuer">__MSG_issuer__</label>
+          <input id="authenticator-issuer" maxlength="200" autocomplete="off" placeholder="Example Inc." />
+          <details class="advanced">
+            <summary>__MSG_advanced__</summary>
+            <div class="option-grid three">
+              <label>__MSG_algorithm__<select id="authenticator-algorithm"><option value="SHA1">SHA-1</option><option value="SHA256">SHA-256</option><option value="SHA512">SHA-512</option></select></label>
+              <label>__MSG_digits__<select id="authenticator-digits"><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></label>
+              <label>__MSG_periodSeconds__<input id="authenticator-period" type="number" min="5" max="300" step="1" value="30" required /></label>
+            </div>
+            <p class="detail">__MSG_authenticatorDefaultsHint__</p>
+          </details>
+          <button id="authenticator-save" type="submit">__MSG_save__</button>
+        </form>
+      </section>
+
+      <section id="authenticator-transfer-view" class="view detail-view" hidden>
+        <div class="settings-card">
+          <h3>__MSG_import__</h3>
+          <p class="detail">__MSG_keysImportHint__</p>
+          <textarea id="import-text" rows="5" spellcheck="false" autocomplete="off" aria-label="__MSG_keysToImport__" placeholder="otpauth://totp/Example:you@example.com?secret=…"></textarea>
+          <div class="settings-actions">
+            <label class="file-button">__MSG_chooseFile__<input id="import-file" type="file" accept=".txt,text/plain" /></label>
+            <button id="import-check" class="secondary" type="button">__MSG_checkList__</button>
+          </div>
+          <div id="import-rows" class="import-rows" role="list"></div>
+          <button id="import-confirm" type="button" hidden>__MSG_import__</button>
+        </div>
+        <form id="export-form" class="settings-card">
+          <h3>__MSG_export__</h3>
+          <p class="detail">__MSG_keysExportHint__</p>
+          <label for="export-password">__MSG_masterPassword__</label>
+          <input id="export-password" type="password" autocomplete="current-password" required />
+          <button id="export-submit" type="submit">__MSG_exportKeys__</button>
+        </form>
+      </section>
+
+      <section id="send-view" class="view utility-view" hidden>
+        <p id="send-context" class="detail">__MSG_sendIntro__</p>
+        <div id="send-list" class="item-group" role="list"></div>
+        <p id="send-empty" class="empty" hidden>__MSG_sendEmpty__</p>
+      </section>
+
+      <section id="send-editor-view" class="view detail-view" hidden>
+        <form id="send-form">
+          <div class="segmented" role="radiogroup" aria-label="__MSG_whatToSend__">
+            <label><input type="radio" name="send-type" value="0" checked />__MSG_text__</label>
+            <label><input type="radio" name="send-type" value="1" />__MSG_file__</label>
+          </div>
+          <label for="send-name">__MSG_name__</label>
+          <input id="send-name" maxlength="1000" autocomplete="off" required />
+          <div id="send-text-fields" class="field-group">
+            <label for="send-text">__MSG_text__</label>
+            <textarea id="send-text" maxlength="1000" rows="4"></textarea>
+            <label class="check-label"><input id="send-hidden" type="checkbox" /> __MSG_sendHideText__</label>
+          </div>
+          <div id="send-file-fields" class="field-group" hidden>
+            <label class="file-button">__MSG_chooseFile__<input id="send-file" type="file" /></label>
+            <p id="send-file-name" class="detail truncate">__MSG_noFileChosenSendLimit__</p>
+          </div>
+          <label for="send-deletion">__MSG_deleteAfter__</label>
+          <select id="send-deletion">
+            <option value="1">__MSG_days1__</option>
+            <option value="2">__MSG_days2__</option>
+            <option value="3">__MSG_days3__</option>
+            <option value="7" selected>__MSG_days7__</option>
+            <option value="14">__MSG_days14__</option>
+            <option value="30">__MSG_days30__</option>
+          </select>
+          <details class="advanced">
+            <summary>__MSG_options__</summary>
+            <label for="send-password">__MSG_passwordOptional__</label>
+            <input id="send-password" type="password" maxlength="1024" autocomplete="new-password" />
+            <label for="send-max-access">__MSG_maximumViewsOptional__</label>
+            <input id="send-max-access" type="number" min="1" max="1000000" step="1" />
+          </details>
+          <button id="send-submit" type="submit">__MSG_createAndCopyLink__</button>
+        </form>
+      </section>
+
+      <section id="generator-view" class="view utility-view" hidden>
+        <div class="page-intro">
+          <h2 id="generator-heading">__MSG_passwordGenerator__</h2>
+          <p class="detail">__MSG_generatorHint__</p>
+        </div>
+        <div class="segmented" role="radiogroup" aria-label="__MSG_whatToGenerate__">
+          <label><input type="radio" name="generator-type" value="password" checked />__MSG_password__</label>
+          <label><input type="radio" name="generator-type" value="passphrase" />__MSG_passphrase__</label>
+          <label><input type="radio" name="generator-type" value="username" />__MSG_username__</label>
+        </div>
+        <div class="generator-output-row">
+          <input id="generator-output" class="generator-output" readonly aria-label="__MSG_generatedValue__" />
+          <button id="generator-copy" class="square-button" type="button" title="__MSG_copy__" aria-label="__MSG_copyGeneratedValue__"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg></button>
+        </div>
+        <div id="password-options" class="settings-card">
+          <div class="range-heading">
+            <label for="generator-length">__MSG_length__</label>
+            <output id="generator-length-value" for="generator-length">22</output>
+          </div>
+          <input id="generator-length" type="range" min="8" max="64" value="22" />
+          <div class="option-grid">
+            <label class="check-label"><input id="generator-uppercase" type="checkbox" checked /> __MSG_uppercase__</label>
+            <label class="check-label"><input id="generator-lowercase" type="checkbox" checked /> __MSG_lowercase__</label>
+            <label class="check-label"><input id="generator-numbers" type="checkbox" checked /> __MSG_numbers__</label>
+            <label class="check-label"><input id="generator-symbols" type="checkbox" checked /> __MSG_symbols__</label>
+          </div>
+        </div>
+        <div id="passphrase-options" class="settings-card" hidden>
+          <div class="range-heading">
+            <label for="generator-words">__MSG_words__</label>
+            <output id="generator-words-value" for="generator-words">6</output>
+          </div>
+          <input id="generator-words" type="range" min="3" max="20" value="6" />
+          <label for="generator-separator">__MSG_wordSeparator__</label>
+          <input id="generator-separator" maxlength="4" autocomplete="off" value="-" />
+          <div class="option-grid">
+            <label class="check-label"><input id="generator-capitalize" type="checkbox" /> __MSG_capitalize__</label>
+            <label class="check-label"><input id="generator-include-number" type="checkbox" /> __MSG_includeNumber__</label>
+          </div>
+        </div>
+        <div id="username-options" class="settings-card" hidden>
+          <label for="username-kind">__MSG_type__</label>
+          <select id="username-kind">
+            <option value="word">__MSG_randomWord__</option>
+            <option value="plus">__MSG_plusAddressedEmail__</option>
+            <option value="catchall">__MSG_catchAllEmail__</option>
+          </select>
+          <div id="username-word-options" class="option-grid">
+            <label class="check-label"><input id="username-capitalize" type="checkbox" /> __MSG_capitalize__</label>
+            <label class="check-label"><input id="username-include-number" type="checkbox" /> __MSG_includeNumber__</label>
+          </div>
+          <label id="username-email-field">__MSG_yourEmail__<input id="username-email" type="email" maxlength="320" autocomplete="email" placeholder="you@example.com" /></label>
+          <label id="username-domain-field" hidden>__MSG_yourCatchAllDomain__<input id="username-domain" maxlength="253" autocomplete="off" placeholder="example.com" /></label>
+        </div>
+        <button id="generator-refresh" type="button">__MSG_generateAnother__</button>
+        <button id="generator-use" class="secondary" type="button">__MSG_useInNewLogin__</button>
+      </section>
+
+      <section id="settings-view" class="view utility-view" hidden>
+        <nav id="settings-menu" class="item-group" aria-label="__MSG_settings__">
+          <button class="settings-link" type="button" data-group="security"><span class="item-icon" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span><span class="item-main"><span class="item-name">__MSG_security__</span><span class="item-meta">__MSG_securityGroupHint__</span></span><span class="chevron" aria-hidden="true">›</span></button>
+          <button class="settings-link" type="button" data-group="autofill"><span class="item-icon" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h1a3 3 0 0 1 3 3 3 3 0 0 1 3-3h1"/><path d="M13 20h-1a3 3 0 0 1-3-3 3 3 0 0 1-3 3H5"/><path d="M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1"/><path d="M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7"/><path d="M9 7v10"/></svg></span><span class="item-main"><span class="item-name">__MSG_autofillSaving__</span><span class="item-meta">__MSG_autofillGroupHint__</span></span><span class="chevron" aria-hidden="true">›</span></button>
+          <button class="settings-link" type="button" data-group="vault"><span class="item-icon" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg></span><span class="item-main"><span class="item-name">__MSG_vault__</span><span class="item-meta">__MSG_vaultGroupHint__</span></span><span class="chevron" aria-hidden="true">›</span></button>
+          <button class="settings-link" type="button" data-group="transfer"><span class="item-icon" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/></svg></span><span class="item-main"><span class="item-name">__MSG_importExport__</span><span class="item-meta">__MSG_transferGroupHint__</span></span><span class="chevron" aria-hidden="true">›</span></button>
+          <button class="settings-link" type="button" data-group="account"><span class="item-icon" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></span><span class="item-main"><span class="item-name">__MSG_accountSync__</span><span class="item-meta">__MSG_accountGroupHint__</span></span><span class="chevron" aria-hidden="true">›</span></button>
+        </nav>
+        <section id="settings-group-security" class="settings-group" data-title="__MSG_security__" aria-label="__MSG_security__" hidden>
+          <div class="settings-card">
+            <label for="vault-timeout">__MSG_lockVault__</label>
+            <select id="vault-timeout">
+              <option value="1">__MSG_after1Minute__</option>
+              <option value="5">__MSG_after5Minutes__</option>
+              <option value="15">__MSG_after15Minutes__</option>
+              <option value="30">__MSG_after30Minutes__</option>
+              <option value="60">__MSG_after1Hour__</option>
+              <option value="120">__MSG_after2Hours__</option>
+              <option value="240">__MSG_after4Hours__</option>
+              <option value="480">__MSG_after8Hours__</option>
+              <option value="1440">__MSG_after24Hours__</option>
+              <option value="-2">__MSG_whenTheComputerLocks__</option>
+              <option value="0">__MSG_whenBrowserCloses__</option>
+              <option value="-1">__MSG_keepUnlockedUntilLogout__</option>
+            </select>
+            <p class="detail">__MSG_untilLogoutHint__</p>
+            <label class="check-label"><input id="biometric-toggle" type="checkbox" /> __MSG_unlockWithBiometrics__</label>
+            <button id="lock" class="secondary" type="button">__MSG_lockNow__</button>
+          </div>
+          <div class="settings-card">
+            <label for="clipboard-clear">__MSG_clearCopiedSecrets__</label>
+            <select id="clipboard-clear">
+              <option value="10">__MSG_after10Seconds__</option>
+              <option value="20">__MSG_after20Seconds__</option>
+              <option value="30">__MSG_after30Seconds__</option>
+              <option value="60">__MSG_after1Minute__</option>
+              <option value="120">__MSG_after2Minutes__</option>
+              <option value="300">__MSG_after5Minutes__</option>
+              <option value="0">__MSG_never__</option>
+            </select>
+            <label class="check-label"><input id="clipboard-own-only" type="checkbox" /> __MSG_clipboardOwnOnly__</label>
+            <p class="detail">__MSG_clipboardOwnOnlyHint__</p>
+          </div>
+        </section>
+
+        <section id="settings-group-autofill" class="settings-group" data-title="__MSG_autofillSaving__" aria-label="__MSG_autofillSaving__" hidden>
+          <div class="settings-card">
+            <div class="setting-row">
+              <div>
+                <h3>__MSG_websiteIntegration__</h3>
+                <p class="detail">__MSG_websiteIntegrationHint__</p>
+              </div>
+              <button id="site-access" class="compact-button" type="button">__MSG_enable__</button>
+            </div>
+            <label class="check-label"><input id="fill-basic-auth" type="checkbox" /> __MSG_fillSignInDialogs__</label>
+            <p class="detail">__MSG_basicAuthHint__</p>
+          </div>
+          <div class="settings-card">
+            <h3>__MSG_savePrompts__</h3>
+            <label class="check-label"><input id="ask-add-login" type="checkbox" /> __MSG_askToAddLogin__</label>
+            <label class="check-label"><input id="ask-update-login" type="checkbox" /> __MSG_askToUpdateLogin__</label>
+            <label class="check-label"><input id="ask-passkeys" type="checkbox" /> __MSG_askPasskeys__</label>
+            <label>__MSG_dismissSavePromptsAfter__<input id="save-prompt-timeout" type="number" required min="1" max="300" step="1" value="10" /></label>
+          </div>
+          <div class="settings-card">
+            <h3>__MSG_excludedDomains__</h3>
+            <p class="detail">__MSG_excludedDomainsHint__</p>
+            <form id="excluded-domain-form" class="inline-field">
+              <input id="excluded-domain" inputmode="url" autocomplete="off" placeholder="example.com" aria-label="__MSG_domainToExclude__" />
+              <button class="small-button" type="submit">__MSG_add__</button>
+            </form>
+            <div id="excluded-domain-list" class="excluded-domain-list"></div>
+          </div>
+        </section>
+
+        <section id="settings-group-vault" class="settings-group" data-title="__MSG_vault__" aria-label="__MSG_vault__" hidden>
+          <div class="settings-card">
+            <h3>__MSG_folders__</h3>
+            <p class="detail">__MSG_foldersHint__</p>
+            <form id="folder-form" class="inline-field">
+              <input id="folder-name" maxlength="1000" autocomplete="off" placeholder="__MSG_newFolder__" aria-label="__MSG_newFolderName__" />
+              <button class="small-button" type="submit">__MSG_add__</button>
+            </form>
+            <div id="folder-list" class="excluded-domain-list"></div>
+          </div>
+          <div class="settings-card">
+            <label class="check-label"><input id="authenticator-tab" type="checkbox" /> __MSG_showTheAuthenticatorTab__</label>
+            <p class="detail">__MSG_authenticatorTabHint__</p>
+            <label class="check-label"><input id="authenticator-smart-filter" type="checkbox" /> __MSG_authenticatorSmartFilter__</label>
+          </div>
+        </section>
+
+        <section id="settings-group-transfer" class="settings-group" data-title="__MSG_importExport__" aria-label="__MSG_importExport__" hidden>
+          <form id="vault-import-form" class="settings-card">
+            <h3>__MSG_import__</h3>
+            <p class="detail">__MSG_vaultImportHint__</p>
+            <label class="file-button">__MSG_chooseFile__<input id="vault-import-file" type="file" accept=".json,.csv,application/json,text/csv" /></label>
+            <p id="vault-import-name" class="detail truncate">__MSG_noFileChosen__</p>
+            <div id="vault-import-password-field" class="field-group" hidden>
+              <label for="vault-import-password">__MSG_filePassword__</label>
+              <input id="vault-import-password" type="password" autocomplete="off" />
+            </div>
+            <p id="vault-import-summary" class="detail" hidden></p>
+            <button id="vault-import-submit" type="submit" disabled>__MSG_checkFile__</button>
+          </form>
+          <form id="vault-export-form" class="settings-card">
+            <h3>__MSG_export__</h3>
+            <label for="vault-export-format">__MSG_format__</label>
+            <select id="vault-export-format">
+              <option value="encrypted_json">__MSG_bitwardenJsonProtectedBy__</option>
+              <option value="json">__MSG_bitwardenJsonUnencrypted__</option>
+            </select>
+            <div id="vault-export-file-password-field" class="field-group">
+              <label for="vault-export-file-password">__MSG_filePassword__</label>
+              <input id="vault-export-file-password" type="password" minlength="8" autocomplete="new-password" required />
+              <p class="detail">__MSG_filePasswordHint__</p>
+            </div>
+            <p id="vault-export-warning" class="detail" hidden>__MSG_unencryptedExportWarning__</p>
+            <p class="detail">__MSG_exportScopeHint__</p>
+            <label for="vault-export-password">__MSG_masterPassword__</label>
+            <input id="vault-export-password" type="password" autocomplete="current-password" required />
+            <button id="vault-export-submit" type="submit">__MSG_exportVault__</button>
+          </form>
+        </section>
+
+        <section id="settings-group-account" class="settings-group" data-title="__MSG_accountSync__" aria-label="__MSG_accountSync__" hidden>
+          <div class="settings-card">
+            <p id="settings-account" class="setting-value"></p>
+            <p id="settings-server" class="detail truncate"></p>
+            <label class="check-label"><input id="live-sync" type="checkbox" /> __MSG_liveSync__</label>
+            <p class="detail">__MSG_liveSyncHint__</p>
+            <div class="settings-actions">
+              <button id="sync" class="secondary" type="button">__MSG_syncNow__</button>
+              <button id="logout" class="danger-button" type="button">__MSG_logOut__</button>
+            </div>
+            <div class="account-list" hidden></div>
+            <button id="add-account" class="secondary" type="button">__MSG_addAccount__</button>
+          </div>
+          <p id="app-version" class="detail centered"></p>
+        </section>
+      </section>
+
+      <section id="detail-view" class="view detail-view" hidden>
+        <div>
+          <h2 id="detail-name"></h2>
+          <p id="detail-uri" class="detail truncate"></p>
+          <p id="detail-owner" class="detail truncate" hidden></p>
+        </div>
+        <button id="username-row" class="secret-row" type="button" title="__MSG_copyUsername__">
+          <span><span class="label">__MSG_username__</span><span id="detail-username" class="secret truncate"></span></span>
+        </button>
+        <form id="reprompt-form" class="reprompt" hidden>
+          <p class="detail">__MSG_repromptHint__</p>
+          <label for="reprompt-password">__MSG_masterPassword__</label>
+          <input id="reprompt-password" type="password" autocomplete="current-password" required />
+          <button id="reprompt-submit" type="submit">__MSG_unlockProtectedFields__</button>
+        </form>
+        <div id="password-row" class="secret-row">
+          <button id="copy-password" class="copy-field" type="button" title="__MSG_copyPassword__"><span class="label">__MSG_password__</span><span id="detail-password" class="secret password-mask"></span></button>
+          <button id="reveal-password" class="small-button" type="button">__MSG_show__</button>
+        </div>
+        <button id="totp-row" class="secret-row totp-row" type="button" title="__MSG_copyVerificationCode__" hidden>
+          <span>
+            <span class="label">__MSG_verificationCode__</span>
+            <span id="detail-totp" class="secret totp-code"></span>
+          </span>
+          <span id="totp-timer" class="totp-timer"></span>
+        </button>
+        <div id="detail-fields" class="field-group"></div>
+        <div id="detail-attachments" class="field-group"></div>
+        <label id="add-attachment" class="file-button" hidden>__MSG_addAttachment__<input id="attachment-file" type="file" /></label>
+        <button id="fill-detail" type="button">__MSG_fillOnThisPage__</button>
+        <button id="edit-login" class="secondary" type="button">__MSG_edit__</button>
+        <button id="trash-item" class="danger-button" type="button">__MSG_moveToTrash__</button>
+      </section>
+
+      <section id="editor-view" class="view detail-view" hidden>
+        <h2 id="editor-title">__MSG_addLogin__</h2>
+        <form id="editor-form">
+          <label for="item-type">__MSG_type__</label>
+          <select id="item-type">
+            <option value="1">__MSG_login__</option>
+            <option value="3">__MSG_card__</option>
+            <option value="4">__MSG_identity__</option>
+            <option value="2">__MSG_secureNote__</option>
+          </select>
+          <label for="login-name">__MSG_name__</label>
+          <input id="login-name" maxlength="1000" required />
+          <label for="item-folder">__MSG_folder__</label>
+          <select id="item-folder"><option value="">__MSG_noFolder__</option></select>
+          <div id="collection-field" class="field-group" hidden>
+            <label for="item-collection">__MSG_owner__</label>
+            <select id="item-collection"><option value="">__MSG_myVault__</option></select>
+            <p id="collection-hint" class="detail" hidden>__MSG_moveToOrganizationHint__</p>
+          </div>
+          <div id="login-fields" class="field-group">
+            <label for="login-username">__MSG_username__</label>
+            <input id="login-username" maxlength="1000" autocomplete="off" />
+            <label for="login-password">__MSG_password__</label>
+            <div class="inline-field">
+              <input id="login-password" type="password" maxlength="10000" autocomplete="off" spellcheck="false" />
+              <button id="toggle-login-password" class="small-button" type="button" aria-controls="login-password" aria-pressed="false">__MSG_show__</button>
+              <button id="generate-password" class="small-button" type="button">__MSG_generate__</button>
+            </div>
+            <label for="login-totp">__MSG_authenticatorKeyTotp__</label>
+            <div class="inline-field">
+              <input id="login-totp" maxlength="2048" autocomplete="off" spellcheck="false" placeholder="__MSG_keyOrOtpauthLink__" />
+              <button id="scan-login-totp" class="small-button" type="button">__MSG_scanQrShort__</button>
+            </div>
+            <label for="login-uri">__MSG_website__</label>
+            <input id="login-uri" type="url" maxlength="8192" placeholder="https://example.com" />
+          </div>
+          <div id="type-fields" class="field-group"></div>
+          <label for="login-notes">__MSG_notes__</label>
+          <textarea id="login-notes" maxlength="10000" rows="3"></textarea>
+          <label class="check-label"><input id="login-favorite" type="checkbox" /> __MSG_favorite__</label>
+          <button id="editor-submit" type="submit">__MSG_save__</button>
+        </form>
+      </section>
+
+      <nav id="bottom-nav" class="bottom-nav" aria-label="__MSG_mainNavigation__" hidden>
+        <button id="nav-vault" class="nav-button active" type="button"><svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/><path d="m7.9 7.9 2.7 2.7"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/><path d="m13.4 10.6 2.7-2.7"/><circle cx="7.5" cy="16.5" r=".5" fill="currentColor"/><path d="m7.9 16.1 2.7-2.7"/><circle cx="16.5" cy="16.5" r=".5" fill="currentColor"/><path d="m13.4 13.4 2.7 2.7"/><circle cx="12" cy="12" r="2"/></svg><span>__MSG_vault__</span></button>
+        <button id="nav-authenticator" class="nav-button" type="button" hidden><svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M10 2h4"/></svg><span>__MSG_authenticator__</span></button>
+        <button id="nav-send" class="nav-button" type="button"><svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.54 21.69a.5.5 0 0 0 .94-.03l6.5-19a.5.5 0 0 0-.64-.64l-19 6.5a.5.5 0 0 0-.03.94l7.93 3.18a2 2 0 0 1 1.11 1.11z"/><path d="m21.85 2.15-10.94 10.94"/></svg><span>__MSG_send__</span></button>
+        <button id="nav-generator" class="nav-button" type="button"><svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></svg><span>__MSG_generator__</span></button>
+        <button id="nav-settings" class="nav-button" type="button"><svg class="nav-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg><span>__MSG_settings__</span></button>
+      </nav>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

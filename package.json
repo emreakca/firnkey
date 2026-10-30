@@ -1,0 +1,54 @@
+{
+  "name": "firnkey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight, open-source browser extension for Vaultwarden-compatible servers.",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emreakca/firnkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emreakca/firnkey/issues"
+  },
+  "homepage": "https://github.com/emreakca/firnkey#readme",
+  "keywords": [
+    "vaultwarden",
+    "password-manager",
+    "chrome-extension",
+    "manifest-v3"
+  ],
+  "packageManager": "pnpm@12.16.1+sha512.091d1dee7927575661b25dab3c2ae31cafc1c54d6b71ed6a6600cf0c1cb10434a447eae14015f1b23e2e6bedeed79df94a932e2164d2832280dce3fb32f656d1",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:dist": "node scripts/validate-dist.mjs",
+    "check:size": "node scripts/check-size.mjs",
+    "check:memory": "node scripts/check-memory.mjs",
+    "check:site": "node scripts/check-site.mjs",
+    "update:psl": "node scripts/update-public-suffixes.mjs",
+    "compat": "node scripts/compat.mjs",
+    "test:live": "node --env-file=.env.local node_modules/vitest/vitest.mjs run tests/vaultwarden.compat.test.ts",
+    "audit:release": "node scripts/audit.mjs",
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm check:dist && pnpm check:size"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/chrome": "0.2.5",
+    "@types/node": "26.6.6",
+    "esbuild": "0.28.1",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  },
+  "dependencies": {
+    "@noble/ciphers": "2.4.0",
+    "hash-wasm": "4.12.0"
+  }
+}

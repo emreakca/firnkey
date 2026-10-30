@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="__MSG_languageCode__">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__MSG_firnkeyPasskey__</title>
+    <link rel="stylesheet" href="../popup/styles.css" />
+    <style>
+      body { width: auto; min-height: 0; max-height: none; overflow: auto; }
+      main.passkey { display: grid; gap: 14px; height: auto; padding: 20px; overflow: visible; grid-template-rows: none; }
+      .passkey h1 { margin: 0; font-size: 18px; }
+      .passkey .origin { margin: 4px 0 0; font-weight: 700; word-break: break-all; }
+      .passkey .choices { display: grid; gap: 6px; max-height: 260px; overflow: auto; }
+      .passkey .choice { display: flex; gap: 10px; align-items: center; padding: 9px 10px; border: 1px solid var(--border); border-radius: 8px; font-weight: 500; }
+      .passkey .choice input { flex: none; width: 16px; min-height: 16px; margin: 0; padding: 0; accent-color: var(--accent); }
+      .passkey .choice span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+      .passkey .choice small { display: block; color: var(--muted, #aeb5c0); }
+      .passkey .actions { display: grid; gap: 8px; }
+      .passkey section { display: grid; gap: 12px; }
+      .passkey .status { position: static; }
+    </style>
+  </head>
+  <body>
+    <main class="passkey">
+      <header>
+        <h1 id="title">__MSG_passkey__</h1>
+        <p id="origin" class="origin"></p>
+      </header>
+      <section id="unlock" hidden>
+        <p>__MSG_unlockFirnkeyToContinue__</p>
+        <label>__MSG_masterPassword__<input id="unlock-password" type="password" autocomplete="current-password" /></label>
+        <button id="unlock-button" type="button">__MSG_unlock__</button>
+        <button id="unlock-biometric" class="secondary" type="button" hidden>__MSG_unlockWithBiometrics__</button>
+      </section>
+      <section id="choose" hidden>
+        <p id="summary"></p>
+        <div id="choices" class="choices" role="radiogroup"></div>
+        <label id="verify" hidden>__MSG_masterPassword__<input id="verify-password" type="password" autocomplete="current-password" /></label>
+        <button id="verify-biometric" class="secondary" type="button" hidden>__MSG_verifyWithBiometrics__</button>
+        <div class="actions">
+          <button id="confirm" type="button">__MSG_continue__</button>
+          <button id="fallback" class="secondary" type="button">__MSG_useAnotherDevice__</button>
+          <button id="cancel" class="secondary" type="button">__MSG_cancel__</button>
+        </div>
+      </section>
+      <p id="status" class="status" role="status"></p>
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

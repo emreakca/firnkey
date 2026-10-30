@@ -1,0 +1,1479 @@
+{
+  "languageCode": {
+    "message": "en",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightVaultwardenClient": {
+    "message": "Lightweight Vaultwarden client"
+  },
+  "starting": {
+    "message": "Starting"
+  },
+  "connectYourServer": {
+    "message": "Connect your server"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey requests access only to the server origin you choose."
+  },
+  "vaultwardenUrl": {
+    "message": "Vaultwarden URL"
+  },
+  "verifyServer": {
+    "message": "Verify server"
+  },
+  "signIn": {
+    "message": "Sign in"
+  },
+  "change": {
+    "message": "Change"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "masterPassword": {
+    "message": "Master password"
+  },
+  "twoStepLogin": {
+    "message": "Two-step login"
+  },
+  "method": {
+    "message": "Method"
+  },
+  "sendEmailCode": {
+    "message": "Send email code"
+  },
+  "verificationCode": {
+    "message": "Verification code"
+  },
+  "rememberThisDevice": {
+    "message": "Remember this device"
+  },
+  "newDeviceVerification": {
+    "message": "New device verification"
+  },
+  "deviceVerificationHint": {
+    "message": "Enter the verification code sent by your server."
+  },
+  "deviceVerificationCode": {
+    "message": "Device verification code"
+  },
+  "signInAndSync": {
+    "message": "Sign in and sync"
+  },
+  "vaultLocked": {
+    "message": "Vault locked"
+  },
+  "unlock": {
+    "message": "Unlock"
+  },
+  "unlockWithBiometrics": {
+    "message": "Unlock with Touch ID / biometrics"
+  },
+  "logOut": {
+    "message": "Log out"
+  },
+  "allItems": {
+    "message": "All items"
+  },
+  "noMatchingItems": {
+    "message": "No matching items."
+  },
+  "viewAll": {
+    "message": "View all"
+  },
+  "authenticatorEmpty": {
+    "message": "No authenticator keys yet. Select New to scan a QR code or paste a key."
+  },
+  "importOrExportKeys": {
+    "message": "Import or export keys"
+  },
+  "scanQrOnPage": {
+    "message": "Scan QR code on this page"
+  },
+  "saveTo": {
+    "message": "Save to"
+  },
+  "newLogin": {
+    "message": "New login"
+  },
+  "key": {
+    "message": "Key"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "nicknameOptional": {
+    "message": "Nickname (optional)"
+  },
+  "account": {
+    "message": "Account"
+  },
+  "website": {
+    "message": "Website"
+  },
+  "issuer": {
+    "message": "Issuer"
+  },
+  "advanced": {
+    "message": "Advanced"
+  },
+  "algorithm": {
+    "message": "Algorithm"
+  },
+  "digits": {
+    "message": "Digits"
+  },
+  "periodSeconds": {
+    "message": "Period (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Most services use SHA-1, 6 digits and 30 seconds. Steam keys (issuer Steam) always make 5-character codes."
+  },
+  "save": {
+    "message": "Save"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "keysImportHint": {
+    "message": "One otpauth://totp/ link per line, as authenticator apps export them. Each new key becomes a login."
+  },
+  "chooseFile": {
+    "message": "Choose file"
+  },
+  "checkList": {
+    "message": "Check list"
+  },
+  "export": {
+    "message": "Export"
+  },
+  "keysExportHint": {
+    "message": "Saves every key as otpauth:// links in a text file. Anyone with the file can make your codes, so delete it once it is imported."
+  },
+  "exportKeys": {
+    "message": "Export keys"
+  },
+  "sendIntro": {
+    "message": "Share text or a file through an end-to-end encrypted link that deletes itself."
+  },
+  "sendEmpty": {
+    "message": "No Sends yet. Select New to share text or a file."
+  },
+  "text": {
+    "message": "Text"
+  },
+  "file": {
+    "message": "File"
+  },
+  "sendHideText": {
+    "message": "Hide the text until the recipient reveals it"
+  },
+  "noFileChosenSendLimit": {
+    "message": "No file chosen · 25 MB at most"
+  },
+  "deleteAfter": {
+    "message": "Delete after"
+  },
+  "days1": {
+    "message": "1 day"
+  },
+  "days2": {
+    "message": "2 days"
+  },
+  "days3": {
+    "message": "3 days"
+  },
+  "days7": {
+    "message": "7 days"
+  },
+  "days14": {
+    "message": "14 days"
+  },
+  "days30": {
+    "message": "30 days"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "passwordOptional": {
+    "message": "Password (optional)"
+  },
+  "maximumViewsOptional": {
+    "message": "Maximum views (optional)"
+  },
+  "createAndCopyLink": {
+    "message": "Create and copy link"
+  },
+  "passwordGenerator": {
+    "message": "Password generator"
+  },
+  "generatorHint": {
+    "message": "Generated locally with the browser's cryptographic random source."
+  },
+  "password": {
+    "message": "Password"
+  },
+  "passphrase": {
+    "message": "Passphrase"
+  },
+  "username": {
+    "message": "Username"
+  },
+  "length": {
+    "message": "Length"
+  },
+  "uppercase": {
+    "message": "Uppercase"
+  },
+  "lowercase": {
+    "message": "Lowercase"
+  },
+  "numbers": {
+    "message": "Numbers"
+  },
+  "symbols": {
+    "message": "Symbols"
+  },
+  "words": {
+    "message": "Words"
+  },
+  "wordSeparator": {
+    "message": "Word separator"
+  },
+  "capitalize": {
+    "message": "Capitalize"
+  },
+  "includeNumber": {
+    "message": "Include number"
+  },
+  "type": {
+    "message": "Type"
+  },
+  "randomWord": {
+    "message": "Random word"
+  },
+  "plusAddressedEmail": {
+    "message": "Plus-addressed email"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all email"
+  },
+  "yourEmail": {
+    "message": "Your email"
+  },
+  "yourCatchAllDomain": {
+    "message": "Your catch-all domain"
+  },
+  "generateAnother": {
+    "message": "Generate another"
+  },
+  "useInNewLogin": {
+    "message": "Use in a new login"
+  },
+  "security": {
+    "message": "Security"
+  },
+  "securityGroupHint": {
+    "message": "Lock timeout, biometrics, clipboard"
+  },
+  "autofillSaving": {
+    "message": "Autofill & saving"
+  },
+  "autofillGroupHint": {
+    "message": "Website integration, save prompts, excluded domains"
+  },
+  "vault": {
+    "message": "Vault"
+  },
+  "vaultGroupHint": {
+    "message": "Folders, Authenticator tab"
+  },
+  "importExport": {
+    "message": "Import & export"
+  },
+  "transferGroupHint": {
+    "message": "Move your vault from or to another password manager"
+  },
+  "accountSync": {
+    "message": "Account & sync"
+  },
+  "accountGroupHint": {
+    "message": "Accounts, live sync, log out"
+  },
+  "lockVault": {
+    "message": "Lock vault"
+  },
+  "after1Minute": {
+    "message": "After 1 minute"
+  },
+  "after5Minutes": {
+    "message": "After 5 minutes"
+  },
+  "after15Minutes": {
+    "message": "After 15 minutes"
+  },
+  "after30Minutes": {
+    "message": "After 30 minutes"
+  },
+  "after1Hour": {
+    "message": "After 1 hour"
+  },
+  "after2Hours": {
+    "message": "After 2 hours"
+  },
+  "after4Hours": {
+    "message": "After 4 hours"
+  },
+  "after8Hours": {
+    "message": "After 8 hours"
+  },
+  "after24Hours": {
+    "message": "After 24 hours"
+  },
+  "whenTheComputerLocks": {
+    "message": "When the computer locks"
+  },
+  "whenBrowserCloses": {
+    "message": "When browser closes"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Keep unlocked until logout"
+  },
+  "untilLogoutHint": {
+    "message": "“Until logout” encrypts the session for this browser profile, but is less safe on a shared computer."
+  },
+  "lockNow": {
+    "message": "Lock now"
+  },
+  "clearCopiedSecrets": {
+    "message": "Clear copied secrets"
+  },
+  "after10Seconds": {
+    "message": "After 10 seconds"
+  },
+  "after20Seconds": {
+    "message": "After 20 seconds"
+  },
+  "after30Seconds": {
+    "message": "After 30 seconds"
+  },
+  "after2Minutes": {
+    "message": "After 2 minutes"
+  },
+  "never": {
+    "message": "Never"
+  },
+  "clipboardOwnOnly": {
+    "message": "Only clear what Firnkey copied"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Needs permission to read the clipboard, so text you copy elsewhere is left alone."
+  },
+  "websiteIntegration": {
+    "message": "Website integration"
+  },
+  "websiteIntegrationHint": {
+    "message": "Autofill suggestions and save prompts."
+  },
+  "enable": {
+    "message": "Enable"
+  },
+  "fillSignInDialogs": {
+    "message": "Fill sign-in dialogs (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Answers a site's browser sign-in dialog when exactly one unprotected login matches it."
+  },
+  "savePrompts": {
+    "message": "Save prompts"
+  },
+  "askToAddLogin": {
+    "message": "Ask to add login"
+  },
+  "askToUpdateLogin": {
+    "message": "Ask to update existing login"
+  },
+  "askPasskeys": {
+    "message": "Ask to save and use passkeys"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Dismiss save prompts after (seconds)"
+  },
+  "excludedDomains": {
+    "message": "Excluded domains"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey will not suggest, fill, or save credentials on these domains."
+  },
+  "add": {
+    "message": "Add"
+  },
+  "folders": {
+    "message": "Folders"
+  },
+  "foldersHint": {
+    "message": "Deleting a folder keeps its items; they move to No folder."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Show the Authenticator tab"
+  },
+  "authenticatorTabHint": {
+    "message": "Live verification codes for your logins. Add keys by QR code, by hand or from a file."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Show only this website's codes when it has any"
+  },
+  "vaultImportHint": {
+    "message": "A Bitwarden JSON export (plain or password-protected), or a CSV file from Bitwarden, Chrome, Edge, Firefox or Safari. Items go to your personal vault."
+  },
+  "noFileChosen": {
+    "message": "No file chosen"
+  },
+  "filePassword": {
+    "message": "File password"
+  },
+  "checkFile": {
+    "message": "Check file"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, protected by a file password"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, unencrypted"
+  },
+  "filePasswordHint": {
+    "message": "Needed to import the file again. Firnkey cannot recover it."
+  },
+  "unencryptedExportWarning": {
+    "message": "Anyone with an unencrypted file can read every password in it. Delete it once you have imported it."
+  },
+  "exportScopeHint": {
+    "message": "Exports your personal items. Organization items stay with the organization."
+  },
+  "exportVault": {
+    "message": "Export vault"
+  },
+  "liveSync": {
+    "message": "Live sync"
+  },
+  "liveSyncHint": {
+    "message": "Gets changes from your server instantly. Off checks once a minute and uses less memory."
+  },
+  "syncNow": {
+    "message": "Sync now"
+  },
+  "addAccount": {
+    "message": "Add account"
+  },
+  "repromptHint": {
+    "message": "This item requires your master password before protected fields can be used."
+  },
+  "unlockProtectedFields": {
+    "message": "Unlock protected fields"
+  },
+  "show": {
+    "message": "Show"
+  },
+  "addAttachment": {
+    "message": "Add attachment"
+  },
+  "fillOnThisPage": {
+    "message": "Fill on this page"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "moveToTrash": {
+    "message": "Move to trash"
+  },
+  "addLogin": {
+    "message": "Add login"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "card": {
+    "message": "Card"
+  },
+  "identity": {
+    "message": "Identity"
+  },
+  "secureNote": {
+    "message": "Secure note"
+  },
+  "folder": {
+    "message": "Folder"
+  },
+  "noFolder": {
+    "message": "No folder"
+  },
+  "owner": {
+    "message": "Owner"
+  },
+  "myVault": {
+    "message": "My vault"
+  },
+  "moveToOrganizationHint": {
+    "message": "Moving to an organization cannot be undone here; the organization then owns the item."
+  },
+  "generate": {
+    "message": "Generate"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Authenticator key (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Scan QR"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "favorite": {
+    "message": "Favorite"
+  },
+  "authenticator": {
+    "message": "Authenticator"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "searchVault": {
+    "message": "Search vault"
+  },
+  "showFolder": {
+    "message": "Show folder"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 key or otpauth://totp/ link"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Defaults to the issuer"
+  },
+  "shownInsteadOfThe": {
+    "message": "Shown instead of the name"
+  },
+  "keysToImport": {
+    "message": "Keys to import"
+  },
+  "whatToSend": {
+    "message": "What to send"
+  },
+  "whatToGenerate": {
+    "message": "What to generate"
+  },
+  "generatedValue": {
+    "message": "Generated value"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copyGeneratedValue": {
+    "message": "Copy generated value"
+  },
+  "domainToExclude": {
+    "message": "Domain to exclude"
+  },
+  "newFolder": {
+    "message": "New folder"
+  },
+  "newFolderName": {
+    "message": "New folder name"
+  },
+  "copyUsername": {
+    "message": "Copy username"
+  },
+  "copyPassword": {
+    "message": "Copy password"
+  },
+  "copyVerificationCode": {
+    "message": "Copy verification code"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 key or otpauth:// link"
+  },
+  "mainNavigation": {
+    "message": "Main navigation"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey passkey"
+  },
+  "passkey": {
+    "message": "Passkey"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Unlock Firnkey to continue."
+  },
+  "verifyWithBiometrics": {
+    "message": "Verify with Touch ID / biometrics"
+  },
+  "continue": {
+    "message": "Continue"
+  },
+  "useAnotherDevice": {
+    "message": "Use another device"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "sshKey": {
+    "message": "SSH key"
+  },
+  "cardholderName": {
+    "message": "Cardholder name"
+  },
+  "brand": {
+    "message": "Brand"
+  },
+  "number": {
+    "message": "Number"
+  },
+  "expirationMonth": {
+    "message": "Expiration month"
+  },
+  "expirationYear": {
+    "message": "Expiration year"
+  },
+  "securityCode": {
+    "message": "Security code"
+  },
+  "title": {
+    "message": "Title"
+  },
+  "firstName": {
+    "message": "First name"
+  },
+  "middleName": {
+    "message": "Middle name"
+  },
+  "lastName": {
+    "message": "Last name"
+  },
+  "company": {
+    "message": "Company"
+  },
+  "phone": {
+    "message": "Phone"
+  },
+  "address1": {
+    "message": "Address 1"
+  },
+  "address2": {
+    "message": "Address 2"
+  },
+  "address3": {
+    "message": "Address 3"
+  },
+  "city": {
+    "message": "City / town"
+  },
+  "stateProvince": {
+    "message": "State / province"
+  },
+  "postalCode": {
+    "message": "Postal code"
+  },
+  "country": {
+    "message": "Country"
+  },
+  "ssn": {
+    "message": "Social Security number"
+  },
+  "passportNumber": {
+    "message": "Passport number"
+  },
+  "licenseNumber": {
+    "message": "License number"
+  },
+  "addSecureNote": {
+    "message": "Add secure note"
+  },
+  "addCard": {
+    "message": "Add card"
+  },
+  "addIdentity": {
+    "message": "Add identity"
+  },
+  "addSshKey": {
+    "message": "Add SSH key"
+  },
+  "editLogin": {
+    "message": "Edit login"
+  },
+  "editSecureNote": {
+    "message": "Edit secure note"
+  },
+  "editCard": {
+    "message": "Edit card"
+  },
+  "editIdentity": {
+    "message": "Edit identity"
+  },
+  "editSshKey": {
+    "message": "Edit SSH key"
+  },
+  "passphraseGenerator": {
+    "message": "Passphrase generator"
+  },
+  "usernameGenerator": {
+    "message": "Username generator"
+  },
+  "generatedPasswordCopied": {
+    "message": "Generated password copied."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Generated passphrase copied."
+  },
+  "generatedUsernameCopied": {
+    "message": "Generated username copied."
+  },
+  "removeKey": {
+    "message": "Remove key"
+  },
+  "biometricOff": {
+    "message": "Biometric unlock turned off."
+  },
+  "usernameCopied": {
+    "message": "Username copied."
+  },
+  "passwordCopied": {
+    "message": "Password copied."
+  },
+  "hide": {
+    "message": "Hide"
+  },
+  "movedToTrash": {
+    "message": "Moved to trash."
+  },
+  "websiteAccessDenied": {
+    "message": "Website access was not granted."
+  },
+  "websiteIntegrationOn": {
+    "message": "Website autofill and save prompts enabled."
+  },
+  "websiteIntegrationOff": {
+    "message": "Website prompts disabled."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Filling sign-in dialogs needs permission to see them on websites."
+  },
+  "preferencesUpdated": {
+    "message": "Preferences updated."
+  },
+  "invalidDomain": {
+    "message": "Enter a valid domain such as example.com."
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Disable website integration"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Enable website integration"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Unsupported vault timeout."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Unsupported clipboard timeout."
+  },
+  "clipboardClearsAfter": {
+    "message": "Copied secrets will clear after $1."
+  },
+  "clipboardKeeps": {
+    "message": "Copied secrets will stay on the clipboard."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey will only clear the clipboard if it still holds what Firnkey copied."
+  },
+  "seconds_one": {
+    "message": "$1 second"
+  },
+  "seconds_other": {
+    "message": "$1 seconds"
+  },
+  "minutes_one": {
+    "message": "$1 minute"
+  },
+  "minutes_other": {
+    "message": "$1 minutes"
+  },
+  "hours_one": {
+    "message": "$1 hour"
+  },
+  "hours_other": {
+    "message": "$1 hours"
+  },
+  "lockOnComputerLock": {
+    "message": "Vault will lock when the computer locks or the browser closes."
+  },
+  "lockOnLogout": {
+    "message": "Vault will stay unlocked on this browser until you lock or log out."
+  },
+  "lockOnBrowserClose": {
+    "message": "Vault will remain unlocked until the browser closes."
+  },
+  "lockAfterInactivity": {
+    "message": "Vault will lock after $1 of inactivity."
+  },
+  "waitingForVerification": {
+    "message": "Waiting for verification…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Unlock the vault before turning on biometric unlock."
+  },
+  "noPasskeyCreated": {
+    "message": "No passkey was created."
+  },
+  "biometricOn": {
+    "message": "Biometric unlock is on."
+  },
+  "biometricUnavailable": {
+    "message": "Biometric unlock is not available right now."
+  },
+  "vaultUnlocked_one": {
+    "message": "Vault unlocked with $1 item."
+  },
+  "vaultUnlocked_other": {
+    "message": "Vault unlocked with $1 items."
+  },
+  "verificationCancelled": {
+    "message": "Verification was cancelled or timed out."
+  },
+  "notConnected": {
+    "message": "Not connected"
+  },
+  "connectAServer": {
+    "message": "Connect a Vaultwarden server"
+  },
+  "signedOut": {
+    "message": "Signed out"
+  },
+  "itemCount_one": {
+    "message": "$1 item"
+  },
+  "itemCount_other": {
+    "message": "$1 items"
+  },
+  "locked": {
+    "message": "Locked"
+  },
+  "unlocked": {
+    "message": "Unlocked"
+  },
+  "settingsFor": {
+    "message": "Settings for $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · suggestions for this page first"
+  },
+  "skippedItems_one": {
+    "message": "$1 unsupported or damaged item was skipped."
+  },
+  "skippedItems_other": {
+    "message": "$1 unsupported or damaged items were skipped."
+  },
+  "otherAccounts": {
+    "message": "Other accounts"
+  },
+  "switch": {
+    "message": "Switch"
+  },
+  "removeAccountTitle": {
+    "message": "Remove $1 from Firnkey on this browser"
+  },
+  "switchedTo": {
+    "message": "Switched to $1."
+  },
+  "accountRemoved": {
+    "message": "$1 removed from this browser."
+  },
+  "addAccountHint": {
+    "message": "Sign in to the other account. Your current one is saved, locked, below."
+  },
+  "verifying": {
+    "message": "Verifying…"
+  },
+  "serverPermissionDenied": {
+    "message": "Server permission was not granted."
+  },
+  "signingIn": {
+    "message": "Signing in…"
+  },
+  "continueInNewWindow": {
+    "message": "Select Sign in again to continue in a new window."
+  },
+  "enterTwoStepCode": {
+    "message": "Enter your two-step login code."
+  },
+  "unlocking": {
+    "message": "Unlocking…"
+  },
+  "trashHint": {
+    "message": "Restore items, or delete them forever."
+  },
+  "trashEmpty": {
+    "message": "The trash is empty."
+  },
+  "autofillSuggestions": {
+    "message": "Autofill suggestions"
+  },
+  "otherResults": {
+    "message": "Other results"
+  },
+  "trash": {
+    "message": "Trash"
+  },
+  "folderName": {
+    "message": "Folder name"
+  },
+  "rename": {
+    "message": "Rename"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "folderRenamed": {
+    "message": "Folder renamed."
+  },
+  "folderAdded": {
+    "message": "Folder added."
+  },
+  "folderDeleted": {
+    "message": "Folder deleted. Its items are now in No folder."
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "matchesThisPage": {
+    "message": "Matches this page"
+  },
+  "restore": {
+    "message": "Restore"
+  },
+  "itemRestored": {
+    "message": "Item restored."
+  },
+  "deleteForever": {
+    "message": "Delete forever"
+  },
+  "itemDeletedForever": {
+    "message": "Item deleted forever."
+  },
+  "open": {
+    "message": "Open"
+  },
+  "fill": {
+    "message": "Fill"
+  },
+  "openWebsite": {
+    "message": "Open website"
+  },
+  "cardNumber": {
+    "message": "Card number"
+  },
+  "note": {
+    "message": "Note"
+  },
+  "publicKey": {
+    "message": "Public key"
+  },
+  "copyPublicKey": {
+    "message": "Copy public key"
+  },
+  "copyCardNumber": {
+    "message": "Copy card number"
+  },
+  "copyNote": {
+    "message": "Copy note"
+  },
+  "copySecurityCode": {
+    "message": "Copy security code"
+  },
+  "copyPrivateKey": {
+    "message": "Copy private key"
+  },
+  "privateKey": {
+    "message": "Private key"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Confirm your master password before deleting this item."
+  },
+  "moreActions": {
+    "message": "More actions"
+  },
+  "noWebAddress": {
+    "message": "This login does not have a web address."
+  },
+  "noWebsiteSaved": {
+    "message": "No website saved"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "expiration": {
+    "message": "Expiration"
+  },
+  "address": {
+    "message": "Address"
+  },
+  "fingerprint": {
+    "message": "Fingerprint"
+  },
+  "customField": {
+    "message": "Custom field"
+  },
+  "passwordHistory": {
+    "message": "Password history ($1)"
+  },
+  "oldPassword": {
+    "message": "Old password"
+  },
+  "organization": {
+    "message": "Organization"
+  },
+  "attachmentsCount": {
+    "message": "Attachments ($1)"
+  },
+  "downloadFile": {
+    "message": "Download $1"
+  },
+  "deleteFile": {
+    "message": "Delete $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 downloaded."
+  },
+  "fileTooLarge25": {
+    "message": "The file is too large (25 MB at most)."
+  },
+  "fileEmpty": {
+    "message": "The file is empty."
+  },
+  "uploadingFile": {
+    "message": "Encrypting and uploading $1…"
+  },
+  "fileAttached": {
+    "message": "$1 attached."
+  },
+  "fileDeleted": {
+    "message": "$1 deleted."
+  },
+  "copyLink": {
+    "message": "Copy link"
+  },
+  "viewsOf": {
+    "message": "$1 of $2 views"
+  },
+  "views_one": {
+    "message": "$1 view"
+  },
+  "views_other": {
+    "message": "$1 views"
+  },
+  "deletesOn": {
+    "message": "Deletes $1"
+  },
+  "disabled": {
+    "message": "Disabled"
+  },
+  "sendLinkCopied": {
+    "message": "Send link copied."
+  },
+  "deleteSendTitle": {
+    "message": "Delete $1; its link stops working"
+  },
+  "sendDeleted": {
+    "message": "$1 deleted. Its link no longer works."
+  },
+  "encrypting": {
+    "message": "Encrypting…"
+  },
+  "chooseFileToSend": {
+    "message": "Choose a file to send."
+  },
+  "sendCreatedCopied": {
+    "message": "Send created. Link copied."
+  },
+  "sendCreatedSync": {
+    "message": "Send created. Sync, then copy its link from the list."
+  },
+  "fileTooLarge10": {
+    "message": "The file is too large (10 MB at most)."
+  },
+  "importing": {
+    "message": "Importing…"
+  },
+  "checking": {
+    "message": "Checking…"
+  },
+  "importedItems": {
+    "message": "Imported $1."
+  },
+  "importItems": {
+    "message": "Import $1"
+  },
+  "foundItems": {
+    "message": "Found $1. They are added to your vault; nothing is replaced."
+  },
+  "foundItemsInFolders": {
+    "message": "Found $1 in $2. They are added to your vault; nothing is replaced."
+  },
+  "folderCount_one": {
+    "message": "$1 folder"
+  },
+  "folderCount_other": {
+    "message": "$1 folders"
+  },
+  "exporting": {
+    "message": "Exporting…"
+  },
+  "vaultExportedPlain": {
+    "message": "Vault exported. Delete the file once it is imported."
+  },
+  "vaultExportedProtected": {
+    "message": "Vault exported. Keep the file password safe."
+  },
+  "createdOn": {
+    "message": "Created $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Remove this passkey from the login"
+  },
+  "passkeyRemoved": {
+    "message": "Passkey removed."
+  },
+  "usedUntil": {
+    "message": "Used until $1"
+  },
+  "earlierPassword": {
+    "message": "Earlier password"
+  },
+  "fieldCopied": {
+    "message": "$1 copied."
+  },
+  "copyField": {
+    "message": "Copy $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Confirm your master password before copying from this item."
+  },
+  "codeCopied": {
+    "message": "Verification code copied."
+  },
+  "viewOnlyItem": {
+    "message": "Your organization lets you view this item but not change it."
+  },
+  "confirmBeforeEditing": {
+    "message": "Confirm your master password before editing this item."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "YYYY"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "loginUpdated": {
+    "message": "Login updated."
+  },
+  "loginAdded": {
+    "message": "Login added."
+  },
+  "itemUpdated": {
+    "message": "$1 updated."
+  },
+  "itemAdded": {
+    "message": "$1 added."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Protected fields unlocked for 60 seconds."
+  },
+  "unavailable": {
+    "message": "Unavailable"
+  },
+  "secondsLeft_one": {
+    "message": "$1 second left"
+  },
+  "secondsLeft_other": {
+    "message": "$1 seconds left"
+  },
+  "codesForSite": {
+    "message": "Codes for this website · $1 in total"
+  },
+  "codeCount_one": {
+    "message": "$1 code"
+  },
+  "codeCount_other": {
+    "message": "$1 codes"
+  },
+  "thisWebsite": {
+    "message": "This website"
+  },
+  "openToConfirm": {
+    "message": "Open to confirm your master password"
+  },
+  "protected": {
+    "message": "Protected"
+  },
+  "fillIntoPage": {
+    "message": "Fill into this page"
+  },
+  "editKey": {
+    "message": "Edit key"
+  },
+  "codeFilled": {
+    "message": "Filled the code for $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Confirm your master password, then edit the key from the Authenticator tab."
+  },
+  "qrReadFirstCheck": {
+    "message": "Read the first of several QR codes. Check the details and save."
+  },
+  "qrReadCheck": {
+    "message": "QR code read. Check the details and save."
+  },
+  "qrReadFirstSave": {
+    "message": "Read the first of several QR codes. Save the login to keep the key."
+  },
+  "qrReadSave": {
+    "message": "QR code read. Save the login to keep the key."
+  },
+  "qrUnsupported": {
+    "message": "This browser cannot read QR codes. Paste the key or the otpauth:// link instead."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey cannot see this page. Open the page that shows the QR code and try again."
+  },
+  "qrNotFound": {
+    "message": "No authenticator QR code was found on the visible page."
+  },
+  "qrInvalid": {
+    "message": "The QR code is not a valid time-based (TOTP) authenticator key."
+  },
+  "keyAdded": {
+    "message": "Authenticator key added."
+  },
+  "keyUpdated": {
+    "message": "Authenticator key updated."
+  },
+  "keyRemoved": {
+    "message": "Authenticator key removed. The login itself is still in your vault."
+  },
+  "fileTooLarge256": {
+    "message": "The file is too large (256 KB at most)."
+  },
+  "pasteLinksFirst": {
+    "message": "Paste otpauth:// links or choose a file first."
+  },
+  "keysImported_one": {
+    "message": "Imported $1 key."
+  },
+  "keysImported_other": {
+    "message": "Imported $1 keys."
+  },
+  "new": {
+    "message": "New"
+  },
+  "duplicate": {
+    "message": "Duplicate"
+  },
+  "invalid": {
+    "message": "Invalid"
+  },
+  "importNewKeys_one": {
+    "message": "Import $1 new key"
+  },
+  "importNewKeys_other": {
+    "message": "Import $1 new keys"
+  },
+  "checkThenImport": {
+    "message": "Check the list, then import."
+  },
+  "nothingNewToImport": {
+    "message": "Nothing new to import."
+  },
+  "keysExported": {
+    "message": "Keys exported. Delete the file once it is imported elsewhere."
+  },
+  "secondsShort": {
+    "message": "$1s"
+  },
+  "fieldsFilled_one": {
+    "message": "Filled $1 field."
+  },
+  "fieldsFilled_other": {
+    "message": "Filled $1 fields."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Filled username and password."
+  },
+  "filledUsername": {
+    "message": "Filled username."
+  },
+  "filledPassword": {
+    "message": "Filled password."
+  },
+  "synced_one": {
+    "message": "Synced $1 item."
+  },
+  "synced_other": {
+    "message": "Synced $1 items."
+  },
+  "twoStepUnsupported": {
+    "message": "This account requires a two-step login method not supported by this build."
+  },
+  "sending": {
+    "message": "Sending…"
+  },
+  "emailCodeSent": {
+    "message": "Verification code sent by email."
+  },
+  "authenticatorApp": {
+    "message": "Authenticator app"
+  },
+  "securityKeyWebauthn": {
+    "message": "Security key (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Recovery code"
+  },
+  "twoFactorMethod": {
+    "message": "Method $1"
+  },
+  "fieldEmpty": {
+    "message": "This field is empty."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Clipboard clears in $2."
+  },
+  "backgroundNoResponse": {
+    "message": "The extension background worker did not respond. Reload the extension."
+  },
+  "unexpectedResponse": {
+    "message": "The background worker returned an unexpected response."
+  },
+  "newSend": {
+    "message": "New Send"
+  },
+  "item": {
+    "message": "Item"
+  },
+  "editItem": {
+    "message": "Edit item"
+  },
+  "newItem": {
+    "message": "New item"
+  },
+  "addKey": {
+    "message": "Add key"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Unexpected extension error."
+  },
+  "passkeySuggestion": {
+    "message": "Sign in with a passkey saved in Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Generate and fill a password"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey suggestions"
+  },
+  "dismissSuggestions": {
+    "message": "Dismiss autofill suggestions"
+  },
+  "dismiss": {
+    "message": "Dismiss"
+  },
+  "toggleSuggestions": {
+    "message": "Toggle Firnkey suggestions"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Show or hide Firnkey suggestions"
+  },
+  "updateExistingLogin": {
+    "message": "Update existing login"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Save login to Firnkey"
+  },
+  "notNow": {
+    "message": "Not now"
+  },
+  "update": {
+    "message": "Update"
+  },
+  "loginSaved": {
+    "message": "Login saved."
+  },
+  "saveFailed": {
+    "message": "Firnkey could not save this login."
+  },
+  "savePasskey": {
+    "message": "Save passkey"
+  },
+  "signInWithPasskey": {
+    "message": "Sign in with a passkey"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey already has a passkey for this account on this site."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "savePasskeyForAccount": {
+    "message": "Save a passkey for $1 on $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Save a passkey on $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Choose a passkey for $1."
+  },
+  "addTo": {
+    "message": "Add to $1"
+  },
+  "somethingWentWrong": {
+    "message": "Something went wrong."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: use your security key to finish signing in."
+  },
+  "fillLogin": {
+    "message": "Fill login"
+  },
+  "extensionDescription": {
+    "message": "A lightweight, open-source client for Vaultwarden-compatible servers."
+  },
+  "fillLoginCommand": {
+    "message": "Fill the matching login on this page"
+  },
+  "copied": {
+    "message": "Copied"
+  }
+}
