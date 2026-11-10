@@ -1,0 +1,9 @@
+// firnkey.com → www.firnkey.com (301, keeps path and query). Deployed by pnpm deploy:site.
+{
+  "name": "firnkey-redirect",
+  "main": "scripts/redirect-to-www.js",
+  "compatibility_date": "2026-10-01",
+  "routes": [{ "pattern": "firnkey.com", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
+}

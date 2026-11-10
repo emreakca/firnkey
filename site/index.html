@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firnkey · Password manager for your own server</title>
+  <meta name="description" content="A small, quiet password manager for Chrome and Firefox that talks only to your own self-hosted server. Open source, no tracking, 27 languages.">
+  <meta property="og:title" content="Firnkey">
+  <meta property="og:description" content="A small, quiet password manager for Chrome and Firefox that talks only to your own server.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/img/firnkey-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/"><img src="/img/firnkey-icon.svg" width="28" height="28" alt="">Firnkey</a>
+      <a class="optional" href="#features">Features</a>
+      <a class="optional" href="#privacy">Privacy</a>
+      <a class="optional" href="#about">About</a>
+      <a href="https://github.com/emreakca/firnkey">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-icon" src="/img/firnkey-icon.svg" width="96" height="96" alt="Firnkey icon: an edelweiß with a keyhole">
+      <h1>Your passwords.<br>Your server.</h1>
+      <p class="lead">Firnkey is a small, quiet password manager for Chrome and Firefox that talks only to your own self-hosted server. No account with us, no analytics, nothing loaded at run time.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/emreakca/firnkey/releases/latest">Download</a>
+        <a class="button" href="https://github.com/emreakca/firnkey">Source code</a>
+      </div>
+      <p class="note">Free and open source under GPL-3.0 · 27 languages · Works with any server that speaks the Bitwarden API</p>
+      <img class="shot" src="/img/screenshot-1-vault.png" width="1280" height="800" alt="The Firnkey popup showing vault items, with logins for the current page on top" fetchpriority="high">
+    </section>
+
+    <section id="features">
+      <h2>Everything you need, nothing you don't.</h2>
+      <p class="muted prose">One Manifest V3 extension that keeps the browser side light. Permissions are asked for only when a feature needs them.</p>
+      <div class="grid">
+        <div class="card"><h3>Fills where you type</h3><p>Suggestions in the login field, a keyboard shortcut, or the right-click menu. Cards, identities and one-time codes too.</p></div>
+        <div class="card"><h3>Passkeys</h3><p>Create passkeys on websites and sign in with them, stored in your own vault.</p></div>
+        <div class="card"><h3>Strong sign-in</h3><p>PBKDF2 and Argon2id. Authenticator app, email, YubiKey, security keys, Duo, SSO and login with device.</p></div>
+        <div class="card"><h3>Unlock in a touch</h3><p>Touch ID, Windows Hello or a PIN. Lock on a timer, when the computer locks, or when the browser closes.</p></div>
+        <div class="card"><h3>Generator with memory</h3><p>Passwords, passphrases, usernames and email aliases. Every password you used is remembered, encrypted, with its website.</p></div>
+        <div class="card"><h3>Password health</h3><p>Finds weak and reused passwords and, if you turn it on, ones that appeared in known data breaches.</p></div>
+        <div class="card"><h3>Live sync</h3><p>Changes arrive instantly through your server's notification hub. Several accounts and organizations, one click apart.</p></div>
+        <div class="card"><h3>Send and SSH keys</h3><p>Share text or files through self-deleting encrypted links. Generate Ed25519 keys and fill their public half.</p></div>
+        <div class="card"><h3>Move in, move out</h3><p>Import from Bitwarden, 1Password, KeePass and browser CSV exports. Export to Bitwarden JSON any time.</p></div>
+      </div>
+      <div class="gallery">
+        <figure><img class="shot" src="/img/screenshot-2-site.png" width="1280" height="800" loading="lazy" alt="Login suggestions shown inside a website's sign-in field"><figcaption>Suggestions right in the field</figcaption></figure>
+        <figure><img class="shot" src="/img/screenshot-3-item.png" width="1280" height="800" loading="lazy" alt="A login item with its username, password and one-time code"><figcaption>Everything about a login in one view</figcaption></figure>
+        <figure><img class="shot" src="/img/screenshot-4-generator.png" width="1280" height="800" loading="lazy" alt="The password generator with length and character options"><figcaption>Passwords, passphrases and usernames</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>Encrypted on your device. Stored on your server.</h2>
+      <div class="grid">
+        <div class="card"><h3>Only your server</h3><p>Firnkey connects to the one address you enter. Plain HTTP is allowed only for localhost.</p></div>
+        <div class="card"><h3>Master password never stored</h3><p>It derives your keys, then it is dropped. Decrypted items live only in the extension's memory.</p></div>
+        <div class="card"><h3>Websites stay closed</h3><p>No access to any page until you turn on website integration. Logins for a subdomain are never offered on its parent.</p></div>
+        <div class="card"><h3>No telemetry</h3><p>No tracking, no analytics, no remote code. The optional breach check sends only 5 characters of a hash.</p></div>
+      </div>
+      <p class="note">Details: <a href="https://github.com/emreakca/firnkey/blob/main/PRIVACY.md">extension privacy policy</a> · <a href="https://github.com/emreakca/firnkey/blob/main/SECURITY.md">security policy</a>. Firnkey has not had an independent security audit yet; try it with a test account first.</p>
+    </section>
+
+    <section id="start">
+      <h2>Get started</h2>
+      <div class="prose">
+        <ol class="steps">
+          <li>Download the latest build for Chrome or Firefox from <a href="https://github.com/emreakca/firnkey/releases/latest">GitHub releases</a>, or build it yourself with <code>pnpm verify</code>.</li>
+          <li>Chrome: open <code>chrome://extensions</code>, turn on <b>Developer mode</b> and choose <b>Load unpacked</b>. Firefox 140+: <code>about:debugging</code> → <b>This Firefox</b> → <b>Load Temporary Add-on</b>.</li>
+          <li>Enter your server address and sign in. Firnkey asks for access to that one server only.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="prose">
+        <p>The name comes from the Alps. <i>Firn</i> is old, packed snow on its way to becoming glacier ice: quiet, solid and hard to reach. The edelweiß in the icon grows up there too, protected by where it lives.</p>
+        <p>Firnkey is an independent, non-commercial open-source project. Questions, bugs and ideas are welcome in the <a href="https://github.com/emreakca/firnkey/issues">issue tracker</a>.</p>
+        <p class="muted">Firnkey is not affiliated with or endorsed by Bitwarden, Inc. "Bitwarden" is their trademark and is used here only to describe compatibility.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav><a href="/imprint">Impressum / Imprint</a><a href="/privacy">Privacy</a><a href="https://github.com/emreakca/firnkey/blob/main/LICENSE">License (GPL-3.0)</a><a href="https://github.com/emreakca/firnkey">GitHub</a></nav>
+    <p>This site uses no cookies, no analytics and no third-party resources.</p>
+  </footer>
+</body>
+</html>

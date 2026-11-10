@@ -38,7 +38,8 @@
     "compat": "node --env-file-if-exists=.env.local scripts/compat.mjs",
     "test:live": "node --env-file=.env.local node_modules/vitest/vitest.mjs run tests/server.compat.test.ts",
     "audit:release": "node scripts/audit.mjs",
-    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm check:dist && pnpm check:size && pnpm build:firefox"
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm check:dist && pnpm check:size && pnpm build:firefox",
+    "deploy:site": "grep -rlF \"[[\" site --include=*.html && echo \"Fill in the [[...]] placeholders in site/ first.\" && exit 1 || (pnpm dlx wrangler@4 deploy && pnpm dlx wrangler@4 deploy -c wrangler.redirect.jsonc)"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1",

@@ -1,0 +1,9 @@
+// Static one-pager on Cloudflare Workers (no Worker script, assets only). Deploy: pnpm deploy:site
+{
+  "name": "firnkey",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./site" },
+  "routes": [{ "pattern": "www.firnkey.com", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
+}
