@@ -1,0 +1,1974 @@
+{
+  "languageCode": {
+    "message": "uk",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Менеджер паролів для вашого власного сервера"
+  },
+  "starting": {
+    "message": "Запуск"
+  },
+  "connectYourServer": {
+    "message": "Підключіть свій сервер"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey запитує доступ лише до сервера, який ви оберете."
+  },
+  "serverUrl": {
+    "message": "URL сервера"
+  },
+  "verifyServer": {
+    "message": "Перевірити сервер"
+  },
+  "signIn": {
+    "message": "Увійти"
+  },
+  "change": {
+    "message": "Змінити"
+  },
+  "email": {
+    "message": "Ел. пошта"
+  },
+  "masterPassword": {
+    "message": "Головний пароль"
+  },
+  "twoStepLogin": {
+    "message": "Двоетапний вхід"
+  },
+  "method": {
+    "message": "Спосіб"
+  },
+  "sendEmailCode": {
+    "message": "Надіслати код на ел. пошту"
+  },
+  "verificationCode": {
+    "message": "Код підтвердження"
+  },
+  "rememberThisDevice": {
+    "message": "Запам'ятати цей пристрій"
+  },
+  "newDeviceVerification": {
+    "message": "Підтвердження нового пристрою"
+  },
+  "deviceVerificationHint": {
+    "message": "Введіть код підтвердження, надісланий вашим сервером."
+  },
+  "deviceVerificationCode": {
+    "message": "Код підтвердження пристрою"
+  },
+  "signInAndSync": {
+    "message": "Увійти й синхронізувати"
+  },
+  "vaultLocked": {
+    "message": "Сховище заблоковано"
+  },
+  "unlock": {
+    "message": "Розблокувати"
+  },
+  "unlockWithBiometrics": {
+    "message": "Розблокувати з Touch ID / біометрією"
+  },
+  "logOut": {
+    "message": "Вийти"
+  },
+  "allItems": {
+    "message": "Усі елементи"
+  },
+  "noMatchingItems": {
+    "message": "Відповідних елементів немає."
+  },
+  "viewAll": {
+    "message": "Показати всі"
+  },
+  "authenticatorEmpty": {
+    "message": "Ключів автентифікатора ще немає. Оберіть «Новий», щоб сканувати QR-код або вставити ключ."
+  },
+  "importOrExportKeys": {
+    "message": "Імпорт або експорт ключів"
+  },
+  "scanQrOnPage": {
+    "message": "Сканувати QR-код на цій сторінці"
+  },
+  "saveTo": {
+    "message": "Зберегти в"
+  },
+  "newLogin": {
+    "message": "Новий логін"
+  },
+  "key": {
+    "message": "Ключ"
+  },
+  "name": {
+    "message": "Назва"
+  },
+  "nicknameOptional": {
+    "message": "Псевдонім (необов'язково)"
+  },
+  "account": {
+    "message": "Обліковий запис"
+  },
+  "website": {
+    "message": "Вебсайт"
+  },
+  "issuer": {
+    "message": "Видавець"
+  },
+  "advanced": {
+    "message": "Додатково"
+  },
+  "algorithm": {
+    "message": "Алгоритм"
+  },
+  "digits": {
+    "message": "Цифри"
+  },
+  "periodSeconds": {
+    "message": "Період (с)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Більшість сервісів використовує SHA-1, 6 цифр і 30 секунд. Ключі Steam (видавець Steam) завжди дають коди з 5 символів."
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "import": {
+    "message": "Імпорт"
+  },
+  "keysImportHint": {
+    "message": "По одному посиланню otpauth://totp/ у рядку, як їх експортують застосунки-автентифікатори. Кожен новий ключ стає логіном."
+  },
+  "chooseFile": {
+    "message": "Вибрати файл"
+  },
+  "checkList": {
+    "message": "Перевірити список"
+  },
+  "export": {
+    "message": "Експорт"
+  },
+  "keysExportHint": {
+    "message": "Зберігає кожен ключ як посилання otpauth:// у текстовий файл. Будь-хто з цим файлом може отримувати ваші коди, тож видаліть його після імпорту."
+  },
+  "exportKeys": {
+    "message": "Експортувати ключі"
+  },
+  "sendIntro": {
+    "message": "Поділіться текстом або файлом через наскрізно зашифроване посилання, яке видаляється само."
+  },
+  "sendEmpty": {
+    "message": "Send ще немає. Оберіть «Новий», щоб поділитися текстом або файлом."
+  },
+  "text": {
+    "message": "Текст"
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "sendHideText": {
+    "message": "Приховати текст, доки одержувач його не відкриє"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Файл не вибрано · не більше 25 МБ"
+  },
+  "deleteAfter": {
+    "message": "Видалити через"
+  },
+  "days1": {
+    "message": "1 день"
+  },
+  "days2": {
+    "message": "2 дні"
+  },
+  "days3": {
+    "message": "3 дні"
+  },
+  "days7": {
+    "message": "7 днів"
+  },
+  "days14": {
+    "message": "14 днів"
+  },
+  "days30": {
+    "message": "30 днів"
+  },
+  "options": {
+    "message": "Параметри"
+  },
+  "passwordOptional": {
+    "message": "Пароль (необов'язково)"
+  },
+  "maximumViewsOptional": {
+    "message": "Максимум переглядів (необов'язково)"
+  },
+  "createAndCopyLink": {
+    "message": "Створити й скопіювати посилання"
+  },
+  "passwordGenerator": {
+    "message": "Генератор паролів"
+  },
+  "generatorHint": {
+    "message": "Створюється локально криптографічним генератором випадкових чисел браузера."
+  },
+  "password": {
+    "message": "Пароль"
+  },
+  "passphrase": {
+    "message": "Парольна фраза"
+  },
+  "username": {
+    "message": "Ім'я користувача"
+  },
+  "length": {
+    "message": "Довжина"
+  },
+  "uppercase": {
+    "message": "Великі літери"
+  },
+  "lowercase": {
+    "message": "Малі літери"
+  },
+  "numbers": {
+    "message": "Цифри"
+  },
+  "symbols": {
+    "message": "Символи"
+  },
+  "words": {
+    "message": "Слова"
+  },
+  "wordSeparator": {
+    "message": "Роздільник слів"
+  },
+  "capitalize": {
+    "message": "З великої літери"
+  },
+  "includeNumber": {
+    "message": "Додати цифру"
+  },
+  "type": {
+    "message": "Тип"
+  },
+  "randomWord": {
+    "message": "Випадкове слово"
+  },
+  "plusAddressedEmail": {
+    "message": "Ел. пошта з суфіксом +"
+  },
+  "catchAllEmail": {
+    "message": "Ел. пошта catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Поштовий псевдонім з переадресацією"
+  },
+  "forwardingService": {
+    "message": "Сервіс переадресації"
+  },
+  "apiKey": {
+    "message": "Ключ API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Зберігається після першого використання; залиште порожнім, щоб залишити його"
+  },
+  "aliasDomain": {
+    "message": "Домен псевдоніма"
+  },
+  "createAlias": {
+    "message": "Створити псевдонім"
+  },
+  "creatingAlias": {
+    "message": "Створення псевдоніма…"
+  },
+  "aliasCreated": {
+    "message": "Псевдонім створено"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey потрібен доступ до сервісу переадресації, щоб створити псевдонім."
+  },
+  "yourEmail": {
+    "message": "Ваша ел. пошта"
+  },
+  "yourCatchAllDomain": {
+    "message": "Ваш домен catch-all"
+  },
+  "generateAnother": {
+    "message": "Створити інший"
+  },
+  "useInNewLogin": {
+    "message": "Використати в новому логіні"
+  },
+  "security": {
+    "message": "Безпека"
+  },
+  "securityGroupHint": {
+    "message": "Блокування, біометрія, буфер обміну"
+  },
+  "autofillSaving": {
+    "message": "Автозаповнення і збереження"
+  },
+  "autofillGroupHint": {
+    "message": "Інтеграція з сайтами, пропозиції зберегти, виключені домени"
+  },
+  "vault": {
+    "message": "Сховище"
+  },
+  "vaultGroupHint": {
+    "message": "Теки, вкладка «Автентифікатор»"
+  },
+  "importExport": {
+    "message": "Імпорт і експорт"
+  },
+  "transferGroupHint": {
+    "message": "Перенесіть сховище з іншого менеджера паролів або до нього"
+  },
+  "accountSync": {
+    "message": "Обліковий запис і синхронізація"
+  },
+  "accountGroupHint": {
+    "message": "Облікові записи, синхронізація наживо, вихід"
+  },
+  "lockVault": {
+    "message": "Заблокувати сховище"
+  },
+  "after1Minute": {
+    "message": "Через 1 хвилину"
+  },
+  "after5Minutes": {
+    "message": "Через 5 хвилин"
+  },
+  "after15Minutes": {
+    "message": "Через 15 хвилин"
+  },
+  "after30Minutes": {
+    "message": "Через 30 хвилин"
+  },
+  "after1Hour": {
+    "message": "Через 1 годину"
+  },
+  "after2Hours": {
+    "message": "Через 2 години"
+  },
+  "after4Hours": {
+    "message": "Через 4 години"
+  },
+  "after8Hours": {
+    "message": "Через 8 годин"
+  },
+  "after24Hours": {
+    "message": "Через 24 години"
+  },
+  "whenTheComputerLocks": {
+    "message": "Під час блокування комп'ютера"
+  },
+  "whenBrowserCloses": {
+    "message": "Під час закриття браузера"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Не блокувати до виходу"
+  },
+  "untilLogoutHint": {
+    "message": "«До виходу» шифрує сеанс для цього профілю браузера, але менш безпечно на спільному комп'ютері."
+  },
+  "lockNow": {
+    "message": "Заблокувати зараз"
+  },
+  "clearCopiedSecrets": {
+    "message": "Очищати скопійовані секрети"
+  },
+  "after10Seconds": {
+    "message": "Через 10 секунд"
+  },
+  "after20Seconds": {
+    "message": "Через 20 секунд"
+  },
+  "after30Seconds": {
+    "message": "Через 30 секунд"
+  },
+  "after2Minutes": {
+    "message": "Через 2 хвилини"
+  },
+  "never": {
+    "message": "Ніколи"
+  },
+  "clipboardOwnOnly": {
+    "message": "Очищати лише те, що скопіював Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Потрібен дозвіл на читання буфера обміну, щоб не чіпати текст, скопійований деінде."
+  },
+  "websiteIntegration": {
+    "message": "Інтеграція з сайтами"
+  },
+  "websiteIntegrationHint": {
+    "message": "Підказки автозаповнення і пропозиції зберегти."
+  },
+  "enable": {
+    "message": "Увімкнути"
+  },
+  "fillSignInDialogs": {
+    "message": "Заповнювати вікна входу (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Відповідає на вікно входу браузера, коли підходить рівно один незахищений логін."
+  },
+  "savePrompts": {
+    "message": "Пропозиції зберегти"
+  },
+  "askToAddLogin": {
+    "message": "Пропонувати додати логін"
+  },
+  "askToUpdateLogin": {
+    "message": "Пропонувати оновити наявний логін"
+  },
+  "askPasskeys": {
+    "message": "Пропонувати зберігати й використовувати ключі доступу"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Закривати пропозиції зберегти через (секунд)"
+  },
+  "excludedDomains": {
+    "message": "Виключені домени"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey не пропонуватиме, не заповнюватиме й не зберігатиме облікові дані на цих доменах."
+  },
+  "add": {
+    "message": "Додати"
+  },
+  "folders": {
+    "message": "Теки"
+  },
+  "foldersHint": {
+    "message": "Під час видалення теки її елементи зберігаються й переходять до «Без теки»."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Показувати вкладку «Автентифікатор»"
+  },
+  "authenticatorTabHint": {
+    "message": "Коди підтвердження для ваших логінів наживо. Додавайте ключі QR-кодом, вручну або з файлу."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Показувати лише коди цього сайту, якщо вони є"
+  },
+  "vaultImportHint": {
+    "message": "Експорт Bitwarden у JSON (без шифрування або захищений паролем), експорт 1Password у .1pux або CSV-файл із Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox чи Safari. Елементи потраплять до вашого особистого сховища."
+  },
+  "noFileChosen": {
+    "message": "Файл не вибрано"
+  },
+  "filePassword": {
+    "message": "Пароль файлу"
+  },
+  "checkFile": {
+    "message": "Перевірити файл"
+  },
+  "format": {
+    "message": "Формат"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, захищений паролем файлу"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON без шифрування"
+  },
+  "filePasswordHint": {
+    "message": "Потрібен для повторного імпорту файлу. Firnkey не зможе його відновити."
+  },
+  "unencryptedExportWarning": {
+    "message": "Будь-хто з незашифрованим файлом може прочитати всі паролі в ньому. Видаліть його після імпорту."
+  },
+  "exportScopeHint": {
+    "message": "Експортує ваші особисті елементи. Елементи організацій залишаються в організації."
+  },
+  "exportVault": {
+    "message": "Експортувати сховище"
+  },
+  "liveSync": {
+    "message": "Синхронізація наживо"
+  },
+  "liveSyncHint": {
+    "message": "Одразу отримує зміни з вашого сервера. Якщо вимкнена, перевіряє раз на хвилину й використовує менше пам'яті."
+  },
+  "syncNow": {
+    "message": "Синхронізувати зараз"
+  },
+  "addAccount": {
+    "message": "Додати обліковий запис"
+  },
+  "repromptHint": {
+    "message": "Щоб використати захищені поля цього елемента, потрібен головний пароль."
+  },
+  "unlockProtectedFields": {
+    "message": "Розблокувати захищені поля"
+  },
+  "show": {
+    "message": "Показати"
+  },
+  "addAttachment": {
+    "message": "Додати вкладення"
+  },
+  "fillOnThisPage": {
+    "message": "Заповнити на цій сторінці"
+  },
+  "edit": {
+    "message": "Редагувати"
+  },
+  "moveToTrash": {
+    "message": "Перемістити в кошик"
+  },
+  "addLogin": {
+    "message": "Додати логін"
+  },
+  "login": {
+    "message": "Логін"
+  },
+  "card": {
+    "message": "Картка"
+  },
+  "identity": {
+    "message": "Особа"
+  },
+  "secureNote": {
+    "message": "Захищена нотатка"
+  },
+  "folder": {
+    "message": "Тека"
+  },
+  "noFolder": {
+    "message": "Без теки"
+  },
+  "owner": {
+    "message": "Власник"
+  },
+  "myVault": {
+    "message": "Моє сховище"
+  },
+  "moveToOrganizationHint": {
+    "message": "Переміщення до організації тут не можна скасувати; після цього елемент належить організації."
+  },
+  "generate": {
+    "message": "Створити"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Ключ автентифікатора (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Сканувати QR"
+  },
+  "notes": {
+    "message": "Нотатки"
+  },
+  "favorite": {
+    "message": "Обране"
+  },
+  "authenticator": {
+    "message": "Автентифікатор"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Генератор"
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "openSettings": {
+    "message": "Відкрити налаштування"
+  },
+  "searchVault": {
+    "message": "Пошук у сховищі"
+  },
+  "keyOrTotpLink": {
+    "message": "Ключ Base32 або посилання otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Типово — видавець"
+  },
+  "shownInsteadOfThe": {
+    "message": "Показується замість назви"
+  },
+  "keysToImport": {
+    "message": "Ключі для імпорту"
+  },
+  "whatToSend": {
+    "message": "Що надіслати"
+  },
+  "whatToGenerate": {
+    "message": "Що створити"
+  },
+  "generatedValue": {
+    "message": "Створене значення"
+  },
+  "copy": {
+    "message": "Копіювати"
+  },
+  "copyGeneratedValue": {
+    "message": "Копіювати створене значення"
+  },
+  "domainToExclude": {
+    "message": "Домен для виключення"
+  },
+  "newFolder": {
+    "message": "Нова тека"
+  },
+  "newFolderName": {
+    "message": "Назва нової теки"
+  },
+  "copyUsername": {
+    "message": "Копіювати ім'я користувача"
+  },
+  "copyPassword": {
+    "message": "Копіювати пароль"
+  },
+  "copyVerificationCode": {
+    "message": "Копіювати код підтвердження"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Ключ Base32 або посилання otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Основна навігація"
+  },
+  "firnkeyPasskey": {
+    "message": "Ключ доступу Firnkey"
+  },
+  "passkey": {
+    "message": "Ключ доступу"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Розблокуйте Firnkey, щоб продовжити."
+  },
+  "verifyWithBiometrics": {
+    "message": "Підтвердити з Touch ID / біометрією"
+  },
+  "continue": {
+    "message": "Продовжити"
+  },
+  "useAnotherDevice": {
+    "message": "Використати інший пристрій"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "sshKey": {
+    "message": "SSH-ключ"
+  },
+  "cardholderName": {
+    "message": "Ім'я власника картки"
+  },
+  "brand": {
+    "message": "Платіжна система"
+  },
+  "number": {
+    "message": "Номер"
+  },
+  "expirationMonth": {
+    "message": "Місяць закінчення"
+  },
+  "expirationYear": {
+    "message": "Рік закінчення"
+  },
+  "securityCode": {
+    "message": "Код безпеки"
+  },
+  "title": {
+    "message": "Звертання"
+  },
+  "firstName": {
+    "message": "Ім'я"
+  },
+  "middleName": {
+    "message": "По батькові"
+  },
+  "lastName": {
+    "message": "Прізвище"
+  },
+  "company": {
+    "message": "Компанія"
+  },
+  "phone": {
+    "message": "Телефон"
+  },
+  "address1": {
+    "message": "Адреса 1"
+  },
+  "address2": {
+    "message": "Адреса 2"
+  },
+  "address3": {
+    "message": "Адреса 3"
+  },
+  "city": {
+    "message": "Місто / населений пункт"
+  },
+  "stateProvince": {
+    "message": "Область / регіон"
+  },
+  "postalCode": {
+    "message": "Поштовий індекс"
+  },
+  "country": {
+    "message": "Країна"
+  },
+  "ssn": {
+    "message": "РНОКПП / номер соцстрахування"
+  },
+  "passportNumber": {
+    "message": "Номер паспорта"
+  },
+  "licenseNumber": {
+    "message": "Номер посвідчення водія"
+  },
+  "addSecureNote": {
+    "message": "Додати захищену нотатку"
+  },
+  "addCard": {
+    "message": "Додати картку"
+  },
+  "addIdentity": {
+    "message": "Додати особу"
+  },
+  "addSshKey": {
+    "message": "Додати SSH-ключ"
+  },
+  "editLogin": {
+    "message": "Редагувати логін"
+  },
+  "editSecureNote": {
+    "message": "Редагувати захищену нотатку"
+  },
+  "editCard": {
+    "message": "Редагувати картку"
+  },
+  "editIdentity": {
+    "message": "Редагувати особу"
+  },
+  "editSshKey": {
+    "message": "Редагувати SSH-ключ"
+  },
+  "passphraseGenerator": {
+    "message": "Генератор парольних фраз"
+  },
+  "usernameGenerator": {
+    "message": "Генератор імен користувача"
+  },
+  "generatedPasswordCopied": {
+    "message": "Створений пароль скопійовано."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Створену парольну фразу скопійовано."
+  },
+  "generatedUsernameCopied": {
+    "message": "Створене ім'я користувача скопійовано."
+  },
+  "removeKey": {
+    "message": "Видалити ключ"
+  },
+  "biometricOff": {
+    "message": "Біометричне розблокування вимкнено."
+  },
+  "usernameCopied": {
+    "message": "Ім'я користувача скопійовано."
+  },
+  "passwordCopied": {
+    "message": "Пароль скопійовано."
+  },
+  "hide": {
+    "message": "Приховати"
+  },
+  "movedToTrash": {
+    "message": "Переміщено в кошик."
+  },
+  "websiteAccessDenied": {
+    "message": "Доступ до сайтів не надано."
+  },
+  "websiteIntegrationOn": {
+    "message": "Автозаповнення і пропозиції зберегти увімкнено."
+  },
+  "websiteIntegrationOff": {
+    "message": "Підказки на сайтах вимкнено."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Для заповнення вікон входу потрібен дозвіл бачити їх на сайтах."
+  },
+  "preferencesUpdated": {
+    "message": "Налаштування оновлено."
+  },
+  "invalidDomain": {
+    "message": "Введіть коректний домен, наприклад example.com."
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "enabled": {
+    "message": "Увімкнено"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Вимкнути інтеграцію з сайтами"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Увімкнути інтеграцію з сайтами"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Непідтримуваний час блокування."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Непідтримуваний час буфера обміну."
+  },
+  "clipboardClearsAfter": {
+    "message": "Скопійовані секрети буде видалено через $1."
+  },
+  "clipboardKeeps": {
+    "message": "Скопійовані секрети залишаться в буфері обміну."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey очистить буфер обміну, лише якщо в ньому досі те, що скопіював Firnkey."
+  },
+  "seconds_one": {
+    "message": "$1 секунду"
+  },
+  "seconds_other": {
+    "message": "$1 секунди"
+  },
+  "seconds_few": {
+    "message": "$1 секунди"
+  },
+  "seconds_many": {
+    "message": "$1 секунд"
+  },
+  "minutes_one": {
+    "message": "$1 хвилину"
+  },
+  "minutes_other": {
+    "message": "$1 хвилини"
+  },
+  "minutes_few": {
+    "message": "$1 хвилини"
+  },
+  "minutes_many": {
+    "message": "$1 хвилин"
+  },
+  "hours_one": {
+    "message": "$1 годину"
+  },
+  "hours_other": {
+    "message": "$1 години"
+  },
+  "hours_few": {
+    "message": "$1 години"
+  },
+  "hours_many": {
+    "message": "$1 годин"
+  },
+  "lockOnComputerLock": {
+    "message": "Сховище заблокується під час блокування комп'ютера або закриття браузера."
+  },
+  "lockOnLogout": {
+    "message": "Сховище залишатиметься розблокованим у цьому браузері, доки ви його не заблокуєте або не вийдете."
+  },
+  "lockOnBrowserClose": {
+    "message": "Сховище залишатиметься розблокованим до закриття браузера."
+  },
+  "lockAfterInactivity": {
+    "message": "Сховище заблокується, якщо $1 не буде активності."
+  },
+  "waitingForVerification": {
+    "message": "Очікування підтвердження…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Розблокуйте сховище, перш ніж вмикати біометричне розблокування."
+  },
+  "noPasskeyCreated": {
+    "message": "Ключ доступу не створено."
+  },
+  "biometricOn": {
+    "message": "Біометричне розблокування увімкнено."
+  },
+  "biometricUnavailable": {
+    "message": "Біометричне розблокування зараз недоступне."
+  },
+  "vaultUnlocked_one": {
+    "message": "Сховище розблоковано: $1 елемент."
+  },
+  "vaultUnlocked_other": {
+    "message": "Сховище розблоковано: $1 елемента."
+  },
+  "vaultUnlocked_few": {
+    "message": "Сховище розблоковано: $1 елементи."
+  },
+  "vaultUnlocked_many": {
+    "message": "Сховище розблоковано: $1 елементів."
+  },
+  "verificationCancelled": {
+    "message": "Підтвердження скасовано або час очікування минув."
+  },
+  "notConnected": {
+    "message": "Не підключено"
+  },
+  "connectAServer": {
+    "message": "Підключити сервер"
+  },
+  "signedOut": {
+    "message": "Ви вийшли"
+  },
+  "itemCount_one": {
+    "message": "$1 елемент"
+  },
+  "itemCount_other": {
+    "message": "$1 елемента"
+  },
+  "itemCount_few": {
+    "message": "$1 елементи"
+  },
+  "itemCount_many": {
+    "message": "$1 елементів"
+  },
+  "locked": {
+    "message": "Заблоковано"
+  },
+  "unlocked": {
+    "message": "Розблоковано"
+  },
+  "settingsFor": {
+    "message": "Налаштування для $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · спершу підказки для цієї сторінки"
+  },
+  "itemTotal_one": {
+    "message": "$1 елемент усього"
+  },
+  "itemTotal_other": {
+    "message": "$1 елемента усього"
+  },
+  "itemTotal_few": {
+    "message": "$1 елементи усього"
+  },
+  "itemTotal_many": {
+    "message": "$1 елементів усього"
+  },
+  "skippedItems_one": {
+    "message": "Пропущено $1 непідтримуваний або пошкоджений елемент."
+  },
+  "skippedItems_other": {
+    "message": "Пропущено $1 непідтримуваного або пошкодженого елемента."
+  },
+  "skippedItems_few": {
+    "message": "Пропущено $1 непідтримувані або пошкоджені елементи."
+  },
+  "skippedItems_many": {
+    "message": "Пропущено $1 непідтримуваних або пошкоджених елементів."
+  },
+  "otherAccounts": {
+    "message": "Інші облікові записи"
+  },
+  "switch": {
+    "message": "Перемкнути"
+  },
+  "removeAccountTitle": {
+    "message": "Видалити $1 з Firnkey у цьому браузері"
+  },
+  "switchedTo": {
+    "message": "Перемкнено на $1."
+  },
+  "accountRemoved": {
+    "message": "$1 видалено з цього браузера."
+  },
+  "addAccountHint": {
+    "message": "Увійдіть до іншого облікового запису. Поточний збережеться нижче заблокованим."
+  },
+  "verifying": {
+    "message": "Перевірка…"
+  },
+  "serverPermissionDenied": {
+    "message": "Дозвіл для сервера не надано."
+  },
+  "signingIn": {
+    "message": "Вхід…"
+  },
+  "continueInNewWindow": {
+    "message": "Знову оберіть «Увійти», щоб продовжити в новому вікні."
+  },
+  "enterTwoStepCode": {
+    "message": "Введіть код двоетапного входу."
+  },
+  "unlocking": {
+    "message": "Розблокування…"
+  },
+  "trashHint": {
+    "message": "Відновіть елементи або видаліть їх назавжди."
+  },
+  "trashEmpty": {
+    "message": "Кошик порожній."
+  },
+  "autofillSuggestions": {
+    "message": "Підказки автозаповнення"
+  },
+  "otherResults": {
+    "message": "Інші результати"
+  },
+  "trash": {
+    "message": "Кошик"
+  },
+  "folderName": {
+    "message": "Назва теки"
+  },
+  "rename": {
+    "message": "Перейменувати"
+  },
+  "delete": {
+    "message": "Видалити"
+  },
+  "folderRenamed": {
+    "message": "Теку перейменовано."
+  },
+  "folderAdded": {
+    "message": "Теку додано."
+  },
+  "folderDeleted": {
+    "message": "Теку видалено. Її елементи тепер у «Без теки»."
+  },
+  "confirm": {
+    "message": "Підтвердити"
+  },
+  "matchesThisPage": {
+    "message": "Підходить для цієї сторінки"
+  },
+  "restore": {
+    "message": "Відновити"
+  },
+  "itemRestored": {
+    "message": "Елемент відновлено."
+  },
+  "deleteForever": {
+    "message": "Видалити назавжди"
+  },
+  "itemDeletedForever": {
+    "message": "Елемент видалено назавжди."
+  },
+  "open": {
+    "message": "Відкрити"
+  },
+  "fill": {
+    "message": "Заповнити"
+  },
+  "openWebsite": {
+    "message": "Відкрити сайт"
+  },
+  "cardNumber": {
+    "message": "Номер картки"
+  },
+  "note": {
+    "message": "Нотатка"
+  },
+  "publicKey": {
+    "message": "Відкритий ключ"
+  },
+  "copyPublicKey": {
+    "message": "Копіювати відкритий ключ"
+  },
+  "copyCardNumber": {
+    "message": "Копіювати номер картки"
+  },
+  "copyNote": {
+    "message": "Копіювати нотатку"
+  },
+  "copySecurityCode": {
+    "message": "Копіювати код безпеки"
+  },
+  "copyPrivateKey": {
+    "message": "Копіювати закритий ключ"
+  },
+  "privateKey": {
+    "message": "Закритий ключ"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Підтвердьте головний пароль перед видаленням цього елемента."
+  },
+  "moreActions": {
+    "message": "Інші дії"
+  },
+  "noWebAddress": {
+    "message": "У цього логіна немає вебадреси."
+  },
+  "noWebsiteSaved": {
+    "message": "Сайт не збережено"
+  },
+  "loading": {
+    "message": "Завантаження…"
+  },
+  "expiration": {
+    "message": "Термін дії"
+  },
+  "address": {
+    "message": "Адреса"
+  },
+  "fingerprint": {
+    "message": "Відбиток"
+  },
+  "customField": {
+    "message": "Користувацьке поле"
+  },
+  "passwordHistory": {
+    "message": "Історія паролів ($1)"
+  },
+  "oldPassword": {
+    "message": "Старий пароль"
+  },
+  "organization": {
+    "message": "Організація"
+  },
+  "attachmentsCount": {
+    "message": "Вкладення ($1)"
+  },
+  "downloadFile": {
+    "message": "Завантажити $1"
+  },
+  "deleteFile": {
+    "message": "Видалити $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 завантажено."
+  },
+  "fileTooLarge25": {
+    "message": "Файл завеликий (не більше 25 МБ)."
+  },
+  "fileEmpty": {
+    "message": "Файл порожній."
+  },
+  "uploadingFile": {
+    "message": "Шифрування й вивантаження $1…"
+  },
+  "fileAttached": {
+    "message": "$1 прикріплено."
+  },
+  "fileDeleted": {
+    "message": "$1 видалено."
+  },
+  "copyLink": {
+    "message": "Копіювати посилання"
+  },
+  "viewsOf": {
+    "message": "Переглядів: $1 з $2"
+  },
+  "views_one": {
+    "message": "$1 перегляд"
+  },
+  "views_other": {
+    "message": "$1 перегляду"
+  },
+  "views_few": {
+    "message": "$1 перегляди"
+  },
+  "views_many": {
+    "message": "$1 переглядів"
+  },
+  "deletesOn": {
+    "message": "Видалення $1"
+  },
+  "disabled": {
+    "message": "Вимкнено"
+  },
+  "sendLinkCopied": {
+    "message": "Посилання на Send скопійовано."
+  },
+  "deleteSendTitle": {
+    "message": "Видалити $1; посилання перестане працювати"
+  },
+  "sendDeleted": {
+    "message": "$1 видалено. Посилання більше не працює."
+  },
+  "encrypting": {
+    "message": "Шифрування…"
+  },
+  "chooseFileToSend": {
+    "message": "Виберіть файл для надсилання."
+  },
+  "sendCreatedCopied": {
+    "message": "Send створено. Посилання скопійовано."
+  },
+  "sendCreatedSync": {
+    "message": "Send створено. Синхронізуйте й скопіюйте посилання зі списку."
+  },
+  "fileTooLarge10": {
+    "message": "Файл завеликий (не більше 10 МБ)."
+  },
+  "importing": {
+    "message": "Імпорт…"
+  },
+  "checking": {
+    "message": "Перевірка…"
+  },
+  "importedItems": {
+    "message": "Імпортовано: $1."
+  },
+  "importItems": {
+    "message": "Імпортувати: $1"
+  },
+  "foundItems": {
+    "message": "Знайдено: $1. Їх буде додано до сховища; нічого не замінюється."
+  },
+  "foundItemsInFolders": {
+    "message": "Знайдено: $1 у $2. Їх буде додано до сховища; нічого не замінюється."
+  },
+  "folderCount_one": {
+    "message": "$1 тека"
+  },
+  "folderCount_other": {
+    "message": "$1 теки"
+  },
+  "folderCount_few": {
+    "message": "$1 теки"
+  },
+  "folderCount_many": {
+    "message": "$1 тек"
+  },
+  "exporting": {
+    "message": "Експорт…"
+  },
+  "vaultExportedPlain": {
+    "message": "Сховище експортовано. Видаліть файл після імпорту."
+  },
+  "vaultExportedProtected": {
+    "message": "Сховище експортовано. Зберігайте пароль файлу в надійному місці."
+  },
+  "createdOn": {
+    "message": "Створено $1"
+  },
+  "lastEdited": {
+    "message": "Змінено $1"
+  },
+  "itemHistory": {
+    "message": "Історія елемента"
+  },
+  "loginCredentials": {
+    "message": "Дані для входу"
+  },
+  "itemDetails": {
+    "message": "Відомості про елемент"
+  },
+  "autofillOptions": {
+    "message": "Параметри автозаповнення"
+  },
+  "passwordChangedOn": {
+    "message": "Змінено $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Видалити цей ключ доступу з логіна"
+  },
+  "passkeyRemoved": {
+    "message": "Ключ доступу видалено."
+  },
+  "usedUntil": {
+    "message": "Використовувався до $1"
+  },
+  "earlierPassword": {
+    "message": "Попередній пароль"
+  },
+  "fieldCopied": {
+    "message": "$1: скопійовано."
+  },
+  "copyField": {
+    "message": "Копіювати: $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Підтвердьте головний пароль перед копіюванням із цього елемента."
+  },
+  "codeCopied": {
+    "message": "Код підтвердження скопійовано."
+  },
+  "viewOnlyItem": {
+    "message": "Ваша організація дозволяє переглядати цей елемент, але не змінювати його."
+  },
+  "confirmBeforeEditing": {
+    "message": "Підтвердьте головний пароль перед редагуванням цього елемента."
+  },
+  "monthPlaceholder": {
+    "message": "ММ"
+  },
+  "yearPlaceholder": {
+    "message": "РРРР"
+  },
+  "saving": {
+    "message": "Збереження…"
+  },
+  "loginUpdated": {
+    "message": "Логін оновлено."
+  },
+  "loginAdded": {
+    "message": "Логін додано."
+  },
+  "itemUpdated": {
+    "message": "$1: оновлено."
+  },
+  "itemAdded": {
+    "message": "$1: додано."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Захищені поля розблоковано на 60 секунд."
+  },
+  "unavailable": {
+    "message": "Недоступно"
+  },
+  "secondsLeft_one": {
+    "message": "Лишилася $1 секунда"
+  },
+  "secondsLeft_other": {
+    "message": "Лишилося $1 секунди"
+  },
+  "secondsLeft_few": {
+    "message": "Лишилося $1 секунди"
+  },
+  "secondsLeft_many": {
+    "message": "Лишилося $1 секунд"
+  },
+  "codesForSite": {
+    "message": "Коди для цього сайту · усього $1"
+  },
+  "codeCount_one": {
+    "message": "$1 код"
+  },
+  "codeCount_other": {
+    "message": "$1 коду"
+  },
+  "codeCount_few": {
+    "message": "$1 коди"
+  },
+  "codeCount_many": {
+    "message": "$1 кодів"
+  },
+  "thisWebsite": {
+    "message": "Цей сайт"
+  },
+  "openToConfirm": {
+    "message": "Відкрити для підтвердження головного пароля"
+  },
+  "protected": {
+    "message": "Захищено"
+  },
+  "fillIntoPage": {
+    "message": "Заповнити на цій сторінці"
+  },
+  "editKey": {
+    "message": "Редагувати ключ"
+  },
+  "codeFilled": {
+    "message": "Код для $1 заповнено."
+  },
+  "confirmThenEditKey": {
+    "message": "Підтвердьте головний пароль, потім змініть ключ на вкладці «Автентифікатор»."
+  },
+  "qrReadFirstCheck": {
+    "message": "Прочитано перший із кількох QR-кодів. Перевірте дані й збережіть."
+  },
+  "qrReadCheck": {
+    "message": "QR-код прочитано. Перевірте дані й збережіть."
+  },
+  "qrReadFirstSave": {
+    "message": "Прочитано перший із кількох QR-кодів. Збережіть логін, щоб зберегти ключ."
+  },
+  "qrReadSave": {
+    "message": "QR-код прочитано. Збережіть логін, щоб зберегти ключ."
+  },
+  "qrUnsupported": {
+    "message": "Цей браузер не вміє читати QR-коди. Вставте ключ або посилання otpauth:// вручну."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey не бачить цю сторінку. Відкрийте сторінку з QR-кодом і спробуйте ще раз."
+  },
+  "qrNotFound": {
+    "message": "У видимій частині сторінки не знайдено QR-коду автентифікатора."
+  },
+  "qrInvalid": {
+    "message": "QR-код не є дійсним ключем автентифікатора на основі часу (TOTP)."
+  },
+  "keyAdded": {
+    "message": "Ключ автентифікатора додано."
+  },
+  "keyUpdated": {
+    "message": "Ключ автентифікатора оновлено."
+  },
+  "keyRemoved": {
+    "message": "Ключ автентифікатора видалено. Сам логін залишається у сховищі."
+  },
+  "fileTooLarge256": {
+    "message": "Файл завеликий (не більше 256 КБ)."
+  },
+  "pasteLinksFirst": {
+    "message": "Спершу вставте посилання otpauth:// або виберіть файл."
+  },
+  "keysImported_one": {
+    "message": "Імпортовано $1 ключ."
+  },
+  "keysImported_other": {
+    "message": "Імпортовано $1 ключа."
+  },
+  "keysImported_few": {
+    "message": "Імпортовано $1 ключі."
+  },
+  "keysImported_many": {
+    "message": "Імпортовано $1 ключів."
+  },
+  "new": {
+    "message": "Новий"
+  },
+  "duplicate": {
+    "message": "Дублікат"
+  },
+  "invalid": {
+    "message": "Недійсний"
+  },
+  "importNewKeys_one": {
+    "message": "Імпортувати $1 новий ключ"
+  },
+  "importNewKeys_other": {
+    "message": "Імпортувати $1 нового ключа"
+  },
+  "importNewKeys_few": {
+    "message": "Імпортувати $1 нові ключі"
+  },
+  "importNewKeys_many": {
+    "message": "Імпортувати $1 нових ключів"
+  },
+  "checkThenImport": {
+    "message": "Перевірте список, потім імпортуйте."
+  },
+  "nothingNewToImport": {
+    "message": "Нічого нового для імпорту."
+  },
+  "keysExported": {
+    "message": "Ключі експортовано. Видаліть файл після імпорту деінде."
+  },
+  "fieldsFilled_one": {
+    "message": "Заповнено $1 поле."
+  },
+  "fieldsFilled_other": {
+    "message": "Заповнено $1 поля."
+  },
+  "fieldsFilled_few": {
+    "message": "Заповнено $1 поля."
+  },
+  "fieldsFilled_many": {
+    "message": "Заповнено $1 полів."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Ім'я користувача і пароль заповнено."
+  },
+  "filledUsername": {
+    "message": "Ім'я користувача заповнено."
+  },
+  "filledPassword": {
+    "message": "Пароль заповнено."
+  },
+  "synced_one": {
+    "message": "Синхронізовано $1 елемент."
+  },
+  "synced_other": {
+    "message": "Синхронізовано $1 елемента."
+  },
+  "synced_few": {
+    "message": "Синхронізовано $1 елементи."
+  },
+  "synced_many": {
+    "message": "Синхронізовано $1 елементів."
+  },
+  "twoStepUnsupported": {
+    "message": "Цей обліковий запис потребує способу двоетапного входу, який ця версія не підтримує."
+  },
+  "sending": {
+    "message": "Надсилання…"
+  },
+  "emailCodeSent": {
+    "message": "Код підтвердження надіслано на ел. пошту."
+  },
+  "authenticatorApp": {
+    "message": "Застосунок-автентифікатор"
+  },
+  "securityKeyWebauthn": {
+    "message": "Ключ безпеки (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Код відновлення"
+  },
+  "twoFactorMethod": {
+    "message": "Спосіб $1"
+  },
+  "fieldEmpty": {
+    "message": "Це поле порожнє."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Буфер обміну очиститься через $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Фоновий процес розширення не відповів. Перезавантажте розширення."
+  },
+  "unexpectedResponse": {
+    "message": "Фоновий процес повернув неочікувану відповідь."
+  },
+  "newSend": {
+    "message": "Новий Send"
+  },
+  "item": {
+    "message": "Елемент"
+  },
+  "editItem": {
+    "message": "Редагувати елемент"
+  },
+  "newItem": {
+    "message": "Новий елемент"
+  },
+  "addKey": {
+    "message": "Додати ключ"
+  },
+  "serverVersion": {
+    "message": "$1 · сервер $2"
+  },
+  "unexpectedError": {
+    "message": "Неочікувана помилка розширення."
+  },
+  "passkeySuggestion": {
+    "message": "Увійти з ключем доступу, збереженим у Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Створити й заповнити пароль"
+  },
+  "suggestionsLabel": {
+    "message": "Підказки Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Закрити підказки автозаповнення"
+  },
+  "dismiss": {
+    "message": "Закрити"
+  },
+  "toggleSuggestions": {
+    "message": "Показати/приховати підказки Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Показати або приховати підказки Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Оновити наявний логін"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Зберегти логін у Firnkey"
+  },
+  "notNow": {
+    "message": "Не зараз"
+  },
+  "update": {
+    "message": "Оновити"
+  },
+  "loginSaved": {
+    "message": "Логін збережено."
+  },
+  "saveFailed": {
+    "message": "Firnkey не вдалося зберегти цей логін."
+  },
+  "savePasskey": {
+    "message": "Зберегти ключ доступу"
+  },
+  "signInWithPasskey": {
+    "message": "Увійти з ключем доступу"
+  },
+  "passkeyAlreadySaved": {
+    "message": "У Firnkey вже є ключ доступу для цього облікового запису на цьому сайті."
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "savePasskeyForAccount": {
+    "message": "Зберегти ключ доступу для $1 на $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Зберегти ключ доступу на $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Виберіть ключ доступу для $1."
+  },
+  "addTo": {
+    "message": "Додати до $1"
+  },
+  "somethingWentWrong": {
+    "message": "Щось пішло не так."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: скористайтеся ключем безпеки, щоб завершити вхід."
+  },
+  "fillLogin": {
+    "message": "Заповнити логін"
+  },
+  "extensionDescription": {
+    "message": "Легкий менеджер паролів з відкритим кодом для вашого власного сервера."
+  },
+  "fillLoginCommand": {
+    "message": "Заповнити відповідний логін на цій сторінці"
+  },
+  "copied": {
+    "message": "Скопійовано"
+  },
+  "generatorHistory": {
+    "message": "Історія генератора"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Тут з'являються паролі, які ви копіюєте або використовуєте з генератора, разом із сайтом, на якому ви були. Вони зберігаються зашифрованими в цьому браузері."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Без сайту · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Створений пароль"
+  },
+  "clearGeneratorHistory": {
+    "message": "Очистити історію генератора"
+  },
+  "generatorHistoryCleared": {
+    "message": "Історію генератора очищено."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey заповнив пароль для $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Заповнювати пароль на наступному кроці після вибору облікового запису"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Для входів, які спершу питають ім'я користувача. Лише обраний обліковий запис, на тому самому сайті, один раз."
+  },
+  "askToSaveForms": {
+    "message": "Пропонувати зберігати картки й адреси"
+  },
+  "generateSshKey": {
+    "message": "Створити новий ключ (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Створено новий SSH-ключ. Збережіть, щоб не втратити його."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Натисніть кнопку Firnkey на панелі інструментів, щоб завершити додавання."
+  },
+  "saveCardToFirnkey": {
+    "message": "Зберегти картку в Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Зберегти адресу в Firnkey?"
+  },
+  "clone": {
+    "message": "Клонувати"
+  },
+  "cloneName": {
+    "message": "$1 - копія"
+  },
+  "itemCloned": {
+    "message": "Елемент клоновано. Змініть копію нижче."
+  },
+  "fingerprintPhrase": {
+    "message": "Фраза відбитка"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Ті самі п'ять слів показуються у вебсховищі та застосунках Bitwarden. Порівняйте їх, коли хтось ділиться з вами організацією."
+  },
+  "matchDetection": {
+    "message": "Визначення збігу"
+  },
+  "matchDefault": {
+    "message": "Типово (домен)"
+  },
+  "matchDomain": {
+    "message": "Домен і його піддомени"
+  },
+  "matchHost": {
+    "message": "Хост (і порт)"
+  },
+  "matchStartsWith": {
+    "message": "Починається з"
+  },
+  "matchExact": {
+    "message": "Точний URL"
+  },
+  "matchRegex": {
+    "message": "Регулярний вираз"
+  },
+  "matchNever": {
+    "message": "Ніколи"
+  },
+  "archive": {
+    "message": "Архів"
+  },
+  "unarchive": {
+    "message": "Повернути з архіву"
+  },
+  "itemArchived": {
+    "message": "Елемент архівовано. Він більше не з'являється в автозаповненні й списку сховища."
+  },
+  "itemUnarchived": {
+    "message": "Елемент повернуто до сховища."
+  },
+  "archiveHint": {
+    "message": "Архівні елементи зберігаються, але ніколи не заповнюються й не пропонуються."
+  },
+  "archiveEmpty": {
+    "message": "В архіві нічого немає."
+  },
+  "archiveItem": {
+    "message": "В архів"
+  },
+  "generatorPolicyHint": {
+    "message": "Ваша організація вимагає деякі з цих налаштувань."
+  },
+  "pin": {
+    "message": "PIN-код"
+  },
+  "useMasterPassword": {
+    "message": "Використати головний пароль"
+  },
+  "unlockWithPin": {
+    "message": "Розблокувати PIN-кодом"
+  },
+  "newPin": {
+    "message": "Новий PIN-код (щонайменше 4 символи)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Зберігати розблокування PIN-кодом після перезапуску браузера"
+  },
+  "pinKeepHint": {
+    "message": "Вимк.: після перезапуску ви один раз розблоковуєте головним паролем. Увімк. менш безпечно: короткий PIN-код, збережений на цьому комп'ютері, може вгадати будь-хто, хто скопіює профіль браузера."
+  },
+  "setPin": {
+    "message": "Задати PIN-код"
+  },
+  "pinOn": {
+    "message": "Розблокування PIN-кодом увімкнено. П'ять неправильних PIN-кодів його вимикають."
+  },
+  "pinOff": {
+    "message": "Розблокування PIN-кодом вимкнено."
+  },
+  "passwordHealth": {
+    "message": "Надійність паролів"
+  },
+  "passwordHealthHint": {
+    "message": "Знаходить слабкі й повторювані паролі, а за увімкненої перевірки витоків — і скомпрометовані."
+  },
+  "checkBreaches": {
+    "message": "Перевіряти паролі за відомими витоками даних"
+  },
+  "checkBreachesHint": {
+    "message": "Після кожної синхронізації Firnkey питає Have I Been Pwned про пароль кожного логіна. Надсилаються лише перші 5 символів хешу пароля; сам пароль ніколи не залишає цей браузер."
+  },
+  "checkBreachesNow": {
+    "message": "Перевірити витоки зараз"
+  },
+  "checkingBreaches": {
+    "message": "Перевірка…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey потрібен доступ до api.pwnedpasswords.com для перевірки витоків."
+  },
+  "healthExposed_one": {
+    "message": "$1 скомпрометований"
+  },
+  "healthExposed_other": {
+    "message": "$1 скомпрометованого"
+  },
+  "healthExposed_few": {
+    "message": "$1 скомпрометовані"
+  },
+  "healthExposed_many": {
+    "message": "$1 скомпрометованих"
+  },
+  "healthReused_one": {
+    "message": "$1 повторюваний"
+  },
+  "healthReused_other": {
+    "message": "$1 повторюваного"
+  },
+  "healthReused_few": {
+    "message": "$1 повторювані"
+  },
+  "healthReused_many": {
+    "message": "$1 повторюваних"
+  },
+  "healthWeak_one": {
+    "message": "$1 слабкий"
+  },
+  "healthWeak_other": {
+    "message": "$1 слабкого"
+  },
+  "healthWeak_few": {
+    "message": "$1 слабкі"
+  },
+  "healthWeak_many": {
+    "message": "$1 слабких"
+  },
+  "healthNotChecked": {
+    "message": "$1 ще не перевірено на витоки"
+  },
+  "healthAllChecked": {
+    "message": "усі перевірено на витоки"
+  },
+  "exposedPasswords": {
+    "message": "Скомпрометовані паролі"
+  },
+  "reusedPasswords": {
+    "message": "Повторювані паролі"
+  },
+  "weakPasswords": {
+    "message": "Слабкі паролі"
+  },
+  "weakPassword": {
+    "message": "Слабкий"
+  },
+  "seenInBreaches_one": {
+    "message": "Знайдено в $2 витоку даних"
+  },
+  "seenInBreaches_other": {
+    "message": "Знайдено в $2 витоку даних"
+  },
+  "seenInBreaches_few": {
+    "message": "Знайдено в $2 витоках даних"
+  },
+  "seenInBreaches_many": {
+    "message": "Знайдено в $2 витоках даних"
+  },
+  "usedByLogins_one": {
+    "message": "Використовується в $1 логіні"
+  },
+  "usedByLogins_other": {
+    "message": "Використовується в $1 логіна"
+  },
+  "usedByLogins_few": {
+    "message": "Використовується в $1 логінах"
+  },
+  "usedByLogins_many": {
+    "message": "Використовується в $1 логінах"
+  },
+  "passwordInBreaches_one": {
+    "message": "Цей пароль траплявся в $2 витоку даних. Змініть його."
+  },
+  "passwordInBreaches_other": {
+    "message": "Цей пароль траплявся в $2 витоку даних. Змініть його."
+  },
+  "passwordInBreaches_few": {
+    "message": "Цей пароль траплявся в $2 витоках даних. Змініть його."
+  },
+  "passwordInBreaches_many": {
+    "message": "Цей пароль траплявся в $2 витоках даних. Змініть його."
+  },
+  "healthAllGood": {
+    "message": "Слабких, повторюваних чи скомпрометованих паролів не знайдено."
+  },
+  "autofillOnPageLoad": {
+    "message": "Автозаповнення під час завантаження сторінки"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Заповнює відповідний логін одразу після завантаження сторінки входу, без натискань. Потрібна інтеграція з сайтами. Зламана сторінка або прихована форма на відповідному сайті може прочитати пароль, тож використовуйте це лише на сайтах, яким довіряєте."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Типово для логінів"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Не заповнювати під час завантаження сторінки"
+  },
+  "useDefaultSetting": {
+    "message": "Використати типове налаштування"
+  },
+  "always": {
+    "message": "Завжди"
+  },
+  "loginWithDevice": {
+    "message": "Увійти з пристрою"
+  },
+  "signInWithSso": {
+    "message": "Увійти через SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Підтвердьте запит у застосунку або вебсховищі, де ви ввійшли. Переконайтеся, що там показано цю фразу:"
+  },
+  "ssoUnlockHint": {
+    "message": "Вхід через SSO виконано. Введіть головний пароль для розблокування."
+  },
+  "serverIcons": {
+    "message": "Показувати значки сайтів"
+  },
+  "serverIconsHint": {
+    "message": "Ваш сервер один раз завантажує значок кожного сайту й кешує його. Вимк.: лише значки, які вже є в браузері."
+  },
+  "waitingForApproval": {
+    "message": "Очікування підтвердження…"
+  },
+  "websites": {
+    "message": "Сайти"
+  },
+  "addWebsite": {
+    "message": "Додати сайт"
+  },
+  "removeWebsite": {
+    "message": "Видалити сайт"
+  },
+  "customFields": {
+    "message": "Користувацькі поля"
+  },
+  "fieldType": {
+    "message": "Тип поля"
+  },
+  "hiddenField": {
+    "message": "Приховане"
+  },
+  "checkboxField": {
+    "message": "Прапорець"
+  },
+  "addField": {
+    "message": "Додати поле"
+  },
+  "fieldName": {
+    "message": "Назва поля"
+  },
+  "fieldValue": {
+    "message": "Значення"
+  },
+  "removeField": {
+    "message": "Видалити поле"
+  },
+  "collections": {
+    "message": "Колекції"
+  },
+  "allVaults": {
+    "message": "Усі сховища"
+  },
+  "filters": {
+    "message": "Фільтри"
+  },
+  "allCollections": {
+    "message": "Усі колекції"
+  },
+  "allFolders": {
+    "message": "Усі папки"
+  },
+  "allTypes": {
+    "message": "Усі типи"
+  },
+  "editSend": {
+    "message": "Редагувати Send"
+  },
+  "keepDeletionDate": {
+    "message": "Залишити ($1)"
+  },
+  "removePassword": {
+    "message": "Видалити пароль"
+  },
+  "sendSaved": {
+    "message": "$1 збережено."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Ваша організація блокує сховище не пізніше ніж через $1 бездіяльності."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Ваша організація виконує вихід не пізніше ніж через $1 бездіяльності."
+  }
+}

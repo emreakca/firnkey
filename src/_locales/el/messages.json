@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "el",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Διαχειριστής κωδικών για τον δικό σας διακομιστή"
+  },
+  "starting": {
+    "message": "Εκκίνηση"
+  },
+  "connectYourServer": {
+    "message": "Συνδέστε τον διακομιστή σας"
+  },
+  "serverAccessHint": {
+    "message": "Το Firnkey ζητά πρόσβαση μόνο στον διακομιστή που επιλέγετε."
+  },
+  "serverUrl": {
+    "message": "URL διακομιστή"
+  },
+  "verifyServer": {
+    "message": "Έλεγχος διακομιστή"
+  },
+  "signIn": {
+    "message": "Σύνδεση"
+  },
+  "change": {
+    "message": "Αλλαγή"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "masterPassword": {
+    "message": "Κύριος κωδικός"
+  },
+  "twoStepLogin": {
+    "message": "Σύνδεση δύο βημάτων"
+  },
+  "method": {
+    "message": "Μέθοδος"
+  },
+  "sendEmailCode": {
+    "message": "Αποστολή κωδικού με email"
+  },
+  "verificationCode": {
+    "message": "Κωδικός επαλήθευσης"
+  },
+  "rememberThisDevice": {
+    "message": "Απομνημόνευση αυτής της συσκευής"
+  },
+  "newDeviceVerification": {
+    "message": "Επαλήθευση νέας συσκευής"
+  },
+  "deviceVerificationHint": {
+    "message": "Εισαγάγετε τον κωδικό επαλήθευσης που έστειλε ο διακομιστής σας."
+  },
+  "deviceVerificationCode": {
+    "message": "Κωδικός επαλήθευσης συσκευής"
+  },
+  "signInAndSync": {
+    "message": "Σύνδεση και συγχρονισμός"
+  },
+  "vaultLocked": {
+    "message": "Το θησαυροφυλάκιο κλειδώθηκε"
+  },
+  "unlock": {
+    "message": "Ξεκλείδωμα"
+  },
+  "unlockWithBiometrics": {
+    "message": "Ξεκλείδωμα με Touch ID / βιομετρικά"
+  },
+  "logOut": {
+    "message": "Αποσύνδεση"
+  },
+  "allItems": {
+    "message": "Όλα τα στοιχεία"
+  },
+  "noMatchingItems": {
+    "message": "Δεν υπάρχουν στοιχεία που ταιριάζουν."
+  },
+  "viewAll": {
+    "message": "Προβολή όλων"
+  },
+  "authenticatorEmpty": {
+    "message": "Δεν υπάρχουν ακόμη κλειδιά ελέγχου ταυτότητας. Επιλέξτε Νέο για να σαρώσετε έναν κωδικό QR ή να επικολλήσετε ένα κλειδί."
+  },
+  "importOrExportKeys": {
+    "message": "Εισαγωγή ή εξαγωγή κλειδιών"
+  },
+  "scanQrOnPage": {
+    "message": "Σάρωση του κωδικού QR σε αυτή τη σελίδα"
+  },
+  "saveTo": {
+    "message": "Αποθήκευση σε"
+  },
+  "newLogin": {
+    "message": "Νέα σύνδεση"
+  },
+  "key": {
+    "message": "Κλειδί"
+  },
+  "name": {
+    "message": "Όνομα"
+  },
+  "nicknameOptional": {
+    "message": "Ψευδώνυμο (προαιρετικό)"
+  },
+  "account": {
+    "message": "Λογαριασμός"
+  },
+  "website": {
+    "message": "Ιστότοπος"
+  },
+  "issuer": {
+    "message": "Εκδότης"
+  },
+  "advanced": {
+    "message": "Για προχωρημένους"
+  },
+  "algorithm": {
+    "message": "Αλγόριθμος"
+  },
+  "digits": {
+    "message": "Ψηφία"
+  },
+  "periodSeconds": {
+    "message": "Περίοδος (δ)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Οι περισσότερες υπηρεσίες χρησιμοποιούν SHA-1, 6 ψηφία και 30 δευτερόλεπτα. Τα κλειδιά Steam (εκδότης Steam) δίνουν πάντα κωδικούς 5 χαρακτήρων."
+  },
+  "save": {
+    "message": "Αποθήκευση"
+  },
+  "import": {
+    "message": "Εισαγωγή"
+  },
+  "keysImportHint": {
+    "message": "Ένας σύνδεσμος otpauth://totp/ ανά γραμμή, όπως τους εξάγουν οι εφαρμογές ελέγχου ταυτότητας. Κάθε νέο κλειδί γίνεται σύνδεση."
+  },
+  "chooseFile": {
+    "message": "Επιλογή αρχείου"
+  },
+  "checkList": {
+    "message": "Έλεγχος λίστας"
+  },
+  "export": {
+    "message": "Εξαγωγή"
+  },
+  "keysExportHint": {
+    "message": "Αποθηκεύει κάθε κλειδί ως σύνδεσμο otpauth:// σε αρχείο κειμένου. Όποιος έχει το αρχείο μπορεί να παράγει τους κωδικούς σας, γι' αυτό διαγράψτε το μετά την εισαγωγή."
+  },
+  "exportKeys": {
+    "message": "Εξαγωγή κλειδιών"
+  },
+  "sendIntro": {
+    "message": "Μοιραστείτε κείμενο ή αρχείο μέσω συνδέσμου με κρυπτογράφηση από άκρο σε άκρο που διαγράφεται μόνος του."
+  },
+  "sendEmpty": {
+    "message": "Δεν υπάρχουν ακόμη Send. Επιλέξτε Νέο για να μοιραστείτε κείμενο ή αρχείο."
+  },
+  "text": {
+    "message": "Κείμενο"
+  },
+  "file": {
+    "message": "Αρχείο"
+  },
+  "sendHideText": {
+    "message": "Απόκρυψη του κειμένου μέχρι να το αποκαλύψει ο παραλήπτης"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Δεν επιλέχθηκε αρχείο · έως 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Διαγραφή μετά από"
+  },
+  "days1": {
+    "message": "1 ημέρα"
+  },
+  "days2": {
+    "message": "2 ημέρες"
+  },
+  "days3": {
+    "message": "3 ημέρες"
+  },
+  "days7": {
+    "message": "7 ημέρες"
+  },
+  "days14": {
+    "message": "14 ημέρες"
+  },
+  "days30": {
+    "message": "30 ημέρες"
+  },
+  "options": {
+    "message": "Επιλογές"
+  },
+  "passwordOptional": {
+    "message": "Κωδικός (προαιρετικό)"
+  },
+  "maximumViewsOptional": {
+    "message": "Μέγιστες προβολές (προαιρετικό)"
+  },
+  "createAndCopyLink": {
+    "message": "Δημιουργία και αντιγραφή συνδέσμου"
+  },
+  "passwordGenerator": {
+    "message": "Γεννήτρια κωδικών"
+  },
+  "generatorHint": {
+    "message": "Δημιουργείται τοπικά με την κρυπτογραφική πηγή τυχαιότητας του προγράμματος περιήγησης."
+  },
+  "password": {
+    "message": "Κωδικός"
+  },
+  "passphrase": {
+    "message": "Φράση πρόσβασης"
+  },
+  "username": {
+    "message": "Όνομα χρήστη"
+  },
+  "length": {
+    "message": "Μήκος"
+  },
+  "uppercase": {
+    "message": "Κεφαλαία"
+  },
+  "lowercase": {
+    "message": "Πεζά"
+  },
+  "numbers": {
+    "message": "Αριθμοί"
+  },
+  "symbols": {
+    "message": "Σύμβολα"
+  },
+  "words": {
+    "message": "Λέξεις"
+  },
+  "wordSeparator": {
+    "message": "Διαχωριστικό λέξεων"
+  },
+  "capitalize": {
+    "message": "Κεφαλαίο αρχικό"
+  },
+  "includeNumber": {
+    "message": "Προσθήκη αριθμού"
+  },
+  "type": {
+    "message": "Τύπος"
+  },
+  "randomWord": {
+    "message": "Τυχαία λέξη"
+  },
+  "plusAddressedEmail": {
+    "message": "Email με επίθημα +"
+  },
+  "catchAllEmail": {
+    "message": "Email catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Ψευδώνυμο email προώθησης"
+  },
+  "forwardingService": {
+    "message": "Υπηρεσία προώθησης"
+  },
+  "apiKey": {
+    "message": "Κλειδί API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Αποθηκεύεται μετά την πρώτη χρήση· αφήστε το κενό για να το κρατήσετε"
+  },
+  "aliasDomain": {
+    "message": "Τομέας ψευδωνύμου"
+  },
+  "createAlias": {
+    "message": "Δημιουργία ψευδωνύμου"
+  },
+  "creatingAlias": {
+    "message": "Δημιουργία ψευδωνύμου…"
+  },
+  "aliasCreated": {
+    "message": "Το ψευδώνυμο δημιουργήθηκε"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Το Firnkey χρειάζεται πρόσβαση στην υπηρεσία προώθησης για να δημιουργήσει ψευδώνυμο."
+  },
+  "yourEmail": {
+    "message": "Το email σας"
+  },
+  "yourCatchAllDomain": {
+    "message": "Ο τομέας catch-all σας"
+  },
+  "generateAnother": {
+    "message": "Δημιουργία άλλου"
+  },
+  "useInNewLogin": {
+    "message": "Χρήση σε νέα σύνδεση"
+  },
+  "security": {
+    "message": "Ασφάλεια"
+  },
+  "securityGroupHint": {
+    "message": "Κλείδωμα, βιομετρικά, πρόχειρο"
+  },
+  "autofillSaving": {
+    "message": "Αυτόματη συμπλήρωση και αποθήκευση"
+  },
+  "autofillGroupHint": {
+    "message": "Ενσωμάτωση ιστοτόπων, προτροπές αποθήκευσης, εξαιρούμενοι τομείς"
+  },
+  "vault": {
+    "message": "Θησαυροφυλάκιο"
+  },
+  "vaultGroupHint": {
+    "message": "Φάκελοι, καρτέλα Επαληθευτή"
+  },
+  "importExport": {
+    "message": "Εισαγωγή και εξαγωγή"
+  },
+  "transferGroupHint": {
+    "message": "Μεταφέρετε το θησαυροφυλάκιο από ή προς άλλον διαχειριστή κωδικών"
+  },
+  "accountSync": {
+    "message": "Λογαριασμός και συγχρονισμός"
+  },
+  "accountGroupHint": {
+    "message": "Λογαριασμοί, ζωντανός συγχρονισμός, αποσύνδεση"
+  },
+  "lockVault": {
+    "message": "Κλείδωμα θησαυροφυλακίου"
+  },
+  "after1Minute": {
+    "message": "Μετά από 1 λεπτό"
+  },
+  "after5Minutes": {
+    "message": "Μετά από 5 λεπτά"
+  },
+  "after15Minutes": {
+    "message": "Μετά από 15 λεπτά"
+  },
+  "after30Minutes": {
+    "message": "Μετά από 30 λεπτά"
+  },
+  "after1Hour": {
+    "message": "Μετά από 1 ώρα"
+  },
+  "after2Hours": {
+    "message": "Μετά από 2 ώρες"
+  },
+  "after4Hours": {
+    "message": "Μετά από 4 ώρες"
+  },
+  "after8Hours": {
+    "message": "Μετά από 8 ώρες"
+  },
+  "after24Hours": {
+    "message": "Μετά από 24 ώρες"
+  },
+  "whenTheComputerLocks": {
+    "message": "Όταν κλειδώνει ο υπολογιστής"
+  },
+  "whenBrowserCloses": {
+    "message": "Όταν κλείνει το πρόγραμμα περιήγησης"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Ξεκλείδωτο μέχρι την αποσύνδεση"
+  },
+  "untilLogoutHint": {
+    "message": "Το «Μέχρι την αποσύνδεση» κρυπτογραφεί τη συνεδρία για αυτό το προφίλ, αλλά είναι λιγότερο ασφαλές σε κοινόχρηστο υπολογιστή."
+  },
+  "lockNow": {
+    "message": "Κλείδωμα τώρα"
+  },
+  "clearCopiedSecrets": {
+    "message": "Εκκαθάριση αντιγραμμένων μυστικών"
+  },
+  "after10Seconds": {
+    "message": "Μετά από 10 δευτερόλεπτα"
+  },
+  "after20Seconds": {
+    "message": "Μετά από 20 δευτερόλεπτα"
+  },
+  "after30Seconds": {
+    "message": "Μετά από 30 δευτερόλεπτα"
+  },
+  "after2Minutes": {
+    "message": "Μετά από 2 λεπτά"
+  },
+  "never": {
+    "message": "Ποτέ"
+  },
+  "clipboardOwnOnly": {
+    "message": "Εκκαθάριση μόνο όσων αντέγραψε το Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Χρειάζεται άδεια ανάγνωσης του προχείρου, ώστε το κείμενο που αντιγράφετε αλλού να μένει ανέγγιχτο."
+  },
+  "websiteIntegration": {
+    "message": "Ενσωμάτωση ιστοτόπων"
+  },
+  "websiteIntegrationHint": {
+    "message": "Προτάσεις αυτόματης συμπλήρωσης και προτροπές αποθήκευσης."
+  },
+  "enable": {
+    "message": "Ενεργοποίηση"
+  },
+  "fillSignInDialogs": {
+    "message": "Συμπλήρωση παραθύρων σύνδεσης (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Απαντά στο παράθυρο σύνδεσης του προγράμματος περιήγησης όταν ταιριάζει ακριβώς μία μη προστατευμένη σύνδεση."
+  },
+  "savePrompts": {
+    "message": "Προτροπές αποθήκευσης"
+  },
+  "askToAddLogin": {
+    "message": "Ερώτηση για προσθήκη σύνδεσης"
+  },
+  "askToUpdateLogin": {
+    "message": "Ερώτηση για ενημέρωση υπάρχουσας σύνδεσης"
+  },
+  "askPasskeys": {
+    "message": "Ερώτηση για αποθήκευση και χρήση κλειδιών πρόσβασης"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Κλείσιμο προτροπών αποθήκευσης μετά από (δευτερόλεπτα)"
+  },
+  "excludedDomains": {
+    "message": "Εξαιρούμενοι τομείς"
+  },
+  "excludedDomainsHint": {
+    "message": "Το Firnkey δεν θα προτείνει, συμπληρώνει ή αποθηκεύει διαπιστευτήρια σε αυτούς τους τομείς."
+  },
+  "add": {
+    "message": "Προσθήκη"
+  },
+  "folders": {
+    "message": "Φάκελοι"
+  },
+  "foldersHint": {
+    "message": "Η διαγραφή φακέλου διατηρεί τα στοιχεία του· μεταφέρονται στο Χωρίς φάκελο."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Εμφάνιση της καρτέλας Επαληθευτή"
+  },
+  "authenticatorTabHint": {
+    "message": "Ζωντανοί κωδικοί επαλήθευσης για τις συνδέσεις σας. Προσθέστε κλειδιά με κωδικό QR, χειροκίνητα ή από αρχείο."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Εμφάνιση μόνο των κωδικών αυτού του ιστοτόπου όταν υπάρχουν"
+  },
+  "vaultImportHint": {
+    "message": "Εξαγωγή JSON του Bitwarden (μη κρυπτογραφημένη ή με κωδικό), εξαγωγή .1pux του 1Password ή αρχείο CSV από Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox ή Safari. Τα στοιχεία πηγαίνουν στο προσωπικό σας θησαυροφυλάκιο."
+  },
+  "noFileChosen": {
+    "message": "Δεν επιλέχθηκε αρχείο"
+  },
+  "filePassword": {
+    "message": "Κωδικός αρχείου"
+  },
+  "checkFile": {
+    "message": "Έλεγχος αρχείου"
+  },
+  "format": {
+    "message": "Μορφή"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, με κωδικό αρχείου"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, χωρίς κρυπτογράφηση"
+  },
+  "filePasswordHint": {
+    "message": "Απαιτείται για να εισαγάγετε ξανά το αρχείο. Το Firnkey δεν μπορεί να τον ανακτήσει."
+  },
+  "unencryptedExportWarning": {
+    "message": "Όποιος έχει ένα μη κρυπτογραφημένο αρχείο μπορεί να διαβάσει όλους τους κωδικούς του. Διαγράψτε το μετά την εισαγωγή."
+  },
+  "exportScopeHint": {
+    "message": "Εξάγει τα προσωπικά σας στοιχεία. Τα στοιχεία οργανισμών παραμένουν στον οργανισμό."
+  },
+  "exportVault": {
+    "message": "Εξαγωγή θησαυροφυλακίου"
+  },
+  "liveSync": {
+    "message": "Ζωντανός συγχρονισμός"
+  },
+  "liveSyncHint": {
+    "message": "Λαμβάνει αμέσως τις αλλαγές από τον διακομιστή. Απενεργοποιημένος ελέγχει μία φορά το λεπτό και χρησιμοποιεί λιγότερη μνήμη."
+  },
+  "syncNow": {
+    "message": "Συγχρονισμός τώρα"
+  },
+  "addAccount": {
+    "message": "Προσθήκη λογαριασμού"
+  },
+  "repromptHint": {
+    "message": "Αυτό το στοιχείο απαιτεί τον κύριο κωδικό πριν χρησιμοποιηθούν τα προστατευμένα πεδία."
+  },
+  "unlockProtectedFields": {
+    "message": "Ξεκλείδωμα προστατευμένων πεδίων"
+  },
+  "show": {
+    "message": "Εμφάνιση"
+  },
+  "addAttachment": {
+    "message": "Προσθήκη συνημμένου"
+  },
+  "fillOnThisPage": {
+    "message": "Συμπλήρωση σε αυτή τη σελίδα"
+  },
+  "edit": {
+    "message": "Επεξεργασία"
+  },
+  "moveToTrash": {
+    "message": "Μετακίνηση στον κάδο"
+  },
+  "addLogin": {
+    "message": "Προσθήκη σύνδεσης"
+  },
+  "login": {
+    "message": "Σύνδεση"
+  },
+  "card": {
+    "message": "Κάρτα"
+  },
+  "identity": {
+    "message": "Ταυτότητα"
+  },
+  "secureNote": {
+    "message": "Ασφαλής σημείωση"
+  },
+  "folder": {
+    "message": "Φάκελος"
+  },
+  "noFolder": {
+    "message": "Χωρίς φάκελο"
+  },
+  "owner": {
+    "message": "Κάτοχος"
+  },
+  "myVault": {
+    "message": "Το θησαυροφυλάκιό μου"
+  },
+  "moveToOrganizationHint": {
+    "message": "Η μετακίνηση σε οργανισμό δεν αναιρείται εδώ· το στοιχείο ανήκει πλέον στον οργανισμό."
+  },
+  "generate": {
+    "message": "Δημιουργία"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Κλειδί ελέγχου ταυτότητας (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Σάρωση QR"
+  },
+  "notes": {
+    "message": "Σημειώσεις"
+  },
+  "favorite": {
+    "message": "Αγαπημένο"
+  },
+  "authenticator": {
+    "message": "Επαληθευτής"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Γεννήτρια"
+  },
+  "settings": {
+    "message": "Ρυθμίσεις"
+  },
+  "back": {
+    "message": "Πίσω"
+  },
+  "openSettings": {
+    "message": "Άνοιγμα ρυθμίσεων"
+  },
+  "searchVault": {
+    "message": "Αναζήτηση στο θησαυροφυλάκιο"
+  },
+  "keyOrTotpLink": {
+    "message": "Κλειδί Base32 ή σύνδεσμος otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Από προεπιλογή ο εκδότης"
+  },
+  "shownInsteadOfThe": {
+    "message": "Εμφανίζεται αντί για το όνομα"
+  },
+  "keysToImport": {
+    "message": "Κλειδιά για εισαγωγή"
+  },
+  "whatToSend": {
+    "message": "Τι θα σταλεί"
+  },
+  "whatToGenerate": {
+    "message": "Τι θα δημιουργηθεί"
+  },
+  "generatedValue": {
+    "message": "Τιμή που δημιουργήθηκε"
+  },
+  "copy": {
+    "message": "Αντιγραφή"
+  },
+  "copyGeneratedValue": {
+    "message": "Αντιγραφή της τιμής"
+  },
+  "domainToExclude": {
+    "message": "Τομέας για εξαίρεση"
+  },
+  "newFolder": {
+    "message": "Νέος φάκελος"
+  },
+  "newFolderName": {
+    "message": "Όνομα νέου φακέλου"
+  },
+  "copyUsername": {
+    "message": "Αντιγραφή ονόματος χρήστη"
+  },
+  "copyPassword": {
+    "message": "Αντιγραφή κωδικού"
+  },
+  "copyVerificationCode": {
+    "message": "Αντιγραφή κωδικού επαλήθευσης"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Κλειδί Base32 ή σύνδεσμος otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Κύρια πλοήγηση"
+  },
+  "firnkeyPasskey": {
+    "message": "Κλειδί πρόσβασης Firnkey"
+  },
+  "passkey": {
+    "message": "Κλειδί πρόσβασης"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Ξεκλειδώστε το Firnkey για να συνεχίσετε."
+  },
+  "verifyWithBiometrics": {
+    "message": "Επαλήθευση με Touch ID / βιομετρικά"
+  },
+  "continue": {
+    "message": "Συνέχεια"
+  },
+  "useAnotherDevice": {
+    "message": "Χρήση άλλης συσκευής"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "sshKey": {
+    "message": "Κλειδί SSH"
+  },
+  "cardholderName": {
+    "message": "Όνομα κατόχου"
+  },
+  "brand": {
+    "message": "Εταιρεία"
+  },
+  "number": {
+    "message": "Αριθμός"
+  },
+  "expirationMonth": {
+    "message": "Μήνας λήξης"
+  },
+  "expirationYear": {
+    "message": "Έτος λήξης"
+  },
+  "securityCode": {
+    "message": "Κωδικός ασφαλείας"
+  },
+  "title": {
+    "message": "Τίτλος"
+  },
+  "firstName": {
+    "message": "Όνομα"
+  },
+  "middleName": {
+    "message": "Μεσαίο όνομα"
+  },
+  "lastName": {
+    "message": "Επώνυμο"
+  },
+  "company": {
+    "message": "Εταιρεία"
+  },
+  "phone": {
+    "message": "Τηλέφωνο"
+  },
+  "address1": {
+    "message": "Διεύθυνση 1"
+  },
+  "address2": {
+    "message": "Διεύθυνση 2"
+  },
+  "address3": {
+    "message": "Διεύθυνση 3"
+  },
+  "city": {
+    "message": "Πόλη"
+  },
+  "stateProvince": {
+    "message": "Πολιτεία / περιφέρεια"
+  },
+  "postalCode": {
+    "message": "Ταχυδρομικός κώδικας"
+  },
+  "country": {
+    "message": "Χώρα"
+  },
+  "ssn": {
+    "message": "ΑΜΚΑ / αριθμός κοινωνικής ασφάλισης"
+  },
+  "passportNumber": {
+    "message": "Αριθμός διαβατηρίου"
+  },
+  "licenseNumber": {
+    "message": "Αριθμός διπλώματος"
+  },
+  "addSecureNote": {
+    "message": "Προσθήκη ασφαλούς σημείωσης"
+  },
+  "addCard": {
+    "message": "Προσθήκη κάρτας"
+  },
+  "addIdentity": {
+    "message": "Προσθήκη ταυτότητας"
+  },
+  "addSshKey": {
+    "message": "Προσθήκη κλειδιού SSH"
+  },
+  "editLogin": {
+    "message": "Επεξεργασία σύνδεσης"
+  },
+  "editSecureNote": {
+    "message": "Επεξεργασία ασφαλούς σημείωσης"
+  },
+  "editCard": {
+    "message": "Επεξεργασία κάρτας"
+  },
+  "editIdentity": {
+    "message": "Επεξεργασία ταυτότητας"
+  },
+  "editSshKey": {
+    "message": "Επεξεργασία κλειδιού SSH"
+  },
+  "passphraseGenerator": {
+    "message": "Γεννήτρια φράσεων πρόσβασης"
+  },
+  "usernameGenerator": {
+    "message": "Γεννήτρια ονομάτων χρήστη"
+  },
+  "generatedPasswordCopied": {
+    "message": "Ο κωδικός αντιγράφηκε."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Η φράση πρόσβασης αντιγράφηκε."
+  },
+  "generatedUsernameCopied": {
+    "message": "Το όνομα χρήστη αντιγράφηκε."
+  },
+  "removeKey": {
+    "message": "Αφαίρεση κλειδιού"
+  },
+  "biometricOff": {
+    "message": "Το βιομετρικό ξεκλείδωμα απενεργοποιήθηκε."
+  },
+  "usernameCopied": {
+    "message": "Το όνομα χρήστη αντιγράφηκε."
+  },
+  "passwordCopied": {
+    "message": "Ο κωδικός αντιγράφηκε."
+  },
+  "hide": {
+    "message": "Απόκρυψη"
+  },
+  "movedToTrash": {
+    "message": "Μετακινήθηκε στον κάδο."
+  },
+  "websiteAccessDenied": {
+    "message": "Δεν δόθηκε πρόσβαση στους ιστοτόπους."
+  },
+  "websiteIntegrationOn": {
+    "message": "Η αυτόματη συμπλήρωση και οι προτροπές αποθήκευσης ενεργοποιήθηκαν."
+  },
+  "websiteIntegrationOff": {
+    "message": "Οι προτροπές στους ιστοτόπους απενεργοποιήθηκαν."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Η συμπλήρωση παραθύρων σύνδεσης χρειάζεται άδεια να τα βλέπει στους ιστοτόπους."
+  },
+  "preferencesUpdated": {
+    "message": "Οι προτιμήσεις ενημερώθηκαν."
+  },
+  "invalidDomain": {
+    "message": "Εισαγάγετε έγκυρο τομέα, π.χ. example.com."
+  },
+  "remove": {
+    "message": "Αφαίρεση"
+  },
+  "enabled": {
+    "message": "Ενεργό"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Απενεργοποίηση ενσωμάτωσης ιστοτόπων"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Ενεργοποίηση ενσωμάτωσης ιστοτόπων"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Μη υποστηριζόμενος χρόνος κλειδώματος."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Μη υποστηριζόμενος χρόνος προχείρου."
+  },
+  "clipboardClearsAfter": {
+    "message": "Τα αντιγραμμένα μυστικά θα διαγραφούν μετά από $1."
+  },
+  "clipboardKeeps": {
+    "message": "Τα αντιγραμμένα μυστικά θα μείνουν στο πρόχειρο."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Το Firnkey θα καθαρίζει το πρόχειρο μόνο αν περιέχει ακόμη ό,τι αντέγραψε."
+  },
+  "seconds_one": {
+    "message": "$1 δευτερόλεπτο"
+  },
+  "seconds_other": {
+    "message": "$1 δευτερόλεπτα"
+  },
+  "minutes_one": {
+    "message": "$1 λεπτό"
+  },
+  "minutes_other": {
+    "message": "$1 λεπτά"
+  },
+  "hours_one": {
+    "message": "$1 ώρα"
+  },
+  "hours_other": {
+    "message": "$1 ώρες"
+  },
+  "lockOnComputerLock": {
+    "message": "Το θησαυροφυλάκιο θα κλειδώνει όταν κλειδώνει ο υπολογιστής ή κλείνει το πρόγραμμα περιήγησης."
+  },
+  "lockOnLogout": {
+    "message": "Το θησαυροφυλάκιο θα μένει ξεκλείδωτο σε αυτό το πρόγραμμα περιήγησης μέχρι να το κλειδώσετε ή να αποσυνδεθείτε."
+  },
+  "lockOnBrowserClose": {
+    "message": "Το θησαυροφυλάκιο θα μένει ξεκλείδωτο μέχρι να κλείσει το πρόγραμμα περιήγησης."
+  },
+  "lockAfterInactivity": {
+    "message": "Το θησαυροφυλάκιο θα κλειδώνει μετά από $1 αδράνειας."
+  },
+  "waitingForVerification": {
+    "message": "Αναμονή για επαλήθευση…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Ξεκλειδώστε το θησαυροφυλάκιο πριν ενεργοποιήσετε το βιομετρικό ξεκλείδωμα."
+  },
+  "noPasskeyCreated": {
+    "message": "Δεν δημιουργήθηκε κλειδί πρόσβασης."
+  },
+  "biometricOn": {
+    "message": "Το βιομετρικό ξεκλείδωμα είναι ενεργό."
+  },
+  "biometricUnavailable": {
+    "message": "Το βιομετρικό ξεκλείδωμα δεν είναι διαθέσιμο τώρα."
+  },
+  "vaultUnlocked_one": {
+    "message": "Το θησαυροφυλάκιο ξεκλειδώθηκε με $1 στοιχείο."
+  },
+  "vaultUnlocked_other": {
+    "message": "Το θησαυροφυλάκιο ξεκλειδώθηκε με $1 στοιχεία."
+  },
+  "verificationCancelled": {
+    "message": "Η επαλήθευση ακυρώθηκε ή έληξε."
+  },
+  "notConnected": {
+    "message": "Χωρίς σύνδεση"
+  },
+  "connectAServer": {
+    "message": "Σύνδεση διακομιστή"
+  },
+  "signedOut": {
+    "message": "Αποσυνδεδεμένος"
+  },
+  "itemCount_one": {
+    "message": "$1 στοιχείο"
+  },
+  "itemCount_other": {
+    "message": "$1 στοιχεία"
+  },
+  "locked": {
+    "message": "Κλειδωμένο"
+  },
+  "unlocked": {
+    "message": "Ξεκλείδωτο"
+  },
+  "settingsFor": {
+    "message": "Ρυθμίσεις για $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · πρώτα οι προτάσεις για αυτή τη σελίδα"
+  },
+  "itemTotal_one": {
+    "message": "$1 στοιχείο συνολικά"
+  },
+  "itemTotal_other": {
+    "message": "$1 στοιχεία συνολικά"
+  },
+  "skippedItems_one": {
+    "message": "Παραλείφθηκε $1 μη υποστηριζόμενο ή κατεστραμμένο στοιχείο."
+  },
+  "skippedItems_other": {
+    "message": "Παραλείφθηκαν $1 μη υποστηριζόμενα ή κατεστραμμένα στοιχεία."
+  },
+  "otherAccounts": {
+    "message": "Άλλοι λογαριασμοί"
+  },
+  "switch": {
+    "message": "Εναλλαγή"
+  },
+  "removeAccountTitle": {
+    "message": "Αφαίρεση του $1 από το Firnkey σε αυτό το πρόγραμμα περιήγησης"
+  },
+  "switchedTo": {
+    "message": "Έγινε εναλλαγή σε $1."
+  },
+  "accountRemoved": {
+    "message": "Το $1 αφαιρέθηκε από αυτό το πρόγραμμα περιήγησης."
+  },
+  "addAccountHint": {
+    "message": "Συνδεθείτε στον άλλο λογαριασμό. Ο τρέχων μένει αποθηκευμένος και κλειδωμένος παρακάτω."
+  },
+  "verifying": {
+    "message": "Επαλήθευση…"
+  },
+  "serverPermissionDenied": {
+    "message": "Δεν δόθηκε άδεια για τον διακομιστή."
+  },
+  "signingIn": {
+    "message": "Σύνδεση…"
+  },
+  "continueInNewWindow": {
+    "message": "Επιλέξτε ξανά Σύνδεση για να συνεχίσετε σε νέο παράθυρο."
+  },
+  "enterTwoStepCode": {
+    "message": "Εισαγάγετε τον κωδικό σύνδεσης δύο βημάτων."
+  },
+  "unlocking": {
+    "message": "Ξεκλείδωμα…"
+  },
+  "trashHint": {
+    "message": "Επαναφέρετε στοιχεία ή διαγράψτε τα οριστικά."
+  },
+  "trashEmpty": {
+    "message": "Ο κάδος είναι άδειος."
+  },
+  "autofillSuggestions": {
+    "message": "Προτάσεις αυτόματης συμπλήρωσης"
+  },
+  "otherResults": {
+    "message": "Άλλα αποτελέσματα"
+  },
+  "trash": {
+    "message": "Κάδος"
+  },
+  "folderName": {
+    "message": "Όνομα φακέλου"
+  },
+  "rename": {
+    "message": "Μετονομασία"
+  },
+  "delete": {
+    "message": "Διαγραφή"
+  },
+  "folderRenamed": {
+    "message": "Ο φάκελος μετονομάστηκε."
+  },
+  "folderAdded": {
+    "message": "Ο φάκελος προστέθηκε."
+  },
+  "folderDeleted": {
+    "message": "Ο φάκελος διαγράφηκε. Τα στοιχεία του είναι πλέον στο Χωρίς φάκελο."
+  },
+  "confirm": {
+    "message": "Επιβεβαίωση"
+  },
+  "matchesThisPage": {
+    "message": "Ταιριάζει με αυτή τη σελίδα"
+  },
+  "restore": {
+    "message": "Επαναφορά"
+  },
+  "itemRestored": {
+    "message": "Το στοιχείο επαναφέρθηκε."
+  },
+  "deleteForever": {
+    "message": "Οριστική διαγραφή"
+  },
+  "itemDeletedForever": {
+    "message": "Το στοιχείο διαγράφηκε οριστικά."
+  },
+  "open": {
+    "message": "Άνοιγμα"
+  },
+  "fill": {
+    "message": "Συμπλήρωση"
+  },
+  "openWebsite": {
+    "message": "Άνοιγμα ιστοτόπου"
+  },
+  "cardNumber": {
+    "message": "Αριθμός κάρτας"
+  },
+  "note": {
+    "message": "Σημείωση"
+  },
+  "publicKey": {
+    "message": "Δημόσιο κλειδί"
+  },
+  "copyPublicKey": {
+    "message": "Αντιγραφή δημόσιου κλειδιού"
+  },
+  "copyCardNumber": {
+    "message": "Αντιγραφή αριθμού κάρτας"
+  },
+  "copyNote": {
+    "message": "Αντιγραφή σημείωσης"
+  },
+  "copySecurityCode": {
+    "message": "Αντιγραφή κωδικού ασφαλείας"
+  },
+  "copyPrivateKey": {
+    "message": "Αντιγραφή ιδιωτικού κλειδιού"
+  },
+  "privateKey": {
+    "message": "Ιδιωτικό κλειδί"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Επιβεβαιώστε τον κύριο κωδικό πριν διαγράψετε αυτό το στοιχείο."
+  },
+  "moreActions": {
+    "message": "Περισσότερες ενέργειες"
+  },
+  "noWebAddress": {
+    "message": "Αυτή η σύνδεση δεν έχει διεύθυνση ιστού."
+  },
+  "noWebsiteSaved": {
+    "message": "Δεν αποθηκεύτηκε ιστότοπος"
+  },
+  "loading": {
+    "message": "Φόρτωση…"
+  },
+  "expiration": {
+    "message": "Λήξη"
+  },
+  "address": {
+    "message": "Διεύθυνση"
+  },
+  "fingerprint": {
+    "message": "Αποτύπωμα"
+  },
+  "customField": {
+    "message": "Προσαρμοσμένο πεδίο"
+  },
+  "passwordHistory": {
+    "message": "Ιστορικό κωδικών ($1)"
+  },
+  "oldPassword": {
+    "message": "Παλιός κωδικός"
+  },
+  "organization": {
+    "message": "Οργανισμός"
+  },
+  "attachmentsCount": {
+    "message": "Συνημμένα ($1)"
+  },
+  "downloadFile": {
+    "message": "Λήψη $1"
+  },
+  "deleteFile": {
+    "message": "Διαγραφή $1"
+  },
+  "fileDownloaded": {
+    "message": "Έγινε λήψη του $1."
+  },
+  "fileTooLarge25": {
+    "message": "Το αρχείο είναι πολύ μεγάλο (έως 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Το αρχείο είναι κενό."
+  },
+  "uploadingFile": {
+    "message": "Κρυπτογράφηση και μεταφόρτωση του $1…"
+  },
+  "fileAttached": {
+    "message": "Το $1 επισυνάφθηκε."
+  },
+  "fileDeleted": {
+    "message": "Το $1 διαγράφηκε."
+  },
+  "copyLink": {
+    "message": "Αντιγραφή συνδέσμου"
+  },
+  "viewsOf": {
+    "message": "$1 από $2 προβολές"
+  },
+  "views_one": {
+    "message": "$1 προβολή"
+  },
+  "views_other": {
+    "message": "$1 προβολές"
+  },
+  "deletesOn": {
+    "message": "Διαγράφεται στις $1"
+  },
+  "disabled": {
+    "message": "Ανενεργό"
+  },
+  "sendLinkCopied": {
+    "message": "Ο σύνδεσμος του Send αντιγράφηκε."
+  },
+  "deleteSendTitle": {
+    "message": "Διαγραφή του $1· ο σύνδεσμός του θα σταματήσει να λειτουργεί"
+  },
+  "sendDeleted": {
+    "message": "Το $1 διαγράφηκε. Ο σύνδεσμός του δεν λειτουργεί πια."
+  },
+  "encrypting": {
+    "message": "Κρυπτογράφηση…"
+  },
+  "chooseFileToSend": {
+    "message": "Επιλέξτε αρχείο για αποστολή."
+  },
+  "sendCreatedCopied": {
+    "message": "Το Send δημιουργήθηκε. Ο σύνδεσμος αντιγράφηκε."
+  },
+  "sendCreatedSync": {
+    "message": "Το Send δημιουργήθηκε. Συγχρονίστε και αντιγράψτε τον σύνδεσμό του από τη λίστα."
+  },
+  "fileTooLarge10": {
+    "message": "Το αρχείο είναι πολύ μεγάλο (έως 10 MB)."
+  },
+  "importing": {
+    "message": "Εισαγωγή…"
+  },
+  "checking": {
+    "message": "Έλεγχος…"
+  },
+  "importedItems": {
+    "message": "Εισήχθησαν: $1."
+  },
+  "importItems": {
+    "message": "Εισαγωγή: $1"
+  },
+  "foundItems": {
+    "message": "Βρέθηκαν: $1. Προστίθενται στο θησαυροφυλάκιό σας· τίποτα δεν αντικαθίσταται."
+  },
+  "foundItemsInFolders": {
+    "message": "Βρέθηκαν: $1 σε $2. Προστίθενται στο θησαυροφυλάκιό σας· τίποτα δεν αντικαθίσταται."
+  },
+  "folderCount_one": {
+    "message": "$1 φάκελος"
+  },
+  "folderCount_other": {
+    "message": "$1 φάκελοι"
+  },
+  "exporting": {
+    "message": "Εξαγωγή…"
+  },
+  "vaultExportedPlain": {
+    "message": "Το θησαυροφυλάκιο εξήχθη. Διαγράψτε το αρχείο μετά την εισαγωγή."
+  },
+  "vaultExportedProtected": {
+    "message": "Το θησαυροφυλάκιο εξήχθη. Φυλάξτε καλά τον κωδικό του αρχείου."
+  },
+  "createdOn": {
+    "message": "Δημιουργήθηκε στις $1"
+  },
+  "lastEdited": {
+    "message": "Τελευταία επεξεργασία $1"
+  },
+  "itemHistory": {
+    "message": "Ιστορικό στοιχείου"
+  },
+  "loginCredentials": {
+    "message": "Στοιχεία σύνδεσης"
+  },
+  "itemDetails": {
+    "message": "Λεπτομέρειες στοιχείου"
+  },
+  "autofillOptions": {
+    "message": "Επιλογές αυτόματης συμπλήρωσης"
+  },
+  "passwordChangedOn": {
+    "message": "Τελευταία αλλαγή $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Αφαίρεση αυτού του κλειδιού πρόσβασης από τη σύνδεση"
+  },
+  "passkeyRemoved": {
+    "message": "Το κλειδί πρόσβασης αφαιρέθηκε."
+  },
+  "usedUntil": {
+    "message": "Σε χρήση έως $1"
+  },
+  "earlierPassword": {
+    "message": "Προηγούμενος κωδικός"
+  },
+  "fieldCopied": {
+    "message": "Αντιγράφηκε: $1."
+  },
+  "copyField": {
+    "message": "Αντιγραφή: $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Επιβεβαιώστε τον κύριο κωδικό πριν αντιγράψετε από αυτό το στοιχείο."
+  },
+  "codeCopied": {
+    "message": "Ο κωδικός επαλήθευσης αντιγράφηκε."
+  },
+  "viewOnlyItem": {
+    "message": "Ο οργανισμός σας σάς επιτρέπει να βλέπετε αυτό το στοιχείο, αλλά όχι να το αλλάζετε."
+  },
+  "confirmBeforeEditing": {
+    "message": "Επιβεβαιώστε τον κύριο κωδικό πριν επεξεργαστείτε αυτό το στοιχείο."
+  },
+  "monthPlaceholder": {
+    "message": "ΜΜ"
+  },
+  "yearPlaceholder": {
+    "message": "ΕΕΕΕ"
+  },
+  "saving": {
+    "message": "Αποθήκευση…"
+  },
+  "loginUpdated": {
+    "message": "Η σύνδεση ενημερώθηκε."
+  },
+  "loginAdded": {
+    "message": "Η σύνδεση προστέθηκε."
+  },
+  "itemUpdated": {
+    "message": "Ενημερώθηκε: $1."
+  },
+  "itemAdded": {
+    "message": "Προστέθηκε: $1."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Τα προστατευμένα πεδία ξεκλειδώθηκαν για 60 δευτερόλεπτα."
+  },
+  "unavailable": {
+    "message": "Μη διαθέσιμο"
+  },
+  "secondsLeft_one": {
+    "message": "Απομένει $1 δευτερόλεπτο"
+  },
+  "secondsLeft_other": {
+    "message": "Απομένουν $1 δευτερόλεπτα"
+  },
+  "codesForSite": {
+    "message": "Κωδικοί για αυτόν τον ιστότοπο · $1 συνολικά"
+  },
+  "codeCount_one": {
+    "message": "$1 κωδικός"
+  },
+  "codeCount_other": {
+    "message": "$1 κωδικοί"
+  },
+  "thisWebsite": {
+    "message": "Αυτός ο ιστότοπος"
+  },
+  "openToConfirm": {
+    "message": "Άνοιγμα για επιβεβαίωση του κύριου κωδικού"
+  },
+  "protected": {
+    "message": "Προστατευμένο"
+  },
+  "fillIntoPage": {
+    "message": "Συμπλήρωση σε αυτή τη σελίδα"
+  },
+  "editKey": {
+    "message": "Επεξεργασία κλειδιού"
+  },
+  "codeFilled": {
+    "message": "Ο κωδικός για $1 συμπληρώθηκε."
+  },
+  "confirmThenEditKey": {
+    "message": "Επιβεβαιώστε τον κύριο κωδικό και μετά επεξεργαστείτε το κλειδί από την καρτέλα Επαληθευτή."
+  },
+  "qrReadFirstCheck": {
+    "message": "Διαβάστηκε ο πρώτος από πολλούς κωδικούς QR. Ελέγξτε τα στοιχεία και αποθηκεύστε."
+  },
+  "qrReadCheck": {
+    "message": "Ο κωδικός QR διαβάστηκε. Ελέγξτε τα στοιχεία και αποθηκεύστε."
+  },
+  "qrReadFirstSave": {
+    "message": "Διαβάστηκε ο πρώτος από πολλούς κωδικούς QR. Αποθηκεύστε τη σύνδεση για να κρατήσετε το κλειδί."
+  },
+  "qrReadSave": {
+    "message": "Ο κωδικός QR διαβάστηκε. Αποθηκεύστε τη σύνδεση για να κρατήσετε το κλειδί."
+  },
+  "qrUnsupported": {
+    "message": "Αυτό το πρόγραμμα περιήγησης δεν διαβάζει κωδικούς QR. Επικολλήστε το κλειδί ή τον σύνδεσμο otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Το Firnkey δεν βλέπει αυτή τη σελίδα. Ανοίξτε τη σελίδα με τον κωδικό QR και δοκιμάστε ξανά."
+  },
+  "qrNotFound": {
+    "message": "Δεν βρέθηκε κωδικός QR ελέγχου ταυτότητας στο ορατό μέρος της σελίδας."
+  },
+  "qrInvalid": {
+    "message": "Ο κωδικός QR δεν είναι έγκυρο χρονικό (TOTP) κλειδί ελέγχου ταυτότητας."
+  },
+  "keyAdded": {
+    "message": "Το κλειδί ελέγχου ταυτότητας προστέθηκε."
+  },
+  "keyUpdated": {
+    "message": "Το κλειδί ελέγχου ταυτότητας ενημερώθηκε."
+  },
+  "keyRemoved": {
+    "message": "Το κλειδί ελέγχου ταυτότητας αφαιρέθηκε. Η σύνδεση παραμένει στο θησαυροφυλάκιο."
+  },
+  "fileTooLarge256": {
+    "message": "Το αρχείο είναι πολύ μεγάλο (έως 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Επικολλήστε πρώτα συνδέσμους otpauth:// ή επιλέξτε αρχείο."
+  },
+  "keysImported_one": {
+    "message": "Εισήχθη $1 κλειδί."
+  },
+  "keysImported_other": {
+    "message": "Εισήχθησαν $1 κλειδιά."
+  },
+  "new": {
+    "message": "Νέο"
+  },
+  "duplicate": {
+    "message": "Διπλότυπο"
+  },
+  "invalid": {
+    "message": "Μη έγκυρο"
+  },
+  "importNewKeys_one": {
+    "message": "Εισαγωγή $1 νέου κλειδιού"
+  },
+  "importNewKeys_other": {
+    "message": "Εισαγωγή $1 νέων κλειδιών"
+  },
+  "checkThenImport": {
+    "message": "Ελέγξτε τη λίστα και μετά κάντε εισαγωγή."
+  },
+  "nothingNewToImport": {
+    "message": "Τίποτα νέο για εισαγωγή."
+  },
+  "keysExported": {
+    "message": "Τα κλειδιά εξήχθησαν. Διαγράψτε το αρχείο αφού το εισαγάγετε αλλού."
+  },
+  "fieldsFilled_one": {
+    "message": "Συμπληρώθηκε $1 πεδίο."
+  },
+  "fieldsFilled_other": {
+    "message": "Συμπληρώθηκαν $1 πεδία."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Συμπληρώθηκαν όνομα χρήστη και κωδικός."
+  },
+  "filledUsername": {
+    "message": "Συμπληρώθηκε το όνομα χρήστη."
+  },
+  "filledPassword": {
+    "message": "Συμπληρώθηκε ο κωδικός."
+  },
+  "synced_one": {
+    "message": "Συγχρονίστηκε $1 στοιχείο."
+  },
+  "synced_other": {
+    "message": "Συγχρονίστηκαν $1 στοιχεία."
+  },
+  "twoStepUnsupported": {
+    "message": "Αυτός ο λογαριασμός απαιτεί μέθοδο σύνδεσης δύο βημάτων που δεν υποστηρίζει αυτή η έκδοση."
+  },
+  "sending": {
+    "message": "Αποστολή…"
+  },
+  "emailCodeSent": {
+    "message": "Ο κωδικός επαλήθευσης στάλθηκε με email."
+  },
+  "authenticatorApp": {
+    "message": "Εφαρμογή ελέγχου ταυτότητας"
+  },
+  "securityKeyWebauthn": {
+    "message": "Κλειδί ασφαλείας (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Κωδικός ανάκτησης"
+  },
+  "twoFactorMethod": {
+    "message": "Μέθοδος $1"
+  },
+  "fieldEmpty": {
+    "message": "Αυτό το πεδίο είναι κενό."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Το πρόχειρο θα καθαριστεί σε $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Η διεργασία παρασκηνίου της επέκτασης δεν απάντησε. Φορτώστε ξανά την επέκταση."
+  },
+  "unexpectedResponse": {
+    "message": "Η διεργασία παρασκηνίου επέστρεψε απρόσμενη απάντηση."
+  },
+  "newSend": {
+    "message": "Νέο Send"
+  },
+  "item": {
+    "message": "Στοιχείο"
+  },
+  "editItem": {
+    "message": "Επεξεργασία στοιχείου"
+  },
+  "newItem": {
+    "message": "Νέο στοιχείο"
+  },
+  "addKey": {
+    "message": "Προσθήκη κλειδιού"
+  },
+  "serverVersion": {
+    "message": "$1 · διακομιστής $2"
+  },
+  "unexpectedError": {
+    "message": "Απρόσμενο σφάλμα επέκτασης."
+  },
+  "passkeySuggestion": {
+    "message": "Σύνδεση με κλειδί πρόσβασης αποθηκευμένο στο Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Δημιουργία και συμπλήρωση κωδικού"
+  },
+  "suggestionsLabel": {
+    "message": "Προτάσεις Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Απόρριψη προτάσεων αυτόματης συμπλήρωσης"
+  },
+  "dismiss": {
+    "message": "Απόρριψη"
+  },
+  "toggleSuggestions": {
+    "message": "Εμφάνιση/απόκρυψη προτάσεων Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Εμφάνιση ή απόκρυψη των προτάσεων Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Ενημέρωση υπάρχουσας σύνδεσης"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Αποθήκευση σύνδεσης στο Firnkey"
+  },
+  "notNow": {
+    "message": "Όχι τώρα"
+  },
+  "update": {
+    "message": "Ενημέρωση"
+  },
+  "loginSaved": {
+    "message": "Η σύνδεση αποθηκεύτηκε."
+  },
+  "saveFailed": {
+    "message": "Το Firnkey δεν μπόρεσε να αποθηκεύσει αυτή τη σύνδεση."
+  },
+  "savePasskey": {
+    "message": "Αποθήκευση κλειδιού πρόσβασης"
+  },
+  "signInWithPasskey": {
+    "message": "Σύνδεση με κλειδί πρόσβασης"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Το Firnkey έχει ήδη κλειδί πρόσβασης για αυτόν τον λογαριασμό σε αυτόν τον ιστότοπο."
+  },
+  "close": {
+    "message": "Κλείσιμο"
+  },
+  "savePasskeyForAccount": {
+    "message": "Αποθήκευση κλειδιού πρόσβασης για $1 στο $2;"
+  },
+  "savePasskeyOnSite": {
+    "message": "Αποθήκευση κλειδιού πρόσβασης στο $1;"
+  },
+  "choosePasskeyFor": {
+    "message": "Επιλέξτε κλειδί πρόσβασης για $1."
+  },
+  "addTo": {
+    "message": "Προσθήκη σε $1"
+  },
+  "somethingWentWrong": {
+    "message": "Κάτι πήγε στραβά."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: χρησιμοποιήστε το κλειδί ασφαλείας σας για να ολοκληρώσετε τη σύνδεση."
+  },
+  "fillLogin": {
+    "message": "Συμπλήρωση σύνδεσης"
+  },
+  "extensionDescription": {
+    "message": "Ένας ελαφρύς διαχειριστής κωδικών ανοιχτού κώδικα για τον δικό σας διακομιστή."
+  },
+  "fillLoginCommand": {
+    "message": "Συμπλήρωση της αντίστοιχης σύνδεσης σε αυτή τη σελίδα"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε"
+  },
+  "generatorHistory": {
+    "message": "Ιστορικό γεννήτριας"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Εδώ εμφανίζονται οι κωδικοί που αντιγράφετε ή χρησιμοποιείτε από τη γεννήτρια, μαζί με τον ιστότοπο όπου βρισκόσασταν. Μένουν κρυπτογραφημένοι σε αυτό το πρόγραμμα περιήγησης."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Χωρίς ιστότοπο · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Κωδικός που δημιουργήθηκε"
+  },
+  "clearGeneratorHistory": {
+    "message": "Εκκαθάριση ιστορικού γεννήτριας"
+  },
+  "generatorHistoryCleared": {
+    "message": "Το ιστορικό της γεννήτριας εκκαθαρίστηκε."
+  },
+  "passwordFilledFor": {
+    "message": "Το Firnkey συμπλήρωσε τον κωδικό για $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Συμπλήρωση κωδικού στο επόμενο βήμα μετά την επιλογή λογαριασμού"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Για συνδέσεις που ζητούν πρώτα το όνομα χρήστη. Μόνο ο λογαριασμός που επιλέξατε, στον ίδιο ιστότοπο, μία φορά."
+  },
+  "askToSaveForms": {
+    "message": "Ερώτηση για αποθήκευση καρτών και διευθύνσεων"
+  },
+  "generateSshKey": {
+    "message": "Δημιουργία νέου κλειδιού (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Δημιουργήθηκε νέο κλειδί SSH. Αποθηκεύστε για να το κρατήσετε."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Κάντε κλικ στο κουμπί Firnkey στη γραμμή εργαλείων για να ολοκληρώσετε την προσθήκη."
+  },
+  "saveCardToFirnkey": {
+    "message": "Αποθήκευση της κάρτας στο Firnkey;"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Αποθήκευση της διεύθυνσης στο Firnkey;"
+  },
+  "clone": {
+    "message": "Κλωνοποίηση"
+  },
+  "cloneName": {
+    "message": "$1 - Αντίγραφο"
+  },
+  "itemCloned": {
+    "message": "Το στοιχείο κλωνοποιήθηκε. Αλλάξτε το αντίγραφο παρακάτω."
+  },
+  "fingerprintPhrase": {
+    "message": "Φράση αποτυπώματος"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Οι ίδιες πέντε λέξεις εμφανίζονται στο διαδικτυακό θησαυροφυλάκιο και στις εφαρμογές του Bitwarden. Συγκρίνετέ τες όταν κάποιος μοιράζεται έναν οργανισμό μαζί σας."
+  },
+  "matchDetection": {
+    "message": "Εντοπισμός αντιστοιχίας"
+  },
+  "matchDefault": {
+    "message": "Προεπιλογή (τομέας)"
+  },
+  "matchDomain": {
+    "message": "Τομέας και υποτομείς"
+  },
+  "matchHost": {
+    "message": "Κεντρικός υπολογιστής (και θύρα)"
+  },
+  "matchStartsWith": {
+    "message": "Αρχίζει με"
+  },
+  "matchExact": {
+    "message": "Ακριβές URL"
+  },
+  "matchRegex": {
+    "message": "Κανονική έκφραση"
+  },
+  "matchNever": {
+    "message": "Ποτέ"
+  },
+  "archive": {
+    "message": "Αρχείο"
+  },
+  "unarchive": {
+    "message": "Επαναφορά από το αρχείο"
+  },
+  "itemArchived": {
+    "message": "Το στοιχείο αρχειοθετήθηκε. Δεν εμφανίζεται πια στην αυτόματη συμπλήρωση ούτε στη λίστα του θησαυροφυλακίου."
+  },
+  "itemUnarchived": {
+    "message": "Το στοιχείο επέστρεψε στο θησαυροφυλάκιο."
+  },
+  "archiveHint": {
+    "message": "Τα αρχειοθετημένα στοιχεία διατηρούνται, αλλά δεν συμπληρώνονται ούτε προτείνονται ποτέ."
+  },
+  "archiveEmpty": {
+    "message": "Δεν υπάρχει τίποτα στο αρχείο."
+  },
+  "archiveItem": {
+    "message": "Αρχειοθέτηση"
+  },
+  "generatorPolicyHint": {
+    "message": "Ο οργανισμός σας απαιτεί ορισμένες από αυτές τις ρυθμίσεις."
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "Χρήση του κύριου κωδικού"
+  },
+  "unlockWithPin": {
+    "message": "Ξεκλείδωμα με PIN"
+  },
+  "newPin": {
+    "message": "Νέο PIN (4 ή περισσότεροι χαρακτήρες)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Διατήρηση ξεκλειδώματος με PIN μετά την επανεκκίνηση"
+  },
+  "pinKeepHint": {
+    "message": "Ανενεργό: μετά από επανεκκίνηση ξεκλειδώνετε μία φορά με τον κύριο κωδικό. Ενεργό είναι λιγότερο ασφαλές: ένα σύντομο PIN αποθηκευμένο σε αυτόν τον υπολογιστή μπορεί να το μαντέψει όποιος αντιγράψει το προφίλ του προγράμματος περιήγησης."
+  },
+  "setPin": {
+    "message": "Ορισμός PIN"
+  },
+  "pinOn": {
+    "message": "Το ξεκλείδωμα με PIN είναι ενεργό. Πέντε λάθος PIN το απενεργοποιούν."
+  },
+  "pinOff": {
+    "message": "Το ξεκλείδωμα με PIN είναι ανενεργό."
+  },
+  "passwordHealth": {
+    "message": "Υγεία κωδικών"
+  },
+  "passwordHealthHint": {
+    "message": "Βρίσκει αδύναμους και επαναχρησιμοποιημένους κωδικούς, καθώς και εκτεθειμένους όταν είναι ενεργός ο έλεγχος διαρροών."
+  },
+  "checkBreaches": {
+    "message": "Έλεγχος κωδικών σε γνωστές διαρροές δεδομένων"
+  },
+  "checkBreachesHint": {
+    "message": "Μετά από κάθε συγχρονισμό, το Firnkey ρωτά το Have I Been Pwned για τον κωδικό κάθε σύνδεσης. Αποστέλλονται μόνο οι 5 πρώτοι χαρακτήρες ενός hash του κωδικού· ο ίδιος ο κωδικός δεν φεύγει ποτέ από αυτό το πρόγραμμα περιήγησης."
+  },
+  "checkBreachesNow": {
+    "message": "Έλεγχος για διαρροές τώρα"
+  },
+  "checkingBreaches": {
+    "message": "Έλεγχος…"
+  },
+  "breachPermissionDenied": {
+    "message": "Το Firnkey χρειάζεται πρόσβαση στο api.pwnedpasswords.com για τον έλεγχο διαρροών."
+  },
+  "healthExposed_one": {
+    "message": "$1 εκτεθειμένος"
+  },
+  "healthExposed_other": {
+    "message": "$1 εκτεθειμένοι"
+  },
+  "healthReused_one": {
+    "message": "$1 επαναχρησιμοποιημένος"
+  },
+  "healthReused_other": {
+    "message": "$1 επαναχρησιμοποιημένοι"
+  },
+  "healthWeak_one": {
+    "message": "$1 αδύναμος"
+  },
+  "healthWeak_other": {
+    "message": "$1 αδύναμοι"
+  },
+  "healthNotChecked": {
+    "message": "$1 δεν έχουν ελεγχθεί ακόμη για διαρροές"
+  },
+  "healthAllChecked": {
+    "message": "όλοι ελέγχθηκαν για διαρροές"
+  },
+  "exposedPasswords": {
+    "message": "Εκτεθειμένοι κωδικοί"
+  },
+  "reusedPasswords": {
+    "message": "Επαναχρησιμοποιημένοι κωδικοί"
+  },
+  "weakPasswords": {
+    "message": "Αδύναμοι κωδικοί"
+  },
+  "weakPassword": {
+    "message": "Αδύναμος"
+  },
+  "seenInBreaches_one": {
+    "message": "Εντοπίστηκε σε $2 διαρροή δεδομένων"
+  },
+  "seenInBreaches_other": {
+    "message": "Εντοπίστηκε σε $2 διαρροές δεδομένων"
+  },
+  "usedByLogins_one": {
+    "message": "Χρησιμοποιείται από $1 σύνδεση"
+  },
+  "usedByLogins_other": {
+    "message": "Χρησιμοποιείται από $1 συνδέσεις"
+  },
+  "passwordInBreaches_one": {
+    "message": "Αυτός ο κωδικός εμφανίστηκε σε $2 διαρροή δεδομένων. Αλλάξτε τον."
+  },
+  "passwordInBreaches_other": {
+    "message": "Αυτός ο κωδικός εμφανίστηκε σε $2 διαρροές δεδομένων. Αλλάξτε τον."
+  },
+  "healthAllGood": {
+    "message": "Δεν βρέθηκαν αδύναμοι, επαναχρησιμοποιημένοι ή εκτεθειμένοι κωδικοί."
+  },
+  "autofillOnPageLoad": {
+    "message": "Αυτόματη συμπλήρωση κατά τη φόρτωση"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Συμπληρώνει μια αντίστοιχη σύνδεση μόλις φορτωθεί μια σελίδα σύνδεσης, χωρίς κλικ. Απαιτεί ενσωμάτωση ιστοτόπων. Μια παραβιασμένη σελίδα ή μια κρυφή φόρμα σε αντίστοιχο ιστότοπο θα μπορούσε να διαβάσει τον κωδικό, γι' αυτό χρησιμοποιήστε το μόνο σε έμπιστους ιστοτόπους."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Προεπιλογή για συνδέσεις"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Χωρίς συμπλήρωση κατά τη φόρτωση"
+  },
+  "useDefaultSetting": {
+    "message": "Χρήση της προεπιλεγμένης ρύθμισης"
+  },
+  "always": {
+    "message": "Πάντα"
+  },
+  "loginWithDevice": {
+    "message": "Σύνδεση με συσκευή"
+  },
+  "signInWithSso": {
+    "message": "Σύνδεση με SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Εγκρίνετε το αίτημα σε μια εφαρμογή ή στο διαδικτυακό θησαυροφυλάκιο όπου είστε συνδεδεμένοι. Βεβαιωθείτε ότι δείχνει αυτή τη φράση:"
+  },
+  "ssoUnlockHint": {
+    "message": "Συνδεθήκατε με SSO. Εισαγάγετε τον κύριο κωδικό για ξεκλείδωμα."
+  },
+  "serverIcons": {
+    "message": "Εμφάνιση εικονιδίων ιστοτόπων"
+  },
+  "serverIconsHint": {
+    "message": "Ο διακομιστής σας κατεβάζει μία φορά το εικονίδιο κάθε ιστοτόπου και το αποθηκεύει προσωρινά. Ανενεργό: μόνο τα εικονίδια που έχει ήδη το πρόγραμμα περιήγησης."
+  },
+  "waitingForApproval": {
+    "message": "Αναμονή για έγκριση…"
+  },
+  "websites": {
+    "message": "Ιστότοποι"
+  },
+  "addWebsite": {
+    "message": "Προσθήκη ιστοτόπου"
+  },
+  "removeWebsite": {
+    "message": "Αφαίρεση ιστοτόπου"
+  },
+  "customFields": {
+    "message": "Προσαρμοσμένα πεδία"
+  },
+  "fieldType": {
+    "message": "Τύπος πεδίου"
+  },
+  "hiddenField": {
+    "message": "Κρυφό"
+  },
+  "checkboxField": {
+    "message": "Πλαίσιο επιλογής"
+  },
+  "addField": {
+    "message": "Προσθήκη πεδίου"
+  },
+  "fieldName": {
+    "message": "Όνομα πεδίου"
+  },
+  "fieldValue": {
+    "message": "Τιμή"
+  },
+  "removeField": {
+    "message": "Αφαίρεση πεδίου"
+  },
+  "collections": {
+    "message": "Συλλογές"
+  },
+  "allVaults": {
+    "message": "Όλα τα θησαυροφυλάκια"
+  },
+  "filters": {
+    "message": "Φίλτρα"
+  },
+  "allCollections": {
+    "message": "Όλες οι συλλογές"
+  },
+  "allFolders": {
+    "message": "Όλοι οι φάκελοι"
+  },
+  "allTypes": {
+    "message": "Όλοι οι τύποι"
+  },
+  "editSend": {
+    "message": "Επεξεργασία Send"
+  },
+  "keepDeletionDate": {
+    "message": "Διατήρηση ($1)"
+  },
+  "removePassword": {
+    "message": "Αφαίρεση κωδικού"
+  },
+  "sendSaved": {
+    "message": "Το $1 αποθηκεύτηκε."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Ο οργανισμός σας κλειδώνει το θησαυροφυλάκιο μετά από το πολύ $1 αδράνειας."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Ο οργανισμός σας σάς αποσυνδέει μετά από το πολύ $1 αδράνειας."
+  }
+}

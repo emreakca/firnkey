@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "ja",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "自分のサーバーで使うパスワードマネージャー"
+  },
+  "starting": {
+    "message": "起動中"
+  },
+  "connectYourServer": {
+    "message": "サーバーに接続"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey は選択したサーバーへのアクセスだけを求めます。"
+  },
+  "serverUrl": {
+    "message": "サーバー URL"
+  },
+  "verifyServer": {
+    "message": "サーバーを確認"
+  },
+  "signIn": {
+    "message": "ログイン"
+  },
+  "change": {
+    "message": "変更"
+  },
+  "email": {
+    "message": "メールアドレス"
+  },
+  "masterPassword": {
+    "message": "マスターパスワード"
+  },
+  "twoStepLogin": {
+    "message": "2 段階ログイン"
+  },
+  "method": {
+    "message": "方法"
+  },
+  "sendEmailCode": {
+    "message": "コードをメールで送信"
+  },
+  "verificationCode": {
+    "message": "確認コード"
+  },
+  "rememberThisDevice": {
+    "message": "このデバイスを記憶"
+  },
+  "newDeviceVerification": {
+    "message": "新しいデバイスの確認"
+  },
+  "deviceVerificationHint": {
+    "message": "サーバーから届いた確認コードを入力してください。"
+  },
+  "deviceVerificationCode": {
+    "message": "デバイスの確認コード"
+  },
+  "signInAndSync": {
+    "message": "ログインして同期"
+  },
+  "vaultLocked": {
+    "message": "保管庫はロック中"
+  },
+  "unlock": {
+    "message": "ロック解除"
+  },
+  "unlockWithBiometrics": {
+    "message": "Touch ID / 生体認証でロック解除"
+  },
+  "logOut": {
+    "message": "ログアウト"
+  },
+  "allItems": {
+    "message": "すべてのアイテム"
+  },
+  "noMatchingItems": {
+    "message": "一致するアイテムはありません。"
+  },
+  "viewAll": {
+    "message": "すべて表示"
+  },
+  "authenticatorEmpty": {
+    "message": "認証キーはまだありません。「新規」を選んで QR コードをスキャンするか、キーを貼り付けてください。"
+  },
+  "importOrExportKeys": {
+    "message": "キーのインポート / エクスポート"
+  },
+  "scanQrOnPage": {
+    "message": "このページの QR コードをスキャン"
+  },
+  "saveTo": {
+    "message": "保存先"
+  },
+  "newLogin": {
+    "message": "新しいログイン"
+  },
+  "key": {
+    "message": "キー"
+  },
+  "name": {
+    "message": "名前"
+  },
+  "nicknameOptional": {
+    "message": "ニックネーム（任意）"
+  },
+  "account": {
+    "message": "アカウント"
+  },
+  "website": {
+    "message": "ウェブサイト"
+  },
+  "issuer": {
+    "message": "発行元"
+  },
+  "advanced": {
+    "message": "詳細設定"
+  },
+  "algorithm": {
+    "message": "アルゴリズム"
+  },
+  "digits": {
+    "message": "桁数"
+  },
+  "periodSeconds": {
+    "message": "周期（秒）"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "ほとんどのサービスは SHA-1、6 桁、30 秒を使います。Steam のキー（発行元 Steam）は常に 5 文字のコードになります。"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "import": {
+    "message": "インポート"
+  },
+  "keysImportHint": {
+    "message": "認証アプリがエクスポートする形式で、1 行に 1 つの otpauth://totp/ リンク。新しいキーはそれぞれログインになります。"
+  },
+  "chooseFile": {
+    "message": "ファイルを選択"
+  },
+  "checkList": {
+    "message": "リストを確認"
+  },
+  "export": {
+    "message": "エクスポート"
+  },
+  "keysExportHint": {
+    "message": "すべてのキーを otpauth:// リンクとしてテキストファイルに保存します。ファイルを持つ人は誰でもコードを生成できるため、インポート後に削除してください。"
+  },
+  "exportKeys": {
+    "message": "キーをエクスポート"
+  },
+  "sendIntro": {
+    "message": "テキストやファイルを、自動で消えるエンドツーエンド暗号化リンクで共有します。"
+  },
+  "sendEmpty": {
+    "message": "Send はまだありません。「新規」を選んでテキストやファイルを共有しましょう。"
+  },
+  "text": {
+    "message": "テキスト"
+  },
+  "file": {
+    "message": "ファイル"
+  },
+  "sendHideText": {
+    "message": "受信者が表示するまでテキストを隠す"
+  },
+  "noFileChosenSendLimit": {
+    "message": "ファイル未選択 · 最大 25 MB"
+  },
+  "deleteAfter": {
+    "message": "削除までの期間"
+  },
+  "days1": {
+    "message": "1 日"
+  },
+  "days2": {
+    "message": "2 日"
+  },
+  "days3": {
+    "message": "3 日"
+  },
+  "days7": {
+    "message": "7 日"
+  },
+  "days14": {
+    "message": "14 日"
+  },
+  "days30": {
+    "message": "30 日"
+  },
+  "options": {
+    "message": "オプション"
+  },
+  "passwordOptional": {
+    "message": "パスワード（任意）"
+  },
+  "maximumViewsOptional": {
+    "message": "最大表示回数（任意）"
+  },
+  "createAndCopyLink": {
+    "message": "作成してリンクをコピー"
+  },
+  "passwordGenerator": {
+    "message": "パスワード生成"
+  },
+  "generatorHint": {
+    "message": "ブラウザーの暗号学的乱数を使ってローカルで生成します。"
+  },
+  "password": {
+    "message": "パスワード"
+  },
+  "passphrase": {
+    "message": "パスフレーズ"
+  },
+  "username": {
+    "message": "ユーザー名"
+  },
+  "length": {
+    "message": "長さ"
+  },
+  "uppercase": {
+    "message": "大文字"
+  },
+  "lowercase": {
+    "message": "小文字"
+  },
+  "numbers": {
+    "message": "数字"
+  },
+  "symbols": {
+    "message": "記号"
+  },
+  "words": {
+    "message": "単語数"
+  },
+  "wordSeparator": {
+    "message": "単語の区切り"
+  },
+  "capitalize": {
+    "message": "先頭を大文字"
+  },
+  "includeNumber": {
+    "message": "数字を含める"
+  },
+  "type": {
+    "message": "種類"
+  },
+  "randomWord": {
+    "message": "ランダムな単語"
+  },
+  "plusAddressedEmail": {
+    "message": "プラス付きメールアドレス"
+  },
+  "catchAllEmail": {
+    "message": "キャッチオールメール"
+  },
+  "forwardedEmailAlias": {
+    "message": "転送用メールエイリアス"
+  },
+  "forwardingService": {
+    "message": "転送サービス"
+  },
+  "apiKey": {
+    "message": "API キー"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "初回使用後に保存されます。そのままにするには空欄のまま"
+  },
+  "aliasDomain": {
+    "message": "エイリアスのドメイン"
+  },
+  "createAlias": {
+    "message": "エイリアスを作成"
+  },
+  "creatingAlias": {
+    "message": "エイリアスを作成中…"
+  },
+  "aliasCreated": {
+    "message": "エイリアスを作成しました"
+  },
+  "forwarderAccessNeeded": {
+    "message": "エイリアスを作成するには、Firnkey に転送サービスへのアクセスが必要です。"
+  },
+  "yourEmail": {
+    "message": "あなたのメールアドレス"
+  },
+  "yourCatchAllDomain": {
+    "message": "キャッチオールのドメイン"
+  },
+  "generateAnother": {
+    "message": "別のものを生成"
+  },
+  "useInNewLogin": {
+    "message": "新しいログインで使う"
+  },
+  "security": {
+    "message": "セキュリティ"
+  },
+  "securityGroupHint": {
+    "message": "ロックまでの時間、生体認証、クリップボード"
+  },
+  "autofillSaving": {
+    "message": "自動入力と保存"
+  },
+  "autofillGroupHint": {
+    "message": "ウェブサイト連携、保存の確認、除外ドメイン"
+  },
+  "vault": {
+    "message": "保管庫"
+  },
+  "vaultGroupHint": {
+    "message": "フォルダー、認証タブ"
+  },
+  "importExport": {
+    "message": "インポートとエクスポート"
+  },
+  "transferGroupHint": {
+    "message": "別のパスワードマネージャーとの間で保管庫を移行"
+  },
+  "accountSync": {
+    "message": "アカウントと同期"
+  },
+  "accountGroupHint": {
+    "message": "アカウント、リアルタイム同期、ログアウト"
+  },
+  "lockVault": {
+    "message": "保管庫をロック"
+  },
+  "after1Minute": {
+    "message": "1 分後"
+  },
+  "after5Minutes": {
+    "message": "5 分後"
+  },
+  "after15Minutes": {
+    "message": "15 分後"
+  },
+  "after30Minutes": {
+    "message": "30 分後"
+  },
+  "after1Hour": {
+    "message": "1 時間後"
+  },
+  "after2Hours": {
+    "message": "2 時間後"
+  },
+  "after4Hours": {
+    "message": "4 時間後"
+  },
+  "after8Hours": {
+    "message": "8 時間後"
+  },
+  "after24Hours": {
+    "message": "24 時間後"
+  },
+  "whenTheComputerLocks": {
+    "message": "コンピューターのロック時"
+  },
+  "whenBrowserCloses": {
+    "message": "ブラウザーを閉じたとき"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "ログアウトまでロックしない"
+  },
+  "untilLogoutHint": {
+    "message": "「ログアウトまで」はこのブラウザープロファイル用にセッションを暗号化しますが、共有のコンピューターでは安全性が下がります。"
+  },
+  "lockNow": {
+    "message": "今すぐロック"
+  },
+  "clearCopiedSecrets": {
+    "message": "コピーした機密情報を消去"
+  },
+  "after10Seconds": {
+    "message": "10 秒後"
+  },
+  "after20Seconds": {
+    "message": "20 秒後"
+  },
+  "after30Seconds": {
+    "message": "30 秒後"
+  },
+  "after2Minutes": {
+    "message": "2 分後"
+  },
+  "never": {
+    "message": "しない"
+  },
+  "clipboardOwnOnly": {
+    "message": "Firnkey がコピーしたものだけを消去"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "クリップボードの読み取り権限が必要です。ほかの場所でコピーしたテキストには触れません。"
+  },
+  "websiteIntegration": {
+    "message": "ウェブサイト連携"
+  },
+  "websiteIntegrationHint": {
+    "message": "自動入力の候補と保存の確認。"
+  },
+  "enable": {
+    "message": "有効にする"
+  },
+  "fillSignInDialogs": {
+    "message": "ログインダイアログを入力（HTTP Basic 認証）"
+  },
+  "basicAuthHint": {
+    "message": "保護されていないログインがちょうど 1 つ一致するとき、ブラウザーのログインダイアログに応答します。"
+  },
+  "savePrompts": {
+    "message": "保存の確認"
+  },
+  "askToAddLogin": {
+    "message": "ログインの追加を確認する"
+  },
+  "askToUpdateLogin": {
+    "message": "既存のログインの更新を確認する"
+  },
+  "askPasskeys": {
+    "message": "パスキーの保存と使用を確認する"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "保存の確認を閉じるまで（秒）"
+  },
+  "excludedDomains": {
+    "message": "除外ドメイン"
+  },
+  "excludedDomainsHint": {
+    "message": "これらのドメインでは、Firnkey は認証情報の候補表示・入力・保存を行いません。"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "folders": {
+    "message": "フォルダー"
+  },
+  "foldersHint": {
+    "message": "フォルダーを削除してもアイテムは残り、「フォルダーなし」に移動します。"
+  },
+  "showTheAuthenticatorTab": {
+    "message": "認証タブを表示"
+  },
+  "authenticatorTabHint": {
+    "message": "ログイン用の確認コードをリアルタイムに表示します。キーは QR コード、手入力、ファイルから追加できます。"
+  },
+  "authenticatorSmartFilter": {
+    "message": "このサイトのコードがあればそれだけを表示"
+  },
+  "vaultImportHint": {
+    "message": "Bitwarden の JSON エクスポート（暗号化なしまたはパスワード保護）、1Password の .1pux エクスポート、または Bitwarden・1Password・KeePass・KeePassXC・Chrome・Edge・Firefox・Safari の CSV ファイル。アイテムは個人の保管庫に入ります。"
+  },
+  "noFileChosen": {
+    "message": "ファイル未選択"
+  },
+  "filePassword": {
+    "message": "ファイルのパスワード"
+  },
+  "checkFile": {
+    "message": "ファイルを確認"
+  },
+  "format": {
+    "message": "形式"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON（ファイルパスワードで保護）"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON（暗号化なし）"
+  },
+  "filePasswordHint": {
+    "message": "ファイルを再インポートするときに必要です。Firnkey は復元できません。"
+  },
+  "unencryptedExportWarning": {
+    "message": "暗号化されていないファイルは、持っている人なら誰でも中のパスワードをすべて読めます。インポート後に削除してください。"
+  },
+  "exportScopeHint": {
+    "message": "個人のアイテムをエクスポートします。組織のアイテムは組織に残ります。"
+  },
+  "exportVault": {
+    "message": "保管庫をエクスポート"
+  },
+  "liveSync": {
+    "message": "リアルタイム同期"
+  },
+  "liveSyncHint": {
+    "message": "サーバーの変更をすぐに受け取ります。オフにすると 1 分ごとに確認し、メモリ使用量が減ります。"
+  },
+  "syncNow": {
+    "message": "今すぐ同期"
+  },
+  "addAccount": {
+    "message": "アカウントを追加"
+  },
+  "repromptHint": {
+    "message": "このアイテムの保護されたフィールドを使うにはマスターパスワードが必要です。"
+  },
+  "unlockProtectedFields": {
+    "message": "保護されたフィールドのロックを解除"
+  },
+  "show": {
+    "message": "表示"
+  },
+  "addAttachment": {
+    "message": "添付ファイルを追加"
+  },
+  "fillOnThisPage": {
+    "message": "このページに入力"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "moveToTrash": {
+    "message": "ごみ箱に移動"
+  },
+  "addLogin": {
+    "message": "ログインを追加"
+  },
+  "login": {
+    "message": "ログイン"
+  },
+  "card": {
+    "message": "カード"
+  },
+  "identity": {
+    "message": "ID 情報"
+  },
+  "secureNote": {
+    "message": "セキュアメモ"
+  },
+  "folder": {
+    "message": "フォルダー"
+  },
+  "noFolder": {
+    "message": "フォルダーなし"
+  },
+  "owner": {
+    "message": "所有者"
+  },
+  "myVault": {
+    "message": "マイ保管庫"
+  },
+  "moveToOrganizationHint": {
+    "message": "組織への移動はここでは元に戻せません。移動後、アイテムは組織のものになります。"
+  },
+  "generate": {
+    "message": "生成"
+  },
+  "authenticatorKeyTotp": {
+    "message": "認証キー（TOTP）"
+  },
+  "scanQrShort": {
+    "message": "QR をスキャン"
+  },
+  "notes": {
+    "message": "メモ"
+  },
+  "favorite": {
+    "message": "お気に入り"
+  },
+  "authenticator": {
+    "message": "認証"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "生成"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "openSettings": {
+    "message": "設定を開く"
+  },
+  "searchVault": {
+    "message": "保管庫を検索"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 キーまたは otpauth://totp/ リンク"
+  },
+  "defaultsToTheIssuer": {
+    "message": "既定は発行元"
+  },
+  "shownInsteadOfThe": {
+    "message": "名前の代わりに表示"
+  },
+  "keysToImport": {
+    "message": "インポートするキー"
+  },
+  "whatToSend": {
+    "message": "送信するもの"
+  },
+  "whatToGenerate": {
+    "message": "生成するもの"
+  },
+  "generatedValue": {
+    "message": "生成された値"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "copyGeneratedValue": {
+    "message": "生成された値をコピー"
+  },
+  "domainToExclude": {
+    "message": "除外するドメイン"
+  },
+  "newFolder": {
+    "message": "新しいフォルダー"
+  },
+  "newFolderName": {
+    "message": "新しいフォルダーの名前"
+  },
+  "copyUsername": {
+    "message": "ユーザー名をコピー"
+  },
+  "copyPassword": {
+    "message": "パスワードをコピー"
+  },
+  "copyVerificationCode": {
+    "message": "確認コードをコピー"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 キーまたは otpauth:// リンク"
+  },
+  "mainNavigation": {
+    "message": "メインナビゲーション"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey のパスキー"
+  },
+  "passkey": {
+    "message": "パスキー"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "続けるには Firnkey のロックを解除してください。"
+  },
+  "verifyWithBiometrics": {
+    "message": "Touch ID / 生体認証で確認"
+  },
+  "continue": {
+    "message": "続ける"
+  },
+  "useAnotherDevice": {
+    "message": "別のデバイスを使う"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "sshKey": {
+    "message": "SSH キー"
+  },
+  "cardholderName": {
+    "message": "カード名義人"
+  },
+  "brand": {
+    "message": "ブランド"
+  },
+  "number": {
+    "message": "番号"
+  },
+  "expirationMonth": {
+    "message": "有効期限（月）"
+  },
+  "expirationYear": {
+    "message": "有効期限（年）"
+  },
+  "securityCode": {
+    "message": "セキュリティコード"
+  },
+  "title": {
+    "message": "敬称"
+  },
+  "firstName": {
+    "message": "名"
+  },
+  "middleName": {
+    "message": "ミドルネーム"
+  },
+  "lastName": {
+    "message": "姓"
+  },
+  "company": {
+    "message": "会社"
+  },
+  "phone": {
+    "message": "電話番号"
+  },
+  "address1": {
+    "message": "住所 1"
+  },
+  "address2": {
+    "message": "住所 2"
+  },
+  "address3": {
+    "message": "住所 3"
+  },
+  "city": {
+    "message": "市区町村"
+  },
+  "stateProvince": {
+    "message": "都道府県 / 州"
+  },
+  "postalCode": {
+    "message": "郵便番号"
+  },
+  "country": {
+    "message": "国"
+  },
+  "ssn": {
+    "message": "マイナンバー / 社会保障番号"
+  },
+  "passportNumber": {
+    "message": "パスポート番号"
+  },
+  "licenseNumber": {
+    "message": "免許証番号"
+  },
+  "addSecureNote": {
+    "message": "セキュアメモを追加"
+  },
+  "addCard": {
+    "message": "カードを追加"
+  },
+  "addIdentity": {
+    "message": "ID 情報を追加"
+  },
+  "addSshKey": {
+    "message": "SSH キーを追加"
+  },
+  "editLogin": {
+    "message": "ログインを編集"
+  },
+  "editSecureNote": {
+    "message": "セキュアメモを編集"
+  },
+  "editCard": {
+    "message": "カードを編集"
+  },
+  "editIdentity": {
+    "message": "ID 情報を編集"
+  },
+  "editSshKey": {
+    "message": "SSH キーを編集"
+  },
+  "passphraseGenerator": {
+    "message": "パスフレーズ生成"
+  },
+  "usernameGenerator": {
+    "message": "ユーザー名生成"
+  },
+  "generatedPasswordCopied": {
+    "message": "生成したパスワードをコピーしました。"
+  },
+  "generatedPassphraseCopied": {
+    "message": "生成したパスフレーズをコピーしました。"
+  },
+  "generatedUsernameCopied": {
+    "message": "生成したユーザー名をコピーしました。"
+  },
+  "removeKey": {
+    "message": "キーを削除"
+  },
+  "biometricOff": {
+    "message": "生体認証によるロック解除をオフにしました。"
+  },
+  "usernameCopied": {
+    "message": "ユーザー名をコピーしました。"
+  },
+  "passwordCopied": {
+    "message": "パスワードをコピーしました。"
+  },
+  "hide": {
+    "message": "隠す"
+  },
+  "movedToTrash": {
+    "message": "ごみ箱に移動しました。"
+  },
+  "websiteAccessDenied": {
+    "message": "ウェブサイトへのアクセスは許可されませんでした。"
+  },
+  "websiteIntegrationOn": {
+    "message": "自動入力と保存の確認を有効にしました。"
+  },
+  "websiteIntegrationOff": {
+    "message": "ウェブサイト上の確認を無効にしました。"
+  },
+  "basicAuthPermissionDenied": {
+    "message": "ログインダイアログを入力するには、ウェブサイト上でそれを見る権限が必要です。"
+  },
+  "preferencesUpdated": {
+    "message": "設定を更新しました。"
+  },
+  "invalidDomain": {
+    "message": "example.com のような有効なドメインを入力してください。"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "enabled": {
+    "message": "有効"
+  },
+  "disableWebsiteIntegration": {
+    "message": "ウェブサイト連携を無効にする"
+  },
+  "enableWebsiteIntegration": {
+    "message": "ウェブサイト連携を有効にする"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "対応していないロック時間です。"
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "対応していないクリップボード時間です。"
+  },
+  "clipboardClearsAfter": {
+    "message": "コピーした機密情報は $1 後に消去されます。"
+  },
+  "clipboardKeeps": {
+    "message": "コピーした機密情報はクリップボードに残ります。"
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey がコピーした内容がまだ残っている場合にだけ、クリップボードを消去します。"
+  },
+  "seconds_one": {
+    "message": "$1 秒"
+  },
+  "seconds_other": {
+    "message": "$1 秒"
+  },
+  "minutes_one": {
+    "message": "$1 分"
+  },
+  "minutes_other": {
+    "message": "$1 分"
+  },
+  "hours_one": {
+    "message": "$1 時間"
+  },
+  "hours_other": {
+    "message": "$1 時間"
+  },
+  "lockOnComputerLock": {
+    "message": "コンピューターのロック時またはブラウザーを閉じたときに保管庫をロックします。"
+  },
+  "lockOnLogout": {
+    "message": "ロックするかログアウトするまで、このブラウザーで保管庫はロック解除されたままです。"
+  },
+  "lockOnBrowserClose": {
+    "message": "ブラウザーを閉じるまで保管庫はロック解除されたままです。"
+  },
+  "lockAfterInactivity": {
+    "message": "操作がない状態が $1 続くと保管庫をロックします。"
+  },
+  "waitingForVerification": {
+    "message": "確認を待っています…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "生体認証によるロック解除をオンにする前に、保管庫のロックを解除してください。"
+  },
+  "noPasskeyCreated": {
+    "message": "パスキーは作成されませんでした。"
+  },
+  "biometricOn": {
+    "message": "生体認証によるロック解除はオンです。"
+  },
+  "biometricUnavailable": {
+    "message": "現在、生体認証によるロック解除は使用できません。"
+  },
+  "vaultUnlocked_one": {
+    "message": "保管庫のロックを解除しました（$1 件）。"
+  },
+  "vaultUnlocked_other": {
+    "message": "保管庫のロックを解除しました（$1 件）。"
+  },
+  "verificationCancelled": {
+    "message": "確認がキャンセルされたか、時間切れになりました。"
+  },
+  "notConnected": {
+    "message": "未接続"
+  },
+  "connectAServer": {
+    "message": "サーバーに接続"
+  },
+  "signedOut": {
+    "message": "ログアウト済み"
+  },
+  "itemCount_one": {
+    "message": "$1 件"
+  },
+  "itemCount_other": {
+    "message": "$1 件"
+  },
+  "locked": {
+    "message": "ロック中"
+  },
+  "unlocked": {
+    "message": "ロック解除中"
+  },
+  "settingsFor": {
+    "message": "$1 の設定"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · このページの候補を先に表示"
+  },
+  "itemTotal_one": {
+    "message": "合計 $1 件"
+  },
+  "itemTotal_other": {
+    "message": "合計 $1 件"
+  },
+  "skippedItems_one": {
+    "message": "対応していないか破損したアイテム $1 件をスキップしました。"
+  },
+  "skippedItems_other": {
+    "message": "対応していないか破損したアイテム $1 件をスキップしました。"
+  },
+  "otherAccounts": {
+    "message": "ほかのアカウント"
+  },
+  "switch": {
+    "message": "切り替え"
+  },
+  "removeAccountTitle": {
+    "message": "このブラウザーの Firnkey から $1 を削除"
+  },
+  "switchedTo": {
+    "message": "$1 に切り替えました。"
+  },
+  "accountRemoved": {
+    "message": "$1 をこのブラウザーから削除しました。"
+  },
+  "addAccountHint": {
+    "message": "もう一方のアカウントにログインしてください。現在のアカウントはロックされた状態で下に保存されます。"
+  },
+  "verifying": {
+    "message": "確認中…"
+  },
+  "serverPermissionDenied": {
+    "message": "サーバーへの権限は許可されませんでした。"
+  },
+  "signingIn": {
+    "message": "ログイン中…"
+  },
+  "continueInNewWindow": {
+    "message": "新しいウィンドウで続けるには、もう一度「ログイン」を選んでください。"
+  },
+  "enterTwoStepCode": {
+    "message": "2 段階ログインのコードを入力してください。"
+  },
+  "unlocking": {
+    "message": "ロック解除中…"
+  },
+  "trashHint": {
+    "message": "アイテムを復元するか、完全に削除します。"
+  },
+  "trashEmpty": {
+    "message": "ごみ箱は空です。"
+  },
+  "autofillSuggestions": {
+    "message": "自動入力の候補"
+  },
+  "otherResults": {
+    "message": "ほかの結果"
+  },
+  "trash": {
+    "message": "ごみ箱"
+  },
+  "folderName": {
+    "message": "フォルダー名"
+  },
+  "rename": {
+    "message": "名前を変更"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "folderRenamed": {
+    "message": "フォルダー名を変更しました。"
+  },
+  "folderAdded": {
+    "message": "フォルダーを追加しました。"
+  },
+  "folderDeleted": {
+    "message": "フォルダーを削除しました。アイテムは「フォルダーなし」にあります。"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "matchesThisPage": {
+    "message": "このページに一致"
+  },
+  "restore": {
+    "message": "復元"
+  },
+  "itemRestored": {
+    "message": "アイテムを復元しました。"
+  },
+  "deleteForever": {
+    "message": "完全に削除"
+  },
+  "itemDeletedForever": {
+    "message": "アイテムを完全に削除しました。"
+  },
+  "open": {
+    "message": "開く"
+  },
+  "fill": {
+    "message": "入力"
+  },
+  "openWebsite": {
+    "message": "ウェブサイトを開く"
+  },
+  "cardNumber": {
+    "message": "カード番号"
+  },
+  "note": {
+    "message": "メモ"
+  },
+  "publicKey": {
+    "message": "公開鍵"
+  },
+  "copyPublicKey": {
+    "message": "公開鍵をコピー"
+  },
+  "copyCardNumber": {
+    "message": "カード番号をコピー"
+  },
+  "copyNote": {
+    "message": "メモをコピー"
+  },
+  "copySecurityCode": {
+    "message": "セキュリティコードをコピー"
+  },
+  "copyPrivateKey": {
+    "message": "秘密鍵をコピー"
+  },
+  "privateKey": {
+    "message": "秘密鍵"
+  },
+  "confirmBeforeDeleting": {
+    "message": "このアイテムを削除する前にマスターパスワードを確認してください。"
+  },
+  "moreActions": {
+    "message": "その他の操作"
+  },
+  "noWebAddress": {
+    "message": "このログインにはウェブアドレスがありません。"
+  },
+  "noWebsiteSaved": {
+    "message": "ウェブサイト未保存"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "expiration": {
+    "message": "有効期限"
+  },
+  "address": {
+    "message": "住所"
+  },
+  "fingerprint": {
+    "message": "フィンガープリント"
+  },
+  "customField": {
+    "message": "カスタムフィールド"
+  },
+  "passwordHistory": {
+    "message": "パスワード履歴（$1）"
+  },
+  "oldPassword": {
+    "message": "古いパスワード"
+  },
+  "organization": {
+    "message": "組織"
+  },
+  "attachmentsCount": {
+    "message": "添付ファイル（$1）"
+  },
+  "downloadFile": {
+    "message": "$1 をダウンロード"
+  },
+  "deleteFile": {
+    "message": "$1 を削除"
+  },
+  "fileDownloaded": {
+    "message": "$1 をダウンロードしました。"
+  },
+  "fileTooLarge25": {
+    "message": "ファイルが大きすぎます（最大 25 MB）。"
+  },
+  "fileEmpty": {
+    "message": "ファイルが空です。"
+  },
+  "uploadingFile": {
+    "message": "$1 を暗号化してアップロード中…"
+  },
+  "fileAttached": {
+    "message": "$1 を添付しました。"
+  },
+  "fileDeleted": {
+    "message": "$1 を削除しました。"
+  },
+  "copyLink": {
+    "message": "リンクをコピー"
+  },
+  "viewsOf": {
+    "message": "$1 / $2 回表示"
+  },
+  "views_one": {
+    "message": "$1 回表示"
+  },
+  "views_other": {
+    "message": "$1 回表示"
+  },
+  "deletesOn": {
+    "message": "$1 に削除"
+  },
+  "disabled": {
+    "message": "無効"
+  },
+  "sendLinkCopied": {
+    "message": "Send のリンクをコピーしました。"
+  },
+  "deleteSendTitle": {
+    "message": "$1 を削除（リンクは使えなくなります）"
+  },
+  "sendDeleted": {
+    "message": "$1 を削除しました。リンクはもう使えません。"
+  },
+  "encrypting": {
+    "message": "暗号化中…"
+  },
+  "chooseFileToSend": {
+    "message": "送信するファイルを選択してください。"
+  },
+  "sendCreatedCopied": {
+    "message": "Send を作成し、リンクをコピーしました。"
+  },
+  "sendCreatedSync": {
+    "message": "Send を作成しました。同期してから、リストでリンクをコピーしてください。"
+  },
+  "fileTooLarge10": {
+    "message": "ファイルが大きすぎます（最大 10 MB）。"
+  },
+  "importing": {
+    "message": "インポート中…"
+  },
+  "checking": {
+    "message": "確認中…"
+  },
+  "importedItems": {
+    "message": "$1 をインポートしました。"
+  },
+  "importItems": {
+    "message": "$1 をインポート"
+  },
+  "foundItems": {
+    "message": "$1 が見つかりました。保管庫に追加され、何も置き換えられません。"
+  },
+  "foundItemsInFolders": {
+    "message": "$2 に $1 が見つかりました。保管庫に追加され、何も置き換えられません。"
+  },
+  "folderCount_one": {
+    "message": "$1 個のフォルダー"
+  },
+  "folderCount_other": {
+    "message": "$1 個のフォルダー"
+  },
+  "exporting": {
+    "message": "エクスポート中…"
+  },
+  "vaultExportedPlain": {
+    "message": "保管庫をエクスポートしました。インポート後にファイルを削除してください。"
+  },
+  "vaultExportedProtected": {
+    "message": "保管庫をエクスポートしました。ファイルのパスワードは大切に保管してください。"
+  },
+  "createdOn": {
+    "message": "作成日 $1"
+  },
+  "lastEdited": {
+    "message": "最終更新 $1"
+  },
+  "itemHistory": {
+    "message": "アイテムの履歴"
+  },
+  "loginCredentials": {
+    "message": "ログイン情報"
+  },
+  "itemDetails": {
+    "message": "アイテムの詳細"
+  },
+  "autofillOptions": {
+    "message": "自動入力オプション"
+  },
+  "passwordChangedOn": {
+    "message": "最終変更 $1"
+  },
+  "removePasskeyTitle": {
+    "message": "このパスキーをログインから削除"
+  },
+  "passkeyRemoved": {
+    "message": "パスキーを削除しました。"
+  },
+  "usedUntil": {
+    "message": "$1 まで使用"
+  },
+  "earlierPassword": {
+    "message": "以前のパスワード"
+  },
+  "fieldCopied": {
+    "message": "$1 をコピーしました。"
+  },
+  "copyField": {
+    "message": "$1 をコピー"
+  },
+  "confirmBeforeCopying": {
+    "message": "このアイテムからコピーする前にマスターパスワードを確認してください。"
+  },
+  "codeCopied": {
+    "message": "確認コードをコピーしました。"
+  },
+  "viewOnlyItem": {
+    "message": "組織の設定により、このアイテムは表示できますが変更できません。"
+  },
+  "confirmBeforeEditing": {
+    "message": "このアイテムを編集する前にマスターパスワードを確認してください。"
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "YYYY"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "loginUpdated": {
+    "message": "ログインを更新しました。"
+  },
+  "loginAdded": {
+    "message": "ログインを追加しました。"
+  },
+  "itemUpdated": {
+    "message": "$1 を更新しました。"
+  },
+  "itemAdded": {
+    "message": "$1 を追加しました。"
+  },
+  "protectedFieldsUnlocked": {
+    "message": "保護されたフィールドを 60 秒間ロック解除しました。"
+  },
+  "unavailable": {
+    "message": "利用不可"
+  },
+  "secondsLeft_one": {
+    "message": "残り $1 秒"
+  },
+  "secondsLeft_other": {
+    "message": "残り $1 秒"
+  },
+  "codesForSite": {
+    "message": "このサイトのコード · 合計 $1"
+  },
+  "codeCount_one": {
+    "message": "$1 個のコード"
+  },
+  "codeCount_other": {
+    "message": "$1 個のコード"
+  },
+  "thisWebsite": {
+    "message": "このウェブサイト"
+  },
+  "openToConfirm": {
+    "message": "開いてマスターパスワードを確認"
+  },
+  "protected": {
+    "message": "保護"
+  },
+  "fillIntoPage": {
+    "message": "このページに入力"
+  },
+  "editKey": {
+    "message": "キーを編集"
+  },
+  "codeFilled": {
+    "message": "$1 のコードを入力しました。"
+  },
+  "confirmThenEditKey": {
+    "message": "マスターパスワードを確認してから、認証タブでキーを編集してください。"
+  },
+  "qrReadFirstCheck": {
+    "message": "複数の QR コードのうち最初のものを読み取りました。内容を確認して保存してください。"
+  },
+  "qrReadCheck": {
+    "message": "QR コードを読み取りました。内容を確認して保存してください。"
+  },
+  "qrReadFirstSave": {
+    "message": "複数の QR コードのうち最初のものを読み取りました。キーを残すにはログインを保存してください。"
+  },
+  "qrReadSave": {
+    "message": "QR コードを読み取りました。キーを残すにはログインを保存してください。"
+  },
+  "qrUnsupported": {
+    "message": "このブラウザーは QR コードを読み取れません。代わりにキーまたは otpauth:// リンクを貼り付けてください。"
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey はこのページを読み取れません。QR コードが表示されているページを開いて、もう一度お試しください。"
+  },
+  "qrNotFound": {
+    "message": "ページの表示部分に認証用の QR コードが見つかりませんでした。"
+  },
+  "qrInvalid": {
+    "message": "この QR コードは有効な時間ベース（TOTP）の認証キーではありません。"
+  },
+  "keyAdded": {
+    "message": "認証キーを追加しました。"
+  },
+  "keyUpdated": {
+    "message": "認証キーを更新しました。"
+  },
+  "keyRemoved": {
+    "message": "認証キーを削除しました。ログイン自体は保管庫に残っています。"
+  },
+  "fileTooLarge256": {
+    "message": "ファイルが大きすぎます（最大 256 KB）。"
+  },
+  "pasteLinksFirst": {
+    "message": "先に otpauth:// リンクを貼り付けるか、ファイルを選択してください。"
+  },
+  "keysImported_one": {
+    "message": "キーを $1 個インポートしました。"
+  },
+  "keysImported_other": {
+    "message": "キーを $1 個インポートしました。"
+  },
+  "new": {
+    "message": "新規"
+  },
+  "duplicate": {
+    "message": "重複"
+  },
+  "invalid": {
+    "message": "無効"
+  },
+  "importNewKeys_one": {
+    "message": "新しいキーを $1 個インポート"
+  },
+  "importNewKeys_other": {
+    "message": "新しいキーを $1 個インポート"
+  },
+  "checkThenImport": {
+    "message": "リストを確認してからインポートしてください。"
+  },
+  "nothingNewToImport": {
+    "message": "インポートする新しいものはありません。"
+  },
+  "keysExported": {
+    "message": "キーをエクスポートしました。ほかの場所でインポートしたらファイルを削除してください。"
+  },
+  "fieldsFilled_one": {
+    "message": "$1 個のフィールドに入力しました。"
+  },
+  "fieldsFilled_other": {
+    "message": "$1 個のフィールドに入力しました。"
+  },
+  "filledUsernameAndPassword": {
+    "message": "ユーザー名とパスワードを入力しました。"
+  },
+  "filledUsername": {
+    "message": "ユーザー名を入力しました。"
+  },
+  "filledPassword": {
+    "message": "パスワードを入力しました。"
+  },
+  "synced_one": {
+    "message": "$1 件のアイテムを同期しました。"
+  },
+  "synced_other": {
+    "message": "$1 件のアイテムを同期しました。"
+  },
+  "twoStepUnsupported": {
+    "message": "このアカウントには、このバージョンが対応していない 2 段階ログイン方法が必要です。"
+  },
+  "sending": {
+    "message": "送信中…"
+  },
+  "emailCodeSent": {
+    "message": "確認コードをメールで送信しました。"
+  },
+  "authenticatorApp": {
+    "message": "認証アプリ"
+  },
+  "securityKeyWebauthn": {
+    "message": "セキュリティキー（WebAuthn）"
+  },
+  "recoveryCode": {
+    "message": "リカバリーコード"
+  },
+  "twoFactorMethod": {
+    "message": "方法 $1"
+  },
+  "fieldEmpty": {
+    "message": "このフィールドは空です。"
+  },
+  "clipboardClearsIn": {
+    "message": "$1 クリップボードは $2 後に消去されます。"
+  },
+  "backgroundNoResponse": {
+    "message": "拡張機能のバックグラウンド処理が応答しませんでした。拡張機能を再読み込みしてください。"
+  },
+  "unexpectedResponse": {
+    "message": "バックグラウンド処理から予期しない応答がありました。"
+  },
+  "newSend": {
+    "message": "新しい Send"
+  },
+  "item": {
+    "message": "アイテム"
+  },
+  "editItem": {
+    "message": "アイテムを編集"
+  },
+  "newItem": {
+    "message": "新しいアイテム"
+  },
+  "addKey": {
+    "message": "キーを追加"
+  },
+  "serverVersion": {
+    "message": "$1 · サーバー $2"
+  },
+  "unexpectedError": {
+    "message": "拡張機能で予期しないエラーが発生しました。"
+  },
+  "passkeySuggestion": {
+    "message": "Firnkey に保存したパスキーでログイン"
+  },
+  "generateAndFill": {
+    "message": "パスワードを生成して入力"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey の候補"
+  },
+  "dismissSuggestions": {
+    "message": "自動入力の候補を閉じる"
+  },
+  "dismiss": {
+    "message": "閉じる"
+  },
+  "toggleSuggestions": {
+    "message": "Firnkey の候補を表示 / 非表示"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Firnkey の候補を表示または非表示"
+  },
+  "updateExistingLogin": {
+    "message": "既存のログインを更新"
+  },
+  "saveLoginToFirnkey": {
+    "message": "ログインを Firnkey に保存"
+  },
+  "notNow": {
+    "message": "今はしない"
+  },
+  "update": {
+    "message": "更新"
+  },
+  "loginSaved": {
+    "message": "ログインを保存しました。"
+  },
+  "saveFailed": {
+    "message": "Firnkey はこのログインを保存できませんでした。"
+  },
+  "savePasskey": {
+    "message": "パスキーを保存"
+  },
+  "signInWithPasskey": {
+    "message": "パスキーでログイン"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey にはこのサイトのこのアカウント用のパスキーがすでにあります。"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "savePasskeyForAccount": {
+    "message": "$2 で $1 のパスキーを保存しますか？"
+  },
+  "savePasskeyOnSite": {
+    "message": "$1 でパスキーを保存しますか？"
+  },
+  "choosePasskeyFor": {
+    "message": "$1 のパスキーを選んでください。"
+  },
+  "addTo": {
+    "message": "$1 に追加"
+  },
+  "somethingWentWrong": {
+    "message": "問題が発生しました。"
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey：セキュリティキーを使ってログインを完了してください。"
+  },
+  "fillLogin": {
+    "message": "ログインを入力"
+  },
+  "extensionDescription": {
+    "message": "セルフホストのサーバー向けの、軽量でオープンソースのパスワードマネージャー。"
+  },
+  "fillLoginCommand": {
+    "message": "このページに一致するログインを入力"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "generatorHistory": {
+    "message": "生成履歴"
+  },
+  "generatorHistoryEmpty": {
+    "message": "生成ツールからコピーまたは使用したパスワードが、そのとき開いていたサイトと一緒にここに表示されます。このブラウザー内で暗号化されたまま保存されます。"
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "ウェブサイトなし · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "生成したパスワード"
+  },
+  "clearGeneratorHistory": {
+    "message": "生成履歴を消去"
+  },
+  "generatorHistoryCleared": {
+    "message": "生成履歴を消去しました。"
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey が $1 のパスワードを入力しました。"
+  },
+  "fillPasswordAfterUsername": {
+    "message": "アカウントを選んだ後、次の手順でパスワードを入力"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "最初にユーザー名を求めるログイン向けです。選んだアカウントだけを、同じサイトで、1 回だけ。"
+  },
+  "askToSaveForms": {
+    "message": "カードと住所の保存を確認する"
+  },
+  "generateSshKey": {
+    "message": "新しいキーを生成（Ed25519）"
+  },
+  "sshKeyGenerated": {
+    "message": "新しい SSH キーを生成しました。保存すると残ります。"
+  },
+  "openFirnkeyToAdd": {
+    "message": "追加を完了するには、ツールバーの Firnkey ボタンをクリックしてください。"
+  },
+  "saveCardToFirnkey": {
+    "message": "カードを Firnkey に保存しますか？"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "住所を Firnkey に保存しますか？"
+  },
+  "clone": {
+    "message": "複製"
+  },
+  "cloneName": {
+    "message": "$1 - コピー"
+  },
+  "itemCloned": {
+    "message": "アイテムを複製しました。下のコピーを変更してください。"
+  },
+  "fingerprintPhrase": {
+    "message": "フィンガープリントフレーズ"
+  },
+  "fingerprintPhraseHint": {
+    "message": "ウェブ保管庫と Bitwarden のアプリにも同じ 5 つの単語が表示されます。誰かが組織を共有してきたときに照合してください。"
+  },
+  "matchDetection": {
+    "message": "一致の検出"
+  },
+  "matchDefault": {
+    "message": "既定（ドメイン）"
+  },
+  "matchDomain": {
+    "message": "ドメインとサブドメイン"
+  },
+  "matchHost": {
+    "message": "ホスト（とポート）"
+  },
+  "matchStartsWith": {
+    "message": "前方一致"
+  },
+  "matchExact": {
+    "message": "完全一致の URL"
+  },
+  "matchRegex": {
+    "message": "正規表現"
+  },
+  "matchNever": {
+    "message": "しない"
+  },
+  "archive": {
+    "message": "アーカイブ"
+  },
+  "unarchive": {
+    "message": "アーカイブから戻す"
+  },
+  "itemArchived": {
+    "message": "アイテムをアーカイブしました。自動入力や保管庫の一覧には表示されなくなります。"
+  },
+  "itemUnarchived": {
+    "message": "アイテムを保管庫に戻しました。"
+  },
+  "archiveHint": {
+    "message": "アーカイブしたアイテムは残りますが、入力や候補表示には使われません。"
+  },
+  "archiveEmpty": {
+    "message": "アーカイブは空です。"
+  },
+  "archiveItem": {
+    "message": "アーカイブ"
+  },
+  "generatorPolicyHint": {
+    "message": "組織によって、これらの設定の一部が必須になっています。"
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "マスターパスワードを使う"
+  },
+  "unlockWithPin": {
+    "message": "PIN でロック解除"
+  },
+  "newPin": {
+    "message": "新しい PIN（4 文字以上）"
+  },
+  "pinKeepAfterRestart": {
+    "message": "ブラウザーの再起動後も PIN でのロック解除を維持"
+  },
+  "pinKeepHint": {
+    "message": "オフ：再起動後、マスターパスワードで 1 回ロック解除します。オンは安全性が下がります。このコンピューターに保存された短い PIN は、ブラウザープロファイルをコピーした人に推測されるおそれがあります。"
+  },
+  "setPin": {
+    "message": "PIN を設定"
+  },
+  "pinOn": {
+    "message": "PIN でのロック解除はオンです。PIN を 5 回間違えるとオフになります。"
+  },
+  "pinOff": {
+    "message": "PIN でのロック解除はオフです。"
+  },
+  "passwordHealth": {
+    "message": "パスワードの健全性"
+  },
+  "passwordHealthHint": {
+    "message": "弱いパスワードと使い回しのパスワード、漏えいチェックがオンなら漏えいしたパスワードも見つけます。"
+  },
+  "checkBreaches": {
+    "message": "既知のデータ漏えいでパスワードを確認"
+  },
+  "checkBreachesHint": {
+    "message": "同期のたびに、Firnkey は各ログインのパスワードについて Have I Been Pwned に問い合わせます。送信するのはパスワードのハッシュの先頭 5 文字だけで、パスワード自体がこのブラウザーから出ることはありません。"
+  },
+  "checkBreachesNow": {
+    "message": "今すぐ漏えいを確認"
+  },
+  "checkingBreaches": {
+    "message": "確認中…"
+  },
+  "breachPermissionDenied": {
+    "message": "漏えいを確認するには、Firnkey に api.pwnedpasswords.com へのアクセスが必要です。"
+  },
+  "healthExposed_one": {
+    "message": "漏えい $1 件"
+  },
+  "healthExposed_other": {
+    "message": "漏えい $1 件"
+  },
+  "healthReused_one": {
+    "message": "使い回し $1 件"
+  },
+  "healthReused_other": {
+    "message": "使い回し $1 件"
+  },
+  "healthWeak_one": {
+    "message": "弱い $1 件"
+  },
+  "healthWeak_other": {
+    "message": "弱い $1 件"
+  },
+  "healthNotChecked": {
+    "message": "$1 件は未確認"
+  },
+  "healthAllChecked": {
+    "message": "すべて漏えい確認済み"
+  },
+  "exposedPasswords": {
+    "message": "漏えいしたパスワード"
+  },
+  "reusedPasswords": {
+    "message": "使い回しのパスワード"
+  },
+  "weakPasswords": {
+    "message": "弱いパスワード"
+  },
+  "weakPassword": {
+    "message": "弱い"
+  },
+  "seenInBreaches_one": {
+    "message": "$2 件のデータ漏えいで確認"
+  },
+  "seenInBreaches_other": {
+    "message": "$2 件のデータ漏えいで確認"
+  },
+  "usedByLogins_one": {
+    "message": "$1 件のログインで使用"
+  },
+  "usedByLogins_other": {
+    "message": "$1 件のログインで使用"
+  },
+  "passwordInBreaches_one": {
+    "message": "このパスワードは $2 件のデータ漏えいで見つかりました。変更してください。"
+  },
+  "passwordInBreaches_other": {
+    "message": "このパスワードは $2 件のデータ漏えいで見つかりました。変更してください。"
+  },
+  "healthAllGood": {
+    "message": "弱い、使い回し、漏えいしたパスワードは見つかりませんでした。"
+  },
+  "autofillOnPageLoad": {
+    "message": "ページ読み込み時に自動入力"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "ログインページが読み込まれるとすぐ、クリックせずに一致するログインを入力します。ウェブサイト連携が必要です。乗っ取られたページや一致するサイト上の隠れたフォームがパスワードを読み取るおそれがあるため、信頼できるサイトでだけ使ってください。"
+  },
+  "autofillDefaultForLogins": {
+    "message": "ログインの既定値"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "ページ読み込み時に入力しない"
+  },
+  "useDefaultSetting": {
+    "message": "既定の設定を使う"
+  },
+  "always": {
+    "message": "常に"
+  },
+  "loginWithDevice": {
+    "message": "デバイスでログイン"
+  },
+  "signInWithSso": {
+    "message": "SSO でログイン"
+  },
+  "deviceLoginHint": {
+    "message": "ログイン済みのアプリまたはウェブ保管庫でリクエストを承認してください。このフレーズが表示されていることを確認してください："
+  },
+  "ssoUnlockHint": {
+    "message": "SSO でログインしました。ロックを解除するにはマスターパスワードを入力してください。"
+  },
+  "serverIcons": {
+    "message": "ウェブサイトのアイコンを表示"
+  },
+  "serverIconsHint": {
+    "message": "サーバーが各サイトのアイコンを一度だけダウンロードしてキャッシュします。オフ：ブラウザーがすでに持っているアイコンだけ。"
+  },
+  "waitingForApproval": {
+    "message": "承認を待っています…"
+  },
+  "websites": {
+    "message": "ウェブサイト"
+  },
+  "addWebsite": {
+    "message": "ウェブサイトを追加"
+  },
+  "removeWebsite": {
+    "message": "ウェブサイトを削除"
+  },
+  "customFields": {
+    "message": "カスタムフィールド"
+  },
+  "fieldType": {
+    "message": "フィールドの種類"
+  },
+  "hiddenField": {
+    "message": "非表示"
+  },
+  "checkboxField": {
+    "message": "チェックボックス"
+  },
+  "addField": {
+    "message": "フィールドを追加"
+  },
+  "fieldName": {
+    "message": "フィールド名"
+  },
+  "fieldValue": {
+    "message": "値"
+  },
+  "removeField": {
+    "message": "フィールドを削除"
+  },
+  "collections": {
+    "message": "コレクション"
+  },
+  "allVaults": {
+    "message": "すべての保管庫"
+  },
+  "filters": {
+    "message": "フィルター"
+  },
+  "allCollections": {
+    "message": "すべてのコレクション"
+  },
+  "allFolders": {
+    "message": "すべてのフォルダー"
+  },
+  "allTypes": {
+    "message": "すべての種類"
+  },
+  "editSend": {
+    "message": "Send を編集"
+  },
+  "keepDeletionDate": {
+    "message": "そのまま（$1）"
+  },
+  "removePassword": {
+    "message": "パスワードを削除"
+  },
+  "sendSaved": {
+    "message": "$1 を保存しました。"
+  },
+  "vaultTimeoutPolicy": {
+    "message": "組織の設定により、操作がない状態が最大 $1 続くと保管庫がロックされます。"
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "組織の設定により、操作がない状態が最大 $1 続くとログアウトされます。"
+  }
+}

@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "fi",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Salasanojen hallinta omalle palvelimellesi"
+  },
+  "starting": {
+    "message": "Käynnistetään"
+  },
+  "connectYourServer": {
+    "message": "Yhdistä palvelimesi"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey pyytää pääsyä vain valitsemaasi palvelimeen."
+  },
+  "serverUrl": {
+    "message": "Palvelimen URL"
+  },
+  "verifyServer": {
+    "message": "Tarkista palvelin"
+  },
+  "signIn": {
+    "message": "Kirjaudu sisään"
+  },
+  "change": {
+    "message": "Vaihda"
+  },
+  "email": {
+    "message": "Sähköposti"
+  },
+  "masterPassword": {
+    "message": "Pääsalasana"
+  },
+  "twoStepLogin": {
+    "message": "Kaksivaiheinen kirjautuminen"
+  },
+  "method": {
+    "message": "Tapa"
+  },
+  "sendEmailCode": {
+    "message": "Lähetä koodi sähköpostiin"
+  },
+  "verificationCode": {
+    "message": "Vahvistuskoodi"
+  },
+  "rememberThisDevice": {
+    "message": "Muista tämä laite"
+  },
+  "newDeviceVerification": {
+    "message": "Uuden laitteen vahvistus"
+  },
+  "deviceVerificationHint": {
+    "message": "Anna palvelimesi lähettämä vahvistuskoodi."
+  },
+  "deviceVerificationCode": {
+    "message": "Laitteen vahvistuskoodi"
+  },
+  "signInAndSync": {
+    "message": "Kirjaudu ja synkronoi"
+  },
+  "vaultLocked": {
+    "message": "Holvi lukittu"
+  },
+  "unlock": {
+    "message": "Avaa"
+  },
+  "unlockWithBiometrics": {
+    "message": "Avaa Touch ID:llä / biometriikalla"
+  },
+  "logOut": {
+    "message": "Kirjaudu ulos"
+  },
+  "allItems": {
+    "message": "Kaikki kohteet"
+  },
+  "noMatchingItems": {
+    "message": "Ei vastaavia kohteita."
+  },
+  "viewAll": {
+    "message": "Näytä kaikki"
+  },
+  "authenticatorEmpty": {
+    "message": "Ei vielä todennusavaimia. Valitse Uusi skannataksesi QR-koodin tai liittääksesi avaimen."
+  },
+  "importOrExportKeys": {
+    "message": "Tuo tai vie avaimia"
+  },
+  "scanQrOnPage": {
+    "message": "Skannaa tämän sivun QR-koodi"
+  },
+  "saveTo": {
+    "message": "Tallenna kohteeseen"
+  },
+  "newLogin": {
+    "message": "Uusi kirjautumistieto"
+  },
+  "key": {
+    "message": "Avain"
+  },
+  "name": {
+    "message": "Nimi"
+  },
+  "nicknameOptional": {
+    "message": "Lempinimi (valinnainen)"
+  },
+  "account": {
+    "message": "Tili"
+  },
+  "website": {
+    "message": "Verkkosivusto"
+  },
+  "issuer": {
+    "message": "Myöntäjä"
+  },
+  "advanced": {
+    "message": "Lisäasetukset"
+  },
+  "algorithm": {
+    "message": "Algoritmi"
+  },
+  "digits": {
+    "message": "Numeroita"
+  },
+  "periodSeconds": {
+    "message": "Jakso (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Useimmat palvelut käyttävät SHA-1:tä, 6 numeroa ja 30 sekuntia. Steam-avaimet (myöntäjä Steam) tuottavat aina 5-merkkisiä koodeja."
+  },
+  "save": {
+    "message": "Tallenna"
+  },
+  "import": {
+    "message": "Tuo"
+  },
+  "keysImportHint": {
+    "message": "Yksi otpauth://totp/-linkki riviä kohden, kuten todennussovellukset ne vievät. Jokaisesta uudesta avaimesta tulee kirjautumistieto."
+  },
+  "chooseFile": {
+    "message": "Valitse tiedosto"
+  },
+  "checkList": {
+    "message": "Tarkista luettelo"
+  },
+  "export": {
+    "message": "Vie"
+  },
+  "keysExportHint": {
+    "message": "Tallentaa jokaisen avaimen otpauth://-linkkinä tekstitiedostoon. Kuka tahansa, jolla on tiedosto, voi luoda koodisi, joten poista se tuonnin jälkeen."
+  },
+  "exportKeys": {
+    "message": "Vie avaimet"
+  },
+  "sendIntro": {
+    "message": "Jaa tekstiä tai tiedosto päästä päähän salatulla linkillä, joka poistaa itsensä."
+  },
+  "sendEmpty": {
+    "message": "Ei vielä Sendejä. Valitse Uusi jakaaksesi tekstiä tai tiedoston."
+  },
+  "text": {
+    "message": "Teksti"
+  },
+  "file": {
+    "message": "Tiedosto"
+  },
+  "sendHideText": {
+    "message": "Piilota teksti, kunnes vastaanottaja näyttää sen"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Ei tiedostoa valittuna · enintään 25 Mt"
+  },
+  "deleteAfter": {
+    "message": "Poista ajan kuluttua"
+  },
+  "days1": {
+    "message": "1 päivä"
+  },
+  "days2": {
+    "message": "2 päivää"
+  },
+  "days3": {
+    "message": "3 päivää"
+  },
+  "days7": {
+    "message": "7 päivää"
+  },
+  "days14": {
+    "message": "14 päivää"
+  },
+  "days30": {
+    "message": "30 päivää"
+  },
+  "options": {
+    "message": "Valinnat"
+  },
+  "passwordOptional": {
+    "message": "Salasana (valinnainen)"
+  },
+  "maximumViewsOptional": {
+    "message": "Katselukertojen enimmäismäärä (valinnainen)"
+  },
+  "createAndCopyLink": {
+    "message": "Luo ja kopioi linkki"
+  },
+  "passwordGenerator": {
+    "message": "Salasanageneraattori"
+  },
+  "generatorHint": {
+    "message": "Luodaan paikallisesti selaimen kryptografisella satunnaislähteellä."
+  },
+  "password": {
+    "message": "Salasana"
+  },
+  "passphrase": {
+    "message": "Tunnuslause"
+  },
+  "username": {
+    "message": "Käyttäjänimi"
+  },
+  "length": {
+    "message": "Pituus"
+  },
+  "uppercase": {
+    "message": "Isot kirjaimet"
+  },
+  "lowercase": {
+    "message": "Pienet kirjaimet"
+  },
+  "numbers": {
+    "message": "Numerot"
+  },
+  "symbols": {
+    "message": "Erikoismerkit"
+  },
+  "words": {
+    "message": "Sanat"
+  },
+  "wordSeparator": {
+    "message": "Sanojen erotin"
+  },
+  "capitalize": {
+    "message": "Iso alkukirjain"
+  },
+  "includeNumber": {
+    "message": "Lisää numero"
+  },
+  "type": {
+    "message": "Tyyppi"
+  },
+  "randomWord": {
+    "message": "Satunnainen sana"
+  },
+  "plusAddressedEmail": {
+    "message": "Plus-osoitteellinen sähköposti"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all-sähköposti"
+  },
+  "forwardedEmailAlias": {
+    "message": "Edelleenlähetetty sähköpostialias"
+  },
+  "forwardingService": {
+    "message": "Edelleenlähetyspalvelu"
+  },
+  "apiKey": {
+    "message": "API-avain"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Tallennetaan ensimmäisen käytön jälkeen; jätä tyhjäksi säilyttääksesi sen"
+  },
+  "aliasDomain": {
+    "message": "Aliaksen verkkotunnus"
+  },
+  "createAlias": {
+    "message": "Luo alias"
+  },
+  "creatingAlias": {
+    "message": "Luodaan aliasta…"
+  },
+  "aliasCreated": {
+    "message": "Alias luotu"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey tarvitsee pääsyn edelleenlähetyspalveluun aliaksen luomiseksi."
+  },
+  "yourEmail": {
+    "message": "Sähköpostisi"
+  },
+  "yourCatchAllDomain": {
+    "message": "Catch-all-verkkotunnuksesi"
+  },
+  "generateAnother": {
+    "message": "Luo uusi"
+  },
+  "useInNewLogin": {
+    "message": "Käytä uudessa kirjautumistiedossa"
+  },
+  "security": {
+    "message": "Turvallisuus"
+  },
+  "securityGroupHint": {
+    "message": "Lukitus, biometriikka, leikepöytä"
+  },
+  "autofillSaving": {
+    "message": "Automaattinen täyttö ja tallennus"
+  },
+  "autofillGroupHint": {
+    "message": "Sivustointegraatio, tallennuskehotteet, ohitettavat verkkotunnukset"
+  },
+  "vault": {
+    "message": "Holvi"
+  },
+  "vaultGroupHint": {
+    "message": "Kansiot, Todentaja-välilehti"
+  },
+  "importExport": {
+    "message": "Tuonti ja vienti"
+  },
+  "transferGroupHint": {
+    "message": "Siirrä holvisi toisesta salasanojen hallinnasta tai toiseen"
+  },
+  "accountSync": {
+    "message": "Tili ja synkronointi"
+  },
+  "accountGroupHint": {
+    "message": "Tilit, reaaliaikainen synkronointi, uloskirjautuminen"
+  },
+  "lockVault": {
+    "message": "Lukitse holvi"
+  },
+  "after1Minute": {
+    "message": "1 minuutin kuluttua"
+  },
+  "after5Minutes": {
+    "message": "5 minuutin kuluttua"
+  },
+  "after15Minutes": {
+    "message": "15 minuutin kuluttua"
+  },
+  "after30Minutes": {
+    "message": "30 minuutin kuluttua"
+  },
+  "after1Hour": {
+    "message": "1 tunnin kuluttua"
+  },
+  "after2Hours": {
+    "message": "2 tunnin kuluttua"
+  },
+  "after4Hours": {
+    "message": "4 tunnin kuluttua"
+  },
+  "after8Hours": {
+    "message": "8 tunnin kuluttua"
+  },
+  "after24Hours": {
+    "message": "24 tunnin kuluttua"
+  },
+  "whenTheComputerLocks": {
+    "message": "Kun tietokone lukitaan"
+  },
+  "whenBrowserCloses": {
+    "message": "Kun selain suljetaan"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Pidä avattuna uloskirjautumiseen asti"
+  },
+  "untilLogoutHint": {
+    "message": "”Uloskirjautumiseen asti” salaa istunnon tälle selainprofiilille, mutta on vähemmän turvallinen jaetulla tietokoneella."
+  },
+  "lockNow": {
+    "message": "Lukitse nyt"
+  },
+  "clearCopiedSecrets": {
+    "message": "Tyhjennä kopioidut salaisuudet"
+  },
+  "after10Seconds": {
+    "message": "10 sekunnin kuluttua"
+  },
+  "after20Seconds": {
+    "message": "20 sekunnin kuluttua"
+  },
+  "after30Seconds": {
+    "message": "30 sekunnin kuluttua"
+  },
+  "after2Minutes": {
+    "message": "2 minuutin kuluttua"
+  },
+  "never": {
+    "message": "Ei koskaan"
+  },
+  "clipboardOwnOnly": {
+    "message": "Tyhjennä vain Firnkeyn kopioima"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Vaatii luvan lukea leikepöytää, jotta muualla kopioimaasi tekstiin ei kosketa."
+  },
+  "websiteIntegration": {
+    "message": "Sivustointegraatio"
+  },
+  "websiteIntegrationHint": {
+    "message": "Automaattisen täytön ehdotukset ja tallennuskehotteet."
+  },
+  "enable": {
+    "message": "Ota käyttöön"
+  },
+  "fillSignInDialogs": {
+    "message": "Täytä kirjautumisikkunat (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Vastaa sivuston selainkirjautumisikkunaan, kun siihen sopii täsmälleen yksi suojaamaton kirjautumistieto."
+  },
+  "savePrompts": {
+    "message": "Tallennuskehotteet"
+  },
+  "askToAddLogin": {
+    "message": "Kysy kirjautumistiedon lisäämisestä"
+  },
+  "askToUpdateLogin": {
+    "message": "Kysy olemassa olevan kirjautumistiedon päivittämisestä"
+  },
+  "askPasskeys": {
+    "message": "Kysy pääsyavainten tallentamisesta ja käytöstä"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Sulje tallennuskehotteet ajan kuluttua (sekuntia)"
+  },
+  "excludedDomains": {
+    "message": "Ohitettavat verkkotunnukset"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey ei ehdota, täytä eikä tallenna kirjautumistietoja näillä verkkotunnuksilla."
+  },
+  "add": {
+    "message": "Lisää"
+  },
+  "folders": {
+    "message": "Kansiot"
+  },
+  "foldersHint": {
+    "message": "Kansion poistaminen säilyttää sen kohteet; ne siirtyvät kohtaan Ei kansiota."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Näytä Todentaja-välilehti"
+  },
+  "authenticatorTabHint": {
+    "message": "Reaaliaikaiset vahvistuskoodit kirjautumistiedoillesi. Lisää avaimia QR-koodilla, käsin tai tiedostosta."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Näytä vain tämän sivuston koodit, jos niitä on"
+  },
+  "vaultImportHint": {
+    "message": "Bitwardenin JSON-vienti (salaamaton tai salasanalla suojattu), 1Passwordin .1pux-vienti tai CSV-tiedosto Bitwardenista, 1Passwordista, KeePassista, KeePassXC:stä, Chromesta, Edgestä, Firefoxista tai Safarista. Kohteet menevät henkilökohtaiseen holviisi."
+  },
+  "noFileChosen": {
+    "message": "Ei tiedostoa valittuna"
+  },
+  "filePassword": {
+    "message": "Tiedoston salasana"
+  },
+  "checkFile": {
+    "message": "Tarkista tiedosto"
+  },
+  "format": {
+    "message": "Muoto"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, suojattu tiedoston salasanalla"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, salaamaton"
+  },
+  "filePasswordHint": {
+    "message": "Tarvitaan tiedoston tuomiseen uudelleen. Firnkey ei voi palauttaa sitä."
+  },
+  "unencryptedExportWarning": {
+    "message": "Kuka tahansa, jolla on salaamaton tiedosto, voi lukea sen kaikki salasanat. Poista se tuonnin jälkeen."
+  },
+  "exportScopeHint": {
+    "message": "Vie henkilökohtaiset kohteesi. Organisaation kohteet jäävät organisaatiolle."
+  },
+  "exportVault": {
+    "message": "Vie holvi"
+  },
+  "liveSync": {
+    "message": "Reaaliaikainen synkronointi"
+  },
+  "liveSyncHint": {
+    "message": "Hakee muutokset palvelimelta heti. Pois päältä se tarkistaa kerran minuutissa ja käyttää vähemmän muistia."
+  },
+  "syncNow": {
+    "message": "Synkronoi nyt"
+  },
+  "addAccount": {
+    "message": "Lisää tili"
+  },
+  "repromptHint": {
+    "message": "Tämä kohde vaatii pääsalasanasi ennen suojattujen kenttien käyttöä."
+  },
+  "unlockProtectedFields": {
+    "message": "Avaa suojatut kentät"
+  },
+  "show": {
+    "message": "Näytä"
+  },
+  "addAttachment": {
+    "message": "Lisää liite"
+  },
+  "fillOnThisPage": {
+    "message": "Täytä tällä sivulla"
+  },
+  "edit": {
+    "message": "Muokkaa"
+  },
+  "moveToTrash": {
+    "message": "Siirrä roskakoriin"
+  },
+  "addLogin": {
+    "message": "Lisää kirjautumistieto"
+  },
+  "login": {
+    "message": "Kirjautumistieto"
+  },
+  "card": {
+    "message": "Kortti"
+  },
+  "identity": {
+    "message": "Henkilöllisyys"
+  },
+  "secureNote": {
+    "message": "Suojattu muistiinpano"
+  },
+  "folder": {
+    "message": "Kansio"
+  },
+  "noFolder": {
+    "message": "Ei kansiota"
+  },
+  "owner": {
+    "message": "Omistaja"
+  },
+  "myVault": {
+    "message": "Oma holvi"
+  },
+  "moveToOrganizationHint": {
+    "message": "Siirtoa organisaatioon ei voi perua täällä; kohde kuuluu sen jälkeen organisaatiolle."
+  },
+  "generate": {
+    "message": "Luo"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Todennusavain (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Skannaa QR"
+  },
+  "notes": {
+    "message": "Muistiinpanot"
+  },
+  "favorite": {
+    "message": "Suosikki"
+  },
+  "authenticator": {
+    "message": "Todentaja"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generaattori"
+  },
+  "settings": {
+    "message": "Asetukset"
+  },
+  "back": {
+    "message": "Takaisin"
+  },
+  "openSettings": {
+    "message": "Avaa asetukset"
+  },
+  "searchVault": {
+    "message": "Hae holvista"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32-avain tai otpauth://totp/-linkki"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Oletuksena myöntäjä"
+  },
+  "shownInsteadOfThe": {
+    "message": "Näytetään nimen sijaan"
+  },
+  "keysToImport": {
+    "message": "Tuotavat avaimet"
+  },
+  "whatToSend": {
+    "message": "Mitä lähetetään"
+  },
+  "whatToGenerate": {
+    "message": "Mitä luodaan"
+  },
+  "generatedValue": {
+    "message": "Luotu arvo"
+  },
+  "copy": {
+    "message": "Kopioi"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopioi luotu arvo"
+  },
+  "domainToExclude": {
+    "message": "Ohitettava verkkotunnus"
+  },
+  "newFolder": {
+    "message": "Uusi kansio"
+  },
+  "newFolderName": {
+    "message": "Uuden kansion nimi"
+  },
+  "copyUsername": {
+    "message": "Kopioi käyttäjänimi"
+  },
+  "copyPassword": {
+    "message": "Kopioi salasana"
+  },
+  "copyVerificationCode": {
+    "message": "Kopioi vahvistuskoodi"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32-avain tai otpauth://-linkki"
+  },
+  "mainNavigation": {
+    "message": "Päänavigointi"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey-pääsyavain"
+  },
+  "passkey": {
+    "message": "Pääsyavain"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Avaa Firnkey jatkaaksesi."
+  },
+  "verifyWithBiometrics": {
+    "message": "Vahvista Touch ID:llä / biometriikalla"
+  },
+  "continue": {
+    "message": "Jatka"
+  },
+  "useAnotherDevice": {
+    "message": "Käytä toista laitetta"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "sshKey": {
+    "message": "SSH-avain"
+  },
+  "cardholderName": {
+    "message": "Kortinhaltijan nimi"
+  },
+  "brand": {
+    "message": "Merkki"
+  },
+  "number": {
+    "message": "Numero"
+  },
+  "expirationMonth": {
+    "message": "Voimassaolokuukausi"
+  },
+  "expirationYear": {
+    "message": "Voimassaolovuosi"
+  },
+  "securityCode": {
+    "message": "Turvakoodi"
+  },
+  "title": {
+    "message": "Titteli"
+  },
+  "firstName": {
+    "message": "Etunimi"
+  },
+  "middleName": {
+    "message": "Toinen nimi"
+  },
+  "lastName": {
+    "message": "Sukunimi"
+  },
+  "company": {
+    "message": "Yritys"
+  },
+  "phone": {
+    "message": "Puhelin"
+  },
+  "address1": {
+    "message": "Osoite 1"
+  },
+  "address2": {
+    "message": "Osoite 2"
+  },
+  "address3": {
+    "message": "Osoite 3"
+  },
+  "city": {
+    "message": "Kaupunki / paikkakunta"
+  },
+  "stateProvince": {
+    "message": "Osavaltio / maakunta"
+  },
+  "postalCode": {
+    "message": "Postinumero"
+  },
+  "country": {
+    "message": "Maa"
+  },
+  "ssn": {
+    "message": "Henkilötunnus"
+  },
+  "passportNumber": {
+    "message": "Passin numero"
+  },
+  "licenseNumber": {
+    "message": "Ajokortin numero"
+  },
+  "addSecureNote": {
+    "message": "Lisää suojattu muistiinpano"
+  },
+  "addCard": {
+    "message": "Lisää kortti"
+  },
+  "addIdentity": {
+    "message": "Lisää henkilöllisyys"
+  },
+  "addSshKey": {
+    "message": "Lisää SSH-avain"
+  },
+  "editLogin": {
+    "message": "Muokkaa kirjautumistietoa"
+  },
+  "editSecureNote": {
+    "message": "Muokkaa suojattua muistiinpanoa"
+  },
+  "editCard": {
+    "message": "Muokkaa korttia"
+  },
+  "editIdentity": {
+    "message": "Muokkaa henkilöllisyyttä"
+  },
+  "editSshKey": {
+    "message": "Muokkaa SSH-avainta"
+  },
+  "passphraseGenerator": {
+    "message": "Tunnuslausegeneraattori"
+  },
+  "usernameGenerator": {
+    "message": "Käyttäjänimigeneraattori"
+  },
+  "generatedPasswordCopied": {
+    "message": "Luotu salasana kopioitu."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Luotu tunnuslause kopioitu."
+  },
+  "generatedUsernameCopied": {
+    "message": "Luotu käyttäjänimi kopioitu."
+  },
+  "removeKey": {
+    "message": "Poista avain"
+  },
+  "biometricOff": {
+    "message": "Biometrinen avaus poistettu käytöstä."
+  },
+  "usernameCopied": {
+    "message": "Käyttäjänimi kopioitu."
+  },
+  "passwordCopied": {
+    "message": "Salasana kopioitu."
+  },
+  "hide": {
+    "message": "Piilota"
+  },
+  "movedToTrash": {
+    "message": "Siirretty roskakoriin."
+  },
+  "websiteAccessDenied": {
+    "message": "Pääsyä sivustoille ei myönnetty."
+  },
+  "websiteIntegrationOn": {
+    "message": "Automaattinen täyttö ja tallennuskehotteet käytössä."
+  },
+  "websiteIntegrationOff": {
+    "message": "Sivustokehotteet pois käytöstä."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Kirjautumisikkunoiden täyttäminen vaatii luvan nähdä ne sivustoilla."
+  },
+  "preferencesUpdated": {
+    "message": "Asetukset päivitetty."
+  },
+  "invalidDomain": {
+    "message": "Anna kelvollinen verkkotunnus, esimerkiksi example.com."
+  },
+  "remove": {
+    "message": "Poista"
+  },
+  "enabled": {
+    "message": "Käytössä"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Poista sivustointegraatio käytöstä"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Ota sivustointegraatio käyttöön"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Lukitusaikaa ei tueta."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Leikepöydän aikaa ei tueta."
+  },
+  "clipboardClearsAfter": {
+    "message": "Kopioidut salaisuudet tyhjennetään ajan $1 kuluttua."
+  },
+  "clipboardKeeps": {
+    "message": "Kopioidut salaisuudet jäävät leikepöydälle."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey tyhjentää leikepöydän vain, jos siinä on yhä Firnkeyn kopioima sisältö."
+  },
+  "seconds_one": {
+    "message": "$1 sekunti"
+  },
+  "seconds_other": {
+    "message": "$1 sekuntia"
+  },
+  "minutes_one": {
+    "message": "$1 minuutti"
+  },
+  "minutes_other": {
+    "message": "$1 minuuttia"
+  },
+  "hours_one": {
+    "message": "$1 tunti"
+  },
+  "hours_other": {
+    "message": "$1 tuntia"
+  },
+  "lockOnComputerLock": {
+    "message": "Holvi lukitaan, kun tietokone lukitaan tai selain suljetaan."
+  },
+  "lockOnLogout": {
+    "message": "Holvi pysyy avattuna tässä selaimessa, kunnes lukitset sen tai kirjaudut ulos."
+  },
+  "lockOnBrowserClose": {
+    "message": "Holvi pysyy avattuna, kunnes selain suljetaan."
+  },
+  "lockAfterInactivity": {
+    "message": "Holvi lukitaan, kun toimettomuutta on kestänyt $1."
+  },
+  "waitingForVerification": {
+    "message": "Odotetaan vahvistusta…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Avaa holvi ennen biometrisen avauksen käyttöönottoa."
+  },
+  "noPasskeyCreated": {
+    "message": "Pääsyavainta ei luotu."
+  },
+  "biometricOn": {
+    "message": "Biometrinen avaus on käytössä."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrinen avaus ei ole juuri nyt käytettävissä."
+  },
+  "vaultUnlocked_one": {
+    "message": "Holvi avattu, $1 kohde."
+  },
+  "vaultUnlocked_other": {
+    "message": "Holvi avattu, $1 kohdetta."
+  },
+  "verificationCancelled": {
+    "message": "Vahvistus peruttiin tai aikakatkaistiin."
+  },
+  "notConnected": {
+    "message": "Ei yhdistetty"
+  },
+  "connectAServer": {
+    "message": "Yhdistä palvelin"
+  },
+  "signedOut": {
+    "message": "Kirjauduttu ulos"
+  },
+  "itemCount_one": {
+    "message": "$1 kohde"
+  },
+  "itemCount_other": {
+    "message": "$1 kohdetta"
+  },
+  "locked": {
+    "message": "Lukittu"
+  },
+  "unlocked": {
+    "message": "Avattu"
+  },
+  "settingsFor": {
+    "message": "Asetukset: $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · tämän sivun ehdotukset ensin"
+  },
+  "itemTotal_one": {
+    "message": "$1 kohde yhteensä"
+  },
+  "itemTotal_other": {
+    "message": "$1 kohdetta yhteensä"
+  },
+  "skippedItems_one": {
+    "message": "$1 tukematon tai vioittunut kohde ohitettiin."
+  },
+  "skippedItems_other": {
+    "message": "$1 tukematonta tai vioittunutta kohdetta ohitettiin."
+  },
+  "otherAccounts": {
+    "message": "Muut tilit"
+  },
+  "switch": {
+    "message": "Vaihda"
+  },
+  "removeAccountTitle": {
+    "message": "Poista $1 Firnkeystä tässä selaimessa"
+  },
+  "switchedTo": {
+    "message": "Vaihdettu tiliin $1."
+  },
+  "accountRemoved": {
+    "message": "$1 poistettu tästä selaimesta."
+  },
+  "addAccountHint": {
+    "message": "Kirjaudu toiselle tilille. Nykyinen tallennetaan lukittuna alle."
+  },
+  "verifying": {
+    "message": "Tarkistetaan…"
+  },
+  "serverPermissionDenied": {
+    "message": "Lupaa palvelimeen ei myönnetty."
+  },
+  "signingIn": {
+    "message": "Kirjaudutaan…"
+  },
+  "continueInNewWindow": {
+    "message": "Valitse Kirjaudu sisään uudelleen jatkaaksesi uudessa ikkunassa."
+  },
+  "enterTwoStepCode": {
+    "message": "Anna kaksivaiheisen kirjautumisen koodi."
+  },
+  "unlocking": {
+    "message": "Avataan…"
+  },
+  "trashHint": {
+    "message": "Palauta kohteita tai poista ne pysyvästi."
+  },
+  "trashEmpty": {
+    "message": "Roskakori on tyhjä."
+  },
+  "autofillSuggestions": {
+    "message": "Automaattisen täytön ehdotukset"
+  },
+  "otherResults": {
+    "message": "Muut tulokset"
+  },
+  "trash": {
+    "message": "Roskakori"
+  },
+  "folderName": {
+    "message": "Kansion nimi"
+  },
+  "rename": {
+    "message": "Nimeä uudelleen"
+  },
+  "delete": {
+    "message": "Poista"
+  },
+  "folderRenamed": {
+    "message": "Kansio nimetty uudelleen."
+  },
+  "folderAdded": {
+    "message": "Kansio lisätty."
+  },
+  "folderDeleted": {
+    "message": "Kansio poistettu. Sen kohteet ovat nyt kohdassa Ei kansiota."
+  },
+  "confirm": {
+    "message": "Vahvista"
+  },
+  "matchesThisPage": {
+    "message": "Vastaa tätä sivua"
+  },
+  "restore": {
+    "message": "Palauta"
+  },
+  "itemRestored": {
+    "message": "Kohde palautettu."
+  },
+  "deleteForever": {
+    "message": "Poista pysyvästi"
+  },
+  "itemDeletedForever": {
+    "message": "Kohde poistettu pysyvästi."
+  },
+  "open": {
+    "message": "Avaa"
+  },
+  "fill": {
+    "message": "Täytä"
+  },
+  "openWebsite": {
+    "message": "Avaa sivusto"
+  },
+  "cardNumber": {
+    "message": "Kortin numero"
+  },
+  "note": {
+    "message": "Muistiinpano"
+  },
+  "publicKey": {
+    "message": "Julkinen avain"
+  },
+  "copyPublicKey": {
+    "message": "Kopioi julkinen avain"
+  },
+  "copyCardNumber": {
+    "message": "Kopioi kortin numero"
+  },
+  "copyNote": {
+    "message": "Kopioi muistiinpano"
+  },
+  "copySecurityCode": {
+    "message": "Kopioi turvakoodi"
+  },
+  "copyPrivateKey": {
+    "message": "Kopioi yksityinen avain"
+  },
+  "privateKey": {
+    "message": "Yksityinen avain"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Vahvista pääsalasanasi ennen tämän kohteen poistamista."
+  },
+  "moreActions": {
+    "message": "Lisää toimintoja"
+  },
+  "noWebAddress": {
+    "message": "Tällä kirjautumistiedolla ei ole verkko-osoitetta."
+  },
+  "noWebsiteSaved": {
+    "message": "Sivustoa ei ole tallennettu"
+  },
+  "loading": {
+    "message": "Ladataan…"
+  },
+  "expiration": {
+    "message": "Voimassaolo"
+  },
+  "address": {
+    "message": "Osoite"
+  },
+  "fingerprint": {
+    "message": "Sormenjälki"
+  },
+  "customField": {
+    "message": "Mukautettu kenttä"
+  },
+  "passwordHistory": {
+    "message": "Salasanahistoria ($1)"
+  },
+  "oldPassword": {
+    "message": "Vanha salasana"
+  },
+  "organization": {
+    "message": "Organisaatio"
+  },
+  "attachmentsCount": {
+    "message": "Liitteet ($1)"
+  },
+  "downloadFile": {
+    "message": "Lataa $1"
+  },
+  "deleteFile": {
+    "message": "Poista $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 ladattu."
+  },
+  "fileTooLarge25": {
+    "message": "Tiedosto on liian suuri (enintään 25 Mt)."
+  },
+  "fileEmpty": {
+    "message": "Tiedosto on tyhjä."
+  },
+  "uploadingFile": {
+    "message": "Salataan ja lähetetään $1…"
+  },
+  "fileAttached": {
+    "message": "$1 liitetty."
+  },
+  "fileDeleted": {
+    "message": "$1 poistettu."
+  },
+  "copyLink": {
+    "message": "Kopioi linkki"
+  },
+  "viewsOf": {
+    "message": "$1 / $2 katselukertaa"
+  },
+  "views_one": {
+    "message": "$1 katselukerta"
+  },
+  "views_other": {
+    "message": "$1 katselukertaa"
+  },
+  "deletesOn": {
+    "message": "Poistetaan $1"
+  },
+  "disabled": {
+    "message": "Pois käytöstä"
+  },
+  "sendLinkCopied": {
+    "message": "Send-linkki kopioitu."
+  },
+  "deleteSendTitle": {
+    "message": "Poista $1; sen linkki lakkaa toimimasta"
+  },
+  "sendDeleted": {
+    "message": "$1 poistettu. Sen linkki ei enää toimi."
+  },
+  "encrypting": {
+    "message": "Salataan…"
+  },
+  "chooseFileToSend": {
+    "message": "Valitse lähetettävä tiedosto."
+  },
+  "sendCreatedCopied": {
+    "message": "Send luotu. Linkki kopioitu."
+  },
+  "sendCreatedSync": {
+    "message": "Send luotu. Synkronoi ja kopioi sitten sen linkki luettelosta."
+  },
+  "fileTooLarge10": {
+    "message": "Tiedosto on liian suuri (enintään 10 Mt)."
+  },
+  "importing": {
+    "message": "Tuodaan…"
+  },
+  "checking": {
+    "message": "Tarkistetaan…"
+  },
+  "importedItems": {
+    "message": "Tuotu: $1."
+  },
+  "importItems": {
+    "message": "Tuo $1"
+  },
+  "foundItems": {
+    "message": "Löytyi $1. Ne lisätään holviisi; mitään ei korvata."
+  },
+  "foundItemsInFolders": {
+    "message": "Löytyi $1, $2. Ne lisätään holviisi; mitään ei korvata."
+  },
+  "folderCount_one": {
+    "message": "$1 kansio"
+  },
+  "folderCount_other": {
+    "message": "$1 kansiota"
+  },
+  "exporting": {
+    "message": "Viedään…"
+  },
+  "vaultExportedPlain": {
+    "message": "Holvi viety. Poista tiedosto tuonnin jälkeen."
+  },
+  "vaultExportedProtected": {
+    "message": "Holvi viety. Säilytä tiedoston salasana turvassa."
+  },
+  "createdOn": {
+    "message": "Luotu $1"
+  },
+  "lastEdited": {
+    "message": "Muokattu viimeksi $1"
+  },
+  "itemHistory": {
+    "message": "Kohteen historia"
+  },
+  "loginCredentials": {
+    "message": "Kirjautumistiedot"
+  },
+  "itemDetails": {
+    "message": "Kohteen tiedot"
+  },
+  "autofillOptions": {
+    "message": "Automaattisen täytön asetukset"
+  },
+  "passwordChangedOn": {
+    "message": "Vaihdettu viimeksi $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Poista tämä pääsyavain kirjautumistiedosta"
+  },
+  "passkeyRemoved": {
+    "message": "Pääsyavain poistettu."
+  },
+  "usedUntil": {
+    "message": "Käytössä $1 asti"
+  },
+  "earlierPassword": {
+    "message": "Aiempi salasana"
+  },
+  "fieldCopied": {
+    "message": "$1 kopioitu."
+  },
+  "copyField": {
+    "message": "Kopioi $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Vahvista pääsalasanasi ennen kopioimista tästä kohteesta."
+  },
+  "codeCopied": {
+    "message": "Vahvistuskoodi kopioitu."
+  },
+  "viewOnlyItem": {
+    "message": "Organisaatiosi sallii tämän kohteen katselun mutta ei muokkaamista."
+  },
+  "confirmBeforeEditing": {
+    "message": "Vahvista pääsalasanasi ennen tämän kohteen muokkaamista."
+  },
+  "monthPlaceholder": {
+    "message": "KK"
+  },
+  "yearPlaceholder": {
+    "message": "VVVV"
+  },
+  "saving": {
+    "message": "Tallennetaan…"
+  },
+  "loginUpdated": {
+    "message": "Kirjautumistieto päivitetty."
+  },
+  "loginAdded": {
+    "message": "Kirjautumistieto lisätty."
+  },
+  "itemUpdated": {
+    "message": "$1 päivitetty."
+  },
+  "itemAdded": {
+    "message": "$1 lisätty."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Suojatut kentät avattu 60 sekunniksi."
+  },
+  "unavailable": {
+    "message": "Ei käytettävissä"
+  },
+  "secondsLeft_one": {
+    "message": "$1 sekunti jäljellä"
+  },
+  "secondsLeft_other": {
+    "message": "$1 sekuntia jäljellä"
+  },
+  "codesForSite": {
+    "message": "Tämän sivuston koodit · yhteensä $1"
+  },
+  "codeCount_one": {
+    "message": "$1 koodi"
+  },
+  "codeCount_other": {
+    "message": "$1 koodia"
+  },
+  "thisWebsite": {
+    "message": "Tämä sivusto"
+  },
+  "openToConfirm": {
+    "message": "Avaa vahvistaaksesi pääsalasanan"
+  },
+  "protected": {
+    "message": "Suojattu"
+  },
+  "fillIntoPage": {
+    "message": "Täytä tälle sivulle"
+  },
+  "editKey": {
+    "message": "Muokkaa avainta"
+  },
+  "codeFilled": {
+    "message": "Koodi täytetty: $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Vahvista pääsalasanasi ja muokkaa sitten avainta Todentaja-välilehdellä."
+  },
+  "qrReadFirstCheck": {
+    "message": "Ensimmäinen useista QR-koodeista luettu. Tarkista tiedot ja tallenna."
+  },
+  "qrReadCheck": {
+    "message": "QR-koodi luettu. Tarkista tiedot ja tallenna."
+  },
+  "qrReadFirstSave": {
+    "message": "Ensimmäinen useista QR-koodeista luettu. Tallenna kirjautumistieto säilyttääksesi avaimen."
+  },
+  "qrReadSave": {
+    "message": "QR-koodi luettu. Tallenna kirjautumistieto säilyttääksesi avaimen."
+  },
+  "qrUnsupported": {
+    "message": "Tämä selain ei osaa lukea QR-koodeja. Liitä sen sijaan avain tai otpauth://-linkki."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey ei näe tätä sivua. Avaa sivu, jolla QR-koodi näkyy, ja yritä uudelleen."
+  },
+  "qrNotFound": {
+    "message": "Sivun näkyvästä osasta ei löytynyt todennuksen QR-koodia."
+  },
+  "qrInvalid": {
+    "message": "QR-koodi ei ole kelvollinen aikaperusteinen (TOTP) todennusavain."
+  },
+  "keyAdded": {
+    "message": "Todennusavain lisätty."
+  },
+  "keyUpdated": {
+    "message": "Todennusavain päivitetty."
+  },
+  "keyRemoved": {
+    "message": "Todennusavain poistettu. Itse kirjautumistieto on yhä holvissasi."
+  },
+  "fileTooLarge256": {
+    "message": "Tiedosto on liian suuri (enintään 256 kt)."
+  },
+  "pasteLinksFirst": {
+    "message": "Liitä ensin otpauth://-linkit tai valitse tiedosto."
+  },
+  "keysImported_one": {
+    "message": "Tuotiin $1 avain."
+  },
+  "keysImported_other": {
+    "message": "Tuotiin $1 avainta."
+  },
+  "new": {
+    "message": "Uusi"
+  },
+  "duplicate": {
+    "message": "Kaksoiskappale"
+  },
+  "invalid": {
+    "message": "Virheellinen"
+  },
+  "importNewKeys_one": {
+    "message": "Tuo $1 uusi avain"
+  },
+  "importNewKeys_other": {
+    "message": "Tuo $1 uutta avainta"
+  },
+  "checkThenImport": {
+    "message": "Tarkista luettelo ja tuo sitten."
+  },
+  "nothingNewToImport": {
+    "message": "Ei mitään uutta tuotavaa."
+  },
+  "keysExported": {
+    "message": "Avaimet viety. Poista tiedosto, kun se on tuotu muualle."
+  },
+  "fieldsFilled_one": {
+    "message": "Täytettiin $1 kenttä."
+  },
+  "fieldsFilled_other": {
+    "message": "Täytettiin $1 kenttää."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Käyttäjänimi ja salasana täytetty."
+  },
+  "filledUsername": {
+    "message": "Käyttäjänimi täytetty."
+  },
+  "filledPassword": {
+    "message": "Salasana täytetty."
+  },
+  "synced_one": {
+    "message": "Synkronoitiin $1 kohde."
+  },
+  "synced_other": {
+    "message": "Synkronoitiin $1 kohdetta."
+  },
+  "twoStepUnsupported": {
+    "message": "Tämä tili vaatii kaksivaiheisen kirjautumisen tavan, jota tämä versio ei tue."
+  },
+  "sending": {
+    "message": "Lähetetään…"
+  },
+  "emailCodeSent": {
+    "message": "Vahvistuskoodi lähetetty sähköpostiin."
+  },
+  "authenticatorApp": {
+    "message": "Todennussovellus"
+  },
+  "securityKeyWebauthn": {
+    "message": "Suojausavain (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Palautuskoodi"
+  },
+  "twoFactorMethod": {
+    "message": "Tapa $1"
+  },
+  "fieldEmpty": {
+    "message": "Tämä kenttä on tyhjä."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Leikepöytä tyhjennetään ajan $2 kuluttua."
+  },
+  "backgroundNoResponse": {
+    "message": "Laajennuksen taustaprosessi ei vastannut. Lataa laajennus uudelleen."
+  },
+  "unexpectedResponse": {
+    "message": "Taustaprosessi palautti odottamattoman vastauksen."
+  },
+  "newSend": {
+    "message": "Uusi Send"
+  },
+  "item": {
+    "message": "Kohde"
+  },
+  "editItem": {
+    "message": "Muokkaa kohdetta"
+  },
+  "newItem": {
+    "message": "Uusi kohde"
+  },
+  "addKey": {
+    "message": "Lisää avain"
+  },
+  "serverVersion": {
+    "message": "$1 · palvelin $2"
+  },
+  "unexpectedError": {
+    "message": "Odottamaton laajennuksen virhe."
+  },
+  "passkeySuggestion": {
+    "message": "Kirjaudu Firnkeyhin tallennetulla pääsyavaimella"
+  },
+  "generateAndFill": {
+    "message": "Luo ja täytä salasana"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey-ehdotukset"
+  },
+  "dismissSuggestions": {
+    "message": "Hylkää automaattisen täytön ehdotukset"
+  },
+  "dismiss": {
+    "message": "Hylkää"
+  },
+  "toggleSuggestions": {
+    "message": "Näytä/piilota Firnkey-ehdotukset"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Näytä tai piilota Firnkey-ehdotukset"
+  },
+  "updateExistingLogin": {
+    "message": "Päivitä olemassa oleva kirjautumistieto"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Tallenna kirjautumistieto Firnkeyhin"
+  },
+  "notNow": {
+    "message": "Ei nyt"
+  },
+  "update": {
+    "message": "Päivitä"
+  },
+  "loginSaved": {
+    "message": "Kirjautumistieto tallennettu."
+  },
+  "saveFailed": {
+    "message": "Firnkey ei voinut tallentaa tätä kirjautumistietoa."
+  },
+  "savePasskey": {
+    "message": "Tallenna pääsyavain"
+  },
+  "signInWithPasskey": {
+    "message": "Kirjaudu pääsyavaimella"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkeyllä on jo pääsyavain tälle tilille tällä sivustolla."
+  },
+  "close": {
+    "message": "Sulje"
+  },
+  "savePasskeyForAccount": {
+    "message": "Tallennetaanko pääsyavain tilille $1 sivustolla $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Tallennetaanko pääsyavain sivustolle $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Valitse pääsyavain kohteelle $1."
+  },
+  "addTo": {
+    "message": "Lisää kohteeseen $1"
+  },
+  "somethingWentWrong": {
+    "message": "Jokin meni vikaan."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: viimeistele kirjautuminen suojausavaimellasi."
+  },
+  "fillLogin": {
+    "message": "Täytä kirjautumistieto"
+  },
+  "extensionDescription": {
+    "message": "Kevyt, avoimen lähdekoodin salasanojen hallinta omalle palvelimellesi."
+  },
+  "fillLoginCommand": {
+    "message": "Täytä vastaava kirjautumistieto tälle sivulle"
+  },
+  "copied": {
+    "message": "Kopioitu"
+  },
+  "generatorHistory": {
+    "message": "Generaattorin historia"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Generaattorista kopioimasi tai käyttämäsi salasanat näkyvät täällä sivuston kanssa, jolla olit. Ne pysyvät salattuina tässä selaimessa."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Ei sivustoa · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Luotu salasana"
+  },
+  "clearGeneratorHistory": {
+    "message": "Tyhjennä generaattorin historia"
+  },
+  "generatorHistoryCleared": {
+    "message": "Generaattorin historia tyhjennetty."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey täytti salasanan: $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Täytä salasana seuraavassa vaiheessa tilin valinnan jälkeen"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Kirjautumisille, jotka kysyvät ensin käyttäjänimeä. Vain valitsemasi tili, samalla sivustolla, kerran."
+  },
+  "askToSaveForms": {
+    "message": "Kysy korttien ja osoitteiden tallentamisesta"
+  },
+  "generateSshKey": {
+    "message": "Luo uusi avain (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Uusi SSH-avain luotu. Tallenna säilyttääksesi sen."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Viimeistele lisäys napsauttamalla työkalupalkin Firnkey-painiketta."
+  },
+  "saveCardToFirnkey": {
+    "message": "Tallennetaanko kortti Firnkeyhin?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Tallennetaanko osoite Firnkeyhin?"
+  },
+  "clone": {
+    "message": "Kloonaa"
+  },
+  "cloneName": {
+    "message": "$1 - kopio"
+  },
+  "itemCloned": {
+    "message": "Kohde kloonattu. Muokkaa kopiota alla."
+  },
+  "fingerprintPhrase": {
+    "message": "Sormenjälkilause"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Samat viisi sanaa näkyvät verkkoholvissa ja Bitwardenin sovelluksissa. Vertaa niitä, kun joku jakaa organisaation kanssasi."
+  },
+  "matchDetection": {
+    "message": "Vastaavuuden tunnistus"
+  },
+  "matchDefault": {
+    "message": "Oletus (verkkotunnus)"
+  },
+  "matchDomain": {
+    "message": "Verkkotunnus ja aliverkkotunnukset"
+  },
+  "matchHost": {
+    "message": "Isäntä (ja portti)"
+  },
+  "matchStartsWith": {
+    "message": "Alkaa"
+  },
+  "matchExact": {
+    "message": "Tarkka URL"
+  },
+  "matchRegex": {
+    "message": "Säännöllinen lauseke"
+  },
+  "matchNever": {
+    "message": "Ei koskaan"
+  },
+  "archive": {
+    "message": "Arkisto"
+  },
+  "unarchive": {
+    "message": "Palauta arkistosta"
+  },
+  "itemArchived": {
+    "message": "Kohde arkistoitu. Se ei enää näy automaattisessa täytössä eikä holvin luettelossa."
+  },
+  "itemUnarchived": {
+    "message": "Kohde palautettu holviin."
+  },
+  "archiveHint": {
+    "message": "Arkistoidut kohteet säilytetään, mutta niitä ei koskaan täytetä eikä ehdoteta."
+  },
+  "archiveEmpty": {
+    "message": "Mitään ei ole arkistoitu."
+  },
+  "archiveItem": {
+    "message": "Arkistoi"
+  },
+  "generatorPolicyHint": {
+    "message": "Organisaatiosi vaatii osan näistä asetuksista."
+  },
+  "pin": {
+    "message": "PIN-koodi"
+  },
+  "useMasterPassword": {
+    "message": "Käytä pääsalasanaa"
+  },
+  "unlockWithPin": {
+    "message": "Avaa PIN-koodilla"
+  },
+  "newPin": {
+    "message": "Uusi PIN-koodi (vähintään 4 merkkiä)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Säilytä PIN-avaus selaimen uudelleenkäynnistyksen jälkeen"
+  },
+  "pinKeepHint": {
+    "message": "Pois: uudelleenkäynnistyksen jälkeen avaat kerran pääsalasanalla. Päällä on vähemmän turvallinen: tälle tietokoneelle tallennetun lyhyen PIN-koodin voi arvata kuka tahansa, joka kopioi selainprofiilisi."
+  },
+  "setPin": {
+    "message": "Aseta PIN-koodi"
+  },
+  "pinOn": {
+    "message": "PIN-avaus on käytössä. Viisi väärää PIN-koodia poistaa sen käytöstä."
+  },
+  "pinOff": {
+    "message": "PIN-avaus on pois käytöstä."
+  },
+  "passwordHealth": {
+    "message": "Salasanojen kunto"
+  },
+  "passwordHealthHint": {
+    "message": "Löytää heikot ja uudelleenkäytetyt salasanat sekä vuotaneet, kun vuototarkistus on päällä."
+  },
+  "checkBreaches": {
+    "message": "Tarkista salasanat tunnetuista tietovuodoista"
+  },
+  "checkBreachesHint": {
+    "message": "Jokaisen synkronoinnin jälkeen Firnkey kysyy Have I Been Pwned -palvelulta jokaisen kirjautumistiedon salasanasta. Vain salasanan tiivisteen 5 ensimmäistä merkkiä lähetetään; itse salasana ei koskaan poistu tästä selaimesta."
+  },
+  "checkBreachesNow": {
+    "message": "Tarkista vuodot nyt"
+  },
+  "checkingBreaches": {
+    "message": "Tarkistetaan…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey tarvitsee pääsyn osoitteeseen api.pwnedpasswords.com vuotojen tarkistamiseen."
+  },
+  "healthExposed_one": {
+    "message": "$1 vuotanut"
+  },
+  "healthExposed_other": {
+    "message": "$1 vuotanutta"
+  },
+  "healthReused_one": {
+    "message": "$1 uudelleenkäytetty"
+  },
+  "healthReused_other": {
+    "message": "$1 uudelleenkäytettyä"
+  },
+  "healthWeak_one": {
+    "message": "$1 heikko"
+  },
+  "healthWeak_other": {
+    "message": "$1 heikkoa"
+  },
+  "healthNotChecked": {
+    "message": "$1 tarkistamatta vuotojen varalta"
+  },
+  "healthAllChecked": {
+    "message": "kaikki tarkistettu vuotojen varalta"
+  },
+  "exposedPasswords": {
+    "message": "Vuotaneet salasanat"
+  },
+  "reusedPasswords": {
+    "message": "Uudelleenkäytetyt salasanat"
+  },
+  "weakPasswords": {
+    "message": "Heikot salasanat"
+  },
+  "weakPassword": {
+    "message": "Heikko"
+  },
+  "seenInBreaches_one": {
+    "message": "Nähty $2 tietovuodossa"
+  },
+  "seenInBreaches_other": {
+    "message": "Nähty $2 tietovuodossa"
+  },
+  "usedByLogins_one": {
+    "message": "Käytössä $1 kirjautumistiedossa"
+  },
+  "usedByLogins_other": {
+    "message": "Käytössä $1 kirjautumistiedossa"
+  },
+  "passwordInBreaches_one": {
+    "message": "Tämä salasana on esiintynyt $2 tietovuodossa. Vaihda se."
+  },
+  "passwordInBreaches_other": {
+    "message": "Tämä salasana on esiintynyt $2 tietovuodossa. Vaihda se."
+  },
+  "healthAllGood": {
+    "message": "Heikkoja, uudelleenkäytettyjä tai vuotaneita salasanoja ei löytynyt."
+  },
+  "autofillOnPageLoad": {
+    "message": "Täytä automaattisesti sivun latautuessa"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Täyttää vastaavan kirjautumistiedon heti kirjautumissivun latauduttua, ilman napsautusta. Vaatii sivustointegraation. Murrettu sivu tai piilotettu lomake vastaavalla sivustolla voisi lukea salasanan, joten käytä tätä vain luotetuilla sivustoilla."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Oletus kirjautumistiedoille"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Älä täytä sivun latautuessa"
+  },
+  "useDefaultSetting": {
+    "message": "Käytä oletusasetusta"
+  },
+  "always": {
+    "message": "Aina"
+  },
+  "loginWithDevice": {
+    "message": "Kirjaudu laitteella"
+  },
+  "signInWithSso": {
+    "message": "Kirjaudu SSO:lla"
+  },
+  "deviceLoginHint": {
+    "message": "Hyväksy pyyntö sovelluksessa tai verkkoholvissa, johon olet kirjautunut. Varmista, että se näyttää tämän lauseen:"
+  },
+  "ssoUnlockHint": {
+    "message": "Kirjauduttu SSO:lla. Anna pääsalasanasi avataksesi."
+  },
+  "serverIcons": {
+    "message": "Näytä sivustojen kuvakkeet"
+  },
+  "serverIconsHint": {
+    "message": "Palvelimesi lataa kunkin sivuston kuvakkeen kerran ja tallentaa sen välimuistiin. Pois: vain selaimella jo olevat kuvakkeet."
+  },
+  "waitingForApproval": {
+    "message": "Odotetaan hyväksyntää…"
+  },
+  "websites": {
+    "message": "Verkkosivustot"
+  },
+  "addWebsite": {
+    "message": "Lisää sivusto"
+  },
+  "removeWebsite": {
+    "message": "Poista sivusto"
+  },
+  "customFields": {
+    "message": "Mukautetut kentät"
+  },
+  "fieldType": {
+    "message": "Kentän tyyppi"
+  },
+  "hiddenField": {
+    "message": "Piilotettu"
+  },
+  "checkboxField": {
+    "message": "Valintaruutu"
+  },
+  "addField": {
+    "message": "Lisää kenttä"
+  },
+  "fieldName": {
+    "message": "Kentän nimi"
+  },
+  "fieldValue": {
+    "message": "Arvo"
+  },
+  "removeField": {
+    "message": "Poista kenttä"
+  },
+  "collections": {
+    "message": "Kokoelmat"
+  },
+  "allVaults": {
+    "message": "Kaikki holvit"
+  },
+  "filters": {
+    "message": "Suodattimet"
+  },
+  "allCollections": {
+    "message": "Kaikki kokoelmat"
+  },
+  "allFolders": {
+    "message": "Kaikki kansiot"
+  },
+  "allTypes": {
+    "message": "Kaikki tyypit"
+  },
+  "editSend": {
+    "message": "Muokkaa Sendiä"
+  },
+  "keepDeletionDate": {
+    "message": "Säilytä ($1)"
+  },
+  "removePassword": {
+    "message": "Poista salasana"
+  },
+  "sendSaved": {
+    "message": "$1 tallennettu."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Organisaatiosi lukitsee holvin viimeistään, kun toimettomuutta on kestänyt $1."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Organisaatiosi kirjaa sinut ulos viimeistään, kun toimettomuutta on kestänyt $1."
+  }
+}

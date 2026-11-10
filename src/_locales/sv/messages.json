@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "sv",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Lösenordshanterare för din egen server"
+  },
+  "starting": {
+    "message": "Startar"
+  },
+  "connectYourServer": {
+    "message": "Anslut din server"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey ber bara om åtkomst till den server du väljer."
+  },
+  "serverUrl": {
+    "message": "Serverns URL"
+  },
+  "verifyServer": {
+    "message": "Kontrollera servern"
+  },
+  "signIn": {
+    "message": "Logga in"
+  },
+  "change": {
+    "message": "Ändra"
+  },
+  "email": {
+    "message": "E-post"
+  },
+  "masterPassword": {
+    "message": "Huvudlösenord"
+  },
+  "twoStepLogin": {
+    "message": "Tvåstegsinloggning"
+  },
+  "method": {
+    "message": "Metod"
+  },
+  "sendEmailCode": {
+    "message": "Skicka kod via e-post"
+  },
+  "verificationCode": {
+    "message": "Verifieringskod"
+  },
+  "rememberThisDevice": {
+    "message": "Kom ihåg den här enheten"
+  },
+  "newDeviceVerification": {
+    "message": "Verifiering av ny enhet"
+  },
+  "deviceVerificationHint": {
+    "message": "Ange verifieringskoden som din server skickade."
+  },
+  "deviceVerificationCode": {
+    "message": "Enhetens verifieringskod"
+  },
+  "signInAndSync": {
+    "message": "Logga in och synka"
+  },
+  "vaultLocked": {
+    "message": "Valvet är låst"
+  },
+  "unlock": {
+    "message": "Lås upp"
+  },
+  "unlockWithBiometrics": {
+    "message": "Lås upp med Touch ID / biometri"
+  },
+  "logOut": {
+    "message": "Logga ut"
+  },
+  "allItems": {
+    "message": "Alla objekt"
+  },
+  "noMatchingItems": {
+    "message": "Inga matchande objekt."
+  },
+  "viewAll": {
+    "message": "Visa alla"
+  },
+  "authenticatorEmpty": {
+    "message": "Inga autentiseringsnycklar än. Välj Ny för att skanna en QR-kod eller klistra in en nyckel."
+  },
+  "importOrExportKeys": {
+    "message": "Importera eller exportera nycklar"
+  },
+  "scanQrOnPage": {
+    "message": "Skanna QR-koden på den här sidan"
+  },
+  "saveTo": {
+    "message": "Spara i"
+  },
+  "newLogin": {
+    "message": "Ny inloggning"
+  },
+  "key": {
+    "message": "Nyckel"
+  },
+  "name": {
+    "message": "Namn"
+  },
+  "nicknameOptional": {
+    "message": "Smeknamn (valfritt)"
+  },
+  "account": {
+    "message": "Konto"
+  },
+  "website": {
+    "message": "Webbplats"
+  },
+  "issuer": {
+    "message": "Utfärdare"
+  },
+  "advanced": {
+    "message": "Avancerat"
+  },
+  "algorithm": {
+    "message": "Algoritm"
+  },
+  "digits": {
+    "message": "Siffror"
+  },
+  "periodSeconds": {
+    "message": "Period (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "De flesta tjänster använder SHA-1, 6 siffror och 30 sekunder. Steam-nycklar (utfärdare Steam) ger alltid koder med 5 tecken."
+  },
+  "save": {
+    "message": "Spara"
+  },
+  "import": {
+    "message": "Importera"
+  },
+  "keysImportHint": {
+    "message": "En otpauth://totp/-länk per rad, så som autentiseringsappar exporterar dem. Varje ny nyckel blir en inloggning."
+  },
+  "chooseFile": {
+    "message": "Välj fil"
+  },
+  "checkList": {
+    "message": "Kontrollera listan"
+  },
+  "export": {
+    "message": "Exportera"
+  },
+  "keysExportHint": {
+    "message": "Sparar varje nyckel som en otpauth://-länk i en textfil. Alla som har filen kan skapa dina koder, så radera den efter importen."
+  },
+  "exportKeys": {
+    "message": "Exportera nycklar"
+  },
+  "sendIntro": {
+    "message": "Dela text eller en fil via en ändpunktskrypterad länk som raderar sig själv."
+  },
+  "sendEmpty": {
+    "message": "Inga Sends än. Välj Ny för att dela text eller en fil."
+  },
+  "text": {
+    "message": "Text"
+  },
+  "file": {
+    "message": "Fil"
+  },
+  "sendHideText": {
+    "message": "Dölj texten tills mottagaren visar den"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Ingen fil vald · högst 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Radera efter"
+  },
+  "days1": {
+    "message": "1 dag"
+  },
+  "days2": {
+    "message": "2 dagar"
+  },
+  "days3": {
+    "message": "3 dagar"
+  },
+  "days7": {
+    "message": "7 dagar"
+  },
+  "days14": {
+    "message": "14 dagar"
+  },
+  "days30": {
+    "message": "30 dagar"
+  },
+  "options": {
+    "message": "Alternativ"
+  },
+  "passwordOptional": {
+    "message": "Lösenord (valfritt)"
+  },
+  "maximumViewsOptional": {
+    "message": "Högsta antal visningar (valfritt)"
+  },
+  "createAndCopyLink": {
+    "message": "Skapa och kopiera länk"
+  },
+  "passwordGenerator": {
+    "message": "Lösenordsgenerator"
+  },
+  "generatorHint": {
+    "message": "Skapas lokalt med webbläsarens kryptografiska slumpkälla."
+  },
+  "password": {
+    "message": "Lösenord"
+  },
+  "passphrase": {
+    "message": "Lösenfras"
+  },
+  "username": {
+    "message": "Användarnamn"
+  },
+  "length": {
+    "message": "Längd"
+  },
+  "uppercase": {
+    "message": "Versaler"
+  },
+  "lowercase": {
+    "message": "Gemener"
+  },
+  "numbers": {
+    "message": "Siffror"
+  },
+  "symbols": {
+    "message": "Symboler"
+  },
+  "words": {
+    "message": "Ord"
+  },
+  "wordSeparator": {
+    "message": "Ordavgränsare"
+  },
+  "capitalize": {
+    "message": "Stor begynnelsebokstav"
+  },
+  "includeNumber": {
+    "message": "Ta med en siffra"
+  },
+  "type": {
+    "message": "Typ"
+  },
+  "randomWord": {
+    "message": "Slumpat ord"
+  },
+  "plusAddressedEmail": {
+    "message": "E-post med plusadress"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all-e-post"
+  },
+  "forwardedEmailAlias": {
+    "message": "Vidarebefordrat e-postalias"
+  },
+  "forwardingService": {
+    "message": "Vidarebefordringstjänst"
+  },
+  "apiKey": {
+    "message": "API-nyckel"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Sparas efter första användningen; lämna tomt för att behålla den"
+  },
+  "aliasDomain": {
+    "message": "Aliasdomän"
+  },
+  "createAlias": {
+    "message": "Skapa alias"
+  },
+  "creatingAlias": {
+    "message": "Skapar alias…"
+  },
+  "aliasCreated": {
+    "message": "Alias skapat"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey behöver åtkomst till vidarebefordringstjänsten för att skapa ett alias."
+  },
+  "yourEmail": {
+    "message": "Din e-post"
+  },
+  "yourCatchAllDomain": {
+    "message": "Din catch-all-domän"
+  },
+  "generateAnother": {
+    "message": "Skapa en ny"
+  },
+  "useInNewLogin": {
+    "message": "Använd i en ny inloggning"
+  },
+  "security": {
+    "message": "Säkerhet"
+  },
+  "securityGroupHint": {
+    "message": "Låsning, biometri, urklipp"
+  },
+  "autofillSaving": {
+    "message": "Autofyll och sparande"
+  },
+  "autofillGroupHint": {
+    "message": "Webbplatsintegration, spara-frågor, undantagna domäner"
+  },
+  "vault": {
+    "message": "Valv"
+  },
+  "vaultGroupHint": {
+    "message": "Mappar, fliken Autentiserare"
+  },
+  "importExport": {
+    "message": "Import och export"
+  },
+  "transferGroupHint": {
+    "message": "Flytta valvet från eller till en annan lösenordshanterare"
+  },
+  "accountSync": {
+    "message": "Konto och synk"
+  },
+  "accountGroupHint": {
+    "message": "Konton, live-synk, logga ut"
+  },
+  "lockVault": {
+    "message": "Lås valvet"
+  },
+  "after1Minute": {
+    "message": "Efter 1 minut"
+  },
+  "after5Minutes": {
+    "message": "Efter 5 minuter"
+  },
+  "after15Minutes": {
+    "message": "Efter 15 minuter"
+  },
+  "after30Minutes": {
+    "message": "Efter 30 minuter"
+  },
+  "after1Hour": {
+    "message": "Efter 1 timme"
+  },
+  "after2Hours": {
+    "message": "Efter 2 timmar"
+  },
+  "after4Hours": {
+    "message": "Efter 4 timmar"
+  },
+  "after8Hours": {
+    "message": "Efter 8 timmar"
+  },
+  "after24Hours": {
+    "message": "Efter 24 timmar"
+  },
+  "whenTheComputerLocks": {
+    "message": "När datorn låses"
+  },
+  "whenBrowserCloses": {
+    "message": "När webbläsaren stängs"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Håll upplåst tills utloggning"
+  },
+  "untilLogoutHint": {
+    "message": "”Tills utloggning” krypterar sessionen för den här webbläsarprofilen, men är mindre säkert på en delad dator."
+  },
+  "lockNow": {
+    "message": "Lås nu"
+  },
+  "clearCopiedSecrets": {
+    "message": "Rensa kopierade hemligheter"
+  },
+  "after10Seconds": {
+    "message": "Efter 10 sekunder"
+  },
+  "after20Seconds": {
+    "message": "Efter 20 sekunder"
+  },
+  "after30Seconds": {
+    "message": "Efter 30 sekunder"
+  },
+  "after2Minutes": {
+    "message": "Efter 2 minuter"
+  },
+  "never": {
+    "message": "Aldrig"
+  },
+  "clipboardOwnOnly": {
+    "message": "Rensa bara det Firnkey kopierade"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Kräver behörighet att läsa urklipp, så att text du kopierar någon annanstans lämnas orörd."
+  },
+  "websiteIntegration": {
+    "message": "Webbplatsintegration"
+  },
+  "websiteIntegrationHint": {
+    "message": "Autofyllförslag och spara-frågor."
+  },
+  "enable": {
+    "message": "Aktivera"
+  },
+  "fillSignInDialogs": {
+    "message": "Fyll i inloggningsdialoger (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Svarar på webbläsarens inloggningsdialog när exakt en oskyddad inloggning matchar."
+  },
+  "savePrompts": {
+    "message": "Spara-frågor"
+  },
+  "askToAddLogin": {
+    "message": "Fråga om inloggningen ska läggas till"
+  },
+  "askToUpdateLogin": {
+    "message": "Fråga om befintlig inloggning ska uppdateras"
+  },
+  "askPasskeys": {
+    "message": "Fråga om nycklar ska sparas och användas"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Stäng spara-frågor efter (sekunder)"
+  },
+  "excludedDomains": {
+    "message": "Undantagna domäner"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey föreslår, fyller i och sparar inte inloggningsuppgifter på de här domänerna."
+  },
+  "add": {
+    "message": "Lägg till"
+  },
+  "folders": {
+    "message": "Mappar"
+  },
+  "foldersHint": {
+    "message": "När en mapp raderas behålls dess objekt; de flyttas till Ingen mapp."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Visa fliken Autentiserare"
+  },
+  "authenticatorTabHint": {
+    "message": "Verifieringskoder i realtid för dina inloggningar. Lägg till nycklar via QR-kod, för hand eller från en fil."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Visa bara den här webbplatsens koder när den har några"
+  },
+  "vaultImportHint": {
+    "message": "En Bitwarden-JSON-export (okrypterad eller lösenordsskyddad), en 1Password-export (.1pux) eller en CSV-fil från Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox eller Safari. Objekten hamnar i ditt personliga valv."
+  },
+  "noFileChosen": {
+    "message": "Ingen fil vald"
+  },
+  "filePassword": {
+    "message": "Fillösenord"
+  },
+  "checkFile": {
+    "message": "Kontrollera filen"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden-JSON, skyddad med fillösenord"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden-JSON, okrypterad"
+  },
+  "filePasswordHint": {
+    "message": "Behövs för att importera filen igen. Firnkey kan inte återställa det."
+  },
+  "unencryptedExportWarning": {
+    "message": "Alla som har en okrypterad fil kan läsa alla lösenord i den. Radera den när du har importerat den."
+  },
+  "exportScopeHint": {
+    "message": "Exporterar dina personliga objekt. Organisationens objekt stannar i organisationen."
+  },
+  "exportVault": {
+    "message": "Exportera valvet"
+  },
+  "liveSync": {
+    "message": "Live-synk"
+  },
+  "liveSyncHint": {
+    "message": "Hämtar ändringar från servern direkt. Avstängd kontrollerar den en gång i minuten och använder mindre minne."
+  },
+  "syncNow": {
+    "message": "Synka nu"
+  },
+  "addAccount": {
+    "message": "Lägg till konto"
+  },
+  "repromptHint": {
+    "message": "Det här objektet kräver ditt huvudlösenord innan skyddade fält kan användas."
+  },
+  "unlockProtectedFields": {
+    "message": "Lås upp skyddade fält"
+  },
+  "show": {
+    "message": "Visa"
+  },
+  "addAttachment": {
+    "message": "Lägg till bilaga"
+  },
+  "fillOnThisPage": {
+    "message": "Fyll i på den här sidan"
+  },
+  "edit": {
+    "message": "Redigera"
+  },
+  "moveToTrash": {
+    "message": "Flytta till papperskorgen"
+  },
+  "addLogin": {
+    "message": "Lägg till inloggning"
+  },
+  "login": {
+    "message": "Inloggning"
+  },
+  "card": {
+    "message": "Kort"
+  },
+  "identity": {
+    "message": "Identitet"
+  },
+  "secureNote": {
+    "message": "Säker anteckning"
+  },
+  "folder": {
+    "message": "Mapp"
+  },
+  "noFolder": {
+    "message": "Ingen mapp"
+  },
+  "owner": {
+    "message": "Ägare"
+  },
+  "myVault": {
+    "message": "Mitt valv"
+  },
+  "moveToOrganizationHint": {
+    "message": "Flytt till en organisation kan inte ångras här; organisationen äger sedan objektet."
+  },
+  "generate": {
+    "message": "Skapa"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Autentiseringsnyckel (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Skanna QR"
+  },
+  "notes": {
+    "message": "Anteckningar"
+  },
+  "favorite": {
+    "message": "Favorit"
+  },
+  "authenticator": {
+    "message": "Autentiserare"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Inställningar"
+  },
+  "back": {
+    "message": "Tillbaka"
+  },
+  "openSettings": {
+    "message": "Öppna inställningar"
+  },
+  "searchVault": {
+    "message": "Sök i valvet"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32-nyckel eller otpauth://totp/-länk"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Utfärdaren som standard"
+  },
+  "shownInsteadOfThe": {
+    "message": "Visas i stället för namnet"
+  },
+  "keysToImport": {
+    "message": "Nycklar att importera"
+  },
+  "whatToSend": {
+    "message": "Vad som ska skickas"
+  },
+  "whatToGenerate": {
+    "message": "Vad som ska skapas"
+  },
+  "generatedValue": {
+    "message": "Skapat värde"
+  },
+  "copy": {
+    "message": "Kopiera"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopiera skapat värde"
+  },
+  "domainToExclude": {
+    "message": "Domän att undanta"
+  },
+  "newFolder": {
+    "message": "Ny mapp"
+  },
+  "newFolderName": {
+    "message": "Namn på ny mapp"
+  },
+  "copyUsername": {
+    "message": "Kopiera användarnamn"
+  },
+  "copyPassword": {
+    "message": "Kopiera lösenord"
+  },
+  "copyVerificationCode": {
+    "message": "Kopiera verifieringskod"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32-nyckel eller otpauth://-länk"
+  },
+  "mainNavigation": {
+    "message": "Huvudnavigering"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey-nyckel"
+  },
+  "passkey": {
+    "message": "Nyckel"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Lås upp Firnkey för att fortsätta."
+  },
+  "verifyWithBiometrics": {
+    "message": "Verifiera med Touch ID / biometri"
+  },
+  "continue": {
+    "message": "Fortsätt"
+  },
+  "useAnotherDevice": {
+    "message": "Använd en annan enhet"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "sshKey": {
+    "message": "SSH-nyckel"
+  },
+  "cardholderName": {
+    "message": "Kortinnehavarens namn"
+  },
+  "brand": {
+    "message": "Märke"
+  },
+  "number": {
+    "message": "Nummer"
+  },
+  "expirationMonth": {
+    "message": "Utgångsmånad"
+  },
+  "expirationYear": {
+    "message": "Utgångsår"
+  },
+  "securityCode": {
+    "message": "Säkerhetskod"
+  },
+  "title": {
+    "message": "Titel"
+  },
+  "firstName": {
+    "message": "Förnamn"
+  },
+  "middleName": {
+    "message": "Mellannamn"
+  },
+  "lastName": {
+    "message": "Efternamn"
+  },
+  "company": {
+    "message": "Företag"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Adress 1"
+  },
+  "address2": {
+    "message": "Adress 2"
+  },
+  "address3": {
+    "message": "Adress 3"
+  },
+  "city": {
+    "message": "Ort"
+  },
+  "stateProvince": {
+    "message": "Delstat / län"
+  },
+  "postalCode": {
+    "message": "Postnummer"
+  },
+  "country": {
+    "message": "Land"
+  },
+  "ssn": {
+    "message": "Personnummer"
+  },
+  "passportNumber": {
+    "message": "Passnummer"
+  },
+  "licenseNumber": {
+    "message": "Körkortsnummer"
+  },
+  "addSecureNote": {
+    "message": "Lägg till säker anteckning"
+  },
+  "addCard": {
+    "message": "Lägg till kort"
+  },
+  "addIdentity": {
+    "message": "Lägg till identitet"
+  },
+  "addSshKey": {
+    "message": "Lägg till SSH-nyckel"
+  },
+  "editLogin": {
+    "message": "Redigera inloggning"
+  },
+  "editSecureNote": {
+    "message": "Redigera säker anteckning"
+  },
+  "editCard": {
+    "message": "Redigera kort"
+  },
+  "editIdentity": {
+    "message": "Redigera identitet"
+  },
+  "editSshKey": {
+    "message": "Redigera SSH-nyckel"
+  },
+  "passphraseGenerator": {
+    "message": "Lösenfrasgenerator"
+  },
+  "usernameGenerator": {
+    "message": "Användarnamnsgenerator"
+  },
+  "generatedPasswordCopied": {
+    "message": "Skapat lösenord kopierat."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Skapad lösenfras kopierad."
+  },
+  "generatedUsernameCopied": {
+    "message": "Skapat användarnamn kopierat."
+  },
+  "removeKey": {
+    "message": "Ta bort nyckeln"
+  },
+  "biometricOff": {
+    "message": "Biometrisk upplåsning avstängd."
+  },
+  "usernameCopied": {
+    "message": "Användarnamn kopierat."
+  },
+  "passwordCopied": {
+    "message": "Lösenord kopierat."
+  },
+  "hide": {
+    "message": "Dölj"
+  },
+  "movedToTrash": {
+    "message": "Flyttat till papperskorgen."
+  },
+  "websiteAccessDenied": {
+    "message": "Åtkomst till webbplatser beviljades inte."
+  },
+  "websiteIntegrationOn": {
+    "message": "Autofyll och spara-frågor aktiverade."
+  },
+  "websiteIntegrationOff": {
+    "message": "Frågor på webbplatser avstängda."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "För att fylla i inloggningsdialoger krävs behörighet att se dem på webbplatser."
+  },
+  "preferencesUpdated": {
+    "message": "Inställningarna uppdaterades."
+  },
+  "invalidDomain": {
+    "message": "Ange en giltig domän, till exempel example.com."
+  },
+  "remove": {
+    "message": "Ta bort"
+  },
+  "enabled": {
+    "message": "Aktiverad"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Stäng av webbplatsintegration"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Aktivera webbplatsintegration"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Låstiden stöds inte."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Urklippstiden stöds inte."
+  },
+  "clipboardClearsAfter": {
+    "message": "Kopierade hemligheter rensas efter $1."
+  },
+  "clipboardKeeps": {
+    "message": "Kopierade hemligheter ligger kvar i urklipp."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey rensar bara urklipp om det fortfarande innehåller det Firnkey kopierade."
+  },
+  "seconds_one": {
+    "message": "$1 sekund"
+  },
+  "seconds_other": {
+    "message": "$1 sekunder"
+  },
+  "minutes_one": {
+    "message": "$1 minut"
+  },
+  "minutes_other": {
+    "message": "$1 minuter"
+  },
+  "hours_one": {
+    "message": "$1 timme"
+  },
+  "hours_other": {
+    "message": "$1 timmar"
+  },
+  "lockOnComputerLock": {
+    "message": "Valvet låses när datorn låses eller webbläsaren stängs."
+  },
+  "lockOnLogout": {
+    "message": "Valvet förblir upplåst i den här webbläsaren tills du låser det eller loggar ut."
+  },
+  "lockOnBrowserClose": {
+    "message": "Valvet förblir upplåst tills webbläsaren stängs."
+  },
+  "lockAfterInactivity": {
+    "message": "Valvet låses efter $1 utan aktivitet."
+  },
+  "waitingForVerification": {
+    "message": "Väntar på verifiering…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Lås upp valvet innan du aktiverar biometrisk upplåsning."
+  },
+  "noPasskeyCreated": {
+    "message": "Ingen nyckel skapades."
+  },
+  "biometricOn": {
+    "message": "Biometrisk upplåsning är på."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrisk upplåsning är inte tillgänglig just nu."
+  },
+  "vaultUnlocked_one": {
+    "message": "Valvet upplåst med $1 objekt."
+  },
+  "vaultUnlocked_other": {
+    "message": "Valvet upplåst med $1 objekt."
+  },
+  "verificationCancelled": {
+    "message": "Verifieringen avbröts eller tog för lång tid."
+  },
+  "notConnected": {
+    "message": "Inte ansluten"
+  },
+  "connectAServer": {
+    "message": "Anslut en server"
+  },
+  "signedOut": {
+    "message": "Utloggad"
+  },
+  "itemCount_one": {
+    "message": "$1 objekt"
+  },
+  "itemCount_other": {
+    "message": "$1 objekt"
+  },
+  "locked": {
+    "message": "Låst"
+  },
+  "unlocked": {
+    "message": "Upplåst"
+  },
+  "settingsFor": {
+    "message": "Inställningar för $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · förslag för den här sidan först"
+  },
+  "itemTotal_one": {
+    "message": "$1 objekt totalt"
+  },
+  "itemTotal_other": {
+    "message": "$1 objekt totalt"
+  },
+  "skippedItems_one": {
+    "message": "$1 objekt som inte stöds eller är skadat hoppades över."
+  },
+  "skippedItems_other": {
+    "message": "$1 objekt som inte stöds eller är skadade hoppades över."
+  },
+  "otherAccounts": {
+    "message": "Andra konton"
+  },
+  "switch": {
+    "message": "Byt"
+  },
+  "removeAccountTitle": {
+    "message": "Ta bort $1 från Firnkey i den här webbläsaren"
+  },
+  "switchedTo": {
+    "message": "Bytte till $1."
+  },
+  "accountRemoved": {
+    "message": "$1 togs bort från den här webbläsaren."
+  },
+  "addAccountHint": {
+    "message": "Logga in på det andra kontot. Det nuvarande sparas, låst, nedan."
+  },
+  "verifying": {
+    "message": "Kontrollerar…"
+  },
+  "serverPermissionDenied": {
+    "message": "Behörighet till servern beviljades inte."
+  },
+  "signingIn": {
+    "message": "Loggar in…"
+  },
+  "continueInNewWindow": {
+    "message": "Välj Logga in igen för att fortsätta i ett nytt fönster."
+  },
+  "enterTwoStepCode": {
+    "message": "Ange koden för tvåstegsinloggning."
+  },
+  "unlocking": {
+    "message": "Låser upp…"
+  },
+  "trashHint": {
+    "message": "Återställ objekt eller radera dem permanent."
+  },
+  "trashEmpty": {
+    "message": "Papperskorgen är tom."
+  },
+  "autofillSuggestions": {
+    "message": "Autofyllförslag"
+  },
+  "otherResults": {
+    "message": "Andra resultat"
+  },
+  "trash": {
+    "message": "Papperskorg"
+  },
+  "folderName": {
+    "message": "Mappnamn"
+  },
+  "rename": {
+    "message": "Byt namn"
+  },
+  "delete": {
+    "message": "Radera"
+  },
+  "folderRenamed": {
+    "message": "Mappen har bytt namn."
+  },
+  "folderAdded": {
+    "message": "Mappen har lagts till."
+  },
+  "folderDeleted": {
+    "message": "Mappen har raderats. Dess objekt finns nu i Ingen mapp."
+  },
+  "confirm": {
+    "message": "Bekräfta"
+  },
+  "matchesThisPage": {
+    "message": "Matchar den här sidan"
+  },
+  "restore": {
+    "message": "Återställ"
+  },
+  "itemRestored": {
+    "message": "Objektet återställt."
+  },
+  "deleteForever": {
+    "message": "Radera permanent"
+  },
+  "itemDeletedForever": {
+    "message": "Objektet raderat permanent."
+  },
+  "open": {
+    "message": "Öppna"
+  },
+  "fill": {
+    "message": "Fyll i"
+  },
+  "openWebsite": {
+    "message": "Öppna webbplatsen"
+  },
+  "cardNumber": {
+    "message": "Kortnummer"
+  },
+  "note": {
+    "message": "Anteckning"
+  },
+  "publicKey": {
+    "message": "Offentlig nyckel"
+  },
+  "copyPublicKey": {
+    "message": "Kopiera offentlig nyckel"
+  },
+  "copyCardNumber": {
+    "message": "Kopiera kortnummer"
+  },
+  "copyNote": {
+    "message": "Kopiera anteckning"
+  },
+  "copySecurityCode": {
+    "message": "Kopiera säkerhetskod"
+  },
+  "copyPrivateKey": {
+    "message": "Kopiera privat nyckel"
+  },
+  "privateKey": {
+    "message": "Privat nyckel"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Bekräfta ditt huvudlösenord innan du raderar det här objektet."
+  },
+  "moreActions": {
+    "message": "Fler åtgärder"
+  },
+  "noWebAddress": {
+    "message": "Den här inloggningen har ingen webbadress."
+  },
+  "noWebsiteSaved": {
+    "message": "Ingen webbplats sparad"
+  },
+  "loading": {
+    "message": "Läser in…"
+  },
+  "expiration": {
+    "message": "Utgång"
+  },
+  "address": {
+    "message": "Adress"
+  },
+  "fingerprint": {
+    "message": "Fingeravtryck"
+  },
+  "customField": {
+    "message": "Anpassat fält"
+  },
+  "passwordHistory": {
+    "message": "Lösenordshistorik ($1)"
+  },
+  "oldPassword": {
+    "message": "Gammalt lösenord"
+  },
+  "organization": {
+    "message": "Organisation"
+  },
+  "attachmentsCount": {
+    "message": "Bilagor ($1)"
+  },
+  "downloadFile": {
+    "message": "Ladda ned $1"
+  },
+  "deleteFile": {
+    "message": "Radera $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 nedladdad."
+  },
+  "fileTooLarge25": {
+    "message": "Filen är för stor (högst 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Filen är tom."
+  },
+  "uploadingFile": {
+    "message": "Krypterar och laddar upp $1…"
+  },
+  "fileAttached": {
+    "message": "$1 bifogad."
+  },
+  "fileDeleted": {
+    "message": "$1 raderad."
+  },
+  "copyLink": {
+    "message": "Kopiera länk"
+  },
+  "viewsOf": {
+    "message": "$1 av $2 visningar"
+  },
+  "views_one": {
+    "message": "$1 visning"
+  },
+  "views_other": {
+    "message": "$1 visningar"
+  },
+  "deletesOn": {
+    "message": "Raderas $1"
+  },
+  "disabled": {
+    "message": "Avstängd"
+  },
+  "sendLinkCopied": {
+    "message": "Send-länken kopierad."
+  },
+  "deleteSendTitle": {
+    "message": "Radera $1; länken slutar fungera"
+  },
+  "sendDeleted": {
+    "message": "$1 raderad. Länken fungerar inte längre."
+  },
+  "encrypting": {
+    "message": "Krypterar…"
+  },
+  "chooseFileToSend": {
+    "message": "Välj en fil att skicka."
+  },
+  "sendCreatedCopied": {
+    "message": "Send skapad. Länk kopierad."
+  },
+  "sendCreatedSync": {
+    "message": "Send skapad. Synka och kopiera sedan länken från listan."
+  },
+  "fileTooLarge10": {
+    "message": "Filen är för stor (högst 10 MB)."
+  },
+  "importing": {
+    "message": "Importerar…"
+  },
+  "checking": {
+    "message": "Kontrollerar…"
+  },
+  "importedItems": {
+    "message": "Importerade $1."
+  },
+  "importItems": {
+    "message": "Importera $1"
+  },
+  "foundItems": {
+    "message": "Hittade $1. De läggs till i ditt valv; inget ersätts."
+  },
+  "foundItemsInFolders": {
+    "message": "Hittade $1 i $2. De läggs till i ditt valv; inget ersätts."
+  },
+  "folderCount_one": {
+    "message": "$1 mapp"
+  },
+  "folderCount_other": {
+    "message": "$1 mappar"
+  },
+  "exporting": {
+    "message": "Exporterar…"
+  },
+  "vaultExportedPlain": {
+    "message": "Valvet exporterat. Radera filen efter importen."
+  },
+  "vaultExportedProtected": {
+    "message": "Valvet exporterat. Förvara fillösenordet säkert."
+  },
+  "createdOn": {
+    "message": "Skapad $1"
+  },
+  "lastEdited": {
+    "message": "Senast redigerad $1"
+  },
+  "itemHistory": {
+    "message": "Objekthistorik"
+  },
+  "loginCredentials": {
+    "message": "Inloggningsuppgifter"
+  },
+  "itemDetails": {
+    "message": "Objektdetaljer"
+  },
+  "autofillOptions": {
+    "message": "Alternativ för autofyll"
+  },
+  "passwordChangedOn": {
+    "message": "Senast ändrat $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Ta bort den här nyckeln från inloggningen"
+  },
+  "passkeyRemoved": {
+    "message": "Nyckeln togs bort."
+  },
+  "usedUntil": {
+    "message": "Använt till $1"
+  },
+  "earlierPassword": {
+    "message": "Tidigare lösenord"
+  },
+  "fieldCopied": {
+    "message": "$1 kopierat."
+  },
+  "copyField": {
+    "message": "Kopiera $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Bekräfta ditt huvudlösenord innan du kopierar från det här objektet."
+  },
+  "codeCopied": {
+    "message": "Verifieringskod kopierad."
+  },
+  "viewOnlyItem": {
+    "message": "Din organisation låter dig visa det här objektet men inte ändra det."
+  },
+  "confirmBeforeEditing": {
+    "message": "Bekräfta ditt huvudlösenord innan du redigerar det här objektet."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "ÅÅÅÅ"
+  },
+  "saving": {
+    "message": "Sparar…"
+  },
+  "loginUpdated": {
+    "message": "Inloggningen uppdaterad."
+  },
+  "loginAdded": {
+    "message": "Inloggningen tillagd."
+  },
+  "itemUpdated": {
+    "message": "$1 uppdaterad."
+  },
+  "itemAdded": {
+    "message": "$1 tillagd."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Skyddade fält upplåsta i 60 sekunder."
+  },
+  "unavailable": {
+    "message": "Inte tillgänglig"
+  },
+  "secondsLeft_one": {
+    "message": "$1 sekund kvar"
+  },
+  "secondsLeft_other": {
+    "message": "$1 sekunder kvar"
+  },
+  "codesForSite": {
+    "message": "Koder för den här webbplatsen · $1 totalt"
+  },
+  "codeCount_one": {
+    "message": "$1 kod"
+  },
+  "codeCount_other": {
+    "message": "$1 koder"
+  },
+  "thisWebsite": {
+    "message": "Den här webbplatsen"
+  },
+  "openToConfirm": {
+    "message": "Öppna för att bekräfta ditt huvudlösenord"
+  },
+  "protected": {
+    "message": "Skyddad"
+  },
+  "fillIntoPage": {
+    "message": "Fyll i på den här sidan"
+  },
+  "editKey": {
+    "message": "Redigera nyckel"
+  },
+  "codeFilled": {
+    "message": "Koden ifylld för $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Bekräfta ditt huvudlösenord och redigera sedan nyckeln från fliken Autentiserare."
+  },
+  "qrReadFirstCheck": {
+    "message": "Läste den första av flera QR-koder. Kontrollera uppgifterna och spara."
+  },
+  "qrReadCheck": {
+    "message": "QR-koden lästes. Kontrollera uppgifterna och spara."
+  },
+  "qrReadFirstSave": {
+    "message": "Läste den första av flera QR-koder. Spara inloggningen för att behålla nyckeln."
+  },
+  "qrReadSave": {
+    "message": "QR-koden lästes. Spara inloggningen för att behålla nyckeln."
+  },
+  "qrUnsupported": {
+    "message": "Den här webbläsaren kan inte läsa QR-koder. Klistra in nyckeln eller otpauth://-länken i stället."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey kan inte se den här sidan. Öppna sidan som visar QR-koden och försök igen."
+  },
+  "qrNotFound": {
+    "message": "Ingen QR-kod för autentisering hittades i den synliga delen av sidan."
+  },
+  "qrInvalid": {
+    "message": "QR-koden är inte en giltig tidsbaserad (TOTP) autentiseringsnyckel."
+  },
+  "keyAdded": {
+    "message": "Autentiseringsnyckel tillagd."
+  },
+  "keyUpdated": {
+    "message": "Autentiseringsnyckel uppdaterad."
+  },
+  "keyRemoved": {
+    "message": "Autentiseringsnyckel borttagen. Själva inloggningen finns kvar i ditt valv."
+  },
+  "fileTooLarge256": {
+    "message": "Filen är för stor (högst 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Klistra in otpauth://-länkar eller välj en fil först."
+  },
+  "keysImported_one": {
+    "message": "Importerade $1 nyckel."
+  },
+  "keysImported_other": {
+    "message": "Importerade $1 nycklar."
+  },
+  "new": {
+    "message": "Ny"
+  },
+  "duplicate": {
+    "message": "Dubblett"
+  },
+  "invalid": {
+    "message": "Ogiltig"
+  },
+  "importNewKeys_one": {
+    "message": "Importera $1 ny nyckel"
+  },
+  "importNewKeys_other": {
+    "message": "Importera $1 nya nycklar"
+  },
+  "checkThenImport": {
+    "message": "Kontrollera listan och importera sedan."
+  },
+  "nothingNewToImport": {
+    "message": "Inget nytt att importera."
+  },
+  "keysExported": {
+    "message": "Nycklar exporterade. Radera filen när den har importerats på annat håll."
+  },
+  "fieldsFilled_one": {
+    "message": "Fyllde i $1 fält."
+  },
+  "fieldsFilled_other": {
+    "message": "Fyllde i $1 fält."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Användarnamn och lösenord ifyllda."
+  },
+  "filledUsername": {
+    "message": "Användarnamn ifyllt."
+  },
+  "filledPassword": {
+    "message": "Lösenord ifyllt."
+  },
+  "synced_one": {
+    "message": "Synkade $1 objekt."
+  },
+  "synced_other": {
+    "message": "Synkade $1 objekt."
+  },
+  "twoStepUnsupported": {
+    "message": "Det här kontot kräver en metod för tvåstegsinloggning som den här versionen inte stöder."
+  },
+  "sending": {
+    "message": "Skickar…"
+  },
+  "emailCodeSent": {
+    "message": "Verifieringskod skickad via e-post."
+  },
+  "authenticatorApp": {
+    "message": "Autentiseringsapp"
+  },
+  "securityKeyWebauthn": {
+    "message": "Säkerhetsnyckel (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Återställningskod"
+  },
+  "twoFactorMethod": {
+    "message": "Metod $1"
+  },
+  "fieldEmpty": {
+    "message": "Fältet är tomt."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Urklipp rensas om $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Tilläggets bakgrundsprocess svarade inte. Läs in tillägget igen."
+  },
+  "unexpectedResponse": {
+    "message": "Bakgrundsprocessen gav ett oväntat svar."
+  },
+  "newSend": {
+    "message": "Ny Send"
+  },
+  "item": {
+    "message": "Objekt"
+  },
+  "editItem": {
+    "message": "Redigera objekt"
+  },
+  "newItem": {
+    "message": "Nytt objekt"
+  },
+  "addKey": {
+    "message": "Lägg till nyckel"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Oväntat fel i tillägget."
+  },
+  "passkeySuggestion": {
+    "message": "Logga in med en nyckel som sparats i Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Skapa och fyll i ett lösenord"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey-förslag"
+  },
+  "dismissSuggestions": {
+    "message": "Stäng autofyllförslag"
+  },
+  "dismiss": {
+    "message": "Stäng"
+  },
+  "toggleSuggestions": {
+    "message": "Visa/dölj Firnkey-förslag"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Visa eller dölj Firnkey-förslag"
+  },
+  "updateExistingLogin": {
+    "message": "Uppdatera befintlig inloggning"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Spara inloggning i Firnkey"
+  },
+  "notNow": {
+    "message": "Inte nu"
+  },
+  "update": {
+    "message": "Uppdatera"
+  },
+  "loginSaved": {
+    "message": "Inloggningen sparad."
+  },
+  "saveFailed": {
+    "message": "Firnkey kunde inte spara den här inloggningen."
+  },
+  "savePasskey": {
+    "message": "Spara nyckel"
+  },
+  "signInWithPasskey": {
+    "message": "Logga in med en nyckel"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey har redan en nyckel för det här kontot på den här webbplatsen."
+  },
+  "close": {
+    "message": "Stäng"
+  },
+  "savePasskeyForAccount": {
+    "message": "Spara en nyckel för $1 på $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Spara en nyckel på $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Välj en nyckel för $1."
+  },
+  "addTo": {
+    "message": "Lägg till i $1"
+  },
+  "somethingWentWrong": {
+    "message": "Något gick fel."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: använd din säkerhetsnyckel för att slutföra inloggningen."
+  },
+  "fillLogin": {
+    "message": "Fyll i inloggning"
+  },
+  "extensionDescription": {
+    "message": "En lätt lösenordshanterare med öppen källkod för din egen server."
+  },
+  "fillLoginCommand": {
+    "message": "Fyll i matchande inloggning på den här sidan"
+  },
+  "copied": {
+    "message": "Kopierat"
+  },
+  "generatorHistory": {
+    "message": "Generatorhistorik"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Lösenord du kopierar eller använder från generatorn visas här, med webbplatsen du var på. De förblir krypterade i den här webbläsaren."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Ingen webbplats · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Skapat lösenord"
+  },
+  "clearGeneratorHistory": {
+    "message": "Rensa generatorhistorik"
+  },
+  "generatorHistoryCleared": {
+    "message": "Generatorhistoriken rensad."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey fyllde i lösenordet för $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Fyll i lösenordet i nästa steg efter att ett konto valts"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "För inloggningar som frågar efter användarnamnet först. Bara kontot du valde, på samma webbplats, en gång."
+  },
+  "askToSaveForms": {
+    "message": "Fråga om kort och adresser ska sparas"
+  },
+  "generateSshKey": {
+    "message": "Skapa ny nyckel (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Ny SSH-nyckel skapad. Spara för att behålla den."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Klicka på Firnkey-knappen i verktygsfältet för att slutföra."
+  },
+  "saveCardToFirnkey": {
+    "message": "Spara kortet i Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Spara adressen i Firnkey?"
+  },
+  "clone": {
+    "message": "Klona"
+  },
+  "cloneName": {
+    "message": "$1 - Kopia"
+  },
+  "itemCloned": {
+    "message": "Objektet klonat. Ändra kopian nedan."
+  },
+  "fingerprintPhrase": {
+    "message": "Fingeravtrycksfras"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Samma fem ord visas i webbvalvet och i Bitwardens appar. Jämför dem när någon delar en organisation med dig."
+  },
+  "matchDetection": {
+    "message": "Matchningsidentifiering"
+  },
+  "matchDefault": {
+    "message": "Standard (domän)"
+  },
+  "matchDomain": {
+    "message": "Domän och underdomäner"
+  },
+  "matchHost": {
+    "message": "Värd (och port)"
+  },
+  "matchStartsWith": {
+    "message": "Börjar med"
+  },
+  "matchExact": {
+    "message": "Exakt URL"
+  },
+  "matchRegex": {
+    "message": "Reguljärt uttryck"
+  },
+  "matchNever": {
+    "message": "Aldrig"
+  },
+  "archive": {
+    "message": "Arkiv"
+  },
+  "unarchive": {
+    "message": "Ta ur arkivet"
+  },
+  "itemArchived": {
+    "message": "Objektet arkiverat. Det visas inte längre i autofyll eller valvlistan."
+  },
+  "itemUnarchived": {
+    "message": "Objektet flyttat tillbaka till valvet."
+  },
+  "archiveHint": {
+    "message": "Arkiverade objekt behålls men fylls aldrig i och föreslås aldrig."
+  },
+  "archiveEmpty": {
+    "message": "Inget är arkiverat."
+  },
+  "archiveItem": {
+    "message": "Arkivera"
+  },
+  "generatorPolicyHint": {
+    "message": "Din organisation kräver några av de här inställningarna."
+  },
+  "pin": {
+    "message": "PIN-kod"
+  },
+  "useMasterPassword": {
+    "message": "Använd huvudlösenordet i stället"
+  },
+  "unlockWithPin": {
+    "message": "Lås upp med PIN-kod"
+  },
+  "newPin": {
+    "message": "Ny PIN-kod (4 tecken eller fler)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Behåll upplåsning med PIN-kod efter omstart av webbläsaren"
+  },
+  "pinKeepHint": {
+    "message": "Av: efter en omstart låser du upp en gång med huvudlösenordet. På är mindre säkert: en kort PIN-kod som sparats på den här datorn kan gissas av den som kopierar din webbläsarprofil."
+  },
+  "setPin": {
+    "message": "Ange PIN-kod"
+  },
+  "pinOn": {
+    "message": "Upplåsning med PIN-kod är på. Fem felaktiga PIN-koder stänger av den."
+  },
+  "pinOff": {
+    "message": "Upplåsning med PIN-kod är av."
+  },
+  "passwordHealth": {
+    "message": "Lösenordshälsa"
+  },
+  "passwordHealthHint": {
+    "message": "Hittar svaga och återanvända lösenord, och läckta när läckkontrollen är på."
+  },
+  "checkBreaches": {
+    "message": "Kontrollera lösenord mot kända dataläckor"
+  },
+  "checkBreachesHint": {
+    "message": "Efter varje synk frågar Firnkey Have I Been Pwned om varje inloggnings lösenord. Bara de första 5 tecknen av en hash av lösenordet skickas; själva lösenordet lämnar aldrig webbläsaren."
+  },
+  "checkBreachesNow": {
+    "message": "Kontrollera läckor nu"
+  },
+  "checkingBreaches": {
+    "message": "Kontrollerar…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey behöver åtkomst till api.pwnedpasswords.com för att kontrollera läckor."
+  },
+  "healthExposed_one": {
+    "message": "$1 läckt"
+  },
+  "healthExposed_other": {
+    "message": "$1 läckta"
+  },
+  "healthReused_one": {
+    "message": "$1 återanvänt"
+  },
+  "healthReused_other": {
+    "message": "$1 återanvända"
+  },
+  "healthWeak_one": {
+    "message": "$1 svagt"
+  },
+  "healthWeak_other": {
+    "message": "$1 svaga"
+  },
+  "healthNotChecked": {
+    "message": "$1 inte kontrollerade mot läckor än"
+  },
+  "healthAllChecked": {
+    "message": "alla kontrollerade mot läckor"
+  },
+  "exposedPasswords": {
+    "message": "Läckta lösenord"
+  },
+  "reusedPasswords": {
+    "message": "Återanvända lösenord"
+  },
+  "weakPasswords": {
+    "message": "Svaga lösenord"
+  },
+  "weakPassword": {
+    "message": "Svagt"
+  },
+  "seenInBreaches_one": {
+    "message": "Sett i $2 dataläcka"
+  },
+  "seenInBreaches_other": {
+    "message": "Sett i $2 dataläckor"
+  },
+  "usedByLogins_one": {
+    "message": "Används av $1 inloggning"
+  },
+  "usedByLogins_other": {
+    "message": "Används av $1 inloggningar"
+  },
+  "passwordInBreaches_one": {
+    "message": "Lösenordet har förekommit i $2 dataläcka. Byt det."
+  },
+  "passwordInBreaches_other": {
+    "message": "Lösenordet har förekommit i $2 dataläckor. Byt det."
+  },
+  "healthAllGood": {
+    "message": "Inga svaga, återanvända eller läckta lösenord hittades."
+  },
+  "autofillOnPageLoad": {
+    "message": "Autofyll när sidan läses in"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Fyller i en matchande inloggning så snart en inloggningssida läses in, utan klick. Kräver webbplatsintegration. En hackad sida eller ett dolt formulär på en matchande webbplats kan läsa lösenordet, så använd bara detta på webbplatser du litar på."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Standard för inloggningar"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Fyll inte i när sidan läses in"
+  },
+  "useDefaultSetting": {
+    "message": "Använd standardinställningen"
+  },
+  "always": {
+    "message": "Alltid"
+  },
+  "loginWithDevice": {
+    "message": "Logga in med enhet"
+  },
+  "signInWithSso": {
+    "message": "Logga in med SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Godkänn begäran i en app eller ett webbvalv där du är inloggad. Kontrollera att den visar den här frasen:"
+  },
+  "ssoUnlockHint": {
+    "message": "Inloggad med SSO. Ange ditt huvudlösenord för att låsa upp."
+  },
+  "serverIcons": {
+    "message": "Visa webbplatsikoner"
+  },
+  "serverIconsHint": {
+    "message": "Din server hämtar varje webbplats ikon en gång och cachar den. Av: bara ikoner som webbläsaren redan har."
+  },
+  "waitingForApproval": {
+    "message": "Väntar på godkännande…"
+  },
+  "websites": {
+    "message": "Webbplatser"
+  },
+  "addWebsite": {
+    "message": "Lägg till webbplats"
+  },
+  "removeWebsite": {
+    "message": "Ta bort webbplats"
+  },
+  "customFields": {
+    "message": "Anpassade fält"
+  },
+  "fieldType": {
+    "message": "Fälttyp"
+  },
+  "hiddenField": {
+    "message": "Dold"
+  },
+  "checkboxField": {
+    "message": "Kryssruta"
+  },
+  "addField": {
+    "message": "Lägg till fält"
+  },
+  "fieldName": {
+    "message": "Fältnamn"
+  },
+  "fieldValue": {
+    "message": "Värde"
+  },
+  "removeField": {
+    "message": "Ta bort fält"
+  },
+  "collections": {
+    "message": "Samlingar"
+  },
+  "allVaults": {
+    "message": "Alla valv"
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "allCollections": {
+    "message": "Alla samlingar"
+  },
+  "allFolders": {
+    "message": "Alla mappar"
+  },
+  "allTypes": {
+    "message": "Alla typer"
+  },
+  "editSend": {
+    "message": "Redigera Send"
+  },
+  "keepDeletionDate": {
+    "message": "Behåll ($1)"
+  },
+  "removePassword": {
+    "message": "Ta bort lösenord"
+  },
+  "sendSaved": {
+    "message": "$1 sparad."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Din organisation låser valvet efter högst $1 utan aktivitet."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Din organisation loggar ut dig efter högst $1 utan aktivitet."
+  }
+}

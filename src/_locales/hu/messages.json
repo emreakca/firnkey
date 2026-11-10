@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "hu",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Jelszókezelő a saját szerveredhez"
+  },
+  "starting": {
+    "message": "Indítás"
+  },
+  "connectYourServer": {
+    "message": "Csatlakoztasd a szerveredet"
+  },
+  "serverAccessHint": {
+    "message": "A Firnkey csak az általad választott szerverhez kér hozzáférést."
+  },
+  "serverUrl": {
+    "message": "Szerver URL"
+  },
+  "verifyServer": {
+    "message": "Szerver ellenőrzése"
+  },
+  "signIn": {
+    "message": "Bejelentkezés"
+  },
+  "change": {
+    "message": "Módosítás"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Mesterjelszó"
+  },
+  "twoStepLogin": {
+    "message": "Kétlépcsős bejelentkezés"
+  },
+  "method": {
+    "message": "Módszer"
+  },
+  "sendEmailCode": {
+    "message": "Kód küldése e-mailben"
+  },
+  "verificationCode": {
+    "message": "Ellenőrző kód"
+  },
+  "rememberThisDevice": {
+    "message": "Eszköz megjegyzése"
+  },
+  "newDeviceVerification": {
+    "message": "Új eszköz ellenőrzése"
+  },
+  "deviceVerificationHint": {
+    "message": "Add meg a szervered által küldött ellenőrző kódot."
+  },
+  "deviceVerificationCode": {
+    "message": "Eszköz ellenőrző kódja"
+  },
+  "signInAndSync": {
+    "message": "Bejelentkezés és szinkronizálás"
+  },
+  "vaultLocked": {
+    "message": "A széf zárolva"
+  },
+  "unlock": {
+    "message": "Feloldás"
+  },
+  "unlockWithBiometrics": {
+    "message": "Feloldás Touch ID-val / biometriával"
+  },
+  "logOut": {
+    "message": "Kijelentkezés"
+  },
+  "allItems": {
+    "message": "Minden elem"
+  },
+  "noMatchingItems": {
+    "message": "Nincs egyező elem."
+  },
+  "viewAll": {
+    "message": "Összes megjelenítése"
+  },
+  "authenticatorEmpty": {
+    "message": "Még nincsenek hitelesítő kulcsok. Válaszd az Új lehetőséget QR-kód beolvasásához vagy kulcs beillesztéséhez."
+  },
+  "importOrExportKeys": {
+    "message": "Kulcsok importálása vagy exportálása"
+  },
+  "scanQrOnPage": {
+    "message": "QR-kód beolvasása ezen az oldalon"
+  },
+  "saveTo": {
+    "message": "Mentés ide"
+  },
+  "newLogin": {
+    "message": "Új bejelentkezés"
+  },
+  "key": {
+    "message": "Kulcs"
+  },
+  "name": {
+    "message": "Név"
+  },
+  "nicknameOptional": {
+    "message": "Becenév (nem kötelező)"
+  },
+  "account": {
+    "message": "Fiók"
+  },
+  "website": {
+    "message": "Weboldal"
+  },
+  "issuer": {
+    "message": "Kiadó"
+  },
+  "advanced": {
+    "message": "Speciális"
+  },
+  "algorithm": {
+    "message": "Algoritmus"
+  },
+  "digits": {
+    "message": "Számjegyek"
+  },
+  "periodSeconds": {
+    "message": "Időtartam (mp)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "A legtöbb szolgáltatás SHA-1-et, 6 számjegyet és 30 másodpercet használ. A Steam-kulcsok (kiadó: Steam) mindig 5 karakteres kódokat adnak."
+  },
+  "save": {
+    "message": "Mentés"
+  },
+  "import": {
+    "message": "Importálás"
+  },
+  "keysImportHint": {
+    "message": "Soronként egy otpauth://totp/ hivatkozás, ahogy a hitelesítő alkalmazások exportálják. Minden új kulcsból bejelentkezés lesz."
+  },
+  "chooseFile": {
+    "message": "Fájl kiválasztása"
+  },
+  "checkList": {
+    "message": "Lista ellenőrzése"
+  },
+  "export": {
+    "message": "Exportálás"
+  },
+  "keysExportHint": {
+    "message": "Minden kulcsot otpauth:// hivatkozásként ment egy szövegfájlba. Bárki, akinél a fájl van, előállíthatja a kódjaidat, ezért importálás után töröld."
+  },
+  "exportKeys": {
+    "message": "Kulcsok exportálása"
+  },
+  "sendIntro": {
+    "message": "Ossz meg szöveget vagy fájlt végpontok között titkosított, magától törlődő hivatkozással."
+  },
+  "sendEmpty": {
+    "message": "Még nincsenek Sendek. Válaszd az Új lehetőséget szöveg vagy fájl megosztásához."
+  },
+  "text": {
+    "message": "Szöveg"
+  },
+  "file": {
+    "message": "Fájl"
+  },
+  "sendHideText": {
+    "message": "A szöveg elrejtése, amíg a címzett fel nem fedi"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Nincs kiválasztott fájl · legfeljebb 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Törlés ennyi idő után"
+  },
+  "days1": {
+    "message": "1 nap"
+  },
+  "days2": {
+    "message": "2 nap"
+  },
+  "days3": {
+    "message": "3 nap"
+  },
+  "days7": {
+    "message": "7 nap"
+  },
+  "days14": {
+    "message": "14 nap"
+  },
+  "days30": {
+    "message": "30 nap"
+  },
+  "options": {
+    "message": "Beállítások"
+  },
+  "passwordOptional": {
+    "message": "Jelszó (nem kötelező)"
+  },
+  "maximumViewsOptional": {
+    "message": "Megtekintések maximális száma (nem kötelező)"
+  },
+  "createAndCopyLink": {
+    "message": "Létrehozás és hivatkozás másolása"
+  },
+  "passwordGenerator": {
+    "message": "Jelszógenerátor"
+  },
+  "generatorHint": {
+    "message": "Helyben készül a böngésző kriptográfiai véletlenforrásával."
+  },
+  "password": {
+    "message": "Jelszó"
+  },
+  "passphrase": {
+    "message": "Jelmondat"
+  },
+  "username": {
+    "message": "Felhasználónév"
+  },
+  "length": {
+    "message": "Hossz"
+  },
+  "uppercase": {
+    "message": "Nagybetűk"
+  },
+  "lowercase": {
+    "message": "Kisbetűk"
+  },
+  "numbers": {
+    "message": "Számok"
+  },
+  "symbols": {
+    "message": "Szimbólumok"
+  },
+  "words": {
+    "message": "Szavak"
+  },
+  "wordSeparator": {
+    "message": "Szóelválasztó"
+  },
+  "capitalize": {
+    "message": "Nagy kezdőbetű"
+  },
+  "includeNumber": {
+    "message": "Szám hozzáadása"
+  },
+  "type": {
+    "message": "Típus"
+  },
+  "randomWord": {
+    "message": "Véletlen szó"
+  },
+  "plusAddressedEmail": {
+    "message": "Plusz-címzéses e-mail"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all e-mail"
+  },
+  "forwardedEmailAlias": {
+    "message": "Továbbított e-mail-álnév"
+  },
+  "forwardingService": {
+    "message": "Továbbító szolgáltatás"
+  },
+  "apiKey": {
+    "message": "API-kulcs"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Első használat után mentve; hagyd üresen a megtartáshoz"
+  },
+  "aliasDomain": {
+    "message": "Álnév domainje"
+  },
+  "createAlias": {
+    "message": "Álnév létrehozása"
+  },
+  "creatingAlias": {
+    "message": "Álnév létrehozása…"
+  },
+  "aliasCreated": {
+    "message": "Álnév létrehozva"
+  },
+  "forwarderAccessNeeded": {
+    "message": "A Firnkeynek hozzáférés kell a továbbító szolgáltatáshoz az álnév létrehozásához."
+  },
+  "yourEmail": {
+    "message": "Az e-mail-címed"
+  },
+  "yourCatchAllDomain": {
+    "message": "A catch-all domained"
+  },
+  "generateAnother": {
+    "message": "Új generálása"
+  },
+  "useInNewLogin": {
+    "message": "Használat új bejelentkezésben"
+  },
+  "security": {
+    "message": "Biztonság"
+  },
+  "securityGroupHint": {
+    "message": "Zárolási idő, biometria, vágólap"
+  },
+  "autofillSaving": {
+    "message": "Automatikus kitöltés és mentés"
+  },
+  "autofillGroupHint": {
+    "message": "Weboldal-integráció, mentési kérdések, kizárt domainek"
+  },
+  "vault": {
+    "message": "Széf"
+  },
+  "vaultGroupHint": {
+    "message": "Mappák, Hitelesítő lap"
+  },
+  "importExport": {
+    "message": "Importálás és exportálás"
+  },
+  "transferGroupHint": {
+    "message": "Széf áthozása másik jelszókezelőből vagy átvitele oda"
+  },
+  "accountSync": {
+    "message": "Fiók és szinkronizálás"
+  },
+  "accountGroupHint": {
+    "message": "Fiókok, élő szinkronizálás, kijelentkezés"
+  },
+  "lockVault": {
+    "message": "Széf zárolása"
+  },
+  "after1Minute": {
+    "message": "1 perc után"
+  },
+  "after5Minutes": {
+    "message": "5 perc után"
+  },
+  "after15Minutes": {
+    "message": "15 perc után"
+  },
+  "after30Minutes": {
+    "message": "30 perc után"
+  },
+  "after1Hour": {
+    "message": "1 óra után"
+  },
+  "after2Hours": {
+    "message": "2 óra után"
+  },
+  "after4Hours": {
+    "message": "4 óra után"
+  },
+  "after8Hours": {
+    "message": "8 óra után"
+  },
+  "after24Hours": {
+    "message": "24 óra után"
+  },
+  "whenTheComputerLocks": {
+    "message": "A számítógép zárolásakor"
+  },
+  "whenBrowserCloses": {
+    "message": "A böngésző bezárásakor"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Feloldva tartás kijelentkezésig"
+  },
+  "untilLogoutHint": {
+    "message": "A „Kijelentkezésig” titkosítja a munkamenetet ehhez a böngészőprofilhoz, de megosztott gépen kevésbé biztonságos."
+  },
+  "lockNow": {
+    "message": "Zárolás most"
+  },
+  "clearCopiedSecrets": {
+    "message": "Másolt titkok törlése"
+  },
+  "after10Seconds": {
+    "message": "10 másodperc után"
+  },
+  "after20Seconds": {
+    "message": "20 másodperc után"
+  },
+  "after30Seconds": {
+    "message": "30 másodperc után"
+  },
+  "after2Minutes": {
+    "message": "2 perc után"
+  },
+  "never": {
+    "message": "Soha"
+  },
+  "clipboardOwnOnly": {
+    "message": "Csak a Firnkey által másoltak törlése"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Engedély kell a vágólap olvasásához, így a máshol másolt szöveg érintetlen marad."
+  },
+  "websiteIntegration": {
+    "message": "Weboldal-integráció"
+  },
+  "websiteIntegrationHint": {
+    "message": "Automatikus kitöltési javaslatok és mentési kérdések."
+  },
+  "enable": {
+    "message": "Bekapcsolás"
+  },
+  "fillSignInDialogs": {
+    "message": "Bejelentkezési ablakok kitöltése (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Válaszol a böngésző bejelentkezési ablakára, ha pontosan egy védelem nélküli bejelentkezés illik hozzá."
+  },
+  "savePrompts": {
+    "message": "Mentési kérdések"
+  },
+  "askToAddLogin": {
+    "message": "Kérdezzen rá a bejelentkezés hozzáadására"
+  },
+  "askToUpdateLogin": {
+    "message": "Kérdezzen rá a meglévő bejelentkezés frissítésére"
+  },
+  "askPasskeys": {
+    "message": "Kérdezzen rá jelkulcsok mentésére és használatára"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Mentési kérdések bezárása (másodperc)"
+  },
+  "excludedDomains": {
+    "message": "Kizárt domainek"
+  },
+  "excludedDomainsHint": {
+    "message": "A Firnkey ezeken a domaineken nem javasol, nem tölt ki és nem ment hitelesítő adatokat."
+  },
+  "add": {
+    "message": "Hozzáadás"
+  },
+  "folders": {
+    "message": "Mappák"
+  },
+  "foldersHint": {
+    "message": "Mappa törlésekor az elemei megmaradnak; a Nincs mappa alá kerülnek."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Hitelesítő lap megjelenítése"
+  },
+  "authenticatorTabHint": {
+    "message": "Élő ellenőrző kódok a bejelentkezéseidhez. Kulcsokat QR-kóddal, kézzel vagy fájlból adhatsz hozzá."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Csak ennek a weboldalnak a kódjai, ha vannak"
+  },
+  "vaultImportHint": {
+    "message": "Bitwarden JSON-export (titkosítatlan vagy jelszóval védett), 1Password .1pux-export, vagy CSV-fájl a Bitwardenből, 1Passwordből, KeePassból, KeePassXC-ből, Chrome-ból, Edge-ből, Firefoxból vagy Safariból. Az elemek a személyes széfedbe kerülnek."
+  },
+  "noFileChosen": {
+    "message": "Nincs kiválasztott fájl"
+  },
+  "filePassword": {
+    "message": "Fájljelszó"
+  },
+  "checkFile": {
+    "message": "Fájl ellenőrzése"
+  },
+  "format": {
+    "message": "Formátum"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, fájljelszóval védve"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, titkosítatlan"
+  },
+  "filePasswordHint": {
+    "message": "A fájl újbóli importálásához kell. A Firnkey nem tudja visszaállítani."
+  },
+  "unencryptedExportWarning": {
+    "message": "Titkosítatlan fájlból bárki elolvashatja az összes jelszót. Importálás után töröld."
+  },
+  "exportScopeHint": {
+    "message": "A személyes elemeidet exportálja. A szervezeti elemek a szervezetnél maradnak."
+  },
+  "exportVault": {
+    "message": "Széf exportálása"
+  },
+  "liveSync": {
+    "message": "Élő szinkronizálás"
+  },
+  "liveSyncHint": {
+    "message": "Azonnal megkapja a változásokat a szerveredről. Kikapcsolva percenként egyszer ellenőriz és kevesebb memóriát használ."
+  },
+  "syncNow": {
+    "message": "Szinkronizálás most"
+  },
+  "addAccount": {
+    "message": "Fiók hozzáadása"
+  },
+  "repromptHint": {
+    "message": "Ennél az elemnél a védett mezők használata előtt meg kell adnod a mesterjelszót."
+  },
+  "unlockProtectedFields": {
+    "message": "Védett mezők feloldása"
+  },
+  "show": {
+    "message": "Megjelenítés"
+  },
+  "addAttachment": {
+    "message": "Melléklet hozzáadása"
+  },
+  "fillOnThisPage": {
+    "message": "Kitöltés ezen az oldalon"
+  },
+  "edit": {
+    "message": "Szerkesztés"
+  },
+  "moveToTrash": {
+    "message": "Áthelyezés a kukába"
+  },
+  "addLogin": {
+    "message": "Bejelentkezés hozzáadása"
+  },
+  "login": {
+    "message": "Bejelentkezés"
+  },
+  "card": {
+    "message": "Kártya"
+  },
+  "identity": {
+    "message": "Személyazonosság"
+  },
+  "secureNote": {
+    "message": "Biztonságos jegyzet"
+  },
+  "folder": {
+    "message": "Mappa"
+  },
+  "noFolder": {
+    "message": "Nincs mappa"
+  },
+  "owner": {
+    "message": "Tulajdonos"
+  },
+  "myVault": {
+    "message": "Saját széf"
+  },
+  "moveToOrganizationHint": {
+    "message": "A szervezetbe helyezés itt nem vonható vissza; az elem ezután a szervezeté."
+  },
+  "generate": {
+    "message": "Generálás"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Hitelesítő kulcs (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "QR beolvasása"
+  },
+  "notes": {
+    "message": "Jegyzetek"
+  },
+  "favorite": {
+    "message": "Kedvenc"
+  },
+  "authenticator": {
+    "message": "Hitelesítő"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generátor"
+  },
+  "settings": {
+    "message": "Beállítások"
+  },
+  "back": {
+    "message": "Vissza"
+  },
+  "openSettings": {
+    "message": "Beállítások megnyitása"
+  },
+  "searchVault": {
+    "message": "Keresés a széfben"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32-kulcs vagy otpauth://totp/ hivatkozás"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Alapértelmezés szerint a kiadó"
+  },
+  "shownInsteadOfThe": {
+    "message": "A név helyett jelenik meg"
+  },
+  "keysToImport": {
+    "message": "Importálandó kulcsok"
+  },
+  "whatToSend": {
+    "message": "Mit küldesz"
+  },
+  "whatToGenerate": {
+    "message": "Mit generálsz"
+  },
+  "generatedValue": {
+    "message": "Generált érték"
+  },
+  "copy": {
+    "message": "Másolás"
+  },
+  "copyGeneratedValue": {
+    "message": "Generált érték másolása"
+  },
+  "domainToExclude": {
+    "message": "Kizárandó domain"
+  },
+  "newFolder": {
+    "message": "Új mappa"
+  },
+  "newFolderName": {
+    "message": "Az új mappa neve"
+  },
+  "copyUsername": {
+    "message": "Felhasználónév másolása"
+  },
+  "copyPassword": {
+    "message": "Jelszó másolása"
+  },
+  "copyVerificationCode": {
+    "message": "Ellenőrző kód másolása"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32-kulcs vagy otpauth:// hivatkozás"
+  },
+  "mainNavigation": {
+    "message": "Fő navigáció"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey-jelkulcs"
+  },
+  "passkey": {
+    "message": "Jelkulcs"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "A folytatáshoz oldd fel a Firnkeyt."
+  },
+  "verifyWithBiometrics": {
+    "message": "Ellenőrzés Touch ID-val / biometriával"
+  },
+  "continue": {
+    "message": "Folytatás"
+  },
+  "useAnotherDevice": {
+    "message": "Másik eszköz használata"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "sshKey": {
+    "message": "SSH-kulcs"
+  },
+  "cardholderName": {
+    "message": "Kártyabirtokos neve"
+  },
+  "brand": {
+    "message": "Márka"
+  },
+  "number": {
+    "message": "Szám"
+  },
+  "expirationMonth": {
+    "message": "Lejárat hónapja"
+  },
+  "expirationYear": {
+    "message": "Lejárat éve"
+  },
+  "securityCode": {
+    "message": "Biztonsági kód"
+  },
+  "title": {
+    "message": "Megszólítás"
+  },
+  "firstName": {
+    "message": "Utónév"
+  },
+  "middleName": {
+    "message": "Második utónév"
+  },
+  "lastName": {
+    "message": "Vezetéknév"
+  },
+  "company": {
+    "message": "Cég"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Cím 1"
+  },
+  "address2": {
+    "message": "Cím 2"
+  },
+  "address3": {
+    "message": "Cím 3"
+  },
+  "city": {
+    "message": "Település"
+  },
+  "stateProvince": {
+    "message": "Állam / megye"
+  },
+  "postalCode": {
+    "message": "Irányítószám"
+  },
+  "country": {
+    "message": "Ország"
+  },
+  "ssn": {
+    "message": "TAJ-szám / társadalombiztosítási szám"
+  },
+  "passportNumber": {
+    "message": "Útlevélszám"
+  },
+  "licenseNumber": {
+    "message": "Jogosítványszám"
+  },
+  "addSecureNote": {
+    "message": "Biztonságos jegyzet hozzáadása"
+  },
+  "addCard": {
+    "message": "Kártya hozzáadása"
+  },
+  "addIdentity": {
+    "message": "Személyazonosság hozzáadása"
+  },
+  "addSshKey": {
+    "message": "SSH-kulcs hozzáadása"
+  },
+  "editLogin": {
+    "message": "Bejelentkezés szerkesztése"
+  },
+  "editSecureNote": {
+    "message": "Biztonságos jegyzet szerkesztése"
+  },
+  "editCard": {
+    "message": "Kártya szerkesztése"
+  },
+  "editIdentity": {
+    "message": "Személyazonosság szerkesztése"
+  },
+  "editSshKey": {
+    "message": "SSH-kulcs szerkesztése"
+  },
+  "passphraseGenerator": {
+    "message": "Jelmondatgenerátor"
+  },
+  "usernameGenerator": {
+    "message": "Felhasználónév-generátor"
+  },
+  "generatedPasswordCopied": {
+    "message": "Generált jelszó másolva."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Generált jelmondat másolva."
+  },
+  "generatedUsernameCopied": {
+    "message": "Generált felhasználónév másolva."
+  },
+  "removeKey": {
+    "message": "Kulcs eltávolítása"
+  },
+  "biometricOff": {
+    "message": "Biometrikus feloldás kikapcsolva."
+  },
+  "usernameCopied": {
+    "message": "Felhasználónév másolva."
+  },
+  "passwordCopied": {
+    "message": "Jelszó másolva."
+  },
+  "hide": {
+    "message": "Elrejtés"
+  },
+  "movedToTrash": {
+    "message": "Áthelyezve a kukába."
+  },
+  "websiteAccessDenied": {
+    "message": "A weboldalakhoz való hozzáférés nem lett megadva."
+  },
+  "websiteIntegrationOn": {
+    "message": "Automatikus kitöltés és mentési kérdések bekapcsolva."
+  },
+  "websiteIntegrationOff": {
+    "message": "Weboldalas kérdések kikapcsolva."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "A bejelentkezési ablakok kitöltéséhez engedély kell, hogy lássa őket a weboldalakon."
+  },
+  "preferencesUpdated": {
+    "message": "Beállítások frissítve."
+  },
+  "invalidDomain": {
+    "message": "Adj meg érvényes domaint, például example.com."
+  },
+  "remove": {
+    "message": "Eltávolítás"
+  },
+  "enabled": {
+    "message": "Bekapcsolva"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Weboldal-integráció kikapcsolása"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Weboldal-integráció bekapcsolása"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Nem támogatott zárolási idő."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Nem támogatott vágólapidő."
+  },
+  "clipboardClearsAfter": {
+    "message": "A másolt titkok $1 után törlődnek."
+  },
+  "clipboardKeeps": {
+    "message": "A másolt titkok a vágólapon maradnak."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "A Firnkey csak akkor törli a vágólapot, ha még az van rajta, amit a Firnkey másolt."
+  },
+  "seconds_one": {
+    "message": "$1 másodperc"
+  },
+  "seconds_other": {
+    "message": "$1 másodperc"
+  },
+  "minutes_one": {
+    "message": "$1 perc"
+  },
+  "minutes_other": {
+    "message": "$1 perc"
+  },
+  "hours_one": {
+    "message": "$1 óra"
+  },
+  "hours_other": {
+    "message": "$1 óra"
+  },
+  "lockOnComputerLock": {
+    "message": "A széf zárolódik, amikor a számítógép zárol vagy a böngésző bezárul."
+  },
+  "lockOnLogout": {
+    "message": "A széf ebben a böngészőben feloldva marad, amíg nem zárolod vagy ki nem jelentkezel."
+  },
+  "lockOnBrowserClose": {
+    "message": "A széf a böngésző bezárásáig feloldva marad."
+  },
+  "lockAfterInactivity": {
+    "message": "A széf $1 tétlenség után zárolódik."
+  },
+  "waitingForVerification": {
+    "message": "Várakozás az ellenőrzésre…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "A biometrikus feloldás bekapcsolása előtt oldd fel a széfet."
+  },
+  "noPasskeyCreated": {
+    "message": "Nem jött létre jelkulcs."
+  },
+  "biometricOn": {
+    "message": "A biometrikus feloldás be van kapcsolva."
+  },
+  "biometricUnavailable": {
+    "message": "A biometrikus feloldás most nem érhető el."
+  },
+  "vaultUnlocked_one": {
+    "message": "A széf feloldva, $1 elemmel."
+  },
+  "vaultUnlocked_other": {
+    "message": "A széf feloldva, $1 elemmel."
+  },
+  "verificationCancelled": {
+    "message": "Az ellenőrzést megszakították, vagy lejárt."
+  },
+  "notConnected": {
+    "message": "Nincs csatlakoztatva"
+  },
+  "connectAServer": {
+    "message": "Szerver csatlakoztatása"
+  },
+  "signedOut": {
+    "message": "Kijelentkezve"
+  },
+  "itemCount_one": {
+    "message": "$1 elem"
+  },
+  "itemCount_other": {
+    "message": "$1 elem"
+  },
+  "locked": {
+    "message": "Zárolva"
+  },
+  "unlocked": {
+    "message": "Feloldva"
+  },
+  "settingsFor": {
+    "message": "$1 beállításai"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · elöl az ehhez az oldalhoz illő javaslatok"
+  },
+  "itemTotal_one": {
+    "message": "$1 elem összesen"
+  },
+  "itemTotal_other": {
+    "message": "$1 elem összesen"
+  },
+  "skippedItems_one": {
+    "message": "$1 nem támogatott vagy sérült elem kimaradt."
+  },
+  "skippedItems_other": {
+    "message": "$1 nem támogatott vagy sérült elem kimaradt."
+  },
+  "otherAccounts": {
+    "message": "Más fiókok"
+  },
+  "switch": {
+    "message": "Váltás"
+  },
+  "removeAccountTitle": {
+    "message": "$1 eltávolítása a Firnkeyből ebben a böngészőben"
+  },
+  "switchedTo": {
+    "message": "Átváltva erre: $1."
+  },
+  "accountRemoved": {
+    "message": "$1 eltávolítva ebből a böngészőből."
+  },
+  "addAccountHint": {
+    "message": "Jelentkezz be a másik fiókba. A jelenlegi zárolva, mentve marad lent."
+  },
+  "verifying": {
+    "message": "Ellenőrzés…"
+  },
+  "serverPermissionDenied": {
+    "message": "A szerverhez való engedély nem lett megadva."
+  },
+  "signingIn": {
+    "message": "Bejelentkezés…"
+  },
+  "continueInNewWindow": {
+    "message": "A folytatáshoz új ablakban válaszd újra a Bejelentkezést."
+  },
+  "enterTwoStepCode": {
+    "message": "Add meg a kétlépcsős bejelentkezési kódot."
+  },
+  "unlocking": {
+    "message": "Feloldás…"
+  },
+  "trashHint": {
+    "message": "Állítsd vissza az elemeket, vagy töröld őket véglegesen."
+  },
+  "trashEmpty": {
+    "message": "A kuka üres."
+  },
+  "autofillSuggestions": {
+    "message": "Kitöltési javaslatok"
+  },
+  "otherResults": {
+    "message": "Egyéb találatok"
+  },
+  "trash": {
+    "message": "Kuka"
+  },
+  "folderName": {
+    "message": "Mappa neve"
+  },
+  "rename": {
+    "message": "Átnevezés"
+  },
+  "delete": {
+    "message": "Törlés"
+  },
+  "folderRenamed": {
+    "message": "Mappa átnevezve."
+  },
+  "folderAdded": {
+    "message": "Mappa hozzáadva."
+  },
+  "folderDeleted": {
+    "message": "Mappa törölve. Az elemei most a Nincs mappa alatt vannak."
+  },
+  "confirm": {
+    "message": "Megerősítés"
+  },
+  "matchesThisPage": {
+    "message": "Ehhez az oldalhoz illik"
+  },
+  "restore": {
+    "message": "Visszaállítás"
+  },
+  "itemRestored": {
+    "message": "Elem visszaállítva."
+  },
+  "deleteForever": {
+    "message": "Végleges törlés"
+  },
+  "itemDeletedForever": {
+    "message": "Elem véglegesen törölve."
+  },
+  "open": {
+    "message": "Megnyitás"
+  },
+  "fill": {
+    "message": "Kitöltés"
+  },
+  "openWebsite": {
+    "message": "Weboldal megnyitása"
+  },
+  "cardNumber": {
+    "message": "Kártyaszám"
+  },
+  "note": {
+    "message": "Jegyzet"
+  },
+  "publicKey": {
+    "message": "Nyilvános kulcs"
+  },
+  "copyPublicKey": {
+    "message": "Nyilvános kulcs másolása"
+  },
+  "copyCardNumber": {
+    "message": "Kártyaszám másolása"
+  },
+  "copyNote": {
+    "message": "Jegyzet másolása"
+  },
+  "copySecurityCode": {
+    "message": "Biztonsági kód másolása"
+  },
+  "copyPrivateKey": {
+    "message": "Privát kulcs másolása"
+  },
+  "privateKey": {
+    "message": "Privát kulcs"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Az elem törlése előtt erősítsd meg a mesterjelszót."
+  },
+  "moreActions": {
+    "message": "További műveletek"
+  },
+  "noWebAddress": {
+    "message": "Ennek a bejelentkezésnek nincs webcíme."
+  },
+  "noWebsiteSaved": {
+    "message": "Nincs mentett weboldal"
+  },
+  "loading": {
+    "message": "Betöltés…"
+  },
+  "expiration": {
+    "message": "Lejárat"
+  },
+  "address": {
+    "message": "Cím"
+  },
+  "fingerprint": {
+    "message": "Ujjlenyomat"
+  },
+  "customField": {
+    "message": "Egyéni mező"
+  },
+  "passwordHistory": {
+    "message": "Jelszóelőzmények ($1)"
+  },
+  "oldPassword": {
+    "message": "Régi jelszó"
+  },
+  "organization": {
+    "message": "Szervezet"
+  },
+  "attachmentsCount": {
+    "message": "Mellékletek ($1)"
+  },
+  "downloadFile": {
+    "message": "$1 letöltése"
+  },
+  "deleteFile": {
+    "message": "$1 törlése"
+  },
+  "fileDownloaded": {
+    "message": "$1 letöltve."
+  },
+  "fileTooLarge25": {
+    "message": "A fájl túl nagy (legfeljebb 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "A fájl üres."
+  },
+  "uploadingFile": {
+    "message": "$1 titkosítása és feltöltése…"
+  },
+  "fileAttached": {
+    "message": "$1 csatolva."
+  },
+  "fileDeleted": {
+    "message": "$1 törölve."
+  },
+  "copyLink": {
+    "message": "Hivatkozás másolása"
+  },
+  "viewsOf": {
+    "message": "$1 / $2 megtekintés"
+  },
+  "views_one": {
+    "message": "$1 megtekintés"
+  },
+  "views_other": {
+    "message": "$1 megtekintés"
+  },
+  "deletesOn": {
+    "message": "Törlés: $1"
+  },
+  "disabled": {
+    "message": "Kikapcsolva"
+  },
+  "sendLinkCopied": {
+    "message": "Send-hivatkozás másolva."
+  },
+  "deleteSendTitle": {
+    "message": "$1 törlése; a hivatkozása nem fog működni"
+  },
+  "sendDeleted": {
+    "message": "$1 törölve. A hivatkozása már nem működik."
+  },
+  "encrypting": {
+    "message": "Titkosítás…"
+  },
+  "chooseFileToSend": {
+    "message": "Válassz küldendő fájlt."
+  },
+  "sendCreatedCopied": {
+    "message": "Send létrehozva. Hivatkozás másolva."
+  },
+  "sendCreatedSync": {
+    "message": "Send létrehozva. Szinkronizálj, majd másold a hivatkozását a listából."
+  },
+  "fileTooLarge10": {
+    "message": "A fájl túl nagy (legfeljebb 10 MB)."
+  },
+  "importing": {
+    "message": "Importálás…"
+  },
+  "checking": {
+    "message": "Ellenőrzés…"
+  },
+  "importedItems": {
+    "message": "Importálva: $1."
+  },
+  "importItems": {
+    "message": "Importálás: $1"
+  },
+  "foundItems": {
+    "message": "Találat: $1. A széfedhez adódnak hozzá; semmi sem cserélődik le."
+  },
+  "foundItemsInFolders": {
+    "message": "Találat: $1, $2 mappában. A széfedhez adódnak hozzá; semmi sem cserélődik le."
+  },
+  "folderCount_one": {
+    "message": "$1 mappa"
+  },
+  "folderCount_other": {
+    "message": "$1 mappa"
+  },
+  "exporting": {
+    "message": "Exportálás…"
+  },
+  "vaultExportedPlain": {
+    "message": "Széf exportálva. Importálás után töröld a fájlt."
+  },
+  "vaultExportedProtected": {
+    "message": "Széf exportálva. Őrizd meg biztonságosan a fájljelszót."
+  },
+  "createdOn": {
+    "message": "Létrehozva: $1"
+  },
+  "lastEdited": {
+    "message": "Utoljára szerkesztve: $1"
+  },
+  "itemHistory": {
+    "message": "Elem előzményei"
+  },
+  "loginCredentials": {
+    "message": "Bejelentkezési adatok"
+  },
+  "itemDetails": {
+    "message": "Elem részletei"
+  },
+  "autofillOptions": {
+    "message": "Automatikus kitöltés beállításai"
+  },
+  "passwordChangedOn": {
+    "message": "Utoljára módosítva: $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Jelkulcs eltávolítása a bejelentkezésből"
+  },
+  "passkeyRemoved": {
+    "message": "Jelkulcs eltávolítva."
+  },
+  "usedUntil": {
+    "message": "Használatban eddig: $1"
+  },
+  "earlierPassword": {
+    "message": "Korábbi jelszó"
+  },
+  "fieldCopied": {
+    "message": "$1 másolva."
+  },
+  "copyField": {
+    "message": "$1 másolása"
+  },
+  "confirmBeforeCopying": {
+    "message": "Az elemből való másolás előtt erősítsd meg a mesterjelszót."
+  },
+  "codeCopied": {
+    "message": "Ellenőrző kód másolva."
+  },
+  "viewOnlyItem": {
+    "message": "A szervezeted engedi megtekinteni ezt az elemet, de módosítani nem."
+  },
+  "confirmBeforeEditing": {
+    "message": "Az elem szerkesztése előtt erősítsd meg a mesterjelszót."
+  },
+  "monthPlaceholder": {
+    "message": "HH"
+  },
+  "yearPlaceholder": {
+    "message": "ÉÉÉÉ"
+  },
+  "saving": {
+    "message": "Mentés…"
+  },
+  "loginUpdated": {
+    "message": "Bejelentkezés frissítve."
+  },
+  "loginAdded": {
+    "message": "Bejelentkezés hozzáadva."
+  },
+  "itemUpdated": {
+    "message": "$1 frissítve."
+  },
+  "itemAdded": {
+    "message": "$1 hozzáadva."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Védett mezők 60 másodpercre feloldva."
+  },
+  "unavailable": {
+    "message": "Nem érhető el"
+  },
+  "secondsLeft_one": {
+    "message": "$1 másodperc van hátra"
+  },
+  "secondsLeft_other": {
+    "message": "$1 másodperc van hátra"
+  },
+  "codesForSite": {
+    "message": "Kódok ehhez a weboldalhoz · összesen $1"
+  },
+  "codeCount_one": {
+    "message": "$1 kód"
+  },
+  "codeCount_other": {
+    "message": "$1 kód"
+  },
+  "thisWebsite": {
+    "message": "Ez a weboldal"
+  },
+  "openToConfirm": {
+    "message": "Megnyitás a mesterjelszó megerősítéséhez"
+  },
+  "protected": {
+    "message": "Védett"
+  },
+  "fillIntoPage": {
+    "message": "Kitöltés ezen az oldalon"
+  },
+  "editKey": {
+    "message": "Kulcs szerkesztése"
+  },
+  "codeFilled": {
+    "message": "Kód kitöltve: $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Erősítsd meg a mesterjelszót, majd szerkeszd a kulcsot a Hitelesítő lapon."
+  },
+  "qrReadFirstCheck": {
+    "message": "Beolvasva az első a több QR-kód közül. Ellenőrizd az adatokat és ments."
+  },
+  "qrReadCheck": {
+    "message": "QR-kód beolvasva. Ellenőrizd az adatokat és ments."
+  },
+  "qrReadFirstSave": {
+    "message": "Beolvasva az első a több QR-kód közül. Mentsd a bejelentkezést a kulcs megtartásához."
+  },
+  "qrReadSave": {
+    "message": "QR-kód beolvasva. Mentsd a bejelentkezést a kulcs megtartásához."
+  },
+  "qrUnsupported": {
+    "message": "Ez a böngésző nem tud QR-kódot olvasni. Illeszd be inkább a kulcsot vagy az otpauth:// hivatkozást."
+  },
+  "qrCannotSeePage": {
+    "message": "A Firnkey nem látja ezt az oldalt. Nyisd meg a QR-kódot mutató oldalt, és próbáld újra."
+  },
+  "qrNotFound": {
+    "message": "Az oldal látható részén nem található hitelesítő QR-kód."
+  },
+  "qrInvalid": {
+    "message": "A QR-kód nem érvényes időalapú (TOTP) hitelesítő kulcs."
+  },
+  "keyAdded": {
+    "message": "Hitelesítő kulcs hozzáadva."
+  },
+  "keyUpdated": {
+    "message": "Hitelesítő kulcs frissítve."
+  },
+  "keyRemoved": {
+    "message": "Hitelesítő kulcs eltávolítva. Maga a bejelentkezés a széfben marad."
+  },
+  "fileTooLarge256": {
+    "message": "A fájl túl nagy (legfeljebb 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Előbb illessz be otpauth:// hivatkozásokat vagy válassz fájlt."
+  },
+  "keysImported_one": {
+    "message": "$1 kulcs importálva."
+  },
+  "keysImported_other": {
+    "message": "$1 kulcs importálva."
+  },
+  "new": {
+    "message": "Új"
+  },
+  "duplicate": {
+    "message": "Ismétlődő"
+  },
+  "invalid": {
+    "message": "Érvénytelen"
+  },
+  "importNewKeys_one": {
+    "message": "$1 új kulcs importálása"
+  },
+  "importNewKeys_other": {
+    "message": "$1 új kulcs importálása"
+  },
+  "checkThenImport": {
+    "message": "Ellenőrizd a listát, majd importálj."
+  },
+  "nothingNewToImport": {
+    "message": "Nincs új importálnivaló."
+  },
+  "keysExported": {
+    "message": "Kulcsok exportálva. Máshová importálás után töröld a fájlt."
+  },
+  "fieldsFilled_one": {
+    "message": "$1 mező kitöltve."
+  },
+  "fieldsFilled_other": {
+    "message": "$1 mező kitöltve."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Felhasználónév és jelszó kitöltve."
+  },
+  "filledUsername": {
+    "message": "Felhasználónév kitöltve."
+  },
+  "filledPassword": {
+    "message": "Jelszó kitöltve."
+  },
+  "synced_one": {
+    "message": "$1 elem szinkronizálva."
+  },
+  "synced_other": {
+    "message": "$1 elem szinkronizálva."
+  },
+  "twoStepUnsupported": {
+    "message": "Ez a fiók olyan kétlépcsős bejelentkezési módszert igényel, amelyet ez a verzió nem támogat."
+  },
+  "sending": {
+    "message": "Küldés…"
+  },
+  "emailCodeSent": {
+    "message": "Ellenőrző kód elküldve e-mailben."
+  },
+  "authenticatorApp": {
+    "message": "Hitelesítő alkalmazás"
+  },
+  "securityKeyWebauthn": {
+    "message": "Biztonsági kulcs (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Helyreállító kód"
+  },
+  "twoFactorMethod": {
+    "message": "$1. módszer"
+  },
+  "fieldEmpty": {
+    "message": "Ez a mező üres."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 A vágólap $2 múlva törlődik."
+  },
+  "backgroundNoResponse": {
+    "message": "A bővítmény háttérfolyamata nem válaszolt. Töltsd újra a bővítményt."
+  },
+  "unexpectedResponse": {
+    "message": "A háttérfolyamat váratlan választ adott."
+  },
+  "newSend": {
+    "message": "Új Send"
+  },
+  "item": {
+    "message": "Elem"
+  },
+  "editItem": {
+    "message": "Elem szerkesztése"
+  },
+  "newItem": {
+    "message": "Új elem"
+  },
+  "addKey": {
+    "message": "Kulcs hozzáadása"
+  },
+  "serverVersion": {
+    "message": "$1 · szerver $2"
+  },
+  "unexpectedError": {
+    "message": "Váratlan bővítményhiba."
+  },
+  "passkeySuggestion": {
+    "message": "Bejelentkezés a Firnkeyben mentett jelkulccsal"
+  },
+  "generateAndFill": {
+    "message": "Jelszó generálása és kitöltése"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey-javaslatok"
+  },
+  "dismissSuggestions": {
+    "message": "Kitöltési javaslatok elvetése"
+  },
+  "dismiss": {
+    "message": "Elvetés"
+  },
+  "toggleSuggestions": {
+    "message": "Firnkey-javaslatok be/ki"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Firnkey-javaslatok megjelenítése vagy elrejtése"
+  },
+  "updateExistingLogin": {
+    "message": "Meglévő bejelentkezés frissítése"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Bejelentkezés mentése a Firnkeybe"
+  },
+  "notNow": {
+    "message": "Most nem"
+  },
+  "update": {
+    "message": "Frissítés"
+  },
+  "loginSaved": {
+    "message": "Bejelentkezés mentve."
+  },
+  "saveFailed": {
+    "message": "A Firnkey nem tudta menteni ezt a bejelentkezést."
+  },
+  "savePasskey": {
+    "message": "Jelkulcs mentése"
+  },
+  "signInWithPasskey": {
+    "message": "Bejelentkezés jelkulccsal"
+  },
+  "passkeyAlreadySaved": {
+    "message": "A Firnkeyben már van jelkulcs ehhez a fiókhoz ezen az oldalon."
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "savePasskeyForAccount": {
+    "message": "Mented a jelkulcsot $1 számára itt: $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Mented a jelkulcsot itt: $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Válassz jelkulcsot ehhez: $1."
+  },
+  "addTo": {
+    "message": "Hozzáadás ide: $1"
+  },
+  "somethingWentWrong": {
+    "message": "Valami hiba történt."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: a bejelentkezés befejezéséhez használd a biztonsági kulcsodat."
+  },
+  "fillLogin": {
+    "message": "Bejelentkezés kitöltése"
+  },
+  "extensionDescription": {
+    "message": "Könnyű, nyílt forráskódú jelszókezelő a saját üzemeltetésű szerveredhez."
+  },
+  "fillLoginCommand": {
+    "message": "Az illő bejelentkezés kitöltése ezen az oldalon"
+  },
+  "copied": {
+    "message": "Másolva"
+  },
+  "generatorHistory": {
+    "message": "Generátorelőzmények"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Itt jelennek meg a generátorból másolt vagy használt jelszavak, azzal a weboldallal együtt, ahol voltál. Titkosítva maradnak ebben a böngészőben."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Nincs weboldal · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Generált jelszó"
+  },
+  "clearGeneratorHistory": {
+    "message": "Generátorelőzmények törlése"
+  },
+  "generatorHistoryCleared": {
+    "message": "Generátorelőzmények törölve."
+  },
+  "passwordFilledFor": {
+    "message": "A Firnkey kitöltötte a jelszót ehhez: $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Jelszó kitöltése a következő lépésben a fiók kiválasztása után"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Olyan bejelentkezésekhez, amelyek először a felhasználónevet kérik. Csak a választott fiók, ugyanazon az oldalon, egyszer."
+  },
+  "askToSaveForms": {
+    "message": "Kérdezzen rá kártyák és címek mentésére"
+  },
+  "generateSshKey": {
+    "message": "Új kulcs generálása (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Új SSH-kulcs generálva. Mentsd a megtartáshoz."
+  },
+  "openFirnkeyToAdd": {
+    "message": "A hozzáadás befejezéséhez kattints az eszköztáron a Firnkey gombra."
+  },
+  "saveCardToFirnkey": {
+    "message": "Mented a kártyát a Firnkeybe?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Mented a címet a Firnkeybe?"
+  },
+  "clone": {
+    "message": "Klónozás"
+  },
+  "cloneName": {
+    "message": "$1 - másolat"
+  },
+  "itemCloned": {
+    "message": "Elem klónozva. Módosítsd lent a másolatot."
+  },
+  "fingerprintPhrase": {
+    "message": "Ujjlenyomat-kifejezés"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Ugyanez az öt szó jelenik meg a webes széfben és a Bitwarden alkalmazásaiban. Hasonlítsd össze őket, amikor valaki megoszt veled egy szervezetet."
+  },
+  "matchDetection": {
+    "message": "Egyezésérzékelés"
+  },
+  "matchDefault": {
+    "message": "Alapértelmezett (domain)"
+  },
+  "matchDomain": {
+    "message": "Domain és aldomainjei"
+  },
+  "matchHost": {
+    "message": "Gazdagép (és port)"
+  },
+  "matchStartsWith": {
+    "message": "Ezzel kezdődik"
+  },
+  "matchExact": {
+    "message": "Pontos URL"
+  },
+  "matchRegex": {
+    "message": "Reguláris kifejezés"
+  },
+  "matchNever": {
+    "message": "Soha"
+  },
+  "archive": {
+    "message": "Archívum"
+  },
+  "unarchive": {
+    "message": "Visszahelyezés az archívumból"
+  },
+  "itemArchived": {
+    "message": "Elem archiválva. Már nem jelenik meg az automatikus kitöltésben és a széf listájában."
+  },
+  "itemUnarchived": {
+    "message": "Elem visszakerült a széfbe."
+  },
+  "archiveHint": {
+    "message": "Az archivált elemek megmaradnak, de soha nem kerülnek kitöltésre vagy javaslatra."
+  },
+  "archiveEmpty": {
+    "message": "Nincs archivált elem."
+  },
+  "archiveItem": {
+    "message": "Archiválás"
+  },
+  "generatorPolicyHint": {
+    "message": "A szervezeted megköveteli e beállítások egy részét."
+  },
+  "pin": {
+    "message": "PIN-kód"
+  },
+  "useMasterPassword": {
+    "message": "Inkább mesterjelszóval"
+  },
+  "unlockWithPin": {
+    "message": "Feloldás PIN-kóddal"
+  },
+  "newPin": {
+    "message": "Új PIN-kód (legalább 4 karakter)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "PIN-kódos feloldás megtartása a böngésző újraindítása után"
+  },
+  "pinKeepHint": {
+    "message": "Ki: újraindítás után egyszer mesterjelszóval oldasz fel. Be kevésbé biztonságos: egy ezen a gépen tárolt rövid PIN-kódot bárki kitalálhat, aki lemásolja a böngészőprofilodat."
+  },
+  "setPin": {
+    "message": "PIN-kód beállítása"
+  },
+  "pinOn": {
+    "message": "A PIN-kódos feloldás be van kapcsolva. Öt hibás PIN-kód kikapcsolja."
+  },
+  "pinOff": {
+    "message": "A PIN-kódos feloldás ki van kapcsolva."
+  },
+  "passwordHealth": {
+    "message": "Jelszóállapot"
+  },
+  "passwordHealthHint": {
+    "message": "Megtalálja a gyenge és újrahasznált jelszavakat, bekapcsolt szivárgásellenőrzésnél a kiszivárgottakat is."
+  },
+  "checkBreaches": {
+    "message": "Jelszavak ellenőrzése ismert adatszivárgásokban"
+  },
+  "checkBreachesHint": {
+    "message": "Minden szinkronizálás után a Firnkey megkérdezi a Have I Been Pwned szolgáltatást minden bejelentkezés jelszaváról. Csak a jelszó hashének első 5 karaktere kerül elküldésre; maga a jelszó soha nem hagyja el ezt a böngészőt."
+  },
+  "checkBreachesNow": {
+    "message": "Szivárgások ellenőrzése most"
+  },
+  "checkingBreaches": {
+    "message": "Ellenőrzés…"
+  },
+  "breachPermissionDenied": {
+    "message": "A Firnkeynek hozzáférés kell az api.pwnedpasswords.com címhez a szivárgások ellenőrzéséhez."
+  },
+  "healthExposed_one": {
+    "message": "$1 kiszivárgott"
+  },
+  "healthExposed_other": {
+    "message": "$1 kiszivárgott"
+  },
+  "healthReused_one": {
+    "message": "$1 újrahasznált"
+  },
+  "healthReused_other": {
+    "message": "$1 újrahasznált"
+  },
+  "healthWeak_one": {
+    "message": "$1 gyenge"
+  },
+  "healthWeak_other": {
+    "message": "$1 gyenge"
+  },
+  "healthNotChecked": {
+    "message": "$1 még nincs ellenőrizve szivárgásra"
+  },
+  "healthAllChecked": {
+    "message": "mind ellenőrizve szivárgásra"
+  },
+  "exposedPasswords": {
+    "message": "Kiszivárgott jelszavak"
+  },
+  "reusedPasswords": {
+    "message": "Újrahasznált jelszavak"
+  },
+  "weakPasswords": {
+    "message": "Gyenge jelszavak"
+  },
+  "weakPassword": {
+    "message": "Gyenge"
+  },
+  "seenInBreaches_one": {
+    "message": "$2 adatszivárgásban látható"
+  },
+  "seenInBreaches_other": {
+    "message": "$2 adatszivárgásban látható"
+  },
+  "usedByLogins_one": {
+    "message": "$1 bejelentkezés használja"
+  },
+  "usedByLogins_other": {
+    "message": "$1 bejelentkezés használja"
+  },
+  "passwordInBreaches_one": {
+    "message": "Ez a jelszó $2 adatszivárgásban szerepelt. Változtasd meg."
+  },
+  "passwordInBreaches_other": {
+    "message": "Ez a jelszó $2 adatszivárgásban szerepelt. Változtasd meg."
+  },
+  "healthAllGood": {
+    "message": "Nincs gyenge, újrahasznált vagy kiszivárgott jelszó."
+  },
+  "autofillOnPageLoad": {
+    "message": "Kitöltés oldalbetöltéskor"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Kattintás nélkül kitölt egy illő bejelentkezést, amint betöltődik egy bejelentkezési oldal. Weboldal-integráció kell hozzá. Egy feltört oldal vagy egy illő oldalon lévő rejtett űrlap kiolvashatja a jelszót, ezért csak megbízható oldalakon használd."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Alapértelmezés a bejelentkezésekhez"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Ne töltse ki oldalbetöltéskor"
+  },
+  "useDefaultSetting": {
+    "message": "Alapértelmezett beállítás"
+  },
+  "always": {
+    "message": "Mindig"
+  },
+  "loginWithDevice": {
+    "message": "Bejelentkezés eszközzel"
+  },
+  "signInWithSso": {
+    "message": "Bejelentkezés SSO-val"
+  },
+  "deviceLoginHint": {
+    "message": "Hagyd jóvá a kérést egy alkalmazásban vagy webes széfben, ahol be vagy jelentkezve. Ellenőrizd, hogy ezt a kifejezést mutatja:"
+  },
+  "ssoUnlockHint": {
+    "message": "Bejelentkezve SSO-val. A feloldáshoz add meg a mesterjelszót."
+  },
+  "serverIcons": {
+    "message": "Weboldal-ikonok megjelenítése"
+  },
+  "serverIconsHint": {
+    "message": "A szervered egyszer letölti minden oldal ikonját és gyorsítótárazza. Ki: csak a böngészőben már meglévő ikonok."
+  },
+  "waitingForApproval": {
+    "message": "Várakozás a jóváhagyásra…"
+  },
+  "websites": {
+    "message": "Weboldalak"
+  },
+  "addWebsite": {
+    "message": "Weboldal hozzáadása"
+  },
+  "removeWebsite": {
+    "message": "Weboldal eltávolítása"
+  },
+  "customFields": {
+    "message": "Egyéni mezők"
+  },
+  "fieldType": {
+    "message": "Mezőtípus"
+  },
+  "hiddenField": {
+    "message": "Rejtett"
+  },
+  "checkboxField": {
+    "message": "Jelölőnégyzet"
+  },
+  "addField": {
+    "message": "Mező hozzáadása"
+  },
+  "fieldName": {
+    "message": "Mező neve"
+  },
+  "fieldValue": {
+    "message": "Érték"
+  },
+  "removeField": {
+    "message": "Mező eltávolítása"
+  },
+  "collections": {
+    "message": "Gyűjtemények"
+  },
+  "allVaults": {
+    "message": "Minden széf"
+  },
+  "filters": {
+    "message": "Szűrők"
+  },
+  "allCollections": {
+    "message": "Minden gyűjtemény"
+  },
+  "allFolders": {
+    "message": "Minden mappa"
+  },
+  "allTypes": {
+    "message": "Minden típus"
+  },
+  "editSend": {
+    "message": "Send szerkesztése"
+  },
+  "keepDeletionDate": {
+    "message": "Megtartás ($1)"
+  },
+  "removePassword": {
+    "message": "Jelszó eltávolítása"
+  },
+  "sendSaved": {
+    "message": "$1 mentve."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "A szervezeted legfeljebb $1 tétlenség után zárolja a széfet."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "A szervezeted legfeljebb $1 tétlenség után kijelentkeztet."
+  }
+}

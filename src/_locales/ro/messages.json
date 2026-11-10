@@ -1,0 +1,1911 @@
+{
+  "languageCode": {
+    "message": "ro",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Manager de parole pentru propriul tău server"
+  },
+  "starting": {
+    "message": "Se pornește"
+  },
+  "connectYourServer": {
+    "message": "Conectează-ți serverul"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey cere acces doar la originea serverului pe care o alegi."
+  },
+  "serverUrl": {
+    "message": "URL-ul serverului"
+  },
+  "verifyServer": {
+    "message": "Verifică serverul"
+  },
+  "signIn": {
+    "message": "Autentificare"
+  },
+  "change": {
+    "message": "Schimbă"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Parolă principală"
+  },
+  "twoStepLogin": {
+    "message": "Autentificare în doi pași"
+  },
+  "method": {
+    "message": "Metodă"
+  },
+  "sendEmailCode": {
+    "message": "Trimite codul prin e-mail"
+  },
+  "verificationCode": {
+    "message": "Cod de verificare"
+  },
+  "rememberThisDevice": {
+    "message": "Ține minte acest dispozitiv"
+  },
+  "newDeviceVerification": {
+    "message": "Verificarea dispozitivului nou"
+  },
+  "deviceVerificationHint": {
+    "message": "Introdu codul de verificare trimis de serverul tău."
+  },
+  "deviceVerificationCode": {
+    "message": "Codul de verificare al dispozitivului"
+  },
+  "signInAndSync": {
+    "message": "Autentificare și sincronizare"
+  },
+  "vaultLocked": {
+    "message": "Seif blocat"
+  },
+  "unlock": {
+    "message": "Deblochează"
+  },
+  "unlockWithBiometrics": {
+    "message": "Deblochează cu Touch ID / biometrie"
+  },
+  "logOut": {
+    "message": "Deconectare"
+  },
+  "allItems": {
+    "message": "Toate elementele"
+  },
+  "noMatchingItems": {
+    "message": "Niciun element potrivit."
+  },
+  "viewAll": {
+    "message": "Vezi tot"
+  },
+  "authenticatorEmpty": {
+    "message": "Încă nu există chei de autentificare. Alege Nou ca să scanezi un cod QR sau să lipești o cheie."
+  },
+  "importOrExportKeys": {
+    "message": "Importă sau exportă chei"
+  },
+  "scanQrOnPage": {
+    "message": "Scanează codul QR de pe această pagină"
+  },
+  "saveTo": {
+    "message": "Salvează în"
+  },
+  "newLogin": {
+    "message": "Autentificare nouă"
+  },
+  "key": {
+    "message": "Cheie"
+  },
+  "name": {
+    "message": "Nume"
+  },
+  "nicknameOptional": {
+    "message": "Poreclă (opțional)"
+  },
+  "account": {
+    "message": "Cont"
+  },
+  "website": {
+    "message": "Site web"
+  },
+  "issuer": {
+    "message": "Emitent"
+  },
+  "advanced": {
+    "message": "Avansat"
+  },
+  "algorithm": {
+    "message": "Algoritm"
+  },
+  "digits": {
+    "message": "Cifre"
+  },
+  "periodSeconds": {
+    "message": "Perioadă (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Majoritatea serviciilor folosesc SHA-1, 6 cifre și 30 de secunde. Cheile Steam (emitent Steam) generează mereu coduri de 5 caractere."
+  },
+  "save": {
+    "message": "Salvează"
+  },
+  "import": {
+    "message": "Importă"
+  },
+  "keysImportHint": {
+    "message": "Un link otpauth://totp/ pe linie, așa cum le exportă aplicațiile de autentificare. Fiecare cheie nouă devine o autentificare."
+  },
+  "chooseFile": {
+    "message": "Alege fișierul"
+  },
+  "checkList": {
+    "message": "Verifică lista"
+  },
+  "export": {
+    "message": "Exportă"
+  },
+  "keysExportHint": {
+    "message": "Salvează fiecare cheie ca link otpauth:// într-un fișier text. Oricine are fișierul îți poate genera codurile, așa că șterge-l după import."
+  },
+  "exportKeys": {
+    "message": "Exportă cheile"
+  },
+  "sendIntro": {
+    "message": "Partajează un text sau un fișier printr-un link criptat integral care se șterge singur."
+  },
+  "sendEmpty": {
+    "message": "Încă nu există Send-uri. Alege Nou ca să partajezi un text sau un fișier."
+  },
+  "text": {
+    "message": "Text"
+  },
+  "file": {
+    "message": "Fișier"
+  },
+  "sendHideText": {
+    "message": "Ascunde textul până când destinatarul îl dezvăluie"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Niciun fișier ales · cel mult 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Șterge după"
+  },
+  "days1": {
+    "message": "1 zi"
+  },
+  "days2": {
+    "message": "2 zile"
+  },
+  "days3": {
+    "message": "3 zile"
+  },
+  "days7": {
+    "message": "7 zile"
+  },
+  "days14": {
+    "message": "14 zile"
+  },
+  "days30": {
+    "message": "30 de zile"
+  },
+  "options": {
+    "message": "Opțiuni"
+  },
+  "passwordOptional": {
+    "message": "Parolă (opțional)"
+  },
+  "maximumViewsOptional": {
+    "message": "Număr maxim de vizualizări (opțional)"
+  },
+  "createAndCopyLink": {
+    "message": "Creează și copiază linkul"
+  },
+  "passwordGenerator": {
+    "message": "Generator de parole"
+  },
+  "generatorHint": {
+    "message": "Generat local cu sursa aleatorie criptografică a browserului."
+  },
+  "password": {
+    "message": "Parolă"
+  },
+  "passphrase": {
+    "message": "Frază de acces"
+  },
+  "username": {
+    "message": "Nume de utilizator"
+  },
+  "length": {
+    "message": "Lungime"
+  },
+  "uppercase": {
+    "message": "Majuscule"
+  },
+  "lowercase": {
+    "message": "Minuscule"
+  },
+  "numbers": {
+    "message": "Cifre"
+  },
+  "symbols": {
+    "message": "Simboluri"
+  },
+  "words": {
+    "message": "Cuvinte"
+  },
+  "wordSeparator": {
+    "message": "Separator de cuvinte"
+  },
+  "capitalize": {
+    "message": "Inițială majusculă"
+  },
+  "includeNumber": {
+    "message": "Include o cifră"
+  },
+  "type": {
+    "message": "Tip"
+  },
+  "randomWord": {
+    "message": "Cuvânt aleatoriu"
+  },
+  "plusAddressedEmail": {
+    "message": "E-mail cu sufix +"
+  },
+  "catchAllEmail": {
+    "message": "E-mail catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Alias de e-mail redirecționat"
+  },
+  "forwardingService": {
+    "message": "Serviciu de redirecționare"
+  },
+  "apiKey": {
+    "message": "Cheie API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Salvată după prima utilizare; lasă gol ca să o păstrezi"
+  },
+  "aliasDomain": {
+    "message": "Domeniul aliasului"
+  },
+  "createAlias": {
+    "message": "Creează alias"
+  },
+  "creatingAlias": {
+    "message": "Se creează aliasul…"
+  },
+  "aliasCreated": {
+    "message": "Alias creat"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey are nevoie de acces la serviciul de redirecționare ca să creeze un alias."
+  },
+  "yourEmail": {
+    "message": "E-mailul tău"
+  },
+  "yourCatchAllDomain": {
+    "message": "Domeniul tău catch-all"
+  },
+  "generateAnother": {
+    "message": "Generează altul"
+  },
+  "useInNewLogin": {
+    "message": "Folosește într-o autentificare nouă"
+  },
+  "security": {
+    "message": "Securitate"
+  },
+  "securityGroupHint": {
+    "message": "Blocare, biometrie, clipboard"
+  },
+  "autofillSaving": {
+    "message": "Completare automată și salvare"
+  },
+  "autofillGroupHint": {
+    "message": "Integrare cu site-urile, solicitări de salvare, domenii excluse"
+  },
+  "vault": {
+    "message": "Seif"
+  },
+  "vaultGroupHint": {
+    "message": "Dosare, fila Autentificator"
+  },
+  "importExport": {
+    "message": "Import și export"
+  },
+  "transferGroupHint": {
+    "message": "Mută seiful din sau către alt manager de parole"
+  },
+  "accountSync": {
+    "message": "Cont și sincronizare"
+  },
+  "accountGroupHint": {
+    "message": "Conturi, sincronizare live, deconectare"
+  },
+  "lockVault": {
+    "message": "Blochează seiful"
+  },
+  "after1Minute": {
+    "message": "După 1 minut"
+  },
+  "after5Minutes": {
+    "message": "După 5 minute"
+  },
+  "after15Minutes": {
+    "message": "După 15 minute"
+  },
+  "after30Minutes": {
+    "message": "După 30 de minute"
+  },
+  "after1Hour": {
+    "message": "După 1 oră"
+  },
+  "after2Hours": {
+    "message": "După 2 ore"
+  },
+  "after4Hours": {
+    "message": "După 4 ore"
+  },
+  "after8Hours": {
+    "message": "După 8 ore"
+  },
+  "after24Hours": {
+    "message": "După 24 de ore"
+  },
+  "whenTheComputerLocks": {
+    "message": "Când se blochează computerul"
+  },
+  "whenBrowserCloses": {
+    "message": "La închiderea browserului"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Ține deblocat până la deconectare"
+  },
+  "untilLogoutHint": {
+    "message": "„Până la deconectare” criptează sesiunea pentru acest profil de browser, dar e mai puțin sigur pe un computer partajat."
+  },
+  "lockNow": {
+    "message": "Blochează acum"
+  },
+  "clearCopiedSecrets": {
+    "message": "Șterge secretele copiate"
+  },
+  "after10Seconds": {
+    "message": "După 10 secunde"
+  },
+  "after20Seconds": {
+    "message": "După 20 de secunde"
+  },
+  "after30Seconds": {
+    "message": "După 30 de secunde"
+  },
+  "after2Minutes": {
+    "message": "După 2 minute"
+  },
+  "never": {
+    "message": "Niciodată"
+  },
+  "clipboardOwnOnly": {
+    "message": "Șterge doar ce a copiat Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Are nevoie de permisiunea de a citi clipboardul, ca textul copiat în altă parte să rămână neatins."
+  },
+  "websiteIntegration": {
+    "message": "Integrare cu site-urile"
+  },
+  "websiteIntegrationHint": {
+    "message": "Sugestii de completare automată și solicitări de salvare."
+  },
+  "enable": {
+    "message": "Activează"
+  },
+  "fillSignInDialogs": {
+    "message": "Completează dialogurile de autentificare (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Răspunde la dialogul de autentificare al browserului când i se potrivește exact o autentificare neprotejată."
+  },
+  "savePrompts": {
+    "message": "Solicitări de salvare"
+  },
+  "askToAddLogin": {
+    "message": "Întreabă dacă adaugi autentificarea"
+  },
+  "askToUpdateLogin": {
+    "message": "Întreabă dacă actualizezi autentificarea existentă"
+  },
+  "askPasskeys": {
+    "message": "Întreabă dacă salvezi și folosești chei de acces"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Închide solicitările de salvare după (secunde)"
+  },
+  "excludedDomains": {
+    "message": "Domenii excluse"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey nu va sugera, completa sau salva date de autentificare pe aceste domenii."
+  },
+  "add": {
+    "message": "Adaugă"
+  },
+  "folders": {
+    "message": "Dosare"
+  },
+  "foldersHint": {
+    "message": "Ștergerea unui dosar îi păstrează elementele; ele trec în Fără dosar."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Arată fila Autentificator"
+  },
+  "authenticatorTabHint": {
+    "message": "Coduri de verificare live pentru autentificările tale. Adaugă chei prin cod QR, manual sau dintr-un fișier."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Arată doar codurile acestui site când are"
+  },
+  "vaultImportHint": {
+    "message": "Un export JSON Bitwarden (necriptat sau protejat cu parolă), un export 1Password .1pux sau un fișier CSV din Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox sau Safari. Elementele ajung în seiful tău personal."
+  },
+  "noFileChosen": {
+    "message": "Niciun fișier ales"
+  },
+  "filePassword": {
+    "message": "Parola fișierului"
+  },
+  "checkFile": {
+    "message": "Verifică fișierul"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "JSON Bitwarden, protejat cu parola fișierului"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "JSON Bitwarden, necriptat"
+  },
+  "filePasswordHint": {
+    "message": "Necesară pentru a importa din nou fișierul. Firnkey nu o poate recupera."
+  },
+  "unencryptedExportWarning": {
+    "message": "Oricine are un fișier necriptat poate citi toate parolele din el. Șterge-l după import."
+  },
+  "exportScopeHint": {
+    "message": "Exportă elementele tale personale. Elementele organizației rămân la organizație."
+  },
+  "exportVault": {
+    "message": "Exportă seiful"
+  },
+  "liveSync": {
+    "message": "Sincronizare live"
+  },
+  "liveSyncHint": {
+    "message": "Primește imediat modificările de la server. Dezactivată, verifică o dată pe minut și folosește mai puțină memorie."
+  },
+  "syncNow": {
+    "message": "Sincronizează acum"
+  },
+  "addAccount": {
+    "message": "Adaugă cont"
+  },
+  "repromptHint": {
+    "message": "Acest element cere parola principală înainte de a folosi câmpurile protejate."
+  },
+  "unlockProtectedFields": {
+    "message": "Deblochează câmpurile protejate"
+  },
+  "show": {
+    "message": "Arată"
+  },
+  "addAttachment": {
+    "message": "Adaugă atașament"
+  },
+  "fillOnThisPage": {
+    "message": "Completează pe această pagină"
+  },
+  "edit": {
+    "message": "Editează"
+  },
+  "moveToTrash": {
+    "message": "Mută în coș"
+  },
+  "addLogin": {
+    "message": "Adaugă autentificare"
+  },
+  "login": {
+    "message": "Autentificare"
+  },
+  "card": {
+    "message": "Card"
+  },
+  "identity": {
+    "message": "Identitate"
+  },
+  "secureNote": {
+    "message": "Notă securizată"
+  },
+  "folder": {
+    "message": "Dosar"
+  },
+  "noFolder": {
+    "message": "Fără dosar"
+  },
+  "owner": {
+    "message": "Proprietar"
+  },
+  "myVault": {
+    "message": "Seiful meu"
+  },
+  "moveToOrganizationHint": {
+    "message": "Mutarea într-o organizație nu poate fi anulată aici; elementul aparține apoi organizației."
+  },
+  "generate": {
+    "message": "Generează"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Cheie de autentificare (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Scanează QR"
+  },
+  "notes": {
+    "message": "Note"
+  },
+  "favorite": {
+    "message": "Favorit"
+  },
+  "authenticator": {
+    "message": "Autentificator"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Setări"
+  },
+  "back": {
+    "message": "Înapoi"
+  },
+  "openSettings": {
+    "message": "Deschide setările"
+  },
+  "searchVault": {
+    "message": "Caută în seif"
+  },
+  "keyOrTotpLink": {
+    "message": "Cheie Base32 sau link otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Implicit, emitentul"
+  },
+  "shownInsteadOfThe": {
+    "message": "Afișat în locul numelui"
+  },
+  "keysToImport": {
+    "message": "Chei de importat"
+  },
+  "whatToSend": {
+    "message": "Ce trimiți"
+  },
+  "whatToGenerate": {
+    "message": "Ce generezi"
+  },
+  "generatedValue": {
+    "message": "Valoare generată"
+  },
+  "copy": {
+    "message": "Copiază"
+  },
+  "copyGeneratedValue": {
+    "message": "Copiază valoarea generată"
+  },
+  "domainToExclude": {
+    "message": "Domeniu de exclus"
+  },
+  "newFolder": {
+    "message": "Dosar nou"
+  },
+  "newFolderName": {
+    "message": "Numele dosarului nou"
+  },
+  "copyUsername": {
+    "message": "Copiază numele de utilizator"
+  },
+  "copyPassword": {
+    "message": "Copiază parola"
+  },
+  "copyVerificationCode": {
+    "message": "Copiază codul de verificare"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Cheie Base32 sau link otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Navigare principală"
+  },
+  "firnkeyPasskey": {
+    "message": "Cheie de acces Firnkey"
+  },
+  "passkey": {
+    "message": "Cheie de acces"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Deblochează Firnkey ca să continui."
+  },
+  "verifyWithBiometrics": {
+    "message": "Verifică cu Touch ID / biometrie"
+  },
+  "continue": {
+    "message": "Continuă"
+  },
+  "useAnotherDevice": {
+    "message": "Folosește alt dispozitiv"
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "sshKey": {
+    "message": "Cheie SSH"
+  },
+  "cardholderName": {
+    "message": "Numele titularului"
+  },
+  "brand": {
+    "message": "Rețea"
+  },
+  "number": {
+    "message": "Număr"
+  },
+  "expirationMonth": {
+    "message": "Luna expirării"
+  },
+  "expirationYear": {
+    "message": "Anul expirării"
+  },
+  "securityCode": {
+    "message": "Cod de securitate"
+  },
+  "title": {
+    "message": "Titlu"
+  },
+  "firstName": {
+    "message": "Prenume"
+  },
+  "middleName": {
+    "message": "Al doilea prenume"
+  },
+  "lastName": {
+    "message": "Nume de familie"
+  },
+  "company": {
+    "message": "Companie"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Adresa 1"
+  },
+  "address2": {
+    "message": "Adresa 2"
+  },
+  "address3": {
+    "message": "Adresa 3"
+  },
+  "city": {
+    "message": "Oraș / localitate"
+  },
+  "stateProvince": {
+    "message": "Stat / județ"
+  },
+  "postalCode": {
+    "message": "Cod poștal"
+  },
+  "country": {
+    "message": "Țară"
+  },
+  "ssn": {
+    "message": "CNP / număr de asigurare socială"
+  },
+  "passportNumber": {
+    "message": "Număr de pașaport"
+  },
+  "licenseNumber": {
+    "message": "Număr de permis"
+  },
+  "addSecureNote": {
+    "message": "Adaugă notă securizată"
+  },
+  "addCard": {
+    "message": "Adaugă card"
+  },
+  "addIdentity": {
+    "message": "Adaugă identitate"
+  },
+  "addSshKey": {
+    "message": "Adaugă cheie SSH"
+  },
+  "editLogin": {
+    "message": "Editează autentificarea"
+  },
+  "editSecureNote": {
+    "message": "Editează nota securizată"
+  },
+  "editCard": {
+    "message": "Editează cardul"
+  },
+  "editIdentity": {
+    "message": "Editează identitatea"
+  },
+  "editSshKey": {
+    "message": "Editează cheia SSH"
+  },
+  "passphraseGenerator": {
+    "message": "Generator de fraze de acces"
+  },
+  "usernameGenerator": {
+    "message": "Generator de nume de utilizator"
+  },
+  "generatedPasswordCopied": {
+    "message": "Parola generată a fost copiată."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Fraza de acces generată a fost copiată."
+  },
+  "generatedUsernameCopied": {
+    "message": "Numele de utilizator generat a fost copiat."
+  },
+  "removeKey": {
+    "message": "Elimină cheia"
+  },
+  "biometricOff": {
+    "message": "Deblocarea biometrică a fost dezactivată."
+  },
+  "usernameCopied": {
+    "message": "Numele de utilizator a fost copiat."
+  },
+  "passwordCopied": {
+    "message": "Parola a fost copiată."
+  },
+  "hide": {
+    "message": "Ascunde"
+  },
+  "movedToTrash": {
+    "message": "Mutat în coș."
+  },
+  "websiteAccessDenied": {
+    "message": "Accesul la site-uri nu a fost acordat."
+  },
+  "websiteIntegrationOn": {
+    "message": "Completarea automată și solicitările de salvare au fost activate."
+  },
+  "websiteIntegrationOff": {
+    "message": "Solicitările pe site-uri au fost dezactivate."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Completarea dialogurilor de autentificare necesită permisiunea de a le vedea pe site-uri."
+  },
+  "preferencesUpdated": {
+    "message": "Preferințe actualizate."
+  },
+  "invalidDomain": {
+    "message": "Introdu un domeniu valid, de exemplu example.com."
+  },
+  "remove": {
+    "message": "Elimină"
+  },
+  "enabled": {
+    "message": "Activat"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Dezactivează integrarea cu site-urile"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Activează integrarea cu site-urile"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Timp de blocare neacceptat."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Timp de clipboard neacceptat."
+  },
+  "clipboardClearsAfter": {
+    "message": "Secretele copiate vor fi șterse după $1."
+  },
+  "clipboardKeeps": {
+    "message": "Secretele copiate vor rămâne în clipboard."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey va șterge clipboardul doar dacă încă are ce a copiat Firnkey."
+  },
+  "seconds_one": {
+    "message": "$1 secundă"
+  },
+  "seconds_other": {
+    "message": "$1 de secunde"
+  },
+  "seconds_few": {
+    "message": "$1 secunde"
+  },
+  "minutes_one": {
+    "message": "$1 minut"
+  },
+  "minutes_other": {
+    "message": "$1 de minute"
+  },
+  "minutes_few": {
+    "message": "$1 minute"
+  },
+  "hours_one": {
+    "message": "$1 oră"
+  },
+  "hours_other": {
+    "message": "$1 de ore"
+  },
+  "hours_few": {
+    "message": "$1 ore"
+  },
+  "lockOnComputerLock": {
+    "message": "Seiful se va bloca atunci când se blochează computerul sau se închide browserul."
+  },
+  "lockOnLogout": {
+    "message": "Seiful va rămâne deblocat în acest browser până îl blochezi sau te deconectezi."
+  },
+  "lockOnBrowserClose": {
+    "message": "Seiful va rămâne deblocat până la închiderea browserului."
+  },
+  "lockAfterInactivity": {
+    "message": "Seiful se va bloca după $1 de inactivitate."
+  },
+  "waitingForVerification": {
+    "message": "Se așteaptă verificarea…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Deblochează seiful înainte de a activa deblocarea biometrică."
+  },
+  "noPasskeyCreated": {
+    "message": "Nu a fost creată nicio cheie de acces."
+  },
+  "biometricOn": {
+    "message": "Deblocarea biometrică este activată."
+  },
+  "biometricUnavailable": {
+    "message": "Deblocarea biometrică nu este disponibilă acum."
+  },
+  "vaultUnlocked_one": {
+    "message": "Seif deblocat cu $1 element."
+  },
+  "vaultUnlocked_other": {
+    "message": "Seif deblocat cu $1 de elemente."
+  },
+  "vaultUnlocked_few": {
+    "message": "Seif deblocat cu $1 elemente."
+  },
+  "verificationCancelled": {
+    "message": "Verificarea a fost anulată sau a expirat."
+  },
+  "notConnected": {
+    "message": "Neconectat"
+  },
+  "connectAServer": {
+    "message": "Conectează un server"
+  },
+  "signedOut": {
+    "message": "Deconectat"
+  },
+  "itemCount_one": {
+    "message": "$1 element"
+  },
+  "itemCount_other": {
+    "message": "$1 de elemente"
+  },
+  "itemCount_few": {
+    "message": "$1 elemente"
+  },
+  "locked": {
+    "message": "Blocat"
+  },
+  "unlocked": {
+    "message": "Deblocat"
+  },
+  "settingsFor": {
+    "message": "Setări pentru $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · întâi sugestiile pentru această pagină"
+  },
+  "itemTotal_one": {
+    "message": "$1 element în total"
+  },
+  "itemTotal_other": {
+    "message": "$1 de elemente în total"
+  },
+  "itemTotal_few": {
+    "message": "$1 elemente în total"
+  },
+  "skippedItems_one": {
+    "message": "$1 element neacceptat sau deteriorat a fost omis."
+  },
+  "skippedItems_other": {
+    "message": "$1 de elemente neacceptate sau deteriorate au fost omise."
+  },
+  "skippedItems_few": {
+    "message": "$1 elemente neacceptate sau deteriorate au fost omise."
+  },
+  "otherAccounts": {
+    "message": "Alte conturi"
+  },
+  "switch": {
+    "message": "Comută"
+  },
+  "removeAccountTitle": {
+    "message": "Elimină $1 din Firnkey în acest browser"
+  },
+  "switchedTo": {
+    "message": "Ai comutat la $1."
+  },
+  "accountRemoved": {
+    "message": "$1 a fost eliminat din acest browser."
+  },
+  "addAccountHint": {
+    "message": "Autentifică-te în celălalt cont. Contul actual rămâne salvat, blocat, mai jos."
+  },
+  "verifying": {
+    "message": "Se verifică…"
+  },
+  "serverPermissionDenied": {
+    "message": "Permisiunea pentru server nu a fost acordată."
+  },
+  "signingIn": {
+    "message": "Se autentifică…"
+  },
+  "continueInNewWindow": {
+    "message": "Alege din nou Autentificare ca să continui într-o fereastră nouă."
+  },
+  "enterTwoStepCode": {
+    "message": "Introdu codul de autentificare în doi pași."
+  },
+  "unlocking": {
+    "message": "Se deblochează…"
+  },
+  "trashHint": {
+    "message": "Restaurează elementele sau șterge-le definitiv."
+  },
+  "trashEmpty": {
+    "message": "Coșul este gol."
+  },
+  "autofillSuggestions": {
+    "message": "Sugestii de completare automată"
+  },
+  "otherResults": {
+    "message": "Alte rezultate"
+  },
+  "trash": {
+    "message": "Coș"
+  },
+  "folderName": {
+    "message": "Numele dosarului"
+  },
+  "rename": {
+    "message": "Redenumește"
+  },
+  "delete": {
+    "message": "Șterge"
+  },
+  "folderRenamed": {
+    "message": "Dosar redenumit."
+  },
+  "folderAdded": {
+    "message": "Dosar adăugat."
+  },
+  "folderDeleted": {
+    "message": "Dosar șters. Elementele lui sunt acum în Fără dosar."
+  },
+  "confirm": {
+    "message": "Confirmă"
+  },
+  "matchesThisPage": {
+    "message": "Se potrivește cu această pagină"
+  },
+  "restore": {
+    "message": "Restaurează"
+  },
+  "itemRestored": {
+    "message": "Element restaurat."
+  },
+  "deleteForever": {
+    "message": "Șterge definitiv"
+  },
+  "itemDeletedForever": {
+    "message": "Element șters definitiv."
+  },
+  "open": {
+    "message": "Deschide"
+  },
+  "fill": {
+    "message": "Completează"
+  },
+  "openWebsite": {
+    "message": "Deschide site-ul"
+  },
+  "cardNumber": {
+    "message": "Numărul cardului"
+  },
+  "note": {
+    "message": "Notă"
+  },
+  "publicKey": {
+    "message": "Cheie publică"
+  },
+  "copyPublicKey": {
+    "message": "Copiază cheia publică"
+  },
+  "copyCardNumber": {
+    "message": "Copiază numărul cardului"
+  },
+  "copyNote": {
+    "message": "Copiază nota"
+  },
+  "copySecurityCode": {
+    "message": "Copiază codul de securitate"
+  },
+  "copyPrivateKey": {
+    "message": "Copiază cheia privată"
+  },
+  "privateKey": {
+    "message": "Cheie privată"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Confirmă parola principală înainte de a șterge acest element."
+  },
+  "moreActions": {
+    "message": "Mai multe acțiuni"
+  },
+  "noWebAddress": {
+    "message": "Această autentificare nu are adresă web."
+  },
+  "noWebsiteSaved": {
+    "message": "Niciun site salvat"
+  },
+  "loading": {
+    "message": "Se încarcă…"
+  },
+  "expiration": {
+    "message": "Expirare"
+  },
+  "address": {
+    "message": "Adresă"
+  },
+  "fingerprint": {
+    "message": "Amprentă"
+  },
+  "customField": {
+    "message": "Câmp personalizat"
+  },
+  "passwordHistory": {
+    "message": "Istoricul parolelor ($1)"
+  },
+  "oldPassword": {
+    "message": "Parolă veche"
+  },
+  "organization": {
+    "message": "Organizație"
+  },
+  "attachmentsCount": {
+    "message": "Atașamente ($1)"
+  },
+  "downloadFile": {
+    "message": "Descarcă $1"
+  },
+  "deleteFile": {
+    "message": "Șterge $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 descărcat."
+  },
+  "fileTooLarge25": {
+    "message": "Fișierul este prea mare (cel mult 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Fișierul este gol."
+  },
+  "uploadingFile": {
+    "message": "Se criptează și se încarcă $1…"
+  },
+  "fileAttached": {
+    "message": "$1 atașat."
+  },
+  "fileDeleted": {
+    "message": "$1 șters."
+  },
+  "copyLink": {
+    "message": "Copiază linkul"
+  },
+  "viewsOf": {
+    "message": "$1 din $2 vizualizări"
+  },
+  "views_one": {
+    "message": "$1 vizualizare"
+  },
+  "views_other": {
+    "message": "$1 de vizualizări"
+  },
+  "views_few": {
+    "message": "$1 vizualizări"
+  },
+  "deletesOn": {
+    "message": "Se șterge pe $1"
+  },
+  "disabled": {
+    "message": "Dezactivat"
+  },
+  "sendLinkCopied": {
+    "message": "Linkul Send a fost copiat."
+  },
+  "deleteSendTitle": {
+    "message": "Șterge $1; linkul lui nu va mai funcționa"
+  },
+  "sendDeleted": {
+    "message": "$1 șters. Linkul lui nu mai funcționează."
+  },
+  "encrypting": {
+    "message": "Se criptează…"
+  },
+  "chooseFileToSend": {
+    "message": "Alege un fișier de trimis."
+  },
+  "sendCreatedCopied": {
+    "message": "Send creat. Link copiat."
+  },
+  "sendCreatedSync": {
+    "message": "Send creat. Sincronizează, apoi copiază-i linkul din listă."
+  },
+  "fileTooLarge10": {
+    "message": "Fișierul este prea mare (cel mult 10 MB)."
+  },
+  "importing": {
+    "message": "Se importă…"
+  },
+  "checking": {
+    "message": "Se verifică…"
+  },
+  "importedItems": {
+    "message": "Importat: $1."
+  },
+  "importItems": {
+    "message": "Importă $1"
+  },
+  "foundItems": {
+    "message": "Găsit: $1. Sunt adăugate în seif; nimic nu este înlocuit."
+  },
+  "foundItemsInFolders": {
+    "message": "Găsit: $1 în $2. Sunt adăugate în seif; nimic nu este înlocuit."
+  },
+  "folderCount_one": {
+    "message": "$1 dosar"
+  },
+  "folderCount_other": {
+    "message": "$1 de dosare"
+  },
+  "folderCount_few": {
+    "message": "$1 dosare"
+  },
+  "exporting": {
+    "message": "Se exportă…"
+  },
+  "vaultExportedPlain": {
+    "message": "Seif exportat. Șterge fișierul după import."
+  },
+  "vaultExportedProtected": {
+    "message": "Seif exportat. Păstrează în siguranță parola fișierului."
+  },
+  "createdOn": {
+    "message": "Creat pe $1"
+  },
+  "lastEdited": {
+    "message": "Ultima modificare pe $1"
+  },
+  "itemHistory": {
+    "message": "Istoricul elementului"
+  },
+  "loginCredentials": {
+    "message": "Date de autentificare"
+  },
+  "itemDetails": {
+    "message": "Detaliile elementului"
+  },
+  "autofillOptions": {
+    "message": "Opțiuni de completare automată"
+  },
+  "passwordChangedOn": {
+    "message": "Ultima schimbare pe $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Elimină această cheie de acces din autentificare"
+  },
+  "passkeyRemoved": {
+    "message": "Cheie de acces eliminată."
+  },
+  "usedUntil": {
+    "message": "Folosită până pe $1"
+  },
+  "earlierPassword": {
+    "message": "Parolă anterioară"
+  },
+  "fieldCopied": {
+    "message": "$1 copiat."
+  },
+  "copyField": {
+    "message": "Copiază $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Confirmă parola principală înainte de a copia din acest element."
+  },
+  "codeCopied": {
+    "message": "Codul de verificare a fost copiat."
+  },
+  "viewOnlyItem": {
+    "message": "Organizația ta îți permite să vezi acest element, dar nu să-l modifici."
+  },
+  "confirmBeforeEditing": {
+    "message": "Confirmă parola principală înainte de a edita acest element."
+  },
+  "monthPlaceholder": {
+    "message": "LL"
+  },
+  "yearPlaceholder": {
+    "message": "AAAA"
+  },
+  "saving": {
+    "message": "Se salvează…"
+  },
+  "loginUpdated": {
+    "message": "Autentificare actualizată."
+  },
+  "loginAdded": {
+    "message": "Autentificare adăugată."
+  },
+  "itemUpdated": {
+    "message": "$1 actualizat."
+  },
+  "itemAdded": {
+    "message": "$1 adăugat."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Câmpurile protejate sunt deblocate timp de 60 de secunde."
+  },
+  "unavailable": {
+    "message": "Indisponibil"
+  },
+  "secondsLeft_one": {
+    "message": "A mai rămas $1 secundă"
+  },
+  "secondsLeft_other": {
+    "message": "Au mai rămas $1 de secunde"
+  },
+  "secondsLeft_few": {
+    "message": "Au mai rămas $1 secunde"
+  },
+  "codesForSite": {
+    "message": "Coduri pentru acest site · $1 în total"
+  },
+  "codeCount_one": {
+    "message": "$1 cod"
+  },
+  "codeCount_other": {
+    "message": "$1 de coduri"
+  },
+  "codeCount_few": {
+    "message": "$1 coduri"
+  },
+  "thisWebsite": {
+    "message": "Acest site"
+  },
+  "openToConfirm": {
+    "message": "Deschide ca să confirmi parola principală"
+  },
+  "protected": {
+    "message": "Protejat"
+  },
+  "fillIntoPage": {
+    "message": "Completează pe această pagină"
+  },
+  "editKey": {
+    "message": "Editează cheia"
+  },
+  "codeFilled": {
+    "message": "Cod completat pentru $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Confirmă parola principală, apoi editează cheia din fila Autentificator."
+  },
+  "qrReadFirstCheck": {
+    "message": "A fost citit primul dintre mai multe coduri QR. Verifică detaliile și salvează."
+  },
+  "qrReadCheck": {
+    "message": "Cod QR citit. Verifică detaliile și salvează."
+  },
+  "qrReadFirstSave": {
+    "message": "A fost citit primul dintre mai multe coduri QR. Salvează autentificarea ca să păstrezi cheia."
+  },
+  "qrReadSave": {
+    "message": "Cod QR citit. Salvează autentificarea ca să păstrezi cheia."
+  },
+  "qrUnsupported": {
+    "message": "Acest browser nu poate citi coduri QR. Lipește în schimb cheia sau linkul otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey nu poate vedea această pagină. Deschide pagina care arată codul QR și încearcă din nou."
+  },
+  "qrNotFound": {
+    "message": "Nu s-a găsit niciun cod QR de autentificare în partea vizibilă a paginii."
+  },
+  "qrInvalid": {
+    "message": "Codul QR nu este o cheie de autentificare bazată pe timp (TOTP) validă."
+  },
+  "keyAdded": {
+    "message": "Cheie de autentificare adăugată."
+  },
+  "keyUpdated": {
+    "message": "Cheie de autentificare actualizată."
+  },
+  "keyRemoved": {
+    "message": "Cheie de autentificare eliminată. Autentificarea rămâne în seif."
+  },
+  "fileTooLarge256": {
+    "message": "Fișierul este prea mare (cel mult 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Lipește mai întâi linkuri otpauth:// sau alege un fișier."
+  },
+  "keysImported_one": {
+    "message": "$1 cheie importată."
+  },
+  "keysImported_other": {
+    "message": "$1 de chei importate."
+  },
+  "keysImported_few": {
+    "message": "$1 chei importate."
+  },
+  "new": {
+    "message": "Nou"
+  },
+  "duplicate": {
+    "message": "Duplicat"
+  },
+  "invalid": {
+    "message": "Nevalid"
+  },
+  "importNewKeys_one": {
+    "message": "Importă $1 cheie nouă"
+  },
+  "importNewKeys_other": {
+    "message": "Importă $1 de chei noi"
+  },
+  "importNewKeys_few": {
+    "message": "Importă $1 chei noi"
+  },
+  "checkThenImport": {
+    "message": "Verifică lista, apoi importă."
+  },
+  "nothingNewToImport": {
+    "message": "Nimic nou de importat."
+  },
+  "keysExported": {
+    "message": "Chei exportate. Șterge fișierul după ce îl imporți în altă parte."
+  },
+  "fieldsFilled_one": {
+    "message": "$1 câmp completat."
+  },
+  "fieldsFilled_other": {
+    "message": "$1 de câmpuri completate."
+  },
+  "fieldsFilled_few": {
+    "message": "$1 câmpuri completate."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Numele de utilizator și parola au fost completate."
+  },
+  "filledUsername": {
+    "message": "Numele de utilizator a fost completat."
+  },
+  "filledPassword": {
+    "message": "Parola a fost completată."
+  },
+  "synced_one": {
+    "message": "$1 element sincronizat."
+  },
+  "synced_other": {
+    "message": "$1 de elemente sincronizate."
+  },
+  "synced_few": {
+    "message": "$1 elemente sincronizate."
+  },
+  "twoStepUnsupported": {
+    "message": "Acest cont necesită o metodă de autentificare în doi pași pe care această versiune nu o acceptă."
+  },
+  "sending": {
+    "message": "Se trimite…"
+  },
+  "emailCodeSent": {
+    "message": "Codul de verificare a fost trimis prin e-mail."
+  },
+  "authenticatorApp": {
+    "message": "Aplicație de autentificare"
+  },
+  "securityKeyWebauthn": {
+    "message": "Cheie de securitate (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Cod de recuperare"
+  },
+  "twoFactorMethod": {
+    "message": "Metoda $1"
+  },
+  "fieldEmpty": {
+    "message": "Acest câmp este gol."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Clipboardul se șterge în $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Procesul de fundal al extensiei nu a răspuns. Reîncarcă extensia."
+  },
+  "unexpectedResponse": {
+    "message": "Procesul de fundal a returnat un răspuns neașteptat."
+  },
+  "newSend": {
+    "message": "Send nou"
+  },
+  "item": {
+    "message": "Element"
+  },
+  "editItem": {
+    "message": "Editează elementul"
+  },
+  "newItem": {
+    "message": "Element nou"
+  },
+  "addKey": {
+    "message": "Adaugă cheie"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Eroare neașteptată a extensiei."
+  },
+  "passkeySuggestion": {
+    "message": "Autentifică-te cu o cheie de acces salvată în Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Generează și completează o parolă"
+  },
+  "suggestionsLabel": {
+    "message": "Sugestii Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Închide sugestiile de completare"
+  },
+  "dismiss": {
+    "message": "Închide"
+  },
+  "toggleSuggestions": {
+    "message": "Arată/ascunde sugestiile Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Arată sau ascunde sugestiile Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Actualizează autentificarea existentă"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Salvează autentificarea în Firnkey"
+  },
+  "notNow": {
+    "message": "Nu acum"
+  },
+  "update": {
+    "message": "Actualizează"
+  },
+  "loginSaved": {
+    "message": "Autentificare salvată."
+  },
+  "saveFailed": {
+    "message": "Firnkey nu a putut salva această autentificare."
+  },
+  "savePasskey": {
+    "message": "Salvează cheia de acces"
+  },
+  "signInWithPasskey": {
+    "message": "Autentifică-te cu o cheie de acces"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey are deja o cheie de acces pentru acest cont pe acest site."
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "savePasskeyForAccount": {
+    "message": "Salvezi o cheie de acces pentru $1 pe $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Salvezi o cheie de acces pe $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Alege o cheie de acces pentru $1."
+  },
+  "addTo": {
+    "message": "Adaugă la $1"
+  },
+  "somethingWentWrong": {
+    "message": "Ceva nu a mers bine."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: folosește cheia de securitate ca să termini autentificarea."
+  },
+  "fillLogin": {
+    "message": "Completează autentificarea"
+  },
+  "extensionDescription": {
+    "message": "Un manager de parole ușor, open source, pentru serverul tău găzduit propriu."
+  },
+  "fillLoginCommand": {
+    "message": "Completează autentificarea potrivită pe această pagină"
+  },
+  "copied": {
+    "message": "Copiat"
+  },
+  "generatorHistory": {
+    "message": "Istoricul generatorului"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Parolele pe care le copiezi sau le folosești din generator apar aici, cu site-ul pe care erai. Rămân criptate în acest browser."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Fără site · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Parolă generată"
+  },
+  "clearGeneratorHistory": {
+    "message": "Șterge istoricul generatorului"
+  },
+  "generatorHistoryCleared": {
+    "message": "Istoricul generatorului a fost șters."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey a completat parola pentru $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Completează parola la pasul următor după alegerea unui cont"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Pentru autentificările care cer întâi numele de utilizator. Doar contul ales, pe același site, o singură dată."
+  },
+  "askToSaveForms": {
+    "message": "Întreabă dacă salvezi carduri și adrese"
+  },
+  "generateSshKey": {
+    "message": "Generează o cheie nouă (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Cheie SSH nouă generată. Salvează ca s-o păstrezi."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Dă clic pe butonul Firnkey din bara de instrumente ca să termini adăugarea."
+  },
+  "saveCardToFirnkey": {
+    "message": "Salvezi cardul în Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Salvezi adresa în Firnkey?"
+  },
+  "clone": {
+    "message": "Clonează"
+  },
+  "cloneName": {
+    "message": "$1 - Copie"
+  },
+  "itemCloned": {
+    "message": "Element clonat. Modifică mai jos copia."
+  },
+  "fingerprintPhrase": {
+    "message": "Frază de amprentă"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Aceleași cinci cuvinte apar în seiful web și în aplicațiile Bitwarden. Compară-le când cineva îți partajează o organizație."
+  },
+  "matchDetection": {
+    "message": "Detectarea potrivirii"
+  },
+  "matchDefault": {
+    "message": "Implicit (domeniu)"
+  },
+  "matchDomain": {
+    "message": "Domeniul și subdomeniile lui"
+  },
+  "matchHost": {
+    "message": "Gazdă (și port)"
+  },
+  "matchStartsWith": {
+    "message": "Începe cu"
+  },
+  "matchExact": {
+    "message": "URL exact"
+  },
+  "matchRegex": {
+    "message": "Expresie regulată"
+  },
+  "matchNever": {
+    "message": "Niciodată"
+  },
+  "archive": {
+    "message": "Arhivă"
+  },
+  "unarchive": {
+    "message": "Dezarhivează"
+  },
+  "itemArchived": {
+    "message": "Element arhivat. Nu mai apare în completarea automată sau în lista seifului."
+  },
+  "itemUnarchived": {
+    "message": "Element mutat înapoi în seif."
+  },
+  "archiveHint": {
+    "message": "Elementele arhivate sunt păstrate, dar nu sunt niciodată completate sau sugerate."
+  },
+  "archiveEmpty": {
+    "message": "Nimic nu este arhivat."
+  },
+  "archiveItem": {
+    "message": "Arhivează"
+  },
+  "generatorPolicyHint": {
+    "message": "Organizația ta impune unele dintre aceste setări."
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "Folosește parola principală"
+  },
+  "unlockWithPin": {
+    "message": "Deblochează cu PIN"
+  },
+  "newPin": {
+    "message": "PIN nou (4 sau mai multe caractere)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Păstrează deblocarea cu PIN după repornirea browserului"
+  },
+  "pinKeepHint": {
+    "message": "Dezactivat: după repornire deblochezi o dată cu parola principală. Activat e mai puțin sigur: un PIN scurt salvat pe acest computer poate fi ghicit de oricine îți copiază profilul de browser."
+  },
+  "setPin": {
+    "message": "Setează PIN-ul"
+  },
+  "pinOn": {
+    "message": "Deblocarea cu PIN este activată. Cinci PIN-uri greșite o dezactivează."
+  },
+  "pinOff": {
+    "message": "Deblocarea cu PIN este dezactivată."
+  },
+  "passwordHealth": {
+    "message": "Starea parolelor"
+  },
+  "passwordHealthHint": {
+    "message": "Găsește parolele slabe și refolosite, iar cu verificarea scurgerilor activată și pe cele expuse."
+  },
+  "checkBreaches": {
+    "message": "Verifică parolele în scurgerile de date cunoscute"
+  },
+  "checkBreachesHint": {
+    "message": "După fiecare sincronizare, Firnkey întreabă Have I Been Pwned despre parola fiecărei autentificări. Se trimit doar primele 5 caractere ale unui hash al parolei; parola în sine nu părăsește niciodată acest browser."
+  },
+  "checkBreachesNow": {
+    "message": "Verifică scurgerile acum"
+  },
+  "checkingBreaches": {
+    "message": "Se verifică…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey are nevoie de acces la api.pwnedpasswords.com ca să verifice scurgerile."
+  },
+  "healthExposed_one": {
+    "message": "$1 expusă"
+  },
+  "healthExposed_other": {
+    "message": "$1 expuse"
+  },
+  "healthExposed_few": {
+    "message": "$1 expuse"
+  },
+  "healthReused_one": {
+    "message": "$1 refolosită"
+  },
+  "healthReused_other": {
+    "message": "$1 refolosite"
+  },
+  "healthReused_few": {
+    "message": "$1 refolosite"
+  },
+  "healthWeak_one": {
+    "message": "$1 slabă"
+  },
+  "healthWeak_other": {
+    "message": "$1 slabe"
+  },
+  "healthWeak_few": {
+    "message": "$1 slabe"
+  },
+  "healthNotChecked": {
+    "message": "$1 încă neverificate în scurgeri"
+  },
+  "healthAllChecked": {
+    "message": "toate verificate în scurgeri"
+  },
+  "exposedPasswords": {
+    "message": "Parole expuse"
+  },
+  "reusedPasswords": {
+    "message": "Parole refolosite"
+  },
+  "weakPasswords": {
+    "message": "Parole slabe"
+  },
+  "weakPassword": {
+    "message": "Slabă"
+  },
+  "seenInBreaches_one": {
+    "message": "Văzută în $2 scurgere de date"
+  },
+  "seenInBreaches_other": {
+    "message": "Văzută în $2 de scurgeri de date"
+  },
+  "seenInBreaches_few": {
+    "message": "Văzută în $2 scurgeri de date"
+  },
+  "usedByLogins_one": {
+    "message": "Folosită de $1 autentificare"
+  },
+  "usedByLogins_other": {
+    "message": "Folosită de $1 de autentificări"
+  },
+  "usedByLogins_few": {
+    "message": "Folosită de $1 autentificări"
+  },
+  "passwordInBreaches_one": {
+    "message": "Această parolă a apărut în $2 scurgere de date. Schimb-o."
+  },
+  "passwordInBreaches_other": {
+    "message": "Această parolă a apărut în $2 de scurgeri de date. Schimb-o."
+  },
+  "passwordInBreaches_few": {
+    "message": "Această parolă a apărut în $2 scurgeri de date. Schimb-o."
+  },
+  "healthAllGood": {
+    "message": "Nu s-au găsit parole slabe, refolosite sau expuse."
+  },
+  "autofillOnPageLoad": {
+    "message": "Completare automată la încărcarea paginii"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Completează o autentificare potrivită imediat ce se încarcă o pagină de autentificare, fără clic. Necesită integrarea cu site-urile. O pagină compromisă sau un formular ascuns pe un site potrivit ar putea citi parola, așa că folosește-o doar pe site-uri de încredere."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Implicit pentru autentificări"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Nu completa la încărcarea paginii"
+  },
+  "useDefaultSetting": {
+    "message": "Folosește setarea implicită"
+  },
+  "always": {
+    "message": "Întotdeauna"
+  },
+  "loginWithDevice": {
+    "message": "Autentificare cu dispozitiv"
+  },
+  "signInWithSso": {
+    "message": "Autentificare cu SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Aprobă cererea într-o aplicație sau în seiful web unde ești autentificat. Verifică dacă arată această frază:"
+  },
+  "ssoUnlockHint": {
+    "message": "Autentificat cu SSO. Introdu parola principală ca să deblochezi."
+  },
+  "serverIcons": {
+    "message": "Arată pictogramele site-urilor"
+  },
+  "serverIconsHint": {
+    "message": "Serverul tău descarcă o dată pictograma fiecărui site și o păstrează în cache. Dezactivat: doar pictogramele pe care browserul le are deja."
+  },
+  "waitingForApproval": {
+    "message": "Se așteaptă aprobarea…"
+  },
+  "websites": {
+    "message": "Site-uri"
+  },
+  "addWebsite": {
+    "message": "Adaugă site"
+  },
+  "removeWebsite": {
+    "message": "Elimină site-ul"
+  },
+  "customFields": {
+    "message": "Câmpuri personalizate"
+  },
+  "fieldType": {
+    "message": "Tipul câmpului"
+  },
+  "hiddenField": {
+    "message": "Ascuns"
+  },
+  "checkboxField": {
+    "message": "Casetă de bifare"
+  },
+  "addField": {
+    "message": "Adaugă câmp"
+  },
+  "fieldName": {
+    "message": "Numele câmpului"
+  },
+  "fieldValue": {
+    "message": "Valoare"
+  },
+  "removeField": {
+    "message": "Elimină câmpul"
+  },
+  "collections": {
+    "message": "Colecții"
+  },
+  "allVaults": {
+    "message": "Toate seifurile"
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "allCollections": {
+    "message": "Toate colecțiile"
+  },
+  "allFolders": {
+    "message": "Toate dosarele"
+  },
+  "allTypes": {
+    "message": "Toate tipurile"
+  },
+  "editSend": {
+    "message": "Editează Send-ul"
+  },
+  "keepDeletionDate": {
+    "message": "Păstrează ($1)"
+  },
+  "removePassword": {
+    "message": "Elimină parola"
+  },
+  "sendSaved": {
+    "message": "$1 salvat."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Organizația ta blochează seiful după cel mult $1 de inactivitate."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Organizația ta te deconectează după cel mult $1 de inactivitate."
+  }
+}

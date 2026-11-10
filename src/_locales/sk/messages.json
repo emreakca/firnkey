@@ -1,0 +1,1911 @@
+{
+  "languageCode": {
+    "message": "sk",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Správca hesiel pre váš vlastný server"
+  },
+  "starting": {
+    "message": "Spúšťanie"
+  },
+  "connectYourServer": {
+    "message": "Pripojte svoj server"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey žiada o prístup len k serveru, ktorý zvolíte."
+  },
+  "serverUrl": {
+    "message": "URL servera"
+  },
+  "verifyServer": {
+    "message": "Overiť server"
+  },
+  "signIn": {
+    "message": "Prihlásiť sa"
+  },
+  "change": {
+    "message": "Zmeniť"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Hlavné heslo"
+  },
+  "twoStepLogin": {
+    "message": "Dvojstupňové prihlásenie"
+  },
+  "method": {
+    "message": "Metóda"
+  },
+  "sendEmailCode": {
+    "message": "Poslať kód e-mailom"
+  },
+  "verificationCode": {
+    "message": "Overovací kód"
+  },
+  "rememberThisDevice": {
+    "message": "Zapamätať si toto zariadenie"
+  },
+  "newDeviceVerification": {
+    "message": "Overenie nového zariadenia"
+  },
+  "deviceVerificationHint": {
+    "message": "Zadajte overovací kód, ktorý poslal váš server."
+  },
+  "deviceVerificationCode": {
+    "message": "Overovací kód zariadenia"
+  },
+  "signInAndSync": {
+    "message": "Prihlásiť sa a synchronizovať"
+  },
+  "vaultLocked": {
+    "message": "Trezor zamknutý"
+  },
+  "unlock": {
+    "message": "Odomknúť"
+  },
+  "unlockWithBiometrics": {
+    "message": "Odomknúť pomocou Touch ID / biometrie"
+  },
+  "logOut": {
+    "message": "Odhlásiť sa"
+  },
+  "allItems": {
+    "message": "Všetky položky"
+  },
+  "noMatchingItems": {
+    "message": "Žiadne zodpovedajúce položky."
+  },
+  "viewAll": {
+    "message": "Zobraziť všetko"
+  },
+  "authenticatorEmpty": {
+    "message": "Zatiaľ žiadne overovacie kľúče. Zvoľte Nový a naskenujte QR kód alebo vložte kľúč."
+  },
+  "importOrExportKeys": {
+    "message": "Importovať alebo exportovať kľúče"
+  },
+  "scanQrOnPage": {
+    "message": "Naskenovať QR kód na tejto stránke"
+  },
+  "saveTo": {
+    "message": "Uložiť do"
+  },
+  "newLogin": {
+    "message": "Nové prihlásenie"
+  },
+  "key": {
+    "message": "Kľúč"
+  },
+  "name": {
+    "message": "Názov"
+  },
+  "nicknameOptional": {
+    "message": "Prezývka (voliteľné)"
+  },
+  "account": {
+    "message": "Účet"
+  },
+  "website": {
+    "message": "Web"
+  },
+  "issuer": {
+    "message": "Vydavateľ"
+  },
+  "advanced": {
+    "message": "Rozšírené"
+  },
+  "algorithm": {
+    "message": "Algoritmus"
+  },
+  "digits": {
+    "message": "Číslice"
+  },
+  "periodSeconds": {
+    "message": "Perióda (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Väčšina služieb používa SHA-1, 6 číslic a 30 sekúnd. Kľúče Steam (vydavateľ Steam) vždy vytvárajú päťznakové kódy."
+  },
+  "save": {
+    "message": "Uložiť"
+  },
+  "import": {
+    "message": "Importovať"
+  },
+  "keysImportHint": {
+    "message": "Jeden odkaz otpauth://totp/ na riadok, ako ich exportujú overovacie aplikácie. Z každého nového kľúča sa stane prihlásenie."
+  },
+  "chooseFile": {
+    "message": "Vybrať súbor"
+  },
+  "checkList": {
+    "message": "Skontrolovať zoznam"
+  },
+  "export": {
+    "message": "Exportovať"
+  },
+  "keysExportHint": {
+    "message": "Uloží každý kľúč ako odkaz otpauth:// do textového súboru. Ktokoľvek so súborom môže vytvárať vaše kódy, preto ho po importe vymažte."
+  },
+  "exportKeys": {
+    "message": "Exportovať kľúče"
+  },
+  "sendIntro": {
+    "message": "Zdieľajte text alebo súbor cez end-to-end šifrovaný odkaz, ktorý sa sám vymaže."
+  },
+  "sendEmpty": {
+    "message": "Zatiaľ žiadne Sendy. Zvoľte Nový a zdieľajte text alebo súbor."
+  },
+  "text": {
+    "message": "Text"
+  },
+  "file": {
+    "message": "Súbor"
+  },
+  "sendHideText": {
+    "message": "Skryť text, kým ho príjemca nezobrazí"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Nie je vybraný súbor · najviac 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Vymazať o"
+  },
+  "days1": {
+    "message": "1 deň"
+  },
+  "days2": {
+    "message": "2 dni"
+  },
+  "days3": {
+    "message": "3 dni"
+  },
+  "days7": {
+    "message": "7 dní"
+  },
+  "days14": {
+    "message": "14 dní"
+  },
+  "days30": {
+    "message": "30 dní"
+  },
+  "options": {
+    "message": "Možnosti"
+  },
+  "passwordOptional": {
+    "message": "Heslo (voliteľné)"
+  },
+  "maximumViewsOptional": {
+    "message": "Maximálny počet zobrazení (voliteľné)"
+  },
+  "createAndCopyLink": {
+    "message": "Vytvoriť a skopírovať odkaz"
+  },
+  "passwordGenerator": {
+    "message": "Generátor hesiel"
+  },
+  "generatorHint": {
+    "message": "Vytvorené lokálne pomocou kryptografického zdroja náhody prehliadača."
+  },
+  "password": {
+    "message": "Heslo"
+  },
+  "passphrase": {
+    "message": "Heslová fráza"
+  },
+  "username": {
+    "message": "Používateľské meno"
+  },
+  "length": {
+    "message": "Dĺžka"
+  },
+  "uppercase": {
+    "message": "Veľké písmená"
+  },
+  "lowercase": {
+    "message": "Malé písmená"
+  },
+  "numbers": {
+    "message": "Číslice"
+  },
+  "symbols": {
+    "message": "Symboly"
+  },
+  "words": {
+    "message": "Slová"
+  },
+  "wordSeparator": {
+    "message": "Oddeľovač slov"
+  },
+  "capitalize": {
+    "message": "Veľké začiatočné písmeno"
+  },
+  "includeNumber": {
+    "message": "Pridať číslicu"
+  },
+  "type": {
+    "message": "Typ"
+  },
+  "randomWord": {
+    "message": "Náhodné slovo"
+  },
+  "plusAddressedEmail": {
+    "message": "E-mail s príponou +"
+  },
+  "catchAllEmail": {
+    "message": "E-mail catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Preposielaný e-mailový alias"
+  },
+  "forwardingService": {
+    "message": "Služba preposielania"
+  },
+  "apiKey": {
+    "message": "Kľúč API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Uloží sa po prvom použití; ak ho chcete zachovať, nechajte prázdne"
+  },
+  "aliasDomain": {
+    "message": "Doména aliasu"
+  },
+  "createAlias": {
+    "message": "Vytvoriť alias"
+  },
+  "creatingAlias": {
+    "message": "Vytváranie aliasu…"
+  },
+  "aliasCreated": {
+    "message": "Alias vytvorený"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey potrebuje prístup k službe preposielania, aby mohol vytvoriť alias."
+  },
+  "yourEmail": {
+    "message": "Váš e-mail"
+  },
+  "yourCatchAllDomain": {
+    "message": "Vaša doména catch-all"
+  },
+  "generateAnother": {
+    "message": "Vytvoriť znova"
+  },
+  "useInNewLogin": {
+    "message": "Použiť v novom prihlásení"
+  },
+  "security": {
+    "message": "Zabezpečenie"
+  },
+  "securityGroupHint": {
+    "message": "Zamykanie, biometria, schránka"
+  },
+  "autofillSaving": {
+    "message": "Automatické vypĺňanie a ukladanie"
+  },
+  "autofillGroupHint": {
+    "message": "Integrácia s webmi, výzvy na uloženie, vylúčené domény"
+  },
+  "vault": {
+    "message": "Trezor"
+  },
+  "vaultGroupHint": {
+    "message": "Priečinky, karta Overovač"
+  },
+  "importExport": {
+    "message": "Import a export"
+  },
+  "transferGroupHint": {
+    "message": "Presuňte trezor z iného správcu hesiel alebo doň"
+  },
+  "accountSync": {
+    "message": "Účet a synchronizácia"
+  },
+  "accountGroupHint": {
+    "message": "Účty, živá synchronizácia, odhlásenie"
+  },
+  "lockVault": {
+    "message": "Zamknúť trezor"
+  },
+  "after1Minute": {
+    "message": "Po 1 minúte"
+  },
+  "after5Minutes": {
+    "message": "Po 5 minútach"
+  },
+  "after15Minutes": {
+    "message": "Po 15 minútach"
+  },
+  "after30Minutes": {
+    "message": "Po 30 minútach"
+  },
+  "after1Hour": {
+    "message": "Po 1 hodine"
+  },
+  "after2Hours": {
+    "message": "Po 2 hodinách"
+  },
+  "after4Hours": {
+    "message": "Po 4 hodinách"
+  },
+  "after8Hours": {
+    "message": "Po 8 hodinách"
+  },
+  "after24Hours": {
+    "message": "Po 24 hodinách"
+  },
+  "whenTheComputerLocks": {
+    "message": "Pri zamknutí počítača"
+  },
+  "whenBrowserCloses": {
+    "message": "Pri zatvorení prehliadača"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Nechať odomknuté do odhlásenia"
+  },
+  "untilLogoutHint": {
+    "message": "„Do odhlásenia“ šifruje reláciu pre tento profil prehliadača, ale na zdieľanom počítači je menej bezpečné."
+  },
+  "lockNow": {
+    "message": "Zamknúť teraz"
+  },
+  "clearCopiedSecrets": {
+    "message": "Mazať skopírované tajomstvá"
+  },
+  "after10Seconds": {
+    "message": "Po 10 sekundách"
+  },
+  "after20Seconds": {
+    "message": "Po 20 sekundách"
+  },
+  "after30Seconds": {
+    "message": "Po 30 sekundách"
+  },
+  "after2Minutes": {
+    "message": "Po 2 minútach"
+  },
+  "never": {
+    "message": "Nikdy"
+  },
+  "clipboardOwnOnly": {
+    "message": "Mazať len to, čo skopíroval Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Vyžaduje povolenie čítať schránku, aby text skopírovaný inde zostal nedotknutý."
+  },
+  "websiteIntegration": {
+    "message": "Integrácia s webmi"
+  },
+  "websiteIntegrationHint": {
+    "message": "Návrhy automatického vypĺňania a výzvy na uloženie."
+  },
+  "enable": {
+    "message": "Zapnúť"
+  },
+  "fillSignInDialogs": {
+    "message": "Vypĺňať prihlasovacie dialógy (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Odpovie na prihlasovací dialóg prehliadača, keď mu zodpovedá práve jedno nechránené prihlásenie."
+  },
+  "savePrompts": {
+    "message": "Výzvy na uloženie"
+  },
+  "askToAddLogin": {
+    "message": "Ponúkať pridanie prihlásenia"
+  },
+  "askToUpdateLogin": {
+    "message": "Ponúkať aktualizáciu existujúceho prihlásenia"
+  },
+  "askPasskeys": {
+    "message": "Ponúkať ukladanie a používanie prístupových kľúčov"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Zavrieť výzvy na uloženie po (sekundách)"
+  },
+  "excludedDomains": {
+    "message": "Vylúčené domény"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey na týchto doménach nebude navrhovať, vypĺňať ani ukladať prihlasovacie údaje."
+  },
+  "add": {
+    "message": "Pridať"
+  },
+  "folders": {
+    "message": "Priečinky"
+  },
+  "foldersHint": {
+    "message": "Vymazaním priečinka sa jeho položky zachovajú; presunú sa do Bez priečinka."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Zobraziť kartu Overovač"
+  },
+  "authenticatorTabHint": {
+    "message": "Živé overovacie kódy pre vaše prihlásenia. Kľúče pridávajte QR kódom, ručne alebo zo súboru."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Zobraziť len kódy tohto webu, ak nejaké má"
+  },
+  "vaultImportHint": {
+    "message": "Export JSON z Bitwardenu (nešifrovaný alebo chránený heslom), export .1pux z 1Password alebo súbor CSV z Bitwardenu, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefoxu alebo Safari. Položky sa uložia do vášho osobného trezoru."
+  },
+  "noFileChosen": {
+    "message": "Nie je vybraný súbor"
+  },
+  "filePassword": {
+    "message": "Heslo súboru"
+  },
+  "checkFile": {
+    "message": "Skontrolovať súbor"
+  },
+  "format": {
+    "message": "Formát"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON chránený heslom súboru"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, nešifrovaný"
+  },
+  "filePasswordHint": {
+    "message": "Potrebné na opätovný import súboru. Firnkey ho nevie obnoviť."
+  },
+  "unencryptedExportWarning": {
+    "message": "Ktokoľvek s nešifrovaným súborom si môže prečítať všetky heslá v ňom. Po importe ho vymažte."
+  },
+  "exportScopeHint": {
+    "message": "Exportuje vaše osobné položky. Položky organizácie zostávajú v organizácii."
+  },
+  "exportVault": {
+    "message": "Exportovať trezor"
+  },
+  "liveSync": {
+    "message": "Živá synchronizácia"
+  },
+  "liveSyncHint": {
+    "message": "Získava zmeny zo servera okamžite. Vypnutá kontroluje raz za minútu a spotrebuje menej pamäte."
+  },
+  "syncNow": {
+    "message": "Synchronizovať teraz"
+  },
+  "addAccount": {
+    "message": "Pridať účet"
+  },
+  "repromptHint": {
+    "message": "Táto položka vyžaduje hlavné heslo, kým bude možné použiť chránené polia."
+  },
+  "unlockProtectedFields": {
+    "message": "Odomknúť chránené polia"
+  },
+  "show": {
+    "message": "Zobraziť"
+  },
+  "addAttachment": {
+    "message": "Pridať prílohu"
+  },
+  "fillOnThisPage": {
+    "message": "Vyplniť na tejto stránke"
+  },
+  "edit": {
+    "message": "Upraviť"
+  },
+  "moveToTrash": {
+    "message": "Presunúť do koša"
+  },
+  "addLogin": {
+    "message": "Pridať prihlásenie"
+  },
+  "login": {
+    "message": "Prihlásenie"
+  },
+  "card": {
+    "message": "Karta"
+  },
+  "identity": {
+    "message": "Identita"
+  },
+  "secureNote": {
+    "message": "Zabezpečená poznámka"
+  },
+  "folder": {
+    "message": "Priečinok"
+  },
+  "noFolder": {
+    "message": "Bez priečinka"
+  },
+  "owner": {
+    "message": "Vlastník"
+  },
+  "myVault": {
+    "message": "Môj trezor"
+  },
+  "moveToOrganizationHint": {
+    "message": "Presun do organizácie sa tu nedá vrátiť; položka potom patrí organizácii."
+  },
+  "generate": {
+    "message": "Vytvoriť"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Overovací kľúč (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Skenovať QR"
+  },
+  "notes": {
+    "message": "Poznámky"
+  },
+  "favorite": {
+    "message": "Obľúbené"
+  },
+  "authenticator": {
+    "message": "Overovač"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generátor"
+  },
+  "settings": {
+    "message": "Nastavenia"
+  },
+  "back": {
+    "message": "Späť"
+  },
+  "openSettings": {
+    "message": "Otvoriť nastavenia"
+  },
+  "searchVault": {
+    "message": "Hľadať v trezore"
+  },
+  "keyOrTotpLink": {
+    "message": "Kľúč Base32 alebo odkaz otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Predvolene vydavateľ"
+  },
+  "shownInsteadOfThe": {
+    "message": "Zobrazí sa namiesto názvu"
+  },
+  "keysToImport": {
+    "message": "Kľúče na import"
+  },
+  "whatToSend": {
+    "message": "Čo poslať"
+  },
+  "whatToGenerate": {
+    "message": "Čo vytvoriť"
+  },
+  "generatedValue": {
+    "message": "Vytvorená hodnota"
+  },
+  "copy": {
+    "message": "Kopírovať"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopírovať vytvorenú hodnotu"
+  },
+  "domainToExclude": {
+    "message": "Doména na vylúčenie"
+  },
+  "newFolder": {
+    "message": "Nový priečinok"
+  },
+  "newFolderName": {
+    "message": "Názov nového priečinka"
+  },
+  "copyUsername": {
+    "message": "Kopírovať používateľské meno"
+  },
+  "copyPassword": {
+    "message": "Kopírovať heslo"
+  },
+  "copyVerificationCode": {
+    "message": "Kopírovať overovací kód"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Kľúč Base32 alebo odkaz otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Hlavná navigácia"
+  },
+  "firnkeyPasskey": {
+    "message": "Prístupový kľúč Firnkey"
+  },
+  "passkey": {
+    "message": "Prístupový kľúč"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Ak chcete pokračovať, odomknite Firnkey."
+  },
+  "verifyWithBiometrics": {
+    "message": "Overiť pomocou Touch ID / biometrie"
+  },
+  "continue": {
+    "message": "Pokračovať"
+  },
+  "useAnotherDevice": {
+    "message": "Použiť iné zariadenie"
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "sshKey": {
+    "message": "Kľúč SSH"
+  },
+  "cardholderName": {
+    "message": "Meno držiteľa"
+  },
+  "brand": {
+    "message": "Značka"
+  },
+  "number": {
+    "message": "Číslo"
+  },
+  "expirationMonth": {
+    "message": "Mesiac platnosti"
+  },
+  "expirationYear": {
+    "message": "Rok platnosti"
+  },
+  "securityCode": {
+    "message": "Bezpečnostný kód"
+  },
+  "title": {
+    "message": "Oslovenie"
+  },
+  "firstName": {
+    "message": "Meno"
+  },
+  "middleName": {
+    "message": "Druhé meno"
+  },
+  "lastName": {
+    "message": "Priezvisko"
+  },
+  "company": {
+    "message": "Spoločnosť"
+  },
+  "phone": {
+    "message": "Telefón"
+  },
+  "address1": {
+    "message": "Adresa 1"
+  },
+  "address2": {
+    "message": "Adresa 2"
+  },
+  "address3": {
+    "message": "Adresa 3"
+  },
+  "city": {
+    "message": "Mesto / obec"
+  },
+  "stateProvince": {
+    "message": "Štát / kraj"
+  },
+  "postalCode": {
+    "message": "PSČ"
+  },
+  "country": {
+    "message": "Krajina"
+  },
+  "ssn": {
+    "message": "Rodné číslo / číslo poistenia"
+  },
+  "passportNumber": {
+    "message": "Číslo pasu"
+  },
+  "licenseNumber": {
+    "message": "Číslo vodičského preukazu"
+  },
+  "addSecureNote": {
+    "message": "Pridať zabezpečenú poznámku"
+  },
+  "addCard": {
+    "message": "Pridať kartu"
+  },
+  "addIdentity": {
+    "message": "Pridať identitu"
+  },
+  "addSshKey": {
+    "message": "Pridať kľúč SSH"
+  },
+  "editLogin": {
+    "message": "Upraviť prihlásenie"
+  },
+  "editSecureNote": {
+    "message": "Upraviť zabezpečenú poznámku"
+  },
+  "editCard": {
+    "message": "Upraviť kartu"
+  },
+  "editIdentity": {
+    "message": "Upraviť identitu"
+  },
+  "editSshKey": {
+    "message": "Upraviť kľúč SSH"
+  },
+  "passphraseGenerator": {
+    "message": "Generátor heslových fráz"
+  },
+  "usernameGenerator": {
+    "message": "Generátor používateľských mien"
+  },
+  "generatedPasswordCopied": {
+    "message": "Vytvorené heslo skopírované."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Vytvorená fráza skopírovaná."
+  },
+  "generatedUsernameCopied": {
+    "message": "Vytvorené používateľské meno skopírované."
+  },
+  "removeKey": {
+    "message": "Odstrániť kľúč"
+  },
+  "biometricOff": {
+    "message": "Biometrické odomykanie vypnuté."
+  },
+  "usernameCopied": {
+    "message": "Používateľské meno skopírované."
+  },
+  "passwordCopied": {
+    "message": "Heslo skopírované."
+  },
+  "hide": {
+    "message": "Skryť"
+  },
+  "movedToTrash": {
+    "message": "Presunuté do koša."
+  },
+  "websiteAccessDenied": {
+    "message": "Prístup k webom nebol udelený."
+  },
+  "websiteIntegrationOn": {
+    "message": "Automatické vypĺňanie a výzvy na uloženie zapnuté."
+  },
+  "websiteIntegrationOff": {
+    "message": "Výzvy na weboch vypnuté."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Vypĺňanie prihlasovacích dialógov vyžaduje povolenie vidieť ich na weboch."
+  },
+  "preferencesUpdated": {
+    "message": "Predvoľby aktualizované."
+  },
+  "invalidDomain": {
+    "message": "Zadajte platnú doménu, napríklad example.com."
+  },
+  "remove": {
+    "message": "Odstrániť"
+  },
+  "enabled": {
+    "message": "Zapnuté"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Vypnúť integráciu s webmi"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Zapnúť integráciu s webmi"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Nepodporovaný čas zamykania."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Nepodporovaný čas schránky."
+  },
+  "clipboardClearsAfter": {
+    "message": "Skopírované tajomstvá sa vymažú o $1."
+  },
+  "clipboardKeeps": {
+    "message": "Skopírované tajomstvá zostanú v schránke."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey vymaže schránku len vtedy, keď stále obsahuje to, čo Firnkey skopíroval."
+  },
+  "seconds_one": {
+    "message": "$1 sekunda"
+  },
+  "seconds_other": {
+    "message": "$1 sekúnd"
+  },
+  "seconds_few": {
+    "message": "$1 sekundy"
+  },
+  "minutes_one": {
+    "message": "$1 minúta"
+  },
+  "minutes_other": {
+    "message": "$1 minút"
+  },
+  "minutes_few": {
+    "message": "$1 minúty"
+  },
+  "hours_one": {
+    "message": "$1 hodina"
+  },
+  "hours_other": {
+    "message": "$1 hodín"
+  },
+  "hours_few": {
+    "message": "$1 hodiny"
+  },
+  "lockOnComputerLock": {
+    "message": "Trezor sa zamkne pri zamknutí počítača alebo zatvorení prehliadača."
+  },
+  "lockOnLogout": {
+    "message": "Trezor zostane v tomto prehliadači odomknutý, kým ho nezamknete alebo sa neodhlásite."
+  },
+  "lockOnBrowserClose": {
+    "message": "Trezor zostane odomknutý do zatvorenia prehliadača."
+  },
+  "lockAfterInactivity": {
+    "message": "Trezor sa zamkne po nečinnosti v trvaní $1."
+  },
+  "waitingForVerification": {
+    "message": "Čaká sa na overenie…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Pred zapnutím biometrického odomykania odomknite trezor."
+  },
+  "noPasskeyCreated": {
+    "message": "Nebol vytvorený žiadny prístupový kľúč."
+  },
+  "biometricOn": {
+    "message": "Biometrické odomykanie je zapnuté."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrické odomykanie teraz nie je k dispozícii."
+  },
+  "vaultUnlocked_one": {
+    "message": "Trezor odomknutý, obsahuje $1 položku."
+  },
+  "vaultUnlocked_other": {
+    "message": "Trezor odomknutý, obsahuje $1 položiek."
+  },
+  "vaultUnlocked_few": {
+    "message": "Trezor odomknutý, obsahuje $1 položky."
+  },
+  "verificationCancelled": {
+    "message": "Overenie bolo zrušené alebo vypršalo."
+  },
+  "notConnected": {
+    "message": "Nepripojené"
+  },
+  "connectAServer": {
+    "message": "Pripojiť server"
+  },
+  "signedOut": {
+    "message": "Odhlásené"
+  },
+  "itemCount_one": {
+    "message": "$1 položka"
+  },
+  "itemCount_other": {
+    "message": "$1 položiek"
+  },
+  "itemCount_few": {
+    "message": "$1 položky"
+  },
+  "locked": {
+    "message": "Zamknuté"
+  },
+  "unlocked": {
+    "message": "Odomknuté"
+  },
+  "settingsFor": {
+    "message": "Nastavenia pre $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · najprv návrhy pre túto stránku"
+  },
+  "itemTotal_one": {
+    "message": "$1 položka celkom"
+  },
+  "itemTotal_other": {
+    "message": "$1 položiek celkom"
+  },
+  "itemTotal_few": {
+    "message": "$1 položky celkom"
+  },
+  "skippedItems_one": {
+    "message": "$1 nepodporovaná alebo poškodená položka bola preskočená."
+  },
+  "skippedItems_other": {
+    "message": "$1 nepodporovaných alebo poškodených položiek bolo preskočených."
+  },
+  "skippedItems_few": {
+    "message": "$1 nepodporované alebo poškodené položky boli preskočené."
+  },
+  "otherAccounts": {
+    "message": "Ďalšie účty"
+  },
+  "switch": {
+    "message": "Prepnúť"
+  },
+  "removeAccountTitle": {
+    "message": "Odstrániť $1 z Firnkey v tomto prehliadači"
+  },
+  "switchedTo": {
+    "message": "Prepnuté na $1."
+  },
+  "accountRemoved": {
+    "message": "$1 odstránený z tohto prehliadača."
+  },
+  "addAccountHint": {
+    "message": "Prihláste sa do druhého účtu. Súčasný zostane uložený a zamknutý nižšie."
+  },
+  "verifying": {
+    "message": "Overovanie…"
+  },
+  "serverPermissionDenied": {
+    "message": "Povolenie pre server nebolo udelené."
+  },
+  "signingIn": {
+    "message": "Prihlasovanie…"
+  },
+  "continueInNewWindow": {
+    "message": "Znova zvoľte Prihlásiť sa a pokračujte v novom okne."
+  },
+  "enterTwoStepCode": {
+    "message": "Zadajte kód dvojstupňového prihlásenia."
+  },
+  "unlocking": {
+    "message": "Odomykanie…"
+  },
+  "trashHint": {
+    "message": "Obnovte položky alebo ich natrvalo vymažte."
+  },
+  "trashEmpty": {
+    "message": "Kôš je prázdny."
+  },
+  "autofillSuggestions": {
+    "message": "Návrhy automatického vypĺňania"
+  },
+  "otherResults": {
+    "message": "Ďalšie výsledky"
+  },
+  "trash": {
+    "message": "Kôš"
+  },
+  "folderName": {
+    "message": "Názov priečinka"
+  },
+  "rename": {
+    "message": "Premenovať"
+  },
+  "delete": {
+    "message": "Vymazať"
+  },
+  "folderRenamed": {
+    "message": "Priečinok premenovaný."
+  },
+  "folderAdded": {
+    "message": "Priečinok pridaný."
+  },
+  "folderDeleted": {
+    "message": "Priečinok vymazaný. Jeho položky sú teraz v Bez priečinka."
+  },
+  "confirm": {
+    "message": "Potvrdiť"
+  },
+  "matchesThisPage": {
+    "message": "Zodpovedá tejto stránke"
+  },
+  "restore": {
+    "message": "Obnoviť"
+  },
+  "itemRestored": {
+    "message": "Položka obnovená."
+  },
+  "deleteForever": {
+    "message": "Vymazať natrvalo"
+  },
+  "itemDeletedForever": {
+    "message": "Položka natrvalo vymazaná."
+  },
+  "open": {
+    "message": "Otvoriť"
+  },
+  "fill": {
+    "message": "Vyplniť"
+  },
+  "openWebsite": {
+    "message": "Otvoriť web"
+  },
+  "cardNumber": {
+    "message": "Číslo karty"
+  },
+  "note": {
+    "message": "Poznámka"
+  },
+  "publicKey": {
+    "message": "Verejný kľúč"
+  },
+  "copyPublicKey": {
+    "message": "Kopírovať verejný kľúč"
+  },
+  "copyCardNumber": {
+    "message": "Kopírovať číslo karty"
+  },
+  "copyNote": {
+    "message": "Kopírovať poznámku"
+  },
+  "copySecurityCode": {
+    "message": "Kopírovať bezpečnostný kód"
+  },
+  "copyPrivateKey": {
+    "message": "Kopírovať súkromný kľúč"
+  },
+  "privateKey": {
+    "message": "Súkromný kľúč"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Pred vymazaním tejto položky potvrďte hlavné heslo."
+  },
+  "moreActions": {
+    "message": "Ďalšie akcie"
+  },
+  "noWebAddress": {
+    "message": "Toto prihlásenie nemá webovú adresu."
+  },
+  "noWebsiteSaved": {
+    "message": "Nie je uložený žiadny web"
+  },
+  "loading": {
+    "message": "Načítava sa…"
+  },
+  "expiration": {
+    "message": "Platnosť"
+  },
+  "address": {
+    "message": "Adresa"
+  },
+  "fingerprint": {
+    "message": "Odtlačok"
+  },
+  "customField": {
+    "message": "Vlastné pole"
+  },
+  "passwordHistory": {
+    "message": "História hesiel ($1)"
+  },
+  "oldPassword": {
+    "message": "Staré heslo"
+  },
+  "organization": {
+    "message": "Organizácia"
+  },
+  "attachmentsCount": {
+    "message": "Prílohy ($1)"
+  },
+  "downloadFile": {
+    "message": "Stiahnuť $1"
+  },
+  "deleteFile": {
+    "message": "Vymazať $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 stiahnuté."
+  },
+  "fileTooLarge25": {
+    "message": "Súbor je príliš veľký (najviac 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Súbor je prázdny."
+  },
+  "uploadingFile": {
+    "message": "Šifrovanie a nahrávanie $1…"
+  },
+  "fileAttached": {
+    "message": "$1 priložené."
+  },
+  "fileDeleted": {
+    "message": "$1 vymazané."
+  },
+  "copyLink": {
+    "message": "Kopírovať odkaz"
+  },
+  "viewsOf": {
+    "message": "$1 z $2 zobrazení"
+  },
+  "views_one": {
+    "message": "$1 zobrazenie"
+  },
+  "views_other": {
+    "message": "$1 zobrazení"
+  },
+  "views_few": {
+    "message": "$1 zobrazenia"
+  },
+  "deletesOn": {
+    "message": "Vymaže sa $1"
+  },
+  "disabled": {
+    "message": "Vypnuté"
+  },
+  "sendLinkCopied": {
+    "message": "Odkaz na Send skopírovaný."
+  },
+  "deleteSendTitle": {
+    "message": "Vymazať $1; jeho odkaz prestane fungovať"
+  },
+  "sendDeleted": {
+    "message": "$1 vymazaný. Jeho odkaz už nefunguje."
+  },
+  "encrypting": {
+    "message": "Šifrovanie…"
+  },
+  "chooseFileToSend": {
+    "message": "Vyberte súbor na odoslanie."
+  },
+  "sendCreatedCopied": {
+    "message": "Send vytvorený. Odkaz skopírovaný."
+  },
+  "sendCreatedSync": {
+    "message": "Send vytvorený. Synchronizujte a potom skopírujte jeho odkaz zo zoznamu."
+  },
+  "fileTooLarge10": {
+    "message": "Súbor je príliš veľký (najviac 10 MB)."
+  },
+  "importing": {
+    "message": "Importovanie…"
+  },
+  "checking": {
+    "message": "Kontrola…"
+  },
+  "importedItems": {
+    "message": "Importované: $1."
+  },
+  "importItems": {
+    "message": "Importovať: $1"
+  },
+  "foundItems": {
+    "message": "Nájdené: $1. Pridajú sa do vášho trezoru; nič sa nenahradí."
+  },
+  "foundItemsInFolders": {
+    "message": "Nájdené: $1 v $2. Pridajú sa do vášho trezoru; nič sa nenahradí."
+  },
+  "folderCount_one": {
+    "message": "$1 priečinok"
+  },
+  "folderCount_other": {
+    "message": "$1 priečinkov"
+  },
+  "folderCount_few": {
+    "message": "$1 priečinky"
+  },
+  "exporting": {
+    "message": "Exportovanie…"
+  },
+  "vaultExportedPlain": {
+    "message": "Trezor exportovaný. Po importe súbor vymažte."
+  },
+  "vaultExportedProtected": {
+    "message": "Trezor exportovaný. Heslo súboru dobre uschovajte."
+  },
+  "createdOn": {
+    "message": "Vytvorené $1"
+  },
+  "lastEdited": {
+    "message": "Naposledy upravené $1"
+  },
+  "itemHistory": {
+    "message": "História položky"
+  },
+  "loginCredentials": {
+    "message": "Prihlasovacie údaje"
+  },
+  "itemDetails": {
+    "message": "Podrobnosti položky"
+  },
+  "autofillOptions": {
+    "message": "Možnosti automatického vypĺňania"
+  },
+  "passwordChangedOn": {
+    "message": "Naposledy zmenené $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Odstrániť tento prístupový kľúč z prihlásenia"
+  },
+  "passkeyRemoved": {
+    "message": "Prístupový kľúč odstránený."
+  },
+  "usedUntil": {
+    "message": "Používané do $1"
+  },
+  "earlierPassword": {
+    "message": "Skoršie heslo"
+  },
+  "fieldCopied": {
+    "message": "$1 skopírované."
+  },
+  "copyField": {
+    "message": "Kopírovať $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Pred kopírovaním z tejto položky potvrďte hlavné heslo."
+  },
+  "codeCopied": {
+    "message": "Overovací kód skopírovaný."
+  },
+  "viewOnlyItem": {
+    "message": "Vaša organizácia vám túto položku dovoľuje zobraziť, ale nie meniť."
+  },
+  "confirmBeforeEditing": {
+    "message": "Pred úpravou tejto položky potvrďte hlavné heslo."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "RRRR"
+  },
+  "saving": {
+    "message": "Ukladanie…"
+  },
+  "loginUpdated": {
+    "message": "Prihlásenie aktualizované."
+  },
+  "loginAdded": {
+    "message": "Prihlásenie pridané."
+  },
+  "itemUpdated": {
+    "message": "$1 aktualizované."
+  },
+  "itemAdded": {
+    "message": "$1 pridané."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Chránené polia odomknuté na 60 sekúnd."
+  },
+  "unavailable": {
+    "message": "Nedostupné"
+  },
+  "secondsLeft_one": {
+    "message": "Zostáva $1 sekunda"
+  },
+  "secondsLeft_other": {
+    "message": "Zostáva $1 sekúnd"
+  },
+  "secondsLeft_few": {
+    "message": "Zostávajú $1 sekundy"
+  },
+  "codesForSite": {
+    "message": "Kódy pre tento web · spolu $1"
+  },
+  "codeCount_one": {
+    "message": "$1 kód"
+  },
+  "codeCount_other": {
+    "message": "$1 kódov"
+  },
+  "codeCount_few": {
+    "message": "$1 kódy"
+  },
+  "thisWebsite": {
+    "message": "Tento web"
+  },
+  "openToConfirm": {
+    "message": "Otvoriť a potvrdiť hlavné heslo"
+  },
+  "protected": {
+    "message": "Chránené"
+  },
+  "fillIntoPage": {
+    "message": "Vyplniť na tejto stránke"
+  },
+  "editKey": {
+    "message": "Upraviť kľúč"
+  },
+  "codeFilled": {
+    "message": "Kód pre $1 vyplnený."
+  },
+  "confirmThenEditKey": {
+    "message": "Potvrďte hlavné heslo a potom upravte kľúč na karte Overovač."
+  },
+  "qrReadFirstCheck": {
+    "message": "Načítaný prvý z viacerých QR kódov. Skontrolujte údaje a uložte."
+  },
+  "qrReadCheck": {
+    "message": "QR kód načítaný. Skontrolujte údaje a uložte."
+  },
+  "qrReadFirstSave": {
+    "message": "Načítaný prvý z viacerých QR kódov. Uložte prihlásenie, aby sa kľúč zachoval."
+  },
+  "qrReadSave": {
+    "message": "QR kód načítaný. Uložte prihlásenie, aby sa kľúč zachoval."
+  },
+  "qrUnsupported": {
+    "message": "Tento prehliadač nevie čítať QR kódy. Vložte namiesto toho kľúč alebo odkaz otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey túto stránku nevidí. Otvorte stránku s QR kódom a skúste to znova."
+  },
+  "qrNotFound": {
+    "message": "Vo viditeľnej časti stránky sa nenašiel žiadny overovací QR kód."
+  },
+  "qrInvalid": {
+    "message": "QR kód nie je platný časový (TOTP) overovací kľúč."
+  },
+  "keyAdded": {
+    "message": "Overovací kľúč pridaný."
+  },
+  "keyUpdated": {
+    "message": "Overovací kľúč aktualizovaný."
+  },
+  "keyRemoved": {
+    "message": "Overovací kľúč odstránený. Samotné prihlásenie zostáva v trezore."
+  },
+  "fileTooLarge256": {
+    "message": "Súbor je príliš veľký (najviac 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Najprv vložte odkazy otpauth:// alebo vyberte súbor."
+  },
+  "keysImported_one": {
+    "message": "Importovaný $1 kľúč."
+  },
+  "keysImported_other": {
+    "message": "Importovaných $1 kľúčov."
+  },
+  "keysImported_few": {
+    "message": "Importované $1 kľúče."
+  },
+  "new": {
+    "message": "Nový"
+  },
+  "duplicate": {
+    "message": "Duplicitný"
+  },
+  "invalid": {
+    "message": "Neplatný"
+  },
+  "importNewKeys_one": {
+    "message": "Importovať $1 nový kľúč"
+  },
+  "importNewKeys_other": {
+    "message": "Importovať $1 nových kľúčov"
+  },
+  "importNewKeys_few": {
+    "message": "Importovať $1 nové kľúče"
+  },
+  "checkThenImport": {
+    "message": "Skontrolujte zoznam a potom importujte."
+  },
+  "nothingNewToImport": {
+    "message": "Nie je čo nové importovať."
+  },
+  "keysExported": {
+    "message": "Kľúče exportované. Po importe inam súbor vymažte."
+  },
+  "fieldsFilled_one": {
+    "message": "Vyplnené $1 pole."
+  },
+  "fieldsFilled_other": {
+    "message": "Vyplnených $1 polí."
+  },
+  "fieldsFilled_few": {
+    "message": "Vyplnené $1 polia."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Používateľské meno a heslo vyplnené."
+  },
+  "filledUsername": {
+    "message": "Používateľské meno vyplnené."
+  },
+  "filledPassword": {
+    "message": "Heslo vyplnené."
+  },
+  "synced_one": {
+    "message": "Synchronizovaná $1 položka."
+  },
+  "synced_other": {
+    "message": "Synchronizovaných $1 položiek."
+  },
+  "synced_few": {
+    "message": "Synchronizované $1 položky."
+  },
+  "twoStepUnsupported": {
+    "message": "Tento účet vyžaduje metódu dvojstupňového prihlásenia, ktorú táto verzia nepodporuje."
+  },
+  "sending": {
+    "message": "Odosielanie…"
+  },
+  "emailCodeSent": {
+    "message": "Overovací kód odoslaný e-mailom."
+  },
+  "authenticatorApp": {
+    "message": "Overovacia aplikácia"
+  },
+  "securityKeyWebauthn": {
+    "message": "Bezpečnostný kľúč (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Kód na obnovenie"
+  },
+  "twoFactorMethod": {
+    "message": "Metóda $1"
+  },
+  "fieldEmpty": {
+    "message": "Toto pole je prázdne."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Schránka sa vymaže o $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Proces rozšírenia na pozadí neodpovedal. Načítajte rozšírenie znova."
+  },
+  "unexpectedResponse": {
+    "message": "Proces na pozadí vrátil neočakávanú odpoveď."
+  },
+  "newSend": {
+    "message": "Nový Send"
+  },
+  "item": {
+    "message": "Položka"
+  },
+  "editItem": {
+    "message": "Upraviť položku"
+  },
+  "newItem": {
+    "message": "Nová položka"
+  },
+  "addKey": {
+    "message": "Pridať kľúč"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Neočakávaná chyba rozšírenia."
+  },
+  "passkeySuggestion": {
+    "message": "Prihlásiť sa prístupovým kľúčom uloženým vo Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Vytvoriť a vyplniť heslo"
+  },
+  "suggestionsLabel": {
+    "message": "Návrhy Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Zavrieť návrhy automatického vypĺňania"
+  },
+  "dismiss": {
+    "message": "Zavrieť"
+  },
+  "toggleSuggestions": {
+    "message": "Zobraziť/skryť návrhy Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Zobraziť alebo skryť návrhy Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Aktualizovať existujúce prihlásenie"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Uložiť prihlásenie do Firnkey"
+  },
+  "notNow": {
+    "message": "Teraz nie"
+  },
+  "update": {
+    "message": "Aktualizovať"
+  },
+  "loginSaved": {
+    "message": "Prihlásenie uložené."
+  },
+  "saveFailed": {
+    "message": "Firnkey nemohol uložiť toto prihlásenie."
+  },
+  "savePasskey": {
+    "message": "Uložiť prístupový kľúč"
+  },
+  "signInWithPasskey": {
+    "message": "Prihlásiť sa prístupovým kľúčom"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey už má prístupový kľúč pre tento účet na tomto webe."
+  },
+  "close": {
+    "message": "Zavrieť"
+  },
+  "savePasskeyForAccount": {
+    "message": "Uložiť prístupový kľúč pre $1 na $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Uložiť prístupový kľúč na $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Vyberte prístupový kľúč pre $1."
+  },
+  "addTo": {
+    "message": "Pridať do $1"
+  },
+  "somethingWentWrong": {
+    "message": "Niečo sa pokazilo."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: dokončite prihlásenie bezpečnostným kľúčom."
+  },
+  "fillLogin": {
+    "message": "Vyplniť prihlásenie"
+  },
+  "extensionDescription": {
+    "message": "Ľahký open-source správca hesiel pre váš vlastný server."
+  },
+  "fillLoginCommand": {
+    "message": "Vyplniť zodpovedajúce prihlásenie na tejto stránke"
+  },
+  "copied": {
+    "message": "Skopírované"
+  },
+  "generatorHistory": {
+    "message": "História generátora"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Tu sa zobrazia heslá, ktoré z generátora skopírujete alebo použijete, spolu s webom, na ktorom ste boli. Zostávajú zašifrované v tomto prehliadači."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Bez webu · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Vytvorené heslo"
+  },
+  "clearGeneratorHistory": {
+    "message": "Vymazať históriu generátora"
+  },
+  "generatorHistoryCleared": {
+    "message": "História generátora vymazaná."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey vyplnil heslo pre $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Vyplniť heslo v ďalšom kroku po výbere účtu"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Pre prihlásenia, ktoré sa najprv pýtajú na používateľské meno. Len zvolený účet, na rovnakom webe, raz."
+  },
+  "askToSaveForms": {
+    "message": "Ponúkať uloženie kariet a adries"
+  },
+  "generateSshKey": {
+    "message": "Vytvoriť nový kľúč (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Nový kľúč SSH vytvorený. Uložte ho, aby sa zachoval."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Pridávanie dokončíte kliknutím na tlačidlo Firnkey na paneli nástrojov."
+  },
+  "saveCardToFirnkey": {
+    "message": "Uložiť kartu do Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Uložiť adresu do Firnkey?"
+  },
+  "clone": {
+    "message": "Klonovať"
+  },
+  "cloneName": {
+    "message": "$1 - kópia"
+  },
+  "itemCloned": {
+    "message": "Položka naklonovaná. Upravte kópiu nižšie."
+  },
+  "fingerprintPhrase": {
+    "message": "Fráza odtlačku"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Rovnakých päť slov sa zobrazuje vo webovom trezore a aplikáciách Bitwarden. Porovnajte ich, keď s vami niekto zdieľa organizáciu."
+  },
+  "matchDetection": {
+    "message": "Detekcia zhody"
+  },
+  "matchDefault": {
+    "message": "Predvolené (doména)"
+  },
+  "matchDomain": {
+    "message": "Doména a jej subdomény"
+  },
+  "matchHost": {
+    "message": "Hostiteľ (a port)"
+  },
+  "matchStartsWith": {
+    "message": "Začína na"
+  },
+  "matchExact": {
+    "message": "Presná URL"
+  },
+  "matchRegex": {
+    "message": "Regulárny výraz"
+  },
+  "matchNever": {
+    "message": "Nikdy"
+  },
+  "archive": {
+    "message": "Archív"
+  },
+  "unarchive": {
+    "message": "Vrátiť z archívu"
+  },
+  "itemArchived": {
+    "message": "Položka archivovaná. Už sa nezobrazuje v automatickom vypĺňaní ani v zozname trezoru."
+  },
+  "itemUnarchived": {
+    "message": "Položka vrátená do trezoru."
+  },
+  "archiveHint": {
+    "message": "Archivované položky sa uchovávajú, ale nikdy sa nevypĺňajú ani nenavrhujú."
+  },
+  "archiveEmpty": {
+    "message": "Nič nie je archivované."
+  },
+  "archiveItem": {
+    "message": "Archivovať"
+  },
+  "generatorPolicyHint": {
+    "message": "Vaša organizácia vyžaduje niektoré z týchto nastavení."
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "Použiť hlavné heslo"
+  },
+  "unlockWithPin": {
+    "message": "Odomknúť PINom"
+  },
+  "newPin": {
+    "message": "Nový PIN (aspoň 4 znaky)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Zachovať odomykanie PINom po reštarte prehliadača"
+  },
+  "pinKeepHint": {
+    "message": "Vypnuté: po reštarte odomknete raz hlavným heslom. Zapnuté je menej bezpečné: krátky PIN uložený v tomto počítači môže uhádnuť ktokoľvek, kto skopíruje váš profil prehliadača."
+  },
+  "setPin": {
+    "message": "Nastaviť PIN"
+  },
+  "pinOn": {
+    "message": "Odomykanie PINom je zapnuté. Päť nesprávnych PINov ho vypne."
+  },
+  "pinOff": {
+    "message": "Odomykanie PINom je vypnuté."
+  },
+  "passwordHealth": {
+    "message": "Stav hesiel"
+  },
+  "passwordHealthHint": {
+    "message": "Nájde slabé a opakovane použité heslá a pri zapnutej kontrole únikov aj uniknuté."
+  },
+  "checkBreaches": {
+    "message": "Kontrolovať heslá v známych únikoch údajov"
+  },
+  "checkBreachesHint": {
+    "message": "Po každej synchronizácii sa Firnkey opýta Have I Been Pwned na heslo každého prihlásenia. Odosiela sa len prvých 5 znakov hashu hesla; samotné heslo nikdy neopustí tento prehliadač."
+  },
+  "checkBreachesNow": {
+    "message": "Skontrolovať úniky teraz"
+  },
+  "checkingBreaches": {
+    "message": "Kontrola…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey potrebuje na kontrolu únikov prístup k api.pwnedpasswords.com."
+  },
+  "healthExposed_one": {
+    "message": "$1 uniknuté"
+  },
+  "healthExposed_other": {
+    "message": "$1 uniknutých"
+  },
+  "healthExposed_few": {
+    "message": "$1 uniknuté"
+  },
+  "healthReused_one": {
+    "message": "$1 opakované"
+  },
+  "healthReused_other": {
+    "message": "$1 opakovaných"
+  },
+  "healthReused_few": {
+    "message": "$1 opakované"
+  },
+  "healthWeak_one": {
+    "message": "$1 slabé"
+  },
+  "healthWeak_other": {
+    "message": "$1 slabých"
+  },
+  "healthWeak_few": {
+    "message": "$1 slabé"
+  },
+  "healthNotChecked": {
+    "message": "$1 zatiaľ neskontrolovaných na úniky"
+  },
+  "healthAllChecked": {
+    "message": "všetky skontrolované na úniky"
+  },
+  "exposedPasswords": {
+    "message": "Uniknuté heslá"
+  },
+  "reusedPasswords": {
+    "message": "Opakovane použité heslá"
+  },
+  "weakPasswords": {
+    "message": "Slabé heslá"
+  },
+  "weakPassword": {
+    "message": "Slabé"
+  },
+  "seenInBreaches_one": {
+    "message": "Nájdené v $2 úniku údajov"
+  },
+  "seenInBreaches_other": {
+    "message": "Nájdené v $2 únikoch údajov"
+  },
+  "seenInBreaches_few": {
+    "message": "Nájdené v $2 únikoch údajov"
+  },
+  "usedByLogins_one": {
+    "message": "Používa $1 prihlásenie"
+  },
+  "usedByLogins_other": {
+    "message": "Používa $1 prihlásení"
+  },
+  "usedByLogins_few": {
+    "message": "Používajú $1 prihlásenia"
+  },
+  "passwordInBreaches_one": {
+    "message": "Toto heslo sa objavilo v $2 úniku údajov. Zmeňte ho."
+  },
+  "passwordInBreaches_other": {
+    "message": "Toto heslo sa objavilo v $2 únikoch údajov. Zmeňte ho."
+  },
+  "passwordInBreaches_few": {
+    "message": "Toto heslo sa objavilo v $2 únikoch údajov. Zmeňte ho."
+  },
+  "healthAllGood": {
+    "message": "Nenašli sa žiadne slabé, opakované ani uniknuté heslá."
+  },
+  "autofillOnPageLoad": {
+    "message": "Vyplniť pri načítaní stránky"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Vyplní zodpovedajúce prihlásenie hneď po načítaní prihlasovacej stránky, bez kliknutia. Vyžaduje integráciu s webmi. Napadnutá stránka alebo skrytý formulár na zodpovedajúcom webe by mohol heslo prečítať, preto to používajte len na dôveryhodných weboch."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Predvolené pre prihlásenia"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Nevypĺňať pri načítaní stránky"
+  },
+  "useDefaultSetting": {
+    "message": "Použiť predvolené nastavenie"
+  },
+  "always": {
+    "message": "Vždy"
+  },
+  "loginWithDevice": {
+    "message": "Prihlásiť sa zariadením"
+  },
+  "signInWithSso": {
+    "message": "Prihlásiť sa cez SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Schváľte žiadosť v aplikácii alebo webovom trezore, kde ste prihlásení. Overte, že zobrazuje túto frázu:"
+  },
+  "ssoUnlockHint": {
+    "message": "Prihlásené cez SSO. Na odomknutie zadajte hlavné heslo."
+  },
+  "serverIcons": {
+    "message": "Zobrazovať ikony webov"
+  },
+  "serverIconsHint": {
+    "message": "Váš server stiahne ikonu každého webu raz a uloží ju do vyrovnávacej pamäte. Vypnuté: len ikony, ktoré prehliadač už má."
+  },
+  "waitingForApproval": {
+    "message": "Čaká sa na schválenie…"
+  },
+  "websites": {
+    "message": "Weby"
+  },
+  "addWebsite": {
+    "message": "Pridať web"
+  },
+  "removeWebsite": {
+    "message": "Odstrániť web"
+  },
+  "customFields": {
+    "message": "Vlastné polia"
+  },
+  "fieldType": {
+    "message": "Typ poľa"
+  },
+  "hiddenField": {
+    "message": "Skryté"
+  },
+  "checkboxField": {
+    "message": "Začiarkavacie pole"
+  },
+  "addField": {
+    "message": "Pridať pole"
+  },
+  "fieldName": {
+    "message": "Názov poľa"
+  },
+  "fieldValue": {
+    "message": "Hodnota"
+  },
+  "removeField": {
+    "message": "Odstrániť pole"
+  },
+  "collections": {
+    "message": "Kolekcie"
+  },
+  "allVaults": {
+    "message": "Všetky trezory"
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "allCollections": {
+    "message": "Všetky zbierky"
+  },
+  "allFolders": {
+    "message": "Všetky priečinky"
+  },
+  "allTypes": {
+    "message": "Všetky typy"
+  },
+  "editSend": {
+    "message": "Upraviť Send"
+  },
+  "keepDeletionDate": {
+    "message": "Ponechať ($1)"
+  },
+  "removePassword": {
+    "message": "Odstrániť heslo"
+  },
+  "sendSaved": {
+    "message": "$1 uložený."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Vaša organizácia zamyká trezor najneskôr po nečinnosti v trvaní $1."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Vaša organizácia vás odhlási najneskôr po nečinnosti v trvaní $1."
+  }
+}

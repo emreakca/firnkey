@@ -1,0 +1,1974 @@
+{
+  "languageCode": {
+    "message": "pl",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Menedżer haseł dla Twojego własnego serwera"
+  },
+  "starting": {
+    "message": "Uruchamianie"
+  },
+  "connectYourServer": {
+    "message": "Połącz swój serwer"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey prosi o dostęp tylko do wybranego przez Ciebie serwera."
+  },
+  "serverUrl": {
+    "message": "Adres URL serwera"
+  },
+  "verifyServer": {
+    "message": "Sprawdź serwer"
+  },
+  "signIn": {
+    "message": "Zaloguj się"
+  },
+  "change": {
+    "message": "Zmień"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Hasło główne"
+  },
+  "twoStepLogin": {
+    "message": "Logowanie dwuetapowe"
+  },
+  "method": {
+    "message": "Metoda"
+  },
+  "sendEmailCode": {
+    "message": "Wyślij kod e-mailem"
+  },
+  "verificationCode": {
+    "message": "Kod weryfikacyjny"
+  },
+  "rememberThisDevice": {
+    "message": "Zapamiętaj to urządzenie"
+  },
+  "newDeviceVerification": {
+    "message": "Weryfikacja nowego urządzenia"
+  },
+  "deviceVerificationHint": {
+    "message": "Wpisz kod weryfikacyjny wysłany przez Twój serwer."
+  },
+  "deviceVerificationCode": {
+    "message": "Kod weryfikacyjny urządzenia"
+  },
+  "signInAndSync": {
+    "message": "Zaloguj się i synchronizuj"
+  },
+  "vaultLocked": {
+    "message": "Sejf zablokowany"
+  },
+  "unlock": {
+    "message": "Odblokuj"
+  },
+  "unlockWithBiometrics": {
+    "message": "Odblokuj za pomocą Touch ID / biometrii"
+  },
+  "logOut": {
+    "message": "Wyloguj się"
+  },
+  "allItems": {
+    "message": "Wszystkie elementy"
+  },
+  "noMatchingItems": {
+    "message": "Brak pasujących elementów."
+  },
+  "viewAll": {
+    "message": "Pokaż wszystko"
+  },
+  "authenticatorEmpty": {
+    "message": "Brak kluczy uwierzytelniających. Wybierz Nowy, aby zeskanować kod QR lub wkleić klucz."
+  },
+  "importOrExportKeys": {
+    "message": "Importuj lub eksportuj klucze"
+  },
+  "scanQrOnPage": {
+    "message": "Zeskanuj kod QR na tej stronie"
+  },
+  "saveTo": {
+    "message": "Zapisz w"
+  },
+  "newLogin": {
+    "message": "Nowy login"
+  },
+  "key": {
+    "message": "Klucz"
+  },
+  "name": {
+    "message": "Nazwa"
+  },
+  "nicknameOptional": {
+    "message": "Pseudonim (opcjonalnie)"
+  },
+  "account": {
+    "message": "Konto"
+  },
+  "website": {
+    "message": "Strona internetowa"
+  },
+  "issuer": {
+    "message": "Wystawca"
+  },
+  "advanced": {
+    "message": "Zaawansowane"
+  },
+  "algorithm": {
+    "message": "Algorytm"
+  },
+  "digits": {
+    "message": "Cyfry"
+  },
+  "periodSeconds": {
+    "message": "Okres (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Większość usług używa SHA-1, 6 cyfr i 30 sekund. Klucze Steam (wystawca Steam) zawsze tworzą kody 5-znakowe."
+  },
+  "save": {
+    "message": "Zapisz"
+  },
+  "import": {
+    "message": "Importuj"
+  },
+  "keysImportHint": {
+    "message": "Jeden link otpauth://totp/ na wiersz, tak jak eksportują je aplikacje uwierzytelniające. Każdy nowy klucz staje się loginem."
+  },
+  "chooseFile": {
+    "message": "Wybierz plik"
+  },
+  "checkList": {
+    "message": "Sprawdź listę"
+  },
+  "export": {
+    "message": "Eksportuj"
+  },
+  "keysExportHint": {
+    "message": "Zapisuje każdy klucz jako link otpauth:// w pliku tekstowym. Każdy, kto ma ten plik, może generować Twoje kody, więc usuń go po zaimportowaniu."
+  },
+  "exportKeys": {
+    "message": "Eksportuj klucze"
+  },
+  "sendIntro": {
+    "message": "Udostępnij tekst lub plik przez zaszyfrowany end-to-end link, który sam się usuwa."
+  },
+  "sendEmpty": {
+    "message": "Brak Sendów. Wybierz Nowy, aby udostępnić tekst lub plik."
+  },
+  "text": {
+    "message": "Tekst"
+  },
+  "file": {
+    "message": "Plik"
+  },
+  "sendHideText": {
+    "message": "Ukryj tekst, dopóki odbiorca go nie odsłoni"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Nie wybrano pliku · maksymalnie 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Usuń po upływie"
+  },
+  "days1": {
+    "message": "1 dzień"
+  },
+  "days2": {
+    "message": "2 dni"
+  },
+  "days3": {
+    "message": "3 dni"
+  },
+  "days7": {
+    "message": "7 dni"
+  },
+  "days14": {
+    "message": "14 dni"
+  },
+  "days30": {
+    "message": "30 dni"
+  },
+  "options": {
+    "message": "Opcje"
+  },
+  "passwordOptional": {
+    "message": "Hasło (opcjonalnie)"
+  },
+  "maximumViewsOptional": {
+    "message": "Maksymalna liczba wyświetleń (opcjonalnie)"
+  },
+  "createAndCopyLink": {
+    "message": "Utwórz i skopiuj link"
+  },
+  "passwordGenerator": {
+    "message": "Generator haseł"
+  },
+  "generatorHint": {
+    "message": "Generowane lokalnie z kryptograficznego źródła losowości przeglądarki."
+  },
+  "password": {
+    "message": "Hasło"
+  },
+  "passphrase": {
+    "message": "Fraza hasła"
+  },
+  "username": {
+    "message": "Nazwa użytkownika"
+  },
+  "length": {
+    "message": "Długość"
+  },
+  "uppercase": {
+    "message": "Wielkie litery"
+  },
+  "lowercase": {
+    "message": "Małe litery"
+  },
+  "numbers": {
+    "message": "Cyfry"
+  },
+  "symbols": {
+    "message": "Symbole"
+  },
+  "words": {
+    "message": "Słowa"
+  },
+  "wordSeparator": {
+    "message": "Separator słów"
+  },
+  "capitalize": {
+    "message": "Wielka pierwsza litera"
+  },
+  "includeNumber": {
+    "message": "Dodaj cyfrę"
+  },
+  "type": {
+    "message": "Typ"
+  },
+  "randomWord": {
+    "message": "Losowe słowo"
+  },
+  "plusAddressedEmail": {
+    "message": "E-mail z sufiksem +"
+  },
+  "catchAllEmail": {
+    "message": "E-mail catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Alias e-mail z przekierowaniem"
+  },
+  "forwardingService": {
+    "message": "Usługa przekierowania"
+  },
+  "apiKey": {
+    "message": "Klucz API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Zapisywany po pierwszym użyciu; zostaw puste, aby go zachować"
+  },
+  "aliasDomain": {
+    "message": "Domena aliasu"
+  },
+  "createAlias": {
+    "message": "Utwórz alias"
+  },
+  "creatingAlias": {
+    "message": "Tworzenie aliasu…"
+  },
+  "aliasCreated": {
+    "message": "Alias utworzony"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey potrzebuje dostępu do usługi przekierowania, aby utworzyć alias."
+  },
+  "yourEmail": {
+    "message": "Twój e-mail"
+  },
+  "yourCatchAllDomain": {
+    "message": "Twoja domena catch-all"
+  },
+  "generateAnother": {
+    "message": "Wygeneruj ponownie"
+  },
+  "useInNewLogin": {
+    "message": "Użyj w nowym loginie"
+  },
+  "security": {
+    "message": "Bezpieczeństwo"
+  },
+  "securityGroupHint": {
+    "message": "Czas blokady, biometria, schowek"
+  },
+  "autofillSaving": {
+    "message": "Autouzupełnianie i zapisywanie"
+  },
+  "autofillGroupHint": {
+    "message": "Integracja ze stronami, pytania o zapis, wykluczone domeny"
+  },
+  "vault": {
+    "message": "Sejf"
+  },
+  "vaultGroupHint": {
+    "message": "Foldery, karta Uwierzytelniacz"
+  },
+  "importExport": {
+    "message": "Import i eksport"
+  },
+  "transferGroupHint": {
+    "message": "Przenieś sejf z innego menedżera haseł lub do niego"
+  },
+  "accountSync": {
+    "message": "Konto i synchronizacja"
+  },
+  "accountGroupHint": {
+    "message": "Konta, synchronizacja na żywo, wylogowanie"
+  },
+  "lockVault": {
+    "message": "Zablokuj sejf"
+  },
+  "after1Minute": {
+    "message": "Po 1 minucie"
+  },
+  "after5Minutes": {
+    "message": "Po 5 minutach"
+  },
+  "after15Minutes": {
+    "message": "Po 15 minutach"
+  },
+  "after30Minutes": {
+    "message": "Po 30 minutach"
+  },
+  "after1Hour": {
+    "message": "Po 1 godzinie"
+  },
+  "after2Hours": {
+    "message": "Po 2 godzinach"
+  },
+  "after4Hours": {
+    "message": "Po 4 godzinach"
+  },
+  "after8Hours": {
+    "message": "Po 8 godzinach"
+  },
+  "after24Hours": {
+    "message": "Po 24 godzinach"
+  },
+  "whenTheComputerLocks": {
+    "message": "Po zablokowaniu komputera"
+  },
+  "whenBrowserCloses": {
+    "message": "Po zamknięciu przeglądarki"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Nie blokuj do wylogowania"
+  },
+  "untilLogoutHint": {
+    "message": "„Do wylogowania” szyfruje sesję dla tego profilu przeglądarki, ale jest mniej bezpieczne na wspólnym komputerze."
+  },
+  "lockNow": {
+    "message": "Zablokuj teraz"
+  },
+  "clearCopiedSecrets": {
+    "message": "Czyść skopiowane sekrety"
+  },
+  "after10Seconds": {
+    "message": "Po 10 sekundach"
+  },
+  "after20Seconds": {
+    "message": "Po 20 sekundach"
+  },
+  "after30Seconds": {
+    "message": "Po 30 sekundach"
+  },
+  "after2Minutes": {
+    "message": "Po 2 minutach"
+  },
+  "never": {
+    "message": "Nigdy"
+  },
+  "clipboardOwnOnly": {
+    "message": "Czyść tylko to, co skopiował Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Wymaga uprawnienia do odczytu schowka, aby tekst skopiowany gdzie indziej pozostał nietknięty."
+  },
+  "websiteIntegration": {
+    "message": "Integracja ze stronami"
+  },
+  "websiteIntegrationHint": {
+    "message": "Podpowiedzi autouzupełniania i pytania o zapis."
+  },
+  "enable": {
+    "message": "Włącz"
+  },
+  "fillSignInDialogs": {
+    "message": "Wypełniaj okna logowania (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Odpowiada na okno logowania przeglądarki, gdy pasuje do niego dokładnie jeden niechroniony login."
+  },
+  "savePrompts": {
+    "message": "Pytania o zapis"
+  },
+  "askToAddLogin": {
+    "message": "Pytaj o dodanie loginu"
+  },
+  "askToUpdateLogin": {
+    "message": "Pytaj o aktualizację istniejącego loginu"
+  },
+  "askPasskeys": {
+    "message": "Pytaj o zapisywanie i używanie kluczy dostępu"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Zamykaj pytania o zapis po (sekundach)"
+  },
+  "excludedDomains": {
+    "message": "Wykluczone domeny"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey nie będzie podpowiadać, wypełniać ani zapisywać danych logowania w tych domenach."
+  },
+  "add": {
+    "message": "Dodaj"
+  },
+  "folders": {
+    "message": "Foldery"
+  },
+  "foldersHint": {
+    "message": "Usunięcie folderu zachowuje jego elementy; trafiają do Bez folderu."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Pokaż kartę Uwierzytelniacz"
+  },
+  "authenticatorTabHint": {
+    "message": "Kody weryfikacyjne na żywo dla Twoich loginów. Dodawaj klucze kodem QR, ręcznie lub z pliku."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Pokazuj tylko kody tej strony, jeśli jakieś ma"
+  },
+  "vaultImportHint": {
+    "message": "Eksport JSON z Bitwarden (niezaszyfrowany lub chroniony hasłem), eksport .1pux z 1Password albo plik CSV z Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox lub Safari. Elementy trafiają do Twojego osobistego sejfu."
+  },
+  "noFileChosen": {
+    "message": "Nie wybrano pliku"
+  },
+  "filePassword": {
+    "message": "Hasło pliku"
+  },
+  "checkFile": {
+    "message": "Sprawdź plik"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, chroniony hasłem pliku"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, niezaszyfrowany"
+  },
+  "filePasswordHint": {
+    "message": "Potrzebne do ponownego zaimportowania pliku. Firnkey nie może go odzyskać."
+  },
+  "unencryptedExportWarning": {
+    "message": "Każdy, kto ma niezaszyfrowany plik, może przeczytać wszystkie zawarte w nim hasła. Usuń go po zaimportowaniu."
+  },
+  "exportScopeHint": {
+    "message": "Eksportuje Twoje osobiste elementy. Elementy organizacji pozostają w organizacji."
+  },
+  "exportVault": {
+    "message": "Eksportuj sejf"
+  },
+  "liveSync": {
+    "message": "Synchronizacja na żywo"
+  },
+  "liveSyncHint": {
+    "message": "Natychmiast pobiera zmiany z Twojego serwera. Wyłączona sprawdza raz na minutę i zużywa mniej pamięci."
+  },
+  "syncNow": {
+    "message": "Synchronizuj teraz"
+  },
+  "addAccount": {
+    "message": "Dodaj konto"
+  },
+  "repromptHint": {
+    "message": "Ten element wymaga hasła głównego, zanim będzie można użyć chronionych pól."
+  },
+  "unlockProtectedFields": {
+    "message": "Odblokuj chronione pola"
+  },
+  "show": {
+    "message": "Pokaż"
+  },
+  "addAttachment": {
+    "message": "Dodaj załącznik"
+  },
+  "fillOnThisPage": {
+    "message": "Wypełnij na tej stronie"
+  },
+  "edit": {
+    "message": "Edytuj"
+  },
+  "moveToTrash": {
+    "message": "Przenieś do kosza"
+  },
+  "addLogin": {
+    "message": "Dodaj login"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "card": {
+    "message": "Karta"
+  },
+  "identity": {
+    "message": "Tożsamość"
+  },
+  "secureNote": {
+    "message": "Bezpieczna notatka"
+  },
+  "folder": {
+    "message": "Folder"
+  },
+  "noFolder": {
+    "message": "Bez folderu"
+  },
+  "owner": {
+    "message": "Właściciel"
+  },
+  "myVault": {
+    "message": "Mój sejf"
+  },
+  "moveToOrganizationHint": {
+    "message": "Przeniesienia do organizacji nie można tu cofnąć; element należy potem do organizacji."
+  },
+  "generate": {
+    "message": "Generuj"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Klucz uwierzytelniający (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Skanuj QR"
+  },
+  "notes": {
+    "message": "Notatki"
+  },
+  "favorite": {
+    "message": "Ulubiony"
+  },
+  "authenticator": {
+    "message": "Uwierzytelniacz"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Ustawienia"
+  },
+  "back": {
+    "message": "Wstecz"
+  },
+  "openSettings": {
+    "message": "Otwórz ustawienia"
+  },
+  "searchVault": {
+    "message": "Szukaj w sejfie"
+  },
+  "keyOrTotpLink": {
+    "message": "Klucz Base32 lub link otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Domyślnie wystawca"
+  },
+  "shownInsteadOfThe": {
+    "message": "Wyświetlany zamiast nazwy"
+  },
+  "keysToImport": {
+    "message": "Klucze do zaimportowania"
+  },
+  "whatToSend": {
+    "message": "Co wysłać"
+  },
+  "whatToGenerate": {
+    "message": "Co wygenerować"
+  },
+  "generatedValue": {
+    "message": "Wygenerowana wartość"
+  },
+  "copy": {
+    "message": "Kopiuj"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopiuj wygenerowaną wartość"
+  },
+  "domainToExclude": {
+    "message": "Domena do wykluczenia"
+  },
+  "newFolder": {
+    "message": "Nowy folder"
+  },
+  "newFolderName": {
+    "message": "Nazwa nowego folderu"
+  },
+  "copyUsername": {
+    "message": "Kopiuj nazwę użytkownika"
+  },
+  "copyPassword": {
+    "message": "Kopiuj hasło"
+  },
+  "copyVerificationCode": {
+    "message": "Kopiuj kod weryfikacyjny"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Klucz Base32 lub link otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Nawigacja główna"
+  },
+  "firnkeyPasskey": {
+    "message": "Klucz dostępu Firnkey"
+  },
+  "passkey": {
+    "message": "Klucz dostępu"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Odblokuj Firnkey, aby kontynuować."
+  },
+  "verifyWithBiometrics": {
+    "message": "Zweryfikuj za pomocą Touch ID / biometrii"
+  },
+  "continue": {
+    "message": "Kontynuuj"
+  },
+  "useAnotherDevice": {
+    "message": "Użyj innego urządzenia"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "sshKey": {
+    "message": "Klucz SSH"
+  },
+  "cardholderName": {
+    "message": "Imię i nazwisko posiadacza"
+  },
+  "brand": {
+    "message": "Marka"
+  },
+  "number": {
+    "message": "Numer"
+  },
+  "expirationMonth": {
+    "message": "Miesiąc ważności"
+  },
+  "expirationYear": {
+    "message": "Rok ważności"
+  },
+  "securityCode": {
+    "message": "Kod bezpieczeństwa"
+  },
+  "title": {
+    "message": "Tytuł"
+  },
+  "firstName": {
+    "message": "Imię"
+  },
+  "middleName": {
+    "message": "Drugie imię"
+  },
+  "lastName": {
+    "message": "Nazwisko"
+  },
+  "company": {
+    "message": "Firma"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Adres 1"
+  },
+  "address2": {
+    "message": "Adres 2"
+  },
+  "address3": {
+    "message": "Adres 3"
+  },
+  "city": {
+    "message": "Miejscowość"
+  },
+  "stateProvince": {
+    "message": "Województwo / region"
+  },
+  "postalCode": {
+    "message": "Kod pocztowy"
+  },
+  "country": {
+    "message": "Kraj"
+  },
+  "ssn": {
+    "message": "Numer PESEL / ubezpieczenia"
+  },
+  "passportNumber": {
+    "message": "Numer paszportu"
+  },
+  "licenseNumber": {
+    "message": "Numer prawa jazdy"
+  },
+  "addSecureNote": {
+    "message": "Dodaj bezpieczną notatkę"
+  },
+  "addCard": {
+    "message": "Dodaj kartę"
+  },
+  "addIdentity": {
+    "message": "Dodaj tożsamość"
+  },
+  "addSshKey": {
+    "message": "Dodaj klucz SSH"
+  },
+  "editLogin": {
+    "message": "Edytuj login"
+  },
+  "editSecureNote": {
+    "message": "Edytuj bezpieczną notatkę"
+  },
+  "editCard": {
+    "message": "Edytuj kartę"
+  },
+  "editIdentity": {
+    "message": "Edytuj tożsamość"
+  },
+  "editSshKey": {
+    "message": "Edytuj klucz SSH"
+  },
+  "passphraseGenerator": {
+    "message": "Generator fraz haseł"
+  },
+  "usernameGenerator": {
+    "message": "Generator nazw użytkownika"
+  },
+  "generatedPasswordCopied": {
+    "message": "Skopiowano wygenerowane hasło."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Skopiowano wygenerowaną frazę."
+  },
+  "generatedUsernameCopied": {
+    "message": "Skopiowano wygenerowaną nazwę użytkownika."
+  },
+  "removeKey": {
+    "message": "Usuń klucz"
+  },
+  "biometricOff": {
+    "message": "Odblokowanie biometryczne wyłączone."
+  },
+  "usernameCopied": {
+    "message": "Skopiowano nazwę użytkownika."
+  },
+  "passwordCopied": {
+    "message": "Skopiowano hasło."
+  },
+  "hide": {
+    "message": "Ukryj"
+  },
+  "movedToTrash": {
+    "message": "Przeniesiono do kosza."
+  },
+  "websiteAccessDenied": {
+    "message": "Nie przyznano dostępu do stron internetowych."
+  },
+  "websiteIntegrationOn": {
+    "message": "Autouzupełnianie i pytania o zapis włączone."
+  },
+  "websiteIntegrationOff": {
+    "message": "Pytania na stronach wyłączone."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Wypełnianie okien logowania wymaga uprawnienia do ich widzenia na stronach."
+  },
+  "preferencesUpdated": {
+    "message": "Zaktualizowano preferencje."
+  },
+  "invalidDomain": {
+    "message": "Wpisz prawidłową domenę, np. example.com."
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "enabled": {
+    "message": "Włączone"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Wyłącz integrację ze stronami"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Włącz integrację ze stronami"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Nieobsługiwany czas blokady."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Nieobsługiwany czas schowka."
+  },
+  "clipboardClearsAfter": {
+    "message": "Skopiowane sekrety zostaną wyczyszczone po $1."
+  },
+  "clipboardKeeps": {
+    "message": "Skopiowane sekrety pozostaną w schowku."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey wyczyści schowek tylko wtedy, gdy wciąż zawiera to, co skopiował Firnkey."
+  },
+  "seconds_one": {
+    "message": "$1 sekunda"
+  },
+  "seconds_other": {
+    "message": "$1 sekundy"
+  },
+  "seconds_few": {
+    "message": "$1 sekundy"
+  },
+  "seconds_many": {
+    "message": "$1 sekund"
+  },
+  "minutes_one": {
+    "message": "$1 minuta"
+  },
+  "minutes_other": {
+    "message": "$1 minuty"
+  },
+  "minutes_few": {
+    "message": "$1 minuty"
+  },
+  "minutes_many": {
+    "message": "$1 minut"
+  },
+  "hours_one": {
+    "message": "$1 godzina"
+  },
+  "hours_other": {
+    "message": "$1 godziny"
+  },
+  "hours_few": {
+    "message": "$1 godziny"
+  },
+  "hours_many": {
+    "message": "$1 godzin"
+  },
+  "lockOnComputerLock": {
+    "message": "Sejf zablokuje się po zablokowaniu komputera lub zamknięciu przeglądarki."
+  },
+  "lockOnLogout": {
+    "message": "Sejf pozostanie odblokowany w tej przeglądarce, dopóki go nie zablokujesz lub się nie wylogujesz."
+  },
+  "lockOnBrowserClose": {
+    "message": "Sejf pozostanie odblokowany do zamknięcia przeglądarki."
+  },
+  "lockAfterInactivity": {
+    "message": "Sejf zablokuje się po $1 bezczynności."
+  },
+  "waitingForVerification": {
+    "message": "Oczekiwanie na weryfikację…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Odblokuj sejf przed włączeniem odblokowania biometrycznego."
+  },
+  "noPasskeyCreated": {
+    "message": "Nie utworzono klucza dostępu."
+  },
+  "biometricOn": {
+    "message": "Odblokowanie biometryczne jest włączone."
+  },
+  "biometricUnavailable": {
+    "message": "Odblokowanie biometryczne jest teraz niedostępne."
+  },
+  "vaultUnlocked_one": {
+    "message": "Odblokowano sejf z $1 elementem."
+  },
+  "vaultUnlocked_other": {
+    "message": "Odblokowano sejf z $1 elementu."
+  },
+  "vaultUnlocked_few": {
+    "message": "Odblokowano sejf z $1 elementami."
+  },
+  "vaultUnlocked_many": {
+    "message": "Odblokowano sejf z $1 elementami."
+  },
+  "verificationCancelled": {
+    "message": "Weryfikacja została anulowana lub wygasła."
+  },
+  "notConnected": {
+    "message": "Nie połączono"
+  },
+  "connectAServer": {
+    "message": "Połącz serwer"
+  },
+  "signedOut": {
+    "message": "Wylogowano"
+  },
+  "itemCount_one": {
+    "message": "$1 element"
+  },
+  "itemCount_other": {
+    "message": "$1 elementu"
+  },
+  "itemCount_few": {
+    "message": "$1 elementy"
+  },
+  "itemCount_many": {
+    "message": "$1 elementów"
+  },
+  "locked": {
+    "message": "Zablokowany"
+  },
+  "unlocked": {
+    "message": "Odblokowany"
+  },
+  "settingsFor": {
+    "message": "Ustawienia dla $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · najpierw podpowiedzi dla tej strony"
+  },
+  "itemTotal_one": {
+    "message": "$1 element łącznie"
+  },
+  "itemTotal_other": {
+    "message": "$1 elementu łącznie"
+  },
+  "itemTotal_few": {
+    "message": "$1 elementy łącznie"
+  },
+  "itemTotal_many": {
+    "message": "$1 elementów łącznie"
+  },
+  "skippedItems_one": {
+    "message": "Pominięto $1 nieobsługiwany lub uszkodzony element."
+  },
+  "skippedItems_other": {
+    "message": "Pominięto $1 nieobsługiwanego lub uszkodzonego elementu."
+  },
+  "skippedItems_few": {
+    "message": "Pominięto $1 nieobsługiwane lub uszkodzone elementy."
+  },
+  "skippedItems_many": {
+    "message": "Pominięto $1 nieobsługiwanych lub uszkodzonych elementów."
+  },
+  "otherAccounts": {
+    "message": "Inne konta"
+  },
+  "switch": {
+    "message": "Przełącz"
+  },
+  "removeAccountTitle": {
+    "message": "Usuń $1 z Firnkey w tej przeglądarce"
+  },
+  "switchedTo": {
+    "message": "Przełączono na $1."
+  },
+  "accountRemoved": {
+    "message": "Usunięto $1 z tej przeglądarki."
+  },
+  "addAccountHint": {
+    "message": "Zaloguj się na drugie konto. Bieżące zostaje zapisane, zablokowane, poniżej."
+  },
+  "verifying": {
+    "message": "Sprawdzanie…"
+  },
+  "serverPermissionDenied": {
+    "message": "Nie przyznano uprawnienia do serwera."
+  },
+  "signingIn": {
+    "message": "Logowanie…"
+  },
+  "continueInNewWindow": {
+    "message": "Wybierz ponownie Zaloguj się, aby kontynuować w nowym oknie."
+  },
+  "enterTwoStepCode": {
+    "message": "Wpisz kod logowania dwuetapowego."
+  },
+  "unlocking": {
+    "message": "Odblokowywanie…"
+  },
+  "trashHint": {
+    "message": "Przywróć elementy lub usuń je na zawsze."
+  },
+  "trashEmpty": {
+    "message": "Kosz jest pusty."
+  },
+  "autofillSuggestions": {
+    "message": "Podpowiedzi autouzupełniania"
+  },
+  "otherResults": {
+    "message": "Inne wyniki"
+  },
+  "trash": {
+    "message": "Kosz"
+  },
+  "folderName": {
+    "message": "Nazwa folderu"
+  },
+  "rename": {
+    "message": "Zmień nazwę"
+  },
+  "delete": {
+    "message": "Usuń"
+  },
+  "folderRenamed": {
+    "message": "Zmieniono nazwę folderu."
+  },
+  "folderAdded": {
+    "message": "Dodano folder."
+  },
+  "folderDeleted": {
+    "message": "Usunięto folder. Jego elementy są teraz w Bez folderu."
+  },
+  "confirm": {
+    "message": "Potwierdź"
+  },
+  "matchesThisPage": {
+    "message": "Pasuje do tej strony"
+  },
+  "restore": {
+    "message": "Przywróć"
+  },
+  "itemRestored": {
+    "message": "Przywrócono element."
+  },
+  "deleteForever": {
+    "message": "Usuń na zawsze"
+  },
+  "itemDeletedForever": {
+    "message": "Element usunięty na zawsze."
+  },
+  "open": {
+    "message": "Otwórz"
+  },
+  "fill": {
+    "message": "Wypełnij"
+  },
+  "openWebsite": {
+    "message": "Otwórz stronę"
+  },
+  "cardNumber": {
+    "message": "Numer karty"
+  },
+  "note": {
+    "message": "Notatka"
+  },
+  "publicKey": {
+    "message": "Klucz publiczny"
+  },
+  "copyPublicKey": {
+    "message": "Kopiuj klucz publiczny"
+  },
+  "copyCardNumber": {
+    "message": "Kopiuj numer karty"
+  },
+  "copyNote": {
+    "message": "Kopiuj notatkę"
+  },
+  "copySecurityCode": {
+    "message": "Kopiuj kod bezpieczeństwa"
+  },
+  "copyPrivateKey": {
+    "message": "Kopiuj klucz prywatny"
+  },
+  "privateKey": {
+    "message": "Klucz prywatny"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Potwierdź hasło główne przed usunięciem tego elementu."
+  },
+  "moreActions": {
+    "message": "Więcej działań"
+  },
+  "noWebAddress": {
+    "message": "Ten login nie ma adresu strony."
+  },
+  "noWebsiteSaved": {
+    "message": "Nie zapisano strony"
+  },
+  "loading": {
+    "message": "Wczytywanie…"
+  },
+  "expiration": {
+    "message": "Ważność"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "fingerprint": {
+    "message": "Odcisk"
+  },
+  "customField": {
+    "message": "Pole własne"
+  },
+  "passwordHistory": {
+    "message": "Historia haseł ($1)"
+  },
+  "oldPassword": {
+    "message": "Stare hasło"
+  },
+  "organization": {
+    "message": "Organizacja"
+  },
+  "attachmentsCount": {
+    "message": "Załączniki ($1)"
+  },
+  "downloadFile": {
+    "message": "Pobierz $1"
+  },
+  "deleteFile": {
+    "message": "Usuń $1"
+  },
+  "fileDownloaded": {
+    "message": "Pobrano $1."
+  },
+  "fileTooLarge25": {
+    "message": "Plik jest za duży (maksymalnie 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Plik jest pusty."
+  },
+  "uploadingFile": {
+    "message": "Szyfrowanie i wysyłanie $1…"
+  },
+  "fileAttached": {
+    "message": "Dołączono $1."
+  },
+  "fileDeleted": {
+    "message": "Usunięto $1."
+  },
+  "copyLink": {
+    "message": "Kopiuj link"
+  },
+  "viewsOf": {
+    "message": "$1 z $2 wyświetleń"
+  },
+  "views_one": {
+    "message": "$1 wyświetlenie"
+  },
+  "views_other": {
+    "message": "$1 wyświetlenia"
+  },
+  "views_few": {
+    "message": "$1 wyświetlenia"
+  },
+  "views_many": {
+    "message": "$1 wyświetleń"
+  },
+  "deletesOn": {
+    "message": "Usunięcie: $1"
+  },
+  "disabled": {
+    "message": "Wyłączony"
+  },
+  "sendLinkCopied": {
+    "message": "Skopiowano link do Senda."
+  },
+  "deleteSendTitle": {
+    "message": "Usuń $1; jego link przestanie działać"
+  },
+  "sendDeleted": {
+    "message": "Usunięto $1. Jego link już nie działa."
+  },
+  "encrypting": {
+    "message": "Szyfrowanie…"
+  },
+  "chooseFileToSend": {
+    "message": "Wybierz plik do wysłania."
+  },
+  "sendCreatedCopied": {
+    "message": "Utworzono Send. Skopiowano link."
+  },
+  "sendCreatedSync": {
+    "message": "Utworzono Send. Zsynchronizuj, a potem skopiuj jego link z listy."
+  },
+  "fileTooLarge10": {
+    "message": "Plik jest za duży (maksymalnie 10 MB)."
+  },
+  "importing": {
+    "message": "Importowanie…"
+  },
+  "checking": {
+    "message": "Sprawdzanie…"
+  },
+  "importedItems": {
+    "message": "Zaimportowano: $1."
+  },
+  "importItems": {
+    "message": "Importuj: $1"
+  },
+  "foundItems": {
+    "message": "Znaleziono: $1. Zostaną dodane do sejfu; nic nie zostanie zastąpione."
+  },
+  "foundItemsInFolders": {
+    "message": "Znaleziono: $1 w $2. Zostaną dodane do sejfu; nic nie zostanie zastąpione."
+  },
+  "folderCount_one": {
+    "message": "$1 folder"
+  },
+  "folderCount_other": {
+    "message": "$1 folderu"
+  },
+  "folderCount_few": {
+    "message": "$1 foldery"
+  },
+  "folderCount_many": {
+    "message": "$1 folderów"
+  },
+  "exporting": {
+    "message": "Eksportowanie…"
+  },
+  "vaultExportedPlain": {
+    "message": "Wyeksportowano sejf. Usuń plik po zaimportowaniu."
+  },
+  "vaultExportedProtected": {
+    "message": "Wyeksportowano sejf. Przechowuj hasło pliku w bezpiecznym miejscu."
+  },
+  "createdOn": {
+    "message": "Utworzono $1"
+  },
+  "lastEdited": {
+    "message": "Ostatnia edycja $1"
+  },
+  "itemHistory": {
+    "message": "Historia elementu"
+  },
+  "loginCredentials": {
+    "message": "Dane logowania"
+  },
+  "itemDetails": {
+    "message": "Szczegóły elementu"
+  },
+  "autofillOptions": {
+    "message": "Opcje autouzupełniania"
+  },
+  "passwordChangedOn": {
+    "message": "Ostatnia zmiana $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Usuń ten klucz dostępu z loginu"
+  },
+  "passkeyRemoved": {
+    "message": "Usunięto klucz dostępu."
+  },
+  "usedUntil": {
+    "message": "Używane do $1"
+  },
+  "earlierPassword": {
+    "message": "Wcześniejsze hasło"
+  },
+  "fieldCopied": {
+    "message": "Skopiowano: $1."
+  },
+  "copyField": {
+    "message": "Kopiuj: $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Potwierdź hasło główne przed kopiowaniem z tego elementu."
+  },
+  "codeCopied": {
+    "message": "Skopiowano kod weryfikacyjny."
+  },
+  "viewOnlyItem": {
+    "message": "Twoja organizacja pozwala Ci oglądać ten element, ale nie zmieniać go."
+  },
+  "confirmBeforeEditing": {
+    "message": "Potwierdź hasło główne przed edycją tego elementu."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "RRRR"
+  },
+  "saving": {
+    "message": "Zapisywanie…"
+  },
+  "loginUpdated": {
+    "message": "Zaktualizowano login."
+  },
+  "loginAdded": {
+    "message": "Dodano login."
+  },
+  "itemUpdated": {
+    "message": "Zaktualizowano: $1."
+  },
+  "itemAdded": {
+    "message": "Dodano: $1."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Chronione pola odblokowane na 60 sekund."
+  },
+  "unavailable": {
+    "message": "Niedostępne"
+  },
+  "secondsLeft_one": {
+    "message": "Pozostała $1 sekunda"
+  },
+  "secondsLeft_other": {
+    "message": "Pozostało $1 sekundy"
+  },
+  "secondsLeft_few": {
+    "message": "Pozostały $1 sekundy"
+  },
+  "secondsLeft_many": {
+    "message": "Pozostało $1 sekund"
+  },
+  "codesForSite": {
+    "message": "Kody dla tej strony · łącznie $1"
+  },
+  "codeCount_one": {
+    "message": "$1 kod"
+  },
+  "codeCount_other": {
+    "message": "$1 kodu"
+  },
+  "codeCount_few": {
+    "message": "$1 kody"
+  },
+  "codeCount_many": {
+    "message": "$1 kodów"
+  },
+  "thisWebsite": {
+    "message": "Ta strona"
+  },
+  "openToConfirm": {
+    "message": "Otwórz, aby potwierdzić hasło główne"
+  },
+  "protected": {
+    "message": "Chroniony"
+  },
+  "fillIntoPage": {
+    "message": "Wypełnij na tej stronie"
+  },
+  "editKey": {
+    "message": "Edytuj klucz"
+  },
+  "codeFilled": {
+    "message": "Wypełniono kod dla $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Potwierdź hasło główne, a potem edytuj klucz na karcie Uwierzytelniacz."
+  },
+  "qrReadFirstCheck": {
+    "message": "Odczytano pierwszy z kilku kodów QR. Sprawdź dane i zapisz."
+  },
+  "qrReadCheck": {
+    "message": "Odczytano kod QR. Sprawdź dane i zapisz."
+  },
+  "qrReadFirstSave": {
+    "message": "Odczytano pierwszy z kilku kodów QR. Zapisz login, aby zachować klucz."
+  },
+  "qrReadSave": {
+    "message": "Odczytano kod QR. Zapisz login, aby zachować klucz."
+  },
+  "qrUnsupported": {
+    "message": "Ta przeglądarka nie odczytuje kodów QR. Zamiast tego wklej klucz lub link otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey nie widzi tej strony. Otwórz stronę z kodem QR i spróbuj ponownie."
+  },
+  "qrNotFound": {
+    "message": "Nie znaleziono kodu QR uwierzytelniania w widocznej części strony."
+  },
+  "qrInvalid": {
+    "message": "Kod QR nie jest prawidłowym kluczem uwierzytelniającym opartym na czasie (TOTP)."
+  },
+  "keyAdded": {
+    "message": "Dodano klucz uwierzytelniający."
+  },
+  "keyUpdated": {
+    "message": "Zaktualizowano klucz uwierzytelniający."
+  },
+  "keyRemoved": {
+    "message": "Usunięto klucz uwierzytelniający. Sam login wciąż jest w Twoim sejfie."
+  },
+  "fileTooLarge256": {
+    "message": "Plik jest za duży (maksymalnie 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Najpierw wklej linki otpauth:// lub wybierz plik."
+  },
+  "keysImported_one": {
+    "message": "Zaimportowano $1 klucz."
+  },
+  "keysImported_other": {
+    "message": "Zaimportowano $1 klucza."
+  },
+  "keysImported_few": {
+    "message": "Zaimportowano $1 klucze."
+  },
+  "keysImported_many": {
+    "message": "Zaimportowano $1 kluczy."
+  },
+  "new": {
+    "message": "Nowy"
+  },
+  "duplicate": {
+    "message": "Duplikat"
+  },
+  "invalid": {
+    "message": "Nieprawidłowy"
+  },
+  "importNewKeys_one": {
+    "message": "Importuj $1 nowy klucz"
+  },
+  "importNewKeys_other": {
+    "message": "Importuj $1 nowego klucza"
+  },
+  "importNewKeys_few": {
+    "message": "Importuj $1 nowe klucze"
+  },
+  "importNewKeys_many": {
+    "message": "Importuj $1 nowych kluczy"
+  },
+  "checkThenImport": {
+    "message": "Sprawdź listę, a potem zaimportuj."
+  },
+  "nothingNewToImport": {
+    "message": "Nie ma nic nowego do zaimportowania."
+  },
+  "keysExported": {
+    "message": "Wyeksportowano klucze. Usuń plik po zaimportowaniu go gdzie indziej."
+  },
+  "fieldsFilled_one": {
+    "message": "Wypełniono $1 pole."
+  },
+  "fieldsFilled_other": {
+    "message": "Wypełniono $1 pola."
+  },
+  "fieldsFilled_few": {
+    "message": "Wypełniono $1 pola."
+  },
+  "fieldsFilled_many": {
+    "message": "Wypełniono $1 pól."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Wypełniono nazwę użytkownika i hasło."
+  },
+  "filledUsername": {
+    "message": "Wypełniono nazwę użytkownika."
+  },
+  "filledPassword": {
+    "message": "Wypełniono hasło."
+  },
+  "synced_one": {
+    "message": "Zsynchronizowano $1 element."
+  },
+  "synced_other": {
+    "message": "Zsynchronizowano $1 elementu."
+  },
+  "synced_few": {
+    "message": "Zsynchronizowano $1 elementy."
+  },
+  "synced_many": {
+    "message": "Zsynchronizowano $1 elementów."
+  },
+  "twoStepUnsupported": {
+    "message": "To konto wymaga metody logowania dwuetapowego, której ta wersja nie obsługuje."
+  },
+  "sending": {
+    "message": "Wysyłanie…"
+  },
+  "emailCodeSent": {
+    "message": "Wysłano kod weryfikacyjny e-mailem."
+  },
+  "authenticatorApp": {
+    "message": "Aplikacja uwierzytelniająca"
+  },
+  "securityKeyWebauthn": {
+    "message": "Klucz bezpieczeństwa (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Kod odzyskiwania"
+  },
+  "twoFactorMethod": {
+    "message": "Metoda $1"
+  },
+  "fieldEmpty": {
+    "message": "To pole jest puste."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Schowek zostanie wyczyszczony za $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Proces w tle rozszerzenia nie odpowiedział. Przeładuj rozszerzenie."
+  },
+  "unexpectedResponse": {
+    "message": "Proces w tle zwrócił nieoczekiwaną odpowiedź."
+  },
+  "newSend": {
+    "message": "Nowy Send"
+  },
+  "item": {
+    "message": "Element"
+  },
+  "editItem": {
+    "message": "Edytuj element"
+  },
+  "newItem": {
+    "message": "Nowy element"
+  },
+  "addKey": {
+    "message": "Dodaj klucz"
+  },
+  "serverVersion": {
+    "message": "$1 · serwer $2"
+  },
+  "unexpectedError": {
+    "message": "Nieoczekiwany błąd rozszerzenia."
+  },
+  "passkeySuggestion": {
+    "message": "Zaloguj się kluczem dostępu zapisanym w Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Wygeneruj i wypełnij hasło"
+  },
+  "suggestionsLabel": {
+    "message": "Podpowiedzi Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Zamknij podpowiedzi autouzupełniania"
+  },
+  "dismiss": {
+    "message": "Zamknij"
+  },
+  "toggleSuggestions": {
+    "message": "Pokaż/ukryj podpowiedzi Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Pokaż lub ukryj podpowiedzi Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Zaktualizuj istniejący login"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Zapisz login w Firnkey"
+  },
+  "notNow": {
+    "message": "Nie teraz"
+  },
+  "update": {
+    "message": "Aktualizuj"
+  },
+  "loginSaved": {
+    "message": "Zapisano login."
+  },
+  "saveFailed": {
+    "message": "Firnkey nie mógł zapisać tego loginu."
+  },
+  "savePasskey": {
+    "message": "Zapisz klucz dostępu"
+  },
+  "signInWithPasskey": {
+    "message": "Zaloguj się kluczem dostępu"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey ma już klucz dostępu dla tego konta na tej stronie."
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "savePasskeyForAccount": {
+    "message": "Zapisać klucz dostępu dla $1 na $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Zapisać klucz dostępu na $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Wybierz klucz dostępu dla $1."
+  },
+  "addTo": {
+    "message": "Dodaj do $1"
+  },
+  "somethingWentWrong": {
+    "message": "Coś poszło nie tak."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: użyj klucza bezpieczeństwa, aby dokończyć logowanie."
+  },
+  "fillLogin": {
+    "message": "Wypełnij login"
+  },
+  "extensionDescription": {
+    "message": "Lekki menedżer haseł open source dla Twojego serwera self-hosted."
+  },
+  "fillLoginCommand": {
+    "message": "Wypełnij pasujący login na tej stronie"
+  },
+  "copied": {
+    "message": "Skopiowano"
+  },
+  "generatorHistory": {
+    "message": "Historia generatora"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Tutaj pojawiają się hasła skopiowane lub użyte z generatora, razem ze stroną, na której byłeś. Pozostają zaszyfrowane w tej przeglądarce."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Bez strony · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Wygenerowane hasło"
+  },
+  "clearGeneratorHistory": {
+    "message": "Wyczyść historię generatora"
+  },
+  "generatorHistoryCleared": {
+    "message": "Wyczyszczono historię generatora."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey wypełnił hasło dla $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Wypełnij hasło w następnym kroku po wybraniu konta"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Dla logowań, które najpierw pytają o nazwę użytkownika. Tylko wybrane konto, na tej samej stronie, raz."
+  },
+  "askToSaveForms": {
+    "message": "Pytaj o zapisywanie kart i adresów"
+  },
+  "generateSshKey": {
+    "message": "Wygeneruj nowy klucz (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Wygenerowano nowy klucz SSH. Zapisz, aby go zachować."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Kliknij przycisk Firnkey na pasku narzędzi, aby dokończyć dodawanie."
+  },
+  "saveCardToFirnkey": {
+    "message": "Zapisać kartę w Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Zapisać adres w Firnkey?"
+  },
+  "clone": {
+    "message": "Sklonuj"
+  },
+  "cloneName": {
+    "message": "$1 - kopia"
+  },
+  "itemCloned": {
+    "message": "Sklonowano element. Zmień kopię poniżej."
+  },
+  "fingerprintPhrase": {
+    "message": "Fraza odcisku"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Te same pięć słów pojawia się w sejfie internetowym i aplikacjach Bitwarden. Porównaj je, gdy ktoś udostępni Ci organizację."
+  },
+  "matchDetection": {
+    "message": "Wykrywanie dopasowania"
+  },
+  "matchDefault": {
+    "message": "Domyślne (domena)"
+  },
+  "matchDomain": {
+    "message": "Domena i jej subdomeny"
+  },
+  "matchHost": {
+    "message": "Host (i port)"
+  },
+  "matchStartsWith": {
+    "message": "Zaczyna się od"
+  },
+  "matchExact": {
+    "message": "Dokładny URL"
+  },
+  "matchRegex": {
+    "message": "Wyrażenie regularne"
+  },
+  "matchNever": {
+    "message": "Nigdy"
+  },
+  "archive": {
+    "message": "Archiwum"
+  },
+  "unarchive": {
+    "message": "Przywróć z archiwum"
+  },
+  "itemArchived": {
+    "message": "Zarchiwizowano element. Nie pojawia się już w autouzupełnianiu ani na liście sejfu."
+  },
+  "itemUnarchived": {
+    "message": "Element wrócił do sejfu."
+  },
+  "archiveHint": {
+    "message": "Zarchiwizowane elementy są przechowywane, ale nigdy nie są wypełniane ani podpowiadane."
+  },
+  "archiveEmpty": {
+    "message": "Nic nie jest zarchiwizowane."
+  },
+  "archiveItem": {
+    "message": "Archiwizuj"
+  },
+  "generatorPolicyHint": {
+    "message": "Twoja organizacja wymaga niektórych z tych ustawień."
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "Użyj hasła głównego"
+  },
+  "unlockWithPin": {
+    "message": "Odblokuj PIN-em"
+  },
+  "newPin": {
+    "message": "Nowy PIN (co najmniej 4 znaki)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Zachowaj odblokowanie PIN-em po ponownym uruchomieniu przeglądarki"
+  },
+  "pinKeepHint": {
+    "message": "Wyłączone: po ponownym uruchomieniu odblokowujesz raz hasłem głównym. Włączone jest mniej bezpieczne: krótki PIN zapisany na tym komputerze może odgadnąć każdy, kto skopiuje Twój profil przeglądarki."
+  },
+  "setPin": {
+    "message": "Ustaw PIN"
+  },
+  "pinOn": {
+    "message": "Odblokowanie PIN-em jest włączone. Pięć błędnych PIN-ów je wyłącza."
+  },
+  "pinOff": {
+    "message": "Odblokowanie PIN-em jest wyłączone."
+  },
+  "passwordHealth": {
+    "message": "Kondycja haseł"
+  },
+  "passwordHealthHint": {
+    "message": "Znajduje słabe i powtórzone hasła, a także ujawnione, gdy sprawdzanie wycieków jest włączone."
+  },
+  "checkBreaches": {
+    "message": "Sprawdzaj hasła w znanych wyciekach danych"
+  },
+  "checkBreachesHint": {
+    "message": "Po każdej synchronizacji Firnkey pyta Have I Been Pwned o hasło każdego loginu. Wysyłane jest tylko pierwsze 5 znaków skrótu hasła; samo hasło nigdy nie opuszcza tej przeglądarki."
+  },
+  "checkBreachesNow": {
+    "message": "Sprawdź wycieki teraz"
+  },
+  "checkingBreaches": {
+    "message": "Sprawdzanie…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey potrzebuje dostępu do api.pwnedpasswords.com, aby sprawdzić wycieki."
+  },
+  "healthExposed_one": {
+    "message": "$1 ujawnione"
+  },
+  "healthExposed_other": {
+    "message": "$1 ujawnionego"
+  },
+  "healthExposed_few": {
+    "message": "$1 ujawnione"
+  },
+  "healthExposed_many": {
+    "message": "$1 ujawnionych"
+  },
+  "healthReused_one": {
+    "message": "$1 powtórzone"
+  },
+  "healthReused_other": {
+    "message": "$1 powtórzonego"
+  },
+  "healthReused_few": {
+    "message": "$1 powtórzone"
+  },
+  "healthReused_many": {
+    "message": "$1 powtórzonych"
+  },
+  "healthWeak_one": {
+    "message": "$1 słabe"
+  },
+  "healthWeak_other": {
+    "message": "$1 słabego"
+  },
+  "healthWeak_few": {
+    "message": "$1 słabe"
+  },
+  "healthWeak_many": {
+    "message": "$1 słabych"
+  },
+  "healthNotChecked": {
+    "message": "$1 jeszcze niesprawdzone pod kątem wycieków"
+  },
+  "healthAllChecked": {
+    "message": "wszystkie sprawdzone pod kątem wycieków"
+  },
+  "exposedPasswords": {
+    "message": "Ujawnione hasła"
+  },
+  "reusedPasswords": {
+    "message": "Powtórzone hasła"
+  },
+  "weakPasswords": {
+    "message": "Słabe hasła"
+  },
+  "weakPassword": {
+    "message": "Słabe"
+  },
+  "seenInBreaches_one": {
+    "message": "Wykryte w $2 wycieku danych"
+  },
+  "seenInBreaches_other": {
+    "message": "Wykryte w $2 wycieku danych"
+  },
+  "seenInBreaches_few": {
+    "message": "Wykryte w $2 wyciekach danych"
+  },
+  "seenInBreaches_many": {
+    "message": "Wykryte w $2 wyciekach danych"
+  },
+  "usedByLogins_one": {
+    "message": "Używane przez $1 login"
+  },
+  "usedByLogins_other": {
+    "message": "Używane przez $1 loginu"
+  },
+  "usedByLogins_few": {
+    "message": "Używane przez $1 loginy"
+  },
+  "usedByLogins_many": {
+    "message": "Używane przez $1 loginów"
+  },
+  "passwordInBreaches_one": {
+    "message": "To hasło pojawiło się w $2 wycieku danych. Zmień je."
+  },
+  "passwordInBreaches_other": {
+    "message": "To hasło pojawiło się w $2 wycieku danych. Zmień je."
+  },
+  "passwordInBreaches_few": {
+    "message": "To hasło pojawiło się w $2 wyciekach danych. Zmień je."
+  },
+  "passwordInBreaches_many": {
+    "message": "To hasło pojawiło się w $2 wyciekach danych. Zmień je."
+  },
+  "healthAllGood": {
+    "message": "Nie znaleziono słabych, powtórzonych ani ujawnionych haseł."
+  },
+  "autofillOnPageLoad": {
+    "message": "Autouzupełnianie po wczytaniu strony"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Wypełnia pasujący login od razu po wczytaniu strony logowania, bez klikania. Wymaga integracji ze stronami. Zhakowana strona lub ukryty formularz na pasującej stronie mógłby odczytać hasło, więc używaj tego tylko na zaufanych stronach."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Domyślnie dla loginów"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Nie wypełniaj po wczytaniu strony"
+  },
+  "useDefaultSetting": {
+    "message": "Użyj ustawienia domyślnego"
+  },
+  "always": {
+    "message": "Zawsze"
+  },
+  "loginWithDevice": {
+    "message": "Zaloguj się urządzeniem"
+  },
+  "signInWithSso": {
+    "message": "Zaloguj się przez SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Zatwierdź prośbę w aplikacji lub sejfie internetowym, w którym jesteś zalogowany. Sprawdź, czy wyświetla tę frazę:"
+  },
+  "ssoUnlockHint": {
+    "message": "Zalogowano przez SSO. Wpisz hasło główne, aby odblokować."
+  },
+  "serverIcons": {
+    "message": "Pokazuj ikony stron"
+  },
+  "serverIconsHint": {
+    "message": "Twój serwer pobiera ikonę każdej strony raz i przechowuje ją w pamięci podręcznej. Wyłączone: tylko ikony, które przeglądarka już ma."
+  },
+  "waitingForApproval": {
+    "message": "Oczekiwanie na zatwierdzenie…"
+  },
+  "websites": {
+    "message": "Strony internetowe"
+  },
+  "addWebsite": {
+    "message": "Dodaj stronę"
+  },
+  "removeWebsite": {
+    "message": "Usuń stronę"
+  },
+  "customFields": {
+    "message": "Pola własne"
+  },
+  "fieldType": {
+    "message": "Typ pola"
+  },
+  "hiddenField": {
+    "message": "Ukryte"
+  },
+  "checkboxField": {
+    "message": "Pole wyboru"
+  },
+  "addField": {
+    "message": "Dodaj pole"
+  },
+  "fieldName": {
+    "message": "Nazwa pola"
+  },
+  "fieldValue": {
+    "message": "Wartość"
+  },
+  "removeField": {
+    "message": "Usuń pole"
+  },
+  "collections": {
+    "message": "Kolekcje"
+  },
+  "allVaults": {
+    "message": "Wszystkie sejfy"
+  },
+  "filters": {
+    "message": "Filtry"
+  },
+  "allCollections": {
+    "message": "Wszystkie kolekcje"
+  },
+  "allFolders": {
+    "message": "Wszystkie foldery"
+  },
+  "allTypes": {
+    "message": "Wszystkie typy"
+  },
+  "editSend": {
+    "message": "Edytuj Send"
+  },
+  "keepDeletionDate": {
+    "message": "Zachowaj ($1)"
+  },
+  "removePassword": {
+    "message": "Usuń hasło"
+  },
+  "sendSaved": {
+    "message": "Zapisano $1."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Twoja organizacja blokuje sejf najpóźniej po $1 bezczynności."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Twoja organizacja wylogowuje Cię najpóźniej po $1 bezczynności."
+  }
+}

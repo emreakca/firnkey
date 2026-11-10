@@ -1,0 +1,2100 @@
+{
+  "languageCode": {
+    "message": "ar",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "مدير كلمات مرور لخادمك الخاص"
+  },
+  "starting": {
+    "message": "جارٍ البدء"
+  },
+  "connectYourServer": {
+    "message": "اتصل بخادمك"
+  },
+  "serverAccessHint": {
+    "message": "يطلب Firnkey الوصول إلى الخادم الذي تختاره فقط."
+  },
+  "serverUrl": {
+    "message": "عنوان URL للخادم"
+  },
+  "verifyServer": {
+    "message": "التحقق من الخادم"
+  },
+  "signIn": {
+    "message": "تسجيل الدخول"
+  },
+  "change": {
+    "message": "تغيير"
+  },
+  "email": {
+    "message": "البريد الإلكتروني"
+  },
+  "masterPassword": {
+    "message": "كلمة المرور الرئيسية"
+  },
+  "twoStepLogin": {
+    "message": "تسجيل الدخول بخطوتين"
+  },
+  "method": {
+    "message": "الطريقة"
+  },
+  "sendEmailCode": {
+    "message": "إرسال الرمز بالبريد الإلكتروني"
+  },
+  "verificationCode": {
+    "message": "رمز التحقق"
+  },
+  "rememberThisDevice": {
+    "message": "تذكر هذا الجهاز"
+  },
+  "newDeviceVerification": {
+    "message": "التحقق من جهاز جديد"
+  },
+  "deviceVerificationHint": {
+    "message": "أدخل رمز التحقق الذي أرسله خادمك."
+  },
+  "deviceVerificationCode": {
+    "message": "رمز التحقق من الجهاز"
+  },
+  "signInAndSync": {
+    "message": "تسجيل الدخول والمزامنة"
+  },
+  "vaultLocked": {
+    "message": "الخزنة مقفلة"
+  },
+  "unlock": {
+    "message": "فتح القفل"
+  },
+  "unlockWithBiometrics": {
+    "message": "فتح القفل باستخدام Touch ID / القياسات الحيوية"
+  },
+  "logOut": {
+    "message": "تسجيل الخروج"
+  },
+  "allItems": {
+    "message": "كل العناصر"
+  },
+  "noMatchingItems": {
+    "message": "لا توجد عناصر مطابقة."
+  },
+  "viewAll": {
+    "message": "عرض الكل"
+  },
+  "authenticatorEmpty": {
+    "message": "لا توجد مفاتيح مصادقة بعد. اختر «جديد» لمسح رمز QR أو لصق مفتاح."
+  },
+  "importOrExportKeys": {
+    "message": "استيراد المفاتيح أو تصديرها"
+  },
+  "scanQrOnPage": {
+    "message": "مسح رمز QR في هذه الصفحة"
+  },
+  "saveTo": {
+    "message": "الحفظ في"
+  },
+  "newLogin": {
+    "message": "تسجيل دخول جديد"
+  },
+  "key": {
+    "message": "المفتاح"
+  },
+  "name": {
+    "message": "الاسم"
+  },
+  "nicknameOptional": {
+    "message": "اسم مستعار (اختياري)"
+  },
+  "account": {
+    "message": "الحساب"
+  },
+  "website": {
+    "message": "الموقع"
+  },
+  "issuer": {
+    "message": "الجهة المُصدِرة"
+  },
+  "advanced": {
+    "message": "متقدم"
+  },
+  "algorithm": {
+    "message": "الخوارزمية"
+  },
+  "digits": {
+    "message": "الأرقام"
+  },
+  "periodSeconds": {
+    "message": "المدة (ث)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "تستخدم معظم الخدمات SHA-1 و6 أرقام و30 ثانية. مفاتيح Steam (الجهة المُصدِرة Steam) تُنتج دائمًا رموزًا من 5 أحرف."
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "import": {
+    "message": "استيراد"
+  },
+  "keysImportHint": {
+    "message": "رابط otpauth://totp/ واحد في كل سطر، كما تصدّره تطبيقات المصادقة. يصبح كل مفتاح جديد عنصر تسجيل دخول."
+  },
+  "chooseFile": {
+    "message": "اختيار ملف"
+  },
+  "checkList": {
+    "message": "مراجعة القائمة"
+  },
+  "export": {
+    "message": "تصدير"
+  },
+  "keysExportHint": {
+    "message": "يحفظ كل مفتاح كرابط otpauth:// في ملف نصي. يستطيع أي شخص يملك الملف إنشاء رموزك، لذا احذفه بعد الاستيراد."
+  },
+  "exportKeys": {
+    "message": "تصدير المفاتيح"
+  },
+  "sendIntro": {
+    "message": "شارك نصًا أو ملفًا عبر رابط مشفّر من طرف إلى طرف يحذف نفسه تلقائيًا."
+  },
+  "sendEmpty": {
+    "message": "لا توجد عناصر Send بعد. اختر «جديد» لمشاركة نص أو ملف."
+  },
+  "text": {
+    "message": "نص"
+  },
+  "file": {
+    "message": "ملف"
+  },
+  "sendHideText": {
+    "message": "إخفاء النص حتى يكشفه المستلم"
+  },
+  "noFileChosenSendLimit": {
+    "message": "لم يتم اختيار ملف · 25 ميغابايت كحد أقصى"
+  },
+  "deleteAfter": {
+    "message": "الحذف بعد"
+  },
+  "days1": {
+    "message": "يوم واحد"
+  },
+  "days2": {
+    "message": "يومان"
+  },
+  "days3": {
+    "message": "3 أيام"
+  },
+  "days7": {
+    "message": "7 أيام"
+  },
+  "days14": {
+    "message": "14 يومًا"
+  },
+  "days30": {
+    "message": "30 يومًا"
+  },
+  "options": {
+    "message": "الخيارات"
+  },
+  "passwordOptional": {
+    "message": "كلمة المرور (اختياري)"
+  },
+  "maximumViewsOptional": {
+    "message": "الحد الأقصى للمشاهدات (اختياري)"
+  },
+  "createAndCopyLink": {
+    "message": "إنشاء الرابط ونسخه"
+  },
+  "passwordGenerator": {
+    "message": "مولّد كلمات المرور"
+  },
+  "generatorHint": {
+    "message": "يُنشأ محليًا باستخدام مصدر العشوائية التشفيري في المتصفح."
+  },
+  "password": {
+    "message": "كلمة المرور"
+  },
+  "passphrase": {
+    "message": "عبارة المرور"
+  },
+  "username": {
+    "message": "اسم المستخدم"
+  },
+  "length": {
+    "message": "الطول"
+  },
+  "uppercase": {
+    "message": "أحرف كبيرة"
+  },
+  "lowercase": {
+    "message": "أحرف صغيرة"
+  },
+  "numbers": {
+    "message": "أرقام"
+  },
+  "symbols": {
+    "message": "رموز"
+  },
+  "words": {
+    "message": "الكلمات"
+  },
+  "wordSeparator": {
+    "message": "فاصل الكلمات"
+  },
+  "capitalize": {
+    "message": "حرف أول كبير"
+  },
+  "includeNumber": {
+    "message": "تضمين رقم"
+  },
+  "type": {
+    "message": "النوع"
+  },
+  "randomWord": {
+    "message": "كلمة عشوائية"
+  },
+  "plusAddressedEmail": {
+    "message": "بريد بعنوان +"
+  },
+  "catchAllEmail": {
+    "message": "بريد شامل (catch-all)"
+  },
+  "forwardedEmailAlias": {
+    "message": "اسم بريد مستعار مع إعادة توجيه"
+  },
+  "forwardingService": {
+    "message": "خدمة إعادة التوجيه"
+  },
+  "apiKey": {
+    "message": "مفتاح API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "يُحفظ بعد أول استخدام؛ اتركه فارغًا للإبقاء عليه"
+  },
+  "aliasDomain": {
+    "message": "نطاق الاسم المستعار"
+  },
+  "createAlias": {
+    "message": "إنشاء اسم مستعار"
+  },
+  "creatingAlias": {
+    "message": "جارٍ إنشاء الاسم المستعار…"
+  },
+  "aliasCreated": {
+    "message": "تم إنشاء الاسم المستعار"
+  },
+  "forwarderAccessNeeded": {
+    "message": "يحتاج Firnkey إلى الوصول إلى خدمة إعادة التوجيه لإنشاء اسم مستعار."
+  },
+  "yourEmail": {
+    "message": "بريدك الإلكتروني"
+  },
+  "yourCatchAllDomain": {
+    "message": "نطاقك الشامل"
+  },
+  "generateAnother": {
+    "message": "إنشاء غيره"
+  },
+  "useInNewLogin": {
+    "message": "استخدامه في تسجيل دخول جديد"
+  },
+  "security": {
+    "message": "الأمان"
+  },
+  "securityGroupHint": {
+    "message": "مهلة القفل، القياسات الحيوية، الحافظة"
+  },
+  "autofillSaving": {
+    "message": "الملء التلقائي والحفظ"
+  },
+  "autofillGroupHint": {
+    "message": "التكامل مع المواقع، مطالبات الحفظ، النطاقات المستثناة"
+  },
+  "vault": {
+    "message": "الخزنة"
+  },
+  "vaultGroupHint": {
+    "message": "المجلدات، علامة تبويب المصادِق"
+  },
+  "importExport": {
+    "message": "الاستيراد والتصدير"
+  },
+  "transferGroupHint": {
+    "message": "انقل خزنتك من مدير كلمات مرور آخر أو إليه"
+  },
+  "accountSync": {
+    "message": "الحساب والمزامنة"
+  },
+  "accountGroupHint": {
+    "message": "الحسابات، المزامنة الفورية، تسجيل الخروج"
+  },
+  "lockVault": {
+    "message": "قفل الخزنة"
+  },
+  "after1Minute": {
+    "message": "بعد دقيقة واحدة"
+  },
+  "after5Minutes": {
+    "message": "بعد 5 دقائق"
+  },
+  "after15Minutes": {
+    "message": "بعد 15 دقيقة"
+  },
+  "after30Minutes": {
+    "message": "بعد 30 دقيقة"
+  },
+  "after1Hour": {
+    "message": "بعد ساعة واحدة"
+  },
+  "after2Hours": {
+    "message": "بعد ساعتين"
+  },
+  "after4Hours": {
+    "message": "بعد 4 ساعات"
+  },
+  "after8Hours": {
+    "message": "بعد 8 ساعات"
+  },
+  "after24Hours": {
+    "message": "بعد 24 ساعة"
+  },
+  "whenTheComputerLocks": {
+    "message": "عند قفل الحاسوب"
+  },
+  "whenBrowserCloses": {
+    "message": "عند إغلاق المتصفح"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "إبقاؤها مفتوحة حتى تسجيل الخروج"
+  },
+  "untilLogoutHint": {
+    "message": "خيار «حتى تسجيل الخروج» يشفّر الجلسة لملف تعريف المتصفح هذا، لكنه أقل أمانًا على حاسوب مشترك."
+  },
+  "lockNow": {
+    "message": "القفل الآن"
+  },
+  "clearCopiedSecrets": {
+    "message": "مسح الأسرار المنسوخة"
+  },
+  "after10Seconds": {
+    "message": "بعد 10 ثوانٍ"
+  },
+  "after20Seconds": {
+    "message": "بعد 20 ثانية"
+  },
+  "after30Seconds": {
+    "message": "بعد 30 ثانية"
+  },
+  "after2Minutes": {
+    "message": "بعد دقيقتين"
+  },
+  "never": {
+    "message": "أبدًا"
+  },
+  "clipboardOwnOnly": {
+    "message": "مسح ما نسخه Firnkey فقط"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "يتطلب إذنًا بقراءة الحافظة، حتى لا يُمسّ النص الذي تنسخه من مكان آخر."
+  },
+  "websiteIntegration": {
+    "message": "التكامل مع المواقع"
+  },
+  "websiteIntegrationHint": {
+    "message": "اقتراحات الملء التلقائي ومطالبات الحفظ."
+  },
+  "enable": {
+    "message": "تفعيل"
+  },
+  "fillSignInDialogs": {
+    "message": "ملء نوافذ تسجيل الدخول (مصادقة HTTP الأساسية)"
+  },
+  "basicAuthHint": {
+    "message": "يجيب على نافذة تسجيل الدخول في المتصفح عندما يطابقها تسجيل دخول واحد غير محمي فقط."
+  },
+  "savePrompts": {
+    "message": "مطالبات الحفظ"
+  },
+  "askToAddLogin": {
+    "message": "السؤال عن إضافة تسجيل الدخول"
+  },
+  "askToUpdateLogin": {
+    "message": "السؤال عن تحديث تسجيل الدخول الحالي"
+  },
+  "askPasskeys": {
+    "message": "السؤال عن حفظ مفاتيح المرور واستخدامها"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "إغلاق مطالبات الحفظ بعد (ثوانٍ)"
+  },
+  "excludedDomains": {
+    "message": "النطاقات المستثناة"
+  },
+  "excludedDomainsHint": {
+    "message": "لن يقترح Firnkey بيانات الاعتماد أو يملأها أو يحفظها على هذه النطاقات."
+  },
+  "add": {
+    "message": "إضافة"
+  },
+  "folders": {
+    "message": "المجلدات"
+  },
+  "foldersHint": {
+    "message": "حذف المجلد يُبقي عناصره؛ تنتقل إلى «بلا مجلد»."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "إظهار علامة تبويب المصادِق"
+  },
+  "authenticatorTabHint": {
+    "message": "رموز تحقق مباشرة لعناصر تسجيل الدخول. أضف المفاتيح عبر رمز QR أو يدويًا أو من ملف."
+  },
+  "authenticatorSmartFilter": {
+    "message": "إظهار رموز هذا الموقع فقط عند وجودها"
+  },
+  "vaultImportHint": {
+    "message": "تصدير JSON من Bitwarden (غير مشفّر أو محمي بكلمة مرور)، أو تصدير ‎.1pux من 1Password، أو ملف CSV من Bitwarden أو 1Password أو KeePass أو KeePassXC أو Chrome أو Edge أو Firefox أو Safari. تذهب العناصر إلى خزنتك الشخصية."
+  },
+  "noFileChosen": {
+    "message": "لم يتم اختيار ملف"
+  },
+  "filePassword": {
+    "message": "كلمة مرور الملف"
+  },
+  "checkFile": {
+    "message": "فحص الملف"
+  },
+  "format": {
+    "message": "التنسيق"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "‏Bitwarden JSON، محمي بكلمة مرور ملف"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "‏Bitwarden JSON، غير مشفّر"
+  },
+  "filePasswordHint": {
+    "message": "مطلوبة لاستيراد الملف مرة أخرى. لا يستطيع Firnkey استعادتها."
+  },
+  "unencryptedExportWarning": {
+    "message": "يستطيع أي شخص يملك ملفًا غير مشفّر قراءة كل كلمات المرور فيه. احذفه بعد الاستيراد."
+  },
+  "exportScopeHint": {
+    "message": "يصدّر عناصرك الشخصية. تبقى عناصر المؤسسة لدى المؤسسة."
+  },
+  "exportVault": {
+    "message": "تصدير الخزنة"
+  },
+  "liveSync": {
+    "message": "المزامنة الفورية"
+  },
+  "liveSyncHint": {
+    "message": "يتلقى التغييرات من خادمك فورًا. عند إيقافها يتحقق مرة كل دقيقة ويستخدم ذاكرة أقل."
+  },
+  "syncNow": {
+    "message": "المزامنة الآن"
+  },
+  "addAccount": {
+    "message": "إضافة حساب"
+  },
+  "repromptHint": {
+    "message": "يتطلب هذا العنصر كلمة مرورك الرئيسية قبل استخدام الحقول المحمية."
+  },
+  "unlockProtectedFields": {
+    "message": "فتح الحقول المحمية"
+  },
+  "show": {
+    "message": "إظهار"
+  },
+  "addAttachment": {
+    "message": "إضافة مرفق"
+  },
+  "fillOnThisPage": {
+    "message": "الملء في هذه الصفحة"
+  },
+  "edit": {
+    "message": "تعديل"
+  },
+  "moveToTrash": {
+    "message": "نقل إلى سلة المهملات"
+  },
+  "addLogin": {
+    "message": "إضافة تسجيل دخول"
+  },
+  "login": {
+    "message": "تسجيل دخول"
+  },
+  "card": {
+    "message": "بطاقة"
+  },
+  "identity": {
+    "message": "هوية"
+  },
+  "secureNote": {
+    "message": "ملاحظة آمنة"
+  },
+  "folder": {
+    "message": "المجلد"
+  },
+  "noFolder": {
+    "message": "بلا مجلد"
+  },
+  "owner": {
+    "message": "المالك"
+  },
+  "myVault": {
+    "message": "خزنتي"
+  },
+  "moveToOrganizationHint": {
+    "message": "لا يمكن التراجع هنا عن النقل إلى مؤسسة؛ يصبح العنصر ملكًا للمؤسسة."
+  },
+  "generate": {
+    "message": "إنشاء"
+  },
+  "authenticatorKeyTotp": {
+    "message": "مفتاح المصادقة (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "مسح QR"
+  },
+  "notes": {
+    "message": "ملاحظات"
+  },
+  "favorite": {
+    "message": "مفضّل"
+  },
+  "authenticator": {
+    "message": "المصادِق"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "المولّد"
+  },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "back": {
+    "message": "رجوع"
+  },
+  "openSettings": {
+    "message": "فتح الإعدادات"
+  },
+  "searchVault": {
+    "message": "البحث في الخزنة"
+  },
+  "keyOrTotpLink": {
+    "message": "مفتاح Base32 أو رابط otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "افتراضيًا: الجهة المُصدِرة"
+  },
+  "shownInsteadOfThe": {
+    "message": "يظهر بدلًا من الاسم"
+  },
+  "keysToImport": {
+    "message": "المفاتيح المراد استيرادها"
+  },
+  "whatToSend": {
+    "message": "ما تريد إرساله"
+  },
+  "whatToGenerate": {
+    "message": "ما تريد إنشاءه"
+  },
+  "generatedValue": {
+    "message": "القيمة المُنشأة"
+  },
+  "copy": {
+    "message": "نسخ"
+  },
+  "copyGeneratedValue": {
+    "message": "نسخ القيمة المُنشأة"
+  },
+  "domainToExclude": {
+    "message": "النطاق المراد استثناؤه"
+  },
+  "newFolder": {
+    "message": "مجلد جديد"
+  },
+  "newFolderName": {
+    "message": "اسم المجلد الجديد"
+  },
+  "copyUsername": {
+    "message": "نسخ اسم المستخدم"
+  },
+  "copyPassword": {
+    "message": "نسخ كلمة المرور"
+  },
+  "copyVerificationCode": {
+    "message": "نسخ رمز التحقق"
+  },
+  "keyOrOtpauthLink": {
+    "message": "مفتاح Base32 أو رابط otpauth://"
+  },
+  "mainNavigation": {
+    "message": "التنقل الرئيسي"
+  },
+  "firnkeyPasskey": {
+    "message": "مفتاح مرور Firnkey"
+  },
+  "passkey": {
+    "message": "مفتاح المرور"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "افتح قفل Firnkey للمتابعة."
+  },
+  "verifyWithBiometrics": {
+    "message": "التحقق باستخدام Touch ID / القياسات الحيوية"
+  },
+  "continue": {
+    "message": "متابعة"
+  },
+  "useAnotherDevice": {
+    "message": "استخدام جهاز آخر"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "sshKey": {
+    "message": "مفتاح SSH"
+  },
+  "cardholderName": {
+    "message": "اسم حامل البطاقة"
+  },
+  "brand": {
+    "message": "العلامة التجارية"
+  },
+  "number": {
+    "message": "الرقم"
+  },
+  "expirationMonth": {
+    "message": "شهر الانتهاء"
+  },
+  "expirationYear": {
+    "message": "سنة الانتهاء"
+  },
+  "securityCode": {
+    "message": "رمز الأمان"
+  },
+  "title": {
+    "message": "اللقب"
+  },
+  "firstName": {
+    "message": "الاسم الأول"
+  },
+  "middleName": {
+    "message": "الاسم الأوسط"
+  },
+  "lastName": {
+    "message": "اسم العائلة"
+  },
+  "company": {
+    "message": "الشركة"
+  },
+  "phone": {
+    "message": "الهاتف"
+  },
+  "address1": {
+    "message": "العنوان 1"
+  },
+  "address2": {
+    "message": "العنوان 2"
+  },
+  "address3": {
+    "message": "العنوان 3"
+  },
+  "city": {
+    "message": "المدينة"
+  },
+  "stateProvince": {
+    "message": "الولاية / المنطقة"
+  },
+  "postalCode": {
+    "message": "الرمز البريدي"
+  },
+  "country": {
+    "message": "البلد"
+  },
+  "ssn": {
+    "message": "رقم الضمان الاجتماعي"
+  },
+  "passportNumber": {
+    "message": "رقم جواز السفر"
+  },
+  "licenseNumber": {
+    "message": "رقم رخصة القيادة"
+  },
+  "addSecureNote": {
+    "message": "إضافة ملاحظة آمنة"
+  },
+  "addCard": {
+    "message": "إضافة بطاقة"
+  },
+  "addIdentity": {
+    "message": "إضافة هوية"
+  },
+  "addSshKey": {
+    "message": "إضافة مفتاح SSH"
+  },
+  "editLogin": {
+    "message": "تعديل تسجيل الدخول"
+  },
+  "editSecureNote": {
+    "message": "تعديل الملاحظة الآمنة"
+  },
+  "editCard": {
+    "message": "تعديل البطاقة"
+  },
+  "editIdentity": {
+    "message": "تعديل الهوية"
+  },
+  "editSshKey": {
+    "message": "تعديل مفتاح SSH"
+  },
+  "passphraseGenerator": {
+    "message": "مولّد عبارات المرور"
+  },
+  "usernameGenerator": {
+    "message": "مولّد أسماء المستخدمين"
+  },
+  "generatedPasswordCopied": {
+    "message": "تم نسخ كلمة المرور المُنشأة."
+  },
+  "generatedPassphraseCopied": {
+    "message": "تم نسخ عبارة المرور المُنشأة."
+  },
+  "generatedUsernameCopied": {
+    "message": "تم نسخ اسم المستخدم المُنشأ."
+  },
+  "removeKey": {
+    "message": "إزالة المفتاح"
+  },
+  "biometricOff": {
+    "message": "تم إيقاف فتح القفل بالقياسات الحيوية."
+  },
+  "usernameCopied": {
+    "message": "تم نسخ اسم المستخدم."
+  },
+  "passwordCopied": {
+    "message": "تم نسخ كلمة المرور."
+  },
+  "hide": {
+    "message": "إخفاء"
+  },
+  "movedToTrash": {
+    "message": "تم النقل إلى سلة المهملات."
+  },
+  "websiteAccessDenied": {
+    "message": "لم يُمنح الوصول إلى المواقع."
+  },
+  "websiteIntegrationOn": {
+    "message": "تم تفعيل الملء التلقائي ومطالبات الحفظ."
+  },
+  "websiteIntegrationOff": {
+    "message": "تم إيقاف المطالبات في المواقع."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "يتطلب ملء نوافذ تسجيل الدخول إذنًا برؤيتها في المواقع."
+  },
+  "preferencesUpdated": {
+    "message": "تم تحديث التفضيلات."
+  },
+  "invalidDomain": {
+    "message": "أدخل نطاقًا صالحًا مثل example.com."
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "enabled": {
+    "message": "مفعّل"
+  },
+  "disableWebsiteIntegration": {
+    "message": "إيقاف التكامل مع المواقع"
+  },
+  "enableWebsiteIntegration": {
+    "message": "تفعيل التكامل مع المواقع"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "مهلة قفل غير مدعومة."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "مهلة حافظة غير مدعومة."
+  },
+  "clipboardClearsAfter": {
+    "message": "ستُمسح الأسرار المنسوخة بعد $1."
+  },
+  "clipboardKeeps": {
+    "message": "ستبقى الأسرار المنسوخة في الحافظة."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "لن يمسح Firnkey الحافظة إلا إذا كانت لا تزال تحتوي ما نسخه Firnkey."
+  },
+  "seconds_one": {
+    "message": "ثانية واحدة ($1)"
+  },
+  "seconds_other": {
+    "message": "$1 ثانية"
+  },
+  "seconds_zero": {
+    "message": "$1 ثانية"
+  },
+  "seconds_two": {
+    "message": "ثانيتين ($1)"
+  },
+  "seconds_few": {
+    "message": "$1 ثوانٍ"
+  },
+  "seconds_many": {
+    "message": "$1 ثانية"
+  },
+  "minutes_one": {
+    "message": "دقيقة واحدة ($1)"
+  },
+  "minutes_other": {
+    "message": "$1 دقيقة"
+  },
+  "minutes_zero": {
+    "message": "$1 دقيقة"
+  },
+  "minutes_two": {
+    "message": "دقيقتين ($1)"
+  },
+  "minutes_few": {
+    "message": "$1 دقائق"
+  },
+  "minutes_many": {
+    "message": "$1 دقيقة"
+  },
+  "hours_one": {
+    "message": "ساعة واحدة ($1)"
+  },
+  "hours_other": {
+    "message": "$1 ساعة"
+  },
+  "hours_zero": {
+    "message": "$1 ساعة"
+  },
+  "hours_two": {
+    "message": "ساعتين ($1)"
+  },
+  "hours_few": {
+    "message": "$1 ساعات"
+  },
+  "hours_many": {
+    "message": "$1 ساعة"
+  },
+  "lockOnComputerLock": {
+    "message": "ستُقفل الخزنة عند قفل الحاسوب أو إغلاق المتصفح."
+  },
+  "lockOnLogout": {
+    "message": "ستبقى الخزنة مفتوحة في هذا المتصفح حتى تقفلها أو تسجّل الخروج."
+  },
+  "lockOnBrowserClose": {
+    "message": "ستبقى الخزنة مفتوحة حتى يُغلق المتصفح."
+  },
+  "lockAfterInactivity": {
+    "message": "ستُقفل الخزنة بعد $1 من عدم النشاط."
+  },
+  "waitingForVerification": {
+    "message": "بانتظار التحقق…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "افتح قفل الخزنة قبل تفعيل فتح القفل بالقياسات الحيوية."
+  },
+  "noPasskeyCreated": {
+    "message": "لم يُنشأ مفتاح مرور."
+  },
+  "biometricOn": {
+    "message": "فتح القفل بالقياسات الحيوية مفعّل."
+  },
+  "biometricUnavailable": {
+    "message": "فتح القفل بالقياسات الحيوية غير متاح الآن."
+  },
+  "vaultUnlocked_one": {
+    "message": "تم فتح الخزنة، وفيها عنصر واحد ($1)."
+  },
+  "vaultUnlocked_other": {
+    "message": "تم فتح الخزنة، وفيها $1 عنصر."
+  },
+  "vaultUnlocked_zero": {
+    "message": "تم فتح الخزنة، ولا تحتوي عناصر ($1)."
+  },
+  "vaultUnlocked_two": {
+    "message": "تم فتح الخزنة، وفيها عنصران ($1)."
+  },
+  "vaultUnlocked_few": {
+    "message": "تم فتح الخزنة، وفيها $1 عناصر."
+  },
+  "vaultUnlocked_many": {
+    "message": "تم فتح الخزنة، وفيها $1 عنصرًا."
+  },
+  "verificationCancelled": {
+    "message": "أُلغي التحقق أو انتهت مهلته."
+  },
+  "notConnected": {
+    "message": "غير متصل"
+  },
+  "connectAServer": {
+    "message": "الاتصال بخادم"
+  },
+  "signedOut": {
+    "message": "تم تسجيل الخروج"
+  },
+  "itemCount_one": {
+    "message": "عنصر واحد ($1)"
+  },
+  "itemCount_other": {
+    "message": "$1 عنصر"
+  },
+  "itemCount_zero": {
+    "message": "$1 عنصر"
+  },
+  "itemCount_two": {
+    "message": "عنصران ($1)"
+  },
+  "itemCount_few": {
+    "message": "$1 عناصر"
+  },
+  "itemCount_many": {
+    "message": "$1 عنصرًا"
+  },
+  "locked": {
+    "message": "مقفلة"
+  },
+  "unlocked": {
+    "message": "مفتوحة"
+  },
+  "settingsFor": {
+    "message": "إعدادات $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · اقتراحات هذه الصفحة أولًا"
+  },
+  "itemTotal_one": {
+    "message": "عنصر واحد ($1) إجمالًا"
+  },
+  "itemTotal_other": {
+    "message": "$1 عنصر إجمالًا"
+  },
+  "itemTotal_zero": {
+    "message": "$1 عنصر إجمالًا"
+  },
+  "itemTotal_two": {
+    "message": "عنصران ($1) إجمالًا"
+  },
+  "itemTotal_few": {
+    "message": "$1 عناصر إجمالًا"
+  },
+  "itemTotal_many": {
+    "message": "$1 عنصرًا إجمالًا"
+  },
+  "skippedItems_one": {
+    "message": "تم تخطي عنصر واحد غير مدعوم أو تالف ($1)."
+  },
+  "skippedItems_other": {
+    "message": "تم تخطي $1 عنصر غير مدعوم أو تالف."
+  },
+  "skippedItems_zero": {
+    "message": "لم يُتخطَّ أي عنصر ($1)."
+  },
+  "skippedItems_two": {
+    "message": "تم تخطي عنصرين غير مدعومين أو تالفين ($1)."
+  },
+  "skippedItems_few": {
+    "message": "تم تخطي $1 عناصر غير مدعومة أو تالفة."
+  },
+  "skippedItems_many": {
+    "message": "تم تخطي $1 عنصرًا غير مدعوم أو تالف."
+  },
+  "otherAccounts": {
+    "message": "حسابات أخرى"
+  },
+  "switch": {
+    "message": "تبديل"
+  },
+  "removeAccountTitle": {
+    "message": "إزالة $1 من Firnkey في هذا المتصفح"
+  },
+  "switchedTo": {
+    "message": "تم التبديل إلى $1."
+  },
+  "accountRemoved": {
+    "message": "تمت إزالة $1 من هذا المتصفح."
+  },
+  "addAccountHint": {
+    "message": "سجّل الدخول إلى الحساب الآخر. يبقى حسابك الحالي محفوظًا ومقفلًا في الأسفل."
+  },
+  "verifying": {
+    "message": "جارٍ التحقق…"
+  },
+  "serverPermissionDenied": {
+    "message": "لم يُمنح إذن الخادم."
+  },
+  "signingIn": {
+    "message": "جارٍ تسجيل الدخول…"
+  },
+  "continueInNewWindow": {
+    "message": "اختر «تسجيل الدخول» مرة أخرى للمتابعة في نافذة جديدة."
+  },
+  "enterTwoStepCode": {
+    "message": "أدخل رمز تسجيل الدخول بخطوتين."
+  },
+  "unlocking": {
+    "message": "جارٍ فتح القفل…"
+  },
+  "trashHint": {
+    "message": "استعد العناصر أو احذفها نهائيًا."
+  },
+  "trashEmpty": {
+    "message": "سلة المهملات فارغة."
+  },
+  "autofillSuggestions": {
+    "message": "اقتراحات الملء التلقائي"
+  },
+  "otherResults": {
+    "message": "نتائج أخرى"
+  },
+  "trash": {
+    "message": "سلة المهملات"
+  },
+  "folderName": {
+    "message": "اسم المجلد"
+  },
+  "rename": {
+    "message": "إعادة التسمية"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "folderRenamed": {
+    "message": "تمت إعادة تسمية المجلد."
+  },
+  "folderAdded": {
+    "message": "تمت إضافة المجلد."
+  },
+  "folderDeleted": {
+    "message": "تم حذف المجلد. عناصره الآن في «بلا مجلد»."
+  },
+  "confirm": {
+    "message": "تأكيد"
+  },
+  "matchesThisPage": {
+    "message": "يطابق هذه الصفحة"
+  },
+  "restore": {
+    "message": "استعادة"
+  },
+  "itemRestored": {
+    "message": "تمت استعادة العنصر."
+  },
+  "deleteForever": {
+    "message": "حذف نهائي"
+  },
+  "itemDeletedForever": {
+    "message": "تم حذف العنصر نهائيًا."
+  },
+  "open": {
+    "message": "فتح"
+  },
+  "fill": {
+    "message": "ملء"
+  },
+  "openWebsite": {
+    "message": "فتح الموقع"
+  },
+  "cardNumber": {
+    "message": "رقم البطاقة"
+  },
+  "note": {
+    "message": "ملاحظة"
+  },
+  "publicKey": {
+    "message": "المفتاح العام"
+  },
+  "copyPublicKey": {
+    "message": "نسخ المفتاح العام"
+  },
+  "copyCardNumber": {
+    "message": "نسخ رقم البطاقة"
+  },
+  "copyNote": {
+    "message": "نسخ الملاحظة"
+  },
+  "copySecurityCode": {
+    "message": "نسخ رمز الأمان"
+  },
+  "copyPrivateKey": {
+    "message": "نسخ المفتاح الخاص"
+  },
+  "privateKey": {
+    "message": "المفتاح الخاص"
+  },
+  "confirmBeforeDeleting": {
+    "message": "أكّد كلمة مرورك الرئيسية قبل حذف هذا العنصر."
+  },
+  "moreActions": {
+    "message": "إجراءات أخرى"
+  },
+  "noWebAddress": {
+    "message": "ليس لتسجيل الدخول هذا عنوان ويب."
+  },
+  "noWebsiteSaved": {
+    "message": "لا يوجد موقع محفوظ"
+  },
+  "loading": {
+    "message": "جارٍ التحميل…"
+  },
+  "expiration": {
+    "message": "الانتهاء"
+  },
+  "address": {
+    "message": "العنوان"
+  },
+  "fingerprint": {
+    "message": "البصمة"
+  },
+  "customField": {
+    "message": "حقل مخصص"
+  },
+  "passwordHistory": {
+    "message": "سجل كلمات المرور ($1)"
+  },
+  "oldPassword": {
+    "message": "كلمة المرور القديمة"
+  },
+  "organization": {
+    "message": "المؤسسة"
+  },
+  "attachmentsCount": {
+    "message": "المرفقات ($1)"
+  },
+  "downloadFile": {
+    "message": "تنزيل $1"
+  },
+  "deleteFile": {
+    "message": "حذف $1"
+  },
+  "fileDownloaded": {
+    "message": "تم تنزيل $1."
+  },
+  "fileTooLarge25": {
+    "message": "الملف كبير جدًا (25 ميغابايت كحد أقصى)."
+  },
+  "fileEmpty": {
+    "message": "الملف فارغ."
+  },
+  "uploadingFile": {
+    "message": "جارٍ تشفير $1 ورفعه…"
+  },
+  "fileAttached": {
+    "message": "تم إرفاق $1."
+  },
+  "fileDeleted": {
+    "message": "تم حذف $1."
+  },
+  "copyLink": {
+    "message": "نسخ الرابط"
+  },
+  "viewsOf": {
+    "message": "$1 من $2 مشاهدة"
+  },
+  "views_one": {
+    "message": "مشاهدة واحدة ($1)"
+  },
+  "views_other": {
+    "message": "$1 مشاهدة"
+  },
+  "views_zero": {
+    "message": "$1 مشاهدة"
+  },
+  "views_two": {
+    "message": "مشاهدتان ($1)"
+  },
+  "views_few": {
+    "message": "$1 مشاهدات"
+  },
+  "views_many": {
+    "message": "$1 مشاهدة"
+  },
+  "deletesOn": {
+    "message": "يُحذف في $1"
+  },
+  "disabled": {
+    "message": "معطّل"
+  },
+  "sendLinkCopied": {
+    "message": "تم نسخ رابط Send."
+  },
+  "deleteSendTitle": {
+    "message": "حذف $1؛ سيتوقف رابطه عن العمل"
+  },
+  "sendDeleted": {
+    "message": "تم حذف $1. لم يعد رابطه يعمل."
+  },
+  "encrypting": {
+    "message": "جارٍ التشفير…"
+  },
+  "chooseFileToSend": {
+    "message": "اختر ملفًا لإرساله."
+  },
+  "sendCreatedCopied": {
+    "message": "تم إنشاء Send ونسخ الرابط."
+  },
+  "sendCreatedSync": {
+    "message": "تم إنشاء Send. زامن، ثم انسخ رابطه من القائمة."
+  },
+  "fileTooLarge10": {
+    "message": "الملف كبير جدًا (10 ميغابايت كحد أقصى)."
+  },
+  "importing": {
+    "message": "جارٍ الاستيراد…"
+  },
+  "checking": {
+    "message": "جارٍ الفحص…"
+  },
+  "importedItems": {
+    "message": "تم استيراد $1."
+  },
+  "importItems": {
+    "message": "استيراد $1"
+  },
+  "foundItems": {
+    "message": "تم العثور على $1. ستُضاف إلى خزنتك؛ ولن يُستبدل شيء."
+  },
+  "foundItemsInFolders": {
+    "message": "تم العثور على $1 في $2. ستُضاف إلى خزنتك؛ ولن يُستبدل شيء."
+  },
+  "folderCount_one": {
+    "message": "مجلد واحد ($1)"
+  },
+  "folderCount_other": {
+    "message": "$1 مجلد"
+  },
+  "folderCount_zero": {
+    "message": "$1 مجلد"
+  },
+  "folderCount_two": {
+    "message": "مجلدان ($1)"
+  },
+  "folderCount_few": {
+    "message": "$1 مجلدات"
+  },
+  "folderCount_many": {
+    "message": "$1 مجلدًا"
+  },
+  "exporting": {
+    "message": "جارٍ التصدير…"
+  },
+  "vaultExportedPlain": {
+    "message": "تم تصدير الخزنة. احذف الملف بعد استيراده."
+  },
+  "vaultExportedProtected": {
+    "message": "تم تصدير الخزنة. احتفظ بكلمة مرور الملف في مكان آمن."
+  },
+  "createdOn": {
+    "message": "أُنشئ في $1"
+  },
+  "lastEdited": {
+    "message": "آخر تعديل $1"
+  },
+  "itemHistory": {
+    "message": "سجل العنصر"
+  },
+  "loginCredentials": {
+    "message": "بيانات الدخول"
+  },
+  "itemDetails": {
+    "message": "تفاصيل العنصر"
+  },
+  "autofillOptions": {
+    "message": "خيارات الملء التلقائي"
+  },
+  "passwordChangedOn": {
+    "message": "آخر تغيير $1"
+  },
+  "removePasskeyTitle": {
+    "message": "إزالة مفتاح المرور هذا من تسجيل الدخول"
+  },
+  "passkeyRemoved": {
+    "message": "تمت إزالة مفتاح المرور."
+  },
+  "usedUntil": {
+    "message": "استُخدمت حتى $1"
+  },
+  "earlierPassword": {
+    "message": "كلمة مرور سابقة"
+  },
+  "fieldCopied": {
+    "message": "تم نسخ $1."
+  },
+  "copyField": {
+    "message": "نسخ $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "أكّد كلمة مرورك الرئيسية قبل النسخ من هذا العنصر."
+  },
+  "codeCopied": {
+    "message": "تم نسخ رمز التحقق."
+  },
+  "viewOnlyItem": {
+    "message": "تسمح لك مؤسستك بعرض هذا العنصر دون تغييره."
+  },
+  "confirmBeforeEditing": {
+    "message": "أكّد كلمة مرورك الرئيسية قبل تعديل هذا العنصر."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "YYYY"
+  },
+  "saving": {
+    "message": "جارٍ الحفظ…"
+  },
+  "loginUpdated": {
+    "message": "تم تحديث تسجيل الدخول."
+  },
+  "loginAdded": {
+    "message": "تمت إضافة تسجيل الدخول."
+  },
+  "itemUpdated": {
+    "message": "تم تحديث $1."
+  },
+  "itemAdded": {
+    "message": "تمت إضافة $1."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "فُتحت الحقول المحمية لمدة 60 ثانية."
+  },
+  "unavailable": {
+    "message": "غير متاح"
+  },
+  "secondsLeft_one": {
+    "message": "بقيت ثانية واحدة ($1)"
+  },
+  "secondsLeft_other": {
+    "message": "بقيت $1 ثانية"
+  },
+  "secondsLeft_zero": {
+    "message": "بقي $1 ثانية"
+  },
+  "secondsLeft_two": {
+    "message": "بقيت ثانيتان ($1)"
+  },
+  "secondsLeft_few": {
+    "message": "بقيت $1 ثوانٍ"
+  },
+  "secondsLeft_many": {
+    "message": "بقيت $1 ثانية"
+  },
+  "codesForSite": {
+    "message": "رموز هذا الموقع · $1 إجمالًا"
+  },
+  "codeCount_one": {
+    "message": "رمز واحد ($1)"
+  },
+  "codeCount_other": {
+    "message": "$1 رمز"
+  },
+  "codeCount_zero": {
+    "message": "$1 رمز"
+  },
+  "codeCount_two": {
+    "message": "رمزان ($1)"
+  },
+  "codeCount_few": {
+    "message": "$1 رموز"
+  },
+  "codeCount_many": {
+    "message": "$1 رمزًا"
+  },
+  "thisWebsite": {
+    "message": "هذا الموقع"
+  },
+  "openToConfirm": {
+    "message": "افتح لتأكيد كلمة مرورك الرئيسية"
+  },
+  "protected": {
+    "message": "محمي"
+  },
+  "fillIntoPage": {
+    "message": "الملء في هذه الصفحة"
+  },
+  "editKey": {
+    "message": "تعديل المفتاح"
+  },
+  "codeFilled": {
+    "message": "تم ملء الرمز لـ $1."
+  },
+  "confirmThenEditKey": {
+    "message": "أكّد كلمة مرورك الرئيسية، ثم عدّل المفتاح من علامة تبويب المصادِق."
+  },
+  "qrReadFirstCheck": {
+    "message": "تمت قراءة أول رمز من عدة رموز QR. راجع التفاصيل واحفظ."
+  },
+  "qrReadCheck": {
+    "message": "تمت قراءة رمز QR. راجع التفاصيل واحفظ."
+  },
+  "qrReadFirstSave": {
+    "message": "تمت قراءة أول رمز من عدة رموز QR. احفظ تسجيل الدخول للاحتفاظ بالمفتاح."
+  },
+  "qrReadSave": {
+    "message": "تمت قراءة رمز QR. احفظ تسجيل الدخول للاحتفاظ بالمفتاح."
+  },
+  "qrUnsupported": {
+    "message": "لا يستطيع هذا المتصفح قراءة رموز QR. الصق المفتاح أو رابط otpauth:// بدلًا من ذلك."
+  },
+  "qrCannotSeePage": {
+    "message": "لا يستطيع Firnkey رؤية هذه الصفحة. افتح الصفحة التي تعرض رمز QR وحاول مجددًا."
+  },
+  "qrNotFound": {
+    "message": "لم يُعثر على رمز QR للمصادقة في الجزء الظاهر من الصفحة."
+  },
+  "qrInvalid": {
+    "message": "رمز QR ليس مفتاح مصادقة صالحًا قائمًا على الوقت (TOTP)."
+  },
+  "keyAdded": {
+    "message": "تمت إضافة مفتاح المصادقة."
+  },
+  "keyUpdated": {
+    "message": "تم تحديث مفتاح المصادقة."
+  },
+  "keyRemoved": {
+    "message": "تمت إزالة مفتاح المصادقة. يبقى تسجيل الدخول نفسه في خزنتك."
+  },
+  "fileTooLarge256": {
+    "message": "الملف كبير جدًا (256 كيلوبايت كحد أقصى)."
+  },
+  "pasteLinksFirst": {
+    "message": "الصق روابط otpauth:// أو اختر ملفًا أولًا."
+  },
+  "keysImported_one": {
+    "message": "تم استيراد مفتاح واحد ($1)."
+  },
+  "keysImported_other": {
+    "message": "تم استيراد $1 مفتاح."
+  },
+  "keysImported_zero": {
+    "message": "لم يُستورد أي مفتاح ($1)."
+  },
+  "keysImported_two": {
+    "message": "تم استيراد مفتاحين ($1)."
+  },
+  "keysImported_few": {
+    "message": "تم استيراد $1 مفاتيح."
+  },
+  "keysImported_many": {
+    "message": "تم استيراد $1 مفتاحًا."
+  },
+  "new": {
+    "message": "جديد"
+  },
+  "duplicate": {
+    "message": "مكرر"
+  },
+  "invalid": {
+    "message": "غير صالح"
+  },
+  "importNewKeys_one": {
+    "message": "استيراد مفتاح جديد واحد ($1)"
+  },
+  "importNewKeys_other": {
+    "message": "استيراد $1 مفتاح جديد"
+  },
+  "importNewKeys_zero": {
+    "message": "استيراد $1 مفتاح جديد"
+  },
+  "importNewKeys_two": {
+    "message": "استيراد مفتاحين جديدين ($1)"
+  },
+  "importNewKeys_few": {
+    "message": "استيراد $1 مفاتيح جديدة"
+  },
+  "importNewKeys_many": {
+    "message": "استيراد $1 مفتاحًا جديدًا"
+  },
+  "checkThenImport": {
+    "message": "راجع القائمة، ثم استورد."
+  },
+  "nothingNewToImport": {
+    "message": "لا يوجد جديد للاستيراد."
+  },
+  "keysExported": {
+    "message": "تم تصدير المفاتيح. احذف الملف بعد استيراده في مكان آخر."
+  },
+  "fieldsFilled_one": {
+    "message": "تم ملء حقل واحد ($1)."
+  },
+  "fieldsFilled_other": {
+    "message": "تم ملء $1 حقل."
+  },
+  "fieldsFilled_zero": {
+    "message": "لم يُملأ أي حقل ($1)."
+  },
+  "fieldsFilled_two": {
+    "message": "تم ملء حقلين ($1)."
+  },
+  "fieldsFilled_few": {
+    "message": "تم ملء $1 حقول."
+  },
+  "fieldsFilled_many": {
+    "message": "تم ملء $1 حقلًا."
+  },
+  "filledUsernameAndPassword": {
+    "message": "تم ملء اسم المستخدم وكلمة المرور."
+  },
+  "filledUsername": {
+    "message": "تم ملء اسم المستخدم."
+  },
+  "filledPassword": {
+    "message": "تم ملء كلمة المرور."
+  },
+  "synced_one": {
+    "message": "تمت مزامنة عنصر واحد ($1)."
+  },
+  "synced_other": {
+    "message": "تمت مزامنة $1 عنصر."
+  },
+  "synced_zero": {
+    "message": "لم تتم مزامنة أي عنصر ($1)."
+  },
+  "synced_two": {
+    "message": "تمت مزامنة عنصرين ($1)."
+  },
+  "synced_few": {
+    "message": "تمت مزامنة $1 عناصر."
+  },
+  "synced_many": {
+    "message": "تمت مزامنة $1 عنصرًا."
+  },
+  "twoStepUnsupported": {
+    "message": "يتطلب هذا الحساب طريقة تسجيل دخول بخطوتين لا يدعمها هذا الإصدار."
+  },
+  "sending": {
+    "message": "جارٍ الإرسال…"
+  },
+  "emailCodeSent": {
+    "message": "تم إرسال رمز التحقق بالبريد الإلكتروني."
+  },
+  "authenticatorApp": {
+    "message": "تطبيق المصادقة"
+  },
+  "securityKeyWebauthn": {
+    "message": "مفتاح الأمان (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "رمز الاسترداد"
+  },
+  "twoFactorMethod": {
+    "message": "الطريقة $1"
+  },
+  "fieldEmpty": {
+    "message": "هذا الحقل فارغ."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 ستُمسح الحافظة بعد $2."
+  },
+  "backgroundNoResponse": {
+    "message": "لم تستجب عملية الإضافة في الخلفية. أعد تحميل الإضافة."
+  },
+  "unexpectedResponse": {
+    "message": "أعادت عملية الخلفية استجابة غير متوقعة."
+  },
+  "newSend": {
+    "message": "Send جديد"
+  },
+  "item": {
+    "message": "العنصر"
+  },
+  "editItem": {
+    "message": "تعديل العنصر"
+  },
+  "newItem": {
+    "message": "عنصر جديد"
+  },
+  "addKey": {
+    "message": "إضافة مفتاح"
+  },
+  "serverVersion": {
+    "message": "$1 · الخادم $2"
+  },
+  "unexpectedError": {
+    "message": "خطأ غير متوقع في الإضافة."
+  },
+  "passkeySuggestion": {
+    "message": "تسجيل الدخول بمفتاح مرور محفوظ في Firnkey"
+  },
+  "generateAndFill": {
+    "message": "إنشاء كلمة مرور وملؤها"
+  },
+  "suggestionsLabel": {
+    "message": "اقتراحات Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "إغلاق اقتراحات الملء التلقائي"
+  },
+  "dismiss": {
+    "message": "إغلاق"
+  },
+  "toggleSuggestions": {
+    "message": "إظهار/إخفاء اقتراحات Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "إظهار اقتراحات Firnkey أو إخفاؤها"
+  },
+  "updateExistingLogin": {
+    "message": "تحديث تسجيل الدخول الحالي"
+  },
+  "saveLoginToFirnkey": {
+    "message": "حفظ تسجيل الدخول في Firnkey"
+  },
+  "notNow": {
+    "message": "ليس الآن"
+  },
+  "update": {
+    "message": "تحديث"
+  },
+  "loginSaved": {
+    "message": "تم حفظ تسجيل الدخول."
+  },
+  "saveFailed": {
+    "message": "تعذّر على Firnkey حفظ تسجيل الدخول هذا."
+  },
+  "savePasskey": {
+    "message": "حفظ مفتاح المرور"
+  },
+  "signInWithPasskey": {
+    "message": "تسجيل الدخول بمفتاح مرور"
+  },
+  "passkeyAlreadySaved": {
+    "message": "لدى Firnkey بالفعل مفتاح مرور لهذا الحساب على هذا الموقع."
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "savePasskeyForAccount": {
+    "message": "هل تريد حفظ مفتاح مرور لـ $1 على $2؟"
+  },
+  "savePasskeyOnSite": {
+    "message": "هل تريد حفظ مفتاح مرور على $1؟"
+  },
+  "choosePasskeyFor": {
+    "message": "اختر مفتاح مرور لـ $1."
+  },
+  "addTo": {
+    "message": "إضافة إلى $1"
+  },
+  "somethingWentWrong": {
+    "message": "حدث خطأ ما."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: استخدم مفتاح الأمان لإنهاء تسجيل الدخول."
+  },
+  "fillLogin": {
+    "message": "ملء تسجيل الدخول"
+  },
+  "extensionDescription": {
+    "message": "مدير كلمات مرور خفيف ومفتوح المصدر لخادمك المستضاف ذاتيًا."
+  },
+  "fillLoginCommand": {
+    "message": "ملء تسجيل الدخول المطابق في هذه الصفحة"
+  },
+  "copied": {
+    "message": "تم النسخ"
+  },
+  "generatorHistory": {
+    "message": "سجل المولّد"
+  },
+  "generatorHistoryEmpty": {
+    "message": "تظهر هنا كلمات المرور التي تنسخها أو تستخدمها من المولّد، مع الموقع الذي كنت عليه. تبقى مشفّرة في هذا المتصفح."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "بلا موقع · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "كلمة المرور المُنشأة"
+  },
+  "clearGeneratorHistory": {
+    "message": "مسح سجل المولّد"
+  },
+  "generatorHistoryCleared": {
+    "message": "تم مسح سجل المولّد."
+  },
+  "passwordFilledFor": {
+    "message": "ملأ Firnkey كلمة المرور لـ $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "ملء كلمة المرور في الخطوة التالية بعد اختيار حساب"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "لتسجيلات الدخول التي تطلب اسم المستخدم أولًا. الحساب الذي اخترته فقط، على الموقع نفسه، مرة واحدة."
+  },
+  "askToSaveForms": {
+    "message": "السؤال عن حفظ البطاقات والعناوين"
+  },
+  "generateSshKey": {
+    "message": "إنشاء مفتاح جديد (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "تم إنشاء مفتاح SSH جديد. احفظ للاحتفاظ به."
+  },
+  "openFirnkeyToAdd": {
+    "message": "انقر زر Firnkey في شريط الأدوات لإنهاء الإضافة."
+  },
+  "saveCardToFirnkey": {
+    "message": "هل تريد حفظ البطاقة في Firnkey؟"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "هل تريد حفظ العنوان في Firnkey؟"
+  },
+  "clone": {
+    "message": "استنساخ"
+  },
+  "cloneName": {
+    "message": "$1 - نسخة"
+  },
+  "itemCloned": {
+    "message": "تم استنساخ العنصر. غيّر النسخة أدناه."
+  },
+  "fingerprintPhrase": {
+    "message": "عبارة البصمة"
+  },
+  "fingerprintPhraseHint": {
+    "message": "تظهر الكلمات الخمس نفسها في خزنة الويب وتطبيقات Bitwarden. قارنها عندما يشاركك أحد مؤسسة."
+  },
+  "matchDetection": {
+    "message": "اكتشاف التطابق"
+  },
+  "matchDefault": {
+    "message": "افتراضي (النطاق)"
+  },
+  "matchDomain": {
+    "message": "النطاق ونطاقاته الفرعية"
+  },
+  "matchHost": {
+    "message": "المضيف (والمنفذ)"
+  },
+  "matchStartsWith": {
+    "message": "يبدأ بـ"
+  },
+  "matchExact": {
+    "message": "عنوان URL مطابق تمامًا"
+  },
+  "matchRegex": {
+    "message": "تعبير نمطي"
+  },
+  "matchNever": {
+    "message": "أبدًا"
+  },
+  "archive": {
+    "message": "الأرشيف"
+  },
+  "unarchive": {
+    "message": "إلغاء الأرشفة"
+  },
+  "itemArchived": {
+    "message": "تمت أرشفة العنصر. لم يعد يظهر في الملء التلقائي أو قائمة الخزنة."
+  },
+  "itemUnarchived": {
+    "message": "أُعيد العنصر إلى الخزنة."
+  },
+  "archiveHint": {
+    "message": "تُحفظ العناصر المؤرشفة، لكنها لا تُملأ ولا تُقترح أبدًا."
+  },
+  "archiveEmpty": {
+    "message": "لا يوجد شيء مؤرشف."
+  },
+  "archiveItem": {
+    "message": "أرشفة"
+  },
+  "generatorPolicyHint": {
+    "message": "تفرض مؤسستك بعض هذه الإعدادات."
+  },
+  "pin": {
+    "message": "رمز PIN"
+  },
+  "useMasterPassword": {
+    "message": "استخدام كلمة المرور الرئيسية بدلًا من ذلك"
+  },
+  "unlockWithPin": {
+    "message": "فتح القفل برمز PIN"
+  },
+  "newPin": {
+    "message": "رمز PIN جديد (4 أحرف أو أكثر)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "إبقاء فتح القفل برمز PIN بعد إعادة تشغيل المتصفح"
+  },
+  "pinKeepHint": {
+    "message": "متوقف: بعد إعادة التشغيل تفتح القفل مرة واحدة بكلمة المرور الرئيسية. التشغيل أقل أمانًا: يمكن لأي شخص ينسخ ملف تعريف متصفحك تخمين رمز PIN قصير محفوظ على هذا الحاسوب."
+  },
+  "setPin": {
+    "message": "تعيين رمز PIN"
+  },
+  "pinOn": {
+    "message": "فتح القفل برمز PIN مفعّل. خمسة رموز خاطئة توقفه."
+  },
+  "pinOff": {
+    "message": "فتح القفل برمز PIN متوقف."
+  },
+  "passwordHealth": {
+    "message": "سلامة كلمات المرور"
+  },
+  "passwordHealthHint": {
+    "message": "يجد كلمات المرور الضعيفة والمعاد استخدامها، والمسرّبة عند تفعيل فحص التسريبات."
+  },
+  "checkBreaches": {
+    "message": "فحص كلمات المرور في تسريبات البيانات المعروفة"
+  },
+  "checkBreachesHint": {
+    "message": "بعد كل مزامنة يسأل Firnkey خدمة Have I Been Pwned عن كلمة مرور كل تسجيل دخول. لا يُرسل إلا أول 5 أحرف من تجزئة كلمة المرور؛ ولا تغادر كلمة المرور نفسها هذا المتصفح أبدًا."
+  },
+  "checkBreachesNow": {
+    "message": "فحص التسريبات الآن"
+  },
+  "checkingBreaches": {
+    "message": "جارٍ الفحص…"
+  },
+  "breachPermissionDenied": {
+    "message": "يحتاج Firnkey إلى الوصول إلى api.pwnedpasswords.com لفحص التسريبات."
+  },
+  "healthExposed_one": {
+    "message": "$1 مسرّبة"
+  },
+  "healthExposed_other": {
+    "message": "$1 مسرّبة"
+  },
+  "healthExposed_zero": {
+    "message": "$1 مسرّبة"
+  },
+  "healthExposed_two": {
+    "message": "$1 مسرّبتان"
+  },
+  "healthExposed_few": {
+    "message": "$1 مسرّبة"
+  },
+  "healthExposed_many": {
+    "message": "$1 مسرّبة"
+  },
+  "healthReused_one": {
+    "message": "$1 معاد استخدامها"
+  },
+  "healthReused_other": {
+    "message": "$1 معاد استخدامها"
+  },
+  "healthReused_zero": {
+    "message": "$1 معاد استخدامها"
+  },
+  "healthReused_two": {
+    "message": "$1 معاد استخدامهما"
+  },
+  "healthReused_few": {
+    "message": "$1 معاد استخدامها"
+  },
+  "healthReused_many": {
+    "message": "$1 معاد استخدامها"
+  },
+  "healthWeak_one": {
+    "message": "$1 ضعيفة"
+  },
+  "healthWeak_other": {
+    "message": "$1 ضعيفة"
+  },
+  "healthWeak_zero": {
+    "message": "$1 ضعيفة"
+  },
+  "healthWeak_two": {
+    "message": "$1 ضعيفتان"
+  },
+  "healthWeak_few": {
+    "message": "$1 ضعيفة"
+  },
+  "healthWeak_many": {
+    "message": "$1 ضعيفة"
+  },
+  "healthNotChecked": {
+    "message": "$1 لم تُفحص للتسريبات بعد"
+  },
+  "healthAllChecked": {
+    "message": "تم فحص الكل للتسريبات"
+  },
+  "exposedPasswords": {
+    "message": "كلمات المرور المسرّبة"
+  },
+  "reusedPasswords": {
+    "message": "كلمات المرور المعاد استخدامها"
+  },
+  "weakPasswords": {
+    "message": "كلمات المرور الضعيفة"
+  },
+  "weakPassword": {
+    "message": "ضعيفة"
+  },
+  "seenInBreaches_one": {
+    "message": "ظهرت في تسريب بيانات واحد ($2)"
+  },
+  "seenInBreaches_other": {
+    "message": "ظهرت في $2 تسريب بيانات"
+  },
+  "seenInBreaches_zero": {
+    "message": "ظهرت في $2 تسريب بيانات"
+  },
+  "seenInBreaches_two": {
+    "message": "ظهرت في تسريبَي بيانات ($2)"
+  },
+  "seenInBreaches_few": {
+    "message": "ظهرت في $2 تسريبات بيانات"
+  },
+  "seenInBreaches_many": {
+    "message": "ظهرت في $2 تسريبًا للبيانات"
+  },
+  "usedByLogins_one": {
+    "message": "يستخدمها تسجيل دخول واحد ($1)"
+  },
+  "usedByLogins_other": {
+    "message": "يستخدمها $1 تسجيل دخول"
+  },
+  "usedByLogins_zero": {
+    "message": "يستخدمها $1 تسجيل دخول"
+  },
+  "usedByLogins_two": {
+    "message": "يستخدمها تسجيلا دخول ($1)"
+  },
+  "usedByLogins_few": {
+    "message": "يستخدمها $1 تسجيلات دخول"
+  },
+  "usedByLogins_many": {
+    "message": "يستخدمها $1 تسجيل دخول"
+  },
+  "passwordInBreaches_one": {
+    "message": "ظهرت كلمة المرور هذه في تسريب بيانات واحد ($2). غيّرها."
+  },
+  "passwordInBreaches_other": {
+    "message": "ظهرت كلمة المرور هذه في $2 تسريب بيانات. غيّرها."
+  },
+  "passwordInBreaches_zero": {
+    "message": "ظهرت كلمة المرور هذه في $2 تسريب بيانات. غيّرها."
+  },
+  "passwordInBreaches_two": {
+    "message": "ظهرت كلمة المرور هذه في تسريبَي بيانات ($2). غيّرها."
+  },
+  "passwordInBreaches_few": {
+    "message": "ظهرت كلمة المرور هذه في $2 تسريبات بيانات. غيّرها."
+  },
+  "passwordInBreaches_many": {
+    "message": "ظهرت كلمة المرور هذه في $2 تسريبًا للبيانات. غيّرها."
+  },
+  "healthAllGood": {
+    "message": "لم يُعثر على كلمات مرور ضعيفة أو معاد استخدامها أو مسرّبة."
+  },
+  "autofillOnPageLoad": {
+    "message": "الملء التلقائي عند تحميل الصفحة"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "يملأ تسجيل دخول مطابقًا فور تحميل صفحة تسجيل الدخول، دون نقرة. يتطلب التكامل مع المواقع. قد تقرأ صفحة مخترقة أو نموذج مخفي على موقع مطابق كلمة المرور، لذا استخدمه فقط على مواقع تثق بها."
+  },
+  "autofillDefaultForLogins": {
+    "message": "الافتراضي لتسجيلات الدخول"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "عدم الملء عند تحميل الصفحة"
+  },
+  "useDefaultSetting": {
+    "message": "استخدام الإعداد الافتراضي"
+  },
+  "always": {
+    "message": "دائمًا"
+  },
+  "loginWithDevice": {
+    "message": "تسجيل الدخول بجهاز"
+  },
+  "signInWithSso": {
+    "message": "تسجيل الدخول عبر SSO"
+  },
+  "deviceLoginHint": {
+    "message": "وافق على الطلب في تطبيق أو خزنة ويب سجّلت الدخول إليها. تأكد من أنه يعرض هذه العبارة:"
+  },
+  "ssoUnlockHint": {
+    "message": "تم تسجيل الدخول عبر SSO. أدخل كلمة مرورك الرئيسية لفتح القفل."
+  },
+  "serverIcons": {
+    "message": "إظهار أيقونات المواقع"
+  },
+  "serverIconsHint": {
+    "message": "ينزّل خادمك أيقونة كل موقع مرة واحدة ويخزّنها مؤقتًا. عند الإيقاف: الأيقونات الموجودة في المتصفح فقط."
+  },
+  "waitingForApproval": {
+    "message": "بانتظار الموافقة…"
+  },
+  "websites": {
+    "message": "المواقع"
+  },
+  "addWebsite": {
+    "message": "إضافة موقع"
+  },
+  "removeWebsite": {
+    "message": "إزالة الموقع"
+  },
+  "customFields": {
+    "message": "الحقول المخصصة"
+  },
+  "fieldType": {
+    "message": "نوع الحقل"
+  },
+  "hiddenField": {
+    "message": "مخفي"
+  },
+  "checkboxField": {
+    "message": "مربع اختيار"
+  },
+  "addField": {
+    "message": "إضافة حقل"
+  },
+  "fieldName": {
+    "message": "اسم الحقل"
+  },
+  "fieldValue": {
+    "message": "القيمة"
+  },
+  "removeField": {
+    "message": "إزالة الحقل"
+  },
+  "collections": {
+    "message": "المجموعات"
+  },
+  "allVaults": {
+    "message": "كل الخزنات"
+  },
+  "filters": {
+    "message": "عوامل التصفية"
+  },
+  "allCollections": {
+    "message": "كل المجموعات"
+  },
+  "allFolders": {
+    "message": "كل المجلدات"
+  },
+  "allTypes": {
+    "message": "كل الأنواع"
+  },
+  "editSend": {
+    "message": "تعديل Send"
+  },
+  "keepDeletionDate": {
+    "message": "الإبقاء ($1)"
+  },
+  "removePassword": {
+    "message": "إزالة كلمة المرور"
+  },
+  "sendSaved": {
+    "message": "تم حفظ $1."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "تقفل مؤسستك الخزنة بعد $1 من عدم النشاط كحد أقصى."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "تسجّل مؤسستك خروجك بعد $1 من عدم النشاط كحد أقصى."
+  }
+}

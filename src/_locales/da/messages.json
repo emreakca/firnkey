@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "da",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Adgangskodeadministrator til din egen server"
+  },
+  "starting": {
+    "message": "Starter"
+  },
+  "connectYourServer": {
+    "message": "Forbind din server"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey beder kun om adgang til den server, du vælger."
+  },
+  "serverUrl": {
+    "message": "Serverens URL"
+  },
+  "verifyServer": {
+    "message": "Kontrollér server"
+  },
+  "signIn": {
+    "message": "Log ind"
+  },
+  "change": {
+    "message": "Skift"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Hovedadgangskode"
+  },
+  "twoStepLogin": {
+    "message": "Totrinslogin"
+  },
+  "method": {
+    "message": "Metode"
+  },
+  "sendEmailCode": {
+    "message": "Send kode via e-mail"
+  },
+  "verificationCode": {
+    "message": "Bekræftelseskode"
+  },
+  "rememberThisDevice": {
+    "message": "Husk denne enhed"
+  },
+  "newDeviceVerification": {
+    "message": "Bekræftelse af ny enhed"
+  },
+  "deviceVerificationHint": {
+    "message": "Indtast bekræftelseskoden, som din server har sendt."
+  },
+  "deviceVerificationCode": {
+    "message": "Enhedens bekræftelseskode"
+  },
+  "signInAndSync": {
+    "message": "Log ind og synkronisér"
+  },
+  "vaultLocked": {
+    "message": "Boksen er låst"
+  },
+  "unlock": {
+    "message": "Lås op"
+  },
+  "unlockWithBiometrics": {
+    "message": "Lås op med Touch ID / biometri"
+  },
+  "logOut": {
+    "message": "Log ud"
+  },
+  "allItems": {
+    "message": "Alle elementer"
+  },
+  "noMatchingItems": {
+    "message": "Ingen matchende elementer."
+  },
+  "viewAll": {
+    "message": "Vis alle"
+  },
+  "authenticatorEmpty": {
+    "message": "Ingen godkendelsesnøgler endnu. Vælg Ny for at scanne en QR-kode eller indsætte en nøgle."
+  },
+  "importOrExportKeys": {
+    "message": "Importér eller eksportér nøgler"
+  },
+  "scanQrOnPage": {
+    "message": "Scan QR-koden på denne side"
+  },
+  "saveTo": {
+    "message": "Gem i"
+  },
+  "newLogin": {
+    "message": "Nyt login"
+  },
+  "key": {
+    "message": "Nøgle"
+  },
+  "name": {
+    "message": "Navn"
+  },
+  "nicknameOptional": {
+    "message": "Kaldenavn (valgfrit)"
+  },
+  "account": {
+    "message": "Konto"
+  },
+  "website": {
+    "message": "Websted"
+  },
+  "issuer": {
+    "message": "Udsteder"
+  },
+  "advanced": {
+    "message": "Avanceret"
+  },
+  "algorithm": {
+    "message": "Algoritme"
+  },
+  "digits": {
+    "message": "Cifre"
+  },
+  "periodSeconds": {
+    "message": "Periode (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "De fleste tjenester bruger SHA-1, 6 cifre og 30 sekunder. Steam-nøgler (udsteder Steam) giver altid koder på 5 tegn."
+  },
+  "save": {
+    "message": "Gem"
+  },
+  "import": {
+    "message": "Importér"
+  },
+  "keysImportHint": {
+    "message": "Ét otpauth://totp/-link pr. linje, sådan som godkendelsesapps eksporterer dem. Hver ny nøgle bliver til et login."
+  },
+  "chooseFile": {
+    "message": "Vælg fil"
+  },
+  "checkList": {
+    "message": "Tjek listen"
+  },
+  "export": {
+    "message": "Eksportér"
+  },
+  "keysExportHint": {
+    "message": "Gemmer hver nøgle som et otpauth://-link i en tekstfil. Alle med filen kan danne dine koder, så slet den efter importen."
+  },
+  "exportKeys": {
+    "message": "Eksportér nøgler"
+  },
+  "sendIntro": {
+    "message": "Del tekst eller en fil via et end-to-end-krypteret link, der sletter sig selv."
+  },
+  "sendEmpty": {
+    "message": "Ingen Sends endnu. Vælg Ny for at dele tekst eller en fil."
+  },
+  "text": {
+    "message": "Tekst"
+  },
+  "file": {
+    "message": "Fil"
+  },
+  "sendHideText": {
+    "message": "Skjul teksten, indtil modtageren viser den"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Ingen fil valgt · højst 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Slet efter"
+  },
+  "days1": {
+    "message": "1 dag"
+  },
+  "days2": {
+    "message": "2 dage"
+  },
+  "days3": {
+    "message": "3 dage"
+  },
+  "days7": {
+    "message": "7 dage"
+  },
+  "days14": {
+    "message": "14 dage"
+  },
+  "days30": {
+    "message": "30 dage"
+  },
+  "options": {
+    "message": "Indstillinger"
+  },
+  "passwordOptional": {
+    "message": "Adgangskode (valgfri)"
+  },
+  "maximumViewsOptional": {
+    "message": "Maksimalt antal visninger (valgfrit)"
+  },
+  "createAndCopyLink": {
+    "message": "Opret og kopiér link"
+  },
+  "passwordGenerator": {
+    "message": "Adgangskodegenerator"
+  },
+  "generatorHint": {
+    "message": "Dannet lokalt med browserens kryptografiske tilfældighedskilde."
+  },
+  "password": {
+    "message": "Adgangskode"
+  },
+  "passphrase": {
+    "message": "Adgangssætning"
+  },
+  "username": {
+    "message": "Brugernavn"
+  },
+  "length": {
+    "message": "Længde"
+  },
+  "uppercase": {
+    "message": "Store bogstaver"
+  },
+  "lowercase": {
+    "message": "Små bogstaver"
+  },
+  "numbers": {
+    "message": "Tal"
+  },
+  "symbols": {
+    "message": "Symboler"
+  },
+  "words": {
+    "message": "Ord"
+  },
+  "wordSeparator": {
+    "message": "Ordadskiller"
+  },
+  "capitalize": {
+    "message": "Stort forbogstav"
+  },
+  "includeNumber": {
+    "message": "Medtag et tal"
+  },
+  "type": {
+    "message": "Type"
+  },
+  "randomWord": {
+    "message": "Tilfældigt ord"
+  },
+  "plusAddressedEmail": {
+    "message": "E-mail med plusadresse"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all-e-mail"
+  },
+  "forwardedEmailAlias": {
+    "message": "Videresendt e-mailalias"
+  },
+  "forwardingService": {
+    "message": "Videresendelsestjeneste"
+  },
+  "apiKey": {
+    "message": "API-nøgle"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Gemmes efter første brug; lad feltet stå tomt for at beholde den"
+  },
+  "aliasDomain": {
+    "message": "Aliasdomæne"
+  },
+  "createAlias": {
+    "message": "Opret alias"
+  },
+  "creatingAlias": {
+    "message": "Opretter alias…"
+  },
+  "aliasCreated": {
+    "message": "Alias oprettet"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey skal have adgang til videresendelsestjenesten for at oprette et alias."
+  },
+  "yourEmail": {
+    "message": "Din e-mail"
+  },
+  "yourCatchAllDomain": {
+    "message": "Dit catch-all-domæne"
+  },
+  "generateAnother": {
+    "message": "Dan en ny"
+  },
+  "useInNewLogin": {
+    "message": "Brug i et nyt login"
+  },
+  "security": {
+    "message": "Sikkerhed"
+  },
+  "securityGroupHint": {
+    "message": "Låsning, biometri, udklipsholder"
+  },
+  "autofillSaving": {
+    "message": "Autoudfyld og gem"
+  },
+  "autofillGroupHint": {
+    "message": "Webstedsintegration, gem-forespørgsler, udelukkede domæner"
+  },
+  "vault": {
+    "message": "Boks"
+  },
+  "vaultGroupHint": {
+    "message": "Mapper, fanen Godkender"
+  },
+  "importExport": {
+    "message": "Import og eksport"
+  },
+  "transferGroupHint": {
+    "message": "Flyt din boks fra eller til en anden adgangskodeadministrator"
+  },
+  "accountSync": {
+    "message": "Konto og synkronisering"
+  },
+  "accountGroupHint": {
+    "message": "Konti, live-synkronisering, log ud"
+  },
+  "lockVault": {
+    "message": "Lås boksen"
+  },
+  "after1Minute": {
+    "message": "Efter 1 minut"
+  },
+  "after5Minutes": {
+    "message": "Efter 5 minutter"
+  },
+  "after15Minutes": {
+    "message": "Efter 15 minutter"
+  },
+  "after30Minutes": {
+    "message": "Efter 30 minutter"
+  },
+  "after1Hour": {
+    "message": "Efter 1 time"
+  },
+  "after2Hours": {
+    "message": "Efter 2 timer"
+  },
+  "after4Hours": {
+    "message": "Efter 4 timer"
+  },
+  "after8Hours": {
+    "message": "Efter 8 timer"
+  },
+  "after24Hours": {
+    "message": "Efter 24 timer"
+  },
+  "whenTheComputerLocks": {
+    "message": "Når computeren låses"
+  },
+  "whenBrowserCloses": {
+    "message": "Når browseren lukkes"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Hold ulåst indtil logud"
+  },
+  "untilLogoutHint": {
+    "message": "\"Indtil logud\" krypterer sessionen for denne browserprofil, men er mindre sikkert på en delt computer."
+  },
+  "lockNow": {
+    "message": "Lås nu"
+  },
+  "clearCopiedSecrets": {
+    "message": "Ryd kopierede hemmeligheder"
+  },
+  "after10Seconds": {
+    "message": "Efter 10 sekunder"
+  },
+  "after20Seconds": {
+    "message": "Efter 20 sekunder"
+  },
+  "after30Seconds": {
+    "message": "Efter 30 sekunder"
+  },
+  "after2Minutes": {
+    "message": "Efter 2 minutter"
+  },
+  "never": {
+    "message": "Aldrig"
+  },
+  "clipboardOwnOnly": {
+    "message": "Ryd kun det, Firnkey har kopieret"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Kræver tilladelse til at læse udklipsholderen, så tekst, du kopierer andre steder, ikke røres."
+  },
+  "websiteIntegration": {
+    "message": "Webstedsintegration"
+  },
+  "websiteIntegrationHint": {
+    "message": "Forslag til autoudfyld og gem-forespørgsler."
+  },
+  "enable": {
+    "message": "Aktivér"
+  },
+  "fillSignInDialogs": {
+    "message": "Udfyld logindialoger (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Besvarer browserens logindialog, når præcis ét ubeskyttet login passer."
+  },
+  "savePrompts": {
+    "message": "Gem-forespørgsler"
+  },
+  "askToAddLogin": {
+    "message": "Spørg om login skal tilføjes"
+  },
+  "askToUpdateLogin": {
+    "message": "Spørg om eksisterende login skal opdateres"
+  },
+  "askPasskeys": {
+    "message": "Spørg om adgangsnøgler skal gemmes og bruges"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Luk gem-forespørgsler efter (sekunder)"
+  },
+  "excludedDomains": {
+    "message": "Udelukkede domæner"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey foreslår, udfylder og gemmer ikke loginoplysninger på disse domæner."
+  },
+  "add": {
+    "message": "Tilføj"
+  },
+  "folders": {
+    "message": "Mapper"
+  },
+  "foldersHint": {
+    "message": "Når en mappe slettes, beholdes dens elementer; de flyttes til Ingen mappe."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Vis fanen Godkender"
+  },
+  "authenticatorTabHint": {
+    "message": "Bekræftelseskoder i realtid til dine logins. Tilføj nøgler via QR-kode, manuelt eller fra en fil."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Vis kun dette websteds koder, når det har nogen"
+  },
+  "vaultImportHint": {
+    "message": "En Bitwarden-JSON-eksport (ukrypteret eller adgangskodebeskyttet), en 1Password-eksport (.1pux) eller en CSV-fil fra Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox eller Safari. Elementerne havner i din personlige boks."
+  },
+  "noFileChosen": {
+    "message": "Ingen fil valgt"
+  },
+  "filePassword": {
+    "message": "Filadgangskode"
+  },
+  "checkFile": {
+    "message": "Tjek fil"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden-JSON, beskyttet med filadgangskode"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden-JSON, ukrypteret"
+  },
+  "filePasswordHint": {
+    "message": "Skal bruges for at importere filen igen. Firnkey kan ikke gendanne den."
+  },
+  "unencryptedExportWarning": {
+    "message": "Alle med en ukrypteret fil kan læse alle adgangskoder i den. Slet den, når du har importeret den."
+  },
+  "exportScopeHint": {
+    "message": "Eksporterer dine personlige elementer. Organisationens elementer bliver i organisationen."
+  },
+  "exportVault": {
+    "message": "Eksportér boksen"
+  },
+  "liveSync": {
+    "message": "Live-synkronisering"
+  },
+  "liveSyncHint": {
+    "message": "Henter ændringer fra din server med det samme. Slået fra tjekker den én gang i minuttet og bruger mindre hukommelse."
+  },
+  "syncNow": {
+    "message": "Synkronisér nu"
+  },
+  "addAccount": {
+    "message": "Tilføj konto"
+  },
+  "repromptHint": {
+    "message": "Dette element kræver din hovedadgangskode, før beskyttede felter kan bruges."
+  },
+  "unlockProtectedFields": {
+    "message": "Lås beskyttede felter op"
+  },
+  "show": {
+    "message": "Vis"
+  },
+  "addAttachment": {
+    "message": "Tilføj vedhæftning"
+  },
+  "fillOnThisPage": {
+    "message": "Udfyld på denne side"
+  },
+  "edit": {
+    "message": "Redigér"
+  },
+  "moveToTrash": {
+    "message": "Flyt til papirkurven"
+  },
+  "addLogin": {
+    "message": "Tilføj login"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "card": {
+    "message": "Kort"
+  },
+  "identity": {
+    "message": "Identitet"
+  },
+  "secureNote": {
+    "message": "Sikker note"
+  },
+  "folder": {
+    "message": "Mappe"
+  },
+  "noFolder": {
+    "message": "Ingen mappe"
+  },
+  "owner": {
+    "message": "Ejer"
+  },
+  "myVault": {
+    "message": "Min boks"
+  },
+  "moveToOrganizationHint": {
+    "message": "Flytning til en organisation kan ikke fortrydes her; organisationen ejer derefter elementet."
+  },
+  "generate": {
+    "message": "Dan"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Godkendelsesnøgle (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Scan QR"
+  },
+  "notes": {
+    "message": "Noter"
+  },
+  "favorite": {
+    "message": "Favorit"
+  },
+  "authenticator": {
+    "message": "Godkender"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Indstillinger"
+  },
+  "back": {
+    "message": "Tilbage"
+  },
+  "openSettings": {
+    "message": "Åbn indstillinger"
+  },
+  "searchVault": {
+    "message": "Søg i boksen"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32-nøgle eller otpauth://totp/-link"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Som standard udstederen"
+  },
+  "shownInsteadOfThe": {
+    "message": "Vises i stedet for navnet"
+  },
+  "keysToImport": {
+    "message": "Nøgler, der skal importeres"
+  },
+  "whatToSend": {
+    "message": "Hvad der skal sendes"
+  },
+  "whatToGenerate": {
+    "message": "Hvad der skal dannes"
+  },
+  "generatedValue": {
+    "message": "Dannet værdi"
+  },
+  "copy": {
+    "message": "Kopiér"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopiér dannet værdi"
+  },
+  "domainToExclude": {
+    "message": "Domæne, der skal udelukkes"
+  },
+  "newFolder": {
+    "message": "Ny mappe"
+  },
+  "newFolderName": {
+    "message": "Navn på ny mappe"
+  },
+  "copyUsername": {
+    "message": "Kopiér brugernavn"
+  },
+  "copyPassword": {
+    "message": "Kopiér adgangskode"
+  },
+  "copyVerificationCode": {
+    "message": "Kopiér bekræftelseskode"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32-nøgle eller otpauth://-link"
+  },
+  "mainNavigation": {
+    "message": "Hovednavigation"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey-adgangsnøgle"
+  },
+  "passkey": {
+    "message": "Adgangsnøgle"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Lås Firnkey op for at fortsætte."
+  },
+  "verifyWithBiometrics": {
+    "message": "Bekræft med Touch ID / biometri"
+  },
+  "continue": {
+    "message": "Fortsæt"
+  },
+  "useAnotherDevice": {
+    "message": "Brug en anden enhed"
+  },
+  "cancel": {
+    "message": "Annullér"
+  },
+  "sshKey": {
+    "message": "SSH-nøgle"
+  },
+  "cardholderName": {
+    "message": "Kortholders navn"
+  },
+  "brand": {
+    "message": "Mærke"
+  },
+  "number": {
+    "message": "Nummer"
+  },
+  "expirationMonth": {
+    "message": "Udløbsmåned"
+  },
+  "expirationYear": {
+    "message": "Udløbsår"
+  },
+  "securityCode": {
+    "message": "Sikkerhedskode"
+  },
+  "title": {
+    "message": "Titel"
+  },
+  "firstName": {
+    "message": "Fornavn"
+  },
+  "middleName": {
+    "message": "Mellemnavn"
+  },
+  "lastName": {
+    "message": "Efternavn"
+  },
+  "company": {
+    "message": "Virksomhed"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Adresse 1"
+  },
+  "address2": {
+    "message": "Adresse 2"
+  },
+  "address3": {
+    "message": "Adresse 3"
+  },
+  "city": {
+    "message": "By"
+  },
+  "stateProvince": {
+    "message": "Delstat / region"
+  },
+  "postalCode": {
+    "message": "Postnummer"
+  },
+  "country": {
+    "message": "Land"
+  },
+  "ssn": {
+    "message": "CPR-nummer"
+  },
+  "passportNumber": {
+    "message": "Pasnummer"
+  },
+  "licenseNumber": {
+    "message": "Kørekortnummer"
+  },
+  "addSecureNote": {
+    "message": "Tilføj sikker note"
+  },
+  "addCard": {
+    "message": "Tilføj kort"
+  },
+  "addIdentity": {
+    "message": "Tilføj identitet"
+  },
+  "addSshKey": {
+    "message": "Tilføj SSH-nøgle"
+  },
+  "editLogin": {
+    "message": "Redigér login"
+  },
+  "editSecureNote": {
+    "message": "Redigér sikker note"
+  },
+  "editCard": {
+    "message": "Redigér kort"
+  },
+  "editIdentity": {
+    "message": "Redigér identitet"
+  },
+  "editSshKey": {
+    "message": "Redigér SSH-nøgle"
+  },
+  "passphraseGenerator": {
+    "message": "Adgangssætningsgenerator"
+  },
+  "usernameGenerator": {
+    "message": "Brugernavnsgenerator"
+  },
+  "generatedPasswordCopied": {
+    "message": "Dannet adgangskode kopieret."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Dannet adgangssætning kopieret."
+  },
+  "generatedUsernameCopied": {
+    "message": "Dannet brugernavn kopieret."
+  },
+  "removeKey": {
+    "message": "Fjern nøgle"
+  },
+  "biometricOff": {
+    "message": "Biometrisk oplåsning slået fra."
+  },
+  "usernameCopied": {
+    "message": "Brugernavn kopieret."
+  },
+  "passwordCopied": {
+    "message": "Adgangskode kopieret."
+  },
+  "hide": {
+    "message": "Skjul"
+  },
+  "movedToTrash": {
+    "message": "Flyttet til papirkurven."
+  },
+  "websiteAccessDenied": {
+    "message": "Adgang til websteder blev ikke givet."
+  },
+  "websiteIntegrationOn": {
+    "message": "Autoudfyld og gem-forespørgsler slået til."
+  },
+  "websiteIntegrationOff": {
+    "message": "Forespørgsler på websteder slået fra."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Udfyldning af logindialoger kræver tilladelse til at se dem på websteder."
+  },
+  "preferencesUpdated": {
+    "message": "Indstillinger opdateret."
+  },
+  "invalidDomain": {
+    "message": "Indtast et gyldigt domæne, f.eks. example.com."
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "enabled": {
+    "message": "Aktiveret"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Slå webstedsintegration fra"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Slå webstedsintegration til"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Låsetiden understøttes ikke."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Udklipsholdertiden understøttes ikke."
+  },
+  "clipboardClearsAfter": {
+    "message": "Kopierede hemmeligheder ryddes efter $1."
+  },
+  "clipboardKeeps": {
+    "message": "Kopierede hemmeligheder bliver i udklipsholderen."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey rydder kun udklipsholderen, hvis den stadig indeholder det, Firnkey kopierede."
+  },
+  "seconds_one": {
+    "message": "$1 sekund"
+  },
+  "seconds_other": {
+    "message": "$1 sekunder"
+  },
+  "minutes_one": {
+    "message": "$1 minut"
+  },
+  "minutes_other": {
+    "message": "$1 minutter"
+  },
+  "hours_one": {
+    "message": "$1 time"
+  },
+  "hours_other": {
+    "message": "$1 timer"
+  },
+  "lockOnComputerLock": {
+    "message": "Boksen låses, når computeren låses eller browseren lukkes."
+  },
+  "lockOnLogout": {
+    "message": "Boksen forbliver ulåst i denne browser, indtil du låser den eller logger ud."
+  },
+  "lockOnBrowserClose": {
+    "message": "Boksen forbliver ulåst, indtil browseren lukkes."
+  },
+  "lockAfterInactivity": {
+    "message": "Boksen låses efter $1 uden aktivitet."
+  },
+  "waitingForVerification": {
+    "message": "Venter på bekræftelse…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Lås boksen op, før du slår biometrisk oplåsning til."
+  },
+  "noPasskeyCreated": {
+    "message": "Der blev ikke oprettet en adgangsnøgle."
+  },
+  "biometricOn": {
+    "message": "Biometrisk oplåsning er slået til."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrisk oplåsning er ikke tilgængelig lige nu."
+  },
+  "vaultUnlocked_one": {
+    "message": "Boksen er låst op med $1 element."
+  },
+  "vaultUnlocked_other": {
+    "message": "Boksen er låst op med $1 elementer."
+  },
+  "verificationCancelled": {
+    "message": "Bekræftelsen blev annulleret eller udløb."
+  },
+  "notConnected": {
+    "message": "Ikke forbundet"
+  },
+  "connectAServer": {
+    "message": "Forbind en server"
+  },
+  "signedOut": {
+    "message": "Logget ud"
+  },
+  "itemCount_one": {
+    "message": "$1 element"
+  },
+  "itemCount_other": {
+    "message": "$1 elementer"
+  },
+  "locked": {
+    "message": "Låst"
+  },
+  "unlocked": {
+    "message": "Ulåst"
+  },
+  "settingsFor": {
+    "message": "Indstillinger for $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · forslag til denne side først"
+  },
+  "itemTotal_one": {
+    "message": "$1 element i alt"
+  },
+  "itemTotal_other": {
+    "message": "$1 elementer i alt"
+  },
+  "skippedItems_one": {
+    "message": "$1 ikke-understøttet eller beskadiget element blev sprunget over."
+  },
+  "skippedItems_other": {
+    "message": "$1 ikke-understøttede eller beskadigede elementer blev sprunget over."
+  },
+  "otherAccounts": {
+    "message": "Andre konti"
+  },
+  "switch": {
+    "message": "Skift"
+  },
+  "removeAccountTitle": {
+    "message": "Fjern $1 fra Firnkey i denne browser"
+  },
+  "switchedTo": {
+    "message": "Skiftet til $1."
+  },
+  "accountRemoved": {
+    "message": "$1 fjernet fra denne browser."
+  },
+  "addAccountHint": {
+    "message": "Log ind på den anden konto. Den nuværende gemmes, låst, herunder."
+  },
+  "verifying": {
+    "message": "Kontrollerer…"
+  },
+  "serverPermissionDenied": {
+    "message": "Tilladelse til serveren blev ikke givet."
+  },
+  "signingIn": {
+    "message": "Logger ind…"
+  },
+  "continueInNewWindow": {
+    "message": "Vælg Log ind igen for at fortsætte i et nyt vindue."
+  },
+  "enterTwoStepCode": {
+    "message": "Indtast din totrinslogin-kode."
+  },
+  "unlocking": {
+    "message": "Låser op…"
+  },
+  "trashHint": {
+    "message": "Gendan elementer, eller slet dem permanent."
+  },
+  "trashEmpty": {
+    "message": "Papirkurven er tom."
+  },
+  "autofillSuggestions": {
+    "message": "Forslag til autoudfyld"
+  },
+  "otherResults": {
+    "message": "Andre resultater"
+  },
+  "trash": {
+    "message": "Papirkurv"
+  },
+  "folderName": {
+    "message": "Mappenavn"
+  },
+  "rename": {
+    "message": "Omdøb"
+  },
+  "delete": {
+    "message": "Slet"
+  },
+  "folderRenamed": {
+    "message": "Mappen er omdøbt."
+  },
+  "folderAdded": {
+    "message": "Mappen er tilføjet."
+  },
+  "folderDeleted": {
+    "message": "Mappen er slettet. Dens elementer ligger nu i Ingen mappe."
+  },
+  "confirm": {
+    "message": "Bekræft"
+  },
+  "matchesThisPage": {
+    "message": "Matcher denne side"
+  },
+  "restore": {
+    "message": "Gendan"
+  },
+  "itemRestored": {
+    "message": "Element gendannet."
+  },
+  "deleteForever": {
+    "message": "Slet permanent"
+  },
+  "itemDeletedForever": {
+    "message": "Element slettet permanent."
+  },
+  "open": {
+    "message": "Åbn"
+  },
+  "fill": {
+    "message": "Udfyld"
+  },
+  "openWebsite": {
+    "message": "Åbn webstedet"
+  },
+  "cardNumber": {
+    "message": "Kortnummer"
+  },
+  "note": {
+    "message": "Note"
+  },
+  "publicKey": {
+    "message": "Offentlig nøgle"
+  },
+  "copyPublicKey": {
+    "message": "Kopiér offentlig nøgle"
+  },
+  "copyCardNumber": {
+    "message": "Kopiér kortnummer"
+  },
+  "copyNote": {
+    "message": "Kopiér note"
+  },
+  "copySecurityCode": {
+    "message": "Kopiér sikkerhedskode"
+  },
+  "copyPrivateKey": {
+    "message": "Kopiér privat nøgle"
+  },
+  "privateKey": {
+    "message": "Privat nøgle"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Bekræft din hovedadgangskode, før du sletter dette element."
+  },
+  "moreActions": {
+    "message": "Flere handlinger"
+  },
+  "noWebAddress": {
+    "message": "Dette login har ingen webadresse."
+  },
+  "noWebsiteSaved": {
+    "message": "Intet websted gemt"
+  },
+  "loading": {
+    "message": "Indlæser…"
+  },
+  "expiration": {
+    "message": "Udløb"
+  },
+  "address": {
+    "message": "Adresse"
+  },
+  "fingerprint": {
+    "message": "Fingeraftryk"
+  },
+  "customField": {
+    "message": "Brugerdefineret felt"
+  },
+  "passwordHistory": {
+    "message": "Adgangskodehistorik ($1)"
+  },
+  "oldPassword": {
+    "message": "Gammel adgangskode"
+  },
+  "organization": {
+    "message": "Organisation"
+  },
+  "attachmentsCount": {
+    "message": "Vedhæftninger ($1)"
+  },
+  "downloadFile": {
+    "message": "Download $1"
+  },
+  "deleteFile": {
+    "message": "Slet $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 downloadet."
+  },
+  "fileTooLarge25": {
+    "message": "Filen er for stor (højst 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Filen er tom."
+  },
+  "uploadingFile": {
+    "message": "Krypterer og uploader $1…"
+  },
+  "fileAttached": {
+    "message": "$1 vedhæftet."
+  },
+  "fileDeleted": {
+    "message": "$1 slettet."
+  },
+  "copyLink": {
+    "message": "Kopiér link"
+  },
+  "viewsOf": {
+    "message": "$1 af $2 visninger"
+  },
+  "views_one": {
+    "message": "$1 visning"
+  },
+  "views_other": {
+    "message": "$1 visninger"
+  },
+  "deletesOn": {
+    "message": "Slettes $1"
+  },
+  "disabled": {
+    "message": "Slået fra"
+  },
+  "sendLinkCopied": {
+    "message": "Send-link kopieret."
+  },
+  "deleteSendTitle": {
+    "message": "Slet $1; linket holder op med at virke"
+  },
+  "sendDeleted": {
+    "message": "$1 slettet. Linket virker ikke længere."
+  },
+  "encrypting": {
+    "message": "Krypterer…"
+  },
+  "chooseFileToSend": {
+    "message": "Vælg en fil, der skal sendes."
+  },
+  "sendCreatedCopied": {
+    "message": "Send oprettet. Link kopieret."
+  },
+  "sendCreatedSync": {
+    "message": "Send oprettet. Synkronisér, og kopiér derefter linket fra listen."
+  },
+  "fileTooLarge10": {
+    "message": "Filen er for stor (højst 10 MB)."
+  },
+  "importing": {
+    "message": "Importerer…"
+  },
+  "checking": {
+    "message": "Tjekker…"
+  },
+  "importedItems": {
+    "message": "Importerede $1."
+  },
+  "importItems": {
+    "message": "Importér $1"
+  },
+  "foundItems": {
+    "message": "Fandt $1. De føjes til din boks; intet erstattes."
+  },
+  "foundItemsInFolders": {
+    "message": "Fandt $1 i $2. De føjes til din boks; intet erstattes."
+  },
+  "folderCount_one": {
+    "message": "$1 mappe"
+  },
+  "folderCount_other": {
+    "message": "$1 mapper"
+  },
+  "exporting": {
+    "message": "Eksporterer…"
+  },
+  "vaultExportedPlain": {
+    "message": "Boksen er eksporteret. Slet filen efter importen."
+  },
+  "vaultExportedProtected": {
+    "message": "Boksen er eksporteret. Opbevar filadgangskoden sikkert."
+  },
+  "createdOn": {
+    "message": "Oprettet $1"
+  },
+  "lastEdited": {
+    "message": "Sidst redigeret $1"
+  },
+  "itemHistory": {
+    "message": "Elementhistorik"
+  },
+  "loginCredentials": {
+    "message": "Loginoplysninger"
+  },
+  "itemDetails": {
+    "message": "Elementdetaljer"
+  },
+  "autofillOptions": {
+    "message": "Autoudfyld-indstillinger"
+  },
+  "passwordChangedOn": {
+    "message": "Sidst ændret $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Fjern denne adgangsnøgle fra login"
+  },
+  "passkeyRemoved": {
+    "message": "Adgangsnøgle fjernet."
+  },
+  "usedUntil": {
+    "message": "Brugt indtil $1"
+  },
+  "earlierPassword": {
+    "message": "Tidligere adgangskode"
+  },
+  "fieldCopied": {
+    "message": "$1 kopieret."
+  },
+  "copyField": {
+    "message": "Kopiér $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Bekræft din hovedadgangskode, før du kopierer fra dette element."
+  },
+  "codeCopied": {
+    "message": "Bekræftelseskode kopieret."
+  },
+  "viewOnlyItem": {
+    "message": "Din organisation lader dig se dette element, men ikke ændre det."
+  },
+  "confirmBeforeEditing": {
+    "message": "Bekræft din hovedadgangskode, før du redigerer dette element."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "ÅÅÅÅ"
+  },
+  "saving": {
+    "message": "Gemmer…"
+  },
+  "loginUpdated": {
+    "message": "Login opdateret."
+  },
+  "loginAdded": {
+    "message": "Login tilføjet."
+  },
+  "itemUpdated": {
+    "message": "$1 opdateret."
+  },
+  "itemAdded": {
+    "message": "$1 tilføjet."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Beskyttede felter låst op i 60 sekunder."
+  },
+  "unavailable": {
+    "message": "Ikke tilgængelig"
+  },
+  "secondsLeft_one": {
+    "message": "$1 sekund tilbage"
+  },
+  "secondsLeft_other": {
+    "message": "$1 sekunder tilbage"
+  },
+  "codesForSite": {
+    "message": "Koder til dette websted · $1 i alt"
+  },
+  "codeCount_one": {
+    "message": "$1 kode"
+  },
+  "codeCount_other": {
+    "message": "$1 koder"
+  },
+  "thisWebsite": {
+    "message": "Dette websted"
+  },
+  "openToConfirm": {
+    "message": "Åbn for at bekræfte din hovedadgangskode"
+  },
+  "protected": {
+    "message": "Beskyttet"
+  },
+  "fillIntoPage": {
+    "message": "Udfyld på denne side"
+  },
+  "editKey": {
+    "message": "Redigér nøgle"
+  },
+  "codeFilled": {
+    "message": "Koden udfyldt for $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Bekræft din hovedadgangskode, og redigér derefter nøglen fra fanen Godkender."
+  },
+  "qrReadFirstCheck": {
+    "message": "Læste den første af flere QR-koder. Tjek oplysningerne, og gem."
+  },
+  "qrReadCheck": {
+    "message": "QR-koden er læst. Tjek oplysningerne, og gem."
+  },
+  "qrReadFirstSave": {
+    "message": "Læste den første af flere QR-koder. Gem login for at beholde nøglen."
+  },
+  "qrReadSave": {
+    "message": "QR-koden er læst. Gem login for at beholde nøglen."
+  },
+  "qrUnsupported": {
+    "message": "Denne browser kan ikke læse QR-koder. Indsæt nøglen eller otpauth://-linket i stedet."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey kan ikke se denne side. Åbn siden med QR-koden, og prøv igen."
+  },
+  "qrNotFound": {
+    "message": "Der blev ikke fundet nogen godkendelses-QR-kode i den synlige del af siden."
+  },
+  "qrInvalid": {
+    "message": "QR-koden er ikke en gyldig tidsbaseret (TOTP) godkendelsesnøgle."
+  },
+  "keyAdded": {
+    "message": "Godkendelsesnøgle tilføjet."
+  },
+  "keyUpdated": {
+    "message": "Godkendelsesnøgle opdateret."
+  },
+  "keyRemoved": {
+    "message": "Godkendelsesnøgle fjernet. Selve login ligger stadig i din boks."
+  },
+  "fileTooLarge256": {
+    "message": "Filen er for stor (højst 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Indsæt otpauth://-links, eller vælg en fil først."
+  },
+  "keysImported_one": {
+    "message": "Importerede $1 nøgle."
+  },
+  "keysImported_other": {
+    "message": "Importerede $1 nøgler."
+  },
+  "new": {
+    "message": "Ny"
+  },
+  "duplicate": {
+    "message": "Dublet"
+  },
+  "invalid": {
+    "message": "Ugyldig"
+  },
+  "importNewKeys_one": {
+    "message": "Importér $1 ny nøgle"
+  },
+  "importNewKeys_other": {
+    "message": "Importér $1 nye nøgler"
+  },
+  "checkThenImport": {
+    "message": "Tjek listen, og importér derefter."
+  },
+  "nothingNewToImport": {
+    "message": "Intet nyt at importere."
+  },
+  "keysExported": {
+    "message": "Nøgler eksporteret. Slet filen, når den er importeret et andet sted."
+  },
+  "fieldsFilled_one": {
+    "message": "Udfyldte $1 felt."
+  },
+  "fieldsFilled_other": {
+    "message": "Udfyldte $1 felter."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Brugernavn og adgangskode udfyldt."
+  },
+  "filledUsername": {
+    "message": "Brugernavn udfyldt."
+  },
+  "filledPassword": {
+    "message": "Adgangskode udfyldt."
+  },
+  "synced_one": {
+    "message": "Synkroniserede $1 element."
+  },
+  "synced_other": {
+    "message": "Synkroniserede $1 elementer."
+  },
+  "twoStepUnsupported": {
+    "message": "Denne konto kræver en totrinslogin-metode, som denne version ikke understøtter."
+  },
+  "sending": {
+    "message": "Sender…"
+  },
+  "emailCodeSent": {
+    "message": "Bekræftelseskode sendt via e-mail."
+  },
+  "authenticatorApp": {
+    "message": "Godkendelsesapp"
+  },
+  "securityKeyWebauthn": {
+    "message": "Sikkerhedsnøgle (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Gendannelseskode"
+  },
+  "twoFactorMethod": {
+    "message": "Metode $1"
+  },
+  "fieldEmpty": {
+    "message": "Feltet er tomt."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Udklipsholderen ryddes om $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Udvidelsens baggrundsproces svarede ikke. Genindlæs udvidelsen."
+  },
+  "unexpectedResponse": {
+    "message": "Baggrundsprocessen gav et uventet svar."
+  },
+  "newSend": {
+    "message": "Ny Send"
+  },
+  "item": {
+    "message": "Element"
+  },
+  "editItem": {
+    "message": "Redigér element"
+  },
+  "newItem": {
+    "message": "Nyt element"
+  },
+  "addKey": {
+    "message": "Tilføj nøgle"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Uventet fejl i udvidelsen."
+  },
+  "passkeySuggestion": {
+    "message": "Log ind med en adgangsnøgle gemt i Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Dan og udfyld en adgangskode"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey-forslag"
+  },
+  "dismissSuggestions": {
+    "message": "Luk forslag til autoudfyld"
+  },
+  "dismiss": {
+    "message": "Luk"
+  },
+  "toggleSuggestions": {
+    "message": "Vis/skjul Firnkey-forslag"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Vis eller skjul Firnkey-forslag"
+  },
+  "updateExistingLogin": {
+    "message": "Opdatér eksisterende login"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Gem login i Firnkey"
+  },
+  "notNow": {
+    "message": "Ikke nu"
+  },
+  "update": {
+    "message": "Opdatér"
+  },
+  "loginSaved": {
+    "message": "Login gemt."
+  },
+  "saveFailed": {
+    "message": "Firnkey kunne ikke gemme dette login."
+  },
+  "savePasskey": {
+    "message": "Gem adgangsnøgle"
+  },
+  "signInWithPasskey": {
+    "message": "Log ind med en adgangsnøgle"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey har allerede en adgangsnøgle til denne konto på dette websted."
+  },
+  "close": {
+    "message": "Luk"
+  },
+  "savePasskeyForAccount": {
+    "message": "Gem en adgangsnøgle til $1 på $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Gem en adgangsnøgle på $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Vælg en adgangsnøgle til $1."
+  },
+  "addTo": {
+    "message": "Føj til $1"
+  },
+  "somethingWentWrong": {
+    "message": "Noget gik galt."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: brug din sikkerhedsnøgle for at fuldføre login."
+  },
+  "fillLogin": {
+    "message": "Udfyld login"
+  },
+  "extensionDescription": {
+    "message": "En let adgangskodeadministrator med åben kildekode til din egen server."
+  },
+  "fillLoginCommand": {
+    "message": "Udfyld det matchende login på denne side"
+  },
+  "copied": {
+    "message": "Kopieret"
+  },
+  "generatorHistory": {
+    "message": "Generatorhistorik"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Adgangskoder, du kopierer eller bruger fra generatoren, vises her sammen med det websted, du var på. De forbliver krypterede i denne browser."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Intet websted · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Dannet adgangskode"
+  },
+  "clearGeneratorHistory": {
+    "message": "Ryd generatorhistorik"
+  },
+  "generatorHistoryCleared": {
+    "message": "Generatorhistorikken er ryddet."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey udfyldte adgangskoden til $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Udfyld adgangskoden i næste trin, efter at en konto er valgt"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Til logins, der først spørger efter brugernavnet. Kun den valgte konto, på samme websted, én gang."
+  },
+  "askToSaveForms": {
+    "message": "Spørg om kort og adresser skal gemmes"
+  },
+  "generateSshKey": {
+    "message": "Dan ny nøgle (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Ny SSH-nøgle dannet. Gem for at beholde den."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Klik på Firnkey-knappen i værktøjslinjen for at fuldføre."
+  },
+  "saveCardToFirnkey": {
+    "message": "Gem kortet i Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Gem adressen i Firnkey?"
+  },
+  "clone": {
+    "message": "Klon"
+  },
+  "cloneName": {
+    "message": "$1 - Kopi"
+  },
+  "itemCloned": {
+    "message": "Element klonet. Ret kopien herunder."
+  },
+  "fingerprintPhrase": {
+    "message": "Fingeraftrykssætning"
+  },
+  "fingerprintPhraseHint": {
+    "message": "De samme fem ord vises i webboksen og Bitwardens apps. Sammenlign dem, når nogen deler en organisation med dig."
+  },
+  "matchDetection": {
+    "message": "Registrering af match"
+  },
+  "matchDefault": {
+    "message": "Standard (domæne)"
+  },
+  "matchDomain": {
+    "message": "Domæne og underdomæner"
+  },
+  "matchHost": {
+    "message": "Vært (og port)"
+  },
+  "matchStartsWith": {
+    "message": "Starter med"
+  },
+  "matchExact": {
+    "message": "Præcis URL"
+  },
+  "matchRegex": {
+    "message": "Regulært udtryk"
+  },
+  "matchNever": {
+    "message": "Aldrig"
+  },
+  "archive": {
+    "message": "Arkiv"
+  },
+  "unarchive": {
+    "message": "Fjern fra arkiv"
+  },
+  "itemArchived": {
+    "message": "Element arkiveret. Det vises ikke længere i autoudfyld eller boksens liste."
+  },
+  "itemUnarchived": {
+    "message": "Element flyttet tilbage til boksen."
+  },
+  "archiveHint": {
+    "message": "Arkiverede elementer beholdes, men udfyldes og foreslås aldrig."
+  },
+  "archiveEmpty": {
+    "message": "Intet er arkiveret."
+  },
+  "archiveItem": {
+    "message": "Arkivér"
+  },
+  "generatorPolicyHint": {
+    "message": "Din organisation kræver nogle af disse indstillinger."
+  },
+  "pin": {
+    "message": "Pinkode"
+  },
+  "useMasterPassword": {
+    "message": "Brug hovedadgangskoden i stedet"
+  },
+  "unlockWithPin": {
+    "message": "Lås op med pinkode"
+  },
+  "newPin": {
+    "message": "Ny pinkode (4 tegn eller flere)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Behold oplåsning med pinkode efter genstart af browseren"
+  },
+  "pinKeepHint": {
+    "message": "Fra: efter en genstart låser du op én gang med hovedadgangskoden. Til er mindre sikkert: en kort pinkode gemt på denne computer kan gættes af alle, der kopierer din browserprofil."
+  },
+  "setPin": {
+    "message": "Angiv pinkode"
+  },
+  "pinOn": {
+    "message": "Oplåsning med pinkode er slået til. Fem forkerte pinkoder slår den fra."
+  },
+  "pinOff": {
+    "message": "Oplåsning med pinkode er slået fra."
+  },
+  "passwordHealth": {
+    "message": "Adgangskodesundhed"
+  },
+  "passwordHealthHint": {
+    "message": "Finder svage og genbrugte adgangskoder samt lækkede, når lækagetjekket er slået til."
+  },
+  "checkBreaches": {
+    "message": "Tjek adgangskoder mod kendte datalæk"
+  },
+  "checkBreachesHint": {
+    "message": "Efter hver synkronisering spørger Firnkey Have I Been Pwned om hvert logins adgangskode. Kun de første 5 tegn af en hash af adgangskoden sendes; selve adgangskoden forlader aldrig denne browser."
+  },
+  "checkBreachesNow": {
+    "message": "Tjek for læk nu"
+  },
+  "checkingBreaches": {
+    "message": "Tjekker…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey skal have adgang til api.pwnedpasswords.com for at tjekke for læk."
+  },
+  "healthExposed_one": {
+    "message": "$1 lækket"
+  },
+  "healthExposed_other": {
+    "message": "$1 lækkede"
+  },
+  "healthReused_one": {
+    "message": "$1 genbrugt"
+  },
+  "healthReused_other": {
+    "message": "$1 genbrugte"
+  },
+  "healthWeak_one": {
+    "message": "$1 svag"
+  },
+  "healthWeak_other": {
+    "message": "$1 svage"
+  },
+  "healthNotChecked": {
+    "message": "$1 endnu ikke tjekket for læk"
+  },
+  "healthAllChecked": {
+    "message": "alle tjekket for læk"
+  },
+  "exposedPasswords": {
+    "message": "Lækkede adgangskoder"
+  },
+  "reusedPasswords": {
+    "message": "Genbrugte adgangskoder"
+  },
+  "weakPasswords": {
+    "message": "Svage adgangskoder"
+  },
+  "weakPassword": {
+    "message": "Svag"
+  },
+  "seenInBreaches_one": {
+    "message": "Set i $2 datalæk"
+  },
+  "seenInBreaches_other": {
+    "message": "Set i $2 datalæk"
+  },
+  "usedByLogins_one": {
+    "message": "Bruges af $1 login"
+  },
+  "usedByLogins_other": {
+    "message": "Bruges af $1 logins"
+  },
+  "passwordInBreaches_one": {
+    "message": "Denne adgangskode er set i $2 datalæk. Skift den."
+  },
+  "passwordInBreaches_other": {
+    "message": "Denne adgangskode er set i $2 datalæk. Skift den."
+  },
+  "healthAllGood": {
+    "message": "Ingen svage, genbrugte eller lækkede adgangskoder fundet."
+  },
+  "autofillOnPageLoad": {
+    "message": "Autoudfyld ved sideindlæsning"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Udfylder et matchende login, så snart en loginside indlæses, uden klik. Kræver webstedsintegration. En hacket side eller en skjult formular på et matchende websted kan læse adgangskoden, så brug det kun på websteder, du stoler på."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Standard for logins"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Udfyld ikke ved sideindlæsning"
+  },
+  "useDefaultSetting": {
+    "message": "Brug standardindstillingen"
+  },
+  "always": {
+    "message": "Altid"
+  },
+  "loginWithDevice": {
+    "message": "Log ind med enhed"
+  },
+  "signInWithSso": {
+    "message": "Log ind med SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Godkend anmodningen i en app eller webboks, hvor du er logget ind. Tjek, at den viser denne sætning:"
+  },
+  "ssoUnlockHint": {
+    "message": "Logget ind med SSO. Indtast din hovedadgangskode for at låse op."
+  },
+  "serverIcons": {
+    "message": "Vis webstedsikoner"
+  },
+  "serverIconsHint": {
+    "message": "Din server henter hvert websteds ikon én gang og cacher det. Fra: kun ikoner, som browseren allerede har."
+  },
+  "waitingForApproval": {
+    "message": "Venter på godkendelse…"
+  },
+  "websites": {
+    "message": "Websteder"
+  },
+  "addWebsite": {
+    "message": "Tilføj websted"
+  },
+  "removeWebsite": {
+    "message": "Fjern websted"
+  },
+  "customFields": {
+    "message": "Brugerdefinerede felter"
+  },
+  "fieldType": {
+    "message": "Felttype"
+  },
+  "hiddenField": {
+    "message": "Skjult"
+  },
+  "checkboxField": {
+    "message": "Afkrydsningsfelt"
+  },
+  "addField": {
+    "message": "Tilføj felt"
+  },
+  "fieldName": {
+    "message": "Feltnavn"
+  },
+  "fieldValue": {
+    "message": "Værdi"
+  },
+  "removeField": {
+    "message": "Fjern felt"
+  },
+  "collections": {
+    "message": "Samlinger"
+  },
+  "allVaults": {
+    "message": "Alle bokse"
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "allCollections": {
+    "message": "Alle samlinger"
+  },
+  "allFolders": {
+    "message": "Alle mapper"
+  },
+  "allTypes": {
+    "message": "Alle typer"
+  },
+  "editSend": {
+    "message": "Redigér Send"
+  },
+  "keepDeletionDate": {
+    "message": "Behold ($1)"
+  },
+  "removePassword": {
+    "message": "Fjern adgangskode"
+  },
+  "sendSaved": {
+    "message": "$1 gemt."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Din organisation låser boksen efter højst $1 uden aktivitet."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Din organisation logger dig ud efter højst $1 uden aktivitet."
+  }
+}

@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "nl",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Wachtwoordbeheerder voor je eigen server"
+  },
+  "starting": {
+    "message": "Starten"
+  },
+  "connectYourServer": {
+    "message": "Verbind je server"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey vraagt alleen toegang tot de serveroorsprong die je kiest."
+  },
+  "serverUrl": {
+    "message": "Server-URL"
+  },
+  "verifyServer": {
+    "message": "Server controleren"
+  },
+  "signIn": {
+    "message": "Inloggen"
+  },
+  "change": {
+    "message": "Wijzigen"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "masterPassword": {
+    "message": "Hoofdwachtwoord"
+  },
+  "twoStepLogin": {
+    "message": "Inloggen in twee stappen"
+  },
+  "method": {
+    "message": "Methode"
+  },
+  "sendEmailCode": {
+    "message": "Code per e-mail sturen"
+  },
+  "verificationCode": {
+    "message": "Verificatiecode"
+  },
+  "rememberThisDevice": {
+    "message": "Dit apparaat onthouden"
+  },
+  "newDeviceVerification": {
+    "message": "Verificatie van nieuw apparaat"
+  },
+  "deviceVerificationHint": {
+    "message": "Voer de verificatiecode in die je server heeft gestuurd."
+  },
+  "deviceVerificationCode": {
+    "message": "Verificatiecode van het apparaat"
+  },
+  "signInAndSync": {
+    "message": "Inloggen en synchroniseren"
+  },
+  "vaultLocked": {
+    "message": "Kluis vergrendeld"
+  },
+  "unlock": {
+    "message": "Ontgrendelen"
+  },
+  "unlockWithBiometrics": {
+    "message": "Ontgrendelen met Touch ID / biometrie"
+  },
+  "logOut": {
+    "message": "Uitloggen"
+  },
+  "allItems": {
+    "message": "Alle items"
+  },
+  "noMatchingItems": {
+    "message": "Geen overeenkomende items."
+  },
+  "viewAll": {
+    "message": "Alles tonen"
+  },
+  "authenticatorEmpty": {
+    "message": "Nog geen authenticatorsleutels. Kies Nieuw om een QR-code te scannen of een sleutel te plakken."
+  },
+  "importOrExportKeys": {
+    "message": "Sleutels importeren of exporteren"
+  },
+  "scanQrOnPage": {
+    "message": "QR-code op deze pagina scannen"
+  },
+  "saveTo": {
+    "message": "Opslaan in"
+  },
+  "newLogin": {
+    "message": "Nieuwe login"
+  },
+  "key": {
+    "message": "Sleutel"
+  },
+  "name": {
+    "message": "Naam"
+  },
+  "nicknameOptional": {
+    "message": "Bijnaam (optioneel)"
+  },
+  "account": {
+    "message": "Account"
+  },
+  "website": {
+    "message": "Website"
+  },
+  "issuer": {
+    "message": "Uitgever"
+  },
+  "advanced": {
+    "message": "Geavanceerd"
+  },
+  "algorithm": {
+    "message": "Algoritme"
+  },
+  "digits": {
+    "message": "Cijfers"
+  },
+  "periodSeconds": {
+    "message": "Periode (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "De meeste diensten gebruiken SHA-1, 6 cijfers en 30 seconden. Steam-sleutels (uitgever Steam) maken altijd codes van 5 tekens."
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "import": {
+    "message": "Importeren"
+  },
+  "keysImportHint": {
+    "message": "Eén otpauth://totp/-link per regel, zoals authenticator-apps ze exporteren. Elke nieuwe sleutel wordt een login."
+  },
+  "chooseFile": {
+    "message": "Bestand kiezen"
+  },
+  "checkList": {
+    "message": "Lijst controleren"
+  },
+  "export": {
+    "message": "Exporteren"
+  },
+  "keysExportHint": {
+    "message": "Slaat elke sleutel op als otpauth://-link in een tekstbestand. Iedereen met het bestand kan je codes maken, dus verwijder het na het importeren."
+  },
+  "exportKeys": {
+    "message": "Sleutels exporteren"
+  },
+  "sendIntro": {
+    "message": "Deel tekst of een bestand via een end-to-end versleutelde link die zichzelf verwijdert."
+  },
+  "sendEmpty": {
+    "message": "Nog geen Sends. Kies Nieuw om tekst of een bestand te delen."
+  },
+  "text": {
+    "message": "Tekst"
+  },
+  "file": {
+    "message": "Bestand"
+  },
+  "sendHideText": {
+    "message": "Tekst verbergen tot de ontvanger hem toont"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Geen bestand gekozen · maximaal 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Verwijderen na"
+  },
+  "days1": {
+    "message": "1 dag"
+  },
+  "days2": {
+    "message": "2 dagen"
+  },
+  "days3": {
+    "message": "3 dagen"
+  },
+  "days7": {
+    "message": "7 dagen"
+  },
+  "days14": {
+    "message": "14 dagen"
+  },
+  "days30": {
+    "message": "30 dagen"
+  },
+  "options": {
+    "message": "Opties"
+  },
+  "passwordOptional": {
+    "message": "Wachtwoord (optioneel)"
+  },
+  "maximumViewsOptional": {
+    "message": "Maximaal aantal weergaven (optioneel)"
+  },
+  "createAndCopyLink": {
+    "message": "Maken en link kopiëren"
+  },
+  "passwordGenerator": {
+    "message": "Wachtwoordgenerator"
+  },
+  "generatorHint": {
+    "message": "Lokaal gemaakt met de cryptografische willekeurbron van de browser."
+  },
+  "password": {
+    "message": "Wachtwoord"
+  },
+  "passphrase": {
+    "message": "Wachtwoordzin"
+  },
+  "username": {
+    "message": "Gebruikersnaam"
+  },
+  "length": {
+    "message": "Lengte"
+  },
+  "uppercase": {
+    "message": "Hoofdletters"
+  },
+  "lowercase": {
+    "message": "Kleine letters"
+  },
+  "numbers": {
+    "message": "Cijfers"
+  },
+  "symbols": {
+    "message": "Symbolen"
+  },
+  "words": {
+    "message": "Woorden"
+  },
+  "wordSeparator": {
+    "message": "Woordscheidingsteken"
+  },
+  "capitalize": {
+    "message": "Hoofdletter aan het begin"
+  },
+  "includeNumber": {
+    "message": "Cijfer toevoegen"
+  },
+  "type": {
+    "message": "Type"
+  },
+  "randomWord": {
+    "message": "Willekeurig woord"
+  },
+  "plusAddressedEmail": {
+    "message": "E-mail met plus-adres"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all-e-mail"
+  },
+  "forwardedEmailAlias": {
+    "message": "Doorgestuurde e-mailalias"
+  },
+  "forwardingService": {
+    "message": "Doorstuurdienst"
+  },
+  "apiKey": {
+    "message": "API-sleutel"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Opgeslagen na eerste gebruik; laat leeg om te behouden"
+  },
+  "aliasDomain": {
+    "message": "Aliasdomein"
+  },
+  "createAlias": {
+    "message": "Alias maken"
+  },
+  "creatingAlias": {
+    "message": "Alias maken…"
+  },
+  "aliasCreated": {
+    "message": "Alias gemaakt"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey heeft toegang tot de doorstuurdienst nodig om een alias te maken."
+  },
+  "yourEmail": {
+    "message": "Je e-mailadres"
+  },
+  "yourCatchAllDomain": {
+    "message": "Je catch-all-domein"
+  },
+  "generateAnother": {
+    "message": "Opnieuw genereren"
+  },
+  "useInNewLogin": {
+    "message": "Gebruiken in een nieuwe login"
+  },
+  "security": {
+    "message": "Beveiliging"
+  },
+  "securityGroupHint": {
+    "message": "Vergrendeltijd, biometrie, klembord"
+  },
+  "autofillSaving": {
+    "message": "Automatisch invullen & opslaan"
+  },
+  "autofillGroupHint": {
+    "message": "Website-integratie, opslagmeldingen, uitgesloten domeinen"
+  },
+  "vault": {
+    "message": "Kluis"
+  },
+  "vaultGroupHint": {
+    "message": "Mappen, tabblad Authenticator"
+  },
+  "importExport": {
+    "message": "Importeren & exporteren"
+  },
+  "transferGroupHint": {
+    "message": "Je kluis van of naar een andere wachtwoordbeheerder verplaatsen"
+  },
+  "accountSync": {
+    "message": "Account & synchronisatie"
+  },
+  "accountGroupHint": {
+    "message": "Accounts, live synchronisatie, uitloggen"
+  },
+  "lockVault": {
+    "message": "Kluis vergrendelen"
+  },
+  "after1Minute": {
+    "message": "Na 1 minuut"
+  },
+  "after5Minutes": {
+    "message": "Na 5 minuten"
+  },
+  "after15Minutes": {
+    "message": "Na 15 minuten"
+  },
+  "after30Minutes": {
+    "message": "Na 30 minuten"
+  },
+  "after1Hour": {
+    "message": "Na 1 uur"
+  },
+  "after2Hours": {
+    "message": "Na 2 uur"
+  },
+  "after4Hours": {
+    "message": "Na 4 uur"
+  },
+  "after8Hours": {
+    "message": "Na 8 uur"
+  },
+  "after24Hours": {
+    "message": "Na 24 uur"
+  },
+  "whenTheComputerLocks": {
+    "message": "Als de computer vergrendelt"
+  },
+  "whenBrowserCloses": {
+    "message": "Als de browser sluit"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Ontgrendeld houden tot uitloggen"
+  },
+  "untilLogoutHint": {
+    "message": "'Tot uitloggen' versleutelt de sessie voor dit browserprofiel, maar is minder veilig op een gedeelde computer."
+  },
+  "lockNow": {
+    "message": "Nu vergrendelen"
+  },
+  "clearCopiedSecrets": {
+    "message": "Gekopieerde geheimen wissen"
+  },
+  "after10Seconds": {
+    "message": "Na 10 seconden"
+  },
+  "after20Seconds": {
+    "message": "Na 20 seconden"
+  },
+  "after30Seconds": {
+    "message": "Na 30 seconden"
+  },
+  "after2Minutes": {
+    "message": "Na 2 minuten"
+  },
+  "never": {
+    "message": "Nooit"
+  },
+  "clipboardOwnOnly": {
+    "message": "Alleen wissen wat Firnkey heeft gekopieerd"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Vraagt toestemming om het klembord te lezen, zodat tekst die je elders kopieert blijft staan."
+  },
+  "websiteIntegration": {
+    "message": "Website-integratie"
+  },
+  "websiteIntegrationHint": {
+    "message": "Suggesties voor automatisch invullen en opslagmeldingen."
+  },
+  "enable": {
+    "message": "Inschakelen"
+  },
+  "fillSignInDialogs": {
+    "message": "Inlogvensters invullen (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Beantwoordt het inlogvenster van de browser voor een site als er precies één onbeveiligde login bij past."
+  },
+  "savePrompts": {
+    "message": "Opslagmeldingen"
+  },
+  "askToAddLogin": {
+    "message": "Vragen om login toe te voegen"
+  },
+  "askToUpdateLogin": {
+    "message": "Vragen om bestaande login bij te werken"
+  },
+  "askPasskeys": {
+    "message": "Vragen om passkeys op te slaan en te gebruiken"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Opslagmeldingen sluiten na (seconden)"
+  },
+  "excludedDomains": {
+    "message": "Uitgesloten domeinen"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey stelt op deze domeinen geen inloggegevens voor, vult ze niet in en slaat ze niet op."
+  },
+  "add": {
+    "message": "Toevoegen"
+  },
+  "folders": {
+    "message": "Mappen"
+  },
+  "foldersHint": {
+    "message": "Als je een map verwijdert, blijven de items bewaard; ze gaan naar Geen map."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Tabblad Authenticator tonen"
+  },
+  "authenticatorTabHint": {
+    "message": "Live verificatiecodes voor je logins. Voeg sleutels toe via QR-code, met de hand of uit een bestand."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Alleen de codes van deze website tonen als die er zijn"
+  },
+  "vaultImportHint": {
+    "message": "Een Bitwarden-JSON-export (onversleuteld of met wachtwoord beveiligd), een 1Password-export (.1pux) of een CSV-bestand van Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox of Safari. De items komen in je persoonlijke kluis."
+  },
+  "noFileChosen": {
+    "message": "Geen bestand gekozen"
+  },
+  "filePassword": {
+    "message": "Bestandswachtwoord"
+  },
+  "checkFile": {
+    "message": "Bestand controleren"
+  },
+  "format": {
+    "message": "Formaat"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden-JSON, beveiligd met een bestandswachtwoord"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden-JSON, onversleuteld"
+  },
+  "filePasswordHint": {
+    "message": "Nodig om het bestand opnieuw te importeren. Firnkey kan het niet herstellen."
+  },
+  "unencryptedExportWarning": {
+    "message": "Iedereen met een onversleuteld bestand kan alle wachtwoorden erin lezen. Verwijder het nadat je het hebt geïmporteerd."
+  },
+  "exportScopeHint": {
+    "message": "Exporteert je persoonlijke items. Items van organisaties blijven bij de organisatie."
+  },
+  "exportVault": {
+    "message": "Kluis exporteren"
+  },
+  "liveSync": {
+    "message": "Live synchronisatie"
+  },
+  "liveSyncHint": {
+    "message": "Haalt wijzigingen direct van je server. Uit controleert één keer per minuut en gebruikt minder geheugen."
+  },
+  "syncNow": {
+    "message": "Nu synchroniseren"
+  },
+  "addAccount": {
+    "message": "Account toevoegen"
+  },
+  "repromptHint": {
+    "message": "Dit item vraagt je hoofdwachtwoord voordat beveiligde velden kunnen worden gebruikt."
+  },
+  "unlockProtectedFields": {
+    "message": "Beveiligde velden ontgrendelen"
+  },
+  "show": {
+    "message": "Tonen"
+  },
+  "addAttachment": {
+    "message": "Bijlage toevoegen"
+  },
+  "fillOnThisPage": {
+    "message": "Invullen op deze pagina"
+  },
+  "edit": {
+    "message": "Bewerken"
+  },
+  "moveToTrash": {
+    "message": "Naar prullenbak"
+  },
+  "addLogin": {
+    "message": "Login toevoegen"
+  },
+  "login": {
+    "message": "Login"
+  },
+  "card": {
+    "message": "Kaart"
+  },
+  "identity": {
+    "message": "Identiteit"
+  },
+  "secureNote": {
+    "message": "Beveiligde notitie"
+  },
+  "folder": {
+    "message": "Map"
+  },
+  "noFolder": {
+    "message": "Geen map"
+  },
+  "owner": {
+    "message": "Eigenaar"
+  },
+  "myVault": {
+    "message": "Mijn kluis"
+  },
+  "moveToOrganizationHint": {
+    "message": "Verplaatsen naar een organisatie kan hier niet ongedaan worden gemaakt; het item is daarna van de organisatie."
+  },
+  "generate": {
+    "message": "Genereren"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Authenticatorsleutel (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "QR scannen"
+  },
+  "notes": {
+    "message": "Notities"
+  },
+  "favorite": {
+    "message": "Favoriet"
+  },
+  "authenticator": {
+    "message": "Authenticator"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Instellingen"
+  },
+  "back": {
+    "message": "Terug"
+  },
+  "openSettings": {
+    "message": "Instellingen openen"
+  },
+  "searchVault": {
+    "message": "Kluis doorzoeken"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32-sleutel of otpauth://totp/-link"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Standaard de uitgever"
+  },
+  "shownInsteadOfThe": {
+    "message": "Getoond in plaats van de naam"
+  },
+  "keysToImport": {
+    "message": "Te importeren sleutels"
+  },
+  "whatToSend": {
+    "message": "Wat versturen"
+  },
+  "whatToGenerate": {
+    "message": "Wat genereren"
+  },
+  "generatedValue": {
+    "message": "Gegenereerde waarde"
+  },
+  "copy": {
+    "message": "Kopiëren"
+  },
+  "copyGeneratedValue": {
+    "message": "Gegenereerde waarde kopiëren"
+  },
+  "domainToExclude": {
+    "message": "Uit te sluiten domein"
+  },
+  "newFolder": {
+    "message": "Nieuwe map"
+  },
+  "newFolderName": {
+    "message": "Naam van de nieuwe map"
+  },
+  "copyUsername": {
+    "message": "Gebruikersnaam kopiëren"
+  },
+  "copyPassword": {
+    "message": "Wachtwoord kopiëren"
+  },
+  "copyVerificationCode": {
+    "message": "Verificatiecode kopiëren"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32-sleutel of otpauth://-link"
+  },
+  "mainNavigation": {
+    "message": "Hoofdnavigatie"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey-passkey"
+  },
+  "passkey": {
+    "message": "Passkey"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Ontgrendel Firnkey om door te gaan."
+  },
+  "verifyWithBiometrics": {
+    "message": "Verifiëren met Touch ID / biometrie"
+  },
+  "continue": {
+    "message": "Doorgaan"
+  },
+  "useAnotherDevice": {
+    "message": "Ander apparaat gebruiken"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "sshKey": {
+    "message": "SSH-sleutel"
+  },
+  "cardholderName": {
+    "message": "Naam kaarthouder"
+  },
+  "brand": {
+    "message": "Merk"
+  },
+  "number": {
+    "message": "Nummer"
+  },
+  "expirationMonth": {
+    "message": "Vervalmaand"
+  },
+  "expirationYear": {
+    "message": "Vervaljaar"
+  },
+  "securityCode": {
+    "message": "Beveiligingscode"
+  },
+  "title": {
+    "message": "Aanhef"
+  },
+  "firstName": {
+    "message": "Voornaam"
+  },
+  "middleName": {
+    "message": "Tweede voornaam"
+  },
+  "lastName": {
+    "message": "Achternaam"
+  },
+  "company": {
+    "message": "Bedrijf"
+  },
+  "phone": {
+    "message": "Telefoon"
+  },
+  "address1": {
+    "message": "Adres 1"
+  },
+  "address2": {
+    "message": "Adres 2"
+  },
+  "address3": {
+    "message": "Adres 3"
+  },
+  "city": {
+    "message": "Plaats"
+  },
+  "stateProvince": {
+    "message": "Staat / provincie"
+  },
+  "postalCode": {
+    "message": "Postcode"
+  },
+  "country": {
+    "message": "Land"
+  },
+  "ssn": {
+    "message": "Burgerservicenummer"
+  },
+  "passportNumber": {
+    "message": "Paspoortnummer"
+  },
+  "licenseNumber": {
+    "message": "Rijbewijsnummer"
+  },
+  "addSecureNote": {
+    "message": "Beveiligde notitie toevoegen"
+  },
+  "addCard": {
+    "message": "Kaart toevoegen"
+  },
+  "addIdentity": {
+    "message": "Identiteit toevoegen"
+  },
+  "addSshKey": {
+    "message": "SSH-sleutel toevoegen"
+  },
+  "editLogin": {
+    "message": "Login bewerken"
+  },
+  "editSecureNote": {
+    "message": "Beveiligde notitie bewerken"
+  },
+  "editCard": {
+    "message": "Kaart bewerken"
+  },
+  "editIdentity": {
+    "message": "Identiteit bewerken"
+  },
+  "editSshKey": {
+    "message": "SSH-sleutel bewerken"
+  },
+  "passphraseGenerator": {
+    "message": "Wachtwoordzingenerator"
+  },
+  "usernameGenerator": {
+    "message": "Gebruikersnaamgenerator"
+  },
+  "generatedPasswordCopied": {
+    "message": "Gegenereerd wachtwoord gekopieerd."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Gegenereerde wachtwoordzin gekopieerd."
+  },
+  "generatedUsernameCopied": {
+    "message": "Gegenereerde gebruikersnaam gekopieerd."
+  },
+  "removeKey": {
+    "message": "Sleutel verwijderen"
+  },
+  "biometricOff": {
+    "message": "Biometrisch ontgrendelen uitgeschakeld."
+  },
+  "usernameCopied": {
+    "message": "Gebruikersnaam gekopieerd."
+  },
+  "passwordCopied": {
+    "message": "Wachtwoord gekopieerd."
+  },
+  "hide": {
+    "message": "Verbergen"
+  },
+  "movedToTrash": {
+    "message": "Naar prullenbak verplaatst."
+  },
+  "websiteAccessDenied": {
+    "message": "Er is geen toegang tot websites gegeven."
+  },
+  "websiteIntegrationOn": {
+    "message": "Automatisch invullen en opslagmeldingen ingeschakeld."
+  },
+  "websiteIntegrationOff": {
+    "message": "Meldingen op websites uitgeschakeld."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Voor het invullen van inlogvensters is toestemming nodig om ze op websites te zien."
+  },
+  "preferencesUpdated": {
+    "message": "Voorkeuren bijgewerkt."
+  },
+  "invalidDomain": {
+    "message": "Voer een geldig domein in, zoals example.com."
+  },
+  "remove": {
+    "message": "Verwijderen"
+  },
+  "enabled": {
+    "message": "Ingeschakeld"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Website-integratie uitschakelen"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Website-integratie inschakelen"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Niet-ondersteunde vergrendeltijd."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Niet-ondersteunde klembordtijd."
+  },
+  "clipboardClearsAfter": {
+    "message": "Gekopieerde geheimen worden na $1 gewist."
+  },
+  "clipboardKeeps": {
+    "message": "Gekopieerde geheimen blijven op het klembord."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey wist het klembord alleen als het nog bevat wat Firnkey heeft gekopieerd."
+  },
+  "seconds_one": {
+    "message": "$1 seconde"
+  },
+  "seconds_other": {
+    "message": "$1 seconden"
+  },
+  "minutes_one": {
+    "message": "$1 minuut"
+  },
+  "minutes_other": {
+    "message": "$1 minuten"
+  },
+  "hours_one": {
+    "message": "$1 uur"
+  },
+  "hours_other": {
+    "message": "$1 uur"
+  },
+  "lockOnComputerLock": {
+    "message": "De kluis wordt vergrendeld als de computer vergrendelt of de browser sluit."
+  },
+  "lockOnLogout": {
+    "message": "De kluis blijft in deze browser ontgrendeld tot je vergrendelt of uitlogt."
+  },
+  "lockOnBrowserClose": {
+    "message": "De kluis blijft ontgrendeld tot de browser sluit."
+  },
+  "lockAfterInactivity": {
+    "message": "De kluis wordt vergrendeld na $1 inactiviteit."
+  },
+  "waitingForVerification": {
+    "message": "Wachten op verificatie…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Ontgrendel de kluis voordat je biometrisch ontgrendelen inschakelt."
+  },
+  "noPasskeyCreated": {
+    "message": "Er is geen passkey gemaakt."
+  },
+  "biometricOn": {
+    "message": "Biometrisch ontgrendelen staat aan."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrisch ontgrendelen is nu niet beschikbaar."
+  },
+  "vaultUnlocked_one": {
+    "message": "Kluis ontgrendeld met $1 item."
+  },
+  "vaultUnlocked_other": {
+    "message": "Kluis ontgrendeld met $1 items."
+  },
+  "verificationCancelled": {
+    "message": "De verificatie is geannuleerd of verlopen."
+  },
+  "notConnected": {
+    "message": "Niet verbonden"
+  },
+  "connectAServer": {
+    "message": "Verbind een server"
+  },
+  "signedOut": {
+    "message": "Uitgelogd"
+  },
+  "itemCount_one": {
+    "message": "$1 item"
+  },
+  "itemCount_other": {
+    "message": "$1 items"
+  },
+  "locked": {
+    "message": "Vergrendeld"
+  },
+  "unlocked": {
+    "message": "Ontgrendeld"
+  },
+  "settingsFor": {
+    "message": "Instellingen voor $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · eerst suggesties voor deze pagina"
+  },
+  "itemTotal_one": {
+    "message": "$1 item in totaal"
+  },
+  "itemTotal_other": {
+    "message": "$1 items in totaal"
+  },
+  "skippedItems_one": {
+    "message": "$1 niet-ondersteund of beschadigd item is overgeslagen."
+  },
+  "skippedItems_other": {
+    "message": "$1 niet-ondersteunde of beschadigde items zijn overgeslagen."
+  },
+  "otherAccounts": {
+    "message": "Andere accounts"
+  },
+  "switch": {
+    "message": "Wisselen"
+  },
+  "removeAccountTitle": {
+    "message": "$1 uit Firnkey in deze browser verwijderen"
+  },
+  "switchedTo": {
+    "message": "Gewisseld naar $1."
+  },
+  "accountRemoved": {
+    "message": "$1 uit deze browser verwijderd."
+  },
+  "addAccountHint": {
+    "message": "Log in op het andere account. Je huidige account blijft hieronder bewaard, vergrendeld."
+  },
+  "verifying": {
+    "message": "Controleren…"
+  },
+  "serverPermissionDenied": {
+    "message": "Er is geen toestemming voor de server gegeven."
+  },
+  "signingIn": {
+    "message": "Inloggen…"
+  },
+  "continueInNewWindow": {
+    "message": "Kies nogmaals Inloggen om verder te gaan in een nieuw venster."
+  },
+  "enterTwoStepCode": {
+    "message": "Voer je code voor inloggen in twee stappen in."
+  },
+  "unlocking": {
+    "message": "Ontgrendelen…"
+  },
+  "trashHint": {
+    "message": "Zet items terug of verwijder ze definitief."
+  },
+  "trashEmpty": {
+    "message": "De prullenbak is leeg."
+  },
+  "autofillSuggestions": {
+    "message": "Suggesties voor automatisch invullen"
+  },
+  "otherResults": {
+    "message": "Andere resultaten"
+  },
+  "trash": {
+    "message": "Prullenbak"
+  },
+  "folderName": {
+    "message": "Mapnaam"
+  },
+  "rename": {
+    "message": "Hernoemen"
+  },
+  "delete": {
+    "message": "Verwijderen"
+  },
+  "folderRenamed": {
+    "message": "Map hernoemd."
+  },
+  "folderAdded": {
+    "message": "Map toegevoegd."
+  },
+  "folderDeleted": {
+    "message": "Map verwijderd. De items staan nu in Geen map."
+  },
+  "confirm": {
+    "message": "Bevestigen"
+  },
+  "matchesThisPage": {
+    "message": "Past bij deze pagina"
+  },
+  "restore": {
+    "message": "Terugzetten"
+  },
+  "itemRestored": {
+    "message": "Item teruggezet."
+  },
+  "deleteForever": {
+    "message": "Definitief verwijderen"
+  },
+  "itemDeletedForever": {
+    "message": "Item definitief verwijderd."
+  },
+  "open": {
+    "message": "Openen"
+  },
+  "fill": {
+    "message": "Invullen"
+  },
+  "openWebsite": {
+    "message": "Website openen"
+  },
+  "cardNumber": {
+    "message": "Kaartnummer"
+  },
+  "note": {
+    "message": "Notitie"
+  },
+  "publicKey": {
+    "message": "Publieke sleutel"
+  },
+  "copyPublicKey": {
+    "message": "Publieke sleutel kopiëren"
+  },
+  "copyCardNumber": {
+    "message": "Kaartnummer kopiëren"
+  },
+  "copyNote": {
+    "message": "Notitie kopiëren"
+  },
+  "copySecurityCode": {
+    "message": "Beveiligingscode kopiëren"
+  },
+  "copyPrivateKey": {
+    "message": "Privésleutel kopiëren"
+  },
+  "privateKey": {
+    "message": "Privésleutel"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Bevestig je hoofdwachtwoord voordat je dit item verwijdert."
+  },
+  "moreActions": {
+    "message": "Meer acties"
+  },
+  "noWebAddress": {
+    "message": "Deze login heeft geen webadres."
+  },
+  "noWebsiteSaved": {
+    "message": "Geen website opgeslagen"
+  },
+  "loading": {
+    "message": "Laden…"
+  },
+  "expiration": {
+    "message": "Vervaldatum"
+  },
+  "address": {
+    "message": "Adres"
+  },
+  "fingerprint": {
+    "message": "Vingerafdruk"
+  },
+  "customField": {
+    "message": "Aangepast veld"
+  },
+  "passwordHistory": {
+    "message": "Wachtwoordgeschiedenis ($1)"
+  },
+  "oldPassword": {
+    "message": "Oud wachtwoord"
+  },
+  "organization": {
+    "message": "Organisatie"
+  },
+  "attachmentsCount": {
+    "message": "Bijlagen ($1)"
+  },
+  "downloadFile": {
+    "message": "$1 downloaden"
+  },
+  "deleteFile": {
+    "message": "$1 verwijderen"
+  },
+  "fileDownloaded": {
+    "message": "$1 gedownload."
+  },
+  "fileTooLarge25": {
+    "message": "Het bestand is te groot (maximaal 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Het bestand is leeg."
+  },
+  "uploadingFile": {
+    "message": "$1 versleutelen en uploaden…"
+  },
+  "fileAttached": {
+    "message": "$1 bijgevoegd."
+  },
+  "fileDeleted": {
+    "message": "$1 verwijderd."
+  },
+  "copyLink": {
+    "message": "Link kopiëren"
+  },
+  "viewsOf": {
+    "message": "$1 van $2 weergaven"
+  },
+  "views_one": {
+    "message": "$1 weergave"
+  },
+  "views_other": {
+    "message": "$1 weergaven"
+  },
+  "deletesOn": {
+    "message": "Wordt verwijderd op $1"
+  },
+  "disabled": {
+    "message": "Uitgeschakeld"
+  },
+  "sendLinkCopied": {
+    "message": "Send-link gekopieerd."
+  },
+  "deleteSendTitle": {
+    "message": "$1 verwijderen; de link werkt dan niet meer"
+  },
+  "sendDeleted": {
+    "message": "$1 verwijderd. De link werkt niet meer."
+  },
+  "encrypting": {
+    "message": "Versleutelen…"
+  },
+  "chooseFileToSend": {
+    "message": "Kies een bestand om te versturen."
+  },
+  "sendCreatedCopied": {
+    "message": "Send gemaakt. Link gekopieerd."
+  },
+  "sendCreatedSync": {
+    "message": "Send gemaakt. Synchroniseer en kopieer dan de link uit de lijst."
+  },
+  "fileTooLarge10": {
+    "message": "Het bestand is te groot (maximaal 10 MB)."
+  },
+  "importing": {
+    "message": "Importeren…"
+  },
+  "checking": {
+    "message": "Controleren…"
+  },
+  "importedItems": {
+    "message": "$1 geïmporteerd."
+  },
+  "importItems": {
+    "message": "$1 importeren"
+  },
+  "foundItems": {
+    "message": "$1 gevonden. Ze worden aan je kluis toegevoegd; er wordt niets vervangen."
+  },
+  "foundItemsInFolders": {
+    "message": "$1 gevonden in $2. Ze worden aan je kluis toegevoegd; er wordt niets vervangen."
+  },
+  "folderCount_one": {
+    "message": "$1 map"
+  },
+  "folderCount_other": {
+    "message": "$1 mappen"
+  },
+  "exporting": {
+    "message": "Exporteren…"
+  },
+  "vaultExportedPlain": {
+    "message": "Kluis geëxporteerd. Verwijder het bestand na het importeren."
+  },
+  "vaultExportedProtected": {
+    "message": "Kluis geëxporteerd. Bewaar het bestandswachtwoord goed."
+  },
+  "createdOn": {
+    "message": "Gemaakt op $1"
+  },
+  "lastEdited": {
+    "message": "Laatst bewerkt op $1"
+  },
+  "itemHistory": {
+    "message": "Itemgeschiedenis"
+  },
+  "loginCredentials": {
+    "message": "Inloggegevens"
+  },
+  "itemDetails": {
+    "message": "Itemdetails"
+  },
+  "autofillOptions": {
+    "message": "Opties voor automatisch invullen"
+  },
+  "passwordChangedOn": {
+    "message": "Laatst gewijzigd op $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Deze passkey uit de login verwijderen"
+  },
+  "passkeyRemoved": {
+    "message": "Passkey verwijderd."
+  },
+  "usedUntil": {
+    "message": "Gebruikt tot $1"
+  },
+  "earlierPassword": {
+    "message": "Eerder wachtwoord"
+  },
+  "fieldCopied": {
+    "message": "$1 gekopieerd."
+  },
+  "copyField": {
+    "message": "$1 kopiëren"
+  },
+  "confirmBeforeCopying": {
+    "message": "Bevestig je hoofdwachtwoord voordat je uit dit item kopieert."
+  },
+  "codeCopied": {
+    "message": "Verificatiecode gekopieerd."
+  },
+  "viewOnlyItem": {
+    "message": "Je organisatie laat je dit item bekijken, maar niet wijzigen."
+  },
+  "confirmBeforeEditing": {
+    "message": "Bevestig je hoofdwachtwoord voordat je dit item bewerkt."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "JJJJ"
+  },
+  "saving": {
+    "message": "Opslaan…"
+  },
+  "loginUpdated": {
+    "message": "Login bijgewerkt."
+  },
+  "loginAdded": {
+    "message": "Login toegevoegd."
+  },
+  "itemUpdated": {
+    "message": "$1 bijgewerkt."
+  },
+  "itemAdded": {
+    "message": "$1 toegevoegd."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Beveiligde velden 60 seconden ontgrendeld."
+  },
+  "unavailable": {
+    "message": "Niet beschikbaar"
+  },
+  "secondsLeft_one": {
+    "message": "Nog $1 seconde"
+  },
+  "secondsLeft_other": {
+    "message": "Nog $1 seconden"
+  },
+  "codesForSite": {
+    "message": "Codes voor deze website · $1 in totaal"
+  },
+  "codeCount_one": {
+    "message": "$1 code"
+  },
+  "codeCount_other": {
+    "message": "$1 codes"
+  },
+  "thisWebsite": {
+    "message": "Deze website"
+  },
+  "openToConfirm": {
+    "message": "Openen om je hoofdwachtwoord te bevestigen"
+  },
+  "protected": {
+    "message": "Beveiligd"
+  },
+  "fillIntoPage": {
+    "message": "Invullen op deze pagina"
+  },
+  "editKey": {
+    "message": "Sleutel bewerken"
+  },
+  "codeFilled": {
+    "message": "Code ingevuld voor $1."
+  },
+  "confirmThenEditKey": {
+    "message": "Bevestig je hoofdwachtwoord en bewerk de sleutel dan via het tabblad Authenticator."
+  },
+  "qrReadFirstCheck": {
+    "message": "De eerste van meerdere QR-codes gelezen. Controleer de gegevens en sla op."
+  },
+  "qrReadCheck": {
+    "message": "QR-code gelezen. Controleer de gegevens en sla op."
+  },
+  "qrReadFirstSave": {
+    "message": "De eerste van meerdere QR-codes gelezen. Sla de login op om de sleutel te bewaren."
+  },
+  "qrReadSave": {
+    "message": "QR-code gelezen. Sla de login op om de sleutel te bewaren."
+  },
+  "qrUnsupported": {
+    "message": "Deze browser kan geen QR-codes lezen. Plak in plaats daarvan de sleutel of de otpauth://-link."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey kan deze pagina niet zien. Open de pagina met de QR-code en probeer het opnieuw."
+  },
+  "qrNotFound": {
+    "message": "Er is geen authenticator-QR-code gevonden in het zichtbare deel van de pagina."
+  },
+  "qrInvalid": {
+    "message": "De QR-code is geen geldige tijdgebaseerde (TOTP) authenticatorsleutel."
+  },
+  "keyAdded": {
+    "message": "Authenticatorsleutel toegevoegd."
+  },
+  "keyUpdated": {
+    "message": "Authenticatorsleutel bijgewerkt."
+  },
+  "keyRemoved": {
+    "message": "Authenticatorsleutel verwijderd. De login zelf staat nog in je kluis."
+  },
+  "fileTooLarge256": {
+    "message": "Het bestand is te groot (maximaal 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Plak eerst otpauth://-links of kies een bestand."
+  },
+  "keysImported_one": {
+    "message": "$1 sleutel geïmporteerd."
+  },
+  "keysImported_other": {
+    "message": "$1 sleutels geïmporteerd."
+  },
+  "new": {
+    "message": "Nieuw"
+  },
+  "duplicate": {
+    "message": "Dubbel"
+  },
+  "invalid": {
+    "message": "Ongeldig"
+  },
+  "importNewKeys_one": {
+    "message": "$1 nieuwe sleutel importeren"
+  },
+  "importNewKeys_other": {
+    "message": "$1 nieuwe sleutels importeren"
+  },
+  "checkThenImport": {
+    "message": "Controleer de lijst en importeer dan."
+  },
+  "nothingNewToImport": {
+    "message": "Niets nieuws om te importeren."
+  },
+  "keysExported": {
+    "message": "Sleutels geëxporteerd. Verwijder het bestand nadat je het elders hebt geïmporteerd."
+  },
+  "fieldsFilled_one": {
+    "message": "$1 veld ingevuld."
+  },
+  "fieldsFilled_other": {
+    "message": "$1 velden ingevuld."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Gebruikersnaam en wachtwoord ingevuld."
+  },
+  "filledUsername": {
+    "message": "Gebruikersnaam ingevuld."
+  },
+  "filledPassword": {
+    "message": "Wachtwoord ingevuld."
+  },
+  "synced_one": {
+    "message": "$1 item gesynchroniseerd."
+  },
+  "synced_other": {
+    "message": "$1 items gesynchroniseerd."
+  },
+  "twoStepUnsupported": {
+    "message": "Dit account vereist een methode voor inloggen in twee stappen die deze versie niet ondersteunt."
+  },
+  "sending": {
+    "message": "Versturen…"
+  },
+  "emailCodeSent": {
+    "message": "Verificatiecode per e-mail verstuurd."
+  },
+  "authenticatorApp": {
+    "message": "Authenticator-app"
+  },
+  "securityKeyWebauthn": {
+    "message": "Beveiligingssleutel (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Herstelcode"
+  },
+  "twoFactorMethod": {
+    "message": "Methode $1"
+  },
+  "fieldEmpty": {
+    "message": "Dit veld is leeg."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Het klembord wordt over $2 gewist."
+  },
+  "backgroundNoResponse": {
+    "message": "Het achtergrondproces van de extensie reageerde niet. Laad de extensie opnieuw."
+  },
+  "unexpectedResponse": {
+    "message": "Het achtergrondproces gaf een onverwacht antwoord."
+  },
+  "newSend": {
+    "message": "Nieuwe Send"
+  },
+  "item": {
+    "message": "Item"
+  },
+  "editItem": {
+    "message": "Item bewerken"
+  },
+  "newItem": {
+    "message": "Nieuw item"
+  },
+  "addKey": {
+    "message": "Sleutel toevoegen"
+  },
+  "serverVersion": {
+    "message": "$1 · server $2"
+  },
+  "unexpectedError": {
+    "message": "Onverwachte fout in de extensie."
+  },
+  "passkeySuggestion": {
+    "message": "Inloggen met een passkey die in Firnkey is opgeslagen"
+  },
+  "generateAndFill": {
+    "message": "Wachtwoord genereren en invullen"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey-suggesties"
+  },
+  "dismissSuggestions": {
+    "message": "Suggesties voor automatisch invullen sluiten"
+  },
+  "dismiss": {
+    "message": "Sluiten"
+  },
+  "toggleSuggestions": {
+    "message": "Firnkey-suggesties tonen/verbergen"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Firnkey-suggesties tonen of verbergen"
+  },
+  "updateExistingLogin": {
+    "message": "Bestaande login bijwerken"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Login opslaan in Firnkey"
+  },
+  "notNow": {
+    "message": "Niet nu"
+  },
+  "update": {
+    "message": "Bijwerken"
+  },
+  "loginSaved": {
+    "message": "Login opgeslagen."
+  },
+  "saveFailed": {
+    "message": "Firnkey kon deze login niet opslaan."
+  },
+  "savePasskey": {
+    "message": "Passkey opslaan"
+  },
+  "signInWithPasskey": {
+    "message": "Inloggen met een passkey"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey heeft al een passkey voor dit account op deze site."
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "savePasskeyForAccount": {
+    "message": "Passkey voor $1 opslaan op $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Passkey opslaan op $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Kies een passkey voor $1."
+  },
+  "addTo": {
+    "message": "Toevoegen aan $1"
+  },
+  "somethingWentWrong": {
+    "message": "Er ging iets mis."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: gebruik je beveiligingssleutel om het inloggen af te ronden."
+  },
+  "fillLogin": {
+    "message": "Login invullen"
+  },
+  "extensionDescription": {
+    "message": "Een lichte, open-source wachtwoordbeheerder voor je zelfgehoste server."
+  },
+  "fillLoginCommand": {
+    "message": "De passende login op deze pagina invullen"
+  },
+  "copied": {
+    "message": "Gekopieerd"
+  },
+  "generatorHistory": {
+    "message": "Generatorgeschiedenis"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Wachtwoorden die je uit de generator kopieert of gebruikt, verschijnen hier met de website waarop je was. Ze blijven versleuteld in deze browser."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Geen website · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Gegenereerd wachtwoord"
+  },
+  "clearGeneratorHistory": {
+    "message": "Generatorgeschiedenis wissen"
+  },
+  "generatorHistoryCleared": {
+    "message": "Generatorgeschiedenis gewist."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey heeft het wachtwoord voor $1 ingevuld."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Wachtwoord in de volgende stap invullen nadat je een account kiest"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Voor inlogpagina's die eerst om de gebruikersnaam vragen. Alleen het gekozen account, op dezelfde site, één keer."
+  },
+  "askToSaveForms": {
+    "message": "Vragen om kaarten en adressen op te slaan"
+  },
+  "generateSshKey": {
+    "message": "Nieuwe sleutel genereren (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Nieuwe SSH-sleutel gegenereerd. Sla op om hem te bewaren."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Klik op de Firnkey-knop in de werkbalk om het toevoegen af te ronden."
+  },
+  "saveCardToFirnkey": {
+    "message": "Kaart opslaan in Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Adres opslaan in Firnkey?"
+  },
+  "clone": {
+    "message": "Klonen"
+  },
+  "cloneName": {
+    "message": "$1 - Kopie"
+  },
+  "itemCloned": {
+    "message": "Item gekloond. Wijzig de kopie hieronder."
+  },
+  "fingerprintPhrase": {
+    "message": "Vingerafdrukzin"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Dezelfde vijf woorden staan in de webkluis en de apps van Bitwarden. Vergelijk ze als iemand een organisatie met je deelt."
+  },
+  "matchDetection": {
+    "message": "Overeenkomstdetectie"
+  },
+  "matchDefault": {
+    "message": "Standaard (domein)"
+  },
+  "matchDomain": {
+    "message": "Domein en subdomeinen"
+  },
+  "matchHost": {
+    "message": "Host (en poort)"
+  },
+  "matchStartsWith": {
+    "message": "Begint met"
+  },
+  "matchExact": {
+    "message": "Exacte URL"
+  },
+  "matchRegex": {
+    "message": "Reguliere expressie"
+  },
+  "matchNever": {
+    "message": "Nooit"
+  },
+  "archive": {
+    "message": "Archief"
+  },
+  "unarchive": {
+    "message": "Uit archief halen"
+  },
+  "itemArchived": {
+    "message": "Item gearchiveerd. Het verschijnt niet meer bij automatisch invullen of in de kluislijst."
+  },
+  "itemUnarchived": {
+    "message": "Item teruggezet in de kluis."
+  },
+  "archiveHint": {
+    "message": "Gearchiveerde items blijven bewaard, maar worden nooit ingevuld of voorgesteld."
+  },
+  "archiveEmpty": {
+    "message": "Er is niets gearchiveerd."
+  },
+  "archiveItem": {
+    "message": "Archiveren"
+  },
+  "generatorPolicyHint": {
+    "message": "Je organisatie vereist sommige van deze instellingen."
+  },
+  "pin": {
+    "message": "Pincode"
+  },
+  "useMasterPassword": {
+    "message": "Hoofdwachtwoord gebruiken"
+  },
+  "unlockWithPin": {
+    "message": "Ontgrendelen met pincode"
+  },
+  "newPin": {
+    "message": "Nieuwe pincode (4 of meer tekens)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Ontgrendelen met pincode behouden na herstart van de browser"
+  },
+  "pinKeepHint": {
+    "message": "Uit: na een herstart ontgrendel je één keer met je hoofdwachtwoord. Aan is minder veilig: een korte pincode die op deze computer is opgeslagen, kan worden geraden door iedereen die je browserprofiel kopieert."
+  },
+  "setPin": {
+    "message": "Pincode instellen"
+  },
+  "pinOn": {
+    "message": "Ontgrendelen met pincode staat aan. Vijf verkeerde pincodes zetten het uit."
+  },
+  "pinOff": {
+    "message": "Ontgrendelen met pincode staat uit."
+  },
+  "passwordHealth": {
+    "message": "Wachtwoordgezondheid"
+  },
+  "passwordHealthHint": {
+    "message": "Vindt zwakke en hergebruikte wachtwoorden, en gelekte als de lekcontrole aan staat."
+  },
+  "checkBreaches": {
+    "message": "Wachtwoorden controleren op bekende datalekken"
+  },
+  "checkBreachesHint": {
+    "message": "Na elke synchronisatie vraagt Firnkey Have I Been Pwned naar het wachtwoord van elke login. Alleen de eerste 5 tekens van een hash van het wachtwoord worden verstuurd; het wachtwoord zelf verlaat deze browser nooit."
+  },
+  "checkBreachesNow": {
+    "message": "Nu op lekken controleren"
+  },
+  "checkingBreaches": {
+    "message": "Controleren…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey heeft toegang tot api.pwnedpasswords.com nodig om op lekken te controleren."
+  },
+  "healthExposed_one": {
+    "message": "$1 gelekt"
+  },
+  "healthExposed_other": {
+    "message": "$1 gelekt"
+  },
+  "healthReused_one": {
+    "message": "$1 hergebruikt"
+  },
+  "healthReused_other": {
+    "message": "$1 hergebruikt"
+  },
+  "healthWeak_one": {
+    "message": "$1 zwak"
+  },
+  "healthWeak_other": {
+    "message": "$1 zwak"
+  },
+  "healthNotChecked": {
+    "message": "$1 nog niet op lekken gecontroleerd"
+  },
+  "healthAllChecked": {
+    "message": "alles op lekken gecontroleerd"
+  },
+  "exposedPasswords": {
+    "message": "Gelekte wachtwoorden"
+  },
+  "reusedPasswords": {
+    "message": "Hergebruikte wachtwoorden"
+  },
+  "weakPasswords": {
+    "message": "Zwakke wachtwoorden"
+  },
+  "weakPassword": {
+    "message": "Zwak"
+  },
+  "seenInBreaches_one": {
+    "message": "Gezien in $2 datalek"
+  },
+  "seenInBreaches_other": {
+    "message": "Gezien in $2 datalekken"
+  },
+  "usedByLogins_one": {
+    "message": "Gebruikt door $1 login"
+  },
+  "usedByLogins_other": {
+    "message": "Gebruikt door $1 logins"
+  },
+  "passwordInBreaches_one": {
+    "message": "Dit wachtwoord kwam voor in $2 datalek. Wijzig het."
+  },
+  "passwordInBreaches_other": {
+    "message": "Dit wachtwoord kwam voor in $2 datalekken. Wijzig het."
+  },
+  "healthAllGood": {
+    "message": "Geen zwakke, hergebruikte of gelekte wachtwoorden gevonden."
+  },
+  "autofillOnPageLoad": {
+    "message": "Automatisch invullen bij laden van de pagina"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Vult een passende login in zodra een inlogpagina laadt, zonder klik. Vereist website-integratie. Een gehackte pagina of een verborgen formulier op een passende site kan het wachtwoord lezen, dus gebruik dit alleen op sites die je vertrouwt."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Standaard voor logins"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Niet invullen bij laden van de pagina"
+  },
+  "useDefaultSetting": {
+    "message": "Standaardinstelling gebruiken"
+  },
+  "always": {
+    "message": "Altijd"
+  },
+  "loginWithDevice": {
+    "message": "Inloggen met apparaat"
+  },
+  "signInWithSso": {
+    "message": "Inloggen met SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Keur het verzoek goed in een app of webkluis waarin je bent ingelogd. Controleer dat deze zin wordt getoond:"
+  },
+  "ssoUnlockHint": {
+    "message": "Ingelogd met SSO. Voer je hoofdwachtwoord in om te ontgrendelen."
+  },
+  "serverIcons": {
+    "message": "Websitepictogrammen tonen"
+  },
+  "serverIconsHint": {
+    "message": "Je server downloadt het pictogram van elke site één keer en bewaart het in de cache. Uit: alleen pictogrammen die de browser al heeft."
+  },
+  "waitingForApproval": {
+    "message": "Wachten op goedkeuring…"
+  },
+  "websites": {
+    "message": "Websites"
+  },
+  "addWebsite": {
+    "message": "Website toevoegen"
+  },
+  "removeWebsite": {
+    "message": "Website verwijderen"
+  },
+  "customFields": {
+    "message": "Aangepaste velden"
+  },
+  "fieldType": {
+    "message": "Veldtype"
+  },
+  "hiddenField": {
+    "message": "Verborgen"
+  },
+  "checkboxField": {
+    "message": "Selectievakje"
+  },
+  "addField": {
+    "message": "Veld toevoegen"
+  },
+  "fieldName": {
+    "message": "Veldnaam"
+  },
+  "fieldValue": {
+    "message": "Waarde"
+  },
+  "removeField": {
+    "message": "Veld verwijderen"
+  },
+  "collections": {
+    "message": "Collecties"
+  },
+  "allVaults": {
+    "message": "Alle kluizen"
+  },
+  "filters": {
+    "message": "Filters"
+  },
+  "allCollections": {
+    "message": "Alle collecties"
+  },
+  "allFolders": {
+    "message": "Alle mappen"
+  },
+  "allTypes": {
+    "message": "Alle typen"
+  },
+  "editSend": {
+    "message": "Send bewerken"
+  },
+  "keepDeletionDate": {
+    "message": "Behouden ($1)"
+  },
+  "removePassword": {
+    "message": "Wachtwoord verwijderen"
+  },
+  "sendSaved": {
+    "message": "$1 opgeslagen."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Je organisatie vergrendelt de kluis na hoogstens $1 inactiviteit."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Je organisatie logt je uit na hoogstens $1 inactiviteit."
+  }
+}

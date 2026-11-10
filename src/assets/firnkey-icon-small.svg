@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <!-- Simplified for 16/32 px: no ridge or bracts, bolder petals and keyhole. At 16 px the keyhole is hidden. -->
+  <title id="title">Firnkey</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a5d88"/>
+      <stop offset="1" stop-color="#0d2238"/>
+    </linearGradient>
+    <path id="petal" d="M64 64C47 52 49 24 64 6C79 24 81 52 64 64Z"/>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#sky)"/>
+  <g fill="#f7fafc">
+    <use href="#petal"/>
+    <use href="#petal" transform="rotate(60 64 64)"/>
+    <use href="#petal" transform="rotate(120 64 64)"/>
+    <use href="#petal" transform="rotate(180 64 64)"/>
+    <use href="#petal" transform="rotate(240 64 64)"/>
+    <use href="#petal" transform="rotate(300 64 64)"/>
+  </g>
+  <circle cx="64" cy="64" r="20" fill="#f2c654"/>
+  <circle class="keyhole" cx="64" cy="59" r="7.5" fill="#0d2238"/>
+  <path class="keyhole" d="M59.5 62L57 77H71L68.5 62Z" fill="#0d2238"/>
+</svg>

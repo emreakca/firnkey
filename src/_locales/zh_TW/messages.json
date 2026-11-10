@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "zh-TW",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "適用於自有伺服器的密碼管理器"
+  },
+  "starting": {
+    "message": "正在啟動"
+  },
+  "connectYourServer": {
+    "message": "連線你的伺服器"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey 只請求訪問你選擇的伺服器。"
+  },
+  "serverUrl": {
+    "message": "伺服器 URL"
+  },
+  "verifyServer": {
+    "message": "驗證伺服器"
+  },
+  "signIn": {
+    "message": "登入"
+  },
+  "change": {
+    "message": "更改"
+  },
+  "email": {
+    "message": "電子郵件"
+  },
+  "masterPassword": {
+    "message": "主密碼"
+  },
+  "twoStepLogin": {
+    "message": "兩步登入"
+  },
+  "method": {
+    "message": "方式"
+  },
+  "sendEmailCode": {
+    "message": "透過電子郵件傳送驗證碼"
+  },
+  "verificationCode": {
+    "message": "驗證碼"
+  },
+  "rememberThisDevice": {
+    "message": "記住此裝置"
+  },
+  "newDeviceVerification": {
+    "message": "新裝置驗證"
+  },
+  "deviceVerificationHint": {
+    "message": "輸入伺服器傳送的驗證碼。"
+  },
+  "deviceVerificationCode": {
+    "message": "裝置驗證碼"
+  },
+  "signInAndSync": {
+    "message": "登入並同步"
+  },
+  "vaultLocked": {
+    "message": "密碼庫已鎖定"
+  },
+  "unlock": {
+    "message": "解鎖"
+  },
+  "unlockWithBiometrics": {
+    "message": "使用 Touch ID / 生物辨識解鎖"
+  },
+  "logOut": {
+    "message": "登出"
+  },
+  "allItems": {
+    "message": "所有項目"
+  },
+  "noMatchingItems": {
+    "message": "沒有匹配的項目。"
+  },
+  "viewAll": {
+    "message": "檢視全部"
+  },
+  "authenticatorEmpty": {
+    "message": "還沒有驗證器金鑰。選擇「新增」以掃描 QR 碼或貼上金鑰。"
+  },
+  "importOrExportKeys": {
+    "message": "匯入或匯出金鑰"
+  },
+  "scanQrOnPage": {
+    "message": "掃描此頁面上的 QR 碼"
+  },
+  "saveTo": {
+    "message": "儲存到"
+  },
+  "newLogin": {
+    "message": "新登入項目"
+  },
+  "key": {
+    "message": "金鑰"
+  },
+  "name": {
+    "message": "名稱"
+  },
+  "nicknameOptional": {
+    "message": "暱稱（可選）"
+  },
+  "account": {
+    "message": "帳戶"
+  },
+  "website": {
+    "message": "網站"
+  },
+  "issuer": {
+    "message": "發行方"
+  },
+  "advanced": {
+    "message": "高階"
+  },
+  "algorithm": {
+    "message": "演算法"
+  },
+  "digits": {
+    "message": "位數"
+  },
+  "periodSeconds": {
+    "message": "週期（秒）"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "大多數服務使用 SHA-1、6 位數字和 30 秒。Steam 金鑰（發行方 Steam）始終生成 5 個字元的程式碼。"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "import": {
+    "message": "匯入"
+  },
+  "keysImportHint": {
+    "message": "每行一個 otpauth://totp/ 連結，與驗證器應用程式匯出的格式相同。每個新金鑰都會成為一個登入項目。"
+  },
+  "chooseFile": {
+    "message": "選擇檔案"
+  },
+  "checkList": {
+    "message": "檢查列表"
+  },
+  "export": {
+    "message": "匯出"
+  },
+  "keysExportHint": {
+    "message": "將每個金鑰以 otpauth:// 連結儲存到文字檔案。任何拿到該檔案的人都能生成你的驗證碼，因此匯入後請刪除它。"
+  },
+  "exportKeys": {
+    "message": "匯出金鑰"
+  },
+  "sendIntro": {
+    "message": "透過會自行刪除的端到端加密連結分享文字或檔案。"
+  },
+  "sendEmpty": {
+    "message": "還沒有 Send。選擇「新增」以分享文字或檔案。"
+  },
+  "text": {
+    "message": "文字"
+  },
+  "file": {
+    "message": "檔案"
+  },
+  "sendHideText": {
+    "message": "在接收者顯示之前隱藏文字"
+  },
+  "noFileChosenSendLimit": {
+    "message": "未選擇檔案 · 最大 25 MB"
+  },
+  "deleteAfter": {
+    "message": "刪除時間"
+  },
+  "days1": {
+    "message": "1 天"
+  },
+  "days2": {
+    "message": "2 天"
+  },
+  "days3": {
+    "message": "3 天"
+  },
+  "days7": {
+    "message": "7 天"
+  },
+  "days14": {
+    "message": "14 天"
+  },
+  "days30": {
+    "message": "30 天"
+  },
+  "options": {
+    "message": "選項"
+  },
+  "passwordOptional": {
+    "message": "密碼（可選）"
+  },
+  "maximumViewsOptional": {
+    "message": "最大檢視次數（可選）"
+  },
+  "createAndCopyLink": {
+    "message": "建立並複製連結"
+  },
+  "passwordGenerator": {
+    "message": "密碼生成器"
+  },
+  "generatorHint": {
+    "message": "使用瀏覽器的加密隨機源在本機生成。"
+  },
+  "password": {
+    "message": "密碼"
+  },
+  "passphrase": {
+    "message": "密碼短語"
+  },
+  "username": {
+    "message": "使用者名稱"
+  },
+  "length": {
+    "message": "長度"
+  },
+  "uppercase": {
+    "message": "大寫字母"
+  },
+  "lowercase": {
+    "message": "小寫字母"
+  },
+  "numbers": {
+    "message": "數字"
+  },
+  "symbols": {
+    "message": "符號"
+  },
+  "words": {
+    "message": "單字數"
+  },
+  "wordSeparator": {
+    "message": "單字分隔符"
+  },
+  "capitalize": {
+    "message": "首字母大寫"
+  },
+  "includeNumber": {
+    "message": "包含數字"
+  },
+  "type": {
+    "message": "型別"
+  },
+  "randomWord": {
+    "message": "隨機單字"
+  },
+  "plusAddressedEmail": {
+    "message": "加號別名電子郵件"
+  },
+  "catchAllEmail": {
+    "message": "全收電子郵件"
+  },
+  "forwardedEmailAlias": {
+    "message": "轉發電子郵件別名"
+  },
+  "forwardingService": {
+    "message": "轉發服務"
+  },
+  "apiKey": {
+    "message": "API 金鑰"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "首次使用後儲存；留空則保留原金鑰"
+  },
+  "aliasDomain": {
+    "message": "別名域名"
+  },
+  "createAlias": {
+    "message": "建立別名"
+  },
+  "creatingAlias": {
+    "message": "正在建立別名…"
+  },
+  "aliasCreated": {
+    "message": "已建立別名"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey 需要訪問轉發服務才能建立別名。"
+  },
+  "yourEmail": {
+    "message": "你的電子郵件"
+  },
+  "yourCatchAllDomain": {
+    "message": "你的全收域名"
+  },
+  "generateAnother": {
+    "message": "重新生成"
+  },
+  "useInNewLogin": {
+    "message": "用於新登入項目"
+  },
+  "security": {
+    "message": "安全"
+  },
+  "securityGroupHint": {
+    "message": "鎖定時間、生物辨識、剪貼簿"
+  },
+  "autofillSaving": {
+    "message": "自動填充與儲存"
+  },
+  "autofillGroupHint": {
+    "message": "網站整合、儲存提示、排除的域名"
+  },
+  "vault": {
+    "message": "密碼庫"
+  },
+  "vaultGroupHint": {
+    "message": "資料夾、驗證器標籤頁"
+  },
+  "importExport": {
+    "message": "匯入與匯出"
+  },
+  "transferGroupHint": {
+    "message": "從其他密碼管理器遷入或遷出密碼庫"
+  },
+  "accountSync": {
+    "message": "帳戶與同步"
+  },
+  "accountGroupHint": {
+    "message": "帳戶、即時同步、登出"
+  },
+  "lockVault": {
+    "message": "鎖定密碼庫"
+  },
+  "after1Minute": {
+    "message": "1 分鐘後"
+  },
+  "after5Minutes": {
+    "message": "5 分鐘後"
+  },
+  "after15Minutes": {
+    "message": "15 分鐘後"
+  },
+  "after30Minutes": {
+    "message": "30 分鐘後"
+  },
+  "after1Hour": {
+    "message": "1 小時後"
+  },
+  "after2Hours": {
+    "message": "2 小時後"
+  },
+  "after4Hours": {
+    "message": "4 小時後"
+  },
+  "after8Hours": {
+    "message": "8 小時後"
+  },
+  "after24Hours": {
+    "message": "24 小時後"
+  },
+  "whenTheComputerLocks": {
+    "message": "電腦鎖定時"
+  },
+  "whenBrowserCloses": {
+    "message": "瀏覽器關閉時"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "保持解鎖直到登出"
+  },
+  "untilLogoutHint": {
+    "message": "「直到登出」會為此瀏覽器設定檔加密工作階段，但在共用電腦上不夠安全。"
+  },
+  "lockNow": {
+    "message": "立即鎖定"
+  },
+  "clearCopiedSecrets": {
+    "message": "清除已複製的機密"
+  },
+  "after10Seconds": {
+    "message": "10 秒後"
+  },
+  "after20Seconds": {
+    "message": "20 秒後"
+  },
+  "after30Seconds": {
+    "message": "30 秒後"
+  },
+  "after2Minutes": {
+    "message": "2 分鐘後"
+  },
+  "never": {
+    "message": "從不"
+  },
+  "clipboardOwnOnly": {
+    "message": "只清除 Firnkey 複製的內容"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "需要讀取剪貼簿的權限，這樣你在別處複製的文字不會被動到。"
+  },
+  "websiteIntegration": {
+    "message": "網站整合"
+  },
+  "websiteIntegrationHint": {
+    "message": "自動填充建議和儲存提示。"
+  },
+  "enable": {
+    "message": "啟用"
+  },
+  "fillSignInDialogs": {
+    "message": "填寫登入對話方塊（HTTP 基本認證）"
+  },
+  "basicAuthHint": {
+    "message": "當恰好有一個未受保護的登入項目匹配時，回應網站的瀏覽器登入對話方塊。"
+  },
+  "savePrompts": {
+    "message": "儲存提示"
+  },
+  "askToAddLogin": {
+    "message": "詢問是否新增登入項目"
+  },
+  "askToUpdateLogin": {
+    "message": "詢問是否更新現有登入項目"
+  },
+  "askPasskeys": {
+    "message": "詢問是否儲存和使用通行金鑰"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "儲存提示自動關閉時間（秒）"
+  },
+  "excludedDomains": {
+    "message": "排除的域名"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey 不會在這些域名上建議、填充或儲存憑據。"
+  },
+  "add": {
+    "message": "新增"
+  },
+  "folders": {
+    "message": "資料夾"
+  },
+  "foldersHint": {
+    "message": "刪除資料夾會保留其中的項目；它們會移到「無資料夾」。"
+  },
+  "showTheAuthenticatorTab": {
+    "message": "顯示驗證器標籤頁"
+  },
+  "authenticatorTabHint": {
+    "message": "為你的登入項目即時顯示驗證碼。可透過 QR 碼、手動輸入或檔案新增金鑰。"
+  },
+  "authenticatorSmartFilter": {
+    "message": "此網站有驗證碼時只顯示它的驗證碼"
+  },
+  "vaultImportHint": {
+    "message": "Bitwarden JSON 匯出（未加密或受密碼保護）、1Password .1pux 匯出，或來自 Bitwarden、1Password、KeePass、KeePassXC、Chrome、Edge、Firefox 或 Safari 的 CSV 檔案。項目會進入你的個人密碼庫。"
+  },
+  "noFileChosen": {
+    "message": "未選擇檔案"
+  },
+  "filePassword": {
+    "message": "檔案密碼"
+  },
+  "checkFile": {
+    "message": "檢查檔案"
+  },
+  "format": {
+    "message": "格式"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON，受檔案密碼保護"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON，未加密"
+  },
+  "filePasswordHint": {
+    "message": "再次匯入檔案時需要此密碼。Firnkey 無法找回。"
+  },
+  "unencryptedExportWarning": {
+    "message": "任何拿到未加密檔案的人都能讀取其中所有密碼。匯入後請刪除它。"
+  },
+  "exportScopeHint": {
+    "message": "匯出你的個人項目。組織項目保留在組織中。"
+  },
+  "exportVault": {
+    "message": "匯出密碼庫"
+  },
+  "liveSync": {
+    "message": "即時同步"
+  },
+  "liveSyncHint": {
+    "message": "立即從伺服器取得更改。關閉後每分鐘檢查一次，佔用更少記憶體。"
+  },
+  "syncNow": {
+    "message": "立即同步"
+  },
+  "addAccount": {
+    "message": "新增帳戶"
+  },
+  "repromptHint": {
+    "message": "使用此項目的受保護欄位前需要輸入主密碼。"
+  },
+  "unlockProtectedFields": {
+    "message": "解鎖受保護欄位"
+  },
+  "show": {
+    "message": "顯示"
+  },
+  "addAttachment": {
+    "message": "新增附件"
+  },
+  "fillOnThisPage": {
+    "message": "在此頁面填充"
+  },
+  "edit": {
+    "message": "編輯"
+  },
+  "moveToTrash": {
+    "message": "移到垃圾桶"
+  },
+  "addLogin": {
+    "message": "新增登入項目"
+  },
+  "login": {
+    "message": "登入項目"
+  },
+  "card": {
+    "message": "付款卡"
+  },
+  "identity": {
+    "message": "身份"
+  },
+  "secureNote": {
+    "message": "安全筆記"
+  },
+  "folder": {
+    "message": "資料夾"
+  },
+  "noFolder": {
+    "message": "無資料夾"
+  },
+  "owner": {
+    "message": "所有者"
+  },
+  "myVault": {
+    "message": "我的密碼庫"
+  },
+  "moveToOrganizationHint": {
+    "message": "移到組織後無法在此復原；該項目將歸組織所有。"
+  },
+  "generate": {
+    "message": "生成"
+  },
+  "authenticatorKeyTotp": {
+    "message": "驗證器金鑰（TOTP）"
+  },
+  "scanQrShort": {
+    "message": "掃描 QR 碼"
+  },
+  "notes": {
+    "message": "備註"
+  },
+  "favorite": {
+    "message": "收藏"
+  },
+  "authenticator": {
+    "message": "驗證器"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "生成器"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "openSettings": {
+    "message": "開啟設定"
+  },
+  "searchVault": {
+    "message": "搜尋密碼庫"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 金鑰或 otpauth://totp/ 連結"
+  },
+  "defaultsToTheIssuer": {
+    "message": "預設為發行方"
+  },
+  "shownInsteadOfThe": {
+    "message": "代替名稱顯示"
+  },
+  "keysToImport": {
+    "message": "要匯入的金鑰"
+  },
+  "whatToSend": {
+    "message": "要傳送的內容"
+  },
+  "whatToGenerate": {
+    "message": "要生成的內容"
+  },
+  "generatedValue": {
+    "message": "生成的值"
+  },
+  "copy": {
+    "message": "複製"
+  },
+  "copyGeneratedValue": {
+    "message": "複製生成的值"
+  },
+  "domainToExclude": {
+    "message": "要排除的域名"
+  },
+  "newFolder": {
+    "message": "新資料夾"
+  },
+  "newFolderName": {
+    "message": "新資料夾名稱"
+  },
+  "copyUsername": {
+    "message": "複製使用者名稱"
+  },
+  "copyPassword": {
+    "message": "複製密碼"
+  },
+  "copyVerificationCode": {
+    "message": "複製驗證碼"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 金鑰或 otpauth:// 連結"
+  },
+  "mainNavigation": {
+    "message": "主導航"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey 通行金鑰"
+  },
+  "passkey": {
+    "message": "通行金鑰"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "請解鎖 Firnkey 以繼續。"
+  },
+  "verifyWithBiometrics": {
+    "message": "使用 Touch ID / 生物辨識驗證"
+  },
+  "continue": {
+    "message": "繼續"
+  },
+  "useAnotherDevice": {
+    "message": "使用其他裝置"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "sshKey": {
+    "message": "SSH 金鑰"
+  },
+  "cardholderName": {
+    "message": "持卡人姓名"
+  },
+  "brand": {
+    "message": "卡組織"
+  },
+  "number": {
+    "message": "卡號"
+  },
+  "expirationMonth": {
+    "message": "到期月份"
+  },
+  "expirationYear": {
+    "message": "到期年份"
+  },
+  "securityCode": {
+    "message": "安全碼"
+  },
+  "title": {
+    "message": "稱謂"
+  },
+  "firstName": {
+    "message": "名"
+  },
+  "middleName": {
+    "message": "中間名"
+  },
+  "lastName": {
+    "message": "姓"
+  },
+  "company": {
+    "message": "公司"
+  },
+  "phone": {
+    "message": "電話"
+  },
+  "address1": {
+    "message": "地址 1"
+  },
+  "address2": {
+    "message": "地址 2"
+  },
+  "address3": {
+    "message": "地址 3"
+  },
+  "city": {
+    "message": "城市"
+  },
+  "stateProvince": {
+    "message": "省 / 州"
+  },
+  "postalCode": {
+    "message": "郵政編碼"
+  },
+  "country": {
+    "message": "國家/地區"
+  },
+  "ssn": {
+    "message": "身份證號 / 社會保障號"
+  },
+  "passportNumber": {
+    "message": "護照號碼"
+  },
+  "licenseNumber": {
+    "message": "駕照號碼"
+  },
+  "addSecureNote": {
+    "message": "新增安全筆記"
+  },
+  "addCard": {
+    "message": "新增付款卡"
+  },
+  "addIdentity": {
+    "message": "新增身份"
+  },
+  "addSshKey": {
+    "message": "新增 SSH 金鑰"
+  },
+  "editLogin": {
+    "message": "編輯登入項目"
+  },
+  "editSecureNote": {
+    "message": "編輯安全筆記"
+  },
+  "editCard": {
+    "message": "編輯付款卡"
+  },
+  "editIdentity": {
+    "message": "編輯身份"
+  },
+  "editSshKey": {
+    "message": "編輯 SSH 金鑰"
+  },
+  "passphraseGenerator": {
+    "message": "密碼短語生成器"
+  },
+  "usernameGenerator": {
+    "message": "使用者名稱生成器"
+  },
+  "generatedPasswordCopied": {
+    "message": "已複製生成的密碼。"
+  },
+  "generatedPassphraseCopied": {
+    "message": "已複製生成的密碼短語。"
+  },
+  "generatedUsernameCopied": {
+    "message": "已複製生成的使用者名稱。"
+  },
+  "removeKey": {
+    "message": "移除金鑰"
+  },
+  "biometricOff": {
+    "message": "已關閉生物辨識解鎖。"
+  },
+  "usernameCopied": {
+    "message": "已複製使用者名稱。"
+  },
+  "passwordCopied": {
+    "message": "已複製密碼。"
+  },
+  "hide": {
+    "message": "隱藏"
+  },
+  "movedToTrash": {
+    "message": "已移到垃圾桶。"
+  },
+  "websiteAccessDenied": {
+    "message": "未授予網站訪問權限。"
+  },
+  "websiteIntegrationOn": {
+    "message": "已啟用網站自動填充和儲存提示。"
+  },
+  "websiteIntegrationOff": {
+    "message": "已停用網站提示。"
+  },
+  "basicAuthPermissionDenied": {
+    "message": "填寫登入對話方塊需要在網站上檢視它們的權限。"
+  },
+  "preferencesUpdated": {
+    "message": "已更新偏好設定。"
+  },
+  "invalidDomain": {
+    "message": "請輸入有效域名，例如 example.com。"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "enabled": {
+    "message": "已啟用"
+  },
+  "disableWebsiteIntegration": {
+    "message": "停用網站整合"
+  },
+  "enableWebsiteIntegration": {
+    "message": "啟用網站整合"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "不支援的鎖定時間。"
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "不支援的剪貼簿時間。"
+  },
+  "clipboardClearsAfter": {
+    "message": "已複製的機密將在 $1 後清除。"
+  },
+  "clipboardKeeps": {
+    "message": "已複製的機密將保留在剪貼簿中。"
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "只有在剪貼簿仍是 Firnkey 複製的內容時，Firnkey 才會清除它。"
+  },
+  "seconds_one": {
+    "message": "$1 秒"
+  },
+  "seconds_other": {
+    "message": "$1 秒"
+  },
+  "minutes_one": {
+    "message": "$1 分鐘"
+  },
+  "minutes_other": {
+    "message": "$1 分鐘"
+  },
+  "hours_one": {
+    "message": "$1 小時"
+  },
+  "hours_other": {
+    "message": "$1 小時"
+  },
+  "lockOnComputerLock": {
+    "message": "電腦鎖定或瀏覽器關閉時，密碼庫將鎖定。"
+  },
+  "lockOnLogout": {
+    "message": "在你鎖定或登出之前，密碼庫在此瀏覽器中保持解鎖。"
+  },
+  "lockOnBrowserClose": {
+    "message": "在瀏覽器關閉之前，密碼庫保持解鎖。"
+  },
+  "lockAfterInactivity": {
+    "message": "無操作 $1 後，密碼庫將鎖定。"
+  },
+  "waitingForVerification": {
+    "message": "正在等待驗證…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "開啟生物辨識解鎖前，請先解鎖密碼庫。"
+  },
+  "noPasskeyCreated": {
+    "message": "未建立通行金鑰。"
+  },
+  "biometricOn": {
+    "message": "生物辨識解鎖已開啟。"
+  },
+  "biometricUnavailable": {
+    "message": "生物辨識解鎖目前不可用。"
+  },
+  "vaultUnlocked_one": {
+    "message": "密碼庫已解鎖，共 $1 個項目。"
+  },
+  "vaultUnlocked_other": {
+    "message": "密碼庫已解鎖，共 $1 個項目。"
+  },
+  "verificationCancelled": {
+    "message": "驗證已取消或超時。"
+  },
+  "notConnected": {
+    "message": "未連線"
+  },
+  "connectAServer": {
+    "message": "連線伺服器"
+  },
+  "signedOut": {
+    "message": "已登出"
+  },
+  "itemCount_one": {
+    "message": "$1 個項目"
+  },
+  "itemCount_other": {
+    "message": "$1 個項目"
+  },
+  "locked": {
+    "message": "已鎖定"
+  },
+  "unlocked": {
+    "message": "已解鎖"
+  },
+  "settingsFor": {
+    "message": "$1 的設定"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · 優先顯示此頁面的建議"
+  },
+  "itemTotal_one": {
+    "message": "共 $1 個項目"
+  },
+  "itemTotal_other": {
+    "message": "共 $1 個項目"
+  },
+  "skippedItems_one": {
+    "message": "已跳過 $1 個不支援或損壞的項目。"
+  },
+  "skippedItems_other": {
+    "message": "已跳過 $1 個不支援或損壞的項目。"
+  },
+  "otherAccounts": {
+    "message": "其他帳戶"
+  },
+  "switch": {
+    "message": "切換"
+  },
+  "removeAccountTitle": {
+    "message": "在此瀏覽器的 Firnkey 中移除 $1"
+  },
+  "switchedTo": {
+    "message": "已切換到 $1。"
+  },
+  "accountRemoved": {
+    "message": "已從此瀏覽器移除 $1。"
+  },
+  "addAccountHint": {
+    "message": "登入另一個帳戶。當前帳戶會以鎖定狀態儲存在下方。"
+  },
+  "verifying": {
+    "message": "正在驗證…"
+  },
+  "serverPermissionDenied": {
+    "message": "未授予伺服器權限。"
+  },
+  "signingIn": {
+    "message": "正在登入…"
+  },
+  "continueInNewWindow": {
+    "message": "再次選擇「登入」以在新視窗中繼續。"
+  },
+  "enterTwoStepCode": {
+    "message": "請輸入兩步登入驗證碼。"
+  },
+  "unlocking": {
+    "message": "正在解鎖…"
+  },
+  "trashHint": {
+    "message": "恢復項目或將其永久刪除。"
+  },
+  "trashEmpty": {
+    "message": "垃圾桶為空。"
+  },
+  "autofillSuggestions": {
+    "message": "自動填充建議"
+  },
+  "otherResults": {
+    "message": "其他結果"
+  },
+  "trash": {
+    "message": "垃圾桶"
+  },
+  "folderName": {
+    "message": "資料夾名稱"
+  },
+  "rename": {
+    "message": "重新命名"
+  },
+  "delete": {
+    "message": "刪除"
+  },
+  "folderRenamed": {
+    "message": "已重新命名資料夾。"
+  },
+  "folderAdded": {
+    "message": "已新增資料夾。"
+  },
+  "folderDeleted": {
+    "message": "已刪除資料夾。其中的項目現在位於「無資料夾」。"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "matchesThisPage": {
+    "message": "與此頁面匹配"
+  },
+  "restore": {
+    "message": "恢復"
+  },
+  "itemRestored": {
+    "message": "已恢復項目。"
+  },
+  "deleteForever": {
+    "message": "永久刪除"
+  },
+  "itemDeletedForever": {
+    "message": "已永久刪除項目。"
+  },
+  "open": {
+    "message": "開啟"
+  },
+  "fill": {
+    "message": "填充"
+  },
+  "openWebsite": {
+    "message": "開啟網站"
+  },
+  "cardNumber": {
+    "message": "卡號"
+  },
+  "note": {
+    "message": "筆記"
+  },
+  "publicKey": {
+    "message": "公開金鑰"
+  },
+  "copyPublicKey": {
+    "message": "複製公開金鑰"
+  },
+  "copyCardNumber": {
+    "message": "複製卡號"
+  },
+  "copyNote": {
+    "message": "複製筆記"
+  },
+  "copySecurityCode": {
+    "message": "複製安全碼"
+  },
+  "copyPrivateKey": {
+    "message": "複製私密金鑰"
+  },
+  "privateKey": {
+    "message": "私密金鑰"
+  },
+  "confirmBeforeDeleting": {
+    "message": "刪除此項目前請確認主密碼。"
+  },
+  "moreActions": {
+    "message": "更多操作"
+  },
+  "noWebAddress": {
+    "message": "此登入項目沒有網址。"
+  },
+  "noWebsiteSaved": {
+    "message": "未儲存網站"
+  },
+  "loading": {
+    "message": "正在載入…"
+  },
+  "expiration": {
+    "message": "有效期"
+  },
+  "address": {
+    "message": "地址"
+  },
+  "fingerprint": {
+    "message": "指紋"
+  },
+  "customField": {
+    "message": "自定義欄位"
+  },
+  "passwordHistory": {
+    "message": "密碼歷史記錄（$1）"
+  },
+  "oldPassword": {
+    "message": "舊密碼"
+  },
+  "organization": {
+    "message": "組織"
+  },
+  "attachmentsCount": {
+    "message": "附件（$1）"
+  },
+  "downloadFile": {
+    "message": "下載 $1"
+  },
+  "deleteFile": {
+    "message": "刪除 $1"
+  },
+  "fileDownloaded": {
+    "message": "已下載 $1。"
+  },
+  "fileTooLarge25": {
+    "message": "檔案太大（最大 25 MB）。"
+  },
+  "fileEmpty": {
+    "message": "檔案為空。"
+  },
+  "uploadingFile": {
+    "message": "正在加密並上傳 $1…"
+  },
+  "fileAttached": {
+    "message": "已附加 $1。"
+  },
+  "fileDeleted": {
+    "message": "已刪除 $1。"
+  },
+  "copyLink": {
+    "message": "複製連結"
+  },
+  "viewsOf": {
+    "message": "已檢視 $1 / $2 次"
+  },
+  "views_one": {
+    "message": "已檢視 $1 次"
+  },
+  "views_other": {
+    "message": "已檢視 $1 次"
+  },
+  "deletesOn": {
+    "message": "將於 $1 刪除"
+  },
+  "disabled": {
+    "message": "已停用"
+  },
+  "sendLinkCopied": {
+    "message": "已複製 Send 連結。"
+  },
+  "deleteSendTitle": {
+    "message": "刪除 $1；其連結將失效"
+  },
+  "sendDeleted": {
+    "message": "已刪除 $1。其連結已失效。"
+  },
+  "encrypting": {
+    "message": "正在加密…"
+  },
+  "chooseFileToSend": {
+    "message": "請選擇要傳送的檔案。"
+  },
+  "sendCreatedCopied": {
+    "message": "已建立 Send 並複製連結。"
+  },
+  "sendCreatedSync": {
+    "message": "已建立 Send。請同步，然後從列表中複製其連結。"
+  },
+  "fileTooLarge10": {
+    "message": "檔案太大（最大 10 MB）。"
+  },
+  "importing": {
+    "message": "正在匯入…"
+  },
+  "checking": {
+    "message": "正在檢查…"
+  },
+  "importedItems": {
+    "message": "已匯入 $1。"
+  },
+  "importItems": {
+    "message": "匯入 $1"
+  },
+  "foundItems": {
+    "message": "找到 $1。它們會新增到你的密碼庫；不會替換任何內容。"
+  },
+  "foundItemsInFolders": {
+    "message": "在 $2 中找到 $1。它們會新增到你的密碼庫；不會替換任何內容。"
+  },
+  "folderCount_one": {
+    "message": "$1 個資料夾"
+  },
+  "folderCount_other": {
+    "message": "$1 個資料夾"
+  },
+  "exporting": {
+    "message": "正在匯出…"
+  },
+  "vaultExportedPlain": {
+    "message": "已匯出密碼庫。匯入後請刪除該檔案。"
+  },
+  "vaultExportedProtected": {
+    "message": "已匯出密碼庫。請妥善保管檔案密碼。"
+  },
+  "createdOn": {
+    "message": "創建於 $1"
+  },
+  "lastEdited": {
+    "message": "最後編輯於 $1"
+  },
+  "itemHistory": {
+    "message": "項目歷史記錄"
+  },
+  "loginCredentials": {
+    "message": "登入憑證"
+  },
+  "itemDetails": {
+    "message": "項目詳細資料"
+  },
+  "autofillOptions": {
+    "message": "自動填入選項"
+  },
+  "passwordChangedOn": {
+    "message": "最後變更於 $1"
+  },
+  "removePasskeyTitle": {
+    "message": "從登入項目中移除此通行金鑰"
+  },
+  "passkeyRemoved": {
+    "message": "已移除通行金鑰。"
+  },
+  "usedUntil": {
+    "message": "使用至 $1"
+  },
+  "earlierPassword": {
+    "message": "以前的密碼"
+  },
+  "fieldCopied": {
+    "message": "已複製 $1。"
+  },
+  "copyField": {
+    "message": "複製 $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "從此項目複製前請確認主密碼。"
+  },
+  "codeCopied": {
+    "message": "已複製驗證碼。"
+  },
+  "viewOnlyItem": {
+    "message": "你的組織允許你檢視此項目，但不允許更改。"
+  },
+  "confirmBeforeEditing": {
+    "message": "編輯此項目前請確認主密碼。"
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "YYYY"
+  },
+  "saving": {
+    "message": "正在儲存…"
+  },
+  "loginUpdated": {
+    "message": "已更新登入項目。"
+  },
+  "loginAdded": {
+    "message": "已新增登入項目。"
+  },
+  "itemUpdated": {
+    "message": "已更新 $1。"
+  },
+  "itemAdded": {
+    "message": "已新增 $1。"
+  },
+  "protectedFieldsUnlocked": {
+    "message": "受保護欄位已解鎖 60 秒。"
+  },
+  "unavailable": {
+    "message": "不可用"
+  },
+  "secondsLeft_one": {
+    "message": "剩餘 $1 秒"
+  },
+  "secondsLeft_other": {
+    "message": "剩餘 $1 秒"
+  },
+  "codesForSite": {
+    "message": "此網站的驗證碼 · 共 $1"
+  },
+  "codeCount_one": {
+    "message": "$1 個驗證碼"
+  },
+  "codeCount_other": {
+    "message": "$1 個驗證碼"
+  },
+  "thisWebsite": {
+    "message": "此網站"
+  },
+  "openToConfirm": {
+    "message": "開啟以確認主密碼"
+  },
+  "protected": {
+    "message": "受保護"
+  },
+  "fillIntoPage": {
+    "message": "填充到此頁面"
+  },
+  "editKey": {
+    "message": "編輯金鑰"
+  },
+  "codeFilled": {
+    "message": "已為 $1 填充驗證碼。"
+  },
+  "confirmThenEditKey": {
+    "message": "請先確認主密碼，然後在驗證器標籤頁中編輯金鑰。"
+  },
+  "qrReadFirstCheck": {
+    "message": "已讀取多個 QR 碼中的第一個。請檢查資訊後儲存。"
+  },
+  "qrReadCheck": {
+    "message": "已讀取 QR 碼。請檢查資訊後儲存。"
+  },
+  "qrReadFirstSave": {
+    "message": "已讀取多個 QR 碼中的第一個。儲存登入項目以保留金鑰。"
+  },
+  "qrReadSave": {
+    "message": "已讀取 QR 碼。儲存登入項目以保留金鑰。"
+  },
+  "qrUnsupported": {
+    "message": "此瀏覽器無法讀取 QR 碼。請改為貼上金鑰或 otpauth:// 連結。"
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey 無法檢視此頁面。請開啟顯示 QR 碼的頁面後重試。"
+  },
+  "qrNotFound": {
+    "message": "在頁面可見區域中未找到驗證器 QR 碼。"
+  },
+  "qrInvalid": {
+    "message": "該 QR 碼不是有效的基於時間（TOTP）的驗證器金鑰。"
+  },
+  "keyAdded": {
+    "message": "已新增驗證器金鑰。"
+  },
+  "keyUpdated": {
+    "message": "已更新驗證器金鑰。"
+  },
+  "keyRemoved": {
+    "message": "已移除驗證器金鑰。登入項目本身仍在你的密碼庫中。"
+  },
+  "fileTooLarge256": {
+    "message": "檔案太大（最大 256 KB）。"
+  },
+  "pasteLinksFirst": {
+    "message": "請先貼上 otpauth:// 連結或選擇檔案。"
+  },
+  "keysImported_one": {
+    "message": "已匯入 $1 個金鑰。"
+  },
+  "keysImported_other": {
+    "message": "已匯入 $1 個金鑰。"
+  },
+  "new": {
+    "message": "新增"
+  },
+  "duplicate": {
+    "message": "重複"
+  },
+  "invalid": {
+    "message": "無效"
+  },
+  "importNewKeys_one": {
+    "message": "匯入 $1 個新金鑰"
+  },
+  "importNewKeys_other": {
+    "message": "匯入 $1 個新金鑰"
+  },
+  "checkThenImport": {
+    "message": "請檢查列表後再匯入。"
+  },
+  "nothingNewToImport": {
+    "message": "沒有可匯入的新內容。"
+  },
+  "keysExported": {
+    "message": "已匯出金鑰。在其他地方匯入後請刪除該檔案。"
+  },
+  "fieldsFilled_one": {
+    "message": "已填充 $1 個欄位。"
+  },
+  "fieldsFilled_other": {
+    "message": "已填充 $1 個欄位。"
+  },
+  "filledUsernameAndPassword": {
+    "message": "已填充使用者名稱和密碼。"
+  },
+  "filledUsername": {
+    "message": "已填充使用者名稱。"
+  },
+  "filledPassword": {
+    "message": "已填充密碼。"
+  },
+  "synced_one": {
+    "message": "已同步 $1 個項目。"
+  },
+  "synced_other": {
+    "message": "已同步 $1 個項目。"
+  },
+  "twoStepUnsupported": {
+    "message": "此帳戶需要本版本不支援的兩步登入方式。"
+  },
+  "sending": {
+    "message": "正在傳送…"
+  },
+  "emailCodeSent": {
+    "message": "驗證碼已透過電子郵件傳送。"
+  },
+  "authenticatorApp": {
+    "message": "驗證器應用程式"
+  },
+  "securityKeyWebauthn": {
+    "message": "安全金鑰（WebAuthn）"
+  },
+  "recoveryCode": {
+    "message": "恢復程式碼"
+  },
+  "twoFactorMethod": {
+    "message": "方式 $1"
+  },
+  "fieldEmpty": {
+    "message": "此欄位為空。"
+  },
+  "clipboardClearsIn": {
+    "message": "$1 剪貼簿將在 $2 後清除。"
+  },
+  "backgroundNoResponse": {
+    "message": "擴充功能的背景程序沒有回應。請重新載入擴充功能。"
+  },
+  "unexpectedResponse": {
+    "message": "背景程序返回了意外的回應。"
+  },
+  "newSend": {
+    "message": "新增 Send"
+  },
+  "item": {
+    "message": "項目"
+  },
+  "editItem": {
+    "message": "編輯項目"
+  },
+  "newItem": {
+    "message": "新項目"
+  },
+  "addKey": {
+    "message": "新增金鑰"
+  },
+  "serverVersion": {
+    "message": "$1 · 伺服器 $2"
+  },
+  "unexpectedError": {
+    "message": "擴充功能發生意外錯誤。"
+  },
+  "passkeySuggestion": {
+    "message": "使用儲存在 Firnkey 中的通行金鑰登入"
+  },
+  "generateAndFill": {
+    "message": "生成並填充密碼"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey 建議"
+  },
+  "dismissSuggestions": {
+    "message": "關閉自動填充建議"
+  },
+  "dismiss": {
+    "message": "關閉"
+  },
+  "toggleSuggestions": {
+    "message": "顯示/隱藏 Firnkey 建議"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "顯示或隱藏 Firnkey 建議"
+  },
+  "updateExistingLogin": {
+    "message": "更新現有登入項目"
+  },
+  "saveLoginToFirnkey": {
+    "message": "將登入項目儲存到 Firnkey"
+  },
+  "notNow": {
+    "message": "以後再說"
+  },
+  "update": {
+    "message": "更新"
+  },
+  "loginSaved": {
+    "message": "已儲存登入項目。"
+  },
+  "saveFailed": {
+    "message": "Firnkey 無法儲存此登入項目。"
+  },
+  "savePasskey": {
+    "message": "儲存通行金鑰"
+  },
+  "signInWithPasskey": {
+    "message": "使用通行金鑰登入"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey 已有此網站上該帳戶的通行金鑰。"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "savePasskeyForAccount": {
+    "message": "要在 $2 上為 $1 儲存通行金鑰嗎？"
+  },
+  "savePasskeyOnSite": {
+    "message": "要在 $1 上儲存通行金鑰嗎？"
+  },
+  "choosePasskeyFor": {
+    "message": "為 $1 選擇一個通行金鑰。"
+  },
+  "addTo": {
+    "message": "新增到 $1"
+  },
+  "somethingWentWrong": {
+    "message": "出了點問題。"
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey：請使用安全金鑰完成登入。"
+  },
+  "fillLogin": {
+    "message": "填充登入項目"
+  },
+  "extensionDescription": {
+    "message": "適用於自架伺服器的輕量開源密碼管理器。"
+  },
+  "fillLoginCommand": {
+    "message": "在此頁面填充匹配的登入項目"
+  },
+  "copied": {
+    "message": "已複製"
+  },
+  "generatorHistory": {
+    "message": "生成器歷史記錄"
+  },
+  "generatorHistoryEmpty": {
+    "message": "你從生成器複製或使用的密碼會顯示在這裡，並附上當時所在的網站。它們在此瀏覽器中保持加密。"
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "無網站 · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "生成的密碼"
+  },
+  "clearGeneratorHistory": {
+    "message": "清除生成器歷史記錄"
+  },
+  "generatorHistoryCleared": {
+    "message": "已清除生成器歷史記錄。"
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey 已為 $1 填充密碼。"
+  },
+  "fillPasswordAfterUsername": {
+    "message": "選擇帳戶後，在下一步填充密碼"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "適用於先要求輸入使用者名稱的登入。僅限你選擇的帳戶、同一網站、一次。"
+  },
+  "askToSaveForms": {
+    "message": "詢問是否儲存付款卡和地址"
+  },
+  "generateSshKey": {
+    "message": "生成新金鑰（Ed25519）"
+  },
+  "sshKeyGenerated": {
+    "message": "已生成新的 SSH 金鑰。儲存後才會保留。"
+  },
+  "openFirnkeyToAdd": {
+    "message": "點擊工具欄中的 Firnkey 按鈕完成新增。"
+  },
+  "saveCardToFirnkey": {
+    "message": "要將付款卡儲存到 Firnkey 嗎？"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "要將地址儲存到 Firnkey 嗎？"
+  },
+  "clone": {
+    "message": "克隆"
+  },
+  "cloneName": {
+    "message": "$1 - 副本"
+  },
+  "itemCloned": {
+    "message": "已克隆項目。請在下方修改副本。"
+  },
+  "fingerprintPhrase": {
+    "message": "指紋短語"
+  },
+  "fingerprintPhraseHint": {
+    "message": "網頁版密碼庫和 Bitwarden 應用程式中會顯示相同的五個單字。有人與你共享組織時，請核對它們。"
+  },
+  "matchDetection": {
+    "message": "匹配檢測"
+  },
+  "matchDefault": {
+    "message": "預設（域名）"
+  },
+  "matchDomain": {
+    "message": "域名及其子域名"
+  },
+  "matchHost": {
+    "message": "主機（及埠）"
+  },
+  "matchStartsWith": {
+    "message": "開頭為"
+  },
+  "matchExact": {
+    "message": "完全一致的 URL"
+  },
+  "matchRegex": {
+    "message": "正規表示式"
+  },
+  "matchNever": {
+    "message": "從不"
+  },
+  "archive": {
+    "message": "歸檔"
+  },
+  "unarchive": {
+    "message": "取消歸檔"
+  },
+  "itemArchived": {
+    "message": "已歸檔項目。它不會再出現在自動填充或密碼庫列表中。"
+  },
+  "itemUnarchived": {
+    "message": "已將項目移回密碼庫。"
+  },
+  "archiveHint": {
+    "message": "歸檔的項目會保留，但不會被填充或建議。"
+  },
+  "archiveEmpty": {
+    "message": "沒有歸檔的項目。"
+  },
+  "archiveItem": {
+    "message": "歸檔"
+  },
+  "generatorPolicyHint": {
+    "message": "你的組織要求使用其中部分設定。"
+  },
+  "pin": {
+    "message": "PIN 碼"
+  },
+  "useMasterPassword": {
+    "message": "改用主密碼"
+  },
+  "unlockWithPin": {
+    "message": "使用 PIN 碼解鎖"
+  },
+  "newPin": {
+    "message": "新 PIN 碼（至少 4 個字元）"
+  },
+  "pinKeepAfterRestart": {
+    "message": "瀏覽器重啟後保留 PIN 碼解鎖"
+  },
+  "pinKeepHint": {
+    "message": "關閉：重啟後需用主密碼解鎖一次。開啟較不安全：儲存在此電腦上的短 PIN 碼可能被複製你瀏覽器設定檔的人猜出。"
+  },
+  "setPin": {
+    "message": "設定 PIN 碼"
+  },
+  "pinOn": {
+    "message": "PIN 碼解鎖已開啟。輸錯 5 次 PIN 碼會將其關閉。"
+  },
+  "pinOff": {
+    "message": "PIN 碼解鎖已關閉。"
+  },
+  "passwordHealth": {
+    "message": "密碼健康"
+  },
+  "passwordHealthHint": {
+    "message": "找出弱密碼和重複使用的密碼；開啟洩露檢查後還會找出已洩露的密碼。"
+  },
+  "checkBreaches": {
+    "message": "在已知資料洩露中檢查密碼"
+  },
+  "checkBreachesHint": {
+    "message": "每次同步後，Firnkey 會向 Have I Been Pwned 查詢每個登入項目的密碼。只發送密碼雜湊的前 5 個字元；密碼本身永遠不會離開此瀏覽器。"
+  },
+  "checkBreachesNow": {
+    "message": "立即檢查洩露"
+  },
+  "checkingBreaches": {
+    "message": "正在檢查…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey 需要訪問 api.pwnedpasswords.com 才能檢查洩露。"
+  },
+  "healthExposed_one": {
+    "message": "$1 個已洩露"
+  },
+  "healthExposed_other": {
+    "message": "$1 個已洩露"
+  },
+  "healthReused_one": {
+    "message": "$1 個重複使用"
+  },
+  "healthReused_other": {
+    "message": "$1 個重複使用"
+  },
+  "healthWeak_one": {
+    "message": "$1 個弱密碼"
+  },
+  "healthWeak_other": {
+    "message": "$1 個弱密碼"
+  },
+  "healthNotChecked": {
+    "message": "$1 個尚未檢查洩露"
+  },
+  "healthAllChecked": {
+    "message": "均已檢查洩露"
+  },
+  "exposedPasswords": {
+    "message": "已洩露的密碼"
+  },
+  "reusedPasswords": {
+    "message": "重複使用的密碼"
+  },
+  "weakPasswords": {
+    "message": "弱密碼"
+  },
+  "weakPassword": {
+    "message": "弱"
+  },
+  "seenInBreaches_one": {
+    "message": "出現在 $2 次資料洩露中"
+  },
+  "seenInBreaches_other": {
+    "message": "出現在 $2 次資料洩露中"
+  },
+  "usedByLogins_one": {
+    "message": "被 $1 個登入項目使用"
+  },
+  "usedByLogins_other": {
+    "message": "被 $1 個登入項目使用"
+  },
+  "passwordInBreaches_one": {
+    "message": "此密碼出現在 $2 次資料洩露中。請更改。"
+  },
+  "passwordInBreaches_other": {
+    "message": "此密碼出現在 $2 次資料洩露中。請更改。"
+  },
+  "healthAllGood": {
+    "message": "未發現弱密碼、重複使用或已洩露的密碼。"
+  },
+  "autofillOnPageLoad": {
+    "message": "頁面載入時自動填充"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "登入頁面一載入就填充匹配的登入項目，無需點擊。需要網站整合。被入侵的頁面或匹配網站上的隱藏表單可能讀取密碼，因此只在你信任的網站上使用。"
+  },
+  "autofillDefaultForLogins": {
+    "message": "登入項目預設設定"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "頁面載入時不填充"
+  },
+  "useDefaultSetting": {
+    "message": "使用預設設定"
+  },
+  "always": {
+    "message": "始終"
+  },
+  "loginWithDevice": {
+    "message": "使用裝置登入"
+  },
+  "signInWithSso": {
+    "message": "使用 SSO 登入"
+  },
+  "deviceLoginHint": {
+    "message": "在你已登入的應用程式或網頁版密碼庫中批准請求。請確認其顯示以下短語："
+  },
+  "ssoUnlockHint": {
+    "message": "已透過 SSO 登入。請輸入主密碼解鎖。"
+  },
+  "serverIcons": {
+    "message": "顯示網站圖示"
+  },
+  "serverIconsHint": {
+    "message": "你的伺服器會下載每個網站的圖示一次並快取。關閉：只顯示瀏覽器已有的圖示。"
+  },
+  "waitingForApproval": {
+    "message": "正在等待批准…"
+  },
+  "websites": {
+    "message": "網站"
+  },
+  "addWebsite": {
+    "message": "新增網站"
+  },
+  "removeWebsite": {
+    "message": "移除網站"
+  },
+  "customFields": {
+    "message": "自定義欄位"
+  },
+  "fieldType": {
+    "message": "欄位型別"
+  },
+  "hiddenField": {
+    "message": "隱藏"
+  },
+  "checkboxField": {
+    "message": "核取方塊"
+  },
+  "addField": {
+    "message": "新增欄位"
+  },
+  "fieldName": {
+    "message": "欄位名稱"
+  },
+  "fieldValue": {
+    "message": "值"
+  },
+  "removeField": {
+    "message": "移除欄位"
+  },
+  "collections": {
+    "message": "集合"
+  },
+  "allVaults": {
+    "message": "所有密碼庫"
+  },
+  "filters": {
+    "message": "篩選"
+  },
+  "allCollections": {
+    "message": "所有集合"
+  },
+  "allFolders": {
+    "message": "所有資料夾"
+  },
+  "allTypes": {
+    "message": "所有類型"
+  },
+  "editSend": {
+    "message": "編輯 Send"
+  },
+  "keepDeletionDate": {
+    "message": "保持不變（$1）"
+  },
+  "removePassword": {
+    "message": "移除密碼"
+  },
+  "sendSaved": {
+    "message": "已儲存 $1。"
+  },
+  "vaultTimeoutPolicy": {
+    "message": "你的組織規定無操作最多 $1 後鎖定密碼庫。"
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "你的組織規定無操作最多 $1 後登出。"
+  }
+}

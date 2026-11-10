@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "zh-CN",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "适用于自有服务器的密码管理器"
+  },
+  "starting": {
+    "message": "正在启动"
+  },
+  "connectYourServer": {
+    "message": "连接你的服务器"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey 只请求访问你选择的服务器。"
+  },
+  "serverUrl": {
+    "message": "服务器 URL"
+  },
+  "verifyServer": {
+    "message": "验证服务器"
+  },
+  "signIn": {
+    "message": "登录"
+  },
+  "change": {
+    "message": "更改"
+  },
+  "email": {
+    "message": "电子邮件"
+  },
+  "masterPassword": {
+    "message": "主密码"
+  },
+  "twoStepLogin": {
+    "message": "两步登录"
+  },
+  "method": {
+    "message": "方式"
+  },
+  "sendEmailCode": {
+    "message": "通过电子邮件发送验证码"
+  },
+  "verificationCode": {
+    "message": "验证码"
+  },
+  "rememberThisDevice": {
+    "message": "记住此设备"
+  },
+  "newDeviceVerification": {
+    "message": "新设备验证"
+  },
+  "deviceVerificationHint": {
+    "message": "输入服务器发送的验证码。"
+  },
+  "deviceVerificationCode": {
+    "message": "设备验证码"
+  },
+  "signInAndSync": {
+    "message": "登录并同步"
+  },
+  "vaultLocked": {
+    "message": "密码库已锁定"
+  },
+  "unlock": {
+    "message": "解锁"
+  },
+  "unlockWithBiometrics": {
+    "message": "使用 Touch ID / 生物识别解锁"
+  },
+  "logOut": {
+    "message": "退出登录"
+  },
+  "allItems": {
+    "message": "所有项目"
+  },
+  "noMatchingItems": {
+    "message": "没有匹配的项目。"
+  },
+  "viewAll": {
+    "message": "查看全部"
+  },
+  "authenticatorEmpty": {
+    "message": "还没有验证器密钥。选择“新建”以扫描二维码或粘贴密钥。"
+  },
+  "importOrExportKeys": {
+    "message": "导入或导出密钥"
+  },
+  "scanQrOnPage": {
+    "message": "扫描此页面上的二维码"
+  },
+  "saveTo": {
+    "message": "保存到"
+  },
+  "newLogin": {
+    "message": "新登录项"
+  },
+  "key": {
+    "message": "密钥"
+  },
+  "name": {
+    "message": "名称"
+  },
+  "nicknameOptional": {
+    "message": "昵称（可选）"
+  },
+  "account": {
+    "message": "账户"
+  },
+  "website": {
+    "message": "网站"
+  },
+  "issuer": {
+    "message": "发行方"
+  },
+  "advanced": {
+    "message": "高级"
+  },
+  "algorithm": {
+    "message": "算法"
+  },
+  "digits": {
+    "message": "位数"
+  },
+  "periodSeconds": {
+    "message": "周期（秒）"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "大多数服务使用 SHA-1、6 位数字和 30 秒。Steam 密钥（发行方 Steam）始终生成 5 个字符的代码。"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "import": {
+    "message": "导入"
+  },
+  "keysImportHint": {
+    "message": "每行一个 otpauth://totp/ 链接，与验证器应用导出的格式相同。每个新密钥都会成为一个登录项。"
+  },
+  "chooseFile": {
+    "message": "选择文件"
+  },
+  "checkList": {
+    "message": "检查列表"
+  },
+  "export": {
+    "message": "导出"
+  },
+  "keysExportHint": {
+    "message": "将每个密钥以 otpauth:// 链接保存到文本文件。任何拿到该文件的人都能生成你的验证码，因此导入后请删除它。"
+  },
+  "exportKeys": {
+    "message": "导出密钥"
+  },
+  "sendIntro": {
+    "message": "通过会自行删除的端到端加密链接分享文本或文件。"
+  },
+  "sendEmpty": {
+    "message": "还没有 Send。选择“新建”以分享文本或文件。"
+  },
+  "text": {
+    "message": "文本"
+  },
+  "file": {
+    "message": "文件"
+  },
+  "sendHideText": {
+    "message": "在接收者显示之前隐藏文本"
+  },
+  "noFileChosenSendLimit": {
+    "message": "未选择文件 · 最大 25 MB"
+  },
+  "deleteAfter": {
+    "message": "删除时间"
+  },
+  "days1": {
+    "message": "1 天"
+  },
+  "days2": {
+    "message": "2 天"
+  },
+  "days3": {
+    "message": "3 天"
+  },
+  "days7": {
+    "message": "7 天"
+  },
+  "days14": {
+    "message": "14 天"
+  },
+  "days30": {
+    "message": "30 天"
+  },
+  "options": {
+    "message": "选项"
+  },
+  "passwordOptional": {
+    "message": "密码（可选）"
+  },
+  "maximumViewsOptional": {
+    "message": "最大查看次数（可选）"
+  },
+  "createAndCopyLink": {
+    "message": "创建并复制链接"
+  },
+  "passwordGenerator": {
+    "message": "密码生成器"
+  },
+  "generatorHint": {
+    "message": "使用浏览器的加密随机源在本地生成。"
+  },
+  "password": {
+    "message": "密码"
+  },
+  "passphrase": {
+    "message": "密码短语"
+  },
+  "username": {
+    "message": "用户名"
+  },
+  "length": {
+    "message": "长度"
+  },
+  "uppercase": {
+    "message": "大写字母"
+  },
+  "lowercase": {
+    "message": "小写字母"
+  },
+  "numbers": {
+    "message": "数字"
+  },
+  "symbols": {
+    "message": "符号"
+  },
+  "words": {
+    "message": "单词数"
+  },
+  "wordSeparator": {
+    "message": "单词分隔符"
+  },
+  "capitalize": {
+    "message": "首字母大写"
+  },
+  "includeNumber": {
+    "message": "包含数字"
+  },
+  "type": {
+    "message": "类型"
+  },
+  "randomWord": {
+    "message": "随机单词"
+  },
+  "plusAddressedEmail": {
+    "message": "加号别名邮箱"
+  },
+  "catchAllEmail": {
+    "message": "全收邮箱"
+  },
+  "forwardedEmailAlias": {
+    "message": "转发邮箱别名"
+  },
+  "forwardingService": {
+    "message": "转发服务"
+  },
+  "apiKey": {
+    "message": "API 密钥"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "首次使用后保存；留空则保留原密钥"
+  },
+  "aliasDomain": {
+    "message": "别名域名"
+  },
+  "createAlias": {
+    "message": "创建别名"
+  },
+  "creatingAlias": {
+    "message": "正在创建别名…"
+  },
+  "aliasCreated": {
+    "message": "已创建别名"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey 需要访问转发服务才能创建别名。"
+  },
+  "yourEmail": {
+    "message": "你的邮箱"
+  },
+  "yourCatchAllDomain": {
+    "message": "你的全收域名"
+  },
+  "generateAnother": {
+    "message": "重新生成"
+  },
+  "useInNewLogin": {
+    "message": "用于新登录项"
+  },
+  "security": {
+    "message": "安全"
+  },
+  "securityGroupHint": {
+    "message": "锁定时间、生物识别、剪贴板"
+  },
+  "autofillSaving": {
+    "message": "自动填充与保存"
+  },
+  "autofillGroupHint": {
+    "message": "网站集成、保存提示、排除的域名"
+  },
+  "vault": {
+    "message": "密码库"
+  },
+  "vaultGroupHint": {
+    "message": "文件夹、验证器标签页"
+  },
+  "importExport": {
+    "message": "导入与导出"
+  },
+  "transferGroupHint": {
+    "message": "从其他密码管理器迁入或迁出密码库"
+  },
+  "accountSync": {
+    "message": "账户与同步"
+  },
+  "accountGroupHint": {
+    "message": "账户、实时同步、退出登录"
+  },
+  "lockVault": {
+    "message": "锁定密码库"
+  },
+  "after1Minute": {
+    "message": "1 分钟后"
+  },
+  "after5Minutes": {
+    "message": "5 分钟后"
+  },
+  "after15Minutes": {
+    "message": "15 分钟后"
+  },
+  "after30Minutes": {
+    "message": "30 分钟后"
+  },
+  "after1Hour": {
+    "message": "1 小时后"
+  },
+  "after2Hours": {
+    "message": "2 小时后"
+  },
+  "after4Hours": {
+    "message": "4 小时后"
+  },
+  "after8Hours": {
+    "message": "8 小时后"
+  },
+  "after24Hours": {
+    "message": "24 小时后"
+  },
+  "whenTheComputerLocks": {
+    "message": "电脑锁定时"
+  },
+  "whenBrowserCloses": {
+    "message": "浏览器关闭时"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "保持解锁直到退出登录"
+  },
+  "untilLogoutHint": {
+    "message": "“直到退出登录”会为此浏览器配置文件加密会话，但在共用电脑上不够安全。"
+  },
+  "lockNow": {
+    "message": "立即锁定"
+  },
+  "clearCopiedSecrets": {
+    "message": "清除已复制的机密"
+  },
+  "after10Seconds": {
+    "message": "10 秒后"
+  },
+  "after20Seconds": {
+    "message": "20 秒后"
+  },
+  "after30Seconds": {
+    "message": "30 秒后"
+  },
+  "after2Minutes": {
+    "message": "2 分钟后"
+  },
+  "never": {
+    "message": "从不"
+  },
+  "clipboardOwnOnly": {
+    "message": "只清除 Firnkey 复制的内容"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "需要读取剪贴板的权限，这样你在别处复制的文本不会被动到。"
+  },
+  "websiteIntegration": {
+    "message": "网站集成"
+  },
+  "websiteIntegrationHint": {
+    "message": "自动填充建议和保存提示。"
+  },
+  "enable": {
+    "message": "启用"
+  },
+  "fillSignInDialogs": {
+    "message": "填写登录对话框（HTTP 基本认证）"
+  },
+  "basicAuthHint": {
+    "message": "当恰好有一个未受保护的登录项匹配时，回应网站的浏览器登录对话框。"
+  },
+  "savePrompts": {
+    "message": "保存提示"
+  },
+  "askToAddLogin": {
+    "message": "询问是否添加登录项"
+  },
+  "askToUpdateLogin": {
+    "message": "询问是否更新现有登录项"
+  },
+  "askPasskeys": {
+    "message": "询问是否保存和使用通行密钥"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "保存提示自动关闭时间（秒）"
+  },
+  "excludedDomains": {
+    "message": "排除的域名"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey 不会在这些域名上建议、填充或保存凭据。"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "folders": {
+    "message": "文件夹"
+  },
+  "foldersHint": {
+    "message": "删除文件夹会保留其中的项目；它们会移到“无文件夹”。"
+  },
+  "showTheAuthenticatorTab": {
+    "message": "显示验证器标签页"
+  },
+  "authenticatorTabHint": {
+    "message": "为你的登录项实时显示验证码。可通过二维码、手动输入或文件添加密钥。"
+  },
+  "authenticatorSmartFilter": {
+    "message": "此网站有验证码时只显示它的验证码"
+  },
+  "vaultImportHint": {
+    "message": "Bitwarden JSON 导出（未加密或受密码保护）、1Password .1pux 导出，或来自 Bitwarden、1Password、KeePass、KeePassXC、Chrome、Edge、Firefox 或 Safari 的 CSV 文件。项目会进入你的个人密码库。"
+  },
+  "noFileChosen": {
+    "message": "未选择文件"
+  },
+  "filePassword": {
+    "message": "文件密码"
+  },
+  "checkFile": {
+    "message": "检查文件"
+  },
+  "format": {
+    "message": "格式"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON，受文件密码保护"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON，未加密"
+  },
+  "filePasswordHint": {
+    "message": "再次导入文件时需要此密码。Firnkey 无法找回。"
+  },
+  "unencryptedExportWarning": {
+    "message": "任何拿到未加密文件的人都能读取其中所有密码。导入后请删除它。"
+  },
+  "exportScopeHint": {
+    "message": "导出你的个人项目。组织项目保留在组织中。"
+  },
+  "exportVault": {
+    "message": "导出密码库"
+  },
+  "liveSync": {
+    "message": "实时同步"
+  },
+  "liveSyncHint": {
+    "message": "立即从服务器获取更改。关闭后每分钟检查一次，占用更少内存。"
+  },
+  "syncNow": {
+    "message": "立即同步"
+  },
+  "addAccount": {
+    "message": "添加账户"
+  },
+  "repromptHint": {
+    "message": "使用此项目的受保护字段前需要输入主密码。"
+  },
+  "unlockProtectedFields": {
+    "message": "解锁受保护字段"
+  },
+  "show": {
+    "message": "显示"
+  },
+  "addAttachment": {
+    "message": "添加附件"
+  },
+  "fillOnThisPage": {
+    "message": "在此页面填充"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "moveToTrash": {
+    "message": "移到回收站"
+  },
+  "addLogin": {
+    "message": "添加登录项"
+  },
+  "login": {
+    "message": "登录项"
+  },
+  "card": {
+    "message": "支付卡"
+  },
+  "identity": {
+    "message": "身份"
+  },
+  "secureNote": {
+    "message": "安全笔记"
+  },
+  "folder": {
+    "message": "文件夹"
+  },
+  "noFolder": {
+    "message": "无文件夹"
+  },
+  "owner": {
+    "message": "所有者"
+  },
+  "myVault": {
+    "message": "我的密码库"
+  },
+  "moveToOrganizationHint": {
+    "message": "移到组织后无法在此撤销；该项目将归组织所有。"
+  },
+  "generate": {
+    "message": "生成"
+  },
+  "authenticatorKeyTotp": {
+    "message": "验证器密钥（TOTP）"
+  },
+  "scanQrShort": {
+    "message": "扫描二维码"
+  },
+  "notes": {
+    "message": "备注"
+  },
+  "favorite": {
+    "message": "收藏"
+  },
+  "authenticator": {
+    "message": "验证器"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "生成器"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "openSettings": {
+    "message": "打开设置"
+  },
+  "searchVault": {
+    "message": "搜索密码库"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 密钥或 otpauth://totp/ 链接"
+  },
+  "defaultsToTheIssuer": {
+    "message": "默认为发行方"
+  },
+  "shownInsteadOfThe": {
+    "message": "代替名称显示"
+  },
+  "keysToImport": {
+    "message": "要导入的密钥"
+  },
+  "whatToSend": {
+    "message": "要发送的内容"
+  },
+  "whatToGenerate": {
+    "message": "要生成的内容"
+  },
+  "generatedValue": {
+    "message": "生成的值"
+  },
+  "copy": {
+    "message": "复制"
+  },
+  "copyGeneratedValue": {
+    "message": "复制生成的值"
+  },
+  "domainToExclude": {
+    "message": "要排除的域名"
+  },
+  "newFolder": {
+    "message": "新文件夹"
+  },
+  "newFolderName": {
+    "message": "新文件夹名称"
+  },
+  "copyUsername": {
+    "message": "复制用户名"
+  },
+  "copyPassword": {
+    "message": "复制密码"
+  },
+  "copyVerificationCode": {
+    "message": "复制验证码"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 密钥或 otpauth:// 链接"
+  },
+  "mainNavigation": {
+    "message": "主导航"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey 通行密钥"
+  },
+  "passkey": {
+    "message": "通行密钥"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "请解锁 Firnkey 以继续。"
+  },
+  "verifyWithBiometrics": {
+    "message": "使用 Touch ID / 生物识别验证"
+  },
+  "continue": {
+    "message": "继续"
+  },
+  "useAnotherDevice": {
+    "message": "使用其他设备"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "sshKey": {
+    "message": "SSH 密钥"
+  },
+  "cardholderName": {
+    "message": "持卡人姓名"
+  },
+  "brand": {
+    "message": "卡组织"
+  },
+  "number": {
+    "message": "卡号"
+  },
+  "expirationMonth": {
+    "message": "到期月份"
+  },
+  "expirationYear": {
+    "message": "到期年份"
+  },
+  "securityCode": {
+    "message": "安全码"
+  },
+  "title": {
+    "message": "称谓"
+  },
+  "firstName": {
+    "message": "名"
+  },
+  "middleName": {
+    "message": "中间名"
+  },
+  "lastName": {
+    "message": "姓"
+  },
+  "company": {
+    "message": "公司"
+  },
+  "phone": {
+    "message": "电话"
+  },
+  "address1": {
+    "message": "地址 1"
+  },
+  "address2": {
+    "message": "地址 2"
+  },
+  "address3": {
+    "message": "地址 3"
+  },
+  "city": {
+    "message": "城市"
+  },
+  "stateProvince": {
+    "message": "省 / 州"
+  },
+  "postalCode": {
+    "message": "邮政编码"
+  },
+  "country": {
+    "message": "国家/地区"
+  },
+  "ssn": {
+    "message": "身份证号 / 社会保障号"
+  },
+  "passportNumber": {
+    "message": "护照号码"
+  },
+  "licenseNumber": {
+    "message": "驾照号码"
+  },
+  "addSecureNote": {
+    "message": "添加安全笔记"
+  },
+  "addCard": {
+    "message": "添加支付卡"
+  },
+  "addIdentity": {
+    "message": "添加身份"
+  },
+  "addSshKey": {
+    "message": "添加 SSH 密钥"
+  },
+  "editLogin": {
+    "message": "编辑登录项"
+  },
+  "editSecureNote": {
+    "message": "编辑安全笔记"
+  },
+  "editCard": {
+    "message": "编辑支付卡"
+  },
+  "editIdentity": {
+    "message": "编辑身份"
+  },
+  "editSshKey": {
+    "message": "编辑 SSH 密钥"
+  },
+  "passphraseGenerator": {
+    "message": "密码短语生成器"
+  },
+  "usernameGenerator": {
+    "message": "用户名生成器"
+  },
+  "generatedPasswordCopied": {
+    "message": "已复制生成的密码。"
+  },
+  "generatedPassphraseCopied": {
+    "message": "已复制生成的密码短语。"
+  },
+  "generatedUsernameCopied": {
+    "message": "已复制生成的用户名。"
+  },
+  "removeKey": {
+    "message": "移除密钥"
+  },
+  "biometricOff": {
+    "message": "已关闭生物识别解锁。"
+  },
+  "usernameCopied": {
+    "message": "已复制用户名。"
+  },
+  "passwordCopied": {
+    "message": "已复制密码。"
+  },
+  "hide": {
+    "message": "隐藏"
+  },
+  "movedToTrash": {
+    "message": "已移到回收站。"
+  },
+  "websiteAccessDenied": {
+    "message": "未授予网站访问权限。"
+  },
+  "websiteIntegrationOn": {
+    "message": "已启用网站自动填充和保存提示。"
+  },
+  "websiteIntegrationOff": {
+    "message": "已停用网站提示。"
+  },
+  "basicAuthPermissionDenied": {
+    "message": "填写登录对话框需要在网站上查看它们的权限。"
+  },
+  "preferencesUpdated": {
+    "message": "已更新偏好设置。"
+  },
+  "invalidDomain": {
+    "message": "请输入有效域名，例如 example.com。"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "enabled": {
+    "message": "已启用"
+  },
+  "disableWebsiteIntegration": {
+    "message": "停用网站集成"
+  },
+  "enableWebsiteIntegration": {
+    "message": "启用网站集成"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "不支持的锁定时间。"
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "不支持的剪贴板时间。"
+  },
+  "clipboardClearsAfter": {
+    "message": "已复制的机密将在 $1 后清除。"
+  },
+  "clipboardKeeps": {
+    "message": "已复制的机密将保留在剪贴板中。"
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "只有在剪贴板仍是 Firnkey 复制的内容时，Firnkey 才会清除它。"
+  },
+  "seconds_one": {
+    "message": "$1 秒"
+  },
+  "seconds_other": {
+    "message": "$1 秒"
+  },
+  "minutes_one": {
+    "message": "$1 分钟"
+  },
+  "minutes_other": {
+    "message": "$1 分钟"
+  },
+  "hours_one": {
+    "message": "$1 小时"
+  },
+  "hours_other": {
+    "message": "$1 小时"
+  },
+  "lockOnComputerLock": {
+    "message": "电脑锁定或浏览器关闭时，密码库将锁定。"
+  },
+  "lockOnLogout": {
+    "message": "在你锁定或退出登录之前，密码库在此浏览器中保持解锁。"
+  },
+  "lockOnBrowserClose": {
+    "message": "在浏览器关闭之前，密码库保持解锁。"
+  },
+  "lockAfterInactivity": {
+    "message": "无操作 $1 后，密码库将锁定。"
+  },
+  "waitingForVerification": {
+    "message": "正在等待验证…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "开启生物识别解锁前，请先解锁密码库。"
+  },
+  "noPasskeyCreated": {
+    "message": "未创建通行密钥。"
+  },
+  "biometricOn": {
+    "message": "生物识别解锁已开启。"
+  },
+  "biometricUnavailable": {
+    "message": "生物识别解锁目前不可用。"
+  },
+  "vaultUnlocked_one": {
+    "message": "密码库已解锁，共 $1 个项目。"
+  },
+  "vaultUnlocked_other": {
+    "message": "密码库已解锁，共 $1 个项目。"
+  },
+  "verificationCancelled": {
+    "message": "验证已取消或超时。"
+  },
+  "notConnected": {
+    "message": "未连接"
+  },
+  "connectAServer": {
+    "message": "连接服务器"
+  },
+  "signedOut": {
+    "message": "已退出登录"
+  },
+  "itemCount_one": {
+    "message": "$1 个项目"
+  },
+  "itemCount_other": {
+    "message": "$1 个项目"
+  },
+  "locked": {
+    "message": "已锁定"
+  },
+  "unlocked": {
+    "message": "已解锁"
+  },
+  "settingsFor": {
+    "message": "$1 的设置"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · 优先显示此页面的建议"
+  },
+  "itemTotal_one": {
+    "message": "共 $1 个项目"
+  },
+  "itemTotal_other": {
+    "message": "共 $1 个项目"
+  },
+  "skippedItems_one": {
+    "message": "已跳过 $1 个不支持或损坏的项目。"
+  },
+  "skippedItems_other": {
+    "message": "已跳过 $1 个不支持或损坏的项目。"
+  },
+  "otherAccounts": {
+    "message": "其他账户"
+  },
+  "switch": {
+    "message": "切换"
+  },
+  "removeAccountTitle": {
+    "message": "在此浏览器的 Firnkey 中移除 $1"
+  },
+  "switchedTo": {
+    "message": "已切换到 $1。"
+  },
+  "accountRemoved": {
+    "message": "已从此浏览器移除 $1。"
+  },
+  "addAccountHint": {
+    "message": "登录另一个账户。当前账户会以锁定状态保存在下方。"
+  },
+  "verifying": {
+    "message": "正在验证…"
+  },
+  "serverPermissionDenied": {
+    "message": "未授予服务器权限。"
+  },
+  "signingIn": {
+    "message": "正在登录…"
+  },
+  "continueInNewWindow": {
+    "message": "再次选择“登录”以在新窗口中继续。"
+  },
+  "enterTwoStepCode": {
+    "message": "请输入两步登录验证码。"
+  },
+  "unlocking": {
+    "message": "正在解锁…"
+  },
+  "trashHint": {
+    "message": "恢复项目或将其永久删除。"
+  },
+  "trashEmpty": {
+    "message": "回收站为空。"
+  },
+  "autofillSuggestions": {
+    "message": "自动填充建议"
+  },
+  "otherResults": {
+    "message": "其他结果"
+  },
+  "trash": {
+    "message": "回收站"
+  },
+  "folderName": {
+    "message": "文件夹名称"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "folderRenamed": {
+    "message": "已重命名文件夹。"
+  },
+  "folderAdded": {
+    "message": "已添加文件夹。"
+  },
+  "folderDeleted": {
+    "message": "已删除文件夹。其中的项目现在位于“无文件夹”。"
+  },
+  "confirm": {
+    "message": "确认"
+  },
+  "matchesThisPage": {
+    "message": "与此页面匹配"
+  },
+  "restore": {
+    "message": "恢复"
+  },
+  "itemRestored": {
+    "message": "已恢复项目。"
+  },
+  "deleteForever": {
+    "message": "永久删除"
+  },
+  "itemDeletedForever": {
+    "message": "已永久删除项目。"
+  },
+  "open": {
+    "message": "打开"
+  },
+  "fill": {
+    "message": "填充"
+  },
+  "openWebsite": {
+    "message": "打开网站"
+  },
+  "cardNumber": {
+    "message": "卡号"
+  },
+  "note": {
+    "message": "笔记"
+  },
+  "publicKey": {
+    "message": "公钥"
+  },
+  "copyPublicKey": {
+    "message": "复制公钥"
+  },
+  "copyCardNumber": {
+    "message": "复制卡号"
+  },
+  "copyNote": {
+    "message": "复制笔记"
+  },
+  "copySecurityCode": {
+    "message": "复制安全码"
+  },
+  "copyPrivateKey": {
+    "message": "复制私钥"
+  },
+  "privateKey": {
+    "message": "私钥"
+  },
+  "confirmBeforeDeleting": {
+    "message": "删除此项目前请确认主密码。"
+  },
+  "moreActions": {
+    "message": "更多操作"
+  },
+  "noWebAddress": {
+    "message": "此登录项没有网址。"
+  },
+  "noWebsiteSaved": {
+    "message": "未保存网站"
+  },
+  "loading": {
+    "message": "正在加载…"
+  },
+  "expiration": {
+    "message": "有效期"
+  },
+  "address": {
+    "message": "地址"
+  },
+  "fingerprint": {
+    "message": "指纹"
+  },
+  "customField": {
+    "message": "自定义字段"
+  },
+  "passwordHistory": {
+    "message": "密码历史记录（$1）"
+  },
+  "oldPassword": {
+    "message": "旧密码"
+  },
+  "organization": {
+    "message": "组织"
+  },
+  "attachmentsCount": {
+    "message": "附件（$1）"
+  },
+  "downloadFile": {
+    "message": "下载 $1"
+  },
+  "deleteFile": {
+    "message": "删除 $1"
+  },
+  "fileDownloaded": {
+    "message": "已下载 $1。"
+  },
+  "fileTooLarge25": {
+    "message": "文件太大（最大 25 MB）。"
+  },
+  "fileEmpty": {
+    "message": "文件为空。"
+  },
+  "uploadingFile": {
+    "message": "正在加密并上传 $1…"
+  },
+  "fileAttached": {
+    "message": "已附加 $1。"
+  },
+  "fileDeleted": {
+    "message": "已删除 $1。"
+  },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "viewsOf": {
+    "message": "已查看 $1 / $2 次"
+  },
+  "views_one": {
+    "message": "已查看 $1 次"
+  },
+  "views_other": {
+    "message": "已查看 $1 次"
+  },
+  "deletesOn": {
+    "message": "将于 $1 删除"
+  },
+  "disabled": {
+    "message": "已停用"
+  },
+  "sendLinkCopied": {
+    "message": "已复制 Send 链接。"
+  },
+  "deleteSendTitle": {
+    "message": "删除 $1；其链接将失效"
+  },
+  "sendDeleted": {
+    "message": "已删除 $1。其链接已失效。"
+  },
+  "encrypting": {
+    "message": "正在加密…"
+  },
+  "chooseFileToSend": {
+    "message": "请选择要发送的文件。"
+  },
+  "sendCreatedCopied": {
+    "message": "已创建 Send 并复制链接。"
+  },
+  "sendCreatedSync": {
+    "message": "已创建 Send。请同步，然后从列表中复制其链接。"
+  },
+  "fileTooLarge10": {
+    "message": "文件太大（最大 10 MB）。"
+  },
+  "importing": {
+    "message": "正在导入…"
+  },
+  "checking": {
+    "message": "正在检查…"
+  },
+  "importedItems": {
+    "message": "已导入 $1。"
+  },
+  "importItems": {
+    "message": "导入 $1"
+  },
+  "foundItems": {
+    "message": "找到 $1。它们会添加到你的密码库；不会替换任何内容。"
+  },
+  "foundItemsInFolders": {
+    "message": "在 $2 中找到 $1。它们会添加到你的密码库；不会替换任何内容。"
+  },
+  "folderCount_one": {
+    "message": "$1 个文件夹"
+  },
+  "folderCount_other": {
+    "message": "$1 个文件夹"
+  },
+  "exporting": {
+    "message": "正在导出…"
+  },
+  "vaultExportedPlain": {
+    "message": "已导出密码库。导入后请删除该文件。"
+  },
+  "vaultExportedProtected": {
+    "message": "已导出密码库。请妥善保管文件密码。"
+  },
+  "createdOn": {
+    "message": "创建于 $1"
+  },
+  "lastEdited": {
+    "message": "最后编辑于 $1"
+  },
+  "itemHistory": {
+    "message": "项目历史记录"
+  },
+  "loginCredentials": {
+    "message": "登录凭据"
+  },
+  "itemDetails": {
+    "message": "项目详情"
+  },
+  "autofillOptions": {
+    "message": "自动填充选项"
+  },
+  "passwordChangedOn": {
+    "message": "最后更改于 $1"
+  },
+  "removePasskeyTitle": {
+    "message": "从登录项中移除此通行密钥"
+  },
+  "passkeyRemoved": {
+    "message": "已移除通行密钥。"
+  },
+  "usedUntil": {
+    "message": "使用至 $1"
+  },
+  "earlierPassword": {
+    "message": "以前的密码"
+  },
+  "fieldCopied": {
+    "message": "已复制 $1。"
+  },
+  "copyField": {
+    "message": "复制 $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "从此项目复制前请确认主密码。"
+  },
+  "codeCopied": {
+    "message": "已复制验证码。"
+  },
+  "viewOnlyItem": {
+    "message": "你的组织允许你查看此项目，但不允许更改。"
+  },
+  "confirmBeforeEditing": {
+    "message": "编辑此项目前请确认主密码。"
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "YYYY"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "loginUpdated": {
+    "message": "已更新登录项。"
+  },
+  "loginAdded": {
+    "message": "已添加登录项。"
+  },
+  "itemUpdated": {
+    "message": "已更新 $1。"
+  },
+  "itemAdded": {
+    "message": "已添加 $1。"
+  },
+  "protectedFieldsUnlocked": {
+    "message": "受保护字段已解锁 60 秒。"
+  },
+  "unavailable": {
+    "message": "不可用"
+  },
+  "secondsLeft_one": {
+    "message": "剩余 $1 秒"
+  },
+  "secondsLeft_other": {
+    "message": "剩余 $1 秒"
+  },
+  "codesForSite": {
+    "message": "此网站的验证码 · 共 $1"
+  },
+  "codeCount_one": {
+    "message": "$1 个验证码"
+  },
+  "codeCount_other": {
+    "message": "$1 个验证码"
+  },
+  "thisWebsite": {
+    "message": "此网站"
+  },
+  "openToConfirm": {
+    "message": "打开以确认主密码"
+  },
+  "protected": {
+    "message": "受保护"
+  },
+  "fillIntoPage": {
+    "message": "填充到此页面"
+  },
+  "editKey": {
+    "message": "编辑密钥"
+  },
+  "codeFilled": {
+    "message": "已为 $1 填充验证码。"
+  },
+  "confirmThenEditKey": {
+    "message": "请先确认主密码，然后在验证器标签页中编辑密钥。"
+  },
+  "qrReadFirstCheck": {
+    "message": "已读取多个二维码中的第一个。请检查信息后保存。"
+  },
+  "qrReadCheck": {
+    "message": "已读取二维码。请检查信息后保存。"
+  },
+  "qrReadFirstSave": {
+    "message": "已读取多个二维码中的第一个。保存登录项以保留密钥。"
+  },
+  "qrReadSave": {
+    "message": "已读取二维码。保存登录项以保留密钥。"
+  },
+  "qrUnsupported": {
+    "message": "此浏览器无法读取二维码。请改为粘贴密钥或 otpauth:// 链接。"
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey 无法查看此页面。请打开显示二维码的页面后重试。"
+  },
+  "qrNotFound": {
+    "message": "在页面可见区域中未找到验证器二维码。"
+  },
+  "qrInvalid": {
+    "message": "该二维码不是有效的基于时间（TOTP）的验证器密钥。"
+  },
+  "keyAdded": {
+    "message": "已添加验证器密钥。"
+  },
+  "keyUpdated": {
+    "message": "已更新验证器密钥。"
+  },
+  "keyRemoved": {
+    "message": "已移除验证器密钥。登录项本身仍在你的密码库中。"
+  },
+  "fileTooLarge256": {
+    "message": "文件太大（最大 256 KB）。"
+  },
+  "pasteLinksFirst": {
+    "message": "请先粘贴 otpauth:// 链接或选择文件。"
+  },
+  "keysImported_one": {
+    "message": "已导入 $1 个密钥。"
+  },
+  "keysImported_other": {
+    "message": "已导入 $1 个密钥。"
+  },
+  "new": {
+    "message": "新建"
+  },
+  "duplicate": {
+    "message": "重复"
+  },
+  "invalid": {
+    "message": "无效"
+  },
+  "importNewKeys_one": {
+    "message": "导入 $1 个新密钥"
+  },
+  "importNewKeys_other": {
+    "message": "导入 $1 个新密钥"
+  },
+  "checkThenImport": {
+    "message": "请检查列表后再导入。"
+  },
+  "nothingNewToImport": {
+    "message": "没有可导入的新内容。"
+  },
+  "keysExported": {
+    "message": "已导出密钥。在其他地方导入后请删除该文件。"
+  },
+  "fieldsFilled_one": {
+    "message": "已填充 $1 个字段。"
+  },
+  "fieldsFilled_other": {
+    "message": "已填充 $1 个字段。"
+  },
+  "filledUsernameAndPassword": {
+    "message": "已填充用户名和密码。"
+  },
+  "filledUsername": {
+    "message": "已填充用户名。"
+  },
+  "filledPassword": {
+    "message": "已填充密码。"
+  },
+  "synced_one": {
+    "message": "已同步 $1 个项目。"
+  },
+  "synced_other": {
+    "message": "已同步 $1 个项目。"
+  },
+  "twoStepUnsupported": {
+    "message": "此账户需要本版本不支持的两步登录方式。"
+  },
+  "sending": {
+    "message": "正在发送…"
+  },
+  "emailCodeSent": {
+    "message": "验证码已通过电子邮件发送。"
+  },
+  "authenticatorApp": {
+    "message": "验证器应用"
+  },
+  "securityKeyWebauthn": {
+    "message": "安全密钥（WebAuthn）"
+  },
+  "recoveryCode": {
+    "message": "恢复代码"
+  },
+  "twoFactorMethod": {
+    "message": "方式 $1"
+  },
+  "fieldEmpty": {
+    "message": "此字段为空。"
+  },
+  "clipboardClearsIn": {
+    "message": "$1 剪贴板将在 $2 后清除。"
+  },
+  "backgroundNoResponse": {
+    "message": "扩展的后台进程没有响应。请重新加载扩展。"
+  },
+  "unexpectedResponse": {
+    "message": "后台进程返回了意外的响应。"
+  },
+  "newSend": {
+    "message": "新建 Send"
+  },
+  "item": {
+    "message": "项目"
+  },
+  "editItem": {
+    "message": "编辑项目"
+  },
+  "newItem": {
+    "message": "新项目"
+  },
+  "addKey": {
+    "message": "添加密钥"
+  },
+  "serverVersion": {
+    "message": "$1 · 服务器 $2"
+  },
+  "unexpectedError": {
+    "message": "扩展发生意外错误。"
+  },
+  "passkeySuggestion": {
+    "message": "使用保存在 Firnkey 中的通行密钥登录"
+  },
+  "generateAndFill": {
+    "message": "生成并填充密码"
+  },
+  "suggestionsLabel": {
+    "message": "Firnkey 建议"
+  },
+  "dismissSuggestions": {
+    "message": "关闭自动填充建议"
+  },
+  "dismiss": {
+    "message": "关闭"
+  },
+  "toggleSuggestions": {
+    "message": "显示/隐藏 Firnkey 建议"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "显示或隐藏 Firnkey 建议"
+  },
+  "updateExistingLogin": {
+    "message": "更新现有登录项"
+  },
+  "saveLoginToFirnkey": {
+    "message": "将登录项保存到 Firnkey"
+  },
+  "notNow": {
+    "message": "以后再说"
+  },
+  "update": {
+    "message": "更新"
+  },
+  "loginSaved": {
+    "message": "已保存登录项。"
+  },
+  "saveFailed": {
+    "message": "Firnkey 无法保存此登录项。"
+  },
+  "savePasskey": {
+    "message": "保存通行密钥"
+  },
+  "signInWithPasskey": {
+    "message": "使用通行密钥登录"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey 已有此网站上该账户的通行密钥。"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "savePasskeyForAccount": {
+    "message": "要在 $2 上为 $1 保存通行密钥吗？"
+  },
+  "savePasskeyOnSite": {
+    "message": "要在 $1 上保存通行密钥吗？"
+  },
+  "choosePasskeyFor": {
+    "message": "为 $1 选择一个通行密钥。"
+  },
+  "addTo": {
+    "message": "添加到 $1"
+  },
+  "somethingWentWrong": {
+    "message": "出了点问题。"
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey：请使用安全密钥完成登录。"
+  },
+  "fillLogin": {
+    "message": "填充登录项"
+  },
+  "extensionDescription": {
+    "message": "适用于自托管服务器的轻量开源密码管理器。"
+  },
+  "fillLoginCommand": {
+    "message": "在此页面填充匹配的登录项"
+  },
+  "copied": {
+    "message": "已复制"
+  },
+  "generatorHistory": {
+    "message": "生成器历史记录"
+  },
+  "generatorHistoryEmpty": {
+    "message": "你从生成器复制或使用的密码会显示在这里，并附上当时所在的网站。它们在此浏览器中保持加密。"
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "无网站 · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "生成的密码"
+  },
+  "clearGeneratorHistory": {
+    "message": "清除生成器历史记录"
+  },
+  "generatorHistoryCleared": {
+    "message": "已清除生成器历史记录。"
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey 已为 $1 填充密码。"
+  },
+  "fillPasswordAfterUsername": {
+    "message": "选择账户后，在下一步填充密码"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "适用于先要求输入用户名的登录。仅限你选择的账户、同一网站、一次。"
+  },
+  "askToSaveForms": {
+    "message": "询问是否保存支付卡和地址"
+  },
+  "generateSshKey": {
+    "message": "生成新密钥（Ed25519）"
+  },
+  "sshKeyGenerated": {
+    "message": "已生成新的 SSH 密钥。保存后才会保留。"
+  },
+  "openFirnkeyToAdd": {
+    "message": "点击工具栏中的 Firnkey 按钮完成添加。"
+  },
+  "saveCardToFirnkey": {
+    "message": "要将支付卡保存到 Firnkey 吗？"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "要将地址保存到 Firnkey 吗？"
+  },
+  "clone": {
+    "message": "克隆"
+  },
+  "cloneName": {
+    "message": "$1 - 副本"
+  },
+  "itemCloned": {
+    "message": "已克隆项目。请在下方修改副本。"
+  },
+  "fingerprintPhrase": {
+    "message": "指纹短语"
+  },
+  "fingerprintPhraseHint": {
+    "message": "网页密码库和 Bitwarden 应用中会显示相同的五个单词。有人与你共享组织时，请核对它们。"
+  },
+  "matchDetection": {
+    "message": "匹配检测"
+  },
+  "matchDefault": {
+    "message": "默认（域名）"
+  },
+  "matchDomain": {
+    "message": "域名及其子域名"
+  },
+  "matchHost": {
+    "message": "主机（及端口）"
+  },
+  "matchStartsWith": {
+    "message": "开头为"
+  },
+  "matchExact": {
+    "message": "完全一致的 URL"
+  },
+  "matchRegex": {
+    "message": "正则表达式"
+  },
+  "matchNever": {
+    "message": "从不"
+  },
+  "archive": {
+    "message": "归档"
+  },
+  "unarchive": {
+    "message": "取消归档"
+  },
+  "itemArchived": {
+    "message": "已归档项目。它不会再出现在自动填充或密码库列表中。"
+  },
+  "itemUnarchived": {
+    "message": "已将项目移回密码库。"
+  },
+  "archiveHint": {
+    "message": "归档的项目会保留，但不会被填充或建议。"
+  },
+  "archiveEmpty": {
+    "message": "没有归档的项目。"
+  },
+  "archiveItem": {
+    "message": "归档"
+  },
+  "generatorPolicyHint": {
+    "message": "你的组织要求使用其中部分设置。"
+  },
+  "pin": {
+    "message": "PIN 码"
+  },
+  "useMasterPassword": {
+    "message": "改用主密码"
+  },
+  "unlockWithPin": {
+    "message": "使用 PIN 码解锁"
+  },
+  "newPin": {
+    "message": "新 PIN 码（至少 4 个字符）"
+  },
+  "pinKeepAfterRestart": {
+    "message": "浏览器重启后保留 PIN 码解锁"
+  },
+  "pinKeepHint": {
+    "message": "关闭：重启后需用主密码解锁一次。开启较不安全：保存在此电脑上的短 PIN 码可能被复制你浏览器配置文件的人猜出。"
+  },
+  "setPin": {
+    "message": "设置 PIN 码"
+  },
+  "pinOn": {
+    "message": "PIN 码解锁已开启。输错 5 次 PIN 码会将其关闭。"
+  },
+  "pinOff": {
+    "message": "PIN 码解锁已关闭。"
+  },
+  "passwordHealth": {
+    "message": "密码健康"
+  },
+  "passwordHealthHint": {
+    "message": "找出弱密码和重复使用的密码；开启泄露检查后还会找出已泄露的密码。"
+  },
+  "checkBreaches": {
+    "message": "在已知数据泄露中检查密码"
+  },
+  "checkBreachesHint": {
+    "message": "每次同步后，Firnkey 会向 Have I Been Pwned 查询每个登录项的密码。只发送密码哈希的前 5 个字符；密码本身永远不会离开此浏览器。"
+  },
+  "checkBreachesNow": {
+    "message": "立即检查泄露"
+  },
+  "checkingBreaches": {
+    "message": "正在检查…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey 需要访问 api.pwnedpasswords.com 才能检查泄露。"
+  },
+  "healthExposed_one": {
+    "message": "$1 个已泄露"
+  },
+  "healthExposed_other": {
+    "message": "$1 个已泄露"
+  },
+  "healthReused_one": {
+    "message": "$1 个重复使用"
+  },
+  "healthReused_other": {
+    "message": "$1 个重复使用"
+  },
+  "healthWeak_one": {
+    "message": "$1 个弱密码"
+  },
+  "healthWeak_other": {
+    "message": "$1 个弱密码"
+  },
+  "healthNotChecked": {
+    "message": "$1 个尚未检查泄露"
+  },
+  "healthAllChecked": {
+    "message": "均已检查泄露"
+  },
+  "exposedPasswords": {
+    "message": "已泄露的密码"
+  },
+  "reusedPasswords": {
+    "message": "重复使用的密码"
+  },
+  "weakPasswords": {
+    "message": "弱密码"
+  },
+  "weakPassword": {
+    "message": "弱"
+  },
+  "seenInBreaches_one": {
+    "message": "出现在 $2 次数据泄露中"
+  },
+  "seenInBreaches_other": {
+    "message": "出现在 $2 次数据泄露中"
+  },
+  "usedByLogins_one": {
+    "message": "被 $1 个登录项使用"
+  },
+  "usedByLogins_other": {
+    "message": "被 $1 个登录项使用"
+  },
+  "passwordInBreaches_one": {
+    "message": "此密码出现在 $2 次数据泄露中。请更改。"
+  },
+  "passwordInBreaches_other": {
+    "message": "此密码出现在 $2 次数据泄露中。请更改。"
+  },
+  "healthAllGood": {
+    "message": "未发现弱密码、重复使用或已泄露的密码。"
+  },
+  "autofillOnPageLoad": {
+    "message": "页面加载时自动填充"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "登录页面一加载就填充匹配的登录项，无需点击。需要网站集成。被入侵的页面或匹配网站上的隐藏表单可能读取密码，因此只在你信任的网站上使用。"
+  },
+  "autofillDefaultForLogins": {
+    "message": "登录项默认设置"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "页面加载时不填充"
+  },
+  "useDefaultSetting": {
+    "message": "使用默认设置"
+  },
+  "always": {
+    "message": "始终"
+  },
+  "loginWithDevice": {
+    "message": "使用设备登录"
+  },
+  "signInWithSso": {
+    "message": "使用 SSO 登录"
+  },
+  "deviceLoginHint": {
+    "message": "在你已登录的应用或网页密码库中批准请求。请确认其显示以下短语："
+  },
+  "ssoUnlockHint": {
+    "message": "已通过 SSO 登录。请输入主密码解锁。"
+  },
+  "serverIcons": {
+    "message": "显示网站图标"
+  },
+  "serverIconsHint": {
+    "message": "你的服务器会下载每个网站的图标一次并缓存。关闭：只显示浏览器已有的图标。"
+  },
+  "waitingForApproval": {
+    "message": "正在等待批准…"
+  },
+  "websites": {
+    "message": "网站"
+  },
+  "addWebsite": {
+    "message": "添加网站"
+  },
+  "removeWebsite": {
+    "message": "移除网站"
+  },
+  "customFields": {
+    "message": "自定义字段"
+  },
+  "fieldType": {
+    "message": "字段类型"
+  },
+  "hiddenField": {
+    "message": "隐藏"
+  },
+  "checkboxField": {
+    "message": "复选框"
+  },
+  "addField": {
+    "message": "添加字段"
+  },
+  "fieldName": {
+    "message": "字段名称"
+  },
+  "fieldValue": {
+    "message": "值"
+  },
+  "removeField": {
+    "message": "移除字段"
+  },
+  "collections": {
+    "message": "集合"
+  },
+  "allVaults": {
+    "message": "所有密码库"
+  },
+  "filters": {
+    "message": "筛选"
+  },
+  "allCollections": {
+    "message": "所有集合"
+  },
+  "allFolders": {
+    "message": "所有文件夹"
+  },
+  "allTypes": {
+    "message": "所有类型"
+  },
+  "editSend": {
+    "message": "编辑 Send"
+  },
+  "keepDeletionDate": {
+    "message": "保持不变（$1）"
+  },
+  "removePassword": {
+    "message": "移除密码"
+  },
+  "sendSaved": {
+    "message": "已保存 $1。"
+  },
+  "vaultTimeoutPolicy": {
+    "message": "你的组织规定无操作最多 $1 后锁定密码库。"
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "你的组织规定无操作最多 $1 后退出登录。"
+  }
+}

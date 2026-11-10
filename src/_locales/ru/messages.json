@@ -1,0 +1,1974 @@
+{
+  "languageCode": {
+    "message": "ru",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Менеджер паролей для вашего собственного сервера"
+  },
+  "starting": {
+    "message": "Запуск"
+  },
+  "connectYourServer": {
+    "message": "Подключите свой сервер"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey запрашивает доступ только к выбранному вами серверу."
+  },
+  "serverUrl": {
+    "message": "URL сервера"
+  },
+  "verifyServer": {
+    "message": "Проверить сервер"
+  },
+  "signIn": {
+    "message": "Войти"
+  },
+  "change": {
+    "message": "Изменить"
+  },
+  "email": {
+    "message": "Эл. почта"
+  },
+  "masterPassword": {
+    "message": "Мастер-пароль"
+  },
+  "twoStepLogin": {
+    "message": "Двухэтапный вход"
+  },
+  "method": {
+    "message": "Способ"
+  },
+  "sendEmailCode": {
+    "message": "Отправить код по эл. почте"
+  },
+  "verificationCode": {
+    "message": "Код подтверждения"
+  },
+  "rememberThisDevice": {
+    "message": "Запомнить это устройство"
+  },
+  "newDeviceVerification": {
+    "message": "Подтверждение нового устройства"
+  },
+  "deviceVerificationHint": {
+    "message": "Введите код подтверждения, отправленный вашим сервером."
+  },
+  "deviceVerificationCode": {
+    "message": "Код подтверждения устройства"
+  },
+  "signInAndSync": {
+    "message": "Войти и синхронизировать"
+  },
+  "vaultLocked": {
+    "message": "Хранилище заблокировано"
+  },
+  "unlock": {
+    "message": "Разблокировать"
+  },
+  "unlockWithBiometrics": {
+    "message": "Разблокировать с Touch ID / биометрией"
+  },
+  "logOut": {
+    "message": "Выйти"
+  },
+  "allItems": {
+    "message": "Все элементы"
+  },
+  "noMatchingItems": {
+    "message": "Подходящих элементов нет."
+  },
+  "viewAll": {
+    "message": "Показать все"
+  },
+  "authenticatorEmpty": {
+    "message": "Ключей аутентификатора пока нет. Выберите «Новый», чтобы отсканировать QR-код или вставить ключ."
+  },
+  "importOrExportKeys": {
+    "message": "Импорт или экспорт ключей"
+  },
+  "scanQrOnPage": {
+    "message": "Сканировать QR-код на этой странице"
+  },
+  "saveTo": {
+    "message": "Сохранить в"
+  },
+  "newLogin": {
+    "message": "Новый логин"
+  },
+  "key": {
+    "message": "Ключ"
+  },
+  "name": {
+    "message": "Название"
+  },
+  "nicknameOptional": {
+    "message": "Псевдоним (необязательно)"
+  },
+  "account": {
+    "message": "Аккаунт"
+  },
+  "website": {
+    "message": "Сайт"
+  },
+  "issuer": {
+    "message": "Издатель"
+  },
+  "advanced": {
+    "message": "Дополнительно"
+  },
+  "algorithm": {
+    "message": "Алгоритм"
+  },
+  "digits": {
+    "message": "Цифры"
+  },
+  "periodSeconds": {
+    "message": "Период (с)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Большинство сервисов используют SHA-1, 6 цифр и 30 секунд. Ключи Steam (издатель Steam) всегда дают коды из 5 символов."
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "keysImportHint": {
+    "message": "По одной ссылке otpauth://totp/ в строке, как их экспортируют приложения-аутентификаторы. Каждый новый ключ становится логином."
+  },
+  "chooseFile": {
+    "message": "Выбрать файл"
+  },
+  "checkList": {
+    "message": "Проверить список"
+  },
+  "export": {
+    "message": "Экспорт"
+  },
+  "keysExportHint": {
+    "message": "Сохраняет каждый ключ как ссылку otpauth:// в текстовый файл. Любой, у кого есть файл, может получать ваши коды, поэтому удалите его после импорта."
+  },
+  "exportKeys": {
+    "message": "Экспортировать ключи"
+  },
+  "sendIntro": {
+    "message": "Поделитесь текстом или файлом по сквозной зашифрованной ссылке, которая удаляется сама."
+  },
+  "sendEmpty": {
+    "message": "Send пока нет. Выберите «Новый», чтобы поделиться текстом или файлом."
+  },
+  "text": {
+    "message": "Текст"
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "sendHideText": {
+    "message": "Скрыть текст, пока получатель его не откроет"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Файл не выбран · не более 25 МБ"
+  },
+  "deleteAfter": {
+    "message": "Удалить через"
+  },
+  "days1": {
+    "message": "1 день"
+  },
+  "days2": {
+    "message": "2 дня"
+  },
+  "days3": {
+    "message": "3 дня"
+  },
+  "days7": {
+    "message": "7 дней"
+  },
+  "days14": {
+    "message": "14 дней"
+  },
+  "days30": {
+    "message": "30 дней"
+  },
+  "options": {
+    "message": "Параметры"
+  },
+  "passwordOptional": {
+    "message": "Пароль (необязательно)"
+  },
+  "maximumViewsOptional": {
+    "message": "Максимум просмотров (необязательно)"
+  },
+  "createAndCopyLink": {
+    "message": "Создать и скопировать ссылку"
+  },
+  "passwordGenerator": {
+    "message": "Генератор паролей"
+  },
+  "generatorHint": {
+    "message": "Создаётся локально с помощью криптографического генератора случайных чисел браузера."
+  },
+  "password": {
+    "message": "Пароль"
+  },
+  "passphrase": {
+    "message": "Парольная фраза"
+  },
+  "username": {
+    "message": "Имя пользователя"
+  },
+  "length": {
+    "message": "Длина"
+  },
+  "uppercase": {
+    "message": "Заглавные буквы"
+  },
+  "lowercase": {
+    "message": "Строчные буквы"
+  },
+  "numbers": {
+    "message": "Цифры"
+  },
+  "symbols": {
+    "message": "Символы"
+  },
+  "words": {
+    "message": "Слова"
+  },
+  "wordSeparator": {
+    "message": "Разделитель слов"
+  },
+  "capitalize": {
+    "message": "С заглавной буквы"
+  },
+  "includeNumber": {
+    "message": "Добавить цифру"
+  },
+  "type": {
+    "message": "Тип"
+  },
+  "randomWord": {
+    "message": "Случайное слово"
+  },
+  "plusAddressedEmail": {
+    "message": "Эл. почта с суффиксом +"
+  },
+  "catchAllEmail": {
+    "message": "Эл. почта catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Пересылаемый почтовый псевдоним"
+  },
+  "forwardingService": {
+    "message": "Сервис пересылки"
+  },
+  "apiKey": {
+    "message": "Ключ API"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Сохраняется после первого использования; оставьте пустым, чтобы сохранить его"
+  },
+  "aliasDomain": {
+    "message": "Домен псевдонима"
+  },
+  "createAlias": {
+    "message": "Создать псевдоним"
+  },
+  "creatingAlias": {
+    "message": "Создание псевдонима…"
+  },
+  "aliasCreated": {
+    "message": "Псевдоним создан"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey нужен доступ к сервису пересылки, чтобы создать псевдоним."
+  },
+  "yourEmail": {
+    "message": "Ваша эл. почта"
+  },
+  "yourCatchAllDomain": {
+    "message": "Ваш домен catch-all"
+  },
+  "generateAnother": {
+    "message": "Создать другой"
+  },
+  "useInNewLogin": {
+    "message": "Использовать в новом логине"
+  },
+  "security": {
+    "message": "Безопасность"
+  },
+  "securityGroupHint": {
+    "message": "Блокировка, биометрия, буфер обмена"
+  },
+  "autofillSaving": {
+    "message": "Автозаполнение и сохранение"
+  },
+  "autofillGroupHint": {
+    "message": "Интеграция с сайтами, предложения сохранить, исключённые домены"
+  },
+  "vault": {
+    "message": "Хранилище"
+  },
+  "vaultGroupHint": {
+    "message": "Папки, вкладка «Аутентификатор»"
+  },
+  "importExport": {
+    "message": "Импорт и экспорт"
+  },
+  "transferGroupHint": {
+    "message": "Перенесите хранилище из другого менеджера паролей или в него"
+  },
+  "accountSync": {
+    "message": "Аккаунт и синхронизация"
+  },
+  "accountGroupHint": {
+    "message": "Аккаунты, синхронизация в реальном времени, выход"
+  },
+  "lockVault": {
+    "message": "Заблокировать хранилище"
+  },
+  "after1Minute": {
+    "message": "Через 1 минуту"
+  },
+  "after5Minutes": {
+    "message": "Через 5 минут"
+  },
+  "after15Minutes": {
+    "message": "Через 15 минут"
+  },
+  "after30Minutes": {
+    "message": "Через 30 минут"
+  },
+  "after1Hour": {
+    "message": "Через 1 час"
+  },
+  "after2Hours": {
+    "message": "Через 2 часа"
+  },
+  "after4Hours": {
+    "message": "Через 4 часа"
+  },
+  "after8Hours": {
+    "message": "Через 8 часов"
+  },
+  "after24Hours": {
+    "message": "Через 24 часа"
+  },
+  "whenTheComputerLocks": {
+    "message": "При блокировке компьютера"
+  },
+  "whenBrowserCloses": {
+    "message": "При закрытии браузера"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Не блокировать до выхода"
+  },
+  "untilLogoutHint": {
+    "message": "«До выхода» шифрует сеанс для этого профиля браузера, но менее безопасно на общем компьютере."
+  },
+  "lockNow": {
+    "message": "Заблокировать сейчас"
+  },
+  "clearCopiedSecrets": {
+    "message": "Очищать скопированные секреты"
+  },
+  "after10Seconds": {
+    "message": "Через 10 секунд"
+  },
+  "after20Seconds": {
+    "message": "Через 20 секунд"
+  },
+  "after30Seconds": {
+    "message": "Через 30 секунд"
+  },
+  "after2Minutes": {
+    "message": "Через 2 минуты"
+  },
+  "never": {
+    "message": "Никогда"
+  },
+  "clipboardOwnOnly": {
+    "message": "Очищать только то, что скопировал Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Нужно разрешение на чтение буфера обмена, чтобы не трогать текст, скопированный в другом месте."
+  },
+  "websiteIntegration": {
+    "message": "Интеграция с сайтами"
+  },
+  "websiteIntegrationHint": {
+    "message": "Подсказки автозаполнения и предложения сохранить."
+  },
+  "enable": {
+    "message": "Включить"
+  },
+  "fillSignInDialogs": {
+    "message": "Заполнять окна входа (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Отвечает на окно входа браузера, когда подходит ровно один незащищённый логин."
+  },
+  "savePrompts": {
+    "message": "Предложения сохранить"
+  },
+  "askToAddLogin": {
+    "message": "Предлагать добавить логин"
+  },
+  "askToUpdateLogin": {
+    "message": "Предлагать обновить существующий логин"
+  },
+  "askPasskeys": {
+    "message": "Предлагать сохранять и использовать ключи доступа"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Закрывать предложения сохранить через (секунд)"
+  },
+  "excludedDomains": {
+    "message": "Исключённые домены"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey не будет предлагать, заполнять и сохранять учётные данные на этих доменах."
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "folders": {
+    "message": "Папки"
+  },
+  "foldersHint": {
+    "message": "При удалении папки её элементы сохраняются и попадают в «Без папки»."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Показывать вкладку «Аутентификатор»"
+  },
+  "authenticatorTabHint": {
+    "message": "Коды подтверждения для ваших логинов в реальном времени. Добавляйте ключи по QR-коду, вручную или из файла."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Показывать только коды этого сайта, если они есть"
+  },
+  "vaultImportHint": {
+    "message": "Экспорт Bitwarden в JSON (без шифрования или защищённый паролем), экспорт 1Password в .1pux или CSV-файл из Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox или Safari. Элементы попадут в ваше личное хранилище."
+  },
+  "noFileChosen": {
+    "message": "Файл не выбран"
+  },
+  "filePassword": {
+    "message": "Пароль файла"
+  },
+  "checkFile": {
+    "message": "Проверить файл"
+  },
+  "format": {
+    "message": "Формат"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, защищённый паролем файла"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON без шифрования"
+  },
+  "filePasswordHint": {
+    "message": "Нужен для повторного импорта файла. Firnkey не сможет его восстановить."
+  },
+  "unencryptedExportWarning": {
+    "message": "Любой, у кого есть незашифрованный файл, может прочитать все пароли в нём. Удалите его после импорта."
+  },
+  "exportScopeHint": {
+    "message": "Экспортирует ваши личные элементы. Элементы организаций остаются в организации."
+  },
+  "exportVault": {
+    "message": "Экспортировать хранилище"
+  },
+  "liveSync": {
+    "message": "Синхронизация в реальном времени"
+  },
+  "liveSyncHint": {
+    "message": "Сразу получает изменения с вашего сервера. Если выключена, проверяет раз в минуту и использует меньше памяти."
+  },
+  "syncNow": {
+    "message": "Синхронизировать сейчас"
+  },
+  "addAccount": {
+    "message": "Добавить аккаунт"
+  },
+  "repromptHint": {
+    "message": "Для использования защищённых полей этого элемента нужен мастер-пароль."
+  },
+  "unlockProtectedFields": {
+    "message": "Разблокировать защищённые поля"
+  },
+  "show": {
+    "message": "Показать"
+  },
+  "addAttachment": {
+    "message": "Добавить вложение"
+  },
+  "fillOnThisPage": {
+    "message": "Заполнить на этой странице"
+  },
+  "edit": {
+    "message": "Изменить"
+  },
+  "moveToTrash": {
+    "message": "Переместить в корзину"
+  },
+  "addLogin": {
+    "message": "Добавить логин"
+  },
+  "login": {
+    "message": "Логин"
+  },
+  "card": {
+    "message": "Карта"
+  },
+  "identity": {
+    "message": "Личность"
+  },
+  "secureNote": {
+    "message": "Защищённая заметка"
+  },
+  "folder": {
+    "message": "Папка"
+  },
+  "noFolder": {
+    "message": "Без папки"
+  },
+  "owner": {
+    "message": "Владелец"
+  },
+  "myVault": {
+    "message": "Моё хранилище"
+  },
+  "moveToOrganizationHint": {
+    "message": "Перемещение в организацию здесь нельзя отменить; после этого элемент принадлежит организации."
+  },
+  "generate": {
+    "message": "Создать"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Ключ аутентификатора (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Сканировать QR"
+  },
+  "notes": {
+    "message": "Заметки"
+  },
+  "favorite": {
+    "message": "Избранное"
+  },
+  "authenticator": {
+    "message": "Аутентификатор"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Генератор"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "openSettings": {
+    "message": "Открыть настройки"
+  },
+  "searchVault": {
+    "message": "Поиск в хранилище"
+  },
+  "keyOrTotpLink": {
+    "message": "Ключ Base32 или ссылка otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "По умолчанию — издатель"
+  },
+  "shownInsteadOfThe": {
+    "message": "Показывается вместо названия"
+  },
+  "keysToImport": {
+    "message": "Ключи для импорта"
+  },
+  "whatToSend": {
+    "message": "Что отправить"
+  },
+  "whatToGenerate": {
+    "message": "Что создать"
+  },
+  "generatedValue": {
+    "message": "Созданное значение"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "copyGeneratedValue": {
+    "message": "Копировать созданное значение"
+  },
+  "domainToExclude": {
+    "message": "Исключаемый домен"
+  },
+  "newFolder": {
+    "message": "Новая папка"
+  },
+  "newFolderName": {
+    "message": "Название новой папки"
+  },
+  "copyUsername": {
+    "message": "Копировать имя пользователя"
+  },
+  "copyPassword": {
+    "message": "Копировать пароль"
+  },
+  "copyVerificationCode": {
+    "message": "Копировать код подтверждения"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Ключ Base32 или ссылка otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Основная навигация"
+  },
+  "firnkeyPasskey": {
+    "message": "Ключ доступа Firnkey"
+  },
+  "passkey": {
+    "message": "Ключ доступа"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Разблокируйте Firnkey, чтобы продолжить."
+  },
+  "verifyWithBiometrics": {
+    "message": "Подтвердить с Touch ID / биометрией"
+  },
+  "continue": {
+    "message": "Продолжить"
+  },
+  "useAnotherDevice": {
+    "message": "Использовать другое устройство"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "sshKey": {
+    "message": "SSH-ключ"
+  },
+  "cardholderName": {
+    "message": "Имя владельца карты"
+  },
+  "brand": {
+    "message": "Платёжная система"
+  },
+  "number": {
+    "message": "Номер"
+  },
+  "expirationMonth": {
+    "message": "Месяц окончания"
+  },
+  "expirationYear": {
+    "message": "Год окончания"
+  },
+  "securityCode": {
+    "message": "Код безопасности"
+  },
+  "title": {
+    "message": "Обращение"
+  },
+  "firstName": {
+    "message": "Имя"
+  },
+  "middleName": {
+    "message": "Отчество"
+  },
+  "lastName": {
+    "message": "Фамилия"
+  },
+  "company": {
+    "message": "Компания"
+  },
+  "phone": {
+    "message": "Телефон"
+  },
+  "address1": {
+    "message": "Адрес 1"
+  },
+  "address2": {
+    "message": "Адрес 2"
+  },
+  "address3": {
+    "message": "Адрес 3"
+  },
+  "city": {
+    "message": "Город / населённый пункт"
+  },
+  "stateProvince": {
+    "message": "Регион / область"
+  },
+  "postalCode": {
+    "message": "Почтовый индекс"
+  },
+  "country": {
+    "message": "Страна"
+  },
+  "ssn": {
+    "message": "СНИЛС / номер соцстрахования"
+  },
+  "passportNumber": {
+    "message": "Номер паспорта"
+  },
+  "licenseNumber": {
+    "message": "Номер водительского удостоверения"
+  },
+  "addSecureNote": {
+    "message": "Добавить защищённую заметку"
+  },
+  "addCard": {
+    "message": "Добавить карту"
+  },
+  "addIdentity": {
+    "message": "Добавить личность"
+  },
+  "addSshKey": {
+    "message": "Добавить SSH-ключ"
+  },
+  "editLogin": {
+    "message": "Изменить логин"
+  },
+  "editSecureNote": {
+    "message": "Изменить защищённую заметку"
+  },
+  "editCard": {
+    "message": "Изменить карту"
+  },
+  "editIdentity": {
+    "message": "Изменить личность"
+  },
+  "editSshKey": {
+    "message": "Изменить SSH-ключ"
+  },
+  "passphraseGenerator": {
+    "message": "Генератор парольных фраз"
+  },
+  "usernameGenerator": {
+    "message": "Генератор имён пользователя"
+  },
+  "generatedPasswordCopied": {
+    "message": "Созданный пароль скопирован."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Созданная парольная фраза скопирована."
+  },
+  "generatedUsernameCopied": {
+    "message": "Созданное имя пользователя скопировано."
+  },
+  "removeKey": {
+    "message": "Удалить ключ"
+  },
+  "biometricOff": {
+    "message": "Биометрическая разблокировка выключена."
+  },
+  "usernameCopied": {
+    "message": "Имя пользователя скопировано."
+  },
+  "passwordCopied": {
+    "message": "Пароль скопирован."
+  },
+  "hide": {
+    "message": "Скрыть"
+  },
+  "movedToTrash": {
+    "message": "Перемещено в корзину."
+  },
+  "websiteAccessDenied": {
+    "message": "Доступ к сайтам не предоставлен."
+  },
+  "websiteIntegrationOn": {
+    "message": "Автозаполнение и предложения сохранить включены."
+  },
+  "websiteIntegrationOff": {
+    "message": "Подсказки на сайтах выключены."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Для заполнения окон входа нужно разрешение видеть их на сайтах."
+  },
+  "preferencesUpdated": {
+    "message": "Настройки обновлены."
+  },
+  "invalidDomain": {
+    "message": "Введите корректный домен, например example.com."
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "enabled": {
+    "message": "Включено"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Выключить интеграцию с сайтами"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Включить интеграцию с сайтами"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Неподдерживаемое время блокировки."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Неподдерживаемое время буфера обмена."
+  },
+  "clipboardClearsAfter": {
+    "message": "Скопированные секреты будут удалены через $1."
+  },
+  "clipboardKeeps": {
+    "message": "Скопированные секреты останутся в буфере обмена."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey очистит буфер обмена, только если в нём всё ещё то, что скопировал Firnkey."
+  },
+  "seconds_one": {
+    "message": "$1 секунду"
+  },
+  "seconds_other": {
+    "message": "$1 секунды"
+  },
+  "seconds_few": {
+    "message": "$1 секунды"
+  },
+  "seconds_many": {
+    "message": "$1 секунд"
+  },
+  "minutes_one": {
+    "message": "$1 минуту"
+  },
+  "minutes_other": {
+    "message": "$1 минуты"
+  },
+  "minutes_few": {
+    "message": "$1 минуты"
+  },
+  "minutes_many": {
+    "message": "$1 минут"
+  },
+  "hours_one": {
+    "message": "$1 час"
+  },
+  "hours_other": {
+    "message": "$1 часа"
+  },
+  "hours_few": {
+    "message": "$1 часа"
+  },
+  "hours_many": {
+    "message": "$1 часов"
+  },
+  "lockOnComputerLock": {
+    "message": "Хранилище заблокируется при блокировке компьютера или закрытии браузера."
+  },
+  "lockOnLogout": {
+    "message": "Хранилище останется разблокированным в этом браузере, пока вы его не заблокируете или не выйдете."
+  },
+  "lockOnBrowserClose": {
+    "message": "Хранилище останется разблокированным до закрытия браузера."
+  },
+  "lockAfterInactivity": {
+    "message": "Хранилище заблокируется, если $1 не будет активности."
+  },
+  "waitingForVerification": {
+    "message": "Ожидание подтверждения…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Разблокируйте хранилище, прежде чем включать биометрическую разблокировку."
+  },
+  "noPasskeyCreated": {
+    "message": "Ключ доступа не создан."
+  },
+  "biometricOn": {
+    "message": "Биометрическая разблокировка включена."
+  },
+  "biometricUnavailable": {
+    "message": "Биометрическая разблокировка сейчас недоступна."
+  },
+  "vaultUnlocked_one": {
+    "message": "Хранилище разблокировано: $1 элемент."
+  },
+  "vaultUnlocked_other": {
+    "message": "Хранилище разблокировано: $1 элемента."
+  },
+  "vaultUnlocked_few": {
+    "message": "Хранилище разблокировано: $1 элемента."
+  },
+  "vaultUnlocked_many": {
+    "message": "Хранилище разблокировано: $1 элементов."
+  },
+  "verificationCancelled": {
+    "message": "Подтверждение отменено или истекло время ожидания."
+  },
+  "notConnected": {
+    "message": "Не подключено"
+  },
+  "connectAServer": {
+    "message": "Подключить сервер"
+  },
+  "signedOut": {
+    "message": "Выход выполнен"
+  },
+  "itemCount_one": {
+    "message": "$1 элемент"
+  },
+  "itemCount_other": {
+    "message": "$1 элемента"
+  },
+  "itemCount_few": {
+    "message": "$1 элемента"
+  },
+  "itemCount_many": {
+    "message": "$1 элементов"
+  },
+  "locked": {
+    "message": "Заблокировано"
+  },
+  "unlocked": {
+    "message": "Разблокировано"
+  },
+  "settingsFor": {
+    "message": "Настройки для $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · сначала подсказки для этой страницы"
+  },
+  "itemTotal_one": {
+    "message": "$1 элемент всего"
+  },
+  "itemTotal_other": {
+    "message": "$1 элемента всего"
+  },
+  "itemTotal_few": {
+    "message": "$1 элемента всего"
+  },
+  "itemTotal_many": {
+    "message": "$1 элементов всего"
+  },
+  "skippedItems_one": {
+    "message": "Пропущен $1 неподдерживаемый или повреждённый элемент."
+  },
+  "skippedItems_other": {
+    "message": "Пропущено $1 неподдерживаемого или повреждённого элемента."
+  },
+  "skippedItems_few": {
+    "message": "Пропущено $1 неподдерживаемых или повреждённых элемента."
+  },
+  "skippedItems_many": {
+    "message": "Пропущено $1 неподдерживаемых или повреждённых элементов."
+  },
+  "otherAccounts": {
+    "message": "Другие аккаунты"
+  },
+  "switch": {
+    "message": "Переключить"
+  },
+  "removeAccountTitle": {
+    "message": "Удалить $1 из Firnkey в этом браузере"
+  },
+  "switchedTo": {
+    "message": "Переключено на $1."
+  },
+  "accountRemoved": {
+    "message": "$1 удалён из этого браузера."
+  },
+  "addAccountHint": {
+    "message": "Войдите в другой аккаунт. Текущий сохранится ниже в заблокированном виде."
+  },
+  "verifying": {
+    "message": "Проверка…"
+  },
+  "serverPermissionDenied": {
+    "message": "Разрешение для сервера не предоставлено."
+  },
+  "signingIn": {
+    "message": "Вход…"
+  },
+  "continueInNewWindow": {
+    "message": "Снова выберите «Войти», чтобы продолжить в новом окне."
+  },
+  "enterTwoStepCode": {
+    "message": "Введите код двухэтапного входа."
+  },
+  "unlocking": {
+    "message": "Разблокировка…"
+  },
+  "trashHint": {
+    "message": "Восстановите элементы или удалите их навсегда."
+  },
+  "trashEmpty": {
+    "message": "Корзина пуста."
+  },
+  "autofillSuggestions": {
+    "message": "Подсказки автозаполнения"
+  },
+  "otherResults": {
+    "message": "Другие результаты"
+  },
+  "trash": {
+    "message": "Корзина"
+  },
+  "folderName": {
+    "message": "Название папки"
+  },
+  "rename": {
+    "message": "Переименовать"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "folderRenamed": {
+    "message": "Папка переименована."
+  },
+  "folderAdded": {
+    "message": "Папка добавлена."
+  },
+  "folderDeleted": {
+    "message": "Папка удалена. Её элементы теперь в «Без папки»."
+  },
+  "confirm": {
+    "message": "Подтвердить"
+  },
+  "matchesThisPage": {
+    "message": "Подходит для этой страницы"
+  },
+  "restore": {
+    "message": "Восстановить"
+  },
+  "itemRestored": {
+    "message": "Элемент восстановлен."
+  },
+  "deleteForever": {
+    "message": "Удалить навсегда"
+  },
+  "itemDeletedForever": {
+    "message": "Элемент удалён навсегда."
+  },
+  "open": {
+    "message": "Открыть"
+  },
+  "fill": {
+    "message": "Заполнить"
+  },
+  "openWebsite": {
+    "message": "Открыть сайт"
+  },
+  "cardNumber": {
+    "message": "Номер карты"
+  },
+  "note": {
+    "message": "Заметка"
+  },
+  "publicKey": {
+    "message": "Открытый ключ"
+  },
+  "copyPublicKey": {
+    "message": "Копировать открытый ключ"
+  },
+  "copyCardNumber": {
+    "message": "Копировать номер карты"
+  },
+  "copyNote": {
+    "message": "Копировать заметку"
+  },
+  "copySecurityCode": {
+    "message": "Копировать код безопасности"
+  },
+  "copyPrivateKey": {
+    "message": "Копировать закрытый ключ"
+  },
+  "privateKey": {
+    "message": "Закрытый ключ"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Подтвердите мастер-пароль перед удалением этого элемента."
+  },
+  "moreActions": {
+    "message": "Другие действия"
+  },
+  "noWebAddress": {
+    "message": "У этого логина нет веб-адреса."
+  },
+  "noWebsiteSaved": {
+    "message": "Сайт не сохранён"
+  },
+  "loading": {
+    "message": "Загрузка…"
+  },
+  "expiration": {
+    "message": "Срок действия"
+  },
+  "address": {
+    "message": "Адрес"
+  },
+  "fingerprint": {
+    "message": "Отпечаток"
+  },
+  "customField": {
+    "message": "Пользовательское поле"
+  },
+  "passwordHistory": {
+    "message": "История паролей ($1)"
+  },
+  "oldPassword": {
+    "message": "Старый пароль"
+  },
+  "organization": {
+    "message": "Организация"
+  },
+  "attachmentsCount": {
+    "message": "Вложения ($1)"
+  },
+  "downloadFile": {
+    "message": "Скачать $1"
+  },
+  "deleteFile": {
+    "message": "Удалить $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 скачан."
+  },
+  "fileTooLarge25": {
+    "message": "Файл слишком большой (не более 25 МБ)."
+  },
+  "fileEmpty": {
+    "message": "Файл пуст."
+  },
+  "uploadingFile": {
+    "message": "Шифрование и загрузка $1…"
+  },
+  "fileAttached": {
+    "message": "$1 прикреплён."
+  },
+  "fileDeleted": {
+    "message": "$1 удалён."
+  },
+  "copyLink": {
+    "message": "Копировать ссылку"
+  },
+  "viewsOf": {
+    "message": "Просмотров: $1 из $2"
+  },
+  "views_one": {
+    "message": "$1 просмотр"
+  },
+  "views_other": {
+    "message": "$1 просмотра"
+  },
+  "views_few": {
+    "message": "$1 просмотра"
+  },
+  "views_many": {
+    "message": "$1 просмотров"
+  },
+  "deletesOn": {
+    "message": "Удаление $1"
+  },
+  "disabled": {
+    "message": "Выключено"
+  },
+  "sendLinkCopied": {
+    "message": "Ссылка на Send скопирована."
+  },
+  "deleteSendTitle": {
+    "message": "Удалить $1; ссылка перестанет работать"
+  },
+  "sendDeleted": {
+    "message": "$1 удалён. Ссылка больше не работает."
+  },
+  "encrypting": {
+    "message": "Шифрование…"
+  },
+  "chooseFileToSend": {
+    "message": "Выберите файл для отправки."
+  },
+  "sendCreatedCopied": {
+    "message": "Send создан. Ссылка скопирована."
+  },
+  "sendCreatedSync": {
+    "message": "Send создан. Синхронизируйте и скопируйте ссылку из списка."
+  },
+  "fileTooLarge10": {
+    "message": "Файл слишком большой (не более 10 МБ)."
+  },
+  "importing": {
+    "message": "Импорт…"
+  },
+  "checking": {
+    "message": "Проверка…"
+  },
+  "importedItems": {
+    "message": "Импортировано: $1."
+  },
+  "importItems": {
+    "message": "Импортировать: $1"
+  },
+  "foundItems": {
+    "message": "Найдено: $1. Они будут добавлены в хранилище; ничего не заменяется."
+  },
+  "foundItemsInFolders": {
+    "message": "Найдено: $1 в $2. Они будут добавлены в хранилище; ничего не заменяется."
+  },
+  "folderCount_one": {
+    "message": "$1 папка"
+  },
+  "folderCount_other": {
+    "message": "$1 папки"
+  },
+  "folderCount_few": {
+    "message": "$1 папки"
+  },
+  "folderCount_many": {
+    "message": "$1 папок"
+  },
+  "exporting": {
+    "message": "Экспорт…"
+  },
+  "vaultExportedPlain": {
+    "message": "Хранилище экспортировано. Удалите файл после импорта."
+  },
+  "vaultExportedProtected": {
+    "message": "Хранилище экспортировано. Храните пароль файла в надёжном месте."
+  },
+  "createdOn": {
+    "message": "Создано $1"
+  },
+  "lastEdited": {
+    "message": "Изменено $1"
+  },
+  "itemHistory": {
+    "message": "История элемента"
+  },
+  "loginCredentials": {
+    "message": "Данные для входа"
+  },
+  "itemDetails": {
+    "message": "Сведения об элементе"
+  },
+  "autofillOptions": {
+    "message": "Параметры автозаполнения"
+  },
+  "passwordChangedOn": {
+    "message": "Изменён $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Удалить этот ключ доступа из логина"
+  },
+  "passkeyRemoved": {
+    "message": "Ключ доступа удалён."
+  },
+  "usedUntil": {
+    "message": "Использовался до $1"
+  },
+  "earlierPassword": {
+    "message": "Прежний пароль"
+  },
+  "fieldCopied": {
+    "message": "$1: скопировано."
+  },
+  "copyField": {
+    "message": "Копировать: $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Подтвердите мастер-пароль перед копированием из этого элемента."
+  },
+  "codeCopied": {
+    "message": "Код подтверждения скопирован."
+  },
+  "viewOnlyItem": {
+    "message": "Ваша организация разрешает просматривать этот элемент, но не изменять его."
+  },
+  "confirmBeforeEditing": {
+    "message": "Подтвердите мастер-пароль перед изменением этого элемента."
+  },
+  "monthPlaceholder": {
+    "message": "ММ"
+  },
+  "yearPlaceholder": {
+    "message": "ГГГГ"
+  },
+  "saving": {
+    "message": "Сохранение…"
+  },
+  "loginUpdated": {
+    "message": "Логин обновлён."
+  },
+  "loginAdded": {
+    "message": "Логин добавлен."
+  },
+  "itemUpdated": {
+    "message": "$1: обновлено."
+  },
+  "itemAdded": {
+    "message": "$1: добавлено."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Защищённые поля разблокированы на 60 секунд."
+  },
+  "unavailable": {
+    "message": "Недоступно"
+  },
+  "secondsLeft_one": {
+    "message": "Осталась $1 секунда"
+  },
+  "secondsLeft_other": {
+    "message": "Осталось $1 секунды"
+  },
+  "secondsLeft_few": {
+    "message": "Осталось $1 секунды"
+  },
+  "secondsLeft_many": {
+    "message": "Осталось $1 секунд"
+  },
+  "codesForSite": {
+    "message": "Коды для этого сайта · всего $1"
+  },
+  "codeCount_one": {
+    "message": "$1 код"
+  },
+  "codeCount_other": {
+    "message": "$1 кода"
+  },
+  "codeCount_few": {
+    "message": "$1 кода"
+  },
+  "codeCount_many": {
+    "message": "$1 кодов"
+  },
+  "thisWebsite": {
+    "message": "Этот сайт"
+  },
+  "openToConfirm": {
+    "message": "Открыть для подтверждения мастер-пароля"
+  },
+  "protected": {
+    "message": "Защищено"
+  },
+  "fillIntoPage": {
+    "message": "Заполнить на этой странице"
+  },
+  "editKey": {
+    "message": "Изменить ключ"
+  },
+  "codeFilled": {
+    "message": "Код для $1 заполнен."
+  },
+  "confirmThenEditKey": {
+    "message": "Подтвердите мастер-пароль, затем измените ключ на вкладке «Аутентификатор»."
+  },
+  "qrReadFirstCheck": {
+    "message": "Прочитан первый из нескольких QR-кодов. Проверьте данные и сохраните."
+  },
+  "qrReadCheck": {
+    "message": "QR-код прочитан. Проверьте данные и сохраните."
+  },
+  "qrReadFirstSave": {
+    "message": "Прочитан первый из нескольких QR-кодов. Сохраните логин, чтобы сохранить ключ."
+  },
+  "qrReadSave": {
+    "message": "QR-код прочитан. Сохраните логин, чтобы сохранить ключ."
+  },
+  "qrUnsupported": {
+    "message": "Этот браузер не умеет читать QR-коды. Вставьте ключ или ссылку otpauth:// вручную."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey не видит эту страницу. Откройте страницу с QR-кодом и попробуйте снова."
+  },
+  "qrNotFound": {
+    "message": "В видимой части страницы не найден QR-код аутентификатора."
+  },
+  "qrInvalid": {
+    "message": "QR-код не является действительным ключом аутентификатора на основе времени (TOTP)."
+  },
+  "keyAdded": {
+    "message": "Ключ аутентификатора добавлен."
+  },
+  "keyUpdated": {
+    "message": "Ключ аутентификатора обновлён."
+  },
+  "keyRemoved": {
+    "message": "Ключ аутентификатора удалён. Сам логин остаётся в хранилище."
+  },
+  "fileTooLarge256": {
+    "message": "Файл слишком большой (не более 256 КБ)."
+  },
+  "pasteLinksFirst": {
+    "message": "Сначала вставьте ссылки otpauth:// или выберите файл."
+  },
+  "keysImported_one": {
+    "message": "Импортирован $1 ключ."
+  },
+  "keysImported_other": {
+    "message": "Импортировано $1 ключа."
+  },
+  "keysImported_few": {
+    "message": "Импортировано $1 ключа."
+  },
+  "keysImported_many": {
+    "message": "Импортировано $1 ключей."
+  },
+  "new": {
+    "message": "Новый"
+  },
+  "duplicate": {
+    "message": "Дубликат"
+  },
+  "invalid": {
+    "message": "Недействителен"
+  },
+  "importNewKeys_one": {
+    "message": "Импортировать $1 новый ключ"
+  },
+  "importNewKeys_other": {
+    "message": "Импортировать $1 нового ключа"
+  },
+  "importNewKeys_few": {
+    "message": "Импортировать $1 новых ключа"
+  },
+  "importNewKeys_many": {
+    "message": "Импортировать $1 новых ключей"
+  },
+  "checkThenImport": {
+    "message": "Проверьте список, затем импортируйте."
+  },
+  "nothingNewToImport": {
+    "message": "Нечего импортировать."
+  },
+  "keysExported": {
+    "message": "Ключи экспортированы. Удалите файл после импорта в другое место."
+  },
+  "fieldsFilled_one": {
+    "message": "Заполнено $1 поле."
+  },
+  "fieldsFilled_other": {
+    "message": "Заполнено $1 поля."
+  },
+  "fieldsFilled_few": {
+    "message": "Заполнено $1 поля."
+  },
+  "fieldsFilled_many": {
+    "message": "Заполнено $1 полей."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Имя пользователя и пароль заполнены."
+  },
+  "filledUsername": {
+    "message": "Имя пользователя заполнено."
+  },
+  "filledPassword": {
+    "message": "Пароль заполнен."
+  },
+  "synced_one": {
+    "message": "Синхронизирован $1 элемент."
+  },
+  "synced_other": {
+    "message": "Синхронизировано $1 элемента."
+  },
+  "synced_few": {
+    "message": "Синхронизировано $1 элемента."
+  },
+  "synced_many": {
+    "message": "Синхронизировано $1 элементов."
+  },
+  "twoStepUnsupported": {
+    "message": "Этому аккаунту нужен способ двухэтапного входа, который эта версия не поддерживает."
+  },
+  "sending": {
+    "message": "Отправка…"
+  },
+  "emailCodeSent": {
+    "message": "Код подтверждения отправлен по эл. почте."
+  },
+  "authenticatorApp": {
+    "message": "Приложение-аутентификатор"
+  },
+  "securityKeyWebauthn": {
+    "message": "Ключ безопасности (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Код восстановления"
+  },
+  "twoFactorMethod": {
+    "message": "Способ $1"
+  },
+  "fieldEmpty": {
+    "message": "Это поле пустое."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Буфер обмена очистится через $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Фоновый процесс расширения не ответил. Перезагрузите расширение."
+  },
+  "unexpectedResponse": {
+    "message": "Фоновый процесс вернул неожиданный ответ."
+  },
+  "newSend": {
+    "message": "Новый Send"
+  },
+  "item": {
+    "message": "Элемент"
+  },
+  "editItem": {
+    "message": "Изменить элемент"
+  },
+  "newItem": {
+    "message": "Новый элемент"
+  },
+  "addKey": {
+    "message": "Добавить ключ"
+  },
+  "serverVersion": {
+    "message": "$1 · сервер $2"
+  },
+  "unexpectedError": {
+    "message": "Непредвиденная ошибка расширения."
+  },
+  "passkeySuggestion": {
+    "message": "Войти с ключом доступа, сохранённым в Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Создать и заполнить пароль"
+  },
+  "suggestionsLabel": {
+    "message": "Подсказки Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Закрыть подсказки автозаполнения"
+  },
+  "dismiss": {
+    "message": "Закрыть"
+  },
+  "toggleSuggestions": {
+    "message": "Показать/скрыть подсказки Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Показать или скрыть подсказки Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Обновить существующий логин"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Сохранить логин в Firnkey"
+  },
+  "notNow": {
+    "message": "Не сейчас"
+  },
+  "update": {
+    "message": "Обновить"
+  },
+  "loginSaved": {
+    "message": "Логин сохранён."
+  },
+  "saveFailed": {
+    "message": "Firnkey не удалось сохранить этот логин."
+  },
+  "savePasskey": {
+    "message": "Сохранить ключ доступа"
+  },
+  "signInWithPasskey": {
+    "message": "Войти с ключом доступа"
+  },
+  "passkeyAlreadySaved": {
+    "message": "В Firnkey уже есть ключ доступа для этого аккаунта на этом сайте."
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "savePasskeyForAccount": {
+    "message": "Сохранить ключ доступа для $1 на $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Сохранить ключ доступа на $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Выберите ключ доступа для $1."
+  },
+  "addTo": {
+    "message": "Добавить в $1"
+  },
+  "somethingWentWrong": {
+    "message": "Что-то пошло не так."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: используйте ключ безопасности, чтобы завершить вход."
+  },
+  "fillLogin": {
+    "message": "Заполнить логин"
+  },
+  "extensionDescription": {
+    "message": "Лёгкий менеджер паролей с открытым кодом для вашего собственного сервера."
+  },
+  "fillLoginCommand": {
+    "message": "Заполнить подходящий логин на этой странице"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "generatorHistory": {
+    "message": "История генератора"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Здесь появляются пароли, которые вы копируете или используете из генератора, вместе с сайтом, на котором вы были. Они хранятся зашифрованными в этом браузере."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Без сайта · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Созданный пароль"
+  },
+  "clearGeneratorHistory": {
+    "message": "Очистить историю генератора"
+  },
+  "generatorHistoryCleared": {
+    "message": "История генератора очищена."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey заполнил пароль для $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Заполнять пароль на следующем шаге после выбора аккаунта"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Для входов, где сначала спрашивают имя пользователя. Только выбранный аккаунт, на том же сайте, один раз."
+  },
+  "askToSaveForms": {
+    "message": "Предлагать сохранять карты и адреса"
+  },
+  "generateSshKey": {
+    "message": "Создать новый ключ (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Новый SSH-ключ создан. Сохраните, чтобы не потерять его."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Нажмите кнопку Firnkey на панели инструментов, чтобы завершить добавление."
+  },
+  "saveCardToFirnkey": {
+    "message": "Сохранить карту в Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Сохранить адрес в Firnkey?"
+  },
+  "clone": {
+    "message": "Клонировать"
+  },
+  "cloneName": {
+    "message": "$1 - копия"
+  },
+  "itemCloned": {
+    "message": "Элемент клонирован. Измените копию ниже."
+  },
+  "fingerprintPhrase": {
+    "message": "Фраза отпечатка"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Те же пять слов показываются в веб-хранилище и приложениях Bitwarden. Сравните их, когда кто-то делится с вами организацией."
+  },
+  "matchDetection": {
+    "message": "Определение совпадения"
+  },
+  "matchDefault": {
+    "message": "По умолчанию (домен)"
+  },
+  "matchDomain": {
+    "message": "Домен и его поддомены"
+  },
+  "matchHost": {
+    "message": "Хост (и порт)"
+  },
+  "matchStartsWith": {
+    "message": "Начинается с"
+  },
+  "matchExact": {
+    "message": "Точный URL"
+  },
+  "matchRegex": {
+    "message": "Регулярное выражение"
+  },
+  "matchNever": {
+    "message": "Никогда"
+  },
+  "archive": {
+    "message": "Архив"
+  },
+  "unarchive": {
+    "message": "Вернуть из архива"
+  },
+  "itemArchived": {
+    "message": "Элемент архивирован. Он больше не появляется в автозаполнении и списке хранилища."
+  },
+  "itemUnarchived": {
+    "message": "Элемент возвращён в хранилище."
+  },
+  "archiveHint": {
+    "message": "Архивные элементы хранятся, но никогда не заполняются и не предлагаются."
+  },
+  "archiveEmpty": {
+    "message": "В архиве ничего нет."
+  },
+  "archiveItem": {
+    "message": "В архив"
+  },
+  "generatorPolicyHint": {
+    "message": "Ваша организация требует некоторые из этих настроек."
+  },
+  "pin": {
+    "message": "PIN-код"
+  },
+  "useMasterPassword": {
+    "message": "Использовать мастер-пароль"
+  },
+  "unlockWithPin": {
+    "message": "Разблокировать PIN-кодом"
+  },
+  "newPin": {
+    "message": "Новый PIN-код (не менее 4 символов)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Сохранять разблокировку PIN-кодом после перезапуска браузера"
+  },
+  "pinKeepHint": {
+    "message": "Выкл.: после перезапуска вы один раз разблокируете мастер-паролем. Вкл. менее безопасно: короткий PIN-код, сохранённый на этом компьютере, может угадать любой, кто скопирует профиль браузера."
+  },
+  "setPin": {
+    "message": "Задать PIN-код"
+  },
+  "pinOn": {
+    "message": "Разблокировка PIN-кодом включена. Пять неверных PIN-кодов её выключают."
+  },
+  "pinOff": {
+    "message": "Разблокировка PIN-кодом выключена."
+  },
+  "passwordHealth": {
+    "message": "Надёжность паролей"
+  },
+  "passwordHealthHint": {
+    "message": "Находит слабые и повторяющиеся пароли, а при включённой проверке утечек — и скомпрометированные."
+  },
+  "checkBreaches": {
+    "message": "Проверять пароли по известным утечкам данных"
+  },
+  "checkBreachesHint": {
+    "message": "После каждой синхронизации Firnkey спрашивает Have I Been Pwned о пароле каждого логина. Отправляются только первые 5 символов хеша пароля; сам пароль никогда не покидает этот браузер."
+  },
+  "checkBreachesNow": {
+    "message": "Проверить утечки сейчас"
+  },
+  "checkingBreaches": {
+    "message": "Проверка…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey нужен доступ к api.pwnedpasswords.com для проверки утечек."
+  },
+  "healthExposed_one": {
+    "message": "$1 скомпрометирован"
+  },
+  "healthExposed_other": {
+    "message": "$1 скомпрометировано"
+  },
+  "healthExposed_few": {
+    "message": "$1 скомпрометировано"
+  },
+  "healthExposed_many": {
+    "message": "$1 скомпрометировано"
+  },
+  "healthReused_one": {
+    "message": "$1 повторяется"
+  },
+  "healthReused_other": {
+    "message": "$1 повторяются"
+  },
+  "healthReused_few": {
+    "message": "$1 повторяются"
+  },
+  "healthReused_many": {
+    "message": "$1 повторяются"
+  },
+  "healthWeak_one": {
+    "message": "$1 слабый"
+  },
+  "healthWeak_other": {
+    "message": "$1 слабых"
+  },
+  "healthWeak_few": {
+    "message": "$1 слабых"
+  },
+  "healthWeak_many": {
+    "message": "$1 слабых"
+  },
+  "healthNotChecked": {
+    "message": "$1 ещё не проверено на утечки"
+  },
+  "healthAllChecked": {
+    "message": "все проверены на утечки"
+  },
+  "exposedPasswords": {
+    "message": "Скомпрометированные пароли"
+  },
+  "reusedPasswords": {
+    "message": "Повторяющиеся пароли"
+  },
+  "weakPasswords": {
+    "message": "Слабые пароли"
+  },
+  "weakPassword": {
+    "message": "Слабый"
+  },
+  "seenInBreaches_one": {
+    "message": "Найден в $2 утечке данных"
+  },
+  "seenInBreaches_other": {
+    "message": "Найден в $2 утечки данных"
+  },
+  "seenInBreaches_few": {
+    "message": "Найден в $2 утечках данных"
+  },
+  "seenInBreaches_many": {
+    "message": "Найден в $2 утечках данных"
+  },
+  "usedByLogins_one": {
+    "message": "Используется в $1 логине"
+  },
+  "usedByLogins_other": {
+    "message": "Используется в $1 логина"
+  },
+  "usedByLogins_few": {
+    "message": "Используется в $1 логинах"
+  },
+  "usedByLogins_many": {
+    "message": "Используется в $1 логинах"
+  },
+  "passwordInBreaches_one": {
+    "message": "Этот пароль встречался в $2 утечке данных. Смените его."
+  },
+  "passwordInBreaches_other": {
+    "message": "Этот пароль встречался в $2 утечки данных. Смените его."
+  },
+  "passwordInBreaches_few": {
+    "message": "Этот пароль встречался в $2 утечках данных. Смените его."
+  },
+  "passwordInBreaches_many": {
+    "message": "Этот пароль встречался в $2 утечках данных. Смените его."
+  },
+  "healthAllGood": {
+    "message": "Слабых, повторяющихся или скомпрометированных паролей не найдено."
+  },
+  "autofillOnPageLoad": {
+    "message": "Автозаполнение при загрузке страницы"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Заполняет подходящий логин сразу после загрузки страницы входа, без нажатий. Требует интеграции с сайтами. Взломанная страница или скрытая форма на подходящем сайте может прочитать пароль, поэтому используйте это только на сайтах, которым доверяете."
+  },
+  "autofillDefaultForLogins": {
+    "message": "По умолчанию для логинов"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Не заполнять при загрузке страницы"
+  },
+  "useDefaultSetting": {
+    "message": "Использовать настройку по умолчанию"
+  },
+  "always": {
+    "message": "Всегда"
+  },
+  "loginWithDevice": {
+    "message": "Войти с устройства"
+  },
+  "signInWithSso": {
+    "message": "Войти через SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Подтвердите запрос в приложении или веб-хранилище, где вы вошли. Убедитесь, что там показана эта фраза:"
+  },
+  "ssoUnlockHint": {
+    "message": "Вход через SSO выполнен. Введите мастер-пароль для разблокировки."
+  },
+  "serverIcons": {
+    "message": "Показывать значки сайтов"
+  },
+  "serverIconsHint": {
+    "message": "Ваш сервер один раз загружает значок каждого сайта и кеширует его. Выкл.: только значки, которые уже есть в браузере."
+  },
+  "waitingForApproval": {
+    "message": "Ожидание подтверждения…"
+  },
+  "websites": {
+    "message": "Сайты"
+  },
+  "addWebsite": {
+    "message": "Добавить сайт"
+  },
+  "removeWebsite": {
+    "message": "Удалить сайт"
+  },
+  "customFields": {
+    "message": "Пользовательские поля"
+  },
+  "fieldType": {
+    "message": "Тип поля"
+  },
+  "hiddenField": {
+    "message": "Скрытое"
+  },
+  "checkboxField": {
+    "message": "Флажок"
+  },
+  "addField": {
+    "message": "Добавить поле"
+  },
+  "fieldName": {
+    "message": "Название поля"
+  },
+  "fieldValue": {
+    "message": "Значение"
+  },
+  "removeField": {
+    "message": "Удалить поле"
+  },
+  "collections": {
+    "message": "Коллекции"
+  },
+  "allVaults": {
+    "message": "Все хранилища"
+  },
+  "filters": {
+    "message": "Фильтры"
+  },
+  "allCollections": {
+    "message": "Все коллекции"
+  },
+  "allFolders": {
+    "message": "Все папки"
+  },
+  "allTypes": {
+    "message": "Все типы"
+  },
+  "editSend": {
+    "message": "Изменить Send"
+  },
+  "keepDeletionDate": {
+    "message": "Оставить ($1)"
+  },
+  "removePassword": {
+    "message": "Удалить пароль"
+  },
+  "sendSaved": {
+    "message": "$1 сохранён."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Ваша организация блокирует хранилище не позднее чем через $1 бездействия."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Ваша организация выполняет выход не позднее чем через $1 бездействия."
+  }
+}

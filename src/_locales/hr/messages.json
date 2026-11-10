@@ -1,0 +1,1911 @@
+{
+  "languageCode": {
+    "message": "hr",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Upravitelj lozinki za vaš vlastiti poslužitelj"
+  },
+  "starting": {
+    "message": "Pokretanje"
+  },
+  "connectYourServer": {
+    "message": "Povežite svoj poslužitelj"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey traži pristup samo poslužitelju koji odaberete."
+  },
+  "serverUrl": {
+    "message": "URL poslužitelja"
+  },
+  "verifyServer": {
+    "message": "Provjeri poslužitelj"
+  },
+  "signIn": {
+    "message": "Prijava"
+  },
+  "change": {
+    "message": "Promijeni"
+  },
+  "email": {
+    "message": "E-pošta"
+  },
+  "masterPassword": {
+    "message": "Glavna lozinka"
+  },
+  "twoStepLogin": {
+    "message": "Prijava u dva koraka"
+  },
+  "method": {
+    "message": "Način"
+  },
+  "sendEmailCode": {
+    "message": "Pošalji kôd e-poštom"
+  },
+  "verificationCode": {
+    "message": "Kôd za provjeru"
+  },
+  "rememberThisDevice": {
+    "message": "Zapamti ovaj uređaj"
+  },
+  "newDeviceVerification": {
+    "message": "Provjera novog uređaja"
+  },
+  "deviceVerificationHint": {
+    "message": "Unesite kôd za provjeru koji je poslao vaš poslužitelj."
+  },
+  "deviceVerificationCode": {
+    "message": "Kôd za provjeru uređaja"
+  },
+  "signInAndSync": {
+    "message": "Prijava i sinkronizacija"
+  },
+  "vaultLocked": {
+    "message": "Trezor zaključan"
+  },
+  "unlock": {
+    "message": "Otključaj"
+  },
+  "unlockWithBiometrics": {
+    "message": "Otključaj pomoću Touch ID-a / biometrije"
+  },
+  "logOut": {
+    "message": "Odjava"
+  },
+  "allItems": {
+    "message": "Sve stavke"
+  },
+  "noMatchingItems": {
+    "message": "Nema odgovarajućih stavki."
+  },
+  "viewAll": {
+    "message": "Prikaži sve"
+  },
+  "authenticatorEmpty": {
+    "message": "Još nema ključeva za autentifikaciju. Odaberite Novo za skeniranje QR koda ili lijepljenje ključa."
+  },
+  "importOrExportKeys": {
+    "message": "Uvezi ili izvezi ključeve"
+  },
+  "scanQrOnPage": {
+    "message": "Skeniraj QR kôd na ovoj stranici"
+  },
+  "saveTo": {
+    "message": "Spremi u"
+  },
+  "newLogin": {
+    "message": "Nova prijava"
+  },
+  "key": {
+    "message": "Ključ"
+  },
+  "name": {
+    "message": "Naziv"
+  },
+  "nicknameOptional": {
+    "message": "Nadimak (neobavezno)"
+  },
+  "account": {
+    "message": "Račun"
+  },
+  "website": {
+    "message": "Web-stranica"
+  },
+  "issuer": {
+    "message": "Izdavatelj"
+  },
+  "advanced": {
+    "message": "Napredno"
+  },
+  "algorithm": {
+    "message": "Algoritam"
+  },
+  "digits": {
+    "message": "Znamenke"
+  },
+  "periodSeconds": {
+    "message": "Razdoblje (s)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Većina usluga koristi SHA-1, 6 znamenki i 30 sekundi. Steam ključevi (izdavatelj Steam) uvijek stvaraju kodove od 5 znakova."
+  },
+  "save": {
+    "message": "Spremi"
+  },
+  "import": {
+    "message": "Uvezi"
+  },
+  "keysImportHint": {
+    "message": "Jedna poveznica otpauth://totp/ po retku, kako ih izvoze aplikacije za autentifikaciju. Svaki novi ključ postaje prijava."
+  },
+  "chooseFile": {
+    "message": "Odaberi datoteku"
+  },
+  "checkList": {
+    "message": "Provjeri popis"
+  },
+  "export": {
+    "message": "Izvezi"
+  },
+  "keysExportHint": {
+    "message": "Sprema svaki ključ kao poveznicu otpauth:// u tekstnu datoteku. Svatko s tom datotekom može stvarati vaše kodove, pa je nakon uvoza izbrišite."
+  },
+  "exportKeys": {
+    "message": "Izvezi ključeve"
+  },
+  "sendIntro": {
+    "message": "Podijelite tekst ili datoteku putem sveobuhvatno šifrirane poveznice koja se sama briše."
+  },
+  "sendEmpty": {
+    "message": "Još nema Sendova. Odaberite Novo za dijeljenje teksta ili datoteke."
+  },
+  "text": {
+    "message": "Tekst"
+  },
+  "file": {
+    "message": "Datoteka"
+  },
+  "sendHideText": {
+    "message": "Sakrij tekst dok ga primatelj ne otkrije"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Nije odabrana datoteka · najviše 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Izbriši nakon"
+  },
+  "days1": {
+    "message": "1 dan"
+  },
+  "days2": {
+    "message": "2 dana"
+  },
+  "days3": {
+    "message": "3 dana"
+  },
+  "days7": {
+    "message": "7 dana"
+  },
+  "days14": {
+    "message": "14 dana"
+  },
+  "days30": {
+    "message": "30 dana"
+  },
+  "options": {
+    "message": "Mogućnosti"
+  },
+  "passwordOptional": {
+    "message": "Lozinka (neobavezno)"
+  },
+  "maximumViewsOptional": {
+    "message": "Najveći broj prikaza (neobavezno)"
+  },
+  "createAndCopyLink": {
+    "message": "Stvori i kopiraj poveznicu"
+  },
+  "passwordGenerator": {
+    "message": "Generator lozinki"
+  },
+  "generatorHint": {
+    "message": "Stvoreno lokalno pomoću kriptografskog izvora slučajnosti preglednika."
+  },
+  "password": {
+    "message": "Lozinka"
+  },
+  "passphrase": {
+    "message": "Fraza lozinke"
+  },
+  "username": {
+    "message": "Korisničko ime"
+  },
+  "length": {
+    "message": "Duljina"
+  },
+  "uppercase": {
+    "message": "Velika slova"
+  },
+  "lowercase": {
+    "message": "Mala slova"
+  },
+  "numbers": {
+    "message": "Brojevi"
+  },
+  "symbols": {
+    "message": "Simboli"
+  },
+  "words": {
+    "message": "Riječi"
+  },
+  "wordSeparator": {
+    "message": "Razdjelnik riječi"
+  },
+  "capitalize": {
+    "message": "Veliko početno slovo"
+  },
+  "includeNumber": {
+    "message": "Dodaj broj"
+  },
+  "type": {
+    "message": "Vrsta"
+  },
+  "randomWord": {
+    "message": "Nasumična riječ"
+  },
+  "plusAddressedEmail": {
+    "message": "E-pošta s nastavkom +"
+  },
+  "catchAllEmail": {
+    "message": "Catch-all e-pošta"
+  },
+  "forwardedEmailAlias": {
+    "message": "Proslijeđeni alias e-pošte"
+  },
+  "forwardingService": {
+    "message": "Usluga prosljeđivanja"
+  },
+  "apiKey": {
+    "message": "API ključ"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Sprema se nakon prve upotrebe; ostavite prazno da ga zadržite"
+  },
+  "aliasDomain": {
+    "message": "Domena aliasa"
+  },
+  "createAlias": {
+    "message": "Stvori alias"
+  },
+  "creatingAlias": {
+    "message": "Stvaranje aliasa…"
+  },
+  "aliasCreated": {
+    "message": "Alias stvoren"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey treba pristup usluzi prosljeđivanja da bi stvorio alias."
+  },
+  "yourEmail": {
+    "message": "Vaša e-pošta"
+  },
+  "yourCatchAllDomain": {
+    "message": "Vaša catch-all domena"
+  },
+  "generateAnother": {
+    "message": "Stvori novi"
+  },
+  "useInNewLogin": {
+    "message": "Upotrijebi u novoj prijavi"
+  },
+  "security": {
+    "message": "Sigurnost"
+  },
+  "securityGroupHint": {
+    "message": "Zaključavanje, biometrija, međuspremnik"
+  },
+  "autofillSaving": {
+    "message": "Automatsko ispunjavanje i spremanje"
+  },
+  "autofillGroupHint": {
+    "message": "Integracija s web-stranicama, upiti za spremanje, isključene domene"
+  },
+  "vault": {
+    "message": "Trezor"
+  },
+  "vaultGroupHint": {
+    "message": "Mape, kartica Autentifikator"
+  },
+  "importExport": {
+    "message": "Uvoz i izvoz"
+  },
+  "transferGroupHint": {
+    "message": "Premjestite trezor iz drugog upravitelja lozinki ili u njega"
+  },
+  "accountSync": {
+    "message": "Račun i sinkronizacija"
+  },
+  "accountGroupHint": {
+    "message": "Računi, sinkronizacija uživo, odjava"
+  },
+  "lockVault": {
+    "message": "Zaključaj trezor"
+  },
+  "after1Minute": {
+    "message": "Nakon 1 minute"
+  },
+  "after5Minutes": {
+    "message": "Nakon 5 minuta"
+  },
+  "after15Minutes": {
+    "message": "Nakon 15 minuta"
+  },
+  "after30Minutes": {
+    "message": "Nakon 30 minuta"
+  },
+  "after1Hour": {
+    "message": "Nakon 1 sata"
+  },
+  "after2Hours": {
+    "message": "Nakon 2 sata"
+  },
+  "after4Hours": {
+    "message": "Nakon 4 sata"
+  },
+  "after8Hours": {
+    "message": "Nakon 8 sati"
+  },
+  "after24Hours": {
+    "message": "Nakon 24 sata"
+  },
+  "whenTheComputerLocks": {
+    "message": "Kad se računalo zaključa"
+  },
+  "whenBrowserCloses": {
+    "message": "Kad se preglednik zatvori"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Ostavi otključano do odjave"
+  },
+  "untilLogoutHint": {
+    "message": "„Do odjave” šifrira sesiju za ovaj profil preglednika, ali je manje sigurno na zajedničkom računalu."
+  },
+  "lockNow": {
+    "message": "Zaključaj sada"
+  },
+  "clearCopiedSecrets": {
+    "message": "Brisanje kopiranih tajni"
+  },
+  "after10Seconds": {
+    "message": "Nakon 10 sekundi"
+  },
+  "after20Seconds": {
+    "message": "Nakon 20 sekundi"
+  },
+  "after30Seconds": {
+    "message": "Nakon 30 sekundi"
+  },
+  "after2Minutes": {
+    "message": "Nakon 2 minute"
+  },
+  "never": {
+    "message": "Nikad"
+  },
+  "clipboardOwnOnly": {
+    "message": "Briši samo ono što je kopirao Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Treba dopuštenje za čitanje međuspremnika kako bi tekst kopiran negdje drugdje ostao netaknut."
+  },
+  "websiteIntegration": {
+    "message": "Integracija s web-stranicama"
+  },
+  "websiteIntegrationHint": {
+    "message": "Prijedlozi automatskog ispunjavanja i upiti za spremanje."
+  },
+  "enable": {
+    "message": "Uključi"
+  },
+  "fillSignInDialogs": {
+    "message": "Ispunjavaj dijaloge za prijavu (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Odgovara na dijalog za prijavu preglednika kad mu odgovara točno jedna nezaštićena prijava."
+  },
+  "savePrompts": {
+    "message": "Upiti za spremanje"
+  },
+  "askToAddLogin": {
+    "message": "Pitaj za dodavanje prijave"
+  },
+  "askToUpdateLogin": {
+    "message": "Pitaj za ažuriranje postojeće prijave"
+  },
+  "askPasskeys": {
+    "message": "Pitaj za spremanje i korištenje pristupnih ključeva"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Zatvori upite za spremanje nakon (sekundi)"
+  },
+  "excludedDomains": {
+    "message": "Isključene domene"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey na ovim domenama neće predlagati, ispunjavati ni spremati podatke za prijavu."
+  },
+  "add": {
+    "message": "Dodaj"
+  },
+  "folders": {
+    "message": "Mape"
+  },
+  "foldersHint": {
+    "message": "Brisanjem mape njezine stavke ostaju; premještaju se u Bez mape."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Prikaži karticu Autentifikator"
+  },
+  "authenticatorTabHint": {
+    "message": "Kodovi za provjeru uživo za vaše prijave. Dodajte ključeve QR kodom, ručno ili iz datoteke."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Prikaži samo kodove ove stranice ako ih ima"
+  },
+  "vaultImportHint": {
+    "message": "Bitwarden JSON izvoz (nešifriran ili zaštićen lozinkom), 1Password .1pux izvoz ili CSV datoteka iz Bitwardena, 1Passworda, KeePassa, KeePassXC-a, Chromea, Edgea, Firefoxa ili Safarija. Stavke idu u vaš osobni trezor."
+  },
+  "noFileChosen": {
+    "message": "Nije odabrana datoteka"
+  },
+  "filePassword": {
+    "message": "Lozinka datoteke"
+  },
+  "checkFile": {
+    "message": "Provjeri datoteku"
+  },
+  "format": {
+    "message": "Format"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, zaštićen lozinkom datoteke"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, nešifriran"
+  },
+  "filePasswordHint": {
+    "message": "Potrebna za ponovni uvoz datoteke. Firnkey je ne može vratiti."
+  },
+  "unencryptedExportWarning": {
+    "message": "Svatko s nešifriranom datotekom može pročitati sve lozinke u njoj. Izbrišite je nakon uvoza."
+  },
+  "exportScopeHint": {
+    "message": "Izvozi vaše osobne stavke. Stavke organizacije ostaju u organizaciji."
+  },
+  "exportVault": {
+    "message": "Izvezi trezor"
+  },
+  "liveSync": {
+    "message": "Sinkronizacija uživo"
+  },
+  "liveSyncHint": {
+    "message": "Odmah prima promjene s vašeg poslužitelja. Isključena provjerava jednom u minuti i troši manje memorije."
+  },
+  "syncNow": {
+    "message": "Sinkroniziraj sada"
+  },
+  "addAccount": {
+    "message": "Dodaj račun"
+  },
+  "repromptHint": {
+    "message": "Ova stavka traži glavnu lozinku prije korištenja zaštićenih polja."
+  },
+  "unlockProtectedFields": {
+    "message": "Otključaj zaštićena polja"
+  },
+  "show": {
+    "message": "Prikaži"
+  },
+  "addAttachment": {
+    "message": "Dodaj privitak"
+  },
+  "fillOnThisPage": {
+    "message": "Ispuni na ovoj stranici"
+  },
+  "edit": {
+    "message": "Uredi"
+  },
+  "moveToTrash": {
+    "message": "Premjesti u smeće"
+  },
+  "addLogin": {
+    "message": "Dodaj prijavu"
+  },
+  "login": {
+    "message": "Prijava"
+  },
+  "card": {
+    "message": "Kartica"
+  },
+  "identity": {
+    "message": "Identitet"
+  },
+  "secureNote": {
+    "message": "Sigurna bilješka"
+  },
+  "folder": {
+    "message": "Mapa"
+  },
+  "noFolder": {
+    "message": "Bez mape"
+  },
+  "owner": {
+    "message": "Vlasnik"
+  },
+  "myVault": {
+    "message": "Moj trezor"
+  },
+  "moveToOrganizationHint": {
+    "message": "Premještanje u organizaciju ovdje se ne može poništiti; stavka tada pripada organizaciji."
+  },
+  "generate": {
+    "message": "Stvori"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Ključ za autentifikaciju (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Skeniraj QR"
+  },
+  "notes": {
+    "message": "Bilješke"
+  },
+  "favorite": {
+    "message": "Omiljeno"
+  },
+  "authenticator": {
+    "message": "Autentifikator"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Generator"
+  },
+  "settings": {
+    "message": "Postavke"
+  },
+  "back": {
+    "message": "Natrag"
+  },
+  "openSettings": {
+    "message": "Otvori postavke"
+  },
+  "searchVault": {
+    "message": "Pretraži trezor"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 ključ ili poveznica otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "Zadano je izdavatelj"
+  },
+  "shownInsteadOfThe": {
+    "message": "Prikazuje se umjesto naziva"
+  },
+  "keysToImport": {
+    "message": "Ključevi za uvoz"
+  },
+  "whatToSend": {
+    "message": "Što poslati"
+  },
+  "whatToGenerate": {
+    "message": "Što stvoriti"
+  },
+  "generatedValue": {
+    "message": "Stvorena vrijednost"
+  },
+  "copy": {
+    "message": "Kopiraj"
+  },
+  "copyGeneratedValue": {
+    "message": "Kopiraj stvorenu vrijednost"
+  },
+  "domainToExclude": {
+    "message": "Domena za isključivanje"
+  },
+  "newFolder": {
+    "message": "Nova mapa"
+  },
+  "newFolderName": {
+    "message": "Naziv nove mape"
+  },
+  "copyUsername": {
+    "message": "Kopiraj korisničko ime"
+  },
+  "copyPassword": {
+    "message": "Kopiraj lozinku"
+  },
+  "copyVerificationCode": {
+    "message": "Kopiraj kôd za provjeru"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 ključ ili poveznica otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Glavna navigacija"
+  },
+  "firnkeyPasskey": {
+    "message": "Firnkey pristupni ključ"
+  },
+  "passkey": {
+    "message": "Pristupni ključ"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Otključajte Firnkey za nastavak."
+  },
+  "verifyWithBiometrics": {
+    "message": "Provjeri pomoću Touch ID-a / biometrije"
+  },
+  "continue": {
+    "message": "Nastavi"
+  },
+  "useAnotherDevice": {
+    "message": "Upotrijebi drugi uređaj"
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "sshKey": {
+    "message": "SSH ključ"
+  },
+  "cardholderName": {
+    "message": "Ime vlasnika kartice"
+  },
+  "brand": {
+    "message": "Marka"
+  },
+  "number": {
+    "message": "Broj"
+  },
+  "expirationMonth": {
+    "message": "Mjesec isteka"
+  },
+  "expirationYear": {
+    "message": "Godina isteka"
+  },
+  "securityCode": {
+    "message": "Sigurnosni kôd"
+  },
+  "title": {
+    "message": "Titula"
+  },
+  "firstName": {
+    "message": "Ime"
+  },
+  "middleName": {
+    "message": "Srednje ime"
+  },
+  "lastName": {
+    "message": "Prezime"
+  },
+  "company": {
+    "message": "Tvrtka"
+  },
+  "phone": {
+    "message": "Telefon"
+  },
+  "address1": {
+    "message": "Adresa 1"
+  },
+  "address2": {
+    "message": "Adresa 2"
+  },
+  "address3": {
+    "message": "Adresa 3"
+  },
+  "city": {
+    "message": "Grad / mjesto"
+  },
+  "stateProvince": {
+    "message": "Država / županija"
+  },
+  "postalCode": {
+    "message": "Poštanski broj"
+  },
+  "country": {
+    "message": "Zemlja"
+  },
+  "ssn": {
+    "message": "OIB / broj osiguranja"
+  },
+  "passportNumber": {
+    "message": "Broj putovnice"
+  },
+  "licenseNumber": {
+    "message": "Broj vozačke dozvole"
+  },
+  "addSecureNote": {
+    "message": "Dodaj sigurnu bilješku"
+  },
+  "addCard": {
+    "message": "Dodaj karticu"
+  },
+  "addIdentity": {
+    "message": "Dodaj identitet"
+  },
+  "addSshKey": {
+    "message": "Dodaj SSH ključ"
+  },
+  "editLogin": {
+    "message": "Uredi prijavu"
+  },
+  "editSecureNote": {
+    "message": "Uredi sigurnu bilješku"
+  },
+  "editCard": {
+    "message": "Uredi karticu"
+  },
+  "editIdentity": {
+    "message": "Uredi identitet"
+  },
+  "editSshKey": {
+    "message": "Uredi SSH ključ"
+  },
+  "passphraseGenerator": {
+    "message": "Generator fraza lozinke"
+  },
+  "usernameGenerator": {
+    "message": "Generator korisničkih imena"
+  },
+  "generatedPasswordCopied": {
+    "message": "Stvorena lozinka kopirana."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Stvorena fraza kopirana."
+  },
+  "generatedUsernameCopied": {
+    "message": "Stvoreno korisničko ime kopirano."
+  },
+  "removeKey": {
+    "message": "Ukloni ključ"
+  },
+  "biometricOff": {
+    "message": "Biometrijsko otključavanje isključeno."
+  },
+  "usernameCopied": {
+    "message": "Korisničko ime kopirano."
+  },
+  "passwordCopied": {
+    "message": "Lozinka kopirana."
+  },
+  "hide": {
+    "message": "Sakrij"
+  },
+  "movedToTrash": {
+    "message": "Premješteno u smeće."
+  },
+  "websiteAccessDenied": {
+    "message": "Pristup web-stranicama nije odobren."
+  },
+  "websiteIntegrationOn": {
+    "message": "Automatsko ispunjavanje i upiti za spremanje uključeni."
+  },
+  "websiteIntegrationOff": {
+    "message": "Upiti na web-stranicama isključeni."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Ispunjavanje dijaloga za prijavu traži dopuštenje da ih vidi na web-stranicama."
+  },
+  "preferencesUpdated": {
+    "message": "Postavke ažurirane."
+  },
+  "invalidDomain": {
+    "message": "Unesite valjanu domenu, npr. example.com."
+  },
+  "remove": {
+    "message": "Ukloni"
+  },
+  "enabled": {
+    "message": "Uključeno"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Isključi integraciju s web-stranicama"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Uključi integraciju s web-stranicama"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Nepodržano vrijeme zaključavanja."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Nepodržano vrijeme međuspremnika."
+  },
+  "clipboardClearsAfter": {
+    "message": "Kopirane tajne izbrisat će se nakon $1."
+  },
+  "clipboardKeeps": {
+    "message": "Kopirane tajne ostat će u međuspremniku."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey će izbrisati međuspremnik samo ako još sadrži ono što je Firnkey kopirao."
+  },
+  "seconds_one": {
+    "message": "$1 sekunda"
+  },
+  "seconds_other": {
+    "message": "$1 sekundi"
+  },
+  "seconds_few": {
+    "message": "$1 sekunde"
+  },
+  "minutes_one": {
+    "message": "$1 minuta"
+  },
+  "minutes_other": {
+    "message": "$1 minuta"
+  },
+  "minutes_few": {
+    "message": "$1 minute"
+  },
+  "hours_one": {
+    "message": "$1 sat"
+  },
+  "hours_other": {
+    "message": "$1 sati"
+  },
+  "hours_few": {
+    "message": "$1 sata"
+  },
+  "lockOnComputerLock": {
+    "message": "Trezor će se zaključati kad se računalo zaključa ili preglednik zatvori."
+  },
+  "lockOnLogout": {
+    "message": "Trezor će ostati otključan u ovom pregledniku dok ga ne zaključate ili se ne odjavite."
+  },
+  "lockOnBrowserClose": {
+    "message": "Trezor će ostati otključan dok se preglednik ne zatvori."
+  },
+  "lockAfterInactivity": {
+    "message": "Trezor će se zaključati nakon $1 neaktivnosti."
+  },
+  "waitingForVerification": {
+    "message": "Čeka se provjera…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Otključajte trezor prije uključivanja biometrijskog otključavanja."
+  },
+  "noPasskeyCreated": {
+    "message": "Nije stvoren pristupni ključ."
+  },
+  "biometricOn": {
+    "message": "Biometrijsko otključavanje je uključeno."
+  },
+  "biometricUnavailable": {
+    "message": "Biometrijsko otključavanje trenutačno nije dostupno."
+  },
+  "vaultUnlocked_one": {
+    "message": "Trezor otključan s $1 stavkom."
+  },
+  "vaultUnlocked_other": {
+    "message": "Trezor otključan s $1 stavki."
+  },
+  "vaultUnlocked_few": {
+    "message": "Trezor otključan s $1 stavke."
+  },
+  "verificationCancelled": {
+    "message": "Provjera je otkazana ili je istekla."
+  },
+  "notConnected": {
+    "message": "Nije povezano"
+  },
+  "connectAServer": {
+    "message": "Poveži poslužitelj"
+  },
+  "signedOut": {
+    "message": "Odjavljeni"
+  },
+  "itemCount_one": {
+    "message": "$1 stavka"
+  },
+  "itemCount_other": {
+    "message": "$1 stavki"
+  },
+  "itemCount_few": {
+    "message": "$1 stavke"
+  },
+  "locked": {
+    "message": "Zaključano"
+  },
+  "unlocked": {
+    "message": "Otključano"
+  },
+  "settingsFor": {
+    "message": "Postavke za $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · prvo prijedlozi za ovu stranicu"
+  },
+  "itemTotal_one": {
+    "message": "$1 stavka ukupno"
+  },
+  "itemTotal_other": {
+    "message": "$1 stavki ukupno"
+  },
+  "itemTotal_few": {
+    "message": "$1 stavke ukupno"
+  },
+  "skippedItems_one": {
+    "message": "Preskočena je $1 nepodržana ili oštećena stavka."
+  },
+  "skippedItems_other": {
+    "message": "Preskočeno je $1 nepodržanih ili oštećenih stavki."
+  },
+  "skippedItems_few": {
+    "message": "Preskočene su $1 nepodržane ili oštećene stavke."
+  },
+  "otherAccounts": {
+    "message": "Drugi računi"
+  },
+  "switch": {
+    "message": "Prebaci"
+  },
+  "removeAccountTitle": {
+    "message": "Ukloni $1 iz Firnkeyja u ovom pregledniku"
+  },
+  "switchedTo": {
+    "message": "Prebačeno na $1."
+  },
+  "accountRemoved": {
+    "message": "$1 uklonjen iz ovog preglednika."
+  },
+  "addAccountHint": {
+    "message": "Prijavite se na drugi račun. Trenutni ostaje spremljen i zaključan ispod."
+  },
+  "verifying": {
+    "message": "Provjera…"
+  },
+  "serverPermissionDenied": {
+    "message": "Dopuštenje za poslužitelj nije odobreno."
+  },
+  "signingIn": {
+    "message": "Prijava…"
+  },
+  "continueInNewWindow": {
+    "message": "Ponovno odaberite Prijava za nastavak u novom prozoru."
+  },
+  "enterTwoStepCode": {
+    "message": "Unesite kôd za prijavu u dva koraka."
+  },
+  "unlocking": {
+    "message": "Otključavanje…"
+  },
+  "trashHint": {
+    "message": "Vratite stavke ili ih trajno izbrišite."
+  },
+  "trashEmpty": {
+    "message": "Smeće je prazno."
+  },
+  "autofillSuggestions": {
+    "message": "Prijedlozi automatskog ispunjavanja"
+  },
+  "otherResults": {
+    "message": "Ostali rezultati"
+  },
+  "trash": {
+    "message": "Smeće"
+  },
+  "folderName": {
+    "message": "Naziv mape"
+  },
+  "rename": {
+    "message": "Preimenuj"
+  },
+  "delete": {
+    "message": "Izbriši"
+  },
+  "folderRenamed": {
+    "message": "Mapa preimenovana."
+  },
+  "folderAdded": {
+    "message": "Mapa dodana."
+  },
+  "folderDeleted": {
+    "message": "Mapa izbrisana. Njezine stavke sada su u Bez mape."
+  },
+  "confirm": {
+    "message": "Potvrdi"
+  },
+  "matchesThisPage": {
+    "message": "Odgovara ovoj stranici"
+  },
+  "restore": {
+    "message": "Vrati"
+  },
+  "itemRestored": {
+    "message": "Stavka vraćena."
+  },
+  "deleteForever": {
+    "message": "Trajno izbriši"
+  },
+  "itemDeletedForever": {
+    "message": "Stavka trajno izbrisana."
+  },
+  "open": {
+    "message": "Otvori"
+  },
+  "fill": {
+    "message": "Ispuni"
+  },
+  "openWebsite": {
+    "message": "Otvori web-stranicu"
+  },
+  "cardNumber": {
+    "message": "Broj kartice"
+  },
+  "note": {
+    "message": "Bilješka"
+  },
+  "publicKey": {
+    "message": "Javni ključ"
+  },
+  "copyPublicKey": {
+    "message": "Kopiraj javni ključ"
+  },
+  "copyCardNumber": {
+    "message": "Kopiraj broj kartice"
+  },
+  "copyNote": {
+    "message": "Kopiraj bilješku"
+  },
+  "copySecurityCode": {
+    "message": "Kopiraj sigurnosni kôd"
+  },
+  "copyPrivateKey": {
+    "message": "Kopiraj privatni ključ"
+  },
+  "privateKey": {
+    "message": "Privatni ključ"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Potvrdite glavnu lozinku prije brisanja ove stavke."
+  },
+  "moreActions": {
+    "message": "Više radnji"
+  },
+  "noWebAddress": {
+    "message": "Ova prijava nema web-adresu."
+  },
+  "noWebsiteSaved": {
+    "message": "Nije spremljena web-stranica"
+  },
+  "loading": {
+    "message": "Učitavanje…"
+  },
+  "expiration": {
+    "message": "Istek"
+  },
+  "address": {
+    "message": "Adresa"
+  },
+  "fingerprint": {
+    "message": "Otisak"
+  },
+  "customField": {
+    "message": "Prilagođeno polje"
+  },
+  "passwordHistory": {
+    "message": "Povijest lozinki ($1)"
+  },
+  "oldPassword": {
+    "message": "Stara lozinka"
+  },
+  "organization": {
+    "message": "Organizacija"
+  },
+  "attachmentsCount": {
+    "message": "Privici ($1)"
+  },
+  "downloadFile": {
+    "message": "Preuzmi $1"
+  },
+  "deleteFile": {
+    "message": "Izbriši $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 preuzeto."
+  },
+  "fileTooLarge25": {
+    "message": "Datoteka je prevelika (najviše 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Datoteka je prazna."
+  },
+  "uploadingFile": {
+    "message": "Šifriranje i prijenos $1…"
+  },
+  "fileAttached": {
+    "message": "$1 priloženo."
+  },
+  "fileDeleted": {
+    "message": "$1 izbrisano."
+  },
+  "copyLink": {
+    "message": "Kopiraj poveznicu"
+  },
+  "viewsOf": {
+    "message": "$1 od $2 prikaza"
+  },
+  "views_one": {
+    "message": "$1 prikaz"
+  },
+  "views_other": {
+    "message": "$1 prikaza"
+  },
+  "views_few": {
+    "message": "$1 prikaza"
+  },
+  "deletesOn": {
+    "message": "Briše se $1"
+  },
+  "disabled": {
+    "message": "Isključeno"
+  },
+  "sendLinkCopied": {
+    "message": "Poveznica na Send kopirana."
+  },
+  "deleteSendTitle": {
+    "message": "Izbriši $1; njegova poveznica prestaje raditi"
+  },
+  "sendDeleted": {
+    "message": "$1 izbrisan. Njegova poveznica više ne radi."
+  },
+  "encrypting": {
+    "message": "Šifriranje…"
+  },
+  "chooseFileToSend": {
+    "message": "Odaberite datoteku za slanje."
+  },
+  "sendCreatedCopied": {
+    "message": "Send stvoren. Poveznica kopirana."
+  },
+  "sendCreatedSync": {
+    "message": "Send stvoren. Sinkronizirajte pa kopirajte njegovu poveznicu s popisa."
+  },
+  "fileTooLarge10": {
+    "message": "Datoteka je prevelika (najviše 10 MB)."
+  },
+  "importing": {
+    "message": "Uvoz…"
+  },
+  "checking": {
+    "message": "Provjera…"
+  },
+  "importedItems": {
+    "message": "Uvezeno: $1."
+  },
+  "importItems": {
+    "message": "Uvezi: $1"
+  },
+  "foundItems": {
+    "message": "Pronađeno: $1. Dodaju se u vaš trezor; ništa se ne zamjenjuje."
+  },
+  "foundItemsInFolders": {
+    "message": "Pronađeno: $1 u $2. Dodaju se u vaš trezor; ništa se ne zamjenjuje."
+  },
+  "folderCount_one": {
+    "message": "$1 mapa"
+  },
+  "folderCount_other": {
+    "message": "$1 mapa"
+  },
+  "folderCount_few": {
+    "message": "$1 mape"
+  },
+  "exporting": {
+    "message": "Izvoz…"
+  },
+  "vaultExportedPlain": {
+    "message": "Trezor izvezen. Izbrišite datoteku nakon uvoza."
+  },
+  "vaultExportedProtected": {
+    "message": "Trezor izvezen. Čuvajte lozinku datoteke na sigurnom."
+  },
+  "createdOn": {
+    "message": "Stvoreno $1"
+  },
+  "lastEdited": {
+    "message": "Zadnja izmjena $1"
+  },
+  "itemHistory": {
+    "message": "Povijest stavke"
+  },
+  "loginCredentials": {
+    "message": "Podaci za prijavu"
+  },
+  "itemDetails": {
+    "message": "Pojedinosti stavke"
+  },
+  "autofillOptions": {
+    "message": "Mogućnosti automatskog popunjavanja"
+  },
+  "passwordChangedOn": {
+    "message": "Zadnja promjena $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Ukloni ovaj pristupni ključ iz prijave"
+  },
+  "passkeyRemoved": {
+    "message": "Pristupni ključ uklonjen."
+  },
+  "usedUntil": {
+    "message": "Korištena do $1"
+  },
+  "earlierPassword": {
+    "message": "Ranija lozinka"
+  },
+  "fieldCopied": {
+    "message": "$1 kopirano."
+  },
+  "copyField": {
+    "message": "Kopiraj $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Potvrdite glavnu lozinku prije kopiranja iz ove stavke."
+  },
+  "codeCopied": {
+    "message": "Kôd za provjeru kopiran."
+  },
+  "viewOnlyItem": {
+    "message": "Vaša organizacija dopušta vam pregled ove stavke, ali ne i izmjenu."
+  },
+  "confirmBeforeEditing": {
+    "message": "Potvrdite glavnu lozinku prije uređivanja ove stavke."
+  },
+  "monthPlaceholder": {
+    "message": "MM"
+  },
+  "yearPlaceholder": {
+    "message": "GGGG"
+  },
+  "saving": {
+    "message": "Spremanje…"
+  },
+  "loginUpdated": {
+    "message": "Prijava ažurirana."
+  },
+  "loginAdded": {
+    "message": "Prijava dodana."
+  },
+  "itemUpdated": {
+    "message": "$1 ažurirano."
+  },
+  "itemAdded": {
+    "message": "$1 dodano."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Zaštićena polja otključana na 60 sekundi."
+  },
+  "unavailable": {
+    "message": "Nedostupno"
+  },
+  "secondsLeft_one": {
+    "message": "Preostala je $1 sekunda"
+  },
+  "secondsLeft_other": {
+    "message": "Preostalo je $1 sekundi"
+  },
+  "secondsLeft_few": {
+    "message": "Preostale su $1 sekunde"
+  },
+  "codesForSite": {
+    "message": "Kodovi za ovu stranicu · ukupno $1"
+  },
+  "codeCount_one": {
+    "message": "$1 kôd"
+  },
+  "codeCount_other": {
+    "message": "$1 kodova"
+  },
+  "codeCount_few": {
+    "message": "$1 koda"
+  },
+  "thisWebsite": {
+    "message": "Ova web-stranica"
+  },
+  "openToConfirm": {
+    "message": "Otvori za potvrdu glavne lozinke"
+  },
+  "protected": {
+    "message": "Zaštićeno"
+  },
+  "fillIntoPage": {
+    "message": "Ispuni na ovoj stranici"
+  },
+  "editKey": {
+    "message": "Uredi ključ"
+  },
+  "codeFilled": {
+    "message": "Kôd za $1 ispunjen."
+  },
+  "confirmThenEditKey": {
+    "message": "Potvrdite glavnu lozinku, a zatim uredite ključ na kartici Autentifikator."
+  },
+  "qrReadFirstCheck": {
+    "message": "Pročitan je prvi od nekoliko QR kodova. Provjerite podatke i spremite."
+  },
+  "qrReadCheck": {
+    "message": "QR kôd pročitan. Provjerite podatke i spremite."
+  },
+  "qrReadFirstSave": {
+    "message": "Pročitan je prvi od nekoliko QR kodova. Spremite prijavu da biste zadržali ključ."
+  },
+  "qrReadSave": {
+    "message": "QR kôd pročitan. Spremite prijavu da biste zadržali ključ."
+  },
+  "qrUnsupported": {
+    "message": "Ovaj preglednik ne može čitati QR kodove. Umjesto toga zalijepite ključ ili poveznicu otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey ne vidi ovu stranicu. Otvorite stranicu s QR kodom i pokušajte ponovno."
+  },
+  "qrNotFound": {
+    "message": "Na vidljivom dijelu stranice nije pronađen QR kôd za autentifikaciju."
+  },
+  "qrInvalid": {
+    "message": "QR kôd nije valjan vremenski (TOTP) ključ za autentifikaciju."
+  },
+  "keyAdded": {
+    "message": "Ključ za autentifikaciju dodan."
+  },
+  "keyUpdated": {
+    "message": "Ključ za autentifikaciju ažuriran."
+  },
+  "keyRemoved": {
+    "message": "Ključ za autentifikaciju uklonjen. Sama prijava ostaje u vašem trezoru."
+  },
+  "fileTooLarge256": {
+    "message": "Datoteka je prevelika (najviše 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Najprije zalijepite poveznice otpauth:// ili odaberite datoteku."
+  },
+  "keysImported_one": {
+    "message": "Uvezen je $1 ključ."
+  },
+  "keysImported_other": {
+    "message": "Uvezeno je $1 ključeva."
+  },
+  "keysImported_few": {
+    "message": "Uvezena su $1 ključa."
+  },
+  "new": {
+    "message": "Novo"
+  },
+  "duplicate": {
+    "message": "Duplikat"
+  },
+  "invalid": {
+    "message": "Nevaljano"
+  },
+  "importNewKeys_one": {
+    "message": "Uvezi $1 novi ključ"
+  },
+  "importNewKeys_other": {
+    "message": "Uvezi $1 novih ključeva"
+  },
+  "importNewKeys_few": {
+    "message": "Uvezi $1 nova ključa"
+  },
+  "checkThenImport": {
+    "message": "Provjerite popis, a zatim uvezite."
+  },
+  "nothingNewToImport": {
+    "message": "Nema ništa novo za uvoz."
+  },
+  "keysExported": {
+    "message": "Ključevi izvezeni. Izbrišite datoteku nakon što je uvezete negdje drugdje."
+  },
+  "fieldsFilled_one": {
+    "message": "Ispunjeno je $1 polje."
+  },
+  "fieldsFilled_other": {
+    "message": "Ispunjeno je $1 polja."
+  },
+  "fieldsFilled_few": {
+    "message": "Ispunjena su $1 polja."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Korisničko ime i lozinka ispunjeni."
+  },
+  "filledUsername": {
+    "message": "Korisničko ime ispunjeno."
+  },
+  "filledPassword": {
+    "message": "Lozinka ispunjena."
+  },
+  "synced_one": {
+    "message": "Sinkronizirana je $1 stavka."
+  },
+  "synced_other": {
+    "message": "Sinkronizirano je $1 stavki."
+  },
+  "synced_few": {
+    "message": "Sinkronizirane su $1 stavke."
+  },
+  "twoStepUnsupported": {
+    "message": "Ovaj račun traži način prijave u dva koraka koji ova verzija ne podržava."
+  },
+  "sending": {
+    "message": "Slanje…"
+  },
+  "emailCodeSent": {
+    "message": "Kôd za provjeru poslan e-poštom."
+  },
+  "authenticatorApp": {
+    "message": "Aplikacija za autentifikaciju"
+  },
+  "securityKeyWebauthn": {
+    "message": "Sigurnosni ključ (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Kôd za oporavak"
+  },
+  "twoFactorMethod": {
+    "message": "Način $1"
+  },
+  "fieldEmpty": {
+    "message": "Ovo je polje prazno."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Međuspremnik će se izbrisati za $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Pozadinski proces proširenja nije odgovorio. Ponovno učitajte proširenje."
+  },
+  "unexpectedResponse": {
+    "message": "Pozadinski proces vratio je neočekivan odgovor."
+  },
+  "newSend": {
+    "message": "Novi Send"
+  },
+  "item": {
+    "message": "Stavka"
+  },
+  "editItem": {
+    "message": "Uredi stavku"
+  },
+  "newItem": {
+    "message": "Nova stavka"
+  },
+  "addKey": {
+    "message": "Dodaj ključ"
+  },
+  "serverVersion": {
+    "message": "$1 · poslužitelj $2"
+  },
+  "unexpectedError": {
+    "message": "Neočekivana pogreška proširenja."
+  },
+  "passkeySuggestion": {
+    "message": "Prijava pristupnim ključem spremljenim u Firnkeyju"
+  },
+  "generateAndFill": {
+    "message": "Stvori i ispuni lozinku"
+  },
+  "suggestionsLabel": {
+    "message": "Prijedlozi Firnkeyja"
+  },
+  "dismissSuggestions": {
+    "message": "Zatvori prijedloge automatskog ispunjavanja"
+  },
+  "dismiss": {
+    "message": "Zatvori"
+  },
+  "toggleSuggestions": {
+    "message": "Prikaži/sakrij prijedloge Firnkeyja"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Prikaži ili sakrij prijedloge Firnkeyja"
+  },
+  "updateExistingLogin": {
+    "message": "Ažuriraj postojeću prijavu"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Spremi prijavu u Firnkey"
+  },
+  "notNow": {
+    "message": "Ne sada"
+  },
+  "update": {
+    "message": "Ažuriraj"
+  },
+  "loginSaved": {
+    "message": "Prijava spremljena."
+  },
+  "saveFailed": {
+    "message": "Firnkey nije mogao spremiti ovu prijavu."
+  },
+  "savePasskey": {
+    "message": "Spremi pristupni ključ"
+  },
+  "signInWithPasskey": {
+    "message": "Prijava pristupnim ključem"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey već ima pristupni ključ za ovaj račun na ovoj stranici."
+  },
+  "close": {
+    "message": "Zatvori"
+  },
+  "savePasskeyForAccount": {
+    "message": "Spremiti pristupni ključ za $1 na $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Spremiti pristupni ključ na $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Odaberite pristupni ključ za $1."
+  },
+  "addTo": {
+    "message": "Dodaj u $1"
+  },
+  "somethingWentWrong": {
+    "message": "Nešto je pošlo po zlu."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: upotrijebite sigurnosni ključ za dovršetak prijave."
+  },
+  "fillLogin": {
+    "message": "Ispuni prijavu"
+  },
+  "extensionDescription": {
+    "message": "Lagani upravitelj lozinki otvorenog koda za vaš vlastiti poslužitelj."
+  },
+  "fillLoginCommand": {
+    "message": "Ispuni odgovarajuću prijavu na ovoj stranici"
+  },
+  "copied": {
+    "message": "Kopirano"
+  },
+  "generatorHistory": {
+    "message": "Povijest generatora"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Ovdje se prikazuju lozinke koje kopirate ili upotrijebite iz generatora, zajedno sa stranicom na kojoj ste bili. Ostaju šifrirane u ovom pregledniku."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Bez stranice · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Stvorena lozinka"
+  },
+  "clearGeneratorHistory": {
+    "message": "Izbriši povijest generatora"
+  },
+  "generatorHistoryCleared": {
+    "message": "Povijest generatora izbrisana."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey je ispunio lozinku za $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Ispuni lozinku u sljedećem koraku nakon odabira računa"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "Za prijave koje prvo traže korisničko ime. Samo odabrani račun, na istoj stranici, jednom."
+  },
+  "askToSaveForms": {
+    "message": "Pitaj za spremanje kartica i adresa"
+  },
+  "generateSshKey": {
+    "message": "Stvori novi ključ (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Novi SSH ključ stvoren. Spremite ga da ga zadržite."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Kliknite gumb Firnkey na alatnoj traci za dovršetak dodavanja."
+  },
+  "saveCardToFirnkey": {
+    "message": "Spremiti karticu u Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Spremiti adresu u Firnkey?"
+  },
+  "clone": {
+    "message": "Kloniraj"
+  },
+  "cloneName": {
+    "message": "$1 - kopija"
+  },
+  "itemCloned": {
+    "message": "Stavka klonirana. Promijenite kopiju ispod."
+  },
+  "fingerprintPhrase": {
+    "message": "Fraza otiska"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Istih pet riječi prikazuje se u web-trezoru i aplikacijama Bitwardena. Usporedite ih kad netko s vama podijeli organizaciju."
+  },
+  "matchDetection": {
+    "message": "Otkrivanje podudaranja"
+  },
+  "matchDefault": {
+    "message": "Zadano (domena)"
+  },
+  "matchDomain": {
+    "message": "Domena i njezine poddomene"
+  },
+  "matchHost": {
+    "message": "Host (i port)"
+  },
+  "matchStartsWith": {
+    "message": "Počinje s"
+  },
+  "matchExact": {
+    "message": "Točan URL"
+  },
+  "matchRegex": {
+    "message": "Regularni izraz"
+  },
+  "matchNever": {
+    "message": "Nikad"
+  },
+  "archive": {
+    "message": "Arhiva"
+  },
+  "unarchive": {
+    "message": "Vrati iz arhive"
+  },
+  "itemArchived": {
+    "message": "Stavka arhivirana. Više se ne prikazuje u automatskom ispunjavanju ni na popisu trezora."
+  },
+  "itemUnarchived": {
+    "message": "Stavka vraćena u trezor."
+  },
+  "archiveHint": {
+    "message": "Arhivirane stavke se čuvaju, ali se nikad ne ispunjavaju niti predlažu."
+  },
+  "archiveEmpty": {
+    "message": "Ništa nije arhivirano."
+  },
+  "archiveItem": {
+    "message": "Arhiviraj"
+  },
+  "generatorPolicyHint": {
+    "message": "Vaša organizacija zahtijeva neke od ovih postavki."
+  },
+  "pin": {
+    "message": "PIN"
+  },
+  "useMasterPassword": {
+    "message": "Upotrijebi glavnu lozinku"
+  },
+  "unlockWithPin": {
+    "message": "Otključaj PIN-om"
+  },
+  "newPin": {
+    "message": "Novi PIN (4 ili više znakova)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Zadrži otključavanje PIN-om nakon ponovnog pokretanja preglednika"
+  },
+  "pinKeepHint": {
+    "message": "Isključeno: nakon ponovnog pokretanja otključate jednom glavnom lozinkom. Uključeno je manje sigurno: kratki PIN spremljen na ovom računalu može pogoditi svatko tko kopira vaš profil preglednika."
+  },
+  "setPin": {
+    "message": "Postavi PIN"
+  },
+  "pinOn": {
+    "message": "Otključavanje PIN-om je uključeno. Pet pogrešnih PIN-ova ga isključuje."
+  },
+  "pinOff": {
+    "message": "Otključavanje PIN-om je isključeno."
+  },
+  "passwordHealth": {
+    "message": "Stanje lozinki"
+  },
+  "passwordHealthHint": {
+    "message": "Pronalazi slabe i ponovno korištene lozinke, a uz uključenu provjeru curenja i procurjele."
+  },
+  "checkBreaches": {
+    "message": "Provjeravaj lozinke u poznatim curenjima podataka"
+  },
+  "checkBreachesHint": {
+    "message": "Nakon svake sinkronizacije Firnkey pita Have I Been Pwned za lozinku svake prijave. Šalje se samo prvih 5 znakova hasha lozinke; sama lozinka nikad ne napušta ovaj preglednik."
+  },
+  "checkBreachesNow": {
+    "message": "Provjeri curenja sada"
+  },
+  "checkingBreaches": {
+    "message": "Provjera…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey treba pristup api.pwnedpasswords.com za provjeru curenja."
+  },
+  "healthExposed_one": {
+    "message": "$1 procurjela"
+  },
+  "healthExposed_other": {
+    "message": "$1 procurjelih"
+  },
+  "healthExposed_few": {
+    "message": "$1 procurjele"
+  },
+  "healthReused_one": {
+    "message": "$1 ponovljena"
+  },
+  "healthReused_other": {
+    "message": "$1 ponovljenih"
+  },
+  "healthReused_few": {
+    "message": "$1 ponovljene"
+  },
+  "healthWeak_one": {
+    "message": "$1 slaba"
+  },
+  "healthWeak_other": {
+    "message": "$1 slabih"
+  },
+  "healthWeak_few": {
+    "message": "$1 slabe"
+  },
+  "healthNotChecked": {
+    "message": "$1 još nije provjereno na curenja"
+  },
+  "healthAllChecked": {
+    "message": "sve provjereno na curenja"
+  },
+  "exposedPasswords": {
+    "message": "Procurjele lozinke"
+  },
+  "reusedPasswords": {
+    "message": "Ponovljene lozinke"
+  },
+  "weakPasswords": {
+    "message": "Slabe lozinke"
+  },
+  "weakPassword": {
+    "message": "Slaba"
+  },
+  "seenInBreaches_one": {
+    "message": "Viđena u $2 curenju podataka"
+  },
+  "seenInBreaches_other": {
+    "message": "Viđena u $2 curenja podataka"
+  },
+  "seenInBreaches_few": {
+    "message": "Viđena u $2 curenja podataka"
+  },
+  "usedByLogins_one": {
+    "message": "Koristi je $1 prijava"
+  },
+  "usedByLogins_other": {
+    "message": "Koristi je $1 prijava"
+  },
+  "usedByLogins_few": {
+    "message": "Koriste je $1 prijave"
+  },
+  "passwordInBreaches_one": {
+    "message": "Ova se lozinka pojavila u $2 curenju podataka. Promijenite je."
+  },
+  "passwordInBreaches_other": {
+    "message": "Ova se lozinka pojavila u $2 curenja podataka. Promijenite je."
+  },
+  "passwordInBreaches_few": {
+    "message": "Ova se lozinka pojavila u $2 curenja podataka. Promijenite je."
+  },
+  "healthAllGood": {
+    "message": "Nisu pronađene slabe, ponovljene ni procurjele lozinke."
+  },
+  "autofillOnPageLoad": {
+    "message": "Automatsko ispunjavanje pri učitavanju stranice"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Ispunjava odgovarajuću prijavu čim se učita stranica za prijavu, bez klika. Traži integraciju s web-stranicama. Hakirana stranica ili skriveni obrazac na odgovarajućoj stranici mogao bi pročitati lozinku, pa ovo koristite samo na stranicama kojima vjerujete."
+  },
+  "autofillDefaultForLogins": {
+    "message": "Zadano za prijave"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Ne ispunjavaj pri učitavanju stranice"
+  },
+  "useDefaultSetting": {
+    "message": "Upotrijebi zadanu postavku"
+  },
+  "always": {
+    "message": "Uvijek"
+  },
+  "loginWithDevice": {
+    "message": "Prijava uređajem"
+  },
+  "signInWithSso": {
+    "message": "Prijava putem SSO-a"
+  },
+  "deviceLoginHint": {
+    "message": "Odobrite zahtjev u aplikaciji ili web-trezoru u kojem ste prijavljeni. Provjerite prikazuje li ovu frazu:"
+  },
+  "ssoUnlockHint": {
+    "message": "Prijavljeni ste putem SSO-a. Unesite glavnu lozinku za otključavanje."
+  },
+  "serverIcons": {
+    "message": "Prikaži ikone web-stranica"
+  },
+  "serverIconsHint": {
+    "message": "Vaš poslužitelj jednom preuzima ikonu svake stranice i sprema je u predmemoriju. Isključeno: samo ikone koje preglednik već ima."
+  },
+  "waitingForApproval": {
+    "message": "Čeka se odobrenje…"
+  },
+  "websites": {
+    "message": "Web-stranice"
+  },
+  "addWebsite": {
+    "message": "Dodaj web-stranicu"
+  },
+  "removeWebsite": {
+    "message": "Ukloni web-stranicu"
+  },
+  "customFields": {
+    "message": "Prilagođena polja"
+  },
+  "fieldType": {
+    "message": "Vrsta polja"
+  },
+  "hiddenField": {
+    "message": "Skriveno"
+  },
+  "checkboxField": {
+    "message": "Potvrdni okvir"
+  },
+  "addField": {
+    "message": "Dodaj polje"
+  },
+  "fieldName": {
+    "message": "Naziv polja"
+  },
+  "fieldValue": {
+    "message": "Vrijednost"
+  },
+  "removeField": {
+    "message": "Ukloni polje"
+  },
+  "collections": {
+    "message": "Zbirke"
+  },
+  "allVaults": {
+    "message": "Svi trezori"
+  },
+  "filters": {
+    "message": "Filtri"
+  },
+  "allCollections": {
+    "message": "Sve zbirke"
+  },
+  "allFolders": {
+    "message": "Sve mape"
+  },
+  "allTypes": {
+    "message": "Sve vrste"
+  },
+  "editSend": {
+    "message": "Uredi Send"
+  },
+  "keepDeletionDate": {
+    "message": "Zadrži ($1)"
+  },
+  "removePassword": {
+    "message": "Ukloni lozinku"
+  },
+  "sendSaved": {
+    "message": "$1 spremljen."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Vaša organizacija zaključava trezor nakon najviše $1 neaktivnosti."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Vaša organizacija odjavljuje vas nakon najviše $1 neaktivnosti."
+  }
+}

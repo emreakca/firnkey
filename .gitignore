@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-firefox/
+artifacts/
+.DS_Store
+.env.local
+coverage/
+graphify-out/
+.graphify_*.json
+.graphify_*.txt
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

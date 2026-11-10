@@ -1,0 +1,1848 @@
+{
+  "languageCode": {
+    "message": "bg",
+    "description": "This file's language as a BCP 47 code (en, de, pt-BR). Sets the page language and plural rules."
+  },
+  "lightweightServerClient": {
+    "message": "Мениджър на пароли за вашия собствен сървър"
+  },
+  "starting": {
+    "message": "Стартиране"
+  },
+  "connectYourServer": {
+    "message": "Свържете своя сървър"
+  },
+  "serverAccessHint": {
+    "message": "Firnkey иска достъп само до сървъра, който изберете."
+  },
+  "serverUrl": {
+    "message": "URL адрес на сървъра"
+  },
+  "verifyServer": {
+    "message": "Проверка на сървъра"
+  },
+  "signIn": {
+    "message": "Вход"
+  },
+  "change": {
+    "message": "Промяна"
+  },
+  "email": {
+    "message": "Имейл"
+  },
+  "masterPassword": {
+    "message": "Главна парола"
+  },
+  "twoStepLogin": {
+    "message": "Двустепенен вход"
+  },
+  "method": {
+    "message": "Метод"
+  },
+  "sendEmailCode": {
+    "message": "Изпращане на код по имейл"
+  },
+  "verificationCode": {
+    "message": "Код за потвърждение"
+  },
+  "rememberThisDevice": {
+    "message": "Запомняне на това устройство"
+  },
+  "newDeviceVerification": {
+    "message": "Потвърждение на ново устройство"
+  },
+  "deviceVerificationHint": {
+    "message": "Въведете кода за потвърждение, изпратен от вашия сървър."
+  },
+  "deviceVerificationCode": {
+    "message": "Код за потвърждение на устройството"
+  },
+  "signInAndSync": {
+    "message": "Вход и синхронизиране"
+  },
+  "vaultLocked": {
+    "message": "Трезорът е заключен"
+  },
+  "unlock": {
+    "message": "Отключване"
+  },
+  "unlockWithBiometrics": {
+    "message": "Отключване с Touch ID / биометрия"
+  },
+  "logOut": {
+    "message": "Изход"
+  },
+  "allItems": {
+    "message": "Всички елементи"
+  },
+  "noMatchingItems": {
+    "message": "Няма съответстващи елементи."
+  },
+  "viewAll": {
+    "message": "Покажи всички"
+  },
+  "authenticatorEmpty": {
+    "message": "Все още няма ключове за удостоверяване. Изберете Нов, за да сканирате QR код или да поставите ключ."
+  },
+  "importOrExportKeys": {
+    "message": "Импорт или експорт на ключове"
+  },
+  "scanQrOnPage": {
+    "message": "Сканиране на QR кода на тази страница"
+  },
+  "saveTo": {
+    "message": "Запазване в"
+  },
+  "newLogin": {
+    "message": "Нов вход"
+  },
+  "key": {
+    "message": "Ключ"
+  },
+  "name": {
+    "message": "Име"
+  },
+  "nicknameOptional": {
+    "message": "Псевдоним (по избор)"
+  },
+  "account": {
+    "message": "Акаунт"
+  },
+  "website": {
+    "message": "Уебсайт"
+  },
+  "issuer": {
+    "message": "Издател"
+  },
+  "advanced": {
+    "message": "Разширени"
+  },
+  "algorithm": {
+    "message": "Алгоритъм"
+  },
+  "digits": {
+    "message": "Цифри"
+  },
+  "periodSeconds": {
+    "message": "Период (с)"
+  },
+  "authenticatorDefaultsHint": {
+    "message": "Повечето услуги използват SHA-1, 6 цифри и 30 секунди. Ключовете на Steam (издател Steam) винаги създават кодове от 5 знака."
+  },
+  "save": {
+    "message": "Запазване"
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "keysImportHint": {
+    "message": "По една връзка otpauth://totp/ на ред, както ги експортират приложенията за удостоверяване. Всеки нов ключ става вход."
+  },
+  "chooseFile": {
+    "message": "Избор на файл"
+  },
+  "checkList": {
+    "message": "Проверка на списъка"
+  },
+  "export": {
+    "message": "Експорт"
+  },
+  "keysExportHint": {
+    "message": "Запазва всеки ключ като връзка otpauth:// в текстов файл. Всеки с този файл може да създава вашите кодове, затова го изтрийте след импорта."
+  },
+  "exportKeys": {
+    "message": "Експорт на ключове"
+  },
+  "sendIntro": {
+    "message": "Споделете текст или файл чрез криптирана от край до край връзка, която се изтрива сама."
+  },
+  "sendEmpty": {
+    "message": "Все още няма Send-ове. Изберете Нов, за да споделите текст или файл."
+  },
+  "text": {
+    "message": "Текст"
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "sendHideText": {
+    "message": "Скриване на текста, докато получателят не го покаже"
+  },
+  "noFileChosenSendLimit": {
+    "message": "Няма избран файл · до 25 MB"
+  },
+  "deleteAfter": {
+    "message": "Изтриване след"
+  },
+  "days1": {
+    "message": "1 ден"
+  },
+  "days2": {
+    "message": "2 дни"
+  },
+  "days3": {
+    "message": "3 дни"
+  },
+  "days7": {
+    "message": "7 дни"
+  },
+  "days14": {
+    "message": "14 дни"
+  },
+  "days30": {
+    "message": "30 дни"
+  },
+  "options": {
+    "message": "Опции"
+  },
+  "passwordOptional": {
+    "message": "Парола (по избор)"
+  },
+  "maximumViewsOptional": {
+    "message": "Максимален брой прегледи (по избор)"
+  },
+  "createAndCopyLink": {
+    "message": "Създаване и копиране на връзката"
+  },
+  "passwordGenerator": {
+    "message": "Генератор на пароли"
+  },
+  "generatorHint": {
+    "message": "Генерирано локално с криптографския източник на случайност на браузъра."
+  },
+  "password": {
+    "message": "Парола"
+  },
+  "passphrase": {
+    "message": "Фраза за достъп"
+  },
+  "username": {
+    "message": "Потребителско име"
+  },
+  "length": {
+    "message": "Дължина"
+  },
+  "uppercase": {
+    "message": "Главни букви"
+  },
+  "lowercase": {
+    "message": "Малки букви"
+  },
+  "numbers": {
+    "message": "Цифри"
+  },
+  "symbols": {
+    "message": "Символи"
+  },
+  "words": {
+    "message": "Думи"
+  },
+  "wordSeparator": {
+    "message": "Разделител на думите"
+  },
+  "capitalize": {
+    "message": "Главна първа буква"
+  },
+  "includeNumber": {
+    "message": "Добавяне на цифра"
+  },
+  "type": {
+    "message": "Тип"
+  },
+  "randomWord": {
+    "message": "Случайна дума"
+  },
+  "plusAddressedEmail": {
+    "message": "Имейл с наставка +"
+  },
+  "catchAllEmail": {
+    "message": "Имейл catch-all"
+  },
+  "forwardedEmailAlias": {
+    "message": "Пренасочен имейл псевдоним"
+  },
+  "forwardingService": {
+    "message": "Услуга за пренасочване"
+  },
+  "apiKey": {
+    "message": "API ключ"
+  },
+  "forwarderKeyPlaceholder": {
+    "message": "Запазва се след първото използване; оставете празно, за да го запазите"
+  },
+  "aliasDomain": {
+    "message": "Домейн на псевдонима"
+  },
+  "createAlias": {
+    "message": "Създаване на псевдоним"
+  },
+  "creatingAlias": {
+    "message": "Създаване на псевдоним…"
+  },
+  "aliasCreated": {
+    "message": "Псевдонимът е създаден"
+  },
+  "forwarderAccessNeeded": {
+    "message": "Firnkey има нужда от достъп до услугата за пренасочване, за да създаде псевдоним."
+  },
+  "yourEmail": {
+    "message": "Вашият имейл"
+  },
+  "yourCatchAllDomain": {
+    "message": "Вашият catch-all домейн"
+  },
+  "generateAnother": {
+    "message": "Генериране на нов"
+  },
+  "useInNewLogin": {
+    "message": "Използване в нов вход"
+  },
+  "security": {
+    "message": "Сигурност"
+  },
+  "securityGroupHint": {
+    "message": "Заключване, биометрия, клипборд"
+  },
+  "autofillSaving": {
+    "message": "Автопопълване и запазване"
+  },
+  "autofillGroupHint": {
+    "message": "Интеграция със сайтове, предложения за запазване, изключени домейни"
+  },
+  "vault": {
+    "message": "Трезор"
+  },
+  "vaultGroupHint": {
+    "message": "Папки, раздел Удостоверител"
+  },
+  "importExport": {
+    "message": "Импорт и експорт"
+  },
+  "transferGroupHint": {
+    "message": "Пренесете трезора си от или към друг мениджър на пароли"
+  },
+  "accountSync": {
+    "message": "Акаунт и синхронизиране"
+  },
+  "accountGroupHint": {
+    "message": "Акаунти, синхронизиране на живо, изход"
+  },
+  "lockVault": {
+    "message": "Заключване на трезора"
+  },
+  "after1Minute": {
+    "message": "След 1 минута"
+  },
+  "after5Minutes": {
+    "message": "След 5 минути"
+  },
+  "after15Minutes": {
+    "message": "След 15 минути"
+  },
+  "after30Minutes": {
+    "message": "След 30 минути"
+  },
+  "after1Hour": {
+    "message": "След 1 час"
+  },
+  "after2Hours": {
+    "message": "След 2 часа"
+  },
+  "after4Hours": {
+    "message": "След 4 часа"
+  },
+  "after8Hours": {
+    "message": "След 8 часа"
+  },
+  "after24Hours": {
+    "message": "След 24 часа"
+  },
+  "whenTheComputerLocks": {
+    "message": "При заключване на компютъра"
+  },
+  "whenBrowserCloses": {
+    "message": "При затваряне на браузъра"
+  },
+  "keepUnlockedUntilLogout": {
+    "message": "Отключен до изход"
+  },
+  "untilLogoutHint": {
+    "message": "„До изход“ криптира сесията за този профил на браузъра, но е по-малко безопасно на споделен компютър."
+  },
+  "lockNow": {
+    "message": "Заключване сега"
+  },
+  "clearCopiedSecrets": {
+    "message": "Изчистване на копираните тайни"
+  },
+  "after10Seconds": {
+    "message": "След 10 секунди"
+  },
+  "after20Seconds": {
+    "message": "След 20 секунди"
+  },
+  "after30Seconds": {
+    "message": "След 30 секунди"
+  },
+  "after2Minutes": {
+    "message": "След 2 минути"
+  },
+  "never": {
+    "message": "Никога"
+  },
+  "clipboardOwnOnly": {
+    "message": "Изчистване само на копираното от Firnkey"
+  },
+  "clipboardOwnOnlyHint": {
+    "message": "Изисква разрешение за четене на клипборда, за да не се засяга текст, копиран другаде."
+  },
+  "websiteIntegration": {
+    "message": "Интеграция със сайтове"
+  },
+  "websiteIntegrationHint": {
+    "message": "Предложения за автопопълване и запазване."
+  },
+  "enable": {
+    "message": "Включване"
+  },
+  "fillSignInDialogs": {
+    "message": "Попълване на прозорци за вход (HTTP basic auth)"
+  },
+  "basicAuthHint": {
+    "message": "Отговаря на прозореца за вход на браузъра, когато точно един незащитен вход съответства на него."
+  },
+  "savePrompts": {
+    "message": "Предложения за запазване"
+  },
+  "askToAddLogin": {
+    "message": "Предлагане на добавяне на вход"
+  },
+  "askToUpdateLogin": {
+    "message": "Предлагане на обновяване на съществуващ вход"
+  },
+  "askPasskeys": {
+    "message": "Предлагане на запазване и използване на ключове за достъп"
+  },
+  "dismissSavePromptsAfter": {
+    "message": "Затваряне на предложенията за запазване след (секунди)"
+  },
+  "excludedDomains": {
+    "message": "Изключени домейни"
+  },
+  "excludedDomainsHint": {
+    "message": "Firnkey няма да предлага, попълва или запазва данни за вход на тези домейни."
+  },
+  "add": {
+    "message": "Добавяне"
+  },
+  "folders": {
+    "message": "Папки"
+  },
+  "foldersHint": {
+    "message": "При изтриване на папка елементите ѝ се запазват; преместват се в Без папка."
+  },
+  "showTheAuthenticatorTab": {
+    "message": "Показване на раздела Удостоверител"
+  },
+  "authenticatorTabHint": {
+    "message": "Кодове за потвърждение на живо за вашите входове. Добавяйте ключове с QR код, ръчно или от файл."
+  },
+  "authenticatorSmartFilter": {
+    "message": "Показване само на кодовете на този сайт, ако има такива"
+  },
+  "vaultImportHint": {
+    "message": "JSON експорт от Bitwarden (некриптиран или защитен с парола), .1pux експорт от 1Password или CSV файл от Bitwarden, 1Password, KeePass, KeePassXC, Chrome, Edge, Firefox или Safari. Елементите отиват в личния ви трезор."
+  },
+  "noFileChosen": {
+    "message": "Няма избран файл"
+  },
+  "filePassword": {
+    "message": "Парола на файла"
+  },
+  "checkFile": {
+    "message": "Проверка на файла"
+  },
+  "format": {
+    "message": "Формат"
+  },
+  "bitwardenJsonProtectedBy": {
+    "message": "Bitwarden JSON, защитен с парола на файла"
+  },
+  "bitwardenJsonUnencrypted": {
+    "message": "Bitwarden JSON, некриптиран"
+  },
+  "filePasswordHint": {
+    "message": "Нужна е за повторен импорт на файла. Firnkey не може да я възстанови."
+  },
+  "unencryptedExportWarning": {
+    "message": "Всеки с некриптиран файл може да прочете всички пароли в него. Изтрийте го след импорта."
+  },
+  "exportScopeHint": {
+    "message": "Експортира личните ви елементи. Елементите на организацията остават в нея."
+  },
+  "exportVault": {
+    "message": "Експорт на трезора"
+  },
+  "liveSync": {
+    "message": "Синхронизиране на живо"
+  },
+  "liveSyncHint": {
+    "message": "Получава промените от сървъра веднага. Изключено проверява веднъж в минута и използва по-малко памет."
+  },
+  "syncNow": {
+    "message": "Синхронизиране сега"
+  },
+  "addAccount": {
+    "message": "Добавяне на акаунт"
+  },
+  "repromptHint": {
+    "message": "Този елемент изисква главната ви парола, преди да могат да се използват защитените полета."
+  },
+  "unlockProtectedFields": {
+    "message": "Отключване на защитените полета"
+  },
+  "show": {
+    "message": "Показване"
+  },
+  "addAttachment": {
+    "message": "Добавяне на прикачен файл"
+  },
+  "fillOnThisPage": {
+    "message": "Попълване на тази страница"
+  },
+  "edit": {
+    "message": "Редактиране"
+  },
+  "moveToTrash": {
+    "message": "Преместване в кошчето"
+  },
+  "addLogin": {
+    "message": "Добавяне на вход"
+  },
+  "login": {
+    "message": "Вход"
+  },
+  "card": {
+    "message": "Карта"
+  },
+  "identity": {
+    "message": "Самоличност"
+  },
+  "secureNote": {
+    "message": "Защитена бележка"
+  },
+  "folder": {
+    "message": "Папка"
+  },
+  "noFolder": {
+    "message": "Без папка"
+  },
+  "owner": {
+    "message": "Собственик"
+  },
+  "myVault": {
+    "message": "Моят трезор"
+  },
+  "moveToOrganizationHint": {
+    "message": "Преместването в организация не може да се отмени тук; след това елементът е на организацията."
+  },
+  "generate": {
+    "message": "Генериране"
+  },
+  "authenticatorKeyTotp": {
+    "message": "Ключ за удостоверяване (TOTP)"
+  },
+  "scanQrShort": {
+    "message": "Сканиране на QR"
+  },
+  "notes": {
+    "message": "Бележки"
+  },
+  "favorite": {
+    "message": "Любим"
+  },
+  "authenticator": {
+    "message": "Удостоверител"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "generator": {
+    "message": "Генератор"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "openSettings": {
+    "message": "Отваряне на настройките"
+  },
+  "searchVault": {
+    "message": "Търсене в трезора"
+  },
+  "keyOrTotpLink": {
+    "message": "Base32 ключ или връзка otpauth://totp/"
+  },
+  "defaultsToTheIssuer": {
+    "message": "По подразбиране издателят"
+  },
+  "shownInsteadOfThe": {
+    "message": "Показва се вместо името"
+  },
+  "keysToImport": {
+    "message": "Ключове за импорт"
+  },
+  "whatToSend": {
+    "message": "Какво да се изпрати"
+  },
+  "whatToGenerate": {
+    "message": "Какво да се генерира"
+  },
+  "generatedValue": {
+    "message": "Генерирана стойност"
+  },
+  "copy": {
+    "message": "Копиране"
+  },
+  "copyGeneratedValue": {
+    "message": "Копиране на генерираната стойност"
+  },
+  "domainToExclude": {
+    "message": "Домейн за изключване"
+  },
+  "newFolder": {
+    "message": "Нова папка"
+  },
+  "newFolderName": {
+    "message": "Име на новата папка"
+  },
+  "copyUsername": {
+    "message": "Копиране на потребителското име"
+  },
+  "copyPassword": {
+    "message": "Копиране на паролата"
+  },
+  "copyVerificationCode": {
+    "message": "Копиране на кода за потвърждение"
+  },
+  "keyOrOtpauthLink": {
+    "message": "Base32 ключ или връзка otpauth://"
+  },
+  "mainNavigation": {
+    "message": "Основна навигация"
+  },
+  "firnkeyPasskey": {
+    "message": "Ключ за достъп на Firnkey"
+  },
+  "passkey": {
+    "message": "Ключ за достъп"
+  },
+  "unlockFirnkeyToContinue": {
+    "message": "Отключете Firnkey, за да продължите."
+  },
+  "verifyWithBiometrics": {
+    "message": "Потвърждаване с Touch ID / биометрия"
+  },
+  "continue": {
+    "message": "Продължаване"
+  },
+  "useAnotherDevice": {
+    "message": "Използване на друго устройство"
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "sshKey": {
+    "message": "SSH ключ"
+  },
+  "cardholderName": {
+    "message": "Име на картодържателя"
+  },
+  "brand": {
+    "message": "Марка"
+  },
+  "number": {
+    "message": "Номер"
+  },
+  "expirationMonth": {
+    "message": "Месец на изтичане"
+  },
+  "expirationYear": {
+    "message": "Година на изтичане"
+  },
+  "securityCode": {
+    "message": "Код за сигурност"
+  },
+  "title": {
+    "message": "Обръщение"
+  },
+  "firstName": {
+    "message": "Собствено име"
+  },
+  "middleName": {
+    "message": "Бащино име"
+  },
+  "lastName": {
+    "message": "Фамилия"
+  },
+  "company": {
+    "message": "Фирма"
+  },
+  "phone": {
+    "message": "Телефон"
+  },
+  "address1": {
+    "message": "Адрес 1"
+  },
+  "address2": {
+    "message": "Адрес 2"
+  },
+  "address3": {
+    "message": "Адрес 3"
+  },
+  "city": {
+    "message": "Град / село"
+  },
+  "stateProvince": {
+    "message": "Област / провинция"
+  },
+  "postalCode": {
+    "message": "Пощенски код"
+  },
+  "country": {
+    "message": "Държава"
+  },
+  "ssn": {
+    "message": "ЕГН / осигурителен номер"
+  },
+  "passportNumber": {
+    "message": "Номер на паспорта"
+  },
+  "licenseNumber": {
+    "message": "Номер на шофьорската книжка"
+  },
+  "addSecureNote": {
+    "message": "Добавяне на защитена бележка"
+  },
+  "addCard": {
+    "message": "Добавяне на карта"
+  },
+  "addIdentity": {
+    "message": "Добавяне на самоличност"
+  },
+  "addSshKey": {
+    "message": "Добавяне на SSH ключ"
+  },
+  "editLogin": {
+    "message": "Редактиране на входа"
+  },
+  "editSecureNote": {
+    "message": "Редактиране на защитената бележка"
+  },
+  "editCard": {
+    "message": "Редактиране на картата"
+  },
+  "editIdentity": {
+    "message": "Редактиране на самоличността"
+  },
+  "editSshKey": {
+    "message": "Редактиране на SSH ключа"
+  },
+  "passphraseGenerator": {
+    "message": "Генератор на фрази за достъп"
+  },
+  "usernameGenerator": {
+    "message": "Генератор на потребителски имена"
+  },
+  "generatedPasswordCopied": {
+    "message": "Генерираната парола е копирана."
+  },
+  "generatedPassphraseCopied": {
+    "message": "Генерираната фраза е копирана."
+  },
+  "generatedUsernameCopied": {
+    "message": "Генерираното потребителско име е копирано."
+  },
+  "removeKey": {
+    "message": "Премахване на ключа"
+  },
+  "biometricOff": {
+    "message": "Биометричното отключване е изключено."
+  },
+  "usernameCopied": {
+    "message": "Потребителското име е копирано."
+  },
+  "passwordCopied": {
+    "message": "Паролата е копирана."
+  },
+  "hide": {
+    "message": "Скриване"
+  },
+  "movedToTrash": {
+    "message": "Преместено в кошчето."
+  },
+  "websiteAccessDenied": {
+    "message": "Достъпът до сайтове не беше разрешен."
+  },
+  "websiteIntegrationOn": {
+    "message": "Автопопълването и предложенията за запазване са включени."
+  },
+  "websiteIntegrationOff": {
+    "message": "Предложенията в сайтовете са изключени."
+  },
+  "basicAuthPermissionDenied": {
+    "message": "Попълването на прозорци за вход изисква разрешение да се виждат в сайтовете."
+  },
+  "preferencesUpdated": {
+    "message": "Предпочитанията са обновени."
+  },
+  "invalidDomain": {
+    "message": "Въведете валиден домейн, например example.com."
+  },
+  "remove": {
+    "message": "Премахване"
+  },
+  "enabled": {
+    "message": "Включено"
+  },
+  "disableWebsiteIntegration": {
+    "message": "Изключване на интеграцията със сайтове"
+  },
+  "enableWebsiteIntegration": {
+    "message": "Включване на интеграцията със сайтове"
+  },
+  "unsupportedVaultTimeout": {
+    "message": "Неподдържано време за заключване."
+  },
+  "unsupportedClipboardTimeout": {
+    "message": "Неподдържано време на клипборда."
+  },
+  "clipboardClearsAfter": {
+    "message": "Копираните тайни ще се изчистят след $1."
+  },
+  "clipboardKeeps": {
+    "message": "Копираните тайни ще останат в клипборда."
+  },
+  "clipboardOwnOnlyOn": {
+    "message": "Firnkey ще изчисти клипборда само ако той още съдържа копираното от Firnkey."
+  },
+  "seconds_one": {
+    "message": "$1 секунда"
+  },
+  "seconds_other": {
+    "message": "$1 секунди"
+  },
+  "minutes_one": {
+    "message": "$1 минута"
+  },
+  "minutes_other": {
+    "message": "$1 минути"
+  },
+  "hours_one": {
+    "message": "$1 час"
+  },
+  "hours_other": {
+    "message": "$1 часа"
+  },
+  "lockOnComputerLock": {
+    "message": "Трезорът ще се заключи при заключване на компютъра или затваряне на браузъра."
+  },
+  "lockOnLogout": {
+    "message": "Трезорът ще остане отключен в този браузър, докато не го заключите или излезете."
+  },
+  "lockOnBrowserClose": {
+    "message": "Трезорът ще остане отключен до затваряне на браузъра."
+  },
+  "lockAfterInactivity": {
+    "message": "Трезорът ще се заключи след $1 неактивност."
+  },
+  "waitingForVerification": {
+    "message": "Изчакване на потвърждение…"
+  },
+  "unlockBeforeBiometric": {
+    "message": "Отключете трезора, преди да включите биометричното отключване."
+  },
+  "noPasskeyCreated": {
+    "message": "Не беше създаден ключ за достъп."
+  },
+  "biometricOn": {
+    "message": "Биометричното отключване е включено."
+  },
+  "biometricUnavailable": {
+    "message": "Биометричното отключване не е налично в момента."
+  },
+  "vaultUnlocked_one": {
+    "message": "Трезорът е отключен с $1 елемент."
+  },
+  "vaultUnlocked_other": {
+    "message": "Трезорът е отключен с $1 елемента."
+  },
+  "verificationCancelled": {
+    "message": "Потвърждението беше отменено или изтече."
+  },
+  "notConnected": {
+    "message": "Не е свързан"
+  },
+  "connectAServer": {
+    "message": "Свързване на сървър"
+  },
+  "signedOut": {
+    "message": "Излезли сте"
+  },
+  "itemCount_one": {
+    "message": "$1 елемент"
+  },
+  "itemCount_other": {
+    "message": "$1 елемента"
+  },
+  "locked": {
+    "message": "Заключен"
+  },
+  "unlocked": {
+    "message": "Отключен"
+  },
+  "settingsFor": {
+    "message": "Настройки за $1"
+  },
+  "itemsWithSuggestions": {
+    "message": "$1 · първо предложенията за тази страница"
+  },
+  "itemTotal_one": {
+    "message": "$1 елемент общо"
+  },
+  "itemTotal_other": {
+    "message": "$1 елемента общо"
+  },
+  "skippedItems_one": {
+    "message": "$1 неподдържан или повреден елемент беше пропуснат."
+  },
+  "skippedItems_other": {
+    "message": "$1 неподдържани или повредени елемента бяха пропуснати."
+  },
+  "otherAccounts": {
+    "message": "Други акаунти"
+  },
+  "switch": {
+    "message": "Превключване"
+  },
+  "removeAccountTitle": {
+    "message": "Премахване на $1 от Firnkey в този браузър"
+  },
+  "switchedTo": {
+    "message": "Превключено към $1."
+  },
+  "accountRemoved": {
+    "message": "$1 е премахнат от този браузър."
+  },
+  "addAccountHint": {
+    "message": "Влезте в другия акаунт. Текущият остава запазен и заключен отдолу."
+  },
+  "verifying": {
+    "message": "Проверка…"
+  },
+  "serverPermissionDenied": {
+    "message": "Разрешението за сървъра не беше дадено."
+  },
+  "signingIn": {
+    "message": "Влизане…"
+  },
+  "continueInNewWindow": {
+    "message": "Изберете Вход отново, за да продължите в нов прозорец."
+  },
+  "enterTwoStepCode": {
+    "message": "Въведете кода за двустепенен вход."
+  },
+  "unlocking": {
+    "message": "Отключване…"
+  },
+  "trashHint": {
+    "message": "Възстановете елементите или ги изтрийте завинаги."
+  },
+  "trashEmpty": {
+    "message": "Кошчето е празно."
+  },
+  "autofillSuggestions": {
+    "message": "Предложения за автопопълване"
+  },
+  "otherResults": {
+    "message": "Други резултати"
+  },
+  "trash": {
+    "message": "Кошче"
+  },
+  "folderName": {
+    "message": "Име на папката"
+  },
+  "rename": {
+    "message": "Преименуване"
+  },
+  "delete": {
+    "message": "Изтриване"
+  },
+  "folderRenamed": {
+    "message": "Папката е преименувана."
+  },
+  "folderAdded": {
+    "message": "Папката е добавена."
+  },
+  "folderDeleted": {
+    "message": "Папката е изтрита. Елементите ѝ са вече в Без папка."
+  },
+  "confirm": {
+    "message": "Потвърждаване"
+  },
+  "matchesThisPage": {
+    "message": "Съответства на тази страница"
+  },
+  "restore": {
+    "message": "Възстановяване"
+  },
+  "itemRestored": {
+    "message": "Елементът е възстановен."
+  },
+  "deleteForever": {
+    "message": "Изтриване завинаги"
+  },
+  "itemDeletedForever": {
+    "message": "Елементът е изтрит завинаги."
+  },
+  "open": {
+    "message": "Отваряне"
+  },
+  "fill": {
+    "message": "Попълване"
+  },
+  "openWebsite": {
+    "message": "Отваряне на сайта"
+  },
+  "cardNumber": {
+    "message": "Номер на картата"
+  },
+  "note": {
+    "message": "Бележка"
+  },
+  "publicKey": {
+    "message": "Публичен ключ"
+  },
+  "copyPublicKey": {
+    "message": "Копиране на публичния ключ"
+  },
+  "copyCardNumber": {
+    "message": "Копиране на номера на картата"
+  },
+  "copyNote": {
+    "message": "Копиране на бележката"
+  },
+  "copySecurityCode": {
+    "message": "Копиране на кода за сигурност"
+  },
+  "copyPrivateKey": {
+    "message": "Копиране на частния ключ"
+  },
+  "privateKey": {
+    "message": "Частен ключ"
+  },
+  "confirmBeforeDeleting": {
+    "message": "Потвърдете главната парола, преди да изтриете този елемент."
+  },
+  "moreActions": {
+    "message": "Още действия"
+  },
+  "noWebAddress": {
+    "message": "Този вход няма уеб адрес."
+  },
+  "noWebsiteSaved": {
+    "message": "Няма запазен сайт"
+  },
+  "loading": {
+    "message": "Зареждане…"
+  },
+  "expiration": {
+    "message": "Изтичане"
+  },
+  "address": {
+    "message": "Адрес"
+  },
+  "fingerprint": {
+    "message": "Отпечатък"
+  },
+  "customField": {
+    "message": "Персонализирано поле"
+  },
+  "passwordHistory": {
+    "message": "История на паролите ($1)"
+  },
+  "oldPassword": {
+    "message": "Стара парола"
+  },
+  "organization": {
+    "message": "Организация"
+  },
+  "attachmentsCount": {
+    "message": "Прикачени файлове ($1)"
+  },
+  "downloadFile": {
+    "message": "Изтегляне на $1"
+  },
+  "deleteFile": {
+    "message": "Изтриване на $1"
+  },
+  "fileDownloaded": {
+    "message": "$1 е изтеглен."
+  },
+  "fileTooLarge25": {
+    "message": "Файлът е твърде голям (до 25 MB)."
+  },
+  "fileEmpty": {
+    "message": "Файлът е празен."
+  },
+  "uploadingFile": {
+    "message": "Криптиране и качване на $1…"
+  },
+  "fileAttached": {
+    "message": "$1 е прикачен."
+  },
+  "fileDeleted": {
+    "message": "$1 е изтрит."
+  },
+  "copyLink": {
+    "message": "Копиране на връзката"
+  },
+  "viewsOf": {
+    "message": "$1 от $2 прегледа"
+  },
+  "views_one": {
+    "message": "$1 преглед"
+  },
+  "views_other": {
+    "message": "$1 прегледа"
+  },
+  "deletesOn": {
+    "message": "Изтрива се на $1"
+  },
+  "disabled": {
+    "message": "Изключено"
+  },
+  "sendLinkCopied": {
+    "message": "Връзката към Send е копирана."
+  },
+  "deleteSendTitle": {
+    "message": "Изтриване на $1; връзката му ще спре да работи"
+  },
+  "sendDeleted": {
+    "message": "$1 е изтрит. Връзката му вече не работи."
+  },
+  "encrypting": {
+    "message": "Криптиране…"
+  },
+  "chooseFileToSend": {
+    "message": "Изберете файл за изпращане."
+  },
+  "sendCreatedCopied": {
+    "message": "Send е създаден. Връзката е копирана."
+  },
+  "sendCreatedSync": {
+    "message": "Send е създаден. Синхронизирайте и копирайте връзката му от списъка."
+  },
+  "fileTooLarge10": {
+    "message": "Файлът е твърде голям (до 10 MB)."
+  },
+  "importing": {
+    "message": "Импортиране…"
+  },
+  "checking": {
+    "message": "Проверка…"
+  },
+  "importedItems": {
+    "message": "Импортирани: $1."
+  },
+  "importItems": {
+    "message": "Импорт: $1"
+  },
+  "foundItems": {
+    "message": "Намерени: $1. Добавят се към трезора ви; нищо не се заменя."
+  },
+  "foundItemsInFolders": {
+    "message": "Намерени: $1 в $2. Добавят се към трезора ви; нищо не се заменя."
+  },
+  "folderCount_one": {
+    "message": "$1 папка"
+  },
+  "folderCount_other": {
+    "message": "$1 папки"
+  },
+  "exporting": {
+    "message": "Експортиране…"
+  },
+  "vaultExportedPlain": {
+    "message": "Трезорът е експортиран. Изтрийте файла след импорта."
+  },
+  "vaultExportedProtected": {
+    "message": "Трезорът е експортиран. Пазете паролата на файла."
+  },
+  "createdOn": {
+    "message": "Създаден на $1"
+  },
+  "lastEdited": {
+    "message": "Последна промяна $1"
+  },
+  "itemHistory": {
+    "message": "История на елемента"
+  },
+  "loginCredentials": {
+    "message": "Данни за вход"
+  },
+  "itemDetails": {
+    "message": "Подробности за елемента"
+  },
+  "autofillOptions": {
+    "message": "Опции за автоматично попълване"
+  },
+  "passwordChangedOn": {
+    "message": "Последна промяна $1"
+  },
+  "removePasskeyTitle": {
+    "message": "Премахване на този ключ за достъп от входа"
+  },
+  "passkeyRemoved": {
+    "message": "Ключът за достъп е премахнат."
+  },
+  "usedUntil": {
+    "message": "Използвана до $1"
+  },
+  "earlierPassword": {
+    "message": "По-ранна парола"
+  },
+  "fieldCopied": {
+    "message": "$1 е копирано."
+  },
+  "copyField": {
+    "message": "Копиране на $1"
+  },
+  "confirmBeforeCopying": {
+    "message": "Потвърдете главната парола, преди да копирате от този елемент."
+  },
+  "codeCopied": {
+    "message": "Кодът за потвърждение е копиран."
+  },
+  "viewOnlyItem": {
+    "message": "Организацията ви ви позволява да виждате този елемент, но не и да го променяте."
+  },
+  "confirmBeforeEditing": {
+    "message": "Потвърдете главната парола, преди да редактирате този елемент."
+  },
+  "monthPlaceholder": {
+    "message": "ММ"
+  },
+  "yearPlaceholder": {
+    "message": "ГГГГ"
+  },
+  "saving": {
+    "message": "Запазване…"
+  },
+  "loginUpdated": {
+    "message": "Входът е обновен."
+  },
+  "loginAdded": {
+    "message": "Входът е добавен."
+  },
+  "itemUpdated": {
+    "message": "$1 е обновен."
+  },
+  "itemAdded": {
+    "message": "$1 е добавен."
+  },
+  "protectedFieldsUnlocked": {
+    "message": "Защитените полета са отключени за 60 секунди."
+  },
+  "unavailable": {
+    "message": "Недостъпно"
+  },
+  "secondsLeft_one": {
+    "message": "Остава $1 секунда"
+  },
+  "secondsLeft_other": {
+    "message": "Остават $1 секунди"
+  },
+  "codesForSite": {
+    "message": "Кодове за този сайт · общо $1"
+  },
+  "codeCount_one": {
+    "message": "$1 код"
+  },
+  "codeCount_other": {
+    "message": "$1 кода"
+  },
+  "thisWebsite": {
+    "message": "Този сайт"
+  },
+  "openToConfirm": {
+    "message": "Отваряне за потвърждаване на главната парола"
+  },
+  "protected": {
+    "message": "Защитено"
+  },
+  "fillIntoPage": {
+    "message": "Попълване на тази страница"
+  },
+  "editKey": {
+    "message": "Редактиране на ключа"
+  },
+  "codeFilled": {
+    "message": "Кодът за $1 е попълнен."
+  },
+  "confirmThenEditKey": {
+    "message": "Потвърдете главната парола, след което редактирайте ключа от раздела Удостоверител."
+  },
+  "qrReadFirstCheck": {
+    "message": "Прочетен е първият от няколко QR кода. Проверете данните и запазете."
+  },
+  "qrReadCheck": {
+    "message": "QR кодът е прочетен. Проверете данните и запазете."
+  },
+  "qrReadFirstSave": {
+    "message": "Прочетен е първият от няколко QR кода. Запазете входа, за да запазите ключа."
+  },
+  "qrReadSave": {
+    "message": "QR кодът е прочетен. Запазете входа, за да запазите ключа."
+  },
+  "qrUnsupported": {
+    "message": "Този браузър не може да чете QR кодове. Вместо това поставете ключа или връзката otpauth://."
+  },
+  "qrCannotSeePage": {
+    "message": "Firnkey не вижда тази страница. Отворете страницата с QR кода и опитайте отново."
+  },
+  "qrNotFound": {
+    "message": "Във видимата част на страницата не беше намерен QR код за удостоверяване."
+  },
+  "qrInvalid": {
+    "message": "QR кодът не е валиден времеви (TOTP) ключ за удостоверяване."
+  },
+  "keyAdded": {
+    "message": "Ключът за удостоверяване е добавен."
+  },
+  "keyUpdated": {
+    "message": "Ключът за удостоверяване е обновен."
+  },
+  "keyRemoved": {
+    "message": "Ключът за удостоверяване е премахнат. Самият вход остава в трезора ви."
+  },
+  "fileTooLarge256": {
+    "message": "Файлът е твърде голям (до 256 KB)."
+  },
+  "pasteLinksFirst": {
+    "message": "Първо поставете връзки otpauth:// или изберете файл."
+  },
+  "keysImported_one": {
+    "message": "Импортиран е $1 ключ."
+  },
+  "keysImported_other": {
+    "message": "Импортирани са $1 ключа."
+  },
+  "new": {
+    "message": "Нов"
+  },
+  "duplicate": {
+    "message": "Дубликат"
+  },
+  "invalid": {
+    "message": "Невалиден"
+  },
+  "importNewKeys_one": {
+    "message": "Импорт на $1 нов ключ"
+  },
+  "importNewKeys_other": {
+    "message": "Импорт на $1 нови ключа"
+  },
+  "checkThenImport": {
+    "message": "Проверете списъка, след което импортирайте."
+  },
+  "nothingNewToImport": {
+    "message": "Няма нищо ново за импорт."
+  },
+  "keysExported": {
+    "message": "Ключовете са експортирани. Изтрийте файла, след като го импортирате другаде."
+  },
+  "fieldsFilled_one": {
+    "message": "Попълнено е $1 поле."
+  },
+  "fieldsFilled_other": {
+    "message": "Попълнени са $1 полета."
+  },
+  "filledUsernameAndPassword": {
+    "message": "Потребителското име и паролата са попълнени."
+  },
+  "filledUsername": {
+    "message": "Потребителското име е попълнено."
+  },
+  "filledPassword": {
+    "message": "Паролата е попълнена."
+  },
+  "synced_one": {
+    "message": "Синхронизиран е $1 елемент."
+  },
+  "synced_other": {
+    "message": "Синхронизирани са $1 елемента."
+  },
+  "twoStepUnsupported": {
+    "message": "Този акаунт изисква метод за двустепенен вход, който тази версия не поддържа."
+  },
+  "sending": {
+    "message": "Изпращане…"
+  },
+  "emailCodeSent": {
+    "message": "Кодът за потвърждение е изпратен по имейл."
+  },
+  "authenticatorApp": {
+    "message": "Приложение за удостоверяване"
+  },
+  "securityKeyWebauthn": {
+    "message": "Ключ за сигурност (WebAuthn)"
+  },
+  "recoveryCode": {
+    "message": "Код за възстановяване"
+  },
+  "twoFactorMethod": {
+    "message": "Метод $1"
+  },
+  "fieldEmpty": {
+    "message": "Това поле е празно."
+  },
+  "clipboardClearsIn": {
+    "message": "$1 Клипбордът ще се изчисти след $2."
+  },
+  "backgroundNoResponse": {
+    "message": "Фоновият процес на разширението не отговори. Презаредете разширението."
+  },
+  "unexpectedResponse": {
+    "message": "Фоновият процес върна неочакван отговор."
+  },
+  "newSend": {
+    "message": "Нов Send"
+  },
+  "item": {
+    "message": "Елемент"
+  },
+  "editItem": {
+    "message": "Редактиране на елемента"
+  },
+  "newItem": {
+    "message": "Нов елемент"
+  },
+  "addKey": {
+    "message": "Добавяне на ключ"
+  },
+  "serverVersion": {
+    "message": "$1 · сървър $2"
+  },
+  "unexpectedError": {
+    "message": "Неочаквана грешка в разширението."
+  },
+  "passkeySuggestion": {
+    "message": "Вход с ключ за достъп, запазен във Firnkey"
+  },
+  "generateAndFill": {
+    "message": "Генериране и попълване на парола"
+  },
+  "suggestionsLabel": {
+    "message": "Предложения на Firnkey"
+  },
+  "dismissSuggestions": {
+    "message": "Затваряне на предложенията за автопопълване"
+  },
+  "dismiss": {
+    "message": "Затваряне"
+  },
+  "toggleSuggestions": {
+    "message": "Показване/скриване на предложенията на Firnkey"
+  },
+  "toggleSuggestionsTitle": {
+    "message": "Показване или скриване на предложенията на Firnkey"
+  },
+  "updateExistingLogin": {
+    "message": "Обновяване на съществуващия вход"
+  },
+  "saveLoginToFirnkey": {
+    "message": "Запазване на входа във Firnkey"
+  },
+  "notNow": {
+    "message": "Не сега"
+  },
+  "update": {
+    "message": "Обновяване"
+  },
+  "loginSaved": {
+    "message": "Входът е запазен."
+  },
+  "saveFailed": {
+    "message": "Firnkey не успя да запази този вход."
+  },
+  "savePasskey": {
+    "message": "Запазване на ключа за достъп"
+  },
+  "signInWithPasskey": {
+    "message": "Вход с ключ за достъп"
+  },
+  "passkeyAlreadySaved": {
+    "message": "Firnkey вече има ключ за достъп за този акаунт в този сайт."
+  },
+  "close": {
+    "message": "Затваряне"
+  },
+  "savePasskeyForAccount": {
+    "message": "Да се запази ли ключ за достъп за $1 в $2?"
+  },
+  "savePasskeyOnSite": {
+    "message": "Да се запази ли ключ за достъп в $1?"
+  },
+  "choosePasskeyFor": {
+    "message": "Изберете ключ за достъп за $1."
+  },
+  "addTo": {
+    "message": "Добавяне към $1"
+  },
+  "somethingWentWrong": {
+    "message": "Нещо се обърка."
+  },
+  "securityKeyBanner": {
+    "message": "Firnkey: използвайте ключа си за сигурност, за да завършите входа."
+  },
+  "fillLogin": {
+    "message": "Попълване на входа"
+  },
+  "extensionDescription": {
+    "message": "Лек мениджър на пароли с отворен код за вашия собствен сървър."
+  },
+  "fillLoginCommand": {
+    "message": "Попълване на съответстващия вход на тази страница"
+  },
+  "copied": {
+    "message": "Копирано"
+  },
+  "generatorHistory": {
+    "message": "История на генератора"
+  },
+  "generatorHistoryEmpty": {
+    "message": "Тук се показват паролите, които копирате или използвате от генератора, заедно със сайта, на който сте били. Те остават криптирани в този браузър."
+  },
+  "generatedOnSite": {
+    "message": "$1 · $2"
+  },
+  "generatedWithoutSite": {
+    "message": "Без сайт · $1"
+  },
+  "generatedPasswordLabel": {
+    "message": "Генерирана парола"
+  },
+  "clearGeneratorHistory": {
+    "message": "Изчистване на историята на генератора"
+  },
+  "generatorHistoryCleared": {
+    "message": "Историята на генератора е изчистена."
+  },
+  "passwordFilledFor": {
+    "message": "Firnkey попълни паролата за $1."
+  },
+  "fillPasswordAfterUsername": {
+    "message": "Попълване на паролата на следващата стъпка след избор на акаунт"
+  },
+  "fillPasswordAfterUsernameHint": {
+    "message": "За входове, които първо питат за потребителското име. Само избраният акаунт, на същия сайт, веднъж."
+  },
+  "askToSaveForms": {
+    "message": "Предлагане на запазване на карти и адреси"
+  },
+  "generateSshKey": {
+    "message": "Генериране на нов ключ (Ed25519)"
+  },
+  "sshKeyGenerated": {
+    "message": "Генериран е нов SSH ключ. Запазете, за да го съхраните."
+  },
+  "openFirnkeyToAdd": {
+    "message": "Щракнете върху бутона Firnkey в лентата с инструменти, за да завършите добавянето."
+  },
+  "saveCardToFirnkey": {
+    "message": "Да се запази ли картата във Firnkey?"
+  },
+  "saveIdentityToFirnkey": {
+    "message": "Да се запази ли адресът във Firnkey?"
+  },
+  "clone": {
+    "message": "Клониране"
+  },
+  "cloneName": {
+    "message": "$1 - копие"
+  },
+  "itemCloned": {
+    "message": "Елементът е клониран. Променете копието по-долу."
+  },
+  "fingerprintPhrase": {
+    "message": "Фраза на отпечатъка"
+  },
+  "fingerprintPhraseHint": {
+    "message": "Същите пет думи се показват в уеб трезора и приложенията на Bitwarden. Сравнете ги, когато някой сподели организация с вас."
+  },
+  "matchDetection": {
+    "message": "Откриване на съответствие"
+  },
+  "matchDefault": {
+    "message": "По подразбиране (домейн)"
+  },
+  "matchDomain": {
+    "message": "Домейн и поддомейни"
+  },
+  "matchHost": {
+    "message": "Хост (и порт)"
+  },
+  "matchStartsWith": {
+    "message": "Започва с"
+  },
+  "matchExact": {
+    "message": "Точен URL адрес"
+  },
+  "matchRegex": {
+    "message": "Регулярен израз"
+  },
+  "matchNever": {
+    "message": "Никога"
+  },
+  "archive": {
+    "message": "Архив"
+  },
+  "unarchive": {
+    "message": "Изваждане от архива"
+  },
+  "itemArchived": {
+    "message": "Елементът е архивиран. Вече не се показва при автопопълване или в списъка на трезора."
+  },
+  "itemUnarchived": {
+    "message": "Елементът е върнат в трезора."
+  },
+  "archiveHint": {
+    "message": "Архивираните елементи се пазят, но никога не се попълват или предлагат."
+  },
+  "archiveEmpty": {
+    "message": "Няма нищо архивирано."
+  },
+  "archiveItem": {
+    "message": "Архивиране"
+  },
+  "generatorPolicyHint": {
+    "message": "Организацията ви изисква някои от тези настройки."
+  },
+  "pin": {
+    "message": "ПИН"
+  },
+  "useMasterPassword": {
+    "message": "Използване на главната парола"
+  },
+  "unlockWithPin": {
+    "message": "Отключване с ПИН"
+  },
+  "newPin": {
+    "message": "Нов ПИН (поне 4 знака)"
+  },
+  "pinKeepAfterRestart": {
+    "message": "Запазване на отключването с ПИН след рестарт на браузъра"
+  },
+  "pinKeepHint": {
+    "message": "Изключено: след рестарт отключвате веднъж с главната парола. Включено е по-малко безопасно: кратък ПИН, запазен на този компютър, може да бъде отгатнат от всеки, който копира профила на браузъра ви."
+  },
+  "setPin": {
+    "message": "Задаване на ПИН"
+  },
+  "pinOn": {
+    "message": "Отключването с ПИН е включено. Пет грешни ПИН-а го изключват."
+  },
+  "pinOff": {
+    "message": "Отключването с ПИН е изключено."
+  },
+  "passwordHealth": {
+    "message": "Състояние на паролите"
+  },
+  "passwordHealthHint": {
+    "message": "Открива слаби и повторно използвани пароли, а при включена проверка за изтичания и изтеклите."
+  },
+  "checkBreaches": {
+    "message": "Проверка на паролите в известни изтичания на данни"
+  },
+  "checkBreachesHint": {
+    "message": "След всяко синхронизиране Firnkey пита Have I Been Pwned за паролата на всеки вход. Изпращат се само първите 5 знака от хеш на паролата; самата парола никога не напуска този браузър."
+  },
+  "checkBreachesNow": {
+    "message": "Проверка за изтичания сега"
+  },
+  "checkingBreaches": {
+    "message": "Проверка…"
+  },
+  "breachPermissionDenied": {
+    "message": "Firnkey има нужда от достъп до api.pwnedpasswords.com, за да проверява за изтичания."
+  },
+  "healthExposed_one": {
+    "message": "$1 изтекла"
+  },
+  "healthExposed_other": {
+    "message": "$1 изтекли"
+  },
+  "healthReused_one": {
+    "message": "$1 повторена"
+  },
+  "healthReused_other": {
+    "message": "$1 повторени"
+  },
+  "healthWeak_one": {
+    "message": "$1 слаба"
+  },
+  "healthWeak_other": {
+    "message": "$1 слаби"
+  },
+  "healthNotChecked": {
+    "message": "$1 още не са проверени за изтичания"
+  },
+  "healthAllChecked": {
+    "message": "всички са проверени за изтичания"
+  },
+  "exposedPasswords": {
+    "message": "Изтекли пароли"
+  },
+  "reusedPasswords": {
+    "message": "Повторно използвани пароли"
+  },
+  "weakPasswords": {
+    "message": "Слаби пароли"
+  },
+  "weakPassword": {
+    "message": "Слаба"
+  },
+  "seenInBreaches_one": {
+    "message": "Открита в $2 изтичане на данни"
+  },
+  "seenInBreaches_other": {
+    "message": "Открита в $2 изтичания на данни"
+  },
+  "usedByLogins_one": {
+    "message": "Използвана от $1 вход"
+  },
+  "usedByLogins_other": {
+    "message": "Използвана от $1 входа"
+  },
+  "passwordInBreaches_one": {
+    "message": "Тази парола се е появила в $2 изтичане на данни. Сменете я."
+  },
+  "passwordInBreaches_other": {
+    "message": "Тази парола се е появила в $2 изтичания на данни. Сменете я."
+  },
+  "healthAllGood": {
+    "message": "Не са открити слаби, повторени или изтекли пароли."
+  },
+  "autofillOnPageLoad": {
+    "message": "Автопопълване при зареждане на страницата"
+  },
+  "autofillOnPageLoadHint": {
+    "message": "Попълва съответстващ вход веднага щом се зареди страница за вход, без щракване. Изисква интеграция със сайтове. Хакната страница или скрит формуляр в съответстващ сайт може да прочете паролата, затова го използвайте само в доверени сайтове."
+  },
+  "autofillDefaultForLogins": {
+    "message": "По подразбиране за входовете"
+  },
+  "doNotAutofillOnPageLoad": {
+    "message": "Без попълване при зареждане на страницата"
+  },
+  "useDefaultSetting": {
+    "message": "Използване на настройката по подразбиране"
+  },
+  "always": {
+    "message": "Винаги"
+  },
+  "loginWithDevice": {
+    "message": "Вход с устройство"
+  },
+  "signInWithSso": {
+    "message": "Вход чрез SSO"
+  },
+  "deviceLoginHint": {
+    "message": "Одобрете заявката в приложение или уеб трезор, в които сте влезли. Проверете дали показва тази фраза:"
+  },
+  "ssoUnlockHint": {
+    "message": "Влязохте чрез SSO. Въведете главната си парола, за да отключите."
+  },
+  "serverIcons": {
+    "message": "Показване на иконите на сайтовете"
+  },
+  "serverIconsHint": {
+    "message": "Сървърът ви изтегля иконата на всеки сайт веднъж и я кешира. Изключено: само иконите, които браузърът вече има."
+  },
+  "waitingForApproval": {
+    "message": "Изчакване на одобрение…"
+  },
+  "websites": {
+    "message": "Уебсайтове"
+  },
+  "addWebsite": {
+    "message": "Добавяне на уебсайт"
+  },
+  "removeWebsite": {
+    "message": "Премахване на уебсайта"
+  },
+  "customFields": {
+    "message": "Персонализирани полета"
+  },
+  "fieldType": {
+    "message": "Тип поле"
+  },
+  "hiddenField": {
+    "message": "Скрито"
+  },
+  "checkboxField": {
+    "message": "Отметка"
+  },
+  "addField": {
+    "message": "Добавяне на поле"
+  },
+  "fieldName": {
+    "message": "Име на полето"
+  },
+  "fieldValue": {
+    "message": "Стойност"
+  },
+  "removeField": {
+    "message": "Премахване на полето"
+  },
+  "collections": {
+    "message": "Колекции"
+  },
+  "allVaults": {
+    "message": "Всички трезори"
+  },
+  "filters": {
+    "message": "Филтри"
+  },
+  "allCollections": {
+    "message": "Всички колекции"
+  },
+  "allFolders": {
+    "message": "Всички папки"
+  },
+  "allTypes": {
+    "message": "Всички типове"
+  },
+  "editSend": {
+    "message": "Редактиране на Send"
+  },
+  "keepDeletionDate": {
+    "message": "Запазване ($1)"
+  },
+  "removePassword": {
+    "message": "Премахване на паролата"
+  },
+  "sendSaved": {
+    "message": "$1 е запазен."
+  },
+  "vaultTimeoutPolicy": {
+    "message": "Организацията ви заключва трезора след най-много $1 неактивност."
+  },
+  "vaultTimeoutPolicyLogOut": {
+    "message": "Организацията ви ви изкарва от акаунта след най-много $1 неактивност."
+  }
+}
