@@ -1,0 +1,35 @@
+# Firnkey
+
+> Firnkey is a free, open-source (GPL-3.0) password manager browser extension for Chrome and Firefox. It is a lightweight alternative to the Bitwarden browser extension for Vaultwarden and other self-hosted servers that speak the Bitwarden API. It connects only to your own server: no account with the developer, no telemetry, no remote code, 27 languages.
+
+- Install for Chrome (also Edge, Brave and other Chromium browsers): https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag
+- Install for Firefox 140+: https://addons.mozilla.org/en-US/firefox/addon/firnkey/
+- Website: https://www.firnkey.com/
+- Source code and releases: https://github.com/emreakca/firnkey
+
+## Compatibility
+
+- Works with Vaultwarden and any other self-hosted server that speaks the Bitwarden API
+- Uses the same vault as Bitwarden's mobile and desktop apps, which keep working alongside it
+- Browsers: Chrome, Edge, Brave and other Chromium browsers; Firefox 140+
+
+## Features
+
+- Autofill in login fields, by keyboard shortcut or the right-click menu; cards, identities and TOTP one-time codes
+- Passkeys: create and sign in, stored in your own vault
+- Sign-in with PBKDF2 or Argon2id; two-step login with authenticator app, email, YubiKey, security keys, Duo, SSO and login with device
+- Unlock with Touch ID, Windows Hello or a PIN
+- Password, passphrase, username and email-alias generator with encrypted history
+- Password health: weak, reused and (optional) breached passwords
+- Live sync, several accounts and organizations
+- Send (self-deleting encrypted links) and SSH keys (Ed25519)
+- Import from Bitwarden, 1Password, KeePass and browser CSV; export to Bitwarden JSON
+
+## Privacy
+
+- Connects only to the one server address you enter; plain HTTP only for localhost
+- Master password is never stored; the vault is encrypted on your device
+- No access to websites until website integration is turned on
+- Optional breach check sends only the first 5 characters of a SHA-1 hash
+
+Firnkey is an independent project, not affiliated with or endorsed by Bitwarden, Inc. or the Vaultwarden project.

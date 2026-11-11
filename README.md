@@ -5,13 +5,21 @@
 <h1 align="center">Firnkey</h1>
 
 <p align="center">
-  A small, quiet password manager for Chrome and Firefox that talks only to <b>your own server</b>.<br>
+  A small, quiet password manager for Chrome and Firefox that talks only to <b>your own server</b>:<br>
+  a lightweight browser extension for Vaultwarden and other Bitwarden-compatible servers.<br>
   27 languages · GPL-3.0
+</p>
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag"><b>Add to Chrome</b></a> ·
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/firnkey/"><b>Add to Firefox</b></a> ·
+  <a href="https://www.firnkey.com/">www.firnkey.com</a>
 </p>
 
 ![Firnkey vault with suggestions for the current page](docs/store/screenshot-1-vault.png)
 
-Firnkey connects to a self-hosted password server that speaks the Bitwarden API and keeps the
+Firnkey connects to Vaultwarden or any other self-hosted password server that speaks the Bitwarden API
+and keeps the
 browser side light: one Manifest V3 extension, no account with us, no analytics, and permissions
 only when a feature needs them. Everything is encrypted and decrypted on your device.
 
@@ -22,9 +30,10 @@ solid and hard to reach. The edelweiß in the icon grows up there too, protected
 > Firnkey has not had an independent security audit yet. Try it with a test account first.
 
 > [!NOTE]
-> Firnkey is an independent project and is not affiliated with or endorsed by Bitwarden, Inc.
-> "Bitwarden" is their trademark and appears here only to describe compatibility. Please report
-> Firnkey problems in this repository, not to Bitwarden.
+> Firnkey is an independent project and is not affiliated with or endorsed by Bitwarden, Inc. or
+> the Vaultwarden project. "Bitwarden" is a trademark of Bitwarden, Inc.; both names appear here
+> only to describe compatibility. Please report Firnkey problems in this repository, not to
+> Bitwarden or Vaultwarden.
 
 ## What it does
 
@@ -99,6 +108,11 @@ solid and hard to reach. The edelweiß in the icon grows up there too, protected
 
 ## Get started
 
+Install Firnkey from the [Chrome Web Store](https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag) (also works in Edge, Brave and other Chromium
+browsers) or from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/firnkey/) (Firefox 140+), then enter your server address.
+
+### Build from source
+
 You need Node.js 26 or newer and pnpm.
 
 ```sh
@@ -146,7 +160,7 @@ These help, but they are not an audit. More detail: [SECURITY.md](SECURITY.md),
 - Saving a card whose number sits in a payment provider's iframe (filling it works).
 - The legacy Duo iframe prompt (`DUO_USE_IFRAME`).
 - Messages from the background worker (mostly errors) are English only.
-- Safari. Firefox works from `dist-firefox/`, but is not on addons.mozilla.org yet.
+- Safari.
 
 ## Development
 

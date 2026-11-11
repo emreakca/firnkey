@@ -3,11 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Firnkey · Password manager for your own server</title>
-  <meta name="description" content="A small, quiet password manager for Chrome and Firefox that talks only to your own self-hosted server. Open source, no tracking, 27 languages.">
-  <meta property="og:title" content="Firnkey">
-  <meta property="og:description" content="A small, quiet password manager for Chrome and Firefox that talks only to your own server.">
+  <title>Firnkey · Password manager extension for Vaultwarden and Bitwarden servers</title>
+  <meta name="description" content="Firnkey is a free, open-source password manager browser extension for Chrome and Firefox. A lightweight alternative to the Bitwarden browser extension for Vaultwarden and self-hosted Bitwarden servers. Passkeys, autofill, no tracking.">
+  <link rel="canonical" href="https://www.firnkey.com/">
+  <meta property="og:title" content="Firnkey · Password manager extension for Vaultwarden and Bitwarden servers">
+  <meta property="og:description" content="A small, quiet password manager for Chrome and Firefox that talks only to your own Vaultwarden or Bitwarden-compatible server.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.firnkey.com/">
+  <meta property="og:site_name" content="Firnkey">
+  <meta property="og:image" content="https://www.firnkey.com/img/screenshot-1-vault.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="800">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Firnkey",
+    "url": "https://www.firnkey.com/",
+    "description": "Free, open-source password manager browser extension for Chrome and Firefox. A lightweight alternative to the Bitwarden browser extension that connects only to your own Vaultwarden or other self-hosted server that speaks the Bitwarden API.",
+    "keywords": "password manager, browser extension, Vaultwarden, Bitwarden-compatible, self-hosted, Chrome, Firefox, passkeys, autofill, open source",
+    "applicationCategory": "SecurityApplication",
+    "applicationSubCategory": "Password manager",
+    "operatingSystem": "Chrome, Firefox, Windows, macOS, Linux",
+    "image": "https://www.firnkey.com/img/firnkey-icon.svg",
+    "screenshot": "https://www.firnkey.com/img/screenshot-1-vault.png",
+    "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "installUrl": ["https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag", "https://addons.mozilla.org/en-US/firefox/addon/firnkey/"],
+    "downloadUrl": "https://github.com/emreakca/firnkey/releases/latest",
+    "codeRepository": "https://github.com/emreakca/firnkey",
+    "sameAs": ["https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag", "https://addons.mozilla.org/en-US/firefox/addon/firnkey/", "https://github.com/emreakca/firnkey"]
+  }
+  </script>
   <link rel="icon" href="/img/firnkey-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
 </head>
@@ -28,10 +57,11 @@
       <h1>Your passwords.<br>Your server.</h1>
       <p class="lead">Firnkey is a small, quiet password manager for Chrome and Firefox that talks only to your own self-hosted server. No account with us, no analytics, nothing loaded at run time.</p>
       <div class="actions">
-        <a class="button primary" href="https://github.com/emreakca/firnkey/releases/latest">Download</a>
+        <a class="button primary" href="https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag">Add to Chrome</a>
+        <a class="button primary" href="https://addons.mozilla.org/en-US/firefox/addon/firnkey/">Add to Firefox</a>
         <a class="button" href="https://github.com/emreakca/firnkey">Source code</a>
       </div>
-      <p class="note">Free and open source under GPL-3.0 · 27 languages · Works with any server that speaks the Bitwarden API</p>
+      <p class="note">Free and open source under GPL-3.0 · 27 languages · Works with Vaultwarden and any server that speaks the Bitwarden API</p>
       <img class="shot" src="/img/screenshot-1-vault.png" width="1280" height="800" alt="The Firnkey popup showing vault items, with logins for the current page on top" fetchpriority="high">
     </section>
 
@@ -71,10 +101,30 @@
       <h2>Get started</h2>
       <div class="prose">
         <ol class="steps">
-          <li>Download the latest build for Chrome or Firefox from <a href="https://github.com/emreakca/firnkey/releases/latest">GitHub releases</a>, or build it yourself with <code>pnpm verify</code>.</li>
-          <li>Chrome: open <code>chrome://extensions</code>, turn on <b>Developer mode</b> and choose <b>Load unpacked</b>. Firefox 140+: <code>about:debugging</code> → <b>This Firefox</b> → <b>Load Temporary Add-on</b>.</li>
+          <li>Install Firnkey from the <a href="https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag">Chrome Web Store</a> (also works in Edge, Brave and other Chromium browsers) or from <a href="https://addons.mozilla.org/en-US/firefox/addon/firnkey/">Firefox Add-ons</a> (Firefox 140+).</li>
           <li>Enter your server address and sign in. Firnkey asks for access to that one server only.</li>
         </ol>
+        <p class="note">Prefer to build it yourself? Every release is on <a href="https://github.com/emreakca/firnkey/releases/latest">GitHub</a>, and <code>pnpm verify</code> builds it from source.</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>Questions</h2>
+      <div class="prose">
+        <h3>What is Firnkey?</h3>
+        <p>Firnkey is a free, open-source password manager extension for Chrome and Firefox. It stores nothing with us: it connects only to a password server you host yourself.</p>
+        <h3>Does Firnkey work with Vaultwarden?</h3>
+        <p>Yes. Firnkey works with Vaultwarden and any other self-hosted server that speaks the Bitwarden API. You enter its address once; Firnkey talks to no other server.</p>
+        <h3>Can I use Firnkey instead of the Bitwarden browser extension?</h3>
+        <p>Yes, for a self-hosted server. Firnkey uses the same vault, so Bitwarden's mobile and desktop apps keep working alongside it. It is a lighter browser extension with a smaller footprint and permissions asked for only when a feature needs them.</p>
+        <h3>Which browsers are supported?</h3>
+        <p>Chrome, Edge, Brave and other Chromium browsers through the Chrome Web Store, and Firefox 140 or newer through Firefox Add-ons.</p>
+        <h3>Is Firnkey free?</h3>
+        <p>Yes. It is non-commercial and licensed under GPL-3.0, with no paid tier, ads or account with us.</p>
+        <h3>Does Firnkey support passkeys and one-time codes?</h3>
+        <p>Yes. It creates and uses passkeys, fills TOTP codes, cards and identities, and supports two-step login with authenticator apps, email, YubiKey, security keys, Duo and SSO.</p>
+        <h3>Does Firnkey collect any data?</h3>
+        <p>No. There is no telemetry, no analytics and no remote code. Your vault is encrypted on your device and stored on your server.</p>
       </div>
     </section>
 
@@ -83,7 +133,7 @@
       <div class="prose">
         <p>The name comes from the Alps. <i>Firn</i> is old, packed snow on its way to becoming glacier ice: quiet, solid and hard to reach. The edelweiß in the icon grows up there too, protected by where it lives.</p>
         <p>Firnkey is an independent, non-commercial open-source project. Questions, bugs and ideas are welcome in the <a href="https://github.com/emreakca/firnkey/issues">issue tracker</a>.</p>
-        <p class="muted">Firnkey is not affiliated with or endorsed by Bitwarden, Inc. "Bitwarden" is their trademark and is used here only to describe compatibility.</p>
+        <p class="muted">Firnkey is not affiliated with or endorsed by Bitwarden, Inc. or the Vaultwarden project. "Bitwarden" is a trademark of Bitwarden, Inc.; both names are used here only to describe compatibility.</p>
       </div>
     </section>
   </main>

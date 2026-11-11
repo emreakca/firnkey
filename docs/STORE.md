@@ -6,15 +6,16 @@ and `src/manifest.json`: a new permission needs a justification here before rele
 ## Listing
 
 - **Name:** Firnkey
-- **Summary:** A lightweight, open-source password manager for your self-hosted server.
+- **Summary:** A lightweight, open-source password manager for Vaultwarden and other self-hosted Bitwarden-compatible servers.
 - **Category:** Productivity → Tools
 - **Privacy policy URL:** `https://github.com/emreakca/firnkey/blob/main/PRIVACY.md`
-- **Homepage / support URL:** `https://github.com/emreakca/firnkey`
+- **Homepage URL:** `https://www.firnkey.com/`
+- **Support URL:** `https://github.com/emreakca/firnkey/issues`
 
 ### Description (English, default)
 
 ```text
-Firnkey is a small, fast password manager for your own self-hosted server. It works with any server that speaks the Bitwarden API. Your vault stays on the server you choose and is encrypted and decrypted only on your device. No Firnkey account, no tracking, no telemetry.
+Firnkey is a small, fast password manager for your own self-hosted server: a lightweight alternative to the Bitwarden browser extension. It works with Vaultwarden and any other server that speaks the Bitwarden API. Your vault stays on the server you choose and is encrypted and decrypted only on your device. No Firnkey account, no tracking, no telemetry.
 
 WHAT IT DOES
 • Sign in to any server URL, including reverse-proxy subpaths; PBKDF2 and Argon2id.
@@ -35,16 +36,16 @@ WHAT IT DOES
 PRIVACY
 Firnkey talks only to your server, to Have I Been Pwned only if you turn on the breach check (just the first 5 characters of a password hash are sent), and to SimpleLogin or addy.io only when you create an email alias there. Website access is off until you turn on website integration. The source code is open under GPL-3.0: https://github.com/emreakca/firnkey
 
-Firnkey is an independent project, not affiliated with or endorsed by Bitwarden, Inc. Bitwarden is a trademark of Bitwarden, Inc.
+Firnkey is an independent project, not affiliated with or endorsed by Bitwarden, Inc. or the Vaultwarden project. Bitwarden is a trademark of Bitwarden, Inc.
 ```
 
 ### Description (German)
 
 Add under **Store listing → Add language → Deutsch**, with summary
-*Schlanker Open-Source-Passwortmanager für deinen selbst gehosteten Server.*
+*Schlanker Open-Source-Passwortmanager für Vaultwarden und andere selbst gehostete, Bitwarden-kompatible Server.*
 
 ```text
-Firnkey ist ein kleiner, schneller Passwortmanager für deinen eigenen, selbst gehosteten Server. Er funktioniert mit jedem Server, der die Bitwarden-API spricht. Dein Tresor bleibt auf dem Server deiner Wahl und wird nur auf deinem Gerät ver- und entschlüsselt. Kein Firnkey-Konto, kein Tracking, keine Telemetrie.
+Firnkey ist ein kleiner, schneller Passwortmanager für deinen eigenen, selbst gehosteten Server: eine schlanke Alternative zur Bitwarden-Browsererweiterung. Er funktioniert mit Vaultwarden und jedem anderen Server, der die Bitwarden-API spricht. Dein Tresor bleibt auf dem Server deiner Wahl und wird nur auf deinem Gerät ver- und entschlüsselt. Kein Firnkey-Konto, kein Tracking, keine Telemetrie.
 
 FUNKTIONEN
 • Anmeldung bei jeder Server-Adresse, auch hinter Reverse-Proxy-Pfaden; PBKDF2 und Argon2id.
@@ -65,7 +66,7 @@ FUNKTIONEN
 DATENSCHUTZ
 Firnkey kommuniziert nur mit deinem Server, mit Have I Been Pwned nur, wenn du den Leak-Check einschaltest (gesendet werden nur die ersten 5 Zeichen eines Passwort-Hashes), und mit SimpleLogin oder addy.io nur, wenn du dort einen E-Mail-Alias erstellst. Zugriff auf Websites ist aus, bis du die Website-Integration einschaltest. Der Quellcode ist offen unter GPL-3.0: https://github.com/emreakca/firnkey
 
-Firnkey ist ein unabhängiges Projekt und steht in keiner Verbindung zu Bitwarden, Inc. Bitwarden ist eine Marke von Bitwarden, Inc.
+Firnkey ist ein unabhängiges Projekt und steht in keiner Verbindung zu Bitwarden, Inc. oder dem Vaultwarden-Projekt. Bitwarden ist eine Marke von Bitwarden, Inc.
 ```
 
 ### Graphic assets
@@ -98,8 +99,9 @@ Bitwarden products. This is a project check, not legal advice.
   with a keyhole on an Alpine night-blue tile), unlike Bitwarden's blue shield. No third-party logos
   ship in the package.
 - **Store listing and UI.** The name is Firnkey and the UI speaks of "your server". The description
-  names the Bitwarden API once, as a true compatibility statement, and "Bitwarden
-  JSON" names a file format. The README and the
+  names the Bitwarden API and Vaultwarden as true compatibility statements, calls Firnkey an
+  alternative to the Bitwarden browser extension (a true reference to a Bitwarden product), and
+  "Bitwarden JSON" names a file format. The README and the
   description above carry the disclaimer.
 
 ## Privacy practices tab
@@ -161,7 +163,8 @@ Certify all three statements:
 ## Firefox (addons.mozilla.org)
 
 `pnpm build:firefox` writes `dist-firefox/`, and each release attaches `firnkey-firefox-X.Y.Z.zip`.
-It has not been submitted yet. Before the first upload:
+Listed at https://addons.mozilla.org/en-US/firefox/addon/firnkey/ with the same summary and
+description as above. Notes for each upload:
 
 - **Add-on ID**: `firnkey@emreakca.github.io` (in `scripts/build.mjs`). It cannot change once the
   add-on is listed, so pick the final one first.
