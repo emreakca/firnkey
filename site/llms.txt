@@ -2,10 +2,14 @@
 
 > Firnkey is a free, open-source (GPL-3.0) password manager browser extension for Chrome and Firefox. It is a lightweight alternative to the Bitwarden browser extension for Vaultwarden and other self-hosted servers that speak the Bitwarden API. It connects only to your own server: no account with the developer, no telemetry, no remote code, 27 languages.
 
-- Install for Chrome (also Edge, Brave and other Chromium browsers): https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag
-- Install for Firefox 140+: https://addons.mozilla.org/en-US/firefox/addon/firnkey/
-- Website: https://www.firnkey.com/
-- Source code and releases: https://github.com/emreakca/firnkey
+## Links
+
+- [Firnkey for Chrome](https://chromewebstore.google.com/detail/firnkey/dfnaglekcegjohkhjbnhgmooaimooeag): Chrome Web Store, also for Edge, Brave and other Chromium browsers
+- [Firnkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/firnkey/): Firefox Add-ons, Firefox 140 or newer
+- [Website](https://www.firnkey.com/): features, privacy and getting started
+- [Source code and releases](https://github.com/emreakca/firnkey): GPL-3.0, issue tracker
+- [Privacy policy](https://github.com/emreakca/firnkey/blob/main/PRIVACY.md): what the extension sends and where
+- [Security policy](https://github.com/emreakca/firnkey/blob/main/SECURITY.md): threat model and how to report a vulnerability
 
 ## Compatibility
 
