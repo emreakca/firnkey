@@ -42,12 +42,12 @@
     "deploy:site": "grep -rlF \"[[\" site --include=*.html && echo \"Fill in the [[...]] placeholders in site/ first.\" && exit 1 || (pnpm dlx wrangler@4 deploy && pnpm dlx wrangler@4 deploy -c wrangler.redirect.jsonc)"
   },
   "devDependencies": {
-    "@playwright/test": "1.64.1",
-    "@types/chrome": "0.2.5",
+    "@playwright/test": "1.65.1",
+    "@types/chrome": "0.3.7",
     "@types/node": "26.6.6",
-    "esbuild": "0.28.1",
+    "esbuild": "0.28.2",
     "typescript": "7.0.2",
-    "vitest": "4.1.10"
+    "vitest": "5.1.0"
   },
   "dependencies": {
     "@noble/ciphers": "2.4.0",
